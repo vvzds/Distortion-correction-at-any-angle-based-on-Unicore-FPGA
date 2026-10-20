@@ -1,0 +1,22 @@
+# PDS 构建输出
+/generate_bitstream/
+*.sbit
+*.rtr
+/synthesis/
+/synthesize/
+/place_route/
+/constraint_check/
+*.cuc
+build_console.log
+
+# ModelSim
+work/
+*_work/
+*.wlf
+transcript
+*_transcript.log
+sim/*_result.txt
+
+# Python
+__pycache__/
+*.pyc
