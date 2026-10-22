@@ -55,7 +55,7 @@ python -B pds_review.py collect --run D:/g6_locality_runs_20261022 --console-pol
 - `tests_normal.log`、`tests_optimized.log`：本次测试原始输出；测试产生的是合成夹具，不是 PDS 证据。
 - `evidence/`：原 strict、候选 strict/适配结果及退出码记录、原件哈希。
 - `real_log_excerpt/`：8 轮完整 console、回执、输入清单、实际 TCL 和时序报告，供离机复核；原日志不删 E 行。大数据库、位流、RTL/IP 仍在本机原运行目录，完整真实回放需这些原件。
-- `verify_real_runs.py`：本机只读回放脚本，使用已记录的 D 盘路径；目标结果文件已存在时拒绝覆盖，复跑请在新解压目录执行。
+- `verify_real_runs.py`：本机只读回放脚本，使用已记录的 D 盘路径，结果写入新建的 `replay_results/`；该目录已存在时拒绝覆盖。复跑请在新解压目录执行，或使用上方 collect 命令指定新的输出文件。
 - `verify_delivery.py`、`MANIFEST_SHA256.json`：解压后校验所有交付文件。
 
 后续优先处理 PAP_GROUP 叶级证据认定。本批只记入待汇总进展，总说明和任务清单继续 v2.0.3，未升版。
