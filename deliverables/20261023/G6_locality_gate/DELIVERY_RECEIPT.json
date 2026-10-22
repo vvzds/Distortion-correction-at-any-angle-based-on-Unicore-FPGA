@@ -1,0 +1,9 @@
+{
+  "zip": "G6_locality_自动门禁适配候选_本机_20261023.zip",
+  "sha256": "8c52099e6634ae1d4059f8e780f8c1f9bb6bb05df51192dac4c51e7e596ed821",
+  "bytes": 1056523,
+  "manifest_files": 69,
+  "extracted_verification": "PASS",
+  "tests_normal": 84,
+  "tests_optimized": 84
+}
