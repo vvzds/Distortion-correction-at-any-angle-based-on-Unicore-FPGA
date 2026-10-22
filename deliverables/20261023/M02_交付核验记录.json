@@ -1,0 +1,10 @@
+{
+  "zip": "M02_R03_回归与修复候选_本机_20261023.zip",
+  "bytes": 10907400,
+  "sha256": "3883ae3cff8cb4fd259d39bdbd56cdbc3e48f2d07fde4b1f8d308e5eee98efb3",
+  "manifest_sha256": "a971d95f283760da6457d66563ea5adb809b9360c99aaf0027636cf479f21f09",
+  "files": 23611,
+  "verification": "ZIP CRC + exact file set + every file SHA256 PASS",
+  "candidate_calibrate_sha256": "e7581eedb1b62090eef15d0d083eb58b41f21b1965438613c45acc2fa7862ebe",
+  "driver_sha256": "f8ba4292d5cb4c468e0ece1dd1fe743f26241c666ca34ba84724d535165ef5f7"
+}

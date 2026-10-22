@@ -1,0 +1,5 @@
+# Archived deliverables and their checksums must retain exact bytes.
+docs/project/** -text whitespace=cr-at-eol
+deliverables/** -text whitespace=cr-at-eol
+# Preserve intentional Markdown hard breaks and historical trailing blank lines.
+docs/project/*.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
