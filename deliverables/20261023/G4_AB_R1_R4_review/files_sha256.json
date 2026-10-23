@@ -1,0 +1,644 @@
+{
+  "files": [
+    {
+      "file": "R1-R4_补正验收回执_给一号协作者_20261023.md",
+      "bytes": 6994,
+      "sha256": "bbe7daa242fcf639a150f269c46ef5b1e70425218d8198fc9be3becdb345f202"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2280,
+      "sha256": "514e5c3c15d64ca93e350e61084a953f6083ea5c8bab62cba0ef0f34bad00927"
+    },
+    {
+      "file": "receipt_index.json",
+      "bytes": 1466,
+      "sha256": "26a8d4988e4c77002f7692b8227371b29e661f6d7ac3b30825658bf665faf1ff"
+    },
+    {
+      "file": "tool_versions.json",
+      "bytes": 476,
+      "sha256": "466ba2ec2fd218c9ab1d568a15ec56ebfcd21b80135acb64398c9a55164b11de"
+    },
+    {
+      "file": "tools/run_modelsim_validation.py",
+      "bytes": 5687,
+      "sha256": "3a7f0b9677d260072eaf1f8365c91b51e57d4daaa9662727dc9c2a61d819d5b4"
+    },
+    {
+      "file": "verify_delivery.py",
+      "bytes": 580,
+      "sha256": "f77866358bca7dd72b8d20ca5f2dae040a137a81d48050c8184fa145f64b8b3c"
+    },
+    {
+      "file": "原件/G4_AB_R1_R4补正回传包_20261023.zip",
+      "bytes": 48330985,
+      "sha256": "aaf9facb530078f29446bc97b57b7e6b1e2228dbbf0043de3af9fe268a7579d4"
+    },
+    {
+      "file": "原件/receive_receipt.json",
+      "bytes": 324,
+      "sha256": "18fdbf46cba1cd6c9fa61eabb7c715e5a2d241f8e459e3c05299a54101deaa45"
+    },
+    {
+      "file": "原件/补正回传表.md",
+      "bytes": 5706,
+      "sha256": "27ee21e1b776b457dcc02c85527c3b0f346f4fe81caaa7d01be693052fd76ff4"
+    },
+    {
+      "file": "参考/R3_清理排空适用范围与证明.md",
+      "bytes": 3453,
+      "sha256": "d2b08ff1215c3326a2cad926f44007ccee4f09a06618bb70877cfc09764686f3"
+    },
+    {
+      "file": "参考/R4_实际延迟与周期.md",
+      "bytes": 1874,
+      "sha256": "8f4f97cdc7aace8653d84a742d3cf4cd0f1c6f1f37f763844618c62e427e09eb"
+    },
+    {
+      "file": "参考/上一批审查结论与处理意见.md",
+      "bytes": 9854,
+      "sha256": "6c7b5c940408666ca61b8783dfb320e66b0b247a0e15599fcfa45e3d4175bb24"
+    },
+    {
+      "file": "核验/audit_modelsim.py",
+      "bytes": 3405,
+      "sha256": "1bff02ba103205db8684d16580a00c9643d29bd8821dfd5b048cedc50b50491f"
+    },
+    {
+      "file": "核验/audit_received.py",
+      "bytes": 1882,
+      "sha256": "d550778347b5d63c68e9ce105c14ff03fa2ade80870fb3d1e790ae57d00d2635"
+    },
+    {
+      "file": "核验/generator_reproduction/build_candidate_sources.py",
+      "bytes": 15560,
+      "sha256": "0c89dc723988f927a23ee2dfb99b44abf7760ac7aae231cbb133893aa55384c4"
+    },
+    {
+      "file": "核验/generator_reproduction/reference/undistort_core.v",
+      "bytes": 13766,
+      "sha256": "7b997f7040c0f05d0cc785a6ceed44aa3eff1348fbed3eaa4171596ccfde755d"
+    },
+    {
+      "file": "核验/generator_reproduction/reference/undistort_line_cache_tb.v",
+      "bytes": 6248,
+      "sha256": "28eca8a3b446cd752a360a74ae8bdb7d42a388c583c58f9cca3c294ef4a3311c"
+    },
+    {
+      "file": "核验/generator_reproduction/result.json",
+      "bytes": 1146,
+      "sha256": "109a69f35b6bacfd13b21098be3ac7075553647a372bc7776488176699a0bf8a"
+    },
+    {
+      "file": "核验/generator_reproduction/run.log",
+      "bytes": 50,
+      "sha256": "586f91047dc80e87f24e1088cf7abe05e01e726e67f239d4eed3ae1f9b12ab75"
+    },
+    {
+      "file": "核验/generator_reproduction/sim/cache72_ab_tb.v",
+      "bytes": 6760,
+      "sha256": "ec2d4813477c0a030f5eafe283fb26c67c11a67ab53e3c528e28c19a9b610b62"
+    },
+    {
+      "file": "核验/generator_reproduction/source/rtl/undistort_core.v",
+      "bytes": 20450,
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+    },
+    {
+      "file": "核验/modelsim_audit.json",
+      "bytes": 5096,
+      "sha256": "dc3ddc95195db31c7db6e4fe71cfd742c92eade6314c5da1abe9c68c98b9dd47"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/compile_rtl.log",
+      "bytes": 2265,
+      "sha256": "52718336cbc753394c72820ecc51e68fb9bd5e74a689f03cf2d2db022c9b82af"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/compile_tb.log",
+      "bytes": 727,
+      "sha256": "36edd6a13db5e652ddefb1c14b282439ce1ec4293321c27c59607a0cf60a5c27"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/inputs.json",
+      "bytes": 4315,
+      "sha256": "c754efe1cffb734c8e68b35d165f8a17606dc5931a9cc7d91eac29a4f9c67c6f"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/modelsim.ini",
+      "bytes": 98063,
+      "sha256": "92284d36ee88b4f21cc9b5b3f3bbf6967fdf3ab8839d35b4ccda20c60d95df36"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/result.json",
+      "bytes": 7279,
+      "sha256": "25476214ce5d5ff41bcea74eec3c58d7e1a9124aaa8597cdeb064e1ef27e536c"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/simulation.log",
+      "bytes": 3067,
+      "sha256": "cdcc269296e4619f1faf318b5771411a10db9ec33df5f996610c5cef9db630ca"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/transcript.log",
+      "bytes": 3011,
+      "sha256": "e76be16d71967abab5ceccf8a0ad549e44986aadeecb1626e9e8b4e2c2140a4f"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_fixed/c6_host_arb/vmap_work.log",
+      "bytes": 196,
+      "sha256": "68da39b7c547f93fe1b606d87ece9598b6a775e3688ef6126377021db5bfebbb"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/compile_rtl.log",
+      "bytes": 1128,
+      "sha256": "c4d2408751d23f66302b6a5b4bd679761b7944f2becaf04f168930fa58b6f32d"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/compile_tb.log",
+      "bytes": 748,
+      "sha256": "c74b13cfa0052ffd6c76661684902a7fa795822265e55c0369493eb6c325f1cb"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/inputs.json",
+      "bytes": 2762,
+      "sha256": "2b5f3b7ac9a771233e1aebba5fa936559a8d4332f396364c3146e636722be38a"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/modelsim.ini",
+      "bytes": 98060,
+      "sha256": "e2f61fc807bce261417bdcd251129a51d7aa097e2d79e55324f7ecd8cf1cd74f"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/result.json",
+      "bytes": 6532,
+      "sha256": "5914644c6b16945bf6eb094c67cba6654421105dd209cf1e5bdd869eccc66cbf"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/simulation.log",
+      "bytes": 2890,
+      "sha256": "b44acb12dbaed0f7081dc7765c93d186e7b933bfba122f769cf413d611b0fe63"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/transcript.log",
+      "bytes": 2834,
+      "sha256": "2b4a2d5562572e1bc5c723b7af766483767abce0e5ba4f16d3f1fc173c5729e9"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_fixed/identity/vmap_work.log",
+      "bytes": 193,
+      "sha256": "9c5254b46351d5caeaf3088730120ec5a3844784d972b84a96e0ea876d87f0c8"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/compile_rtl.log",
+      "bytes": 742,
+      "sha256": "5a5f3fedefe8d43bc6b38eeff496b330c1dcc41d4205ba9ba11a712868678d97"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/compile_tb.log",
+      "bytes": 745,
+      "sha256": "d9041ce7b6415f1d417cb0d5cbbd8a10667b6e9aab79574a1c32a3e923961d67"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/inputs.json",
+      "bytes": 1297,
+      "sha256": "7644058cb6148a1d0a3b9e295550bc4463f76a76617da345fb86d49300c1e0a6"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/modelsim.ini",
+      "bytes": 98063,
+      "sha256": "21d560937860c4213bbf52757c7adcd66d29fd943b79d87ae6d08e8529926358"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/result.json",
+      "bytes": 6021,
+      "sha256": "3481fbf75ad64ef43459227af17162c1735a7c692acb01ed9883b8798bee7da3"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/simulation.log",
+      "bytes": 2997,
+      "sha256": "ea3ae2fcf20554cf51ddf8fb797b83c2823bf54ac67fe60e7cb0dff88af8bc35"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/transcript.log",
+      "bytes": 2941,
+      "sha256": "61a17fc077cea78ce5761a9791fc0a73da7ffec025cc5c9458767daa568f6a91"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_fixed/r3_boundary/vmap_work.log",
+      "bytes": 196,
+      "sha256": "2c5c2184a10728da494b03d790132ad3ef6f48a38b651c7d88a934343ee11461"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/compile_rtl.log",
+      "bytes": 1130,
+      "sha256": "3cf7b72f88feeb098eb909aa0ebadddf8a86b20d8b126648fdcc00cf4518118b"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/compile_tb.log",
+      "bytes": 750,
+      "sha256": "67470c3b833fe539e9992696eb721053462c17295588076ecc1a2c637617e757"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/inputs.json",
+      "bytes": 2932,
+      "sha256": "399fe0a6b0bdbdf2c250dfcd8a1fbe122422e8169c1f78c495e23ac693b087e4"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/modelsim.ini",
+      "bytes": 98062,
+      "sha256": "bf30aa499c0437784b63df2e5031ffefbc6b72f0311d830fd992b9b5351b9aa0"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/result.json",
+      "bytes": 6530,
+      "sha256": "0e812542fc0faef9a3a52e455ffaa2139f1ae66444ab3a2f006b7f66e7fc44e3"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/simulation.log",
+      "bytes": 2908,
+      "sha256": "a817fc4067cf3a4fba8378bacd9e80b521356f14ca7a8a5e7b51aa02728ad194"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/transcript.log",
+      "bytes": 2852,
+      "sha256": "8949b34e34153e8082be7c6de951e7e6f17c38a1fb0b594b5d6013d6f536e4d0"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_fixed/real_joint/vmap_work.log",
+      "bytes": 195,
+      "sha256": "a7e0cf7fc9ac544f60804cc4e92f04b5dfd5410b94835a21de58bd149fccb45e"
+    },
+    {
+      "file": "核验/modelsim_fixed/summary.json",
+      "bytes": 28787,
+      "sha256": "f0a293b4c79770ab17c96fc50a99791aefef27be64dbff156fcf946e79d3f305"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/compile_rtl.log",
+      "bytes": 2263,
+      "sha256": "6ba420103fcffabf6c6382ec0f82ac97c54a1246608fb5d85142faabfcb7e899"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/compile_tb.log",
+      "bytes": 725,
+      "sha256": "738e8736e5fbbf183034700fcf7f55a72fd5de0ab19c7a7044961c98b6d28fd6"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/inputs.json",
+      "bytes": 4315,
+      "sha256": "64f1383df8d615588e71776ecd4f067ab7c0cd6fa9df7fc43f03aa0d04733211"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/modelsim.ini",
+      "bytes": 98061,
+      "sha256": "636fcf7e1c89a7b779c59afb25b9172d14f1914c2b34ab80448a305837674eb6"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/result.json",
+      "bytes": 7494,
+      "sha256": "9665c773688539395d89a85abf53bed0c10d4be0bdaf13b545eef27960685167"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/simulation.log",
+      "bytes": 322,
+      "sha256": "2fb7cb98dadb74462121269613a165947f86e392f71260a111f12026ee4b3891"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/transcript.log",
+      "bytes": 244,
+      "sha256": "17eca2755e633e42c3ec2c4663fb413fc95b8bfc818c093d36d1ccfd43eefcf8"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_key/c6_host_arb/vmap_work.log",
+      "bytes": 194,
+      "sha256": "e38428e9662af1256156a27fcc76513b0dfcbe8d5be87c72c2d7b3bda4df4571"
+    },
+    {
+      "file": "核验/modelsim_key/identity/compile_rtl.log",
+      "bytes": 1126,
+      "sha256": "bf60d29c4620e68598d09a7dc9784923fcfa551b788ffb3816ce2a0d49e7085b"
+    },
+    {
+      "file": "核验/modelsim_key/identity/compile_tb.log",
+      "bytes": 746,
+      "sha256": "b34f1d31468330dfee1ea6c2ff3efc35b0b320cbf6ffe2d100d679f19bf97393"
+    },
+    {
+      "file": "核验/modelsim_key/identity/inputs.json",
+      "bytes": 2762,
+      "sha256": "feea21b16be5f7ec94d6b8053ed19ce0c3e4c1e9b130cd4879b6b3150e7106e3"
+    },
+    {
+      "file": "核验/modelsim_key/identity/modelsim.ini",
+      "bytes": 98058,
+      "sha256": "2703418dfb235d1500650fc10b613b6706d2ecb651d56d7614078fa857ca4712"
+    },
+    {
+      "file": "核验/modelsim_key/identity/result.json",
+      "bytes": 6663,
+      "sha256": "2fbdf34d8b083afc672ddc1faa9c06525cc74fea3271793ff76b0b186fcebf19"
+    },
+    {
+      "file": "核验/modelsim_key/identity/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_key/identity/simulation.log",
+      "bytes": 319,
+      "sha256": "0f0c04dd0d93cfe79866f3b2b461a78b460ae3a61065f223d4626e71c2237014"
+    },
+    {
+      "file": "核验/modelsim_key/identity/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_key/identity/transcript.log",
+      "bytes": 241,
+      "sha256": "d7f6774e4c633524d7ff5aec197db2e63bfb594bc48a88365b45054a09d2e47b"
+    },
+    {
+      "file": "核验/modelsim_key/identity/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_key/identity/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_key/identity/vmap_work.log",
+      "bytes": 191,
+      "sha256": "9d75b1e739db91b14329d616f038c1baf5f783654af88a7de271fbfc89d45c33"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/compile_rtl.log",
+      "bytes": 740,
+      "sha256": "04b678255d5dbc2b3f33d62a2cb4c5596a95ec98e756b9541cf41d6dec247620"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/compile_tb.log",
+      "bytes": 743,
+      "sha256": "d7a526eba70b2890a92c9e9f5ca70e5e223649d1ab87d108fffe0b7eb24e5e82"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/inputs.json",
+      "bytes": 1295,
+      "sha256": "febc07212982f816267eec757244788a41c4c7df55fb75a0770db62a0aec8ae0"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/modelsim.ini",
+      "bytes": 98061,
+      "sha256": "5f4ebce908936b02b89a9efbcf0266e3391072463a6080751f7b245b5fc400f3"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/result.json",
+      "bytes": 6153,
+      "sha256": "91d46ab6b3d65b0d2011a3739812f7689fb00d22a26d2900b3f7fa6eda808026"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/simulation.log",
+      "bytes": 322,
+      "sha256": "21cd52deb5fffe73e51f16597e82ff812a574cfa66be57ff789c1db1e0f93629"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/transcript.log",
+      "bytes": 244,
+      "sha256": "a39f7d2173c0d02c64684feb94c0e4a967728ae5cf4fada35a644d4f482ea997"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_key/r3_boundary/vmap_work.log",
+      "bytes": 194,
+      "sha256": "a1de301ac4b80b1fbddeb0ee8b4b30cd98700319f908f875c9f0ec65315e3887"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/compile_rtl.log",
+      "bytes": 1128,
+      "sha256": "35560fe88bed64e5c01c387dcb1806ec30f5cefffa8873595b267921ca4d15f0"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/compile_tb.log",
+      "bytes": 748,
+      "sha256": "8c72a87c9e3af3755d6c356eed448d7773f715d47b01455656590f69942eee8e"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/inputs.json",
+      "bytes": 2932,
+      "sha256": "703e100a62dfc387df9808f35cb1cb3edfddac9afef47f4e29f3886a5fb590e0"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/modelsim.ini",
+      "bytes": 98060,
+      "sha256": "ddf44bccb7f8f52e9191f5b4955c371d4405211fa7574bee0cb2ef0e21b3f526"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/result.json",
+      "bytes": 6704,
+      "sha256": "60fea130e715b0c3df6ca34c4c34438d760f30e3595ed0d156402350f370436d"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/run.do",
+      "bytes": 81,
+      "sha256": "24c87dd9bd8eaa9a6a46ea8586178cf83f39aaa21de7368e0fc779a54c4f3200"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/simulation.log",
+      "bytes": 321,
+      "sha256": "7cff659b37fa6aa63105b00e30dec964fc13295d56f5f2f1d190142c751bdb9b"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/tool_version.log",
+      "bytes": 72,
+      "sha256": "450cbd4d529ae1b7171936b09c40fb69418692c325bfe1ccdb2f41e2be0da677"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/transcript.log",
+      "bytes": 243,
+      "sha256": "2465d8432e266456d8af733e2fd983929022c0ff543c1d12a0c3972c00c2b672"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/vlib.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/vmap_create.log",
+      "bytes": 157,
+      "sha256": "868460c0259529d8ead527741c2e32b13ef99011b0abafad031c63ed8aa2cb82"
+    },
+    {
+      "file": "核验/modelsim_key/real_joint/vmap_work.log",
+      "bytes": 193,
+      "sha256": "145b9caa43c490be7c865e4a68a34d7dbefd6fa685c0e28d4758109d6bba43de"
+    },
+    {
+      "file": "核验/modelsim_key/summary.json",
+      "bytes": 29519,
+      "sha256": "8bf66b2d2020000b0eb3920b2bf672314250dea3fc4aa572da16c15271eb1b45"
+    },
+    {
+      "file": "核验/ModelSim_launcher_path_fix.diff",
+      "bytes": 884,
+      "sha256": "1c75afeafe9fbc3099441686c13622387f540cc434f59425ad094d3407c46b72"
+    },
+    {
+      "file": "核验/R1_core_review.diff",
+      "bytes": 2267,
+      "sha256": "346c13943297e3d02bcee2daf18dc9b3bf08021df70f6c997872ef865cc61327"
+    },
+    {
+      "file": "核验/R3_R4_tb_review.diff",
+      "bytes": 2545,
+      "sha256": "a628a810b329a7143c97e9fb339eb5a45ced08456f91480ba1c7a9855fed61a4"
+    },
+    {
+      "file": "核验/receive_audit.json",
+      "bytes": 370,
+      "sha256": "2763c22d908f40290e242292d9efb04b3439053c36543a98775999b782711459"
+    },
+    {
+      "file": "核验/received_tool_versions_audit.json",
+      "bytes": 5913,
+      "sha256": "20e644f4ad35f3f03d69eeb7e88522aa710313e67b0b87757103ae02a431b32c"
+    },
+    {
+      "file": "核验/reference_inputs_review.json",
+      "bytes": 1814,
+      "sha256": "23df457cf0bf939a4611680c1f5c3d8b99456ae508644f191eedf38decc4d0bf"
+    },
+    {
+      "file": "核验/static_review.json",
+      "bytes": 15147,
+      "sha256": "5fa3db4affde6fcb4800234107d92846883a5b77b3465b1521a820daf0a56411"
+    },
+    {
+      "file": "核验/static_review.py",
+      "bytes": 5011,
+      "sha256": "9be0bda6397631ed95e315032b94e346cf872d333d62ca5eb2e67c90f8d92e12"
+    }
+  ]
+}

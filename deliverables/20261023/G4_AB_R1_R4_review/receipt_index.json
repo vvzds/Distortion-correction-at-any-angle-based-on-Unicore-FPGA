@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "scope": "R1-R4 correction closure only; no production promotion",
+  "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+  "received_zip_sha256": "aaf9facb530078f29446bc97b57b7e6b1e2228dbbf0043de3af9fe268a7579d4",
+  "receipts": [
+    {
+      "id": "R1",
+      "status": "PASS",
+      "reason": "核心声明顺序缺陷修复；生成器复现，来件原八项矩阵核验，本机四项ModelSim通过；采用随包路径补丁。"
+    },
+    {
+      "id": "R2",
+      "status": "PASS",
+      "reason": "16项新Icarus输入及日志核验，本机新回执包含依赖/工具/命令/时间/退出与前后哈希。"
+    },
+    {
+      "id": "R3",
+      "status": "PASS",
+      "reason": "限定单在途、排空后再受理契约；跨clear/reset旧返回和重叠覆盖本机通过，非任意独立复位恢复。"
+    },
+    {
+      "id": "R4",
+      "status": "PASS",
+      "reason": "七点延迟矩阵证据核验；本机复跑恒等和联合压力与来件一致；非板端fps。"
+    }
+  ],
+  "evidence": [
+    "核验/receive_audit.json",
+    "核验/static_review.json",
+    "核验/modelsim_audit.json"
+  ],
+  "initial_runner_failure_preserved": "核验/modelsim_key",
+  "valid_modelsim_results": "核验/modelsim_fixed",
+  "source_synthesis": "NOT_RUN_FOR_NEW_HASH",
+  "place_route": "NOT_RUN",
+  "board": "NOT_TESTED"
+}

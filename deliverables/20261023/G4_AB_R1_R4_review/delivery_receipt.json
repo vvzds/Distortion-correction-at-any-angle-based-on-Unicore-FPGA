@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-23T12:51:35.358579+00:00",
+  "zip": "G4_AB_R1-R4补正复验回执与证据_给一号协作者_20261023.zip",
+  "bytes": 48218664,
+  "sha256": "0b7abb068d42654ece16a716a4204d8a83c7b68065c380383b863604b3684c5a",
+  "files": 129,
+  "manifest_sha256": "c2ff1417a8c5a3ce1c89a5ef98cca567e9170b7da44c53d728dcafc730a1e589",
+  "zip_crc_and_member_sha_verified": true,
+  "verifier_exit_code": 0,
+  "verifier_stdout": "PASS 128 files; size and SHA256 verified\n",
+  "versioned_documents_unchanged": {
+    "D:/FPGA项目文档/总说明/模块分工与工作包交付总说明_v2.0.3.md": "2d36c72f80c80ad977d2b6a2080bc66bab0e3ff876dc508bbdee39dc8b3903fe",
+    "D:/FPGA项目文档/任务清单/各协作者当前任务清单_v2.0.3_20261023.md": "f5be22dea0495db187857f4b5969c2f9deb85815743c3f3176cb52f3fe00c837"
+  }
+}
