@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-23T15:19:33.299932+00:00",
+  "zip": "G8八种子复核与R01-R14统一回执_给二号协作者_20261023.zip",
+  "bytes": 1267092583,
+  "sha256": "baf0827f2bb068175af26dbf58d7160ececba2a718ee882bbf34cfe187ce3f72",
+  "zip_members": 3821,
+  "manifest_files": 3820,
+  "all_member_sizes_crc_sha256_verified": true,
+  "sources_unchanged_during_pack": true,
+  "manifest_sha256": "d47e2715522113cbdd55b6a504acddb026535411f71f6fe10563bbfd08768fd8",
+  "versioned_documents_unchanged": {
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.4.md": "81411DEB34E78F9DE609DEA4D899119278E0895B0FEF226206720E62DA0B4E11",
+    "D:\\FPGA项目文档\\任务清单\\各协作者当前任务清单_v2.0.4_20261023.md": "9805C67FD521C80732BEAC1412EDFE977AF555AF86B1F1D55EF661CE2B586588"
+  },
+  "master_version": "2.0.4",
+  "production_promoted": false,
+  "recipient": "二号协作者",
+  "excluded_regenerable": [
+    "ModelSim compiled work/waveform scratch",
+    "Generated synthetic gate fault cases (source fixtures/generators/logs included)",
+    "existing isolated NumPy/OpenCV installation"
+  ],
+  "exit_code": 0
+}

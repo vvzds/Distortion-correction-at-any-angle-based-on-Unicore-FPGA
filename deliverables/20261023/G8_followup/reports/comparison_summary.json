@@ -1,0 +1,101 @@
+{
+  "management_timing_pass": false,
+  "native_closed": 0,
+  "strict_valid": 4,
+  "strict_closed": 0,
+  "worst_ns": -1.897,
+  "synthesis_delta_seed2": {
+    "LUT": -120.0,
+    "FF": 344.0,
+    "DRM": 0.0,
+    "APM": 2.0
+  },
+  "native_worst_paths": [
+    {
+      "seed": 2,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N8_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -0.911
+      }
+    },
+    {
+      "seed": 3,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N11_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -0.568
+      }
+    },
+    {
+      "seed": 5,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N8_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -0.574
+      }
+    },
+    {
+      "seed": 7,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N11_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -0.654
+      }
+    },
+    {
+      "seed": 8,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N11_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -1.897
+      }
+    },
+    {
+      "seed": 9,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N11_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -0.515
+      }
+    },
+    {
+      "seed": 10,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N8_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -1.11
+      }
+    },
+    {
+      "seed": 11,
+      "path": {
+        "start": "u_corr_top/u_core/u_map/N61_m4/gopapm/CLK",
+        "end": "u_corr_top/u_core/u_map/N11_m4/gopapm/PI[0]",
+        "group": "ddrphy_sysclk",
+        "type": "max (slow corner)",
+        "slack_ns": -1.075
+      }
+    }
+  ],
+  "resource_inconsistent_seeds": [
+    2,
+    9,
+    10,
+    11
+  ]
+}

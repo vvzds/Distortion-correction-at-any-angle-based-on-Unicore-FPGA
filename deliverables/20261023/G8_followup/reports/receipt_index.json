@@ -1,0 +1,93 @@
+{
+  "generated": "2026-10-23T23:17:54.643088+08:00",
+  "items": [
+    {
+      "id": "R01",
+      "status": "PASS（独立实验登记）",
+      "conclusion": "C14/II1/FIFO32和新map SHA已登记；8有效/7闭合/−0.05ns及双口径不低于原G7，不替换原C13正式契约。",
+      "evidence": "R01_G8独立实验登记.md；gate_g8_freeze.json"
+    },
+    {
+      "id": "R02",
+      "status": "执行PASS；管理时序FAIL",
+      "conclusion": "8轮exit0/前后SHA不变；原生0/8，最差-1.897ns；门禁有效4/8、有效闭合0/8。",
+      "evidence": "physical_g8；physical_execution_summary.json；registered_physical_result.json"
+    },
+    {
+      "id": "R03",
+      "status": "PASS（原生结构限定范围）",
+      "conclusion": "部分积FF/APM输出寄存、64位合并寄存、C14 valid/可观测伴生及实际关键路径关联；sx/sy各80位保留；不承诺572物理FF或布线后功能证明。",
+      "evidence": "native_g8_cut_audit；native_g7_retained_audit；native_g8；physical_analysis"
+    },
+    {
+      "id": "R04",
+      "status": "工具复核PASS；物理FAIL",
+      "conclusion": "G8专用固定基线及阶段标记，105+18+6普通/-O通过（普通aux首次准备错误已保留）；严格门禁和−0.05登记评估均实际重放。",
+      "evidence": "gate_g8；gate_physical_strict；registered_physical_result.json；supplemental_audit.json"
+    },
+    {
+      "id": "R05",
+      "status": "沿用历史限定PASS",
+      "conclusion": "G6可得原件/PAP_GROUP现存属性已收；不再索要已有原件。旧ADF/DMR缺运行时hash限制不回填。",
+      "evidence": "original_received原ZIP及此前G7/G6已交回执"
+    },
+    {
+      "id": "R06",
+      "status": "未通过整体资源/警告签核",
+      "conclusion": "返回本轮真实资源、APM寄存吸收及两表一致性；cache16>12和既有约束覆盖/警告仍未豁免，FIFO16仍独立。",
+      "evidence": "physical_analysis；physical_g8各阶段原件"
+    },
+    {
+      "id": "R07",
+      "status": "PASS（本候选功能）",
+      "conclusion": "本机十组、三帧及乘积/完整96位/负例通过；core与bridge共同复位边界不扩大；候选变化后须匹配新SHA。",
+      "evidence": "functional_audit.json；local_modelsims；local_runs；arithmetic_local"
+    },
+    {
+      "id": "R08",
+      "status": "沿用PASS并复核输入",
+      "conclusion": "重用冻结原始Brown4 Q16.16码、仿射禁用/Gamma关闭；本批三帧参数SHA关联，不重编码小数；不证明板端已应用。",
+      "evidence": "frozen_parameters；execution/G8_real_regression/runs"
+    },
+    {
+      "id": "R09",
+      "status": "精度PASS；吞吐FAIL",
+      "conclusion": "6.281965/8.304940拍每像素；69,916加载/68,885重载。A+B补正已过，后续同参数/同DDR逐命令对比可单独推进，未自动融合；板端fps待测。",
+      "evidence": "functional_audit.json；execution/G8_real_regression/runs"
+    },
+    {
+      "id": "R10",
+      "status": "勘误：R1–R4限定补正PASS",
+      "conclusion": "一号补正及ModelSim路径适配已通过，用户已确认无问题；原声明顺序阻塞解除。新SHA物理/板测仍未完成，不能把整个A+B/整机写PASS。",
+      "evidence": "R10_reference；已交v2.0.4总说明/任务表"
+    },
+    {
+      "id": "R11",
+      "status": "MISSING / NOT_RUN",
+      "conclusion": "仍缺同次加载位流SHA、0x01/02/04原码、真实UART/限时0x05、发布计数、画面与时间/时区关联。未烧录，实验sbit不是板端闭环PASS。",
+      "evidence": "本回执及既有正式板端采集要求"
+    },
+    {
+      "id": "R12",
+      "status": "正式包PASS；真实素材MISSING",
+      "conclusion": "仍缺同条件前后1080P原帧、实际标定原图、同物理目标/尺度ROI、机位/曝光/白平衡/焦点/照明及参数应用关联；已有包和参数不再索要。",
+      "evidence": "M03既有正式任务包；m03_empty_report"
+    },
+    {
+      "id": "R13",
+      "status": "软件/新入口PASS；真实质量NOT_TESTED",
+      "conclusion": "原算法未变；固定依赖入口正负例、空模板与审计通过。旧软件套件PASS沿用；待R11/12真实素材后实际测量，不重复开发M03。",
+      "evidence": "local_runs/m03_*；m03_empty_report；execution/M03_pinned"
+    },
+    {
+      "id": "R14",
+      "status": "接收/复核归档PASS；新合包待转交",
+      "conclusion": "按同ID一次回传全索引；全量原物理及执行SHA保留，原件不变。本机归档/桌面单ZIP/GitHub同步的最终状态由归档目录旁的delivery_receipt与github_sync_receipt记录；不以本表替代远端核验。",
+      "evidence": "files_sha256.json；final_integrity_audit.json；verify_delivery.py"
+    }
+  ],
+  "local_work_root": "D:\\FPGA_management\\work\\G8_followup_20261023",
+  "candidate": "G8_C14",
+  "overall_acceptance": "NOT_DECLARED",
+  "version": "2.0.4"
+}

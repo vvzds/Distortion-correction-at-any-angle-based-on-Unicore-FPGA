@@ -1,0 +1,78 @@
+{
+  "zip": "G8八种子复核与R01-R14统一回执_给二号协作者_20261023.zip",
+  "bytes": 1267092583,
+  "sha256": "baf0827f2bb068175af26dbf58d7160ececba2a718ee882bbf34cfe187ce3f72",
+  "part_size_limit_bytes": 94371840,
+  "parts": [
+    {
+      "path": "parts/delivery.zip.part001",
+      "bytes": 94371840,
+      "sha256": "10a17cd49b966e11da1242ae07543bc2744ee254cee9a57af0f12cda0e726da3"
+    },
+    {
+      "path": "parts/delivery.zip.part002",
+      "bytes": 94371840,
+      "sha256": "a2abf7e20a6cf3dd6c79ddf972f55b406c00a6f27cc0c3c891e8e892e760b495"
+    },
+    {
+      "path": "parts/delivery.zip.part003",
+      "bytes": 94371840,
+      "sha256": "0b157442472382a319fb7130009140552d1ec87bec8da937cdfcef6e3cbec62a"
+    },
+    {
+      "path": "parts/delivery.zip.part004",
+      "bytes": 94371840,
+      "sha256": "cb7eebcecbd970364e195491de6e9045d2911216f580f08e770e6b19c281f4f3"
+    },
+    {
+      "path": "parts/delivery.zip.part005",
+      "bytes": 94371840,
+      "sha256": "193efde3c42443e29c0142618452e22acce606eccc9479636aa6766e160e27d1"
+    },
+    {
+      "path": "parts/delivery.zip.part006",
+      "bytes": 94371840,
+      "sha256": "f5a0b5d542aba06ceb3b4dae8b216bce9c474f75bff45a7726cbef8f3ae9f00f"
+    },
+    {
+      "path": "parts/delivery.zip.part007",
+      "bytes": 94371840,
+      "sha256": "d7667ea1115c1353b4accb3d92627b8db9b40ecd363915912dd2f8253f85bcf4"
+    },
+    {
+      "path": "parts/delivery.zip.part008",
+      "bytes": 94371840,
+      "sha256": "7e3d0ad6b69e8dabe1de91116e035e7376c8af545163c15a543d4943ad43961e"
+    },
+    {
+      "path": "parts/delivery.zip.part009",
+      "bytes": 94371840,
+      "sha256": "196af44880b1f97bbdd226fc011b554242ffce78403195a7865662608dfedd78"
+    },
+    {
+      "path": "parts/delivery.zip.part010",
+      "bytes": 94371840,
+      "sha256": "292c9fc21923387bd42192759ee9a34225b3bb77a468cdaf82b60ef76278a558"
+    },
+    {
+      "path": "parts/delivery.zip.part011",
+      "bytes": 94371840,
+      "sha256": "a68ed1db185ee37e68eb99ae1b128adbbea5d04886569c9e397f8e5e973d6aa3"
+    },
+    {
+      "path": "parts/delivery.zip.part012",
+      "bytes": 94371840,
+      "sha256": "25b7982d56d9840cb8954a90df81d24c779065d07a92208c82956ede3de29d8b"
+    },
+    {
+      "path": "parts/delivery.zip.part013",
+      "bytes": 94371840,
+      "sha256": "f2d69daea2d472a79c63f2d14ff68c7e25a9f05177ca5e4d86c4666853628b2f"
+    },
+    {
+      "path": "parts/delivery.zip.part014",
+      "bytes": 40258663,
+      "sha256": "7c8c016e50c2b1948df02ed4368bca6532111e3c8316d8241f95657251ad74c4"
+    }
+  ]
+}
