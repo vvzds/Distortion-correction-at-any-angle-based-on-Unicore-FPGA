@@ -1,0 +1,34 @@
+{
+  "review_date": "2026-10-24",
+  "scope": "DRM/APM counts, attribution and budget review",
+  "native_reports": 34,
+  "dram_unit": "DRM36K_equivalent",
+  "device_capacity": {
+    "DRM": 155,
+    "APM": 240
+  },
+  "formal_cache_limit": 12,
+  "formal_cache_limit_changed": false,
+  "G7": {
+    "DRM": 29.5,
+    "APM": 105,
+    "cache_DRM": 16,
+    "map_APM": 87,
+    "bilinear_APM": 18
+  },
+  "G8": {
+    "DRM": 29.5,
+    "APM": 107,
+    "cache_DRM": 16,
+    "map_APM": 89,
+    "bilinear_APM": 18
+  },
+  "APM_allocation": "ACCEPTED_EXISTING_REGISTERED_EXPERIMENT_SCOPE_ONLY",
+  "new_APM_contract_limit": null,
+  "cache_budget_status": "FAIL_CONTRACT_LIMIT",
+  "AB_current_sha_physical": "NOT_AVAILABLE",
+  "future_modules": "PLANNING_SENSITIVITY_ONLY_NOT_AUTHORIZED_FOR_IMPLEMENTATION",
+  "formal_S3": "NOT_PASSED",
+  "production_promoted": false,
+  "master_version": "2.0.4"
+}

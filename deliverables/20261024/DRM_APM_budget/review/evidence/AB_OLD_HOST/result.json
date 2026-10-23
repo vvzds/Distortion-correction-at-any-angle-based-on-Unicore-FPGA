@@ -1,0 +1,7 @@
+{
+  "synthesis_complete": true,
+  "uart_loc_confirmed": false,
+  "scope": "real host synthesis only",
+  "routed_timing_pass": false,
+  "exit_code": 0
+}

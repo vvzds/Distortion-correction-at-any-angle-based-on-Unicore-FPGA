@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "time_bj": "2026-10-24T00:12:33.869445+08:00",
+  "packages": [
+    {
+      "filename": "审验外包与资源预算审查_给一号协作者_20261024.zip",
+      "bytes": 1436372354,
+      "sha256": "7b0961a7babbb63fe0ffffb367fb4f8be2d7b6758711daa3652a6ef612da6436",
+      "members": 118,
+      "all_members_verified": true
+    },
+    {
+      "filename": "审验外包与资源预算审查_给二号协作者_20261024.zip",
+      "bytes": 1436372354,
+      "sha256": "c5333335e76a5ac9a27afb762854fb9ffa41c8e8bbae871392d15bc4c11a83da",
+      "members": 118,
+      "all_members_verified": true
+    }
+  ],
+  "native_resource_reports": 34,
+  "resource_accounting": "PASSED_SCOPE_DRM_APM_ONLY",
+  "formal_cache_limit": 12,
+  "master_version": "2.0.4",
+  "production_promoted": false,
+  "delivery_status": "PENDING_USER_FORWARD",
+  "reused_archive_sources": "All seven original archives from prior delegation retained byte-for-byte"
+}

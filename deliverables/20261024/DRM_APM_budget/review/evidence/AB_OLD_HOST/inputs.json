@@ -1,0 +1,559 @@
+{
+  "scope": "real host synthesis only; UART LOC pending",
+  "started_at": "2026-10-23T17:39:00.5611275+08:00",
+  "variant": "ab",
+  "sources": [
+    {
+      "file": "source\\rtl\\corr_read_bridge.v",
+      "sha256": "84DAC8880E76471B75994B972F3531BF8BA6D98F4A26F1EC4B4AF6B641DC78F6"
+    },
+    {
+      "file": "source\\rtl\\corr_slot_ctrl.v",
+      "sha256": "A07FF69DC52934BC637EE94AD2472EA3CC9B550380A405C1530A4B1F19FDF238"
+    },
+    {
+      "file": "source\\rtl\\corr_top.v",
+      "sha256": "217003139E4D5EDA02CA5FF7EF29CCB3A6E186041E61209EA5E258F8BD5B7064"
+    },
+    {
+      "file": "source\\rtl\\corr_write_arb.v",
+      "sha256": "1E24828AD5CC64AC1936B4F5ACE4E13921F89B1DE8D9EA2A91A0B0F146805E3C"
+    },
+    {
+      "file": "source\\rtl\\corr_write_pack.v",
+      "sha256": "E424EA3F87C7CA5C3F38C57F4A8B4D58D9AF5186262C5CA2EF080C5AF507E506"
+    },
+    {
+      "file": "source\\rtl\\correction_hook.vh",
+      "sha256": "D81E5440DD2086A6E222345924EDBB8EE3E2D4D1EFFF16F84BF7811D8A56DB70"
+    },
+    {
+      "file": "source\\rtl\\fram_buf.v",
+      "sha256": "0930864B5C1546218B414D9A31CFD402BB7832703810BD0460E8867E6E90AD57"
+    },
+    {
+      "file": "source\\rtl\\frame_bank_ctrl.v",
+      "sha256": "5BAC23D91909D70F2E693F521B7369F3C4FCD2680BF1EA0F2570EB503D384128"
+    },
+    {
+      "file": "source\\rtl\\gamma_lut.v",
+      "sha256": "3297CCEB3C64A6D126DEDC54B384C45B4C5DCD2C4733B0B0298F2CFF97342BA1"
+    },
+    {
+      "file": "source\\rtl\\hdmi_ddr_ov5640_top.v",
+      "sha256": "12A1B510722510062AA2E6EDEBAD1912C20F45FC8E2C4B938BDF4360B9C6BF0B"
+    },
+    {
+      "file": "source\\rtl\\i2c_com.v",
+      "sha256": "F6999C14EBDE81D3BC254CC09918498F5F54CD9AC544FAAED7D2CBBE04EE325B"
+    },
+    {
+      "file": "source\\rtl\\iic_dri.v",
+      "sha256": "8516560F7AB3E27EF1BD19006B0D89FDE9BE31BB24A088BBE2D6A93E81C104A8"
+    },
+    {
+      "file": "source\\rtl\\ms7200_ctl.v",
+      "sha256": "67874F14E07601F1A7F50E967D0E4400E03C1FDD4F394D1F9CF0106638A215F7"
+    },
+    {
+      "file": "source\\rtl\\ms7210_ctl.v",
+      "sha256": "AB4E58BE6F740E76B1F36F1C904BF5A9C7886D28C789F06FDCEEECD7AA9F958B"
+    },
+    {
+      "file": "source\\rtl\\ms72xx_ctl.v",
+      "sha256": "2E465B830E5793B8A17FBE5BDDF56D99D8603ECCA9CC24067D2C2E97C2A5DD08"
+    },
+    {
+      "file": "source\\rtl\\param_mgr.v",
+      "sha256": "3B759A9712B1560BC33CC2801D29E24874E691041E20DC8F700F25366F04617A"
+    },
+    {
+      "file": "source\\rtl\\power_on_delay.v",
+      "sha256": "E80CCA3ED939401E514A4681708BFB4C63E7AC704A068D0BEF6413EF7CBE7001"
+    },
+    {
+      "file": "source\\rtl\\raw8_to_rgb565.v",
+      "sha256": "6C0660F3254AD763BA43B134DA2240E15373E103EB61B0389151116D0326BD2F"
+    },
+    {
+      "file": "source\\rtl\\rd_buf.v",
+      "sha256": "DF1D2B381BE7C6BF0E6EAD178FC66C5918149BA19676C1731903B8A9F943CB60"
+    },
+    {
+      "file": "source\\rtl\\rd_ctrl.v",
+      "sha256": "1F4A649787368EF78544CAAA9DCDA4F35C50F3D8299EF0237B5CEB30ADEDA18F"
+    },
+    {
+      "file": "source\\rtl\\rect_wr_if.v",
+      "sha256": "2F341F2D46BAD58046C040A8019621B5BE66B90C67562E62411C396DFC1C8046"
+    },
+    {
+      "file": "source\\rtl\\reg_config.v",
+      "sha256": "EFC1CD8F6074CD59B04E37A23EF5C09B2E63458B525A2B1AA648FA4D5F8BB255"
+    },
+    {
+      "file": "source\\rtl\\sync_vg.v",
+      "sha256": "0F4196880342CD43C8A98AEACA53A338D35005B04D82CC38A5FC76F57215DA86"
+    },
+    {
+      "file": "source\\rtl\\undistort_bilinear.v",
+      "sha256": "AA79201F3C9139F0621D235EDF59B98DA9EF59733A2E04CD9E77EBE58EACC35E"
+    },
+    {
+      "file": "source\\rtl\\undistort_cache_ab.v",
+      "sha256": "4FC449DC3BF1E34711C774057C4D92559EBD545E5F88FACAC27CAC5DA33A6A60"
+    },
+    {
+      "file": "source\\rtl\\undistort_core.v",
+      "sha256": "33260C4DDA12A5A8FB69D8535D991E74B80C15F6360F4B0DD00F849A023ECFF1"
+    },
+    {
+      "file": "source\\rtl\\undistort_line_cache.v",
+      "sha256": "9168B5796ACA152A3AC39D87A2839B82839F9BF103B21FF3AAFD59F21B084F6A"
+    },
+    {
+      "file": "source\\rtl\\undistort_map.v",
+      "sha256": "AAFBAAC6F658C0F7EA6219BCB172A05F82B836AC1275651D1A0AEC29251A9EE3"
+    },
+    {
+      "file": "source\\rtl\\video_contract.vh",
+      "sha256": "19587C7F9CE0481327AB27608FDB888B6ECCD32343D1A2365937401A13F0818E"
+    },
+    {
+      "file": "source\\rtl\\wr_buf.v",
+      "sha256": "FBBF3922051DD680D180D6A63F4FEE83EDED739AB073A0E0CBDA6749A062D69B"
+    },
+    {
+      "file": "source\\rtl\\wr_cmd_trans.v",
+      "sha256": "948CB021DD70442C93FE565597C6950B3EA47B07730B90373819D88F0C7430E6"
+    },
+    {
+      "file": "source\\rtl\\wr_ctrl.v",
+      "sha256": "17E6B84FE2B45A5DD9691C274D43C4F7DB8F7D811E3DAF1B5D7AEBE9CE0DB19C"
+    },
+    {
+      "file": "source\\rtl\\wr_rd_ctrl_top.v",
+      "sha256": "8BB42D3FA4082656AC46392FDEB2F546F8668CDF32590313A1389F24D77004BF"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\ddr3_test_ddrphy_top.v",
+      "sha256": "A95C28F225D2984401A798F673EFFF209154AE5BEB8A7356D303136B71EA49D5"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\ddr3_test_tmpl.v",
+      "sha256": "FD93FA3E28A54E307ED5F999FFCE4F07C502CD562927582F74E185CC5529E0C6"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\ddr3_test_tmpl.vhdl",
+      "sha256": "32B0AE22B7073FADF4DDEBB6CC7B02D8ADA8A07FB2D85C04946D7E516A0AC4FD"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\ddr3_test.idf",
+      "sha256": "B600D6102995BE4E76B060DD45786B5E1497BD2E7499BBC04B870DE9355F2747"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\ddr3_test.v",
+      "sha256": "3C5441B4BFF33DFF73811C3A025EDE3B6348CB5779E21778653659B6CBFB84E0"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\readme.txt",
+      "sha256": "B8E6AEE8D709441F0D176B80495D453E2F70E3E74847A6DC3ABC66D17FDFC00B"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ips2l_rst_sync_v1_3.vp",
+      "sha256": "64B8D83F15F2FF373E6B1040405C42051D8761BD1857DEC719C884C2EB59361A"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ddr3_test_slice_top_v1_10.v",
+      "sha256": "69D4135C367EFBB73F83C82ECD9871519E19B0D5C48BCE2DF0EAC6B3DFF50B87"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_calib_mux_v1_0.vp",
+      "sha256": "676E36319E7CE80B93E3543E255D53708D9FC71606587A6E692EAB1EC82ECAED"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_calib_top_v1_10.vp",
+      "sha256": "04FAF434CEF120B5D712911DFC97C8F498901B0679FBA720B806F596D688BDED"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_control_path_adj_v1_10.vp",
+      "sha256": "8CDD7B9EC01C143882217B038CBF840D77E52EE3037E629E75E10B03FC223A38"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_cpd_ctrl_v1_3.vp",
+      "sha256": "56F52683ADBE720C7D43DA1A9F199F4AB3ADD3F3B5960E3F687F87F60267C161"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_cpd_lock_v1_0.vp",
+      "sha256": "A6696F8E79E2D132A6E76AD4997D5366D6C9CF8F05C60F77FEFF1B47B50D0090"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_data_slice_dqs_gate_cal_v1_10.vp",
+      "sha256": "8764275D4EEB8D1765B3A09ABA527D6D3BF3E46F5E1D17EEFC685D7E0DBE1520"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_data_slice_v1_10.vp",
+      "sha256": "E13E33D97ECBFEA1838C4DD28E7F9F1C57DCB974606179523BE46BBA75344D50"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_data_slice_wrcal_v1_10.vp",
+      "sha256": "B7A9757C252F74C4B57EB0FB74738C57E4EED3E669DDD7FFEECA1ACEDD330B2E"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_data_slice_wrlvl_v1_10.vp",
+      "sha256": "871874F4AF0F068571416916898F83EB07052E6E015C5800FFDF65D67620CF7E"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_dfi_v1_3.vp",
+      "sha256": "9828A1EF43A864D287A7A317910FE330BFC904F44E8F60C8773AAFA1D8C1534E"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_dll_update_ctrl_v1_3.vp",
+      "sha256": "BC4E8F402D2FB98920E050A3C1514D44EC959877217D7865A30B22B7DA73CAC6"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_dqs_gate_coarse_cal_v1_0.vp",
+      "sha256": "950A0010929854894C2C92D9F3F8E9DCE0FEE6985FEE70D4160540A058853EDE"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_dqs_rddata_align_v1_10.vp",
+      "sha256": "C0CAB4287A7A7B6B720977C1C5F9259C5F48F8DA18E9A3CA1173A073B1CCF025"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_dqsi_rdel_cal_v1_3.vp",
+      "sha256": "EF7E57755AB7558B1B518AA73999384368F349EFE7077CF9283E0911E711AC1A"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_drift_ctrl_v1_0.vp",
+      "sha256": "8EA99AC6DECF6FE14C0585B4F121D7A1ACC17290D7A1C68725D984E704E277BC"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_eyecal_v1_5.vp",
+      "sha256": "31977DD34339D163ECBD8B9949AC4B65F0EAA6FBCD9A75D787400AE73F7F51D2"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_gate_update_ctrl_v1_3.vp",
+      "sha256": "CE20EB3B9CBE3B392D8BE0AA1D6787247BC7B2D91AF36A1F734F35C9EB03D642"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_gatecal_v1_10.vp",
+      "sha256": "B6859250CA098E81FF05BCAB08DFE8FFEE77648218E90C040A1DD3838A0671F2"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_gpll_phase_v1_0.vp",
+      "sha256": "EF8EBE3742D23848BD2A1492D4901F886CE49AA98DBC295873B67E4116BA8524"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_info_v1_0.vp",
+      "sha256": "0794201BE97885E7695A16B6C35848655B08C4BF191405D26417126512CE4AA8"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_init_v1_0.vp",
+      "sha256": "817F9F32B2260A4C35AF446E89FF4C2D4B065381B25CB2020C538D22B4A45088"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_main_ctrl_v1_10.vp",
+      "sha256": "39D5024D7364B441340B131D265D0648D8B7C1F92CC417424D7C584413C5F4A6"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_rdcal_v1_10.vp",
+      "sha256": "6B4C7F3C24A4750AC69B4E7882617105C6E31F02DA712AAA87932B8561CCEA2B"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_reset_ctrl_v1_3.vp",
+      "sha256": "17189B59ED5307C4A27EC35485B33AF5C98A89E6EE7F9C5D85AAED9C03A77163"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_rst_clk_phase_adj_v1_0.vp",
+      "sha256": "DD1DBAE71726D968DF475FE7FBB2B7321411FA67786092C0DC2E065EDCF39382"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_rst_debounce_v1_0.vp",
+      "sha256": "BFF7ED95C8D305DFB88E6002C6DE8453A21C72C03A5A0521A76DDD105598DC4D"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_slice_rddata_align_v1_0.vp",
+      "sha256": "BEFB44F07D851524109A6DC8E17C5B8062694AA274ED8DBC4F7326B8FE1C443E"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_training_ctrl_v1_0.vp",
+      "sha256": "777E8EE9D8D819FDCF04B39B5A5D6086C52369A7F19F04DBD0D06F7A7D3D6110"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_upcal_v1_0.vp",
+      "sha256": "AFBCA3503DA609F7951AD7FBEF386BD007F403C89F52377211BA521967C94455"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_wdata_path_adj_v1_10.vp",
+      "sha256": "85F625ED4A09964442E8616074EEA9E4757E43B4217589BB9E2F289C9748B272"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_wrcal_v1_7.vp",
+      "sha256": "0A8CB0BB70BD40809260C50BCB85D092C16FEA5D9AB2E4FBBE647CCBD1BFB1B0"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\ddrphy\\ips2l_ddrphy_wrlvl_v1_0.vp",
+      "sha256": "00C086BD729BE3AB8287F6EB786CFB3549C97AA92F8465C608B8FC2477DF3EDC"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_apb_cross_v1_2.vp",
+      "sha256": "62F7D55354A8AFE4D02BC6F6D6DC30FC8E9960D3B21709988B887ACC99D09CF5"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_calib_delay_v1_2.vp",
+      "sha256": "A52E992B9766B6CB22ED23AA01D1CC5AC9B6A429A8E49DE7A13AC51DD70E9784"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_cfg_apb_v1_2.vp",
+      "sha256": "482CB280A614F70209F1D07892FDD773A259D2CA0F23E8F38B85A9FAF00513B9"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcd_bm_v1_2.vp",
+      "sha256": "BFBD472DD8B427FE6B003DD510F73DB89F915AC92D31FE8A779C40F9D4E56BEE"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcd_rowaddr_v1_2.vp",
+      "sha256": "4AC4721747B13020E1895BE6265E55DF90968F05BEB8056279589039394BB9BE"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcd_sm_v1_2.vp",
+      "sha256": "D7E710E3ED4D1807FB0BDD4D84C264817247A4DA41123C72439C555573821F49"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcd_top_v1_2.vp",
+      "sha256": "26AB4E142F555602C023F62B19DF52056C6D51DA5052401254066CAE0655DDAA"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcp_back_ctrl_v1_2.vp",
+      "sha256": "FE7B340B41D80EC7428CC38329A41864BCF5C209A6310610D09C7BC8579E541F"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcp_buf_v1_2.vp",
+      "sha256": "DAB35FA172243ECBB5426A8EBCCC2C168368EA0A6EA0558C909B815D781B17D6"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcp_out_v1_2.vp",
+      "sha256": "9471082E23170B144DC619F7F7E08C94B8A03378F72DA388F744D6ACB728928B"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dcp_top_v1_2.vp",
+      "sha256": "21B1F0E3B4660E1078B47000BFE50022346414F5D5E713AC9E522A4F39F76548"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_dfi_v1_2.vp",
+      "sha256": "ABF138D692E634FABE5F569B98D897DFECE8A8AE66CEE1DBA830A56D7E255DF1"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_lp_v1_2.vp",
+      "sha256": "7A80CCB1E053E5C9D8F389169359570F256D709FF2E4AD2C51FDA7A7A6A4239D"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_mrs_v1_2.vp",
+      "sha256": "F78133BC021A57CF469773DAAF102817FC37069447E8ACCC80AFA1F4B20B0AD6"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_prefetch_fifo_v1_2.vp",
+      "sha256": "EE3AA91E980FB3DD08231CF1806A28EDF759F4EA8248ADFD44407D607519B9E4"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_rdatapath_v1_2.vp",
+      "sha256": "72DD8ECE021F4EE74FD576C1628C4F7D3606EF632F0E68B9569A288A092A6B0F"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_reg_fifo2_v1_2.vp",
+      "sha256": "BC9CFF65E4002A51AF0C20C2F0A9B9F17DACDE5157B58691BBFB1C44348EE08A"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_ui_axi_v1_2a.vp",
+      "sha256": "145B69395412BE2553835F9278CDF1CB1703D3BEEB914ABF7D985E3C69F817FB"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_wdatapath_v1_2.vp",
+      "sha256": "DB648E90FF607CA2F9E2B5CCA048DE417439888D0B906288E0CEC7CF038D9DEE"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_wdp_align_v1_2.vp",
+      "sha256": "1645E9EB7FAC3C9C13CD3E0D7367F132293F9CEC16835CE188C6345993D2B730"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_wdp_dcp_v1_2.vp",
+      "sha256": "3F30BE0F49F78F09915743995C950FA6FF8DE5F14598EBC8802E73B5C6D140EE"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\ips2l_mcdq_wrapper_v1_2b.vp",
+      "sha256": "D35010F49BE551FB15AB2655CBEFFCAAAA74FDF3CCB0754B033FC979D615E805"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\distributed_fifo\\ips2l_distributed_fifo_v1_0.vp",
+      "sha256": "D6C0B0D8560B0F22128B4883933944FC686FD7597CFEA0D6C545CC6AF56C0B7A"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\distributed_fifo\\rtl\\ips2l_distributed_fifo_ctr_v1_0.vp",
+      "sha256": "FE31C8F44BEA653AB20BB1830AD4F8ED41566E9CFEF354BD5E2D48C7682F353D"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\distributed_fifo\\rtl\\ips2l_distributed_fifo_v1_0_distributed_fifo_v1_0.vp",
+      "sha256": "867AC91A1485DFE613A81F372D788E784BBA8CD4B0497E56986135E92685BA73"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\distributed_fifo\\rtl\\ips2l_distributed_sdpram_v1_0_distributed_fifo_v1_0.vp",
+      "sha256": "3561BBBBD4E4432A538C3D20818D262B4F1E5517C48296F6B1B4CC8AFDD19AEF"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_com_timing_v1_2.vp",
+      "sha256": "E3F19C4BE6352AB64F07426973387F2876C540EE992F6EAC9D3F2D470B3D49C2"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_tfaw_timing_v1_2.vp",
+      "sha256": "C632619F042BEBB4F059DF7F20EEE90EB2B51B81210430CB37D01958AD3CD30F"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_tfaw_v1_2.vp",
+      "sha256": "AB87B7718BFFC4FB2A2B27765576187F09B5266BBCA7FC393C43C6DEC96FF379"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_timing_act_pass_v1_2.vp",
+      "sha256": "9F32B6936E039C15F7B07B74480179D39D1B3787965E1B90BD067A7EDE7FDD4C"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_timing_act2wr_pass_v1_2.vp",
+      "sha256": "1B3874B059923481F292BA382AD156F7DCDD9AD39DA6C86DDDD480290CCCE498"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_timing_pre_pass_v1_2.vp",
+      "sha256": "E40A64CAEC9725C231CD88DDE69973EAB3ACA38C9D2E66A2C5C0BBDDF3103AE0"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_timing_rd_pass_v1_2.vp",
+      "sha256": "78B1DE719A43EE0FC80E1A5464F7284439D91F1D4B3F83EF2AE5611920293988"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_timing_ref_pass_v1_2.vp",
+      "sha256": "C79DDE6F9A682C55AFF7BB89C4863F76A069B874FB154DFF7D3E4D4A7A88F9D1"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_timing_wr_pass_v1_2.vp",
+      "sha256": "EA3470CA984554D4908EC950314F9242042417C6C4C6B3FD05AC5D6DAAB98C90"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\mcdq_ctrl\\syn_mod\\ips2l_mcdq_trc_timing_v1_2.vp",
+      "sha256": "7234241E5968F91EC6E396794F0BB80F6C7D1BCA2038AA004D5078D3937953DA"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\pll\\ips2l_ddrphy_gpll_v1_3.vp",
+      "sha256": "3FECC367573A4B5BD158E1A8FF106C5C401C5F180143E8E5ABE6BB068E5078D2"
+    },
+    {
+      "file": "ipcore\\ddr3_test\\rtl\\pll\\ips2l_ddrphy_ppll_v1_0.vp",
+      "sha256": "34BB46106B84EAB147F130BD7526F1486D35CAEB40B0258CD59656E50D19DDDD"
+    },
+    {
+      "file": "ipcore\\pll\\pll_tb.v",
+      "sha256": "17C6AB4053FD72731C5FD336439DEB58D24F7CF17DCD1D5DA58BFD31785A084D"
+    },
+    {
+      "file": "ipcore\\pll\\pll_tmpl.v",
+      "sha256": "43A0A84065B9DD99E7D755A75AC7440E320CE311884868A7C4E29444DAFB8758"
+    },
+    {
+      "file": "ipcore\\pll\\pll_tmpl.vhdl",
+      "sha256": "75C70A5F172E08EB5D720BA05CFBE2E6CDD7D689A3C83A4F01DC0518626E4D90"
+    },
+    {
+      "file": "ipcore\\pll\\pll.idf",
+      "sha256": "2B6C5DE76A392B8ABD5DC725BAC0D15F0C2D36E11ACF16DFB7A02A00EC76CAFF"
+    },
+    {
+      "file": "ipcore\\pll\\pll.v",
+      "sha256": "77C6C9EAED5C91DC9AA1416BCD01E0263A02E165107B4A18A9FAACD19D4C45D3"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\init_param_bin_exmp.dat",
+      "sha256": "99F0926EB01A10DC1573D15B812055E57D586763E370A2CEEBD9F6763C0100D7"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\init_param_hex_exmp.dat",
+      "sha256": "1E0F90ABF756D8A8FAB7E8361F33833423ECBDF9B546F0CBC277432EAD91E6D8"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rd_fram_buf_tb.v",
+      "sha256": "5B66F5B29823318AB75CBA8688467E74A4728AD11A4BB03C532DC4CC4443A48E"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rd_fram_buf_tmpl.v",
+      "sha256": "18FA9A380AA6086A1B2B742A5F98D83D9C0828AC593F4DE92C0D449916DE10E3"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rd_fram_buf_tmpl.vhdl",
+      "sha256": "1AA5486145D05086C69B7A58200D1FB676D90085AFD69DC0EADC4EA27D85F8A2"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rd_fram_buf.idf",
+      "sha256": "687D33D6F9665917E9C51DC10AB537C1DCA59F521C48D15F654C61163B733EB8"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rd_fram_buf.v",
+      "sha256": "A2E850A37D528082B2A7965CA95F61A6B8E3702729E252B10139F0D59A575DE9"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rtl\\ipm2l_sdpram_v1_10_rd_fram_buf.v",
+      "sha256": "D036CB0FB93ED9D07EB8D371B426F813B87194AD2BC9040DFE7B739FFE33546E"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rtl\\rd_fram_buf_init_param.v",
+      "sha256": "31BD7758E8F70045183DCFD50D48D4E824ED3D61921E6559C9C96F3D270C908D"
+    },
+    {
+      "file": "ipcore\\rd_fram_buf\\rtl\\rd_fram_buf_Reset_Value.v",
+      "sha256": "B94A85DF4D6EF282C557CA5BECF0DC59986B3A7174652AEC859030A12069D874"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\init_param_bin_exmp.dat",
+      "sha256": "99F0926EB01A10DC1573D15B812055E57D586763E370A2CEEBD9F6763C0100D7"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\init_param_hex_exmp.dat",
+      "sha256": "1E0F90ABF756D8A8FAB7E8361F33833423ECBDF9B546F0CBC277432EAD91E6D8"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\wr_fram_buf_tb.v",
+      "sha256": "026852003684418A1D994635E9A4C2E5A9A1FA4B96817953D71769CA0992EF40"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\wr_fram_buf_tmpl.v",
+      "sha256": "D2FECEDAA421874FB350CE71F1B95EAD1B504BA0AADF4D41E8DFA6A798130C41"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\wr_fram_buf_tmpl.vhdl",
+      "sha256": "F403C7A5618B651DFC9670C818443C61209649A066965631C5A0753BA7D0D9E7"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\wr_fram_buf.idf",
+      "sha256": "4D3214EE0F69F3A375C03541CF5CEC4F5A778F969BBBD899C35BF23987321967"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\wr_fram_buf.v",
+      "sha256": "750ACE9F19803E53A0BB3D6E0C5A4086AE5DF83AFA52A9A0BF68E2C573467CD3"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\rtl\\ipm2l_sdpram_v1_10_wr_fram_buf.v",
+      "sha256": "D250C599D9AA4242BB3488DD945C960195F1A3B8E830D30191872534DBABAD8E"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\rtl\\wr_fram_buf_init_param.v",
+      "sha256": "F4F76865D9681707B14451F2FBE29636DFFEB5A71517272485492CFE369D82E1"
+    },
+    {
+      "file": "ipcore\\wr_fram_buf\\rtl\\wr_fram_buf_Reset_Value.v",
+      "sha256": "4943605B2F106DBBA5010D3256D024657BC55ACD943BD246A7E4F5021007A807"
+    },
+    {
+      "file": "synth_only.tcl",
+      "sha256": "9C9C024C1A7C9DDF9731B1361AEE6BEBC37EE1DADC4D3635CCCAFDE05BCFEBDA"
+    },
+    {
+      "file": "HDMI_DDR3_OV5640_test.fdc",
+      "sha256": "BA2E0B2666BA6AC4A90A0C2FD2352EEB2AE14B1F65458B14BEAD433166AFBB71"
+    }
+  ]
+}

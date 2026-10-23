@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_candidate_20261022\\source\\rtl\\undistort_bilinear.v",
+    "Hash": "AA79201F3C9139F0621D235EDF59B98DA9EF59733A2E04CD9E77EBE58EACC35E"
+  },
+  {
+    "Path": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_candidate_20261022\\source\\rtl\\undistort_cache_ab.v",
+    "Hash": "4FC449DC3BF1E34711C774057C4D92559EBD545E5F88FACAC27CAC5DA33A6A60"
+  },
+  {
+    "Path": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_candidate_20261022\\source\\rtl\\undistort_core.v",
+    "Hash": "33260C4DDA12A5A8FB69D8535D991E74B80C15F6360F4B0DD00F849A023ECFF1"
+  },
+  {
+    "Path": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_candidate_20261022\\source\\rtl\\undistort_map.v",
+    "Hash": "AAFBAAC6F658C0F7EA6219BCB172A05F82B836AC1275651D1A0AEC29251A9EE3"
+  }
+]

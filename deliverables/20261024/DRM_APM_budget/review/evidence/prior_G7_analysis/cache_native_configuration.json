@@ -1,0 +1,1586 @@
+[
+  {
+    "seed": 2,
+    "native_sha256": "423e30a3526f8a1232a831b6699c810c14d300c1ab62be74c87979a3380c7822",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219825
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219830
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219835
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219840
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219845
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219850
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219855
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219860
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219865
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219870
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219875
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219880
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219885
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219890
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219895
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219900
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29312,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 3,
+    "native_sha256": "2b5daf9740890999abd994c78aec7a9dd3eb91c35b10043fa73004f31761464f",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221467
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221472
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221477
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221482
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221487
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221492
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221497
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221502
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221507
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221512
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221517
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221522
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221527
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221532
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221537
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221542
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29186,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 5,
+    "native_sha256": "8296f5ecc471b5c33a76c691be2a364036cfadf35ed5ea5ab9d57ccee03fdf88",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219594
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219599
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219604
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219609
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219614
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219619
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219624
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219629
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219634
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219639
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219644
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219649
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219654
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219659
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219664
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219669
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29146,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 7,
+    "native_sha256": "166064898888c0de8b02bcf7edf008403b60e73162c94b93d297bff3bd95564e",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221383
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221388
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221393
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221398
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221403
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221408
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221413
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221418
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221423
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221428
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221433
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221438
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221443
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221448
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221453
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221458
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29853,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 8,
+    "native_sha256": "b738e2e0d6d68da57ebef52cef335c63b72c644ea6bcd19f2b975cd728879c4c",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221713
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221718
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221723
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221728
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221733
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221738
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221743
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221748
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221753
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221758
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221763
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221768
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221773
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221778
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221783
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221788
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29941,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 9,
+    "native_sha256": "412d1410331873732d4e63c6ad39063ea9143bb0ba0a2e37fc4b31903b96a36f",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221719
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221724
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221729
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221734
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221739
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221744
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221749
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221754
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221759
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221764
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221769
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221774
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221779
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221784
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221789
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 221794
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 30071,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 10,
+    "native_sha256": "32879f9dd5b84818debb5e59ef1baaea8fe2a16ffc0cb3f1e3fdb36d21686703",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219203
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219208
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219213
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219218
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219223
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219228
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219233
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219238
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219243
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219248
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219253
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219258
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219263
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219268
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219273
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219278
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29539,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "native_sha256": "f386bab5a3071b6f81b482d46191c5c376af4656b0a0b80096840f23fad16bc1",
+    "banks": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "instances": [
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219273
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219278
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219283
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[0].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219288
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219293
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219298
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219303
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[1].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219308
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219313
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219318
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219323
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[2].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219328
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_0/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219333
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_1/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219338
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_2/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219343
+      },
+      {
+        "name": "u_corr_top/u_core/u_cache/BANK[3].ram_3/gopdrm_36k",
+        "cell": "gopDRM_Cell_2",
+        "operator": "gopDRM",
+        "line": 219348
+      }
+    ],
+    "cells": {
+      "gopDRM_Cell_2": {
+        "line": 29763,
+        "parameters": [
+          "(PARAMETER CP_CSA_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_CSB_POL (DATATYPE BITVEC) (BITVEC (B 3 \"000\")))",
+          "(PARAMETER CP_MASK (DATATYPE BITVEC) (BITVEC (B 2 \"11\")))",
+          "(PARAMETER CP_DRM_36K (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_GRS_DIS_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_GRS_DIS_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_0 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_0 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_0 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_0 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DATA_WIDTH_A_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_DATA_WIDTH_B_1 (DATATYPE INTEGER) (INTEGER 32))",
+          "(PARAMETER CP_WRITE_MODE_A_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_WRITE_MODE_B_1 (DATATYPE STRING) (STRING \"NORMAL_WRITE\"))",
+          "(PARAMETER CP_OUTPUT_REG_A_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_OUTPUT_REG_B_1 (DATATYPE STRING) (STRING \"DISABLE\"))",
+          "(PARAMETER CP_RESET_TYPE_1 (DATATYPE STRING) (STRING \"SYNC_RESET\"))",
+          "(PARAMETER CP_CLKA_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_CLKB_OR_POL_INV_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_0 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DRM_EN_1 (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_PICEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIWEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIOCEB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PICLKB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIRSTB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBELB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHA_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_PIBEHB_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BELB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHA_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_BEHB_SET_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_0 (DATATYPE BITVEC) (BITVEC (B 15 \"000000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_0 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FIFO_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ALMOST_FULL_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_ALMOST_EMPTY_OFFSET_1 (DATATYPE BITVEC) (BITVEC (B 14 \"00000000000000\")))",
+          "(PARAMETER CP_SYNC_FIFO_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGEMPTY_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_FLAGFULL_EN_1 (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_SRVAL_A_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_A_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_0 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_SRVAL_B_1 (DATATYPE BITVEC) (BITVEC (B 18 \"000000000000000000\")))",
+          "(PARAMETER CP_CAS_EN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_DBW_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_DBR_EN (DATATYPE STRING) (STRING \"TRUE\"))",
+          "(PARAMETER CP_ECC_WREN (DATATYPE STRING) (STRING \"FALSE\"))",
+          "(PARAMETER CP_ECC_RDEN (DATATYPE STRING) (STRING \"FALSE\"))"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "setup_wns_ns": -0.796,
+  "exit_code": 0,
+  "routed_timing_pass": false,
+  "scope": "standalone synthesis only",
+  "setup_estimate_pass": false,
+  "synthesis_complete": true
+}

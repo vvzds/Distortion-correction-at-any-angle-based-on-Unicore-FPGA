@@ -1,0 +1,485 @@
+{
+  "status": "PASS_DRM_APM_ACCOUNTING_ONLY",
+  "native_reports": 34,
+  "new_PDS_run": false,
+  "master_limit_changed": false,
+  "S3_overall_pass": false,
+  "reports": [
+    {
+      "candidate": "G7",
+      "seed": 2,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 2,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 3,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 3,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 5,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 5,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 7,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 7,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 8,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 8,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 9,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 9,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 10,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 10,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": false,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 11,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G7",
+      "seed": 11,
+      "stage": "place_route",
+      "APM": 105.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": false,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 2,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 2,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": false,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 3,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 3,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 5,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 5,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 7,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 7,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 8,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 8,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 9,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 9,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": false,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 10,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 10,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": false,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 11,
+      "stage": "synthesize",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "G8",
+      "seed": 11,
+      "stage": "place_route",
+      "APM": 107.0,
+      "DRM": 29.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": false,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "AB_OLD_CORE",
+      "seed": null,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 9.0,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    },
+    {
+      "candidate": "AB_OLD_HOST",
+      "seed": null,
+      "stage": "synthesize",
+      "APM": 105.0,
+      "DRM": 22.5,
+      "status": "PASS_DRM_APM_ONLY",
+      "other_resource_errors_preserved": {
+        "APM": true,
+        "DRM": true,
+        "LUT": true,
+        "FF": true
+      }
+    }
+  ]
+}
