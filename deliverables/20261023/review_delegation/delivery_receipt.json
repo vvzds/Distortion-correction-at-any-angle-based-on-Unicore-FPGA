@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "time_bj": "2026-10-23T23:49:03.519033+08:00",
+  "packages": [
+    {
+      "filename": "审验外包与完整证据_给一号协作者_20261023.zip",
+      "bytes": 1413058678,
+      "sha256": "4ac71e1378862fcd48b988a736ac10b13eb563a46789507e7ba6e06145b2ed81",
+      "members": 36,
+      "all_members_verified": true
+    },
+    {
+      "filename": "审验外包与完整证据_给二号协作者_20261023.zip",
+      "bytes": 1413058678,
+      "sha256": "78074c2fdc40de379e758eef0641147bdf858611ba483ffeba6191bbddee00ad",
+      "members": 36,
+      "all_members_verified": true
+    }
+  ],
+  "scope": "Intake, delegation package and helper checks; no new long regression or PDS executed",
+  "incoming_files": 12,
+  "incoming_manifest_entries": 1744,
+  "version": "2.0.4",
+  "version_files": {
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.4.md": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11",
+    "D:\\FPGA项目文档\\任务清单\\各协作者当前任务清单_v2.0.4_20261023.md": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+  },
+  "delivery_status": "PENDING_USER_FORWARD",
+  "production_promoted": false,
+  "repository_archive": "Deterministic recipes reuse already tracked G8 chunks/M02/AB evidence; reassemble.py emits full ZIPs"
+}

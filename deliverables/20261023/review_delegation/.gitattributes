@@ -1,0 +1,2 @@
+original_archives/* -text
+instructions/reference/*.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

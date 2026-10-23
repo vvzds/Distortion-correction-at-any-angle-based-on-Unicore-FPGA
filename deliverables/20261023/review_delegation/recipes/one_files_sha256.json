@@ -1,0 +1,177 @@
+[
+  {
+    "path": "00_审验外包总调度.md",
+    "bytes": 4565,
+    "sha256": "bfe346af97120fc9e84bfdbb5bc531d5ee8cd9c5c37cff86f1d0d0f05ad34bc3"
+  },
+  {
+    "path": "01_输入与环境.md",
+    "bytes": 3876,
+    "sha256": "c0357c9dd9b2258044a4a1434d8e7e615cb46a6758471f61b9bb92a887fd0293"
+  },
+  {
+    "path": "02_一号任务书.md",
+    "bytes": 6550,
+    "sha256": "6a88fb8b84862565b2c9dd6e1c35928bf9e46002ce6a7b772e8e7186b36a3d92"
+  },
+  {
+    "path": "03_二号任务书.md",
+    "bytes": 5367,
+    "sha256": "bf696a3f7d7cf42c7a6811ffc45087f657cc178b6e9063b6ff004e9fa6581081"
+  },
+  {
+    "path": "04_R01-R15本轮分流回执.md",
+    "bytes": 2448,
+    "sha256": "474698ecff027c6913b4199f09bb6dc3d81f49a857924fa7a69eb150204bcb1d"
+  },
+  {
+    "path": "05_回传要求与验收标准.md",
+    "bytes": 2038,
+    "sha256": "46e1e304b1cc532d8f1d09d3b50e260f4960f259b514217daa6b2d93168dd84d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1051,
+    "sha256": "585ef8adeb7d2692dd4d09076802770b78fa25db99c6b3038e600ad77d872a5a"
+  },
+  {
+    "path": "archives.json",
+    "bytes": 1172,
+    "sha256": "ce7141187fae0e1bef9f2b6c9063682203f42adcc073677ccf09c8c2c6611b58"
+  },
+  {
+    "path": "archives/AB_ACCEPTANCE.zip",
+    "bytes": 48218664,
+    "sha256": "0b7abb068d42654ece16a716a4204d8a83c7b68065c380383b863604b3684c5a"
+  },
+  {
+    "path": "archives/COMPARE.zip",
+    "bytes": 48645398,
+    "sha256": "09541593eac6c2e9966c9b68527efc0ba01f440255fd03de6589d4304614ad16"
+  },
+  {
+    "path": "archives/G8_RESULTS.zip",
+    "bytes": 1267092583,
+    "sha256": "baf0827f2bb068175af26dbf58d7160ececba2a718ee882bbf34cfe187ce3f72"
+  },
+  {
+    "path": "archives/G8_TOOLS.zip",
+    "bytes": 36721066,
+    "sha256": "3dca8f840deceffb0db101c5f9c2b76d1330ce778f9a979661ccf3fa51e95d3d"
+  },
+  {
+    "path": "archives/M01.zip",
+    "bytes": 710761,
+    "sha256": "015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c"
+  },
+  {
+    "path": "archives/M02.zip",
+    "bytes": 10907400,
+    "sha256": "3883ae3cff8cb4fd259d39bdbd56cdbc3e48f2d07fde4b1f8d308e5eee98efb3"
+  },
+  {
+    "path": "archives/S3_M02_TOOLS.zip",
+    "bytes": 464243,
+    "sha256": "f54b1ca7bf6120094349c6004ee6aa74e170600ad042825f6aeeec67c60456e1"
+  },
+  {
+    "path": "helper_smoke.json",
+    "bytes": 10772,
+    "sha256": "7691d4464b663c2b8f768ad2d162f6e41de0d60c60a694630a7a96505194d829"
+  },
+  {
+    "path": "intake.json",
+    "bytes": 2327,
+    "sha256": "3fb1b1c4ebc7e5f9df2d08944d31442c1507e319d16a30ad895e33518d7363ab"
+  },
+  {
+    "path": "manifest_audit.json",
+    "bytes": 856,
+    "sha256": "806fbb60caef88f99b66ce031955ada0f47f249b115b8d512467e3ce5c75028a"
+  },
+  {
+    "path": "prepare.py",
+    "bytes": 2626,
+    "sha256": "5ef149ee4f760f68ac5447b436e9bb43b74044c52b2fee48e9d52559aa760af3"
+  },
+  {
+    "path": "prepare_ab_analysis.py",
+    "bytes": 2124,
+    "sha256": "6466051e431a1d6a307157c0772c0d13c5570e5b0023a39c20e62cd927ce289d"
+  },
+  {
+    "path": "receipt_template.json",
+    "bytes": 411,
+    "sha256": "6fd88b10a19585d59c61a296fd4f55fd5629e6295203d2c71ffcf78602d921f8"
+  },
+  {
+    "path": "received_notes/二号协作者/1/01_全部待回执统一清单_最新(3).md",
+    "bytes": 3016,
+    "sha256": "7295858e03524e50f6d8486d3c8c2432d7ced6622974a2d0868f17eea8ab9548"
+  },
+  {
+    "path": "received_notes/二号协作者/1/01_外部执行SOP.md",
+    "bytes": 3764,
+    "sha256": "c756e8935ecf45412f15372285711d091dc96716e056b70a1fcd270a21a2fd24"
+  },
+  {
+    "path": "received_notes/二号协作者/1/1c4a57255af1e8ee7171b4e4dce99e33.png",
+    "bytes": 38330,
+    "sha256": "e46cc81ca5a804858fee7e30ce1d9664cd8fb1b3c55ae92fcfcbf14851ecd365"
+  },
+  {
+    "path": "received_notes/二号协作者/2/01_全部待回执统一清单_最新(4).md",
+    "bytes": 3518,
+    "sha256": "7fecdf157956196fa696f1afcba202a80177a0a8b99a60ccbcc312ee51c25cfd"
+  },
+  {
+    "path": "received_notes/二号协作者/2/1539dd322782d29b8d3199d28b39d563.png",
+    "bytes": 50569,
+    "sha256": "f7f93182f542c065c9b4d8c1c04acde224a88e517bca023a8ec580b35acb6590"
+  },
+  {
+    "path": "received_notes/二号协作者/2/816b0b402cb37ca1c075fead1936cf24.png",
+    "bytes": 27138,
+    "sha256": "7dc6e2d382731aa492bbb8a20893da6225b07bed4847c85c41d293fdf458cd0e"
+  },
+  {
+    "path": "received_notes/二号协作者/2/9443a178adf9752314f2b4480aeac5d8.png",
+    "bytes": 37814,
+    "sha256": "5e7ff17318c182f2ae4aba19f5092df39bcee44ea3a8c4e0ac68c2f6a7e1de2b"
+  },
+  {
+    "path": "received_notes/二号协作者/3/01_全部待回执统一清单_最新(5).md",
+    "bytes": 5148,
+    "sha256": "23d3dd6acfb3c8c6c599340e43a6e88a57470017d119c53574701cae55954c1e"
+  },
+  {
+    "path": "reference/M02_R03_执行报告_管理方_20261023.md",
+    "bytes": 7325,
+    "sha256": "0f4f76b2e71e97702478b94063fc4ef940e9aa59fdb28de655b3599ae61a51da"
+  },
+  {
+    "path": "reference/R01_G8独立实验登记.md",
+    "bytes": 1333,
+    "sha256": "ee5fc01b8b921eab4b148468c96247fa5b839d665d462fdd167f8a42a71073e9"
+  },
+  {
+    "path": "reference/各协作者当前任务清单_v2.0.4_20261023.md",
+    "bytes": 9979,
+    "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+  },
+  {
+    "path": "reference/模块分工与工作包交付总说明_v2.0.4.md",
+    "bytes": 48380,
+    "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11"
+  },
+  {
+    "path": "run_logged.py",
+    "bytes": 3627,
+    "sha256": "60215aef7afdc7b2ce218f53b910acfa452d2b717ad423c60abff2965de8a16a"
+  },
+  {
+    "path": "verify_package.py",
+    "bytes": 691,
+    "sha256": "baf1707e83937a6c8c362c901f280d6ca3fcc1f82604f71c30209a0d03ef6689"
+  }
+]

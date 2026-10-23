@@ -1,0 +1,26 @@
+[
+  {
+    "root": "D:\\FPGA_management\\work\\review_delegation_20261023\\received\\一号协作者\\1\\M01_pub_monitor_v1.0_20261023",
+    "manifest": "MANIFEST_SHA256.json",
+    "count": 333,
+    "errors": []
+  },
+  {
+    "root": "D:\\FPGA_management\\work\\review_delegation_20261023\\received\\二号协作者\\1\\delivery",
+    "manifest": "MANIFEST_SHA256.json",
+    "count": 1222,
+    "errors": []
+  },
+  {
+    "root": "D:\\FPGA_management\\work\\review_delegation_20261023\\received\\二号协作者\\2\\AB_G8_M01_review_20261023",
+    "manifest": "delivery_manifest.json",
+    "count": 80,
+    "errors": []
+  },
+  {
+    "root": "D:\\FPGA_management\\work\\review_delegation_20261023\\received\\二号协作者\\3\\V204_independent_review",
+    "manifest": "delivery_manifest.json",
+    "count": 109,
+    "errors": []
+  }
+]

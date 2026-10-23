@@ -1,0 +1,20 @@
+{
+  "task_id": "A01/B01/...",
+  "receipt_ids": [
+    "R10"
+  ],
+  "status": "NOT_RUN",
+  "review_kind": "INDEPENDENT_CROSS_REVIEW",
+  "scope": "",
+  "candidate_sha256": null,
+  "environment": {},
+  "commands": [],
+  "started_at": null,
+  "finished_at": null,
+  "exit_code": null,
+  "files": [],
+  "reused_evidence": [],
+  "findings": [],
+  "open_items": [],
+  "production_promoted": false
+}

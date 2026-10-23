@@ -1,0 +1,62 @@
+[
+  {
+    "path": "一号协作者/1/M01_新帧发布率观测与回放_v1.0_软件候选_20261023(1).zip",
+    "bytes": 710761,
+    "sha256": "015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c"
+  },
+  {
+    "path": "二号协作者/1/01_全部待回执统一清单_最新(3).md",
+    "bytes": 3016,
+    "sha256": "7295858e03524e50f6d8486d3c8c2432d7ced6622974a2d0868f17eea8ab9548"
+  },
+  {
+    "path": "二号协作者/1/01_外部执行SOP.md",
+    "bytes": 3764,
+    "sha256": "c756e8935ecf45412f15372285711d091dc96716e056b70a1fcd270a21a2fd24"
+  },
+  {
+    "path": "二号协作者/1/1c4a57255af1e8ee7171b4e4dce99e33.png",
+    "bytes": 38330,
+    "sha256": "e46cc81ca5a804858fee7e30ce1d9664cd8fb1b3c55ae92fcfcbf14851ecd365"
+  },
+  {
+    "path": "二号协作者/1/G8_自动门禁与执行检查工具_20261023.zip",
+    "bytes": 36721066,
+    "sha256": "3dca8f840deceffb0db101c5f9c2b76d1330ce778f9a979661ccf3fa51e95d3d"
+  },
+  {
+    "path": "二号协作者/2/01_全部待回执统一清单_最新(4).md",
+    "bytes": 3518,
+    "sha256": "7fecdf157956196fa696f1afcba202a80177a0a8b99a60ccbcc312ee51c25cfd"
+  },
+  {
+    "path": "二号协作者/2/1539dd322782d29b8d3199d28b39d563.png",
+    "bytes": 50569,
+    "sha256": "f7f93182f542c065c9b4d8c1c04acde224a88e517bca023a8ec580b35acb6590"
+  },
+  {
+    "path": "二号协作者/2/816b0b402cb37ca1c075fead1936cf24.png",
+    "bytes": 27138,
+    "sha256": "7dc6e2d382731aa492bbb8a20893da6225b07bed4847c85c41d293fdf458cd0e"
+  },
+  {
+    "path": "二号协作者/2/9443a178adf9752314f2b4480aeac5d8.png",
+    "bytes": 37814,
+    "sha256": "5e7ff17318c182f2ae4aba19f5092df39bcee44ea3a8c4e0ac68c2f6a7e1de2b"
+  },
+  {
+    "path": "二号协作者/2/AB_G8对照与M01核验_二号回传_20261023.zip",
+    "bytes": 48645398,
+    "sha256": "09541593eac6c2e9966c9b68527efc0ba01f440255fd03de6589d4304614ad16"
+  },
+  {
+    "path": "二号协作者/3/01_全部待回执统一清单_最新(5).md",
+    "bytes": 5148,
+    "sha256": "23d3dd6acfb3c8c6c599340e43a6e88a57470017d119c53574701cae55954c1e"
+  },
+  {
+    "path": "二号协作者/3/V204核心证据升级与M02复核准备_二号统一回传_20261023.zip",
+    "bytes": 464243,
+    "sha256": "f54b1ca7bf6120094349c6004ee6aa74e170600ad042825f6aeeec67c60456e1"
+  }
+]

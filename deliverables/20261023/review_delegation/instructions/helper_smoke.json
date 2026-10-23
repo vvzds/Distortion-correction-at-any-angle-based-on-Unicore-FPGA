@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "scope": "Package extraction, AB analysis preparation and process recording only; no PDS/ModelSim/regression run",
+  "m01_same_as_independently_reviewed_archive": true,
+  "cases": [
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\prepare.py",
+        "--select",
+        "M01",
+        "COMPARE",
+        "S3_M02_TOOLS",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\expanded"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "stdout": "{\n  \"M01\": {\n    \"path\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\M01\",\n    \"roots\": [\n      \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\M01\\\\M01_pub_monitor_v1.0_20261023\"\n    ],\n    \"archive_sha256\": \"015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c\"\n  },\n  \"COMPARE\": {\n    \"path\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\COMPARE\",\n    \"roots\": [\n      \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\COMPARE\\\\AB_G8_M01_review_20261023\"\n    ],\n    \"archive_sha256\": \"09541593eac6c2e9966c9b68527efc0ba01f440255fd03de6589d4304614ad16\"\n  },\n  \"AB_candidate\": {\n    \"path\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\AB_candidate\",\n    \"roots\": [\n      \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\AB_candidate\\\\G4_AB_R1_R4_20261023\"\n    ],\n    \"archive_sha256\": \"aaf9facb530078f29446bc97b57b7e6b1e2228dbbf0043de3af9fe268a7579d4\"\n  },\n  \"PARAMETERS\": {\n    \"path\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\PARAMETERS\",\n    \"roots\": [\n      \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\PARAMETERS\\\\parameters\",\n      \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\PARAMETERS\\\\received\"\n    ],\n    \"archive_sha256\": \"4f05397cb412897b4cc9b28df0502820ffc21ad753b3ba1b2c4141bfb51c9b6a\"\n  },\n  \"S3_M02_TOOLS\": {\n    \"path\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\S3_M02_TOOLS\",\n    \"roots\": [\n      \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\S3_M02_TOOLS\\\\V204_independent_review\"\n    ],\n    \"archive_sha256\": \"f54b1ca7bf6120094349c6004ee6aa74e170600ad042825f6aeeec67c60456e1\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\prepare.py",
+        "--select",
+        "M01",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\expanded"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\prepare.py\", line 47, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\prepare.py\", line 32, in main\n    if a.out.exists():raise FileExistsError('Use a new directory')\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileExistsError: Use a new directory\n"
+    },
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\prepare_ab_analysis.py",
+        "--candidate",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\expanded\\AB_candidate\\G4_AB_R1_R4_20261023\\candidate",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\ab_inputs"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "stdout": "{\n  \"status\": \"PREPARED_NOT_EXECUTED\",\n  \"scope\": \"AB_HOST_OFFLINE_DIAGNOSTIC_ONLY\",\n  \"seed\": 2,\n  \"core_sha256\": \"9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68\",\n  \"source_host\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\expanded\\\\AB_candidate\\\\G4_AB_R1_R4_20261023\\\\candidate\\\\host_ab\",\n  \"analysis_tcl_sha256\": \"127ecd4d87f124684ab60e0199fb938d86ca9f9400a6bc1475d4681f0a67c273\",\n  \"rtl_fdc_ip_unchanged\": true,\n  \"uart_loc_unresolved\": true,\n  \"gen_bit_stream\": false,\n  \"production_eligible\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\prepare_ab_analysis.py",
+        "--candidate",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\expanded\\AB_candidate\\G4_AB_R1_R4_20261023\\candidate",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\ab_inputs"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\prepare_ab_analysis.py\", line 23, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\prepare_ab_analysis.py\", line 9, in main\n    if out.exists() or out.is_relative_to(a.candidate.resolve()):raise ValueError('Output must be new and outside source candidate')\n                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output must be new and outside source candidate\n"
+    },
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\run_logged.py",
+        "--cwd",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\dummy",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\run_ok",
+        "--timeout",
+        "10",
+        "--",
+        "C:\\Users\\songtianyu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-c",
+        "print(\"synthetic wrapper smoke\")"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "stdout": "{\n  \"status\": \"FINISHED\",\n  \"argv\": [\n    \"C:\\\\Users\\\\songtianyu\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\",\n    \"-c\",\n    \"print(\\\"synthetic wrapper smoke\\\")\"\n  ],\n  \"cwd\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\dummy\",\n  \"tool_sha256\": \"4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a\",\n  \"declared_tool_version\": \"UNVERIFIED_SEE_NATIVE_LOG\",\n  \"version_confirmed\": false,\n  \"started_at\": \"2026-10-23T23:46:40.626772+08:00\",\n  \"timeout_seconds\": 10,\n  \"pid\": 25608,\n  \"exit_code\": 0,\n  \"finished_at\": \"2026-10-23T23:46:40.830004+08:00\",\n  \"termination\": null,\n  \"changed_input_files\": [],\n  \"artifact_read_errors\": [],\n  \"console_sha256\": \"91b81e834f7e7c44e723c1adeea85c0b53a81fed1982873a32054d7b23b1fa5e\",\n  \"physics_pass\": \"NOT_ASSESSED\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\run_logged.py",
+        "--cwd",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\dummy",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\run_fail",
+        "--timeout",
+        "10",
+        "--",
+        "C:\\Users\\songtianyu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-c",
+        "raise SystemExit(7)"
+      ],
+      "exit_code": 2,
+      "expected": 2,
+      "stdout": "{\n  \"status\": \"FINISHED\",\n  \"argv\": [\n    \"C:\\\\Users\\\\songtianyu\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\",\n    \"-c\",\n    \"raise SystemExit(7)\"\n  ],\n  \"cwd\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\dummy\",\n  \"tool_sha256\": \"4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a\",\n  \"declared_tool_version\": \"UNVERIFIED_SEE_NATIVE_LOG\",\n  \"version_confirmed\": false,\n  \"started_at\": \"2026-10-23T23:46:41.226066+08:00\",\n  \"timeout_seconds\": 10,\n  \"pid\": 24064,\n  \"exit_code\": 7,\n  \"finished_at\": \"2026-10-23T23:46:41.360218+08:00\",\n  \"termination\": null,\n  \"changed_input_files\": [],\n  \"artifact_read_errors\": [],\n  \"console_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n  \"physics_pass\": \"NOT_ASSESSED\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\dispatch\\run_logged.py",
+        "--cwd",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\dummy",
+        "--out",
+        "D:\\FPGA_management\\work\\review_delegation_20261023\\helper_smoke\\run_timeout",
+        "--timeout",
+        "1",
+        "--",
+        "C:\\Users\\songtianyu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-c",
+        "import time; time.sleep(10)"
+      ],
+      "exit_code": 2,
+      "expected": 2,
+      "stdout": "{\n  \"status\": \"TIMEOUT\",\n  \"argv\": [\n    \"C:\\\\Users\\\\songtianyu\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\",\n    \"-c\",\n    \"import time; time.sleep(10)\"\n  ],\n  \"cwd\": \"D:\\\\FPGA_management\\\\work\\\\review_delegation_20261023\\\\helper_smoke\\\\dummy\",\n  \"tool_sha256\": \"4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a\",\n  \"declared_tool_version\": \"UNVERIFIED_SEE_NATIVE_LOG\",\n  \"version_confirmed\": false,\n  \"started_at\": \"2026-10-23T23:46:41.664216+08:00\",\n  \"timeout_seconds\": 1,\n  \"pid\": 24868,\n  \"exit_code\": 1,\n  \"finished_at\": \"2026-10-23T23:46:43.468419+08:00\",\n  \"termination\": {\n    \"exit_code\": 0,\n    \"stdout\": \"SUCCESS: The process with PID 25000 (child process of PID 24868) has been terminated.\\r\\nSUCCESS: The process with PID 24868 (child process of PID 6316) has been terminated.\\r\\n\",\n    \"stderr\": \"\"\n  },\n  \"changed_input_files\": [],\n  \"artifact_read_errors\": [],\n  \"console_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n  \"physics_pass\": \"NOT_ASSESSED\"\n}\n",
+      "stderr": ""
+    }
+  ]
+}

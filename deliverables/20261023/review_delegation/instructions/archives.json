@@ -1,0 +1,37 @@
+{
+  "M01": {
+    "path": "archives/M01.zip",
+    "bytes": 710761,
+    "sha256": "015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c"
+  },
+  "G8_TOOLS": {
+    "path": "archives/G8_TOOLS.zip",
+    "bytes": 36721066,
+    "sha256": "3dca8f840deceffb0db101c5f9c2b76d1330ce778f9a979661ccf3fa51e95d3d"
+  },
+  "COMPARE": {
+    "path": "archives/COMPARE.zip",
+    "bytes": 48645398,
+    "sha256": "09541593eac6c2e9966c9b68527efc0ba01f440255fd03de6589d4304614ad16"
+  },
+  "S3_M02_TOOLS": {
+    "path": "archives/S3_M02_TOOLS.zip",
+    "bytes": 464243,
+    "sha256": "f54b1ca7bf6120094349c6004ee6aa74e170600ad042825f6aeeec67c60456e1"
+  },
+  "M02": {
+    "path": "archives/M02.zip",
+    "bytes": 10907400,
+    "sha256": "3883ae3cff8cb4fd259d39bdbd56cdbc3e48f2d07fde4b1f8d308e5eee98efb3"
+  },
+  "AB_ACCEPTANCE": {
+    "path": "archives/AB_ACCEPTANCE.zip",
+    "bytes": 48218664,
+    "sha256": "0b7abb068d42654ece16a716a4204d8a83c7b68065c380383b863604b3684c5a"
+  },
+  "G8_RESULTS": {
+    "path": "archives/G8_RESULTS.zip",
+    "bytes": 1267092583,
+    "sha256": "baf0827f2bb068175af26dbf58d7160ececba2a718ee882bbf34cfe187ce3f72"
+  }
+}
