@@ -1,0 +1,56 @@
+{
+  "zip": "G4_AB阶段审查与补正转交包_给一号协作者_20261023.zip",
+  "bytes": 24213083,
+  "sha256": "dbb6497e27cbad1af755f473a2a00bd3db8e7d04ef7ef19e255d61fe40ed5742",
+  "manifest_files": 66,
+  "manifest_check": "PASS",
+  "local_tests": [
+    {
+      "case": "c6_display",
+      "passed": true,
+      "classification": "PASS",
+      "result": "modelsim_final/c6_display/result.json"
+    },
+    {
+      "case": "c6_host_arb",
+      "passed": false,
+      "classification": "COMPILE_BLOCKED",
+      "result": "modelsim_final/c6_host_arb/result.json"
+    },
+    {
+      "case": "cache72",
+      "passed": true,
+      "classification": "PASS",
+      "result": "modelsim_final/cache72/result.json"
+    },
+    {
+      "case": "identity_v7_resume",
+      "passed": false,
+      "classification": "COMPILE_BLOCKED",
+      "result": "modelsim_final/identity_v7_resume/result.json"
+    },
+    {
+      "case": "mode_switch",
+      "passed": true,
+      "classification": "PASS",
+      "result": "modelsim_final/mode_switch/result.json"
+    },
+    {
+      "case": "real_v7_resume_stress",
+      "passed": false,
+      "classification": "COMPILE_BLOCKED",
+      "result": "modelsim_final/real_v7_resume_stress/result.json"
+    },
+    {
+      "case": "segment",
+      "passed": true,
+      "classification": "PASS",
+      "result": "modelsim_final/segment/result.json"
+    }
+  ],
+  "versioned_documents_unchanged": {
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.3.md": "2d36c72f80c80ad977d2b6a2080bc66bab0e3ff876dc508bbdee39dc8b3903fe",
+    "D:\\FPGA项目文档\\任务清单\\各协作者当前任务清单_v2.0.3_20261023.md": "f5be22dea0495db187857f4b5969c2f9deb85815743c3f3176cb52f3fe00c837"
+  },
+  "secret_pattern_scan": "PASS"
+}
