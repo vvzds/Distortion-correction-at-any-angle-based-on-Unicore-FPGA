@@ -1,0 +1,53 @@
+{
+  "zip": "G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+  "bytes": 802850170,
+  "sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5",
+  "part_size_limit_bytes": 94371840,
+  "parts": [
+    {
+      "path": "parts/delivery.zip.part001",
+      "bytes": 94371840,
+      "sha256": "ba8082b125978919c79420a9915c4dde01441c63d0db7c6fc9eb0249aa764865"
+    },
+    {
+      "path": "parts/delivery.zip.part002",
+      "bytes": 94371840,
+      "sha256": "bcc5f145e586220185fbc73e2f7743388771cce6d9fbd618248f7793f7ec7c37"
+    },
+    {
+      "path": "parts/delivery.zip.part003",
+      "bytes": 94371840,
+      "sha256": "c8fd518867de55bd94b243a15f363859fbc7a3ed042ec7039009ed21b50643de"
+    },
+    {
+      "path": "parts/delivery.zip.part004",
+      "bytes": 94371840,
+      "sha256": "2d3ad3f73ff92cd07c182b80042769650d896a40e5b608c0410ab36b0935f539"
+    },
+    {
+      "path": "parts/delivery.zip.part005",
+      "bytes": 94371840,
+      "sha256": "7567e6c888882fb8dd961501153be63f0f58674bfdfefa83dca9cc5afbce0ce5"
+    },
+    {
+      "path": "parts/delivery.zip.part006",
+      "bytes": 94371840,
+      "sha256": "cbfb55e659c8aab61ca2562e95cef2699020dd97ad6f4813dbe2c737f202b2c0"
+    },
+    {
+      "path": "parts/delivery.zip.part007",
+      "bytes": 94371840,
+      "sha256": "a67575aa0836bae8b87bda32d8a6bba8fe229049d9a1e86b7032827887e0485e"
+    },
+    {
+      "path": "parts/delivery.zip.part008",
+      "bytes": 94371840,
+      "sha256": "bc7e3ec8bc0e9eebb42b26b6f788127b02ea7c186eddc24460bbe9b4a567428d"
+    },
+    {
+      "path": "parts/delivery.zip.part009",
+      "bytes": 47875450,
+      "sha256": "0b3ecd3a3f9b0813c55cffad8da04c4ce915bed3cfab5c8dc28e41abd9430635"
+    }
+  ]
+}

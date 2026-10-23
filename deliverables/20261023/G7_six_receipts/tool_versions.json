@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-10-23T11:37:31.906169+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "modelsim": {
+    "path": "D:/FPGA/MODELSIM/win64/vsim.exe",
+    "version": "ModelSim SE-64 10.7",
+    "sha256": "a5fb4747c8c06b1f3ad5b5f9ae6240ab6e28598cdf6058aa6f5139d0732303cf",
+    "source": "Full ModelSim console banners in regression logs"
+  },
+  "pds": {
+    "path": "D:/pango/PDS_2022.2-SP6.4/bin/pds_shell.exe",
+    "version": "2022.2-SP6.4 build 146967",
+    "sha256": "631ffd8f14d6246872873c72025cbc2734c9f8c388075b7afb0b042f3a684e6f",
+    "source": "Native CSV/SNR/PRR banners and physical_launch.json"
+  },
+  "m03_verified": {
+    "numpy": "2.3.5",
+    "opencv_python_headless": "4.10.0.84",
+    "cv2": "4.10.0",
+    "isolated_target": "D:\\FPGA_management\\work\\G7_six_receipts_20261023\\m03_dependencies"
+  },
+  "m03_initial_incompatible": {
+    "numpy": "2.5.4",
+    "cv2": "5.0.0",
+    "result": "17/18; original R05 HoughLinesP shape assumption incompatible"
+  },
+  "timestamp_policy": "Wrapper UTC timestamps are authoritative; vendor local logs use host UTC+08:00, retained without relabeling"
+}

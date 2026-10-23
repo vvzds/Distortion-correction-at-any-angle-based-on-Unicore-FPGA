@@ -1,0 +1,577 @@
+{
+  "schema": "g7-m03-receipts-R01-R14-v1",
+  "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+  "recipient": "二号协作者",
+  "candidate_scope": "User confirmed original G7 C13 FIFO32; FIFO16 independent",
+  "production_baseline": "G4 9e9e0fc",
+  "master_version_unchanged": "2.0.3",
+  "management_timing_pass": false,
+  "S4_receiver": "PASS_FUNCTIONAL_ONLY",
+  "S5_archive_integrity": "PASS",
+  "S5_receiver": "FAIL_RESOURCE_REPORT_INCONSISTENCY_6_OF_8_VALID",
+  "board": "NOT_RUN",
+  "real_quality": "NOT_EVALUATED",
+  "receipts": [
+    {
+      "id": "R01",
+      "status": "PASS",
+      "title": "G7登记与判据",
+      "reason": "原G7 C13/II=1、FIFO32及八种子已登记；FIFO16独立；G7按7/8且最差≥−0.05ns审查，资源旧预算不豁免。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "physical_g7_original/run_plan.json",
+          "sha256": "622539e7bbdee02e47484d863b100f8c2d637259f9cf7719282a51436fb66468",
+          "bytes": 20131
+        },
+        {
+          "path": "execution/2/data/trusted_baseline.json",
+          "sha256": "d1ec25dfb1a147abe0fc98dafd6bcf12196852a0f8dddcd544a89d0839e167a0",
+          "bytes": 165591
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R01_G7登记与本批验收口径.md",
+          "sha256": "7fd29307b80abb157c6840fe7ff5601ca99b0b89fd511ec26283787b9840e7d8",
+          "bytes": 4044
+        },
+        {
+          "path": "physical_launch.json",
+          "sha256": "a03d8179f490cbc735b4b7241e4fd39d83670ac08c5bd3edfd47960a50d3b535",
+          "bytes": 634
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R02",
+      "status": "PASS",
+      "title": "八种子执行回件",
+      "reason": "8轮全量完成、退出0、147输入前后不变；执行PASS与时序FAIL分开。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "physical_launch.json",
+          "sha256": "a03d8179f490cbc735b4b7241e4fd39d83670ac08c5bd3edfd47960a50d3b535",
+          "bytes": 634
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R02_R03_八种子物理与寄存结构回执.md",
+          "sha256": "71b74802d4c2395bc8c19ffc8c052d6f3d1b3a2924ab4760c0ac114d99a2af94",
+          "bytes": 3295
+        },
+        {
+          "path": "physical_execution_summary.json",
+          "sha256": "082157c5954d28a1725890ed8ab165bb2821eb7e81f3a505a42f6f2971dac482",
+          "bytes": 1075
+        },
+        {
+          "path": "physical_g7_original/seed_2/process_receipt.json",
+          "sha256": "2635c63b3018febeeb8b755d86e949479f0cc8281bb94ebcb3392c374b9d4b19",
+          "bytes": 60660
+        },
+        {
+          "path": "physical_g7_original/seed_3/process_receipt.json",
+          "sha256": "ee183c49cc921ad1f0097ff5b8feb93db1859aec978663e0ec031b2602926e8c",
+          "bytes": 60660
+        },
+        {
+          "path": "physical_g7_original/seed_5/process_receipt.json",
+          "sha256": "fb38ab4e9e89a6350c65cd40c7719e965e9f65e1b588dac894c8e151ab368589",
+          "bytes": 60660
+        },
+        {
+          "path": "physical_g7_original/seed_7/process_receipt.json",
+          "sha256": "8a3f78ea8471dbfa4908ab152845a84c46d4cb7440c97a3dc4c58a192779a64f",
+          "bytes": 60660
+        },
+        {
+          "path": "physical_g7_original/seed_8/process_receipt.json",
+          "sha256": "4a7a824cf9a4b3c22696b888bb2668a0e5ab769bad97d73bc80af2e18f62d7f9",
+          "bytes": 60659
+        },
+        {
+          "path": "physical_g7_original/seed_9/process_receipt.json",
+          "sha256": "b4d34bedf852eed7302ae5b5a5490f68c165b678e37066ce67e51c52ac117c06",
+          "bytes": 60660
+        },
+        {
+          "path": "physical_g7_original/seed_10/process_receipt.json",
+          "sha256": "3a624cfae831e6d8673eb70fc89991c5888722eca10de6174e3f7645e67fbc60",
+          "bytes": 60663
+        },
+        {
+          "path": "physical_g7_original/seed_11/process_receipt.json",
+          "sha256": "ade1c03242918a92e16cc797c93c104adad312ae86e9107a488cbf19198ed72d",
+          "bytes": 60664
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R03",
+      "status": "PASS",
+      "title": "物理原件与寄存保留",
+      "reason": "全部原生阶段产物已归档；八轮sx/sy两侧各80有效寄存位及CLK/Q、后级连线核查通过。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "physical_launch.json",
+          "sha256": "a03d8179f490cbc735b4b7241e4fd39d83670ac08c5bd3edfd47960a50d3b535",
+          "bytes": 634
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R02_R03_八种子物理与寄存结构回执.md",
+          "sha256": "71b74802d4c2395bc8c19ffc8c052d6f3d1b3a2924ab4760c0ac114d99a2af94",
+          "bytes": 3295
+        },
+        {
+          "path": "native_audit/summary.json",
+          "sha256": "87abb4f3bcf47988e46edaa812d365d959df25f952b9c2b475d5f2f831f17d0b",
+          "bytes": 1333
+        },
+        {
+          "path": "physical_analysis/summary.json",
+          "sha256": "fcc9bd2054076dab37b72ba3b4e64d9633603ca2cf831ec8b4fc4eea28289473",
+          "bytes": 7979
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R04",
+      "status": "FAIL",
+      "title": "门禁与接收链",
+      "reason": "原门禁拒收合法空辅助文件；独立修复105+18项测试普通/-O均通过；8轮执行完成，原生CSV闭合5/8；门禁有效6/8、有效闭合4/8（按计划8轮分母）；最差原生CSV WNS -0.401ns，G7管理物理数值失败。双口径S2：FAIL；seed 8 CSV -0.012ns / holdfix +0.001ns，闭合方向不一致。seed 10/11另因原生资源两表不一致无效；不择优替换CSV值。S4功能接收PASS，S5文件完整/哈希PASS、语义一致性FAIL，整体候选不晋升。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "execution/2/g7_gate.py",
+          "sha256": "a3b043d710bfea4259a68ebdb46c1299c73df58cf71b544f8bcdc48e60fa02f3",
+          "bytes": 14964
+        },
+        {
+          "path": "gate_aux_fix/g7_gate.py",
+          "sha256": "b16b927f73f62d21b67161b7aa1f47aab62d106a1c5ae91ab4b24a4c6a50274e",
+          "bytes": 15601
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R04_门禁兼容修复说明.md",
+          "sha256": "27524d5a3b2fa77834f90e7a7a28ebfd8d94d1b4a3117c68a7250a33e43b1dde",
+          "bytes": 2795
+        },
+        {
+          "path": "gate_original_strict/report.json",
+          "sha256": "73f754af224b70e3a7d419a3a215aabca14cf67680143f5ba601bdd35c5235c6",
+          "bytes": 2300
+        },
+        {
+          "path": "gate_fixed_strict/report.json",
+          "sha256": "24b6ac568728aba3a6b1bec1f1c58e5b8c3c171cfc41e1b4406be21583c9de0a",
+          "bytes": 39633430
+        },
+        {
+          "path": "gate_aux_fix/change_receipt.json",
+          "sha256": "f864d5149c6583ac22f1d40c0ec1e3d26c9428f0f5f2c0fa42b90cde2024b532",
+          "bytes": 404
+        },
+        {
+          "path": "local_runs/original_gate_strict.json",
+          "sha256": "7a74f6c601d96ed94e4ae99c7fdad1caf29b64fce51ae048b179827264c13e6b",
+          "bytes": 1353
+        },
+        {
+          "path": "local_runs/fixed_gate_strict.json",
+          "sha256": "14bae828aa72528fa1a3c88780244487131c9be9b47473a3b3e01c4c1f435af7",
+          "bytes": 1356
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R05",
+      "status": "PASS",
+      "title": "历史G6补证",
+      "reason": "可得历史原件及同八种子重算完成；PAP_GROUP既有证明复用。历史ADF/DMR缺原执行哈希锚点的限制仍保留。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "historical_g6/R05_G6历史原件补证.zip",
+          "sha256": "fd68a96869803665b4620bc53b94b806e72a7999f84b9331e87e701ef8403155",
+          "bytes": 262646608
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R05_历史G6补证与边界.md",
+          "sha256": "8ae271733e23ccb59fef8b7231574a4e2b2e28a143c5fb76b0313f0f5347c787",
+          "bytes": 1891
+        },
+        {
+          "path": "historical_g6/receipt.json",
+          "sha256": "99e57c708340404d51e38aae613a641f2d4881b1fd62861f796101690ac1d3ae",
+          "bytes": 1846
+        },
+        {
+          "path": "historical_g6/current_files_sha256.json",
+          "sha256": "0018f7521ce5449aae187cd769fc98c267e83dbd550330ba52db5d40e5c53b99",
+          "bytes": 540664
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R06",
+      "status": "FAIL",
+      "title": "资源与警告",
+      "reason": "cache DRM16超旧≤12；APM105/240，map87/bilinear18。seed10/11两表LUT差2/1未解释，警告分类保留。FIFO16实际综合−13 LUT/−2 FF，DRM/APM与WNS不变。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "fifo16_device_map/fifo16_frozen_inputs.json",
+          "sha256": "461d21764061a5e11f2ece7652cf06e873c8d4342f3ef48d79b16e010de76310",
+          "bytes": 18619
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R06_资源与警告裁定.md",
+          "sha256": "11f6378f1d0bd47b53a9c9ee24f7a8235649f4c11ef1537e652d2e49c8762353",
+          "bytes": 4996
+        },
+        {
+          "path": "physical_analysis/fifo16_mapping_comparison.json",
+          "sha256": "4e6ac4fb7584421930534f51ffba8b27ad515df741fadb4954711c31ed33ab7a",
+          "bytes": 10787
+        },
+        {
+          "path": "physical_analysis/seed_10.json",
+          "sha256": "a87f519a89b13132a5bd061d01893f04c6a9e888c265f4001b2452f6ef8913ef",
+          "bytes": 2797531
+        },
+        {
+          "path": "physical_analysis/seed_11.json",
+          "sha256": "0156cd4fa83d22b5ac851185c041d71b889a761a85802834294feb909a8a7f96",
+          "bytes": 2797809
+        },
+        {
+          "path": "fifo16_device_map/execution_receipt.json",
+          "sha256": "d72086622342decfc8f59f1ad39a08d8646abcd8ab5171ae22bb75b00ba52680",
+          "bytes": 58603
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R07",
+      "status": "PASS",
+      "title": "功能与整机回归",
+      "reason": "原G7十组与FIFO16受影响协议/T0-T9/I0-I7通过；FIFO16冻结生命周期复跑、等价/复位/负例通过；板端未测。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "execution/1/G7_core_candidate/source/rtl/undistort_core.v",
+          "sha256": "7b997f7040c0f05d0cc785a6ceed44aa3eff1348fbed3eaa4171596ccfde755d",
+          "bytes": 13766
+        },
+        {
+          "path": "execution/5/candidate_fifo16/undistort_core.v",
+          "sha256": "47a1ff0f6b747a6126ce9141a1dde6e709d3b23f86b713efd79f9b0e67c1ed76",
+          "bytes": 14155
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R07_功能及FIFO16回归回执.md",
+          "sha256": "cd73ccfe08d626b357e55debcaff4fac23c481a26658125d1876a39089b69b24",
+          "bytes": 2426
+        },
+        {
+          "path": "functional_summary.json",
+          "sha256": "ddafeacfb35d87729f650b6a30151065cf575c5a77b0d84828d87ed72cca0371",
+          "bytes": 4415
+        },
+        {
+          "path": "local_runs/g7_all.json",
+          "sha256": "e9fa378154fb02d1d32c97ada41acbddf9a72ea6c5fdccd7f2380e67a39d25cc",
+          "bytes": 12724
+        },
+        {
+          "path": "local_runs/fifo16_lifecycle_clean.json",
+          "sha256": "97278d6b25144720342e2b0d280c0005ff13d0793480c88d7f49d60904005f21",
+          "bytes": 8485
+        },
+        {
+          "path": "local_runs/fifo16_contracts.json",
+          "sha256": "20a5ff5369dfde18ac1f7c6bb1e6e2b554f5eeae219e6ecb5f7e5d6fc8c150ef",
+          "bytes": 8464
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R08",
+      "status": "PASS",
+      "title": "真实参数冻结关联",
+      "reason": "正式M03已有Brown4原码和坐标说明复用；仿射恒等禁用、Gamma关闭；本次离线组冻结，实际上板关联见R11缺件。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "frozen_parameters/real_frozen.json",
+          "sha256": "f7e47f345553f4779e20861df53dacf9baa929aa1d72c5ace4c66870c4e874cf",
+          "bytes": 788
+        },
+        {
+          "path": "frozen_parameters/identity_frozen.json",
+          "sha256": "d4216ab6a99fc252ecb755a7e7a196d6fc089dbf3aeca76f4379c1dcb225062a",
+          "bytes": 745
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R08_R09_真实参数与吞吐回执.md",
+          "sha256": "3ff01cef37d084aae9d23d7e6b279d18fc35be811f8ee5f9e3244a62853a21bb",
+          "bytes": 3023
+        },
+        {
+          "path": "frozen_parameters/source_association.json",
+          "sha256": "d847bdc4483fe6bd50b992437c0e850e558a054ea465343f1d33871f81404058",
+          "bytes": 1317
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R09",
+      "status": "FAIL",
+      "title": "真实精度与性能",
+      "reason": "四个新全像素帧精度PASS，恒等精确；真实标准6.281965拍/像素，实测首返回64拍时8.304940，吞吐未达目标；板端发布率未测。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "frozen_parameters/real_frozen.json",
+          "sha256": "f7e47f345553f4779e20861df53dacf9baa929aa1d72c5ace4c66870c4e874cf",
+          "bytes": 788
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R08_R09_真实参数与吞吐回执.md",
+          "sha256": "3ff01cef37d084aae9d23d7e6b279d18fc35be811f8ee5f9e3244a62853a21bb",
+          "bytes": 3023
+        },
+        {
+          "path": "frozen_parameters/verification_summary.json",
+          "sha256": "87b0aa6ea72742206cc7c1cac8ffa34460446e7c0a0efa8ac7881b07c0f2f211",
+          "bytes": 3287
+        },
+        {
+          "path": "local_runs/real_profile_standard.json",
+          "sha256": "96da6f2df70dd3796f9ee831f9db3328245dfecdca007ab3d7d5815e117620e4",
+          "bytes": 2050
+        },
+        {
+          "path": "local_runs/real_profile_wait64.json",
+          "sha256": "1a317068c9991015328b32dab1137835eb9aa57025c45a4f6305f151edf07447",
+          "bytes": 1920
+        },
+        {
+          "path": "local_runs/real_profile_first64.json",
+          "sha256": "6b81752ac8bcae08dcc444e72b324401ffc5f9122c2eea6f1c9df5d4792c9287",
+          "bytes": 1921
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R10",
+      "status": "FAIL",
+      "title": "一号A+B与C6",
+      "reason": "C6与阶段材料已接收，四组本机测试PASS；完整核ModelSim声明顺序编译失败，待一号按已转交意见补正，不合并G7。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "reference_AB/G4_AB阶段审查与补正转交包_给一号协作者_20261023.zip",
+          "sha256": "dbb6497e27cbad1af755f473a2a00bd3db8e7d04ef7ef19e255d61fe40ed5742",
+          "bytes": 24213083
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R10_AB当前回执与分工.md",
+          "sha256": "53cb074c31f0c24f0a8d06b1bf2d1730753edfa87be1d71de4d06b7162d89d18",
+          "bytes": 2015
+        },
+        {
+          "path": "reference_AB/审查结论与处理意见_给一号协作者_20261023.md",
+          "sha256": "6c7b5c940408666ca61b8783dfb320e66b0b247a0e15599fcfa45e3d4175bb24",
+          "bytes": 9854
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R11",
+      "status": "MISSING",
+      "title": "板端应用/PC闭环",
+      "reason": "缺实际位流/参数应用、UART/0x05时限、发布计数和画面关联；本机未执行串口/摄像头/烧录。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "frozen_parameters/source_association.json",
+          "sha256": "d847bdc4483fe6bd50b992437c0e850e558a054ea465343f1d33871f81404058",
+          "bytes": 1317
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R11_R12_板端闭环和真实素材缺件回执.md",
+          "sha256": "10479dacddcf789c533c339d6516c7b009ebb98c214522d6df3415037448d66e",
+          "bytes": 1856
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R12",
+      "status": "MISSING",
+      "title": "M03输入与真实素材",
+      "reason": "正式任务296件独立核验PASS，已有参数不再索要；真实前后原帧、原标定图和采集/ROI关联仍缺。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "execution/6/reference_original/M03/MANIFEST_SHA256.json",
+          "sha256": "1a9efc4d2a9919a9be629f8fa0e082b9e34699d5fa323d8178cd89ce7627c096",
+          "bytes": 53829
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R11_R12_板端闭环和真实素材缺件回执.md",
+          "sha256": "10479dacddcf789c533c339d6516c7b009ebb98c214522d6df3415037448d66e",
+          "bytes": 1856
+        },
+        {
+          "path": "local_runs/m03_reference_integrity.json",
+          "sha256": "293eb6ccdcfe36ac3071eb4c0295514c06d9d3af14a9e93ed507b146bf3f5ec0",
+          "bytes": 661
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R13",
+      "status": "PASS",
+      "title": "M03软件复核",
+      "reason": "隔离NumPy2.3.5/OpenCV4.10.0下普通/-O各18、E8 15/15、公开正负CLI审计通过；OpenCV5首次失败保留，真实质量未测/未判。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "receipt_docs/requirements-m03-local-verified.txt",
+          "sha256": "b0d53e156fa52ee2a4b9abf8975c9879dd78daf951404a007658b5d5e4f1910a",
+          "bytes": 47
+        },
+        {
+          "path": "local_runs/m03_environment_adaptation.json",
+          "sha256": "888ab015e1b9bb236a86cea3fde8bb7576fe326614482cb9daa673c4ffee805c",
+          "bytes": 818
+        }
+      ],
+      "outputs": [
+        {
+          "path": "receipt_docs/R13_M03独立软件验收.md",
+          "sha256": "18ef96153ed9ec1b9243de042778c742ea9f3009c0d60d62deb563149d45ce6d",
+          "bytes": 1926
+        },
+        {
+          "path": "local_runs/m03_acceptance_pinned.json",
+          "sha256": "30a93139d5ccb673aed3c124d5c603f1ea11c5b7e62353504653574f127d55b1",
+          "bytes": 9540
+        },
+        {
+          "path": "local_runs/m03_acceptance.json",
+          "sha256": "c5ee5b0efed6ab892cbc26b5e4364b4b3129c89dd124ec7d49ad8a36eda24ad2",
+          "bytes": 9534
+        },
+        {
+          "path": "m03_public/receipt.json",
+          "sha256": "1edf04b279ccc3c36ed2b70a83c101bd0e3a9cbde0895a39892ab5559d852077",
+          "bytes": 3261
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    },
+    {
+      "id": "R14",
+      "status": "PASS",
+      "title": "统一回传",
+      "reason": "一份R01–R14索引、原件、全部新回执与失败/缺件记录合包；包外整包SHA和包内文件SHA对应，压缩/传输验证见delivery_receipt。",
+      "reviewed_utc": "2026-10-23T12:20:01.553990+00:00",
+      "inputs": [
+        {
+          "path": "incoming_receipt.json",
+          "sha256": "7668c2e0e2b1698306b9ca786eafbc06d9ef11c62ba53bf80568d79ea459e49d",
+          "bytes": 5176
+        },
+        {
+          "path": "manifest_audit.json",
+          "sha256": "83b4de10fb10a1e60b0e132db3bee7148c0b756d53935ecda4417ba639bd62e7",
+          "bytes": 1077
+        }
+      ],
+      "outputs": [
+        {
+          "path": "verify_receipt_bundle.py",
+          "sha256": "37572298d75d0de4ddd855c9939b3160a0f9256090696321fa83ce64465f8e80",
+          "bytes": 1302
+        },
+        {
+          "path": "final_intake_audit.json",
+          "sha256": "31983b15a7dd8ee9e757ee527f64b77e79ee05217fbba6b9adac37e14ae39081",
+          "bytes": 4810
+        },
+        {
+          "path": "forwarded_previous_pkg.json",
+          "sha256": "8aa82e9bfe3a9de896f806c3bc6156aacb6897d63d618d3541beee7288683c69",
+          "bytes": 451
+        }
+      ],
+      "tool_versions": "tool_versions.json",
+      "execution_receipts": "Associated local_runs/*.json / physical process_receipt.json contain exact argv/cwd/start/end/exit; document-only management decisions have no executable exit code",
+      "production_promoted": false
+    }
+  ]
+}

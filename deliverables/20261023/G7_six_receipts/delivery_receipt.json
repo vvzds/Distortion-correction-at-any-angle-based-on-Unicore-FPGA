@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-23T12:20:36.239739+00:00",
+  "created_utc": "2026-10-23T12:22:38.370780+00:00",
+  "argv": [
+    "D:\\FPGA_management\\work\\G7_six_receipts_20261023\\package_receipts.py"
+  ],
+  "cwd": "D:\\",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "exit_code": 0,
+  "recipient": "二号协作者",
+  "zip": "G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+  "bytes": 802850170,
+  "sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5",
+  "zip_members": 12720,
+  "manifest_files": 12719,
+  "all_member_sizes_crc_sha256_verified": true,
+  "sources_unchanged_during_pack": true,
+  "manifest_sha256": "d67c9cb74e4c33de8486e417a13b100e9ea72a45011707934ea0d7911cd7880e",
+  "versioned_documents_unchanged": {
+    "D:/FPGA项目文档/总说明/模块分工与工作包交付总说明_v2.0.3.md": "2d36c72f80c80ad977d2b6a2080bc66bab0e3ff876dc508bbdee39dc8b3903fe",
+    "D:/FPGA项目文档/任务清单/各协作者当前任务清单_v2.0.3_20261023.md": "f5be22dea0495db187857f4b5969c2f9deb85815743c3f3176cb52f3fe00c837"
+  },
+  "production_promoted": false,
+  "master_version": "2.0.3",
+  "input_files_unchanged": 18,
+  "input_manifest_files": 8797,
+  "excluded_regenerable": [
+    "ModelSim scratch work libraries/WLF",
+    "generated gate synthetic fault-fixture directories (generators and full test logs retained)",
+    "isolated pip installation target"
+  ]
+}
