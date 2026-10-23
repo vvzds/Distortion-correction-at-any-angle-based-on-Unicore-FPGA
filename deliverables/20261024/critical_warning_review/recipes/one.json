@@ -1,0 +1,4753 @@
+{
+  "filename": "审验外包_资源预算与告警审查_给一号协作者_20261024.zip",
+  "recipient": "一号协作者",
+  "entries": [
+    {
+      "path": "00_审验外包总调度.md",
+      "bytes": 4565,
+      "sha256": "bfe346af97120fc9e84bfdbb5bc531d5ee8cd9c5c37cff86f1d0d0f05ad34bc3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/00_审验外包总调度.md",
+          "bytes": 4565,
+          "sha256": "bfe346af97120fc9e84bfdbb5bc531d5ee8cd9c5c37cff86f1d0d0f05ad34bc3"
+        }
+      ]
+    },
+    {
+      "path": "01_输入与环境.md",
+      "bytes": 3876,
+      "sha256": "c0357c9dd9b2258044a4a1434d8e7e615cb46a6758471f61b9bb92a887fd0293",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/01_输入与环境.md",
+          "bytes": 3876,
+          "sha256": "c0357c9dd9b2258044a4a1434d8e7e615cb46a6758471f61b9bb92a887fd0293"
+        }
+      ]
+    },
+    {
+      "path": "02_一号任务书.md",
+      "bytes": 6550,
+      "sha256": "6a88fb8b84862565b2c9dd6e1c35928bf9e46002ce6a7b772e8e7186b36a3d92",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/02_一号任务书.md",
+          "bytes": 6550,
+          "sha256": "6a88fb8b84862565b2c9dd6e1c35928bf9e46002ce6a7b772e8e7186b36a3d92"
+        }
+      ]
+    },
+    {
+      "path": "03_二号任务书.md",
+      "bytes": 5367,
+      "sha256": "bf696a3f7d7cf42c7a6811ffc45087f657cc178b6e9063b6ff004e9fa6581081",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/03_二号任务书.md",
+          "bytes": 5367,
+          "sha256": "bf696a3f7d7cf42c7a6811ffc45087f657cc178b6e9063b6ff004e9fa6581081"
+        }
+      ]
+    },
+    {
+      "path": "04_R01-R15本轮分流回执.md",
+      "bytes": 2448,
+      "sha256": "474698ecff027c6913b4199f09bb6dc3d81f49a857924fa7a69eb150204bcb1d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/04_R01-R15本轮分流回执.md",
+          "bytes": 2448,
+          "sha256": "474698ecff027c6913b4199f09bb6dc3d81f49a857924fa7a69eb150204bcb1d"
+        }
+      ]
+    },
+    {
+      "path": "05_回传要求与验收标准.md",
+      "bytes": 2038,
+      "sha256": "46e1e304b1cc532d8f1d09d3b50e260f4960f259b514217daa6b2d93168dd84d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/05_回传要求与验收标准.md",
+          "bytes": 2038,
+          "sha256": "46e1e304b1cc532d8f1d09d3b50e260f4960f259b514217daa6b2d93168dd84d"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 3090,
+      "sha256": "c9169487221b788d7d282e0bd233cbd39c1b909f6c4ece88298bb8870611a12f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/recipient_readme/one.md",
+          "bytes": 3090,
+          "sha256": "c9169487221b788d7d282e0bd233cbd39c1b909f6c4ece88298bb8870611a12f"
+        }
+      ]
+    },
+    {
+      "path": "archives.json",
+      "bytes": 1172,
+      "sha256": "ce7141187fae0e1bef9f2b6c9063682203f42adcc073677ccf09c8c2c6611b58",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/archives.json",
+          "bytes": 1172,
+          "sha256": "ce7141187fae0e1bef9f2b6c9063682203f42adcc073677ccf09c8c2c6611b58"
+        }
+      ]
+    },
+    {
+      "path": "archives/AB_ACCEPTANCE.zip",
+      "bytes": 48218664,
+      "sha256": "0b7abb068d42654ece16a716a4204d8a83c7b68065c380383b863604b3684c5a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/G4_AB_R1_R4_review/G4_AB_R1-R4补正复验回执与证据_给一号协作者_20261023.zip",
+          "bytes": 48218664,
+          "sha256": "0b7abb068d42654ece16a716a4204d8a83c7b68065c380383b863604b3684c5a"
+        }
+      ]
+    },
+    {
+      "path": "archives/COMPARE.zip",
+      "bytes": 48645398,
+      "sha256": "09541593eac6c2e9966c9b68527efc0ba01f440255fd03de6589d4304614ad16",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/original_archives/COMPARE.zip",
+          "bytes": 48645398,
+          "sha256": "09541593eac6c2e9966c9b68527efc0ba01f440255fd03de6589d4304614ad16"
+        }
+      ]
+    },
+    {
+      "path": "archives/G8_RESULTS.zip",
+      "bytes": 1267092583,
+      "sha256": "baf0827f2bb068175af26dbf58d7160ececba2a718ee882bbf34cfe187ce3f72",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part001",
+          "bytes": 94371840,
+          "sha256": "10a17cd49b966e11da1242ae07543bc2744ee254cee9a57af0f12cda0e726da3"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part002",
+          "bytes": 94371840,
+          "sha256": "a2abf7e20a6cf3dd6c79ddf972f55b406c00a6f27cc0c3c891e8e892e760b495"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part003",
+          "bytes": 94371840,
+          "sha256": "0b157442472382a319fb7130009140552d1ec87bec8da937cdfcef6e3cbec62a"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part004",
+          "bytes": 94371840,
+          "sha256": "cb7eebcecbd970364e195491de6e9045d2911216f580f08e770e6b19c281f4f3"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part005",
+          "bytes": 94371840,
+          "sha256": "193efde3c42443e29c0142618452e22acce606eccc9479636aa6766e160e27d1"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part006",
+          "bytes": 94371840,
+          "sha256": "f5a0b5d542aba06ceb3b4dae8b216bce9c474f75bff45a7726cbef8f3ae9f00f"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part007",
+          "bytes": 94371840,
+          "sha256": "d7667ea1115c1353b4accb3d92627b8db9b40ecd363915912dd2f8253f85bcf4"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part008",
+          "bytes": 94371840,
+          "sha256": "7e3d0ad6b69e8dabe1de91116e035e7376c8af545163c15a543d4943ad43961e"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part009",
+          "bytes": 94371840,
+          "sha256": "196af44880b1f97bbdd226fc011b554242ffce78403195a7865662608dfedd78"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part010",
+          "bytes": 94371840,
+          "sha256": "292c9fc21923387bd42192759ee9a34225b3bb77a468cdaf82b60ef76278a558"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part011",
+          "bytes": 94371840,
+          "sha256": "a68ed1db185ee37e68eb99ae1b128adbbea5d04886569c9e397f8e5e973d6aa3"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part012",
+          "bytes": 94371840,
+          "sha256": "25b7982d56d9840cb8954a90df81d24c779065d07a92208c82956ede3de29d8b"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part013",
+          "bytes": 94371840,
+          "sha256": "f2d69daea2d472a79c63f2d14ff68c7e25a9f05177ca5e4d86c4666853628b2f"
+        },
+        {
+          "path": "deliverables/20261023/G8_followup/parts/delivery.zip.part014",
+          "bytes": 40258663,
+          "sha256": "7c8c016e50c2b1948df02ed4368bca6532111e3c8316d8241f95657251ad74c4"
+        }
+      ]
+    },
+    {
+      "path": "archives/G8_TOOLS.zip",
+      "bytes": 36721066,
+      "sha256": "3dca8f840deceffb0db101c5f9c2b76d1330ce778f9a979661ccf3fa51e95d3d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/original_archives/G8_TOOLS.zip",
+          "bytes": 36721066,
+          "sha256": "3dca8f840deceffb0db101c5f9c2b76d1330ce778f9a979661ccf3fa51e95d3d"
+        }
+      ]
+    },
+    {
+      "path": "archives/M01.zip",
+      "bytes": 710761,
+      "sha256": "015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/original_archives/M01.zip",
+          "bytes": 710761,
+          "sha256": "015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c"
+        }
+      ]
+    },
+    {
+      "path": "archives/M02.zip",
+      "bytes": 10907400,
+      "sha256": "3883ae3cff8cb4fd259d39bdbd56cdbc3e48f2d07fde4b1f8d308e5eee98efb3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/M02_R03_回归与修复候选_本机_20261023.zip",
+          "bytes": 10907400,
+          "sha256": "3883ae3cff8cb4fd259d39bdbd56cdbc3e48f2d07fde4b1f8d308e5eee98efb3"
+        }
+      ]
+    },
+    {
+      "path": "archives/S3_M02_TOOLS.zip",
+      "bytes": 464243,
+      "sha256": "f54b1ca7bf6120094349c6004ee6aa74e170600ad042825f6aeeec67c60456e1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/original_archives/S3_M02_TOOLS.zip",
+          "bytes": 464243,
+          "sha256": "f54b1ca7bf6120094349c6004ee6aa74e170600ad042825f6aeeec67c60456e1"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/DRM_APM资源预算审查报告_20261024.md",
+      "bytes": 11919,
+      "sha256": "f9de955dfad84e7115aefb3a63ebbe8c453fd97000c7debdda758d5744e179fb",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/DRM_APM资源预算审查报告_20261024.md",
+          "bytes": 11919,
+          "sha256": "f9de955dfad84e7115aefb3a63ebbe8c453fd97000c7debdda758d5744e179fb"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/README.md",
+      "bytes": 950,
+      "sha256": "ea49bd82d0de669389e448396009aed2879b025d821224e810c31d443d5e7916",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/README.md",
+          "bytes": 950,
+          "sha256": "ea49bd82d0de669389e448396009aed2879b025d821224e810c31d443d5e7916"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/audit_resources.py",
+      "bytes": 7888,
+      "sha256": "4d76a0c504a81c6df93611bab5fba20911abdf119bdb813de869361e9de407da",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/audit_resources.py",
+          "bytes": 7888,
+          "sha256": "4d76a0c504a81c6df93611bab5fba20911abdf119bdb813de869361e9de407da"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/budget_decisions.json",
+      "bytes": 911,
+      "sha256": "71749a5723bf51f847fba583e0655f6b5d8052008e3e4836fbb82f30f5f8aac5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/budget_decisions.json",
+          "bytes": 911,
+          "sha256": "71749a5723bf51f847fba583e0655f6b5d8052008e3e4836fbb82f30f5f8aac5"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_CURRENT_RTL/undistort_cache_ab.v",
+      "bytes": 16030,
+      "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_CURRENT_RTL/undistort_cache_ab.v",
+          "bytes": 16030,
+          "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_CURRENT_RTL/undistort_core.v",
+      "bytes": 20450,
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_CURRENT_RTL/undistort_core.v",
+          "bytes": 20450,
+          "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_CORE/inputs.json",
+      "bytes": 916,
+      "sha256": "2d7b2ccd0f1d161c7e5e8e6242e8c1be7458c67e93167119e1619d2024c660dc",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_CORE/inputs.json",
+          "bytes": 916,
+          "sha256": "2d7b2ccd0f1d161c7e5e8e6242e8c1be7458c67e93167119e1619d2024c660dc"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_CORE/result.json",
+      "bytes": 188,
+      "sha256": "52f1c39407f20272a533d4322613d634028cf040bc22321aff12b6b0848accf8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_CORE/result.json",
+          "bytes": 188,
+          "sha256": "52f1c39407f20272a533d4322613d634028cf040bc22321aff12b6b0848accf8"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_CORE/synth.snr",
+      "bytes": 90615,
+      "sha256": "1715e3d1545f35f88647e93cd1f297f124e2331114e2b5d6774b43520c20043a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_CORE/synth.snr",
+          "bytes": 90615,
+          "sha256": "1715e3d1545f35f88647e93cd1f297f124e2331114e2b5d6774b43520c20043a"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_HOST/inputs.json",
+      "bytes": 23333,
+      "sha256": "c39cabc7f42b7ff6dc523c677148b11f1620733af3e4cb008123c69a06034081",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_HOST/inputs.json",
+          "bytes": 23333,
+          "sha256": "c39cabc7f42b7ff6dc523c677148b11f1620733af3e4cb008123c69a06034081"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_HOST/result.json",
+      "bytes": 159,
+      "sha256": "00e25a3a7f99123fdf4f2fddb24435103729401d9af7d5255daddbe7fb325269",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_HOST/result.json",
+          "bytes": 159,
+          "sha256": "00e25a3a7f99123fdf4f2fddb24435103729401d9af7d5255daddbe7fb325269"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_HOST/synth.snr",
+      "bytes": 997706,
+      "sha256": "cf9db4d63f2ecacb20ef2007ec51951ebfce5f5efb249929bf5ab2b741484aa3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_HOST/synth.snr",
+          "bytes": 997706,
+          "sha256": "cf9db4d63f2ecacb20ef2007ec51951ebfce5f5efb249929bf5ab2b741484aa3"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_RTL/undistort_cache_ab.v",
+      "bytes": 16030,
+      "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_RTL/undistort_cache_ab.v",
+          "bytes": 16030,
+          "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/AB_OLD_RTL/undistort_core.v",
+      "bytes": 20419,
+      "sha256": "33260c4dda12a5a8fb69d8535d991e74b80c15f6360f4b0dd00f849a023ecff1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/AB_OLD_RTL/undistort_core.v",
+          "bytes": 20419,
+          "sha256": "33260c4dda12a5a8fb69d8535d991e74b80c15f6360f4b0dd00f849a023ecff1"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_10/process_receipt.json",
+      "bytes": 60663,
+      "sha256": "3a624cfae831e6d8673eb70fc89991c5888722eca10de6174e3f7645e67fbc60",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_10/process_receipt.json",
+          "bytes": 60663,
+          "sha256": "3a624cfae831e6d8673eb70fc89991c5888722eca10de6174e3f7645e67fbc60"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_10/prr.prr",
+      "bytes": 139121,
+      "sha256": "c5a05f3bc660b738ec3ad27095759b4f342ba2a3308f157a0f850567bc762ce2",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_10/prr.prr",
+          "bytes": 139121,
+          "sha256": "c5a05f3bc660b738ec3ad27095759b4f342ba2a3308f157a0f850567bc762ce2"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_10/snr.snr",
+      "bytes": 982583,
+      "sha256": "e156d8bd959bee63566b77c2d9ffec6c30078967a7a1ec0649e31ac673aacf19",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_10/snr.snr",
+          "bytes": 982583,
+          "sha256": "e156d8bd959bee63566b77c2d9ffec6c30078967a7a1ec0649e31ac673aacf19"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_11/process_receipt.json",
+      "bytes": 60664,
+      "sha256": "ade1c03242918a92e16cc797c93c104adad312ae86e9107a488cbf19198ed72d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_11/process_receipt.json",
+          "bytes": 60664,
+          "sha256": "ade1c03242918a92e16cc797c93c104adad312ae86e9107a488cbf19198ed72d"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_11/prr.prr",
+      "bytes": 139121,
+      "sha256": "ee530651a291f1c6ca58fdea7e46828d1395d3c96b870bcfce0a214997e6daa1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_11/prr.prr",
+          "bytes": 139121,
+          "sha256": "ee530651a291f1c6ca58fdea7e46828d1395d3c96b870bcfce0a214997e6daa1"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_11/snr.snr",
+      "bytes": 982583,
+      "sha256": "d473c73634848369a6ff9223b0aff8f9d6de89bbb1bf18d9a25d4a70b0467e17",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_11/snr.snr",
+          "bytes": 982583,
+          "sha256": "d473c73634848369a6ff9223b0aff8f9d6de89bbb1bf18d9a25d4a70b0467e17"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_2/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "2635c63b3018febeeb8b755d86e949479f0cc8281bb94ebcb3392c374b9d4b19",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_2/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "2635c63b3018febeeb8b755d86e949479f0cc8281bb94ebcb3392c374b9d4b19"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_2/prr.prr",
+      "bytes": 139107,
+      "sha256": "f1d6c2269a8b2fa46bcdd3dff9d7ad2f16bc2b6e5331270ead4c0c9140615979",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_2/prr.prr",
+          "bytes": 139107,
+          "sha256": "f1d6c2269a8b2fa46bcdd3dff9d7ad2f16bc2b6e5331270ead4c0c9140615979"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_2/snr.snr",
+      "bytes": 982570,
+      "sha256": "1f35ead45d4391a101989f83d0c7919d5ce5724617ad1863f31f2a147fd7acda",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_2/snr.snr",
+          "bytes": 982570,
+          "sha256": "1f35ead45d4391a101989f83d0c7919d5ce5724617ad1863f31f2a147fd7acda"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_3/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "ee183c49cc921ad1f0097ff5b8feb93db1859aec978663e0ec031b2602926e8c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_3/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "ee183c49cc921ad1f0097ff5b8feb93db1859aec978663e0ec031b2602926e8c"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_3/prr.prr",
+      "bytes": 139106,
+      "sha256": "e385c424c3aa54e1482469d8d027b4714c77a455f1aaa4e6c96ccee081992ff3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_3/prr.prr",
+          "bytes": 139106,
+          "sha256": "e385c424c3aa54e1482469d8d027b4714c77a455f1aaa4e6c96ccee081992ff3"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_3/snr.snr",
+      "bytes": 982570,
+      "sha256": "7cf64be950d8c2509163049c56b95c4e9ae4deb8a6b38691c05cdad3d45e1a73",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_3/snr.snr",
+          "bytes": 982570,
+          "sha256": "7cf64be950d8c2509163049c56b95c4e9ae4deb8a6b38691c05cdad3d45e1a73"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_5/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "fb38ab4e9e89a6350c65cd40c7719e965e9f65e1b588dac894c8e151ab368589",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_5/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "fb38ab4e9e89a6350c65cd40c7719e965e9f65e1b588dac894c8e151ab368589"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_5/prr.prr",
+      "bytes": 139105,
+      "sha256": "0afe5ef1c3562336c89b4cebb51414eec66b21db6a738a5478832d3695df7042",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_5/prr.prr",
+          "bytes": 139105,
+          "sha256": "0afe5ef1c3562336c89b4cebb51414eec66b21db6a738a5478832d3695df7042"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_5/snr.snr",
+      "bytes": 982570,
+      "sha256": "b735d016e3f4a1534de4b94fccc70950b158d58a10b0b8a93bf8da09ac6cfd8f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_5/snr.snr",
+          "bytes": 982570,
+          "sha256": "b735d016e3f4a1534de4b94fccc70950b158d58a10b0b8a93bf8da09ac6cfd8f"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_7/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "8a3f78ea8471dbfa4908ab152845a84c46d4cb7440c97a3dc4c58a192779a64f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_7/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "8a3f78ea8471dbfa4908ab152845a84c46d4cb7440c97a3dc4c58a192779a64f"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_7/prr.prr",
+      "bytes": 139106,
+      "sha256": "37890c999044f094ee21df0b5dc686c251d2e0fae1980ceb450d931cc931d531",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_7/prr.prr",
+          "bytes": 139106,
+          "sha256": "37890c999044f094ee21df0b5dc686c251d2e0fae1980ceb450d931cc931d531"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_7/snr.snr",
+      "bytes": 982570,
+      "sha256": "bb989809bba56efd256e284a39ee95da2f96245c5c64ca9f11b3c86a198f2f11",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_7/snr.snr",
+          "bytes": 982570,
+          "sha256": "bb989809bba56efd256e284a39ee95da2f96245c5c64ca9f11b3c86a198f2f11"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_8/process_receipt.json",
+      "bytes": 60659,
+      "sha256": "4a7a824cf9a4b3c22696b888bb2668a0e5ab769bad97d73bc80af2e18f62d7f9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_8/process_receipt.json",
+          "bytes": 60659,
+          "sha256": "4a7a824cf9a4b3c22696b888bb2668a0e5ab769bad97d73bc80af2e18f62d7f9"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_8/prr.prr",
+      "bytes": 139107,
+      "sha256": "327b8aef69eb34e2fe40e32ac7102e8ec99f54a432919dac32a04f081a3b1791",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_8/prr.prr",
+          "bytes": 139107,
+          "sha256": "327b8aef69eb34e2fe40e32ac7102e8ec99f54a432919dac32a04f081a3b1791"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_8/snr.snr",
+      "bytes": 982572,
+      "sha256": "bbc7f01df844f742a891017848842da64efd7efea6cb25094870189bf7d0e40e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_8/snr.snr",
+          "bytes": 982572,
+          "sha256": "bbc7f01df844f742a891017848842da64efd7efea6cb25094870189bf7d0e40e"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_9/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "b4d34bedf852eed7302ae5b5a5490f68c165b678e37066ce67e51c52ac117c06",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_9/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "b4d34bedf852eed7302ae5b5a5490f68c165b678e37066ce67e51c52ac117c06"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_9/prr.prr",
+      "bytes": 139107,
+      "sha256": "3785a8628a878880d84d7b6980576603e64e70c146255d40909ec6db6ac516be",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_9/prr.prr",
+          "bytes": 139107,
+          "sha256": "3785a8628a878880d84d7b6980576603e64e70c146255d40909ec6db6ac516be"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G7/seed_9/snr.snr",
+      "bytes": 982572,
+      "sha256": "c53cfd4cb2613b598305720c74ddab59e6fe903d7073150197eaafc309b7f3b2",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G7/seed_9/snr.snr",
+          "bytes": 982572,
+          "sha256": "c53cfd4cb2613b598305720c74ddab59e6fe903d7073150197eaafc309b7f3b2"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_10/process_receipt.json",
+      "bytes": 60679,
+      "sha256": "8e556baa9b0a719655dc6c1bb0688a0d701ecdd0178decc8e0a1865474e72eb3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_10/process_receipt.json",
+          "bytes": 60679,
+          "sha256": "8e556baa9b0a719655dc6c1bb0688a0d701ecdd0178decc8e0a1865474e72eb3"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_10/prr.prr",
+      "bytes": 138953,
+      "sha256": "5c46dc192ca4d3530a7566df6d56dd804d617fc05a1ab08c0429310456fd0057",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_10/prr.prr",
+          "bytes": 138953,
+          "sha256": "5c46dc192ca4d3530a7566df6d56dd804d617fc05a1ab08c0429310456fd0057"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_10/snr.snr",
+      "bytes": 964489,
+      "sha256": "5871a3ac4d4aaa9a99e0b22b21a2f1a83e29853f48ff16b70475d378a029f534",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_10/snr.snr",
+          "bytes": 964489,
+          "sha256": "5871a3ac4d4aaa9a99e0b22b21a2f1a83e29853f48ff16b70475d378a029f534"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_11/process_receipt.json",
+      "bytes": 60679,
+      "sha256": "a6ea6e3382730fef166bc803f6d62f8464505fb2e17e27460aea94c28338b998",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_11/process_receipt.json",
+          "bytes": 60679,
+          "sha256": "a6ea6e3382730fef166bc803f6d62f8464505fb2e17e27460aea94c28338b998"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_11/prr.prr",
+      "bytes": 138953,
+      "sha256": "92fae03a48c0de5d9fe82daaa728df79cf0dd6ed2371973a234025404e618f67",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_11/prr.prr",
+          "bytes": 138953,
+          "sha256": "92fae03a48c0de5d9fe82daaa728df79cf0dd6ed2371973a234025404e618f67"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_11/snr.snr",
+      "bytes": 964489,
+      "sha256": "be0663f1af8cbb42312f1b9ff65ee68dd5c38ef093f6e1b13f49ebfb10c18d53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_11/snr.snr",
+          "bytes": 964489,
+          "sha256": "be0663f1af8cbb42312f1b9ff65ee68dd5c38ef093f6e1b13f49ebfb10c18d53"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_2/process_receipt.json",
+      "bytes": 60663,
+      "sha256": "95707729d302adff0247606493f0fca6409b361a20ab675ba26d05922f828044",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_2/process_receipt.json",
+          "bytes": 60663,
+          "sha256": "95707729d302adff0247606493f0fca6409b361a20ab675ba26d05922f828044"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_2/prr.prr",
+      "bytes": 138938,
+      "sha256": "558dd1c52826c29e3afda973c1785fecf64bb6fd4d124f77317ea2c7d86e5a00",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_2/prr.prr",
+          "bytes": 138938,
+          "sha256": "558dd1c52826c29e3afda973c1785fecf64bb6fd4d124f77317ea2c7d86e5a00"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_2/snr.snr",
+      "bytes": 964478,
+      "sha256": "5c09986980e58002769a71a381640d9da54a478a0a27ee0ad487ee3d052be1d6",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_2/snr.snr",
+          "bytes": 964478,
+          "sha256": "5c09986980e58002769a71a381640d9da54a478a0a27ee0ad487ee3d052be1d6"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_3/process_receipt.json",
+      "bytes": 60674,
+      "sha256": "3c396c74014467935420e90e3a982938851a1a3fdddb9f0b7767b19c2d494e40",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_3/process_receipt.json",
+          "bytes": 60674,
+          "sha256": "3c396c74014467935420e90e3a982938851a1a3fdddb9f0b7767b19c2d494e40"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_3/prr.prr",
+      "bytes": 138938,
+      "sha256": "3ca0b220ccc5aec780fe39dea679ae1617b5e77cbb7afcbd6dc0a80ca7f9057a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_3/prr.prr",
+          "bytes": 138938,
+          "sha256": "3ca0b220ccc5aec780fe39dea679ae1617b5e77cbb7afcbd6dc0a80ca7f9057a"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_3/snr.snr",
+      "bytes": 964478,
+      "sha256": "968eec5407d302b0af20815841b1cf39291a0cc14b141876b431e6db84fd757f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_3/snr.snr",
+          "bytes": 964478,
+          "sha256": "968eec5407d302b0af20815841b1cf39291a0cc14b141876b431e6db84fd757f"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_5/process_receipt.json",
+      "bytes": 60674,
+      "sha256": "58c9f98c303176ab81b59ce0f8b2f6759a0aa2ff7d9631a960971e837e0b117c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_5/process_receipt.json",
+          "bytes": 60674,
+          "sha256": "58c9f98c303176ab81b59ce0f8b2f6759a0aa2ff7d9631a960971e837e0b117c"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_5/prr.prr",
+      "bytes": 138937,
+      "sha256": "cc01c5c9364ab8cac75773428c96c9b250602ed377890a6df2bdbb8d0973e3df",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_5/prr.prr",
+          "bytes": 138937,
+          "sha256": "cc01c5c9364ab8cac75773428c96c9b250602ed377890a6df2bdbb8d0973e3df"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_5/snr.snr",
+      "bytes": 964478,
+      "sha256": "ff6138dd2a39e4e080df5522db2e16c4e17a705ec97d1b82accf5b75a5725fc3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_5/snr.snr",
+          "bytes": 964478,
+          "sha256": "ff6138dd2a39e4e080df5522db2e16c4e17a705ec97d1b82accf5b75a5725fc3"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_7/process_receipt.json",
+      "bytes": 60674,
+      "sha256": "d8b1a05084bd7e43be730148fd4e6167220fe1a34e83bc21342fbdd9e3ce1c72",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_7/process_receipt.json",
+          "bytes": 60674,
+          "sha256": "d8b1a05084bd7e43be730148fd4e6167220fe1a34e83bc21342fbdd9e3ce1c72"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_7/prr.prr",
+      "bytes": 138938,
+      "sha256": "1057a1a6f9d7a421f3327b8eff0459d02532576cb13a6a9c6e87a303e611a199",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_7/prr.prr",
+          "bytes": 138938,
+          "sha256": "1057a1a6f9d7a421f3327b8eff0459d02532576cb13a6a9c6e87a303e611a199"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_7/snr.snr",
+      "bytes": 964478,
+      "sha256": "78d606cebdb0622813b083631a2822e458d996ceecc67a193021fca6ac53cc1d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_7/snr.snr",
+          "bytes": 964478,
+          "sha256": "78d606cebdb0622813b083631a2822e458d996ceecc67a193021fca6ac53cc1d"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_8/process_receipt.json",
+      "bytes": 60664,
+      "sha256": "500248ade39689c21b4799f3114c08595aa41b02ef4378a7822b6eba8c7526d0",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_8/process_receipt.json",
+          "bytes": 60664,
+          "sha256": "500248ade39689c21b4799f3114c08595aa41b02ef4378a7822b6eba8c7526d0"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_8/prr.prr",
+      "bytes": 138938,
+      "sha256": "d2fe2b08e94e2e1671bd2db2eee02a6f6c2bef22a3f9b9ffbeaf66ce373acd95",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_8/prr.prr",
+          "bytes": 138938,
+          "sha256": "d2fe2b08e94e2e1671bd2db2eee02a6f6c2bef22a3f9b9ffbeaf66ce373acd95"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_8/snr.snr",
+      "bytes": 964478,
+      "sha256": "f26268fb1a1b635ca6e7b33770c7937d39acbe2ff9a06f081a9d04d1ee88f116",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_8/snr.snr",
+          "bytes": 964478,
+          "sha256": "f26268fb1a1b635ca6e7b33770c7937d39acbe2ff9a06f081a9d04d1ee88f116"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_9/process_receipt.json",
+      "bytes": 60675,
+      "sha256": "54ef74c9dadd59f3e5861714c5d6526d151fb67da6291852922088b03aa23dfe",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_9/process_receipt.json",
+          "bytes": 60675,
+          "sha256": "54ef74c9dadd59f3e5861714c5d6526d151fb67da6291852922088b03aa23dfe"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_9/prr.prr",
+      "bytes": 138938,
+      "sha256": "96242139fb2edd26d1c66d7ea859ab9d115f1f8131d8b9713549a5dc8c0d1ae4",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_9/prr.prr",
+          "bytes": 138938,
+          "sha256": "96242139fb2edd26d1c66d7ea859ab9d115f1f8131d8b9713549a5dc8c0d1ae4"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8/seed_9/snr.snr",
+      "bytes": 964478,
+      "sha256": "fc58359d0d0f2bb648a9f705c8e54b5953239b5ef4c077e92f3aeae1010c73f3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8/seed_9/snr.snr",
+          "bytes": 964478,
+          "sha256": "fc58359d0d0f2bb648a9f705c8e54b5953239b5ef4c077e92f3aeae1010c73f3"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8_RTL/gamma_lut.v",
+      "bytes": 2963,
+      "sha256": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8_RTL/gamma_lut.v",
+          "bytes": 2963,
+          "sha256": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8_RTL/param_mgr.v",
+      "bytes": 24219,
+      "sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8_RTL/param_mgr.v",
+          "bytes": 24219,
+          "sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8_RTL/undistort_bilinear.v",
+      "bytes": 1777,
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8_RTL/undistort_bilinear.v",
+          "bytes": 1777,
+          "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8_RTL/undistort_core.v",
+      "bytes": 13766,
+      "sha256": "7b997f7040c0f05d0cc785a6ceed44aa3eff1348fbed3eaa4171596ccfde755d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8_RTL/undistort_core.v",
+          "bytes": 13766,
+          "sha256": "7b997f7040c0f05d0cc785a6ceed44aa3eff1348fbed3eaa4171596ccfde755d"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8_RTL/undistort_line_cache.v",
+      "bytes": 5506,
+      "sha256": "9168b5796aca152a3ac39d87a2839b82839f9bf103b21ff3aafd59f21b084f6a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8_RTL/undistort_line_cache.v",
+          "bytes": 5506,
+          "sha256": "9168b5796aca152a3ac39d87a2839b82839f9bf103b21ff3aafd59f21b084f6a"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/G8_RTL/undistort_map.v",
+      "bytes": 11918,
+      "sha256": "706483ed31b508cf0682e8f8f5e7297a188cb563017744e4c8f6021706c38ef8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/G8_RTL/undistort_map.v",
+          "bytes": 11918,
+          "sha256": "706483ed31b508cf0682e8f8f5e7297a188cb563017744e4c8f6021706c38ef8"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/prior_G7_analysis/02_核心资源约束分析与处理建议.md",
+      "bytes": 4042,
+      "sha256": "e49a5b209d4dba7a2b020ba21762642bea169c0e6364c87b200a0748525303ce",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/prior_G7_analysis/02_核心资源约束分析与处理建议.md",
+          "bytes": 4042,
+          "sha256": "e49a5b209d4dba7a2b020ba21762642bea169c0e6364c87b200a0748525303ce"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/prior_G7_analysis/audit.json",
+      "bytes": 429930,
+      "sha256": "0e68f644929f10ec16f023b26567fc73df7671f3be473aa3353a333ca2aab5aa",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/prior_G7_analysis/audit.json",
+          "bytes": 429930,
+          "sha256": "0e68f644929f10ec16f023b26567fc73df7671f3be473aa3353a333ca2aab5aa"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/prior_G7_analysis/cache_native_configuration.json",
+      "bytes": 78469,
+      "sha256": "33421dc73a419c21949667e932e7a96118da68c349a9a53683f1426fd27d448b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/prior_G7_analysis/cache_native_configuration.json",
+          "bytes": 78469,
+          "sha256": "33421dc73a419c21949667e932e7a96118da68c349a9a53683f1426fd27d448b"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/specs/图像畸变校正系统设计文档_V1.2.md",
+      "bytes": 57179,
+      "sha256": "3e749bff06fcf744b567ea300f2e258b1edb0ddcd49102dfa062d6ed3bdd181d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/specs/图像畸变校正系统设计文档_V1.2.md",
+          "bytes": 57179,
+          "sha256": "3e749bff06fcf744b567ea300f2e258b1edb0ddcd49102dfa062d6ed3bdd181d"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/evidence/specs/模块分工与工作包交付总说明_v2.0.4.md",
+      "bytes": 48380,
+      "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/evidence/specs/模块分工与工作包交付总说明_v2.0.4.md",
+          "bytes": 48380,
+          "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/files_sha256.json",
+      "bytes": 13228,
+      "sha256": "f03ccc85dde3d0f94f8f828694f878217a987430ca3b86b7e166deab15033094",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/files_sha256.json",
+          "bytes": 13228,
+          "sha256": "f03ccc85dde3d0f94f8f828694f878217a987430ca3b86b7e166deab15033094"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/portable_recheck.py",
+      "bytes": 2417,
+      "sha256": "2b659b4087681a430750ef04148429382950482920f9dfd81b7ccff68d2cd003",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/portable_recheck.py",
+          "bytes": 2417,
+          "sha256": "2b659b4087681a430750ef04148429382950482920f9dfd81b7ccff68d2cd003"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/portable_recheck_receipt.json",
+      "bytes": 10673,
+      "sha256": "bb9c1250b0d7e88d6eae2deab0fad12892c31a8ca9d8a35f57f1e0218a87f0c7",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/portable_recheck_receipt.json",
+          "bytes": 10673,
+          "sha256": "bb9c1250b0d7e88d6eae2deab0fad12892c31a8ca9d8a35f57f1e0218a87f0c7"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/resource_audit.json",
+      "bytes": 2569042,
+      "sha256": "1cc67d93f584824073128cf95cfd328d9cc10ea05edfc62b3f529dcc161239f8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/resource_audit.json",
+          "bytes": 2569042,
+          "sha256": "1cc67d93f584824073128cf95cfd328d9cc10ea05edfc62b3f529dcc161239f8"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/resource_ledger.csv",
+      "bytes": 3772,
+      "sha256": "1185e70ddc7e1650394e2af33d92ce9d8aa2249b141021361d867b71b560d7f5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/resource_ledger.csv",
+          "bytes": 3772,
+          "sha256": "1185e70ddc7e1650394e2af33d92ce9d8aa2249b141021361d867b71b560d7f5"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/source_index.json",
+      "bytes": 23026,
+      "sha256": "f62a0bda2f488bdae9a1450db9fd47e13621394bb3b55cf170e2f7dfd1812332",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/source_index.json",
+          "bytes": 23026,
+          "sha256": "f62a0bda2f488bdae9a1450db9fd47e13621394bb3b55cf170e2f7dfd1812332"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/verify_review.py",
+      "bytes": 499,
+      "sha256": "f9bba36af967bc5eb3228fa3bb42b2d32bb8114523443ffdded44a35633fb301",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/verify_review.py",
+          "bytes": 499,
+          "sha256": "f9bba36af967bc5eb3228fa3bb42b2d32bb8114523443ffdded44a35633fb301"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/预算审查补充任务_给一号协作者.md",
+      "bytes": 1495,
+      "sha256": "b0214aa077e2c9ee2c989105c9cabba6538c7295b6631cb6c8ff754d2a0f7bf8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/预算审查补充任务_给一号协作者.md",
+          "bytes": 1495,
+          "sha256": "b0214aa077e2c9ee2c989105c9cabba6538c7295b6631cb6c8ff754d2a0f7bf8"
+        }
+      ]
+    },
+    {
+      "path": "budget_review/预算审查补充任务_给二号协作者.md",
+      "bytes": 1413,
+      "sha256": "9d5f2c55ca920e39a65c92734b8633eb3cc552fa513e4d721cc4b85b2f3a099d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/DRM_APM_budget/review/预算审查补充任务_给二号协作者.md",
+          "bytes": 1413,
+          "sha256": "9d5f2c55ca920e39a65c92734b8633eb3cc552fa513e4d721cc4b85b2f3a099d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/38条critical_warning专项审查报告_20261024.md",
+      "bytes": 10484,
+      "sha256": "4ddb5236c661e2174f1e1110f13e901932c94058ca1355049f9011519e6a464d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/38条critical_warning专项审查报告_20261024.md",
+          "bytes": 10484,
+          "sha256": "4ddb5236c661e2174f1e1110f13e901932c94058ca1355049f9011519e6a464d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/README.md",
+      "bytes": 884,
+      "sha256": "2bcef668b3eac337d022ee8efc3f39d603f91d37bacbdb2115fde01c2b44da07",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/README.md",
+          "bytes": 884,
+          "sha256": "2bcef668b3eac337d022ee8efc3f39d603f91d37bacbdb2115fde01c2b44da07"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/SCCB全部传播arc台账.md",
+      "bytes": 23494,
+      "sha256": "29aafd627196cc860a5d2f4e328ea639835dd9caf0481bc9f95c45c479a8e06f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/SCCB全部传播arc台账.md",
+          "bytes": 23494,
+          "sha256": "29aafd627196cc860a5d2f4e328ea639835dd9caf0481bc9f95c45c479a8e06f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/audit_warnings.py",
+      "bytes": 6040,
+      "sha256": "5d6460cd15dc4389e8e5259110567fe634a7271d70379e4cca6e8934a80be888",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/audit_warnings.py",
+          "bytes": 6040,
+          "sha256": "5d6460cd15dc4389e8e5259110567fe634a7271d70379e4cca6e8934a80be888"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/cross_checks.json",
+      "bytes": 1721,
+      "sha256": "324042581a2750e7e54181e0b6bad6b50f6fc80728244b612c9e8527cad1ea9f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/cross_checks.json",
+          "bytes": 1721,
+          "sha256": "324042581a2750e7e54181e0b6bad6b50f6fc80728244b612c9e8527cad1ea9f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/compile/run.log",
+      "bytes": 889038,
+      "sha256": "7ba19e474012f742042b56f71e954a433470af737890427ac70e465bbc1af01e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/compile/run.log",
+          "bytes": 889038,
+          "sha256": "7ba19e474012f742042b56f71e954a433470af737890427ac70e465bbc1af01e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "599285cdd02729a38ccb3141ca1dd885edae6bbba1e9ff484d8fb0cc996e631c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "599285cdd02729a38ccb3141ca1dd885edae6bbba1e9ff484d8fb0cc996e631c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/device_map/run.log",
+      "bytes": 85346,
+      "sha256": "db4dfe6b637a285209466bdffc4142feb538b77dc09d003a42c8904dda2069c6",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/device_map/run.log",
+          "bytes": 85346,
+          "sha256": "db4dfe6b637a285209466bdffc4142feb538b77dc09d003a42c8904dda2069c6"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/generate_bitstream/run.log",
+      "bytes": 1154,
+      "sha256": "6e48c9979cbb3204905c404778ceb0a5a346126729f397c86adb721f26c57678",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/generate_bitstream/run.log",
+          "bytes": 1154,
+          "sha256": "6e48c9979cbb3204905c404778ceb0a5a346126729f397c86adb721f26c57678"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "c6fc43344f22aa14fb455ec327d6d92b76dd2303bdd75e900438279f852fb528",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "c6fc43344f22aa14fb455ec327d6d92b76dd2303bdd75e900438279f852fb528"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139121,
+      "sha256": "c5a05f3bc660b738ec3ad27095759b4f342ba2a3308f157a0f850567bc762ce2",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139121,
+          "sha256": "c5a05f3bc660b738ec3ad27095759b4f342ba2a3308f157a0f850567bc762ce2"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/place_route/run.log",
+      "bytes": 111715,
+      "sha256": "e3edb22fd4529b28fad370be517e283cf585b4e6d97cb01ce2ef595c1f9446de",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/place_route/run.log",
+          "bytes": 111715,
+          "sha256": "e3edb22fd4529b28fad370be517e283cf585b4e6d97cb01ce2ef595c1f9446de"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/process_receipt.json",
+      "bytes": 60663,
+      "sha256": "3a624cfae831e6d8673eb70fc89991c5888722eca10de6174e3f7645e67fbc60",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/process_receipt.json",
+          "bytes": 60663,
+          "sha256": "3a624cfae831e6d8673eb70fc89991c5888722eca10de6174e3f7645e67fbc60"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/report_timing/run.log",
+      "bytes": 21271,
+      "sha256": "c53f37bd81d1e85c1c45213fb850b8cf902e6c6a4963b51140a06ac2cbc727d5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/report_timing/run.log",
+          "bytes": 21271,
+          "sha256": "c53f37bd81d1e85c1c45213fb850b8cf902e6c6a4963b51140a06ac2cbc727d5"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/run_trial.pds",
+      "bytes": 28479,
+      "sha256": "617d5ea627aa9b050859aad4f2fae274ecfb78573c65508de209886f26f7d607",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/run_trial.pds",
+          "bytes": 28479,
+          "sha256": "617d5ea627aa9b050859aad4f2fae274ecfb78573c65508de209886f26f7d607"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_10/synthesize/run.log",
+      "bytes": 1438611,
+      "sha256": "041f117975700d1c18db9a6d6880b1213a69a2e02bb658a8753146d0803f9d0d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_10/synthesize/run.log",
+          "bytes": 1438611,
+          "sha256": "041f117975700d1c18db9a6d6880b1213a69a2e02bb658a8753146d0803f9d0d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/compile/run.log",
+      "bytes": 889037,
+      "sha256": "6b936d02534de3962b2a43acba0b3d90c18efe17b06023513a840144ebc232b6",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/compile/run.log",
+          "bytes": 889037,
+          "sha256": "6b936d02534de3962b2a43acba0b3d90c18efe17b06023513a840144ebc232b6"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "46160df68d865b86727b0c2a45a4c2c15d2538f9e77c439fbab135d95c4c3b3e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "46160df68d865b86727b0c2a45a4c2c15d2538f9e77c439fbab135d95c4c3b3e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/device_map/run.log",
+      "bytes": 85345,
+      "sha256": "e6422d85b9d824c074aef6cb99aadffe5cd13413d60d47971f33763cd05ac2b5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/device_map/run.log",
+          "bytes": 85345,
+          "sha256": "e6422d85b9d824c074aef6cb99aadffe5cd13413d60d47971f33763cd05ac2b5"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/generate_bitstream/run.log",
+      "bytes": 1154,
+      "sha256": "ef5b5afbb7a12a2270501f70fe21f5e77bf17e5f23bf25d2913f37c82c8ec276",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/generate_bitstream/run.log",
+          "bytes": 1154,
+          "sha256": "ef5b5afbb7a12a2270501f70fe21f5e77bf17e5f23bf25d2913f37c82c8ec276"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "d9ffbb20324ce9b7aa96dc3ced32b9d61d0ff0136d5c41bd86a744866189061e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "d9ffbb20324ce9b7aa96dc3ced32b9d61d0ff0136d5c41bd86a744866189061e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139121,
+      "sha256": "ee530651a291f1c6ca58fdea7e46828d1395d3c96b870bcfce0a214997e6daa1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139121,
+          "sha256": "ee530651a291f1c6ca58fdea7e46828d1395d3c96b870bcfce0a214997e6daa1"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/place_route/run.log",
+      "bytes": 119038,
+      "sha256": "80c6c0f9be0529960768f45665518f96fca44949cdc5688b5e7410ae600bfe1f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/place_route/run.log",
+          "bytes": 119038,
+          "sha256": "80c6c0f9be0529960768f45665518f96fca44949cdc5688b5e7410ae600bfe1f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/process_receipt.json",
+      "bytes": 60664,
+      "sha256": "ade1c03242918a92e16cc797c93c104adad312ae86e9107a488cbf19198ed72d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/process_receipt.json",
+          "bytes": 60664,
+          "sha256": "ade1c03242918a92e16cc797c93c104adad312ae86e9107a488cbf19198ed72d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/report_timing/run.log",
+      "bytes": 21663,
+      "sha256": "21dd133105bac32e37b5b306e97b0d680fd6428f73ac84bf2e75143dd201c83e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/report_timing/run.log",
+          "bytes": 21663,
+          "sha256": "21dd133105bac32e37b5b306e97b0d680fd6428f73ac84bf2e75143dd201c83e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/run_trial.pds",
+      "bytes": 28479,
+      "sha256": "0a4ff8718b3c43e12efac0b1b30fe8cf8c82acca1e5018aaf8573a3b7e98649f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/run_trial.pds",
+          "bytes": 28479,
+          "sha256": "0a4ff8718b3c43e12efac0b1b30fe8cf8c82acca1e5018aaf8573a3b7e98649f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_11/synthesize/run.log",
+      "bytes": 1438610,
+      "sha256": "e8e372c7b1f28fad56c2a5fed9a5a6a981ab67dbf7abc7c29473e90407b950d9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_11/synthesize/run.log",
+          "bytes": 1438610,
+          "sha256": "e8e372c7b1f28fad56c2a5fed9a5a6a981ab67dbf7abc7c29473e90407b950d9"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/compile/run.log",
+      "bytes": 887081,
+      "sha256": "17a2f7bf77bda5af6a98d3c3fb08e9665a4478e493f5282d8a5b1a8565d63b04",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/compile/run.log",
+          "bytes": 887081,
+          "sha256": "17a2f7bf77bda5af6a98d3c3fb08e9665a4478e493f5282d8a5b1a8565d63b04"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "8f5c0f47d860592fb8354721357b21bb132dbcbd72f69c35a45005fd1aab63fe",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "8f5c0f47d860592fb8354721357b21bb132dbcbd72f69c35a45005fd1aab63fe"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/device_map/run.log",
+      "bytes": 85346,
+      "sha256": "94472f56f0593eae1b16ce90b59328a894429736dd38d43c3b1f8b09ac1ca8df",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/device_map/run.log",
+          "bytes": 85346,
+          "sha256": "94472f56f0593eae1b16ce90b59328a894429736dd38d43c3b1f8b09ac1ca8df"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/generate_bitstream/run.log",
+      "bytes": 1153,
+      "sha256": "e9fc731b0c816307e0d64570ff6732fe00807cfbeff1e90c76ea168c965264cc",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/generate_bitstream/run.log",
+          "bytes": 1153,
+          "sha256": "e9fc731b0c816307e0d64570ff6732fe00807cfbeff1e90c76ea168c965264cc"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "fc354ad8b992c69108d2ff0218c1cf52da369286b8f1fad1cbbb611015672f03",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "fc354ad8b992c69108d2ff0218c1cf52da369286b8f1fad1cbbb611015672f03"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139107,
+      "sha256": "f1d6c2269a8b2fa46bcdd3dff9d7ad2f16bc2b6e5331270ead4c0c9140615979",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139107,
+          "sha256": "f1d6c2269a8b2fa46bcdd3dff9d7ad2f16bc2b6e5331270ead4c0c9140615979"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/place_route/run.log",
+      "bytes": 105698,
+      "sha256": "f0c30bb55f4f0dd3a4e23135f69966712f60610060f99def1badffb1fb4d20ad",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/place_route/run.log",
+          "bytes": 105698,
+          "sha256": "f0c30bb55f4f0dd3a4e23135f69966712f60610060f99def1badffb1fb4d20ad"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "2635c63b3018febeeb8b755d86e949479f0cc8281bb94ebcb3392c374b9d4b19",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "2635c63b3018febeeb8b755d86e949479f0cc8281bb94ebcb3392c374b9d4b19"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/report_timing/run.log",
+      "bytes": 21271,
+      "sha256": "74d650e971dee8bcf4204bf351ff7d384a73a40e6871631481405f6ef9f94744",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/report_timing/run.log",
+          "bytes": 21271,
+          "sha256": "74d650e971dee8bcf4204bf351ff7d384a73a40e6871631481405f6ef9f94744"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "7bbcc28a8c2f2bbc6e13f980af8730b39a75480baf4cd11b48f29feafa4a33ae",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "7bbcc28a8c2f2bbc6e13f980af8730b39a75480baf4cd11b48f29feafa4a33ae"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_2/synthesize/run.log",
+      "bytes": 1438575,
+      "sha256": "a0126dec8ba4f91a400e2303aa82948147bb0c4fa2cf7f2de0ef48aa1c8d56ca",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_2/synthesize/run.log",
+          "bytes": 1438575,
+          "sha256": "a0126dec8ba4f91a400e2303aa82948147bb0c4fa2cf7f2de0ef48aa1c8d56ca"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/compile/run.log",
+      "bytes": 887081,
+      "sha256": "efd28bcc4b7cfbf01a3238ab8dc384e2a9c2a94f3616c3c1b12181610ba42d19",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/compile/run.log",
+          "bytes": 887081,
+          "sha256": "efd28bcc4b7cfbf01a3238ab8dc384e2a9c2a94f3616c3c1b12181610ba42d19"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "8f5c0f47d860592fb8354721357b21bb132dbcbd72f69c35a45005fd1aab63fe",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "8f5c0f47d860592fb8354721357b21bb132dbcbd72f69c35a45005fd1aab63fe"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/device_map/run.log",
+      "bytes": 85346,
+      "sha256": "0114a7c5e1d61ef68162965d2a8d0203b1cd8c34bf9abdb5185bd183f3ec140b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/device_map/run.log",
+          "bytes": 85346,
+          "sha256": "0114a7c5e1d61ef68162965d2a8d0203b1cd8c34bf9abdb5185bd183f3ec140b"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/generate_bitstream/run.log",
+      "bytes": 1153,
+      "sha256": "39c07d8cb3e71227d22241407d8ada9f01bf99ad7a202d511e6bf0edf47f37b9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/generate_bitstream/run.log",
+          "bytes": 1153,
+          "sha256": "39c07d8cb3e71227d22241407d8ada9f01bf99ad7a202d511e6bf0edf47f37b9"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "f25462ca05eb1ee35be0c3e346a8e9fc7f90ec405222619ecce34ad21d08672e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "f25462ca05eb1ee35be0c3e346a8e9fc7f90ec405222619ecce34ad21d08672e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139106,
+      "sha256": "e385c424c3aa54e1482469d8d027b4714c77a455f1aaa4e6c96ccee081992ff3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139106,
+          "sha256": "e385c424c3aa54e1482469d8d027b4714c77a455f1aaa4e6c96ccee081992ff3"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/place_route/run.log",
+      "bytes": 96237,
+      "sha256": "2a011afd3205eb39b605537d2efef8a22146acf3ea0124d8223f30a0fae2dc63",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/place_route/run.log",
+          "bytes": 96237,
+          "sha256": "2a011afd3205eb39b605537d2efef8a22146acf3ea0124d8223f30a0fae2dc63"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "ee183c49cc921ad1f0097ff5b8feb93db1859aec978663e0ec031b2602926e8c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "ee183c49cc921ad1f0097ff5b8feb93db1859aec978663e0ec031b2602926e8c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/report_timing/run.log",
+      "bytes": 21271,
+      "sha256": "6c5c06f458afac01ebae06be17797080fbd0a43da224a5122c36e3806ed14125",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/report_timing/run.log",
+          "bytes": 21271,
+          "sha256": "6c5c06f458afac01ebae06be17797080fbd0a43da224a5122c36e3806ed14125"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "18e20e2291dcd98cff48a15040d70b92600cc1b1b260a9ee9ee13c1b96f0f515",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "18e20e2291dcd98cff48a15040d70b92600cc1b1b260a9ee9ee13c1b96f0f515"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_3/synthesize/run.log",
+      "bytes": 1438573,
+      "sha256": "0dd7d824318fe401be2eefa96b5463c14e9011c5a6a3fd632394e93f5a9447f0",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_3/synthesize/run.log",
+          "bytes": 1438573,
+          "sha256": "0dd7d824318fe401be2eefa96b5463c14e9011c5a6a3fd632394e93f5a9447f0"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/compile/run.log",
+      "bytes": 887081,
+      "sha256": "0a2fd66a5fa0aeeeec38967e5a44929b7a4e276722fe8d6d00c9ede421148557",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/compile/run.log",
+          "bytes": 887081,
+          "sha256": "0a2fd66a5fa0aeeeec38967e5a44929b7a4e276722fe8d6d00c9ede421148557"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "501ad1d85eff9c83fa16097a69b63325720340dc72b4162886529094c081811c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "501ad1d85eff9c83fa16097a69b63325720340dc72b4162886529094c081811c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/device_map/run.log",
+      "bytes": 85346,
+      "sha256": "af11d472b303dbea003c119d6cd6cc190fca2d40464c481de19f3afe9a560599",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/device_map/run.log",
+          "bytes": 85346,
+          "sha256": "af11d472b303dbea003c119d6cd6cc190fca2d40464c481de19f3afe9a560599"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/generate_bitstream/run.log",
+      "bytes": 1153,
+      "sha256": "9b5aad44713e458d99d3a89420d823295995c259d26e796eea21780e7721e1b3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/generate_bitstream/run.log",
+          "bytes": 1153,
+          "sha256": "9b5aad44713e458d99d3a89420d823295995c259d26e796eea21780e7721e1b3"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "3a09960f38c0555ce88bb3fde16db93c24e7efd4c3c4fdc1166a797aa5174537",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "3a09960f38c0555ce88bb3fde16db93c24e7efd4c3c4fdc1166a797aa5174537"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139105,
+      "sha256": "0afe5ef1c3562336c89b4cebb51414eec66b21db6a738a5478832d3695df7042",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139105,
+          "sha256": "0afe5ef1c3562336c89b4cebb51414eec66b21db6a738a5478832d3695df7042"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/place_route/run.log",
+      "bytes": 91814,
+      "sha256": "4db0929c0c66b19b48e29fa4614f815cbab6410a3ca76ae3e9552a890e415936",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/place_route/run.log",
+          "bytes": 91814,
+          "sha256": "4db0929c0c66b19b48e29fa4614f815cbab6410a3ca76ae3e9552a890e415936"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "fb38ab4e9e89a6350c65cd40c7719e965e9f65e1b588dac894c8e151ab368589",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "fb38ab4e9e89a6350c65cd40c7719e965e9f65e1b588dac894c8e151ab368589"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/report_timing/run.log",
+      "bytes": 21783,
+      "sha256": "22712020989e20023b82329f7484e62191378c87ae034ad493b83577c5f1d03b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/report_timing/run.log",
+          "bytes": 21783,
+          "sha256": "22712020989e20023b82329f7484e62191378c87ae034ad493b83577c5f1d03b"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "3079672bfebf584f90cfbdeec045f7e46811473b714c7b6a53ce8e09a6878fd8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "3079672bfebf584f90cfbdeec045f7e46811473b714c7b6a53ce8e09a6878fd8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_5/synthesize/run.log",
+      "bytes": 1438572,
+      "sha256": "76d11593a0167b1bf12d976c0b17ea9259969ef3e52def2b68f65f128b828a72",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_5/synthesize/run.log",
+          "bytes": 1438572,
+          "sha256": "76d11593a0167b1bf12d976c0b17ea9259969ef3e52def2b68f65f128b828a72"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/compile/run.log",
+      "bytes": 887081,
+      "sha256": "fae2ec9a5d4a0a5aa3bf82d6b092bed68b9b26a62fe80b5e6947d7f73884e4d6",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/compile/run.log",
+          "bytes": 887081,
+          "sha256": "fae2ec9a5d4a0a5aa3bf82d6b092bed68b9b26a62fe80b5e6947d7f73884e4d6"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "ff0c2c481a5feb84e89497cfaac4fc3214191abcf74dd989c62b70f79664e014",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "ff0c2c481a5feb84e89497cfaac4fc3214191abcf74dd989c62b70f79664e014"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/device_map/run.log",
+      "bytes": 85345,
+      "sha256": "a0c71b1607885b943a7931fb15cb9e5c98a144eb15fc4cfc5d6c138206dd31f3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/device_map/run.log",
+          "bytes": 85345,
+          "sha256": "a0c71b1607885b943a7931fb15cb9e5c98a144eb15fc4cfc5d6c138206dd31f3"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/generate_bitstream/run.log",
+      "bytes": 1152,
+      "sha256": "15bb2cbbd1e0f924d2e3ef18a8cae5d3e9ab64d41349611185d36ae8a39d5729",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/generate_bitstream/run.log",
+          "bytes": 1152,
+          "sha256": "15bb2cbbd1e0f924d2e3ef18a8cae5d3e9ab64d41349611185d36ae8a39d5729"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "708c44998ca04b62596613deb465d04882d4707476d9dd5553d83e2b6aff346a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "708c44998ca04b62596613deb465d04882d4707476d9dd5553d83e2b6aff346a"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139106,
+      "sha256": "37890c999044f094ee21df0b5dc686c251d2e0fae1980ceb450d931cc931d531",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139106,
+          "sha256": "37890c999044f094ee21df0b5dc686c251d2e0fae1980ceb450d931cc931d531"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/place_route/run.log",
+      "bytes": 98685,
+      "sha256": "060c26c85818afc9619848d4cabfd9d3cc8e85a362019828f527e0470ac9685e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/place_route/run.log",
+          "bytes": 98685,
+          "sha256": "060c26c85818afc9619848d4cabfd9d3cc8e85a362019828f527e0470ac9685e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "8a3f78ea8471dbfa4908ab152845a84c46d4cb7440c97a3dc4c58a192779a64f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "8a3f78ea8471dbfa4908ab152845a84c46d4cb7440c97a3dc4c58a192779a64f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/report_timing/run.log",
+      "bytes": 21911,
+      "sha256": "5c6204ef76a96133f485fa5da37788b590b2212f65affde0f7841b5e76762381",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/report_timing/run.log",
+          "bytes": 21911,
+          "sha256": "5c6204ef76a96133f485fa5da37788b590b2212f65affde0f7841b5e76762381"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "d6c99ebf50d3cb6a118e5d0b0950bd3a8adc04b90b604bb580e495762ff2a821",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "d6c99ebf50d3cb6a118e5d0b0950bd3a8adc04b90b604bb580e495762ff2a821"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_7/synthesize/run.log",
+      "bytes": 1438572,
+      "sha256": "90757923cf3d82d0ea9d17b4b5d27e350231d46fc5324bdeac087eb2fa76443b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_7/synthesize/run.log",
+          "bytes": 1438572,
+          "sha256": "90757923cf3d82d0ea9d17b4b5d27e350231d46fc5324bdeac087eb2fa76443b"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/compile/run.log",
+      "bytes": 887081,
+      "sha256": "416cb28587c27b009d2311fe2bab4628cf971c77fbd6f9edf99447ef65dab770",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/compile/run.log",
+          "bytes": 887081,
+          "sha256": "416cb28587c27b009d2311fe2bab4628cf971c77fbd6f9edf99447ef65dab770"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "8d064fa2a7232e715e0933b1550f545bd402b524ea4ee416d49c7125837d44fc",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "8d064fa2a7232e715e0933b1550f545bd402b524ea4ee416d49c7125837d44fc"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/device_map/run.log",
+      "bytes": 85345,
+      "sha256": "170d85b980d1d4cfb3ffe6df92a7161a61dc00eb5a46430eb927aebc80087f23",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/device_map/run.log",
+          "bytes": 85345,
+          "sha256": "170d85b980d1d4cfb3ffe6df92a7161a61dc00eb5a46430eb927aebc80087f23"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/generate_bitstream/run.log",
+      "bytes": 1153,
+      "sha256": "b94cd04fccb3ce85b1a8247eff936d080faae33293f131883993ac15ccbc2027",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/generate_bitstream/run.log",
+          "bytes": 1153,
+          "sha256": "b94cd04fccb3ce85b1a8247eff936d080faae33293f131883993ac15ccbc2027"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "da444b38f7eeac62370902aba2ffec3e0133107da019a50076581ddc370f25f8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "da444b38f7eeac62370902aba2ffec3e0133107da019a50076581ddc370f25f8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139107,
+      "sha256": "327b8aef69eb34e2fe40e32ac7102e8ec99f54a432919dac32a04f081a3b1791",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139107,
+          "sha256": "327b8aef69eb34e2fe40e32ac7102e8ec99f54a432919dac32a04f081a3b1791"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/place_route/run.log",
+      "bytes": 93820,
+      "sha256": "e9cd582b39550ef391942e01e0c74e0f1f4b2444d492261f4efb74496dd6a4aa",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/place_route/run.log",
+          "bytes": 93820,
+          "sha256": "e9cd582b39550ef391942e01e0c74e0f1f4b2444d492261f4efb74496dd6a4aa"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/process_receipt.json",
+      "bytes": 60659,
+      "sha256": "4a7a824cf9a4b3c22696b888bb2668a0e5ab769bad97d73bc80af2e18f62d7f9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/process_receipt.json",
+          "bytes": 60659,
+          "sha256": "4a7a824cf9a4b3c22696b888bb2668a0e5ab769bad97d73bc80af2e18f62d7f9"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/report_timing/run.log",
+      "bytes": 21911,
+      "sha256": "9bc6823a4cf0d6423f7dada968e8fa23715ebeea4d520698469c369a98a5d33d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/report_timing/run.log",
+          "bytes": 21911,
+          "sha256": "9bc6823a4cf0d6423f7dada968e8fa23715ebeea4d520698469c369a98a5d33d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "3d596e6e85a520b281f9fc1b43604bcea032cc9083b972ad7fcf18bafaea147d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "3d596e6e85a520b281f9fc1b43604bcea032cc9083b972ad7fcf18bafaea147d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_8/synthesize/run.log",
+      "bytes": 1438574,
+      "sha256": "67df3d8ae6cc94a4f606f46985bb90ef068e4e470de011b06a3e5f2a93b3f971",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_8/synthesize/run.log",
+          "bytes": 1438574,
+          "sha256": "67df3d8ae6cc94a4f606f46985bb90ef068e4e470de011b06a3e5f2a93b3f971"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/compile/run.log",
+      "bytes": 887082,
+      "sha256": "33027fcfc206263dd902648b91fe096ca4825ac1c3ad08436676ee2eaea70ee7",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/compile/run.log",
+          "bytes": 887082,
+          "sha256": "33027fcfc206263dd902648b91fe096ca4825ac1c3ad08436676ee2eaea70ee7"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "a8b0282ee634be815017cab39daa9bc0f0bb0efe464e731f5e472948a94bfcc8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "a8b0282ee634be815017cab39daa9bc0f0bb0efe464e731f5e472948a94bfcc8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/device_map/run.log",
+      "bytes": 85345,
+      "sha256": "7c5bedb8b0a43aedc1583c913c8dc177246bd425116a10556606926a595aed01",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/device_map/run.log",
+          "bytes": 85345,
+          "sha256": "7c5bedb8b0a43aedc1583c913c8dc177246bd425116a10556606926a595aed01"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/generate_bitstream/run.log",
+      "bytes": 1153,
+      "sha256": "8a23c15953574d5ba20eadc7196ba4b26be39edd7aa8a86326e8226395903bb1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/generate_bitstream/run.log",
+          "bytes": 1153,
+          "sha256": "8a23c15953574d5ba20eadc7196ba4b26be39edd7aa8a86326e8226395903bb1"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "660b0c5d8b60a2f31add726fb58d9c4b5862ed3bf509a6321f94122171b4ffb8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "660b0c5d8b60a2f31add726fb58d9c4b5862ed3bf509a6321f94122171b4ffb8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 139107,
+      "sha256": "3785a8628a878880d84d7b6980576603e64e70c146255d40909ec6db6ac516be",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 139107,
+          "sha256": "3785a8628a878880d84d7b6980576603e64e70c146255d40909ec6db6ac516be"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/place_route/run.log",
+      "bytes": 98093,
+      "sha256": "b72b4e5d21631f819c7fd01c2df0d386dfdcb36a5843662c919229942c6a8122",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/place_route/run.log",
+          "bytes": 98093,
+          "sha256": "b72b4e5d21631f819c7fd01c2df0d386dfdcb36a5843662c919229942c6a8122"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/process_receipt.json",
+      "bytes": 60660,
+      "sha256": "b4d34bedf852eed7302ae5b5a5490f68c165b678e37066ce67e51c52ac117c06",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/process_receipt.json",
+          "bytes": 60660,
+          "sha256": "b4d34bedf852eed7302ae5b5a5490f68c165b678e37066ce67e51c52ac117c06"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/report_timing/run.log",
+      "bytes": 21911,
+      "sha256": "95b37515e8fc47eac40235d74d0a7a885ebeaee9b814a69615d4b78e7af72019",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/report_timing/run.log",
+          "bytes": 21911,
+          "sha256": "95b37515e8fc47eac40235d74d0a7a885ebeaee9b814a69615d4b78e7af72019"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "ed12cb9f4175721755bf13c0267a336554f8c2f0304c867c180faef81d678aa8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "ed12cb9f4175721755bf13c0267a336554f8c2f0304c867c180faef81d678aa8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G7/seed_9/synthesize/run.log",
+      "bytes": 1438574,
+      "sha256": "402eb22086d4902962f7cdfeb6558e88ce03e5766301e6d0fb05ba47b5fdd111",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G7/seed_9/synthesize/run.log",
+          "bytes": 1438574,
+          "sha256": "402eb22086d4902962f7cdfeb6558e88ce03e5766301e6d0fb05ba47b5fdd111"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/compile/run.log",
+      "bytes": 863690,
+      "sha256": "32f378eb7e867681121a17dc21c1c1cccbb42d80ae456cb5a6b359c9976c8ff9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/compile/run.log",
+          "bytes": 863690,
+          "sha256": "32f378eb7e867681121a17dc21c1c1cccbb42d80ae456cb5a6b359c9976c8ff9"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "03a6f6839a0154d7eff48edad81e86fe6b62670bda33f2c5a1adba3aba7f323b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "03a6f6839a0154d7eff48edad81e86fe6b62670bda33f2c5a1adba3aba7f323b"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/device_map/run.log",
+      "bytes": 85159,
+      "sha256": "6165eca2d42ed7994a619f6253b74c3144a66052a415665bf07dfc3f788eed8c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/device_map/run.log",
+          "bytes": 85159,
+          "sha256": "6165eca2d42ed7994a619f6253b74c3144a66052a415665bf07dfc3f788eed8c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/generate_bitstream/run.log",
+      "bytes": 1141,
+      "sha256": "eb691c4dc6cc7bfa6dd4a1ee469f87f9238af367793f35017917ca1aca101752",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/generate_bitstream/run.log",
+          "bytes": 1141,
+          "sha256": "eb691c4dc6cc7bfa6dd4a1ee469f87f9238af367793f35017917ca1aca101752"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "b37879dbb1bcd6943736b169a5411cd40725d6ac1096f2512cc471a86acf99ee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "b37879dbb1bcd6943736b169a5411cd40725d6ac1096f2512cc471a86acf99ee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138953,
+      "sha256": "5c46dc192ca4d3530a7566df6d56dd804d617fc05a1ab08c0429310456fd0057",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138953,
+          "sha256": "5c46dc192ca4d3530a7566df6d56dd804d617fc05a1ab08c0429310456fd0057"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/place_route/run.log",
+      "bytes": 112262,
+      "sha256": "b08514771f2b96683232612f00247f7d999f9e80d39bc6c72df9416b052bf734",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/place_route/run.log",
+          "bytes": 112262,
+          "sha256": "b08514771f2b96683232612f00247f7d999f9e80d39bc6c72df9416b052bf734"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/process_receipt.json",
+      "bytes": 60679,
+      "sha256": "8e556baa9b0a719655dc6c1bb0688a0d701ecdd0178decc8e0a1865474e72eb3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/process_receipt.json",
+          "bytes": 60679,
+          "sha256": "8e556baa9b0a719655dc6c1bb0688a0d701ecdd0178decc8e0a1865474e72eb3"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "5ac6395a2c76b314456ef101410960c5924a4ad4834d810dcbb479671bdd7b40",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "5ac6395a2c76b314456ef101410960c5924a4ad4834d810dcbb479671bdd7b40"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/run_trial.pds",
+      "bytes": 28479,
+      "sha256": "82f73ed50b5c31362db408c598fe48a47016e6729d44809a1fbd7fd722e66348",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/run_trial.pds",
+          "bytes": 28479,
+          "sha256": "82f73ed50b5c31362db408c598fe48a47016e6729d44809a1fbd7fd722e66348"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_10/synthesize/run.log",
+      "bytes": 1451675,
+      "sha256": "acf1c9c63b6da2429b346cab185f900a7dbec4d0da78d895459fe54369f4cec4",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_10/synthesize/run.log",
+          "bytes": 1451675,
+          "sha256": "acf1c9c63b6da2429b346cab185f900a7dbec4d0da78d895459fe54369f4cec4"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/compile/run.log",
+      "bytes": 863690,
+      "sha256": "3c426d1a0a4af0c3e19c4cd81f7f5fceae426c2bb43419ff6894e7ba62502b73",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/compile/run.log",
+          "bytes": 863690,
+          "sha256": "3c426d1a0a4af0c3e19c4cd81f7f5fceae426c2bb43419ff6894e7ba62502b73"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "df3ece0c29278e0f157b5b0a3ef66f7ed53efdcc6b939f12401ecd6f2ea1963f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "df3ece0c29278e0f157b5b0a3ef66f7ed53efdcc6b939f12401ecd6f2ea1963f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/device_map/run.log",
+      "bytes": 85159,
+      "sha256": "e83a260dd7ede4379f806a0b09c6618e2d2597da98838ae702678959fed98f91",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/device_map/run.log",
+          "bytes": 85159,
+          "sha256": "e83a260dd7ede4379f806a0b09c6618e2d2597da98838ae702678959fed98f91"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/generate_bitstream/run.log",
+      "bytes": 1141,
+      "sha256": "7e2bed82673b462a62bc58366f0f584a7931cea703f3af37435fe729281b9985",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/generate_bitstream/run.log",
+          "bytes": 1141,
+          "sha256": "7e2bed82673b462a62bc58366f0f584a7931cea703f3af37435fe729281b9985"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "6fd9cacb32ddaceef3831fb2e003b616870c30f828d26d8f78718ba01f72c2a8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "6fd9cacb32ddaceef3831fb2e003b616870c30f828d26d8f78718ba01f72c2a8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138953,
+      "sha256": "92fae03a48c0de5d9fe82daaa728df79cf0dd6ed2371973a234025404e618f67",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138953,
+          "sha256": "92fae03a48c0de5d9fe82daaa728df79cf0dd6ed2371973a234025404e618f67"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/place_route/run.log",
+      "bytes": 113881,
+      "sha256": "0330e1cebb81406832699c3ce1ef640ce64d0d6df631c68129afc51c691b29a0",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/place_route/run.log",
+          "bytes": 113881,
+          "sha256": "0330e1cebb81406832699c3ce1ef640ce64d0d6df631c68129afc51c691b29a0"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/process_receipt.json",
+      "bytes": 60679,
+      "sha256": "a6ea6e3382730fef166bc803f6d62f8464505fb2e17e27460aea94c28338b998",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/process_receipt.json",
+          "bytes": 60679,
+          "sha256": "a6ea6e3382730fef166bc803f6d62f8464505fb2e17e27460aea94c28338b998"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "781973db164cbad6d5836b05f96f71e962fca2de2fa28f9d2d5b07c9e7cb14b5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "781973db164cbad6d5836b05f96f71e962fca2de2fa28f9d2d5b07c9e7cb14b5"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/run_trial.pds",
+      "bytes": 28479,
+      "sha256": "f4bf3903716a348df9450b81aa11e70c936dbadaa67bb9e22bdd332d24cff2d5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/run_trial.pds",
+          "bytes": 28479,
+          "sha256": "f4bf3903716a348df9450b81aa11e70c936dbadaa67bb9e22bdd332d24cff2d5"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_11/synthesize/run.log",
+      "bytes": 1451675,
+      "sha256": "41b048b0a7e1a6a9420033e73aeed594b207a41f623ac8f7ecbc8f5d49d925f3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_11/synthesize/run.log",
+          "bytes": 1451675,
+          "sha256": "41b048b0a7e1a6a9420033e73aeed594b207a41f623ac8f7ecbc8f5d49d925f3"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/compile/run.log",
+      "bytes": 861736,
+      "sha256": "8fd3f8daee00d2c2d089e2475550161b16399b54e9aa9bafedae93bd296bd26f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/compile/run.log",
+          "bytes": 861736,
+          "sha256": "8fd3f8daee00d2c2d089e2475550161b16399b54e9aa9bafedae93bd296bd26f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "5c3bfe44465818b28ab21a33871d00880874ad3d09ffd4b09d0973302863efb1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "5c3bfe44465818b28ab21a33871d00880874ad3d09ffd4b09d0973302863efb1"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/device_map/run.log",
+      "bytes": 85159,
+      "sha256": "ab42029929d2f792d662e0b35d685278e4a0082d546222bd6cf2d438091c568e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/device_map/run.log",
+          "bytes": 85159,
+          "sha256": "ab42029929d2f792d662e0b35d685278e4a0082d546222bd6cf2d438091c568e"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/generate_bitstream/run.log",
+      "bytes": 1140,
+      "sha256": "4d12633ee4ed1a97653aa9431194f59d8afe9f5b13115fc8cdca3b33fad98ecf",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/generate_bitstream/run.log",
+          "bytes": 1140,
+          "sha256": "4d12633ee4ed1a97653aa9431194f59d8afe9f5b13115fc8cdca3b33fad98ecf"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "9c6986511e52eb16664baa17609f781da6299f2ff275a1085dc9ef8f4991d724",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "9c6986511e52eb16664baa17609f781da6299f2ff275a1085dc9ef8f4991d724"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138938,
+      "sha256": "558dd1c52826c29e3afda973c1785fecf64bb6fd4d124f77317ea2c7d86e5a00",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138938,
+          "sha256": "558dd1c52826c29e3afda973c1785fecf64bb6fd4d124f77317ea2c7d86e5a00"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/place_route/run.log",
+      "bytes": 109969,
+      "sha256": "8a3387fbd932020a0d0daa868007234e946bd7ef6cf1205c1a4d619fa01d00c8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/place_route/run.log",
+          "bytes": 109969,
+          "sha256": "8a3387fbd932020a0d0daa868007234e946bd7ef6cf1205c1a4d619fa01d00c8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/process_receipt.json",
+      "bytes": 60663,
+      "sha256": "95707729d302adff0247606493f0fca6409b361a20ab675ba26d05922f828044",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/process_receipt.json",
+          "bytes": 60663,
+          "sha256": "95707729d302adff0247606493f0fca6409b361a20ab675ba26d05922f828044"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "ec222a3dabd295b85a6e67158f4f5d13ddb06a23dcab2d5e66cd4e034f4312c8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "ec222a3dabd295b85a6e67158f4f5d13ddb06a23dcab2d5e66cd4e034f4312c8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "8d1b002e9bb91aa595b9d7bf163f7cc394c1f92241013062da0626427ec12996",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "8d1b002e9bb91aa595b9d7bf163f7cc394c1f92241013062da0626427ec12996"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_2/synthesize/run.log",
+      "bytes": 1451639,
+      "sha256": "28c151da488d5a934fce294ad4c100be2312688c363376fc1e4b572c03015cab",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_2/synthesize/run.log",
+          "bytes": 1451639,
+          "sha256": "28c151da488d5a934fce294ad4c100be2312688c363376fc1e4b572c03015cab"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/compile/run.log",
+      "bytes": 861736,
+      "sha256": "92f2ac641e281729d6bf05b7572e152251fe82ac405b1b728eeb09cb1e36d48a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/compile/run.log",
+          "bytes": 861736,
+          "sha256": "92f2ac641e281729d6bf05b7572e152251fe82ac405b1b728eeb09cb1e36d48a"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "5c3bfe44465818b28ab21a33871d00880874ad3d09ffd4b09d0973302863efb1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "5c3bfe44465818b28ab21a33871d00880874ad3d09ffd4b09d0973302863efb1"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/device_map/run.log",
+      "bytes": 85159,
+      "sha256": "30e269297e9d466b93a3f9c2d38e076787539aecf63219ee77f6e888f4157ae0",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/device_map/run.log",
+          "bytes": 85159,
+          "sha256": "30e269297e9d466b93a3f9c2d38e076787539aecf63219ee77f6e888f4157ae0"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/generate_bitstream/run.log",
+      "bytes": 1140,
+      "sha256": "0b6e79d5dfc20993026cfccb16f99dac60216df10834436e888247c98bb94c02",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/generate_bitstream/run.log",
+          "bytes": 1140,
+          "sha256": "0b6e79d5dfc20993026cfccb16f99dac60216df10834436e888247c98bb94c02"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "fec1fd67ef5e7cac79a4f22b76683d9ea9cd8360664b16a36db31a4a3e2eb129",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "fec1fd67ef5e7cac79a4f22b76683d9ea9cd8360664b16a36db31a4a3e2eb129"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138938,
+      "sha256": "3ca0b220ccc5aec780fe39dea679ae1617b5e77cbb7afcbd6dc0a80ca7f9057a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138938,
+          "sha256": "3ca0b220ccc5aec780fe39dea679ae1617b5e77cbb7afcbd6dc0a80ca7f9057a"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/place_route/run.log",
+      "bytes": 104627,
+      "sha256": "e0c71f6855ef7bb8b88887aedde2ffc6356ed160bc7d36890f41415002caa340",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/place_route/run.log",
+          "bytes": 104627,
+          "sha256": "e0c71f6855ef7bb8b88887aedde2ffc6356ed160bc7d36890f41415002caa340"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/process_receipt.json",
+      "bytes": 60674,
+      "sha256": "3c396c74014467935420e90e3a982938851a1a3fdddb9f0b7767b19c2d494e40",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/process_receipt.json",
+          "bytes": 60674,
+          "sha256": "3c396c74014467935420e90e3a982938851a1a3fdddb9f0b7767b19c2d494e40"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "d6e384f203e46bc9c5939707b075ea46d814d3628b12608032199ebd18a372f9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "d6e384f203e46bc9c5939707b075ea46d814d3628b12608032199ebd18a372f9"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "d4237d389886704431bdbb489735535f2922eb6a3ceeed353fc94b9a0393e975",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "d4237d389886704431bdbb489735535f2922eb6a3ceeed353fc94b9a0393e975"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_3/synthesize/run.log",
+      "bytes": 1451639,
+      "sha256": "7d5c3ba50369e982c78af3a57ac2065c6f5d70d332e886248bad5b683d6cd88c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_3/synthesize/run.log",
+          "bytes": 1451639,
+          "sha256": "7d5c3ba50369e982c78af3a57ac2065c6f5d70d332e886248bad5b683d6cd88c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/compile/run.log",
+      "bytes": 861736,
+      "sha256": "5cac00ae4c4f11728ceaba0de46675424a85688ab31aeec287ba7d5200e1398c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/compile/run.log",
+          "bytes": 861736,
+          "sha256": "5cac00ae4c4f11728ceaba0de46675424a85688ab31aeec287ba7d5200e1398c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "eb7ca34808c36c0a7b120e95308e394fd3f2c4b5a597dc203dddc97bfb6b08ec",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "eb7ca34808c36c0a7b120e95308e394fd3f2c4b5a597dc203dddc97bfb6b08ec"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/device_map/run.log",
+      "bytes": 85158,
+      "sha256": "c3fe35bcdb7b0a9e992aa0ff9d0c1fbf1101dc9c183df892f43480b383b4acfa",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/device_map/run.log",
+          "bytes": 85158,
+          "sha256": "c3fe35bcdb7b0a9e992aa0ff9d0c1fbf1101dc9c183df892f43480b383b4acfa"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/generate_bitstream/run.log",
+      "bytes": 1139,
+      "sha256": "6184df7b52190a6a693e9f43300fbb368698dfc3d51f120759b15fc8a56a1165",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/generate_bitstream/run.log",
+          "bytes": 1139,
+          "sha256": "6184df7b52190a6a693e9f43300fbb368698dfc3d51f120759b15fc8a56a1165"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "6b23914ef10e1b624edd1f8fe9519585af77d3fa4306018d35be4c93b5ca9823",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "6b23914ef10e1b624edd1f8fe9519585af77d3fa4306018d35be4c93b5ca9823"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138937,
+      "sha256": "cc01c5c9364ab8cac75773428c96c9b250602ed377890a6df2bdbb8d0973e3df",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138937,
+          "sha256": "cc01c5c9364ab8cac75773428c96c9b250602ed377890a6df2bdbb8d0973e3df"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/place_route/run.log",
+      "bytes": 103849,
+      "sha256": "a31c30cf5673704d3b64b5cb9cfdd2cc2c38eb8bd4180c9eac31741f59f9f2b4",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/place_route/run.log",
+          "bytes": 103849,
+          "sha256": "a31c30cf5673704d3b64b5cb9cfdd2cc2c38eb8bd4180c9eac31741f59f9f2b4"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/process_receipt.json",
+      "bytes": 60674,
+      "sha256": "58c9f98c303176ab81b59ce0f8b2f6759a0aa2ff7d9631a960971e837e0b117c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/process_receipt.json",
+          "bytes": 60674,
+          "sha256": "58c9f98c303176ab81b59ce0f8b2f6759a0aa2ff7d9631a960971e837e0b117c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "c3a6de8db527020cb04749aec93ef76716a6baf3e808d1696ea7bf8523c26891",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "c3a6de8db527020cb04749aec93ef76716a6baf3e808d1696ea7bf8523c26891"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "93ca2066996eb39f80da4de0d3924f30b3a9f05ca969b02dea88a243463993fa",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "93ca2066996eb39f80da4de0d3924f30b3a9f05ca969b02dea88a243463993fa"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_5/synthesize/run.log",
+      "bytes": 1451638,
+      "sha256": "e9b686d87247eb70b0ad06a4ec4e022a7b4dc6d2b935bca3430122bb2ad9a4c4",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_5/synthesize/run.log",
+          "bytes": 1451638,
+          "sha256": "e9b686d87247eb70b0ad06a4ec4e022a7b4dc6d2b935bca3430122bb2ad9a4c4"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/compile/run.log",
+      "bytes": 861737,
+      "sha256": "cd7b0b53a5233ec9fcd43f7aa4873086e6811ed1fd1ce25c961d862aa6f6707b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/compile/run.log",
+          "bytes": 861737,
+          "sha256": "cd7b0b53a5233ec9fcd43f7aa4873086e6811ed1fd1ce25c961d862aa6f6707b"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "db755664eb025a32be6e32d932ec55460838ed839b820c0f5bc250bfd76a97e1",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "db755664eb025a32be6e32d932ec55460838ed839b820c0f5bc250bfd76a97e1"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/device_map/run.log",
+      "bytes": 85158,
+      "sha256": "06c405b9b6e6679707cd86bc5f6f4ada337c8bc5eeacd9ceed5a4ff01c4c2990",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/device_map/run.log",
+          "bytes": 85158,
+          "sha256": "06c405b9b6e6679707cd86bc5f6f4ada337c8bc5eeacd9ceed5a4ff01c4c2990"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/generate_bitstream/run.log",
+      "bytes": 1139,
+      "sha256": "951f2e9c251fba2b7512d44a22721154b892ea2a71b2ca0bba9f0aedce117059",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/generate_bitstream/run.log",
+          "bytes": 1139,
+          "sha256": "951f2e9c251fba2b7512d44a22721154b892ea2a71b2ca0bba9f0aedce117059"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "fa075e7b8fa7f77b75add560530c4abb517dd68f4d834bb75640a315cabd1a1f",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "fa075e7b8fa7f77b75add560530c4abb517dd68f4d834bb75640a315cabd1a1f"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138938,
+      "sha256": "1057a1a6f9d7a421f3327b8eff0459d02532576cb13a6a9c6e87a303e611a199",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138938,
+          "sha256": "1057a1a6f9d7a421f3327b8eff0459d02532576cb13a6a9c6e87a303e611a199"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/place_route/run.log",
+      "bytes": 97150,
+      "sha256": "7caa1170cab7c196438a8a8c053184e193db9cb6123652e23a08af790bfcd160",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/place_route/run.log",
+          "bytes": 97150,
+          "sha256": "7caa1170cab7c196438a8a8c053184e193db9cb6123652e23a08af790bfcd160"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/process_receipt.json",
+      "bytes": 60674,
+      "sha256": "d8b1a05084bd7e43be730148fd4e6167220fe1a34e83bc21342fbdd9e3ce1c72",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/process_receipt.json",
+          "bytes": 60674,
+          "sha256": "d8b1a05084bd7e43be730148fd4e6167220fe1a34e83bc21342fbdd9e3ce1c72"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "3d3f1ffdfff9ed863a82ebf223b58369f31364856225ffbbfc8510d571dd1bc6",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "3d3f1ffdfff9ed863a82ebf223b58369f31364856225ffbbfc8510d571dd1bc6"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "de6dd427fc5f12262a3f22a495f3ce560e0ce8644aaefbdf850841d85248efcd",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "de6dd427fc5f12262a3f22a495f3ce560e0ce8644aaefbdf850841d85248efcd"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_7/synthesize/run.log",
+      "bytes": 1451638,
+      "sha256": "d614e36421835c1e2dd90019ff01de8b07f5ae11082a32018c129effd3d6e491",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_7/synthesize/run.log",
+          "bytes": 1451638,
+          "sha256": "d614e36421835c1e2dd90019ff01de8b07f5ae11082a32018c129effd3d6e491"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/compile/run.log",
+      "bytes": 861736,
+      "sha256": "631d6b1eebb62cdb90fb5fdec648537cfdd7db70e2d77341a5ff3ae7ea256160",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/compile/run.log",
+          "bytes": 861736,
+          "sha256": "631d6b1eebb62cdb90fb5fdec648537cfdd7db70e2d77341a5ff3ae7ea256160"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "80b4d2be2c240a519755db6119b974b3957fe8911af818cd33ad925172304ea3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "80b4d2be2c240a519755db6119b974b3957fe8911af818cd33ad925172304ea3"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/device_map/run.log",
+      "bytes": 85158,
+      "sha256": "a324833ff2f128cd0db9719f8cdaf7c6c452c9b73e0ccc98de392679c85527fc",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/device_map/run.log",
+          "bytes": 85158,
+          "sha256": "a324833ff2f128cd0db9719f8cdaf7c6c452c9b73e0ccc98de392679c85527fc"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/generate_bitstream/run.log",
+      "bytes": 1140,
+      "sha256": "6066d426e15208e5bea2f9bb427faff13f780190300da940d32f302b7a05e179",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/generate_bitstream/run.log",
+          "bytes": 1140,
+          "sha256": "6066d426e15208e5bea2f9bb427faff13f780190300da940d32f302b7a05e179"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "e8250f3b5f3ca6ac44088540c1621ee68f056fa696d07c4a6e1c71418e62457a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "e8250f3b5f3ca6ac44088540c1621ee68f056fa696d07c4a6e1c71418e62457a"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138938,
+      "sha256": "d2fe2b08e94e2e1671bd2db2eee02a6f6c2bef22a3f9b9ffbeaf66ce373acd95",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138938,
+          "sha256": "d2fe2b08e94e2e1671bd2db2eee02a6f6c2bef22a3f9b9ffbeaf66ce373acd95"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/place_route/run.log",
+      "bytes": 100692,
+      "sha256": "da37bd12675839a6b68e57bc00ae810d9c9d87054a501b943088c675427efc38",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/place_route/run.log",
+          "bytes": 100692,
+          "sha256": "da37bd12675839a6b68e57bc00ae810d9c9d87054a501b943088c675427efc38"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/process_receipt.json",
+      "bytes": 60664,
+      "sha256": "500248ade39689c21b4799f3114c08595aa41b02ef4378a7822b6eba8c7526d0",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/process_receipt.json",
+          "bytes": 60664,
+          "sha256": "500248ade39689c21b4799f3114c08595aa41b02ef4378a7822b6eba8c7526d0"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "d63c9a39c36f0436beeb80d0c8cf8f906423c5707e1955664ef4e6f5f19f8007",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "d63c9a39c36f0436beeb80d0c8cf8f906423c5707e1955664ef4e6f5f19f8007"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "b6d4c26cceca4af0e8d64a4ab1cbe9890dd7115ed3d268fb7aa48c2ad239c9d6",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "b6d4c26cceca4af0e8d64a4ab1cbe9890dd7115ed3d268fb7aa48c2ad239c9d6"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_8/synthesize/run.log",
+      "bytes": 1451638,
+      "sha256": "de3474f0545377e62f2b697141aa17e04808080c7a2b82b489f6ab18a6a168a8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_8/synthesize/run.log",
+          "bytes": 1451638,
+          "sha256": "de3474f0545377e62f2b697141aa17e04808080c7a2b82b489f6ab18a6a168a8"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/HDMI_DDR3_OV5640_test.fdc",
+      "bytes": 57708,
+      "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/HDMI_DDR3_OV5640_test.fdc",
+          "bytes": 57708,
+          "sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/build.tcl",
+      "bytes": 2127,
+      "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/build.tcl",
+          "bytes": 2127,
+          "sha256": "2c185c120402878f0d836c1bb7f65f1f9577ef29d71770f9fc848ca51a287636"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/compile/run.log",
+      "bytes": 861736,
+      "sha256": "2bf28423fb6f1ae7487235c9a3a568800a99e351d55bcdb504afb2deec415f6c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/compile/run.log",
+          "bytes": 861736,
+          "sha256": "2bf28423fb6f1ae7487235c9a3a568800a99e351d55bcdb504afb2deec415f6c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/device_map/hdmi_ddr_ov5640_top.pcf",
+      "bytes": 12536,
+      "sha256": "ea8ea4852427270336846bf730a3b3bf500a4df55a3a35f45f67ab9fadd64379",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/device_map/hdmi_ddr_ov5640_top.pcf",
+          "bytes": 12536,
+          "sha256": "ea8ea4852427270336846bf730a3b3bf500a4df55a3a35f45f67ab9fadd64379"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/device_map/run.log",
+      "bytes": 85158,
+      "sha256": "cc16c336379e133d7affd597cd126558db310082594213d88bfc702a3303ca5d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/device_map/run.log",
+          "bytes": 85158,
+          "sha256": "cc16c336379e133d7affd597cd126558db310082594213d88bfc702a3303ca5d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/generate_bitstream/run.log",
+      "bytes": 1140,
+      "sha256": "9258b96675a806479e68260b9a0b8382923530d2a7a8f51c22cd30701915c0b5",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/generate_bitstream/run.log",
+          "bytes": 1140,
+          "sha256": "9258b96675a806479e68260b9a0b8382923530d2a7a8f51c22cd30701915c0b5"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/place_route/clock_utilization.txt",
+      "bytes": 24311,
+      "sha256": "1b9765f8953ec2f4b95c98093a9b61c2d72c420de89b61ccf58bb192175b00a0",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/place_route/clock_utilization.txt",
+          "bytes": 24311,
+          "sha256": "1b9765f8953ec2f4b95c98093a9b61c2d72c420de89b61ccf58bb192175b00a0"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/place_route/hdmi_ddr_ov5640_top.prr",
+      "bytes": 138938,
+      "sha256": "96242139fb2edd26d1c66d7ea859ab9d115f1f8131d8b9713549a5dc8c0d1ae4",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/place_route/hdmi_ddr_ov5640_top.prr",
+          "bytes": 138938,
+          "sha256": "96242139fb2edd26d1c66d7ea859ab9d115f1f8131d8b9713549a5dc8c0d1ae4"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/place_route/run.log",
+      "bytes": 113321,
+      "sha256": "544ff2dc35542b506a47cf2074622a527ed3e67d3f7444aa9c18a3d642805c5d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/place_route/run.log",
+          "bytes": 113321,
+          "sha256": "544ff2dc35542b506a47cf2074622a527ed3e67d3f7444aa9c18a3d642805c5d"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/process_receipt.json",
+      "bytes": 60675,
+      "sha256": "54ef74c9dadd59f3e5861714c5d6526d151fb67da6291852922088b03aa23dfe",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/process_receipt.json",
+          "bytes": 60675,
+          "sha256": "54ef74c9dadd59f3e5861714c5d6526d151fb67da6291852922088b03aa23dfe"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/report_timing/run.log",
+      "bytes": 21767,
+      "sha256": "7656904f318c11e95d49c800a56eb1f1020fc494bba88e1ac3d6f29f7d98924c",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/report_timing/run.log",
+          "bytes": 21767,
+          "sha256": "7656904f318c11e95d49c800a56eb1f1020fc494bba88e1ac3d6f29f7d98924c"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/run_trial.pds",
+      "bytes": 28477,
+      "sha256": "8a05ddcb6bf664b56bdb31d17a0c89c4c4e2d6941dedd6c1fe6cc539f7cf4942",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/run_trial.pds",
+          "bytes": 28477,
+          "sha256": "8a05ddcb6bf664b56bdb31d17a0c89c4c4e2d6941dedd6c1fe6cc539f7cf4942"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/source/rtl/hdmi_ddr_ov5640_top.v",
+      "bytes": 30978,
+      "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/source/rtl/hdmi_ddr_ov5640_top.v",
+          "bytes": 30978,
+          "sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/source/rtl/i2c_com.v",
+      "bytes": 3896,
+      "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/source/rtl/i2c_com.v",
+          "bytes": 3896,
+          "sha256": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/source/rtl/reg_config.v",
+      "bytes": 15904,
+      "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/source/rtl/reg_config.v",
+          "bytes": 15904,
+          "sha256": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8/seed_9/synthesize/run.log",
+      "bytes": 1451638,
+      "sha256": "dfe4a05f56d25ce052af7bd18df438144fc8d97a0cbf0452367ec1added8b737",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8/seed_9/synthesize/run.log",
+          "bytes": 1451638,
+          "sha256": "dfe4a05f56d25ce052af7bd18df438144fc8d97a0cbf0452367ec1added8b737"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8_native_seed2/export_receipt.json",
+      "bytes": 2525,
+      "sha256": "7c0f79890502c11a821cc6fdf7c9fe3fe0eb77e7ed708c0dd4812732b1e03844",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8_native_seed2/export_receipt.json",
+          "bytes": 2525,
+          "sha256": "7c0f79890502c11a821cc6fdf7c9fe3fe0eb77e7ed708c0dd4812732b1e03844"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/evidence/G8_native_seed2/routed.v",
+      "bytes": 28557904,
+      "sha256": "1b6e1d245be01ba469ce674165a987744d8094e79ac4204049d8dfb5d5225a50",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/evidence/G8_native_seed2/routed.v",
+          "bytes": 28557904,
+          "sha256": "1b6e1d245be01ba469ce674165a987744d8094e79ac4204049d8dfb5d5225a50"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/files_sha256.json",
+      "bytes": 46638,
+      "sha256": "d611e03252727b8e374c91d6679abd518f51c38312dc445a85a9901c39c02183",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/files_sha256.json",
+          "bytes": 46638,
+          "sha256": "d611e03252727b8e374c91d6679abd518f51c38312dc445a85a9901c39c02183"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/portable_recheck.py",
+      "bytes": 5243,
+      "sha256": "74cda12e0b28ab65e769a1e9a5936050014df7e9e46517d1f6e5176c93726f50",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/portable_recheck.py",
+          "bytes": 5243,
+          "sha256": "74cda12e0b28ab65e769a1e9a5936050014df7e9e46517d1f6e5176c93726f50"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/portable_recheck_receipt.json",
+      "bytes": 245,
+      "sha256": "3c111bfcb1cc30f50be62427904131df0c08cb607aa12f4ddcf59cf805d61fcf",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/portable_recheck_receipt.json",
+          "bytes": 245,
+          "sha256": "3c111bfcb1cc30f50be62427904131df0c08cb607aa12f4ddcf59cf805d61fcf"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/source_index.json",
+      "bytes": 97763,
+      "sha256": "57e71336b746953d9b95bfb6672b04263a205777d46668f30ad8679b3b9c526b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/source_index.json",
+          "bytes": 97763,
+          "sha256": "57e71336b746953d9b95bfb6672b04263a205777d46668f30ad8679b3b9c526b"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/supplement.py",
+      "bytes": 2339,
+      "sha256": "88c40c1dda2fef4fbb3742f824700afa71c7576be45c04635e4444bfce169564",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/supplement.py",
+          "bytes": 2339,
+          "sha256": "88c40c1dda2fef4fbb3742f824700afa71c7576be45c04635e4444bfce169564"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/warning_audit.json",
+      "bytes": 1400519,
+      "sha256": "b34558ccb40bfe73fef1f9695cf7ba005769ef8ca269a70c0b80d12d12721414",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/warning_audit.json",
+          "bytes": 1400519,
+          "sha256": "b34558ccb40bfe73fef1f9695cf7ba005769ef8ca269a70c0b80d12d12721414"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/原38条逐项台账.md",
+      "bytes": 14789,
+      "sha256": "467368dfd62dcbee1560c3b45bf5908fbbe4ecdd9249992d1b86d2b8801a0313",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/原38条逐项台账.md",
+          "bytes": 14789,
+          "sha256": "467368dfd62dcbee1560c3b45bf5908fbbe4ecdd9249992d1b86d2b8801a0313"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/告警审查补充任务_给一号协作者.md",
+      "bytes": 2391,
+      "sha256": "0a69a283ce7c0389b058e1ad141b6262e4083df4a33edba10bb3b73c78ea7a46",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/告警审查补充任务_给一号协作者.md",
+          "bytes": 2391,
+          "sha256": "0a69a283ce7c0389b058e1ad141b6262e4083df4a33edba10bb3b73c78ea7a46"
+        }
+      ]
+    },
+    {
+      "path": "critical_warning_review/告警审查补充任务_给二号协作者.md",
+      "bytes": 2278,
+      "sha256": "6ddda2bc3cc43d8f5824041156e6c0c868da974792551c4a9b45004ad12eb5bd",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/review/告警审查补充任务_给二号协作者.md",
+          "bytes": 2278,
+          "sha256": "6ddda2bc3cc43d8f5824041156e6c0c868da974792551c4a9b45004ad12eb5bd"
+        }
+      ]
+    },
+    {
+      "path": "files_sha256.json",
+      "bytes": 73632,
+      "sha256": "37475ce0a12d0958e6aac0d0e0526154486e7007655ed9ef7fb9d48f5f0a8883",
+      "source_parts": [
+        {
+          "path": "deliverables/20261024/critical_warning_review/recipes/one_files_sha256.json",
+          "bytes": 73632,
+          "sha256": "37475ce0a12d0958e6aac0d0e0526154486e7007655ed9ef7fb9d48f5f0a8883"
+        }
+      ]
+    },
+    {
+      "path": "helper_smoke.json",
+      "bytes": 10772,
+      "sha256": "7691d4464b663c2b8f768ad2d162f6e41de0d60c60a694630a7a96505194d829",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/helper_smoke.json",
+          "bytes": 10772,
+          "sha256": "7691d4464b663c2b8f768ad2d162f6e41de0d60c60a694630a7a96505194d829"
+        }
+      ]
+    },
+    {
+      "path": "intake.json",
+      "bytes": 2327,
+      "sha256": "3fb1b1c4ebc7e5f9df2d08944d31442c1507e319d16a30ad895e33518d7363ab",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/intake.json",
+          "bytes": 2327,
+          "sha256": "3fb1b1c4ebc7e5f9df2d08944d31442c1507e319d16a30ad895e33518d7363ab"
+        }
+      ]
+    },
+    {
+      "path": "manifest_audit.json",
+      "bytes": 856,
+      "sha256": "806fbb60caef88f99b66ce031955ada0f47f249b115b8d512467e3ce5c75028a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/manifest_audit.json",
+          "bytes": 856,
+          "sha256": "806fbb60caef88f99b66ce031955ada0f47f249b115b8d512467e3ce5c75028a"
+        }
+      ]
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 2626,
+      "sha256": "5ef149ee4f760f68ac5447b436e9bb43b74044c52b2fee48e9d52559aa760af3",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/prepare.py",
+          "bytes": 2626,
+          "sha256": "5ef149ee4f760f68ac5447b436e9bb43b74044c52b2fee48e9d52559aa760af3"
+        }
+      ]
+    },
+    {
+      "path": "prepare_ab_analysis.py",
+      "bytes": 2124,
+      "sha256": "6466051e431a1d6a307157c0772c0d13c5570e5b0023a39c20e62cd927ce289d",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/prepare_ab_analysis.py",
+          "bytes": 2124,
+          "sha256": "6466051e431a1d6a307157c0772c0d13c5570e5b0023a39c20e62cd927ce289d"
+        }
+      ]
+    },
+    {
+      "path": "receipt_template.json",
+      "bytes": 411,
+      "sha256": "6fd88b10a19585d59c61a296fd4f55fd5629e6295203d2c71ffcf78602d921f8",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/receipt_template.json",
+          "bytes": 411,
+          "sha256": "6fd88b10a19585d59c61a296fd4f55fd5629e6295203d2c71ffcf78602d921f8"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/1/01_全部待回执统一清单_最新(3).md",
+      "bytes": 3016,
+      "sha256": "7295858e03524e50f6d8486d3c8c2432d7ced6622974a2d0868f17eea8ab9548",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/1/01_全部待回执统一清单_最新(3).md",
+          "bytes": 3016,
+          "sha256": "7295858e03524e50f6d8486d3c8c2432d7ced6622974a2d0868f17eea8ab9548"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/1/01_外部执行SOP.md",
+      "bytes": 3764,
+      "sha256": "c756e8935ecf45412f15372285711d091dc96716e056b70a1fcd270a21a2fd24",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/1/01_外部执行SOP.md",
+          "bytes": 3764,
+          "sha256": "c756e8935ecf45412f15372285711d091dc96716e056b70a1fcd270a21a2fd24"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/1/1c4a57255af1e8ee7171b4e4dce99e33.png",
+      "bytes": 38330,
+      "sha256": "e46cc81ca5a804858fee7e30ce1d9664cd8fb1b3c55ae92fcfcbf14851ecd365",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/1/1c4a57255af1e8ee7171b4e4dce99e33.png",
+          "bytes": 38330,
+          "sha256": "e46cc81ca5a804858fee7e30ce1d9664cd8fb1b3c55ae92fcfcbf14851ecd365"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/2/01_全部待回执统一清单_最新(4).md",
+      "bytes": 3518,
+      "sha256": "7fecdf157956196fa696f1afcba202a80177a0a8b99a60ccbcc312ee51c25cfd",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/2/01_全部待回执统一清单_最新(4).md",
+          "bytes": 3518,
+          "sha256": "7fecdf157956196fa696f1afcba202a80177a0a8b99a60ccbcc312ee51c25cfd"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/2/1539dd322782d29b8d3199d28b39d563.png",
+      "bytes": 50569,
+      "sha256": "f7f93182f542c065c9b4d8c1c04acde224a88e517bca023a8ec580b35acb6590",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/2/1539dd322782d29b8d3199d28b39d563.png",
+          "bytes": 50569,
+          "sha256": "f7f93182f542c065c9b4d8c1c04acde224a88e517bca023a8ec580b35acb6590"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/2/816b0b402cb37ca1c075fead1936cf24.png",
+      "bytes": 27138,
+      "sha256": "7dc6e2d382731aa492bbb8a20893da6225b07bed4847c85c41d293fdf458cd0e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/2/816b0b402cb37ca1c075fead1936cf24.png",
+          "bytes": 27138,
+          "sha256": "7dc6e2d382731aa492bbb8a20893da6225b07bed4847c85c41d293fdf458cd0e"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/2/9443a178adf9752314f2b4480aeac5d8.png",
+      "bytes": 37814,
+      "sha256": "5e7ff17318c182f2ae4aba19f5092df39bcee44ea3a8c4e0ac68c2f6a7e1de2b",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/2/9443a178adf9752314f2b4480aeac5d8.png",
+          "bytes": 37814,
+          "sha256": "5e7ff17318c182f2ae4aba19f5092df39bcee44ea3a8c4e0ac68c2f6a7e1de2b"
+        }
+      ]
+    },
+    {
+      "path": "received_notes/二号协作者/3/01_全部待回执统一清单_最新(5).md",
+      "bytes": 5148,
+      "sha256": "23d3dd6acfb3c8c6c599340e43a6e88a57470017d119c53574701cae55954c1e",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/received_notes/二号协作者/3/01_全部待回执统一清单_最新(5).md",
+          "bytes": 5148,
+          "sha256": "23d3dd6acfb3c8c6c599340e43a6e88a57470017d119c53574701cae55954c1e"
+        }
+      ]
+    },
+    {
+      "path": "reference/M02_R03_执行报告_管理方_20261023.md",
+      "bytes": 7325,
+      "sha256": "0f4f76b2e71e97702478b94063fc4ef940e9aa59fdb28de655b3599ae61a51da",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/reference/M02_R03_执行报告_管理方_20261023.md",
+          "bytes": 7325,
+          "sha256": "0f4f76b2e71e97702478b94063fc4ef940e9aa59fdb28de655b3599ae61a51da"
+        }
+      ]
+    },
+    {
+      "path": "reference/R01_G8独立实验登记.md",
+      "bytes": 1333,
+      "sha256": "ee5fc01b8b921eab4b148468c96247fa5b839d665d462fdd167f8a42a71073e9",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/reference/R01_G8独立实验登记.md",
+          "bytes": 1333,
+          "sha256": "ee5fc01b8b921eab4b148468c96247fa5b839d665d462fdd167f8a42a71073e9"
+        }
+      ]
+    },
+    {
+      "path": "reference/各协作者当前任务清单_v2.0.4_20261023.md",
+      "bytes": 9979,
+      "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/reference/各协作者当前任务清单_v2.0.4_20261023.md",
+          "bytes": 9979,
+          "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+        }
+      ]
+    },
+    {
+      "path": "reference/模块分工与工作包交付总说明_v2.0.4.md",
+      "bytes": 48380,
+      "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/reference/模块分工与工作包交付总说明_v2.0.4.md",
+          "bytes": 48380,
+          "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11"
+        }
+      ]
+    },
+    {
+      "path": "run_logged.py",
+      "bytes": 3627,
+      "sha256": "60215aef7afdc7b2ce218f53b910acfa452d2b717ad423c60abff2965de8a16a",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/run_logged.py",
+          "bytes": 3627,
+          "sha256": "60215aef7afdc7b2ce218f53b910acfa452d2b717ad423c60abff2965de8a16a"
+        }
+      ]
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 691,
+      "sha256": "baf1707e83937a6c8c362c901f280d6ca3fcc1f82604f71c30209a0d03ef6689",
+      "source_parts": [
+        {
+          "path": "deliverables/20261023/review_delegation/instructions/verify_package.py",
+          "bytes": 691,
+          "sha256": "baf1707e83937a6c8c362c901f280d6ca3fcc1f82604f71c30209a0d03ef6689"
+        }
+      ]
+    }
+  ],
+  "zip_sha256": "4868d30caa252f85c7df90256637d62dac6536057a9c35a50c4ea6949324b2c7",
+  "zip_bytes": 1513194018
+}

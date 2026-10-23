@@ -1,0 +1,51 @@
+{
+  "seed": 2,
+  "started_utc": "2026-10-23T14:18:15.261281+00:00",
+  "tool": "D:\\pango\\PDS_2022.2-SP6.4\\bin\\pds_shell.exe",
+  "tool_sha256": "631ffd8f14d6246872873c72025cbc2734c9f8c388075b7afb0b042f3a684e6f",
+  "stages": {
+    "mapped": {
+      "source": "D:\\FPGA_management\\work\\G8_followup_20261023\\physical_g8\\seed_2\\device_map\\hdmi_ddr_ov5640_top_map.adf",
+      "source_sha256": "f1ce3aa04a15711efc587e26dfe5bd3a73d90e3c54d00fcece70dcb134fe464e",
+      "argv": [
+        "D:\\pango\\PDS_2022.2-SP6.4\\bin\\pds_shell.exe",
+        "-shell_cmd",
+        ".switch_db",
+        "-input",
+        "D:\\FPGA_management\\work\\G8_followup_20261023\\native_g8\\seed_2\\mapped.adf",
+        "-output",
+        "D:\\FPGA_management\\work\\G8_followup_20261023\\native_g8\\seed_2\\mapped.txt"
+      ],
+      "exit_code": 0,
+      "source_unchanged": true,
+      "decoded_sha256": "36edd85b4004aab37e8a4cc03bbd1b8f1727f461a7488e532f515e8e3bfd5c2f"
+    },
+    "routed": {
+      "source": "D:\\FPGA_management\\work\\G8_followup_20261023\\physical_g8\\seed_2\\place_route\\hdmi_ddr_ov5640_top_pnr.adf",
+      "source_sha256": "5d70054335ff6cb67746d7a4cb17ee2dd2b4ebbcec118e8ace935cb6242d494d",
+      "argv": [
+        "D:\\pango\\PDS_2022.2-SP6.4\\bin\\pds_shell.exe",
+        "-shell_cmd",
+        ".switch_db",
+        "-input",
+        "D:\\FPGA_management\\work\\G8_followup_20261023\\native_g8\\seed_2\\routed.adf",
+        "-output",
+        "D:\\FPGA_management\\work\\G8_followup_20261023\\native_g8\\seed_2\\routed.txt"
+      ],
+      "exit_code": 0,
+      "source_unchanged": true,
+      "decoded_sha256": "c5056af13acbc2ea554188b8bdc1c5561f4e96067dd7a903852b1c9aa25577d5"
+    }
+  },
+  "finished_utc": "2026-10-23T14:21:37.691441+00:00",
+  "files_sha256": {
+    "mapped.adf": "f1ce3aa04a15711efc587e26dfe5bd3a73d90e3c54d00fcece70dcb134fe464e",
+    "mapped.txt": "36edd85b4004aab37e8a4cc03bbd1b8f1727f461a7488e532f515e8e3bfd5c2f",
+    "mapped.v": "00fa6fbc010910d368d4164f712c035d1efd2e021b03b8235c7695c07260b440",
+    "mapped_console.log": "c1bd5dacf3c4c5f50c63c48d2ce497934231ae0267d34127273f9c5ca625b710",
+    "routed.adf": "5d70054335ff6cb67746d7a4cb17ee2dd2b4ebbcec118e8ace935cb6242d494d",
+    "routed.txt": "c5056af13acbc2ea554188b8bdc1c5561f4e96067dd7a903852b1c9aa25577d5",
+    "routed.v": "1b6e1d245be01ba469ce674165a987744d8094e79ac4204049d8dfb5d5225a50",
+    "routed_console.log": "c1bd5dacf3c4c5f50c63c48d2ce497934231ae0267d34127273f9c5ca625b710"
+  }
+}

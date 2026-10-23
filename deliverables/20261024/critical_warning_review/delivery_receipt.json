@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "time_bj": "2026-10-24T00:58:04.113509+08:00",
+  "packages": [
+    {
+      "filename": "审验外包_资源预算与告警审查_给一号协作者_20261024.zip",
+      "bytes": 1513194018,
+      "sha256": "4868d30caa252f85c7df90256637d62dac6536057a9c35a50c4ea6949324b2c7",
+      "members": 390,
+      "all_members_verified": true
+    },
+    {
+      "filename": "审验外包_资源预算与告警审查_给二号协作者_20261024.zip",
+      "bytes": 1513194018,
+      "sha256": "6c521adb259766eb102265b52f6001d2089086e51bb6ccd59bb40b71003b63b0",
+      "members": 390,
+      "all_members_verified": true
+    }
+  ],
+  "stage_logs": 96,
+  "critical_events": 2288,
+  "review_status": "COMPLETE_EVIDENCE_REVIEW_ONLY",
+  "original_38_unconditionally_closed": 0,
+  "master_version": "2.0.4",
+  "production_promoted": false,
+  "delivery_status": "PENDING_USER_FORWARD",
+  "prior_entries_retained": true
+}
