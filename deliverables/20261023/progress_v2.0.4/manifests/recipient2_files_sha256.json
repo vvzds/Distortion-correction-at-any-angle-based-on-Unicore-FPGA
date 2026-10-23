@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "name": "模块分工与工作包交付总说明_v2.0.4.md",
+      "bytes": 48380,
+      "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11"
+    },
+    {
+      "name": "各协作者当前任务清单_v2.0.4_20261023.md",
+      "bytes": 9979,
+      "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+    },
+    {
+      "name": "更新与转交说明_v2.0.4.md",
+      "bytes": 1502,
+      "sha256": "ceb39640936a0a05b7e20ed88c668835077ad862451166bcf47500fe86c17742"
+    },
+    {
+      "name": "文档核验记录_v2.0.4.json",
+      "bytes": 4814,
+      "sha256": "b331a12b9c8e3e18b5b7a316557f2122fa04fdfbb91e9bd9cb8cc315cda07f37"
+    },
+    {
+      "name": "包内阅读说明.md",
+      "bytes": 587,
+      "sha256": "c22e1dc968d7a20b780fb0fd8eba3d882b40e192d5be074ffd2d6344fb0df941"
+    },
+    {
+      "name": "verify_delivery.py",
+      "bytes": 563,
+      "sha256": "869903b0992706ef885998281f1e57a0dd1d0e0a173aa90fe4751e1ea5e180c4"
+    },
+    {
+      "name": "既有统一回执/G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+      "bytes": 802850170,
+      "sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "1": {
+    "zip": "项目进度与任务清单_v2.0.4_给一号协作者_20261023.zip",
+    "members": [
+      {
+        "name": "模块分工与工作包交付总说明_v2.0.4.md",
+        "file": "模块分工与工作包交付总说明_v2.0.4.md",
+        "bytes": 48380,
+        "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11"
+      },
+      {
+        "name": "各协作者当前任务清单_v2.0.4_20261023.md",
+        "file": "各协作者当前任务清单_v2.0.4_20261023.md",
+        "bytes": 9979,
+        "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+      },
+      {
+        "name": "更新与转交说明_v2.0.4.md",
+        "file": "更新与转交说明_v2.0.4.md",
+        "bytes": 1502,
+        "sha256": "ceb39640936a0a05b7e20ed88c668835077ad862451166bcf47500fe86c17742"
+      },
+      {
+        "name": "文档核验记录_v2.0.4.json",
+        "file": "文档核验记录_v2.0.4.json",
+        "bytes": 4814,
+        "sha256": "b331a12b9c8e3e18b5b7a316557f2122fa04fdfbb91e9bd9cb8cc315cda07f37"
+      },
+      {
+        "name": "包内阅读说明.md",
+        "file": "包内阅读说明.md",
+        "bytes": 587,
+        "sha256": "c22e1dc968d7a20b780fb0fd8eba3d882b40e192d5be074ffd2d6344fb0df941"
+      },
+      {
+        "name": "verify_delivery.py",
+        "file": "verify_delivery.py",
+        "bytes": 563,
+        "sha256": "869903b0992706ef885998281f1e57a0dd1d0e0a173aa90fe4751e1ea5e180c4"
+      },
+      {
+        "name": "files_sha256.json",
+        "file": "manifests/recipient1_files_sha256.json",
+        "bytes": 1059,
+        "sha256": "c490d48c33bc164c3e68be0035c5651e8d5bce19875bd3c3e45ff72bba704856"
+      }
+    ],
+    "zip_sha256": "8c6ca3e01a35854b932521dba0eb4239c2b211b3b4b16ff0cf105f838ced87d1",
+    "zip_bytes": 68008
+  },
+  "2": {
+    "zip": "项目进度_v2.0.4及G7_M03统一回执_给二号协作者_20261023.zip",
+    "members": [
+      {
+        "name": "模块分工与工作包交付总说明_v2.0.4.md",
+        "file": "模块分工与工作包交付总说明_v2.0.4.md",
+        "bytes": 48380,
+        "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11"
+      },
+      {
+        "name": "各协作者当前任务清单_v2.0.4_20261023.md",
+        "file": "各协作者当前任务清单_v2.0.4_20261023.md",
+        "bytes": 9979,
+        "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+      },
+      {
+        "name": "更新与转交说明_v2.0.4.md",
+        "file": "更新与转交说明_v2.0.4.md",
+        "bytes": 1502,
+        "sha256": "ceb39640936a0a05b7e20ed88c668835077ad862451166bcf47500fe86c17742"
+      },
+      {
+        "name": "文档核验记录_v2.0.4.json",
+        "file": "文档核验记录_v2.0.4.json",
+        "bytes": 4814,
+        "sha256": "b331a12b9c8e3e18b5b7a316557f2122fa04fdfbb91e9bd9cb8cc315cda07f37"
+      },
+      {
+        "name": "包内阅读说明.md",
+        "file": "包内阅读说明.md",
+        "bytes": 587,
+        "sha256": "c22e1dc968d7a20b780fb0fd8eba3d882b40e192d5be074ffd2d6344fb0df941"
+      },
+      {
+        "name": "verify_delivery.py",
+        "file": "verify_delivery.py",
+        "bytes": 563,
+        "sha256": "869903b0992706ef885998281f1e57a0dd1d0e0a173aa90fe4751e1ea5e180c4"
+      },
+      {
+        "name": "既有统一回执/G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+        "parts_manifest": "../G7_six_receipts/parts_manifest.json",
+        "bytes": 802850170,
+        "sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5"
+      },
+      {
+        "name": "files_sha256.json",
+        "file": "manifests/recipient2_files_sha256.json",
+        "bytes": 1293,
+        "sha256": "7cb8f60d64f8e02714105d7f073a3d56838964b9398c3e86db767ef8e25045f9"
+      }
+    ],
+    "zip_sha256": "071415d0af30f0ef4d3dd6270031aee34d26a439898eb0a45c0f64e2a34e8314",
+    "zip_bytes": 802918686
+  }
+}

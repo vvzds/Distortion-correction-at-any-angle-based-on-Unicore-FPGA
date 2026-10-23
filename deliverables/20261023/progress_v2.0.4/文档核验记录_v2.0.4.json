@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "version": "2.0.4",
+  "previous_version": "2.0.3",
+  "next_default_version": "2.0.5",
+  "explicit_user_version_request": true,
+  "collaborator1_confirmation": "用户：一号协作者已确认无问题",
+  "collaborator2_latest_receipt_forwarding": "NOT_CONFIRMED",
+  "old_versions_unchanged": {
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v1.7.md": "1ab5db9bd47f68f2602509e7d3b4c36504447d7527b21f23c99bbfd8e07e7c8b",
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.0.md": "6816dd2ab0ec452282b35c5ae619dd7228b639ced897a26d5cc7abd3c919e539",
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.1.md": "b32f862c00113a9bad212941aa88c8422a3e8b5f99d2bb960257b19836e342f3",
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.2.md": "6ce46c8864ca067836926cd8632f5c8b1f3393ded7682f15eed71f68190acfa8",
+    "D:\\FPGA项目文档\\总说明\\模块分工与工作包交付总说明_v2.0.3.md": "2d36c72f80c80ad977d2b6a2080bc66bab0e3ff876dc508bbdee39dc8b3903fe",
+    "D:\\FPGA项目文档\\任务清单\\各协作者当前任务清单_v2.0.1_20261023.md": "114ee28fff31703fedaa930f02afb2b9ea11b08585be276746941af0ab0a1c37",
+    "D:\\FPGA项目文档\\任务清单\\各协作者当前任务清单_v2.0.2_20261023.md": "b2f420f4504a007d09077f7d0d2de058e367c3124b109d29b28b6e5009b88b3e",
+    "D:\\FPGA项目文档\\任务清单\\各协作者当前任务清单_v2.0.3_20261023.md": "f5be22dea0495db187857f4b5969c2f9deb85815743c3f3176cb52f3fe00c837"
+  },
+  "current_documents": {
+    "模块分工与工作包交付总说明_v2.0.4.md": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11",
+    "各协作者当前任务清单_v2.0.4_20261023.md": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588"
+  },
+  "table_shapes": [
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 3,
+      "rows": 13
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 3,
+      "rows": 6
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 4,
+      "rows": 13
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 4,
+      "rows": 5
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 6
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 9
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 4,
+      "rows": 10
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 4,
+      "rows": 10
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 7
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 3,
+      "rows": 9
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 3,
+      "rows": 5
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 12
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 7
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 13
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 8
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 3,
+      "rows": 27
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 3,
+      "rows": 10
+    },
+    {
+      "document": "模块分工与工作包交付总说明_v2.0.4.md",
+      "columns": 2,
+      "rows": 8
+    },
+    {
+      "document": "各协作者当前任务清单_v2.0.4_20261023.md",
+      "columns": 4,
+      "rows": 8
+    },
+    {
+      "document": "各协作者当前任务清单_v2.0.4_20261023.md",
+      "columns": 4,
+      "rows": 9
+    },
+    {
+      "document": "各协作者当前任务清单_v2.0.4_20261023.md",
+      "columns": 4,
+      "rows": 8
+    },
+    {
+      "document": "各协作者当前任务清单_v2.0.4_20261023.md",
+      "columns": 3,
+      "rows": 6
+    }
+  ],
+  "pending_snapshot_sha256": "f4fef6c80c5e385978a3ceb5912bcf71f67bd6dc46298d3ba9cca1dbf31b507c",
+  "technical_tests_rerun": false
+}

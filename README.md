@@ -11,7 +11,7 @@ PG2L100H FBG676、CMOS2 OV5640，开发环境为紫光同创 PDS 2022.2-SP6.1。
 
 ## 当前进度与模块交付
 
-[总说明与任务清单（v2.0.3）](docs/project/README.md) · [模块交付包及SHA256](deliverables/20261023/README.md)。
+[总说明与任务清单（v2.0.4）](docs/project/README.md) · [模块交付包及SHA256](deliverables/20261023/README.md)。
 
 文档和交付档案的同步不替换下方宿主工程或现用PC源码。M02独立修复候选及其回归证据位于交付包内，是否接收应用按总说明记录。
 

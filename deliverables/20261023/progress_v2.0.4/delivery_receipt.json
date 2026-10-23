@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "bundles": {
+    "1": {
+      "zip": "项目进度与任务清单_v2.0.4_给一号协作者_20261023.zip",
+      "zip_sha256": "8c6ca3e01a35854b932521dba0eb4239c2b211b3b4b16ff0cf105f838ced87d1",
+      "zip_bytes": 68008
+    },
+    "2": {
+      "zip": "项目进度_v2.0.4及G7_M03统一回执_给二号协作者_20261023.zip",
+      "zip_sha256": "071415d0af30f0ef4d3dd6270031aee34d26a439898eb0a45c0f64e2a34e8314",
+      "zip_bytes": 802918686
+    }
+  },
+  "members_verified": true,
+  "zip_crc_verified": true,
+  "repository_parts_reassembly_exit": 0,
+  "repository_parts_reassembly_sha256": "071415d0af30f0ef4d3dd6270031aee34d26a439898eb0a45c0f64e2a34e8314",
+  "reassembly_log_sha256": "5fc05024a81de9372c6a51243083a87e2e6b017abae03cddaf9569e9bd776f6f",
+  "old_g7_evidence_sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5"
+}

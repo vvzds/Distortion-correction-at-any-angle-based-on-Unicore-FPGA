@@ -1,0 +1,16 @@
+[
+  {
+    "File": "G4_AB_R1-R4补正复验回执与证据_给一号协作者_20261023.zip",
+    "Archive": "D:\\FPGA_management\\deliverables\\20261023\\G4_AB_R1_R4_review\\G4_AB_R1-R4补正复验回执与证据_给一号协作者_20261023.zip",
+    "SHA256": "0b7abb068d42654ece16a716a4204d8a83c7b68065c380383b863604b3684c5a",
+    "Action": "SendToRecycleBin",
+    "Reason": "用户确认一号无问题，原件已留档"
+  },
+  {
+    "File": "G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+    "Archive": "D:\\FPGA_management\\deliverables\\20261023\\G7_six_receipts\\G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+    "SHA256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5",
+    "Action": "SendToRecycleBin",
+    "Reason": "仍待转交，已原字节并入本批给二号合并包"
+  }
+]
