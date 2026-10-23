@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-23T12:29:08.800366+00:00",
+  "commit": "f1120604bd62462d2111050b7fc98fcfa8dd5bdf",
+  "part_commits": [
+    "9b6aa91ec53982e05d9efb031f12ecf24ece1636",
+    "e322bca53a3a047094fa91b19e2936c4ac6b6210",
+    "12c7d5c7bd08f51aff40f0a09539186118c09f26",
+    "d90d3f39e2b7680c071afe74aa96600b8d98c1e4",
+    "80a496ff8bd1eaf74bbbc5e9f701e5ca1fb27778"
+  ],
+  "remote_ref_verified": true,
+  "git_blobs_byte_verified": true,
+  "parts": 9,
+  "zip_sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5",
+  "desktop": "C:\\Users\\songtianyu\\Desktop\\pkg\\G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+  "desktop_sha256": "2654c61f9d7675c0fb7afc8f5a07089c29b11531c83f210574b9cbe781b003a5",
+  "reassembly_test_exit": 0,
+  "reassembly_log_sha256": "49d8e6dc04b3e7c0d109f07a7c7895aa6272504902f5ef3670274dcdfc9bbe17",
+  "versioned_documents_unchanged": {
+    "D:/FPGA项目文档/总说明/模块分工与工作包交付总说明_v2.0.3.md": "2d36c72f80c80ad977d2b6a2080bc66bab0e3ff876dc508bbdee39dc8b3903fe",
+    "D:/FPGA项目文档/任务清单/各协作者当前任务清单_v2.0.3_20261023.md": "f5be22dea0495db187857f4b5969c2f9deb85815743c3f3176cb52f3fe00c837"
+  }
+}
