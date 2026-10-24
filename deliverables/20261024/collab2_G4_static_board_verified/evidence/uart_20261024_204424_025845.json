@@ -1,0 +1,121 @@
+{
+  "start": "2026-10-24T20:44:24.025845+08:00",
+  "state": "COMPLETE",
+  "queries": [
+    {
+      "time": "2026-10-24T20:44:24.099137+08:00",
+      "elapsed": 356064.031,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:24.602754+08:00",
+      "elapsed": 356064.531,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:25.782328+08:00",
+      "elapsed": 356065.703,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:26.286123+08:00",
+      "elapsed": 356066.218,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:26.790121+08:00",
+      "elapsed": 356066.718,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:27.342576+08:00",
+      "elapsed": 356067.265,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:27.846255+08:00",
+      "elapsed": 356067.765,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    },
+    {
+      "time": "2026-10-24T20:44:28.491612+08:00",
+      "elapsed": 356068.421,
+      "request_hex": "aa55050000",
+      "status_hex": "0x00000012",
+      "fw_version": 18,
+      "params_valid": 0,
+      "frame_busy": 0,
+      "reserved": 0,
+      "pub_count": 0
+    }
+  ],
+  "writes": [],
+  "programmed": false,
+  "ports": [
+    {
+      "port": "COM9",
+      "vid": 1027,
+      "pid": 24592,
+      "description": "USB Serial Port (COM9)"
+    },
+    {
+      "port": "COM10",
+      "vid": 1027,
+      "pid": 24592,
+      "description": "USB Serial Port (COM10)"
+    },
+    {
+      "port": "COM11",
+      "vid": 4292,
+      "pid": 60000,
+      "description": "Silicon Labs CP210x USB to UART Bridge (COM11)"
+    }
+  ],
+  "port": "COM11",
+  "elapsed_s": 4.389999999955762,
+  "publish_delta": 0,
+  "observed_publish_per_s": 0.0,
+  "finished": "2026-10-24T20:44:28.494949+08:00"
+}

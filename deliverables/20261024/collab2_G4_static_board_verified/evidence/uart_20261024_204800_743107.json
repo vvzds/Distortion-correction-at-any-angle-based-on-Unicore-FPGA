@@ -1,0 +1,264 @@
+{
+  "start": "2026-10-24T20:48:00.743107+08:00",
+  "state": "COMPLETE",
+  "queries": [
+    {
+      "time": "2026-10-24T20:48:00.758823+08:00",
+      "elapsed": 356280.687,
+      "request_hex": "aa55050000",
+      "status_hex": "0x104C0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4172
+    },
+    {
+      "time": "2026-10-24T20:48:01.262103+08:00",
+      "elapsed": 356281.187,
+      "request_hex": "aa55050000",
+      "status_hex": "0x104E0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4174
+    },
+    {
+      "time": "2026-10-24T20:48:01.765839+08:00",
+      "elapsed": 356281.687,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10500312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4176
+    },
+    {
+      "time": "2026-10-24T20:48:02.269244+08:00",
+      "elapsed": 356282.203,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10520312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4178
+    },
+    {
+      "time": "2026-10-24T20:48:02.773179+08:00",
+      "elapsed": 356282.703,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10540312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4180
+    },
+    {
+      "time": "2026-10-24T20:48:03.276528+08:00",
+      "elapsed": 356283.203,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10560312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4182
+    },
+    {
+      "time": "2026-10-24T20:48:03.779932+08:00",
+      "elapsed": 356283.703,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10580312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4184
+    },
+    {
+      "time": "2026-10-24T20:48:04.282892+08:00",
+      "elapsed": 356284.203,
+      "request_hex": "aa55050000",
+      "status_hex": "0x105A0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4186
+    },
+    {
+      "time": "2026-10-24T20:48:04.785780+08:00",
+      "elapsed": 356284.718,
+      "request_hex": "aa55050000",
+      "status_hex": "0x105C0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4188
+    },
+    {
+      "time": "2026-10-24T20:48:05.288905+08:00",
+      "elapsed": 356285.218,
+      "request_hex": "aa55050000",
+      "status_hex": "0x105E0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4190
+    },
+    {
+      "time": "2026-10-24T20:48:05.792586+08:00",
+      "elapsed": 356285.718,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10600312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4192
+    },
+    {
+      "time": "2026-10-24T20:48:06.345316+08:00",
+      "elapsed": 356286.265,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10620312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4194
+    },
+    {
+      "time": "2026-10-24T20:48:06.897625+08:00",
+      "elapsed": 356286.828,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10640312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4196
+    },
+    {
+      "time": "2026-10-24T20:48:07.401068+08:00",
+      "elapsed": 356287.328,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10660312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4198
+    },
+    {
+      "time": "2026-10-24T20:48:07.904364+08:00",
+      "elapsed": 356287.828,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10680312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4200
+    },
+    {
+      "time": "2026-10-24T20:48:08.407388+08:00",
+      "elapsed": 356288.328,
+      "request_hex": "aa55050000",
+      "status_hex": "0x106A0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4202
+    },
+    {
+      "time": "2026-10-24T20:48:08.960234+08:00",
+      "elapsed": 356288.89,
+      "request_hex": "aa55050000",
+      "status_hex": "0x106C0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4204
+    },
+    {
+      "time": "2026-10-24T20:48:09.463277+08:00",
+      "elapsed": 356289.39,
+      "request_hex": "aa55050000",
+      "status_hex": "0x106E0312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4206
+    },
+    {
+      "time": "2026-10-24T20:48:09.966608+08:00",
+      "elapsed": 356289.89,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10700312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4208
+    },
+    {
+      "time": "2026-10-24T20:48:10.470394+08:00",
+      "elapsed": 356290.39,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10720312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4210
+    },
+    {
+      "time": "2026-10-24T20:48:11.023915+08:00",
+      "elapsed": 356290.953,
+      "request_hex": "aa55050000",
+      "status_hex": "0x10740312",
+      "fw_version": 18,
+      "params_valid": 1,
+      "frame_busy": 1,
+      "reserved": 0,
+      "pub_count": 4212
+    }
+  ],
+  "writes": [],
+  "programmed": false,
+  "ports": [
+    {
+      "port": "COM9",
+      "vid": 1027,
+      "pid": 24592,
+      "description": "USB Serial Port (COM9)"
+    },
+    {
+      "port": "COM10",
+      "vid": 1027,
+      "pid": 24592,
+      "description": "USB Serial Port (COM10)"
+    },
+    {
+      "port": "COM11",
+      "vid": 4292,
+      "pid": 60000,
+      "description": "Silicon Labs CP210x USB to UART Bridge (COM11)"
+    }
+  ],
+  "port": "COM11",
+  "elapsed_s": 10.26600000000326,
+  "publish_delta": 40,
+  "observed_publish_per_s": 3.896356906291379,
+  "finished": "2026-10-24T20:48:11.078472+08:00"
+}
