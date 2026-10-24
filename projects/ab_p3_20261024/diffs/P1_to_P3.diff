@@ -1,0 +1,12 @@
+--- P1
++++ P3
+@@ -224,7 +224,8 @@
+                 end else if(i_load_vld && !load_active)o_load_error<=1;
+                 // Each timestamp has one static writer. Allocation/completion
+                 // retain priority over same-cycle touches; no reset is added.
+-                if(alloc || qstate==Q_DONE || i_touch)
++                // P3: per-slot enables already imply alloc/DONE/touch.
++                // Avoid a redundant global OR in every timestamp CE cone.
+                 for(lu=0;lu<192;lu=lu+1)begin
+                     if((alloc && chosen==lu) ||
+                        (qstate==Q_DONE && done_mask[lu]))last_use[lu]<=qseq;

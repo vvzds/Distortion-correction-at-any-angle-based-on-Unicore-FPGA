@@ -1,0 +1,95 @@
+--- R0
++++ P3
+@@ -123,6 +123,8 @@
+     reg [4:0] qs0,qs1;
+     reg [21:0] qseq;
+     reg [7:0] qid[0:3];
++    // IDs resolved in this lookup; used only for Q_DONE timestamp updates.
++    reg [191:0] done_mask;
+     reg [3:0] qfound;
+     reg [1:0] qwhich;
+     reg [11:0] match_hit[0:3];
+@@ -147,7 +149,7 @@
+     wire [10:0] missing_row=qwhich[1]?qb:qa;
+     wire [4:0] missing_seg=qwhich[0]?qs1:qs0;
+     wire alloc=qstate==Q_ALLOC && chosen_ok;
+-    integer i,k,g,j,idx,sel,l;
++    integer i,k,g,j,idx,sel,l,lu;
+     reg [10:0] cmp_row;
+     reg [4:0] cmp_seg;
+     reg [21:0] best_age;
+@@ -171,7 +173,7 @@
+             parity_a<=0;same_row<=0;first_a<=0;first_b<=0;
+             o_p00<=0;o_p01<=0;o_p10<=0;o_p11<=0;
+             qstate<=Q_IDLE;qa<=0;qb<=0;qs0<=0;qs1<=0;qseq<=0;
+-            qfound<=0;qwhich<=0;chosen<=0;chosen_ok<=0;
++            qfound<=0;qwhich<=0;chosen<=0;chosen_ok<=0;done_mask<=0;
+             o_lookup_done<=0;o_id_a0<=0;o_id_a1<=0;o_id_b0<=0;o_id_b1<=0;
+         end else begin
+             o_load_done<=0;o_load_error<=0;o_lookup_done<=0;
+@@ -190,7 +192,7 @@
+             end
+             if(i_frame_clear)begin
+                 line_valid<=0;tag_valid<=0;tag_ready<=0;tag_pending<=0;
+-                fetch_wr<=0;fetch_rd<=0;fetch_count<=0;qstate<=Q_IDLE;
++                fetch_wr<=0;fetch_rd<=0;fetch_count<=0;qstate<=Q_IDLE;done_mask<=0;
+                 load_active<=0;first_pending<=0;output_pending<=0;
+             end else begin
+                 case({alloc,fetch_pop})
+@@ -220,11 +222,16 @@
+                         else begin tag_ready[load_bank]<=1;tag_pending[load_bank]<=0;end
+                     end else load_beat<=load_beat+1'b1;
+                 end else if(i_load_vld && !load_active)o_load_error<=1;
+-                if(i_touch)begin
+-                    last_use[i_touch_ids[7:0]]<=i_touch_seq;
+-                    last_use[i_touch_ids[15:8]]<=i_touch_seq;
+-                    last_use[i_touch_ids[23:16]]<=i_touch_seq;
+-                    last_use[i_touch_ids[31:24]]<=i_touch_seq;
++                // Each timestamp has one static writer. Allocation/completion
++                // retain priority over same-cycle touches; no reset is added.
++                // P3: per-slot enables already imply alloc/DONE/touch.
++                // Avoid a redundant global OR in every timestamp CE cone.
++                for(lu=0;lu<192;lu=lu+1)begin
++                    if((alloc && chosen==lu) ||
++                       (qstate==Q_DONE && done_mask[lu]))last_use[lu]<=qseq;
++                    else if(i_touch && (i_touch_ids[7:0]==lu ||
++                            i_touch_ids[15:8]==lu || i_touch_ids[23:16]==lu ||
++                            i_touch_ids[31:24]==lu))last_use[lu]<=i_touch_seq;
+                 end
+                 case(qstate)
+                     Q_IDLE:if(i_lookup_req && !i_line_mode)begin
+@@ -248,6 +255,7 @@
+                         qstate<=Q_SELECT;
+                     end
+                     Q_SELECT:begin
++                        done_mask<=0;
+                         for(k=0;k<4;k=k+1)begin
+                             found=0;sel=0;
+                             for(g=0;g<12;g=g+1)if(match_hit[k][g])begin
+@@ -264,6 +272,7 @@
+                             ((k>=2?qb:qa)==missing_row) && ((k%2?qs1:qs0)==missing_seg))
+                             begin found=1;sel=qid[k];end
+                         if(found)begin
++                            done_mask[sel]<=1'b1;
+                             qid[qwhich]<=sel;qfound[qwhich]<=1;
+                             if(qwhich==3)qstate<=Q_DONE;else qwhich<=qwhich+1'b1;
+                         end else qstate<=Q_ELIG;
+@@ -301,9 +310,9 @@
+                     end
+                     Q_ALLOC:begin
+                         if(chosen_ok)begin
++                            done_mask[chosen]<=1'b1;
+                             tag_valid[chosen]<=1;tag_ready[chosen]<=0;tag_pending[chosen]<=1;
+                             tag_row[chosen]<=missing_row;tag_seg[chosen]<=missing_seg;
+-                            last_use[chosen]<=qseq;
+                             fetch_fifo[fetch_wr]<=chosen;fetch_wr<=fetch_wr+1'b1;
+                             qid[qwhich]<=chosen;qfound[qwhich]<=1;
+                             if(qwhich==3)qstate<=Q_DONE;
+@@ -312,7 +321,6 @@
+                     end
+                     Q_DONE:begin
+                         o_id_a0<=qid[0];o_id_a1<=qid[1];o_id_b0<=qid[2];o_id_b1<=qid[3];
+-                        for(k=0;k<4;k=k+1)last_use[qid[k]]<=qseq;
+                         o_lookup_done<=1;qstate<=Q_IDLE;
+                     end
+                     default:qstate<=Q_IDLE;

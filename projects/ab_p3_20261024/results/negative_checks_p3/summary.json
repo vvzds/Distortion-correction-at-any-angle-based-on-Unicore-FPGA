@@ -1,0 +1,42 @@
+[
+  {
+    "mutation": "missing_last_id",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "f83ab8ce355238a35d3ad7ee54f49282caf4467ce4476c4dcedb4c7ca59d3547",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P3����ʵʩ_20261024\\tests\\cache_p3_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 92000  Scope: cache_p3_equivalence_tb\n"
+  },
+  {
+    "mutation": "stale_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "ffdbbed9491e79c92c5e50a8a99b943567d15ea78e08a9c936c102cfecea02b7",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P3����ʵʩ_20261024\\tests\\cache_p3_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 460000  Scope: cache_p3_equivalence_tb\n"
+  },
+  {
+    "mutation": "old_qid",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "53f7b332d53a478abd3e2165b3c89435a6eca7a3160e61c81544fd9e7de02114",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P3����ʵʩ_20261024\\tests\\cache_p3_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 220000  Scope: cache_p3_equivalence_tb\n"
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "ca746068665d59208271b5a3e4aff622e76bb89adc8657f59ceedfdc43e43e03",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P3����ʵʩ_20261024\\tests\\cache_p3_equivalence_tb.sv:213: last_use mismatch slot=191 edge=125 state=6\n       Time: 997000  Scope: cache_p3_equivalence_tb\n"
+  },
+  {
+    "mutation": "mask_protection",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "ddbb4aa10f71d5aa44f08c0e95b6f3cde555f65065bb9e21c7a7a7c1402bb318",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P3����ʵʩ_20261024\\tests\\cache_p3_equivalence_tb.sv:196: state chosen mismatch\n       Time: 1541000  Scope: cache_p3_equivalence_tb\n"
+  }
+]

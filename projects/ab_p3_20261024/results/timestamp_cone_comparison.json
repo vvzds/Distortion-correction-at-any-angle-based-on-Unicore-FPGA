@@ -1,0 +1,486 @@
+{
+  "P1": {
+    "sha256": "04d7b997057e48697eb7bf527f30cc70687c684bb9c4ceac90eded38147d14a5",
+    "cells_parsed": 24718,
+    "timestamps": [
+      {
+        "slot": 0,
+        "ff": {
+          "type": "GTP_DFF_E",
+          "name": "\\last_use[0][1]",
+          "ports": {
+            "GRS_EN": "\"TRUE\"",
+            "INIT": "1'b0",
+            "Q": "\\last_use[0][1]",
+            "CE": "N224393",
+            "CLK": "clk",
+            "D": "N224410"
+          }
+        },
+        "cones": {
+          "CE": {
+            "net": "N224393",
+            "driver": {
+              "type": "GTP_LUT6",
+              "name": "N224393",
+              "ports": {
+                "INIT": "64'b1111111111110000111111101111000011111110111100001111111011110000",
+                "Z": "N224393",
+                "I0": "_N144672",
+                "I1": "N23406",
+                "I2": "N224389",
+                "I3": "_N124177",
+                "I4": "_N125843",
+                "I5": "_N125997"
+              }
+            },
+            "touch_lut_depth": 3,
+            "touch_longest_structural_path": [
+              {
+                "cell": "N378_5",
+                "type": "GTP_LUT3",
+                "input": "I0",
+                "output_net": "N378",
+                "init": "8'b11111110"
+              },
+              {
+                "cell": "N224389",
+                "type": "GTP_LUT6",
+                "input": "I0",
+                "output_net": "N224389",
+                "init": "64'b0010001000100010001000000000000000100000000000000010000000000000"
+              },
+              {
+                "cell": "N224393",
+                "type": "GTP_LUT6",
+                "input": "I2",
+                "output_net": "N224393",
+                "init": "64'b1111111111110000111111101111000011111110111100001111111011110000"
+              }
+            ]
+          },
+          "D": {
+            "net": "N224410",
+            "driver": {
+              "type": "GTP_LUT6D",
+              "name": "N224394",
+              "ports": {
+                "INIT": "64'b1111101000001010111110100000101011111100111111000000110000001100",
+                "Z": "N224394",
+                "Z5": "N224410",
+                "I0": "i_lookup_seq[0]",
+                "I1": "i_lookup_seq[1]",
+                "I2": "N224389",
+                "I3": "qseq[0]",
+                "I4": "qseq[1]",
+                "I5": "1'b1"
+              }
+            },
+            "touch_lut_depth": 3,
+            "touch_longest_structural_path": [
+              {
+                "cell": "N378_5",
+                "type": "GTP_LUT3",
+                "input": "I0",
+                "output_net": "N378",
+                "init": "8'b11111110"
+              },
+              {
+                "cell": "N224389",
+                "type": "GTP_LUT6",
+                "input": "I0",
+                "output_net": "N224389",
+                "init": "64'b0010001000100010001000000000000000100000000000000010000000000000"
+              },
+              {
+                "cell": "N224394",
+                "type": "GTP_LUT6D",
+                "input": "I2",
+                "output_net": "N224410",
+                "init": "64'b1111101000001010111110100000101011111100111111000000110000001100"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slot": 99,
+        "ff": {
+          "type": "GTP_DFF_E",
+          "name": "\\last_use[99][1]",
+          "ports": {
+            "GRS_EN": "\"TRUE\"",
+            "INIT": "1'b0",
+            "Q": "\\last_use[99][1]",
+            "CE": "N189545",
+            "CLK": "clk",
+            "D": "N189562"
+          }
+        },
+        "cones": {
+          "CE": {
+            "net": "N189545",
+            "driver": {
+              "type": "GTP_LUT6",
+              "name": "N189545",
+              "ports": {
+                "INIT": "64'b1111111111110000111111101111000011111110111100001111111011110000",
+                "Z": "N189545",
+                "I0": "_N145091",
+                "I1": "N24008",
+                "I2": "N189541",
+                "I3": "_N124177",
+                "I4": "_N125850",
+                "I5": "_N126005"
+              }
+            },
+            "touch_lut_depth": 3,
+            "touch_longest_structural_path": [
+              {
+                "cell": "N378_5",
+                "type": "GTP_LUT3",
+                "input": "I0",
+                "output_net": "N378",
+                "init": "8'b11111110"
+              },
+              {
+                "cell": "N189541",
+                "type": "GTP_LUT6",
+                "input": "I0",
+                "output_net": "N189541",
+                "init": "64'b0010001000100010001000000000000000100000000000000010000000000000"
+              },
+              {
+                "cell": "N189545",
+                "type": "GTP_LUT6",
+                "input": "I2",
+                "output_net": "N189545",
+                "init": "64'b1111111111110000111111101111000011111110111100001111111011110000"
+              }
+            ]
+          },
+          "D": {
+            "net": "N189562",
+            "driver": {
+              "type": "GTP_LUT6D",
+              "name": "N189546",
+              "ports": {
+                "INIT": "64'b1111101000001010111110100000101011111100111111000000110000001100",
+                "Z": "N189546",
+                "Z5": "N189562",
+                "I0": "i_lookup_seq[0]",
+                "I1": "i_lookup_seq[1]",
+                "I2": "N189541",
+                "I3": "qseq[0]",
+                "I4": "qseq[1]",
+                "I5": "1'b1"
+              }
+            },
+            "touch_lut_depth": 3,
+            "touch_longest_structural_path": [
+              {
+                "cell": "N378_5",
+                "type": "GTP_LUT3",
+                "input": "I0",
+                "output_net": "N378",
+                "init": "8'b11111110"
+              },
+              {
+                "cell": "N189541",
+                "type": "GTP_LUT6",
+                "input": "I0",
+                "output_net": "N189541",
+                "init": "64'b0010001000100010001000000000000000100000000000000010000000000000"
+              },
+              {
+                "cell": "N189546",
+                "type": "GTP_LUT6D",
+                "input": "I2",
+                "output_net": "N189562",
+                "init": "64'b1111101000001010111110100000101011111100111111000000110000001100"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slot": 163,
+        "ff": {
+          "type": "GTP_DFF_E",
+          "name": "\\last_use[163][1]",
+          "ports": {
+            "GRS_EN": "\"TRUE\"",
+            "INIT": "1'b0",
+            "Q": "\\last_use[163][1]",
+            "CE": "N167017",
+            "CLK": "clk",
+            "D": "N167034"
+          }
+        },
+        "cones": {
+          "CE": {
+            "net": "N167017",
+            "driver": {
+              "type": "GTP_LUT6",
+              "name": "N167017",
+              "ports": {
+                "INIT": "64'b1111111111110000111111101111000011111110111100001111111011110000",
+                "Z": "N167017",
+                "I0": "_N145379",
+                "I1": "N24392",
+                "I2": "N167013",
+                "I3": "_N124177",
+                "I4": "_N125842",
+                "I5": "_N126005"
+              }
+            },
+            "touch_lut_depth": 3,
+            "touch_longest_structural_path": [
+              {
+                "cell": "N378_5",
+                "type": "GTP_LUT3",
+                "input": "I0",
+                "output_net": "N378",
+                "init": "8'b11111110"
+              },
+              {
+                "cell": "N167013",
+                "type": "GTP_LUT6",
+                "input": "I0",
+                "output_net": "N167013",
+                "init": "64'b0010001000100010001000000000000000100000000000000010000000000000"
+              },
+              {
+                "cell": "N167017",
+                "type": "GTP_LUT6",
+                "input": "I2",
+                "output_net": "N167017",
+                "init": "64'b1111111111110000111111101111000011111110111100001111111011110000"
+              }
+            ]
+          },
+          "D": {
+            "net": "N167034",
+            "driver": {
+              "type": "GTP_LUT6D",
+              "name": "N167018",
+              "ports": {
+                "INIT": "64'b1111101000001010111110100000101011111100111111000000110000001100",
+                "Z": "N167018",
+                "Z5": "N167034",
+                "I0": "i_lookup_seq[0]",
+                "I1": "i_lookup_seq[1]",
+                "I2": "N167013",
+                "I3": "qseq[0]",
+                "I4": "qseq[1]",
+                "I5": "1'b1"
+              }
+            },
+            "touch_lut_depth": 3,
+            "touch_longest_structural_path": [
+              {
+                "cell": "N378_5",
+                "type": "GTP_LUT3",
+                "input": "I0",
+                "output_net": "N378",
+                "init": "8'b11111110"
+              },
+              {
+                "cell": "N167013",
+                "type": "GTP_LUT6",
+                "input": "I0",
+                "output_net": "N167013",
+                "init": "64'b0010001000100010001000000000000000100000000000000010000000000000"
+              },
+              {
+                "cell": "N167018",
+                "type": "GTP_LUT6D",
+                "input": "I2",
+                "output_net": "N167034",
+                "init": "64'b1111101000001010111110100000101011111100111111000000110000001100"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "original_i_touch_port_present": true,
+    "note": "Structural LUT fan-in paths within the synthesized cache module only. Synthesis can absorb touch logic into other hierarchy and import renamed shared nets; null is not absence of end-to-end touch dependence. INIT sensitivity/delay/routing and actual STA determine timing; no functional or timing PASS inferred."
+  },
+  "P3": {
+    "sha256": "eb4b6620d5fea5a845905de76aaa1b329fd4675e359c5de2ae86749897e8c37d",
+    "cells_parsed": 24725,
+    "timestamps": [
+      {
+        "slot": 0,
+        "ff": {
+          "type": "GTP_DFF_E",
+          "name": "\\last_use[0][1]",
+          "ports": {
+            "GRS_EN": "\"TRUE\"",
+            "INIT": "1'b0",
+            "Q": "\\last_use[0][1]",
+            "CE": "N191143",
+            "CLK": "clk",
+            "D": "N191152"
+          }
+        },
+        "cones": {
+          "CE": {
+            "net": "N191143",
+            "driver": {
+              "type": "GTP_LUT6",
+              "name": "N191143",
+              "ports": {
+                "INIT": "64'b1111111111110000111111101111000011111110111100001111111011110000",
+                "Z": "N191143",
+                "I0": "N23379",
+                "I1": "_N144679",
+                "I2": "N191139",
+                "I3": "_N124172",
+                "I4": "_N125813",
+                "I5": "_N125959"
+              }
+            },
+            "touch_lut_depth": null,
+            "touch_longest_structural_path": null
+          },
+          "D": {
+            "net": "N191152",
+            "driver": {
+              "type": "GTP_LUT6D",
+              "name": "N191144",
+              "ports": {
+                "INIT": "64'b1111101000001010111110100000101011111100111111000000110000001100",
+                "Z": "N191144",
+                "Z5": "N191152",
+                "I0": "i_lookup_seq[0]",
+                "I1": "i_lookup_seq[1]",
+                "I2": "N191139",
+                "I3": "qseq[0]",
+                "I4": "qseq[1]",
+                "I5": "1'b1"
+              }
+            },
+            "touch_lut_depth": null,
+            "touch_longest_structural_path": null
+          }
+        }
+      },
+      {
+        "slot": 99,
+        "ff": {
+          "type": "GTP_DFF_E",
+          "name": "\\last_use[99][1]",
+          "ports": {
+            "GRS_EN": "\"TRUE\"",
+            "INIT": "1'b0",
+            "Q": "\\last_use[99][1]",
+            "CE": "N173521",
+            "CLK": "clk",
+            "D": "N173530"
+          }
+        },
+        "cones": {
+          "CE": {
+            "net": "N173521",
+            "driver": {
+              "type": "GTP_LUT6",
+              "name": "N173521",
+              "ports": {
+                "INIT": "64'b1111111111110000111111101111000011111110111100001111111011110000",
+                "Z": "N173521",
+                "I0": "N23997",
+                "I1": "_N145098",
+                "I2": "N173517",
+                "I3": "_N124172",
+                "I4": "_N125820",
+                "I5": "_N125967"
+              }
+            },
+            "touch_lut_depth": null,
+            "touch_longest_structural_path": null
+          },
+          "D": {
+            "net": "N173530",
+            "driver": {
+              "type": "GTP_LUT6D",
+              "name": "N173522",
+              "ports": {
+                "INIT": "64'b1111101000001010111110100000101011111100111111000000110000001100",
+                "Z": "N173522",
+                "Z5": "N173530",
+                "I0": "i_lookup_seq[0]",
+                "I1": "i_lookup_seq[1]",
+                "I2": "N173517",
+                "I3": "qseq[0]",
+                "I4": "qseq[1]",
+                "I5": "1'b1"
+              }
+            },
+            "touch_lut_depth": null,
+            "touch_longest_structural_path": null
+          }
+        }
+      },
+      {
+        "slot": 163,
+        "ff": {
+          "type": "GTP_DFF_E",
+          "name": "\\last_use[163][1]",
+          "ports": {
+            "GRS_EN": "\"TRUE\"",
+            "INIT": "1'b0",
+            "Q": "\\last_use[163][1]",
+            "CE": "N162129",
+            "CLK": "clk",
+            "D": "N162138"
+          }
+        },
+        "cones": {
+          "CE": {
+            "net": "N162129",
+            "driver": {
+              "type": "GTP_LUT6",
+              "name": "N162129",
+              "ports": {
+                "INIT": "64'b1111111111110000111111101111000011111110111100001111111011110000",
+                "Z": "N162129",
+                "I0": "N24381",
+                "I1": "_N145386",
+                "I2": "N162125",
+                "I3": "_N124172",
+                "I4": "_N125812",
+                "I5": "_N125967"
+              }
+            },
+            "touch_lut_depth": null,
+            "touch_longest_structural_path": null
+          },
+          "D": {
+            "net": "N162138",
+            "driver": {
+              "type": "GTP_LUT6D",
+              "name": "N162130",
+              "ports": {
+                "INIT": "64'b1111101000001010111110100000101011111100111111000000110000001100",
+                "Z": "N162130",
+                "Z5": "N162138",
+                "I0": "i_lookup_seq[0]",
+                "I1": "i_lookup_seq[1]",
+                "I2": "N162125",
+                "I3": "qseq[0]",
+                "I4": "qseq[1]",
+                "I5": "1'b1"
+              }
+            },
+            "touch_lut_depth": null,
+            "touch_longest_structural_path": null
+          }
+        }
+      }
+    ],
+    "original_i_touch_port_present": false,
+    "note": "Structural LUT fan-in paths within the synthesized cache module only. Synthesis can absorb touch logic into other hierarchy and import renamed shared nets; null is not absence of end-to-end touch dependence. INIT sensitivity/delay/routing and actual STA determine timing; no functional or timing PASS inferred."
+  }
+}

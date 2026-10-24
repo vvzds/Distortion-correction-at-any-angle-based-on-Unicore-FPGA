@@ -1,0 +1,44 @@
+[
+  {
+    "case": "identity",
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\r4_latency_matrix\\identity",
+    "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "cache_sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "reference_passed": true
+  },
+  {
+    "case": "real_joint",
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\r4_latency_matrix\\real_joint",
+    "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "cache_sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "reference_passed": true
+  },
+  {
+    "case": "legacy_sim",
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\original_matrix_v2\\legacy_sim",
+    "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "cache_sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "reference_passed": true
+  },
+  {
+    "case": "integration",
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\original_matrix_v2\\integration",
+    "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "cache_sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "reference_passed": true
+  },
+  {
+    "case": "c6_real_subsystem",
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\original_matrix_v2\\c6_real_subsystem",
+    "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "cache_sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "reference_passed": true
+  },
+  {
+    "case": "c6_host_arb",
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\original_matrix_v2\\c6_host_arb",
+    "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "cache_sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "reference_passed": true
+  }
+]

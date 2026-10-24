@@ -1,0 +1,7 @@
+{
+  "round": "P3",
+  "base": "P1",
+  "cache_sha256": "614797ccd5a2f122caed1050fc013e28e3852f14923b3a037fa7c5d453a65330",
+  "change": "Remove logically redundant global alloc/DONE/touch outer guard; per-slot priority/edge/reset behavior preserved",
+  "authorization": "User requests continued optimization until requirements are met; no production merge or core/map changes"
+}

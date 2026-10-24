@@ -1,0 +1,40 @@
+{
+  "requested_utc": "2026-10-24T14:57:31.300840+00:00",
+  "pid": 36444,
+  "reason": "Stop this isolated offline attempt after >250 routing iterations without improving its minimum unresolved count; continue structural cache candidate P4. Not a final timing verdict.",
+  "best_iteration_unrouted": [
+    417,
+    405
+  ],
+  "last_iteration_unrouted": [
+    713,
+    638
+  ],
+  "last100_min": [
+    693,
+    524
+  ],
+  "last100_max": [
+    624,
+    734
+  ],
+  "console_sha256_before_stop": "c035629b3cf00e4a9af9451f4728485c34913bfe2f9f58a83c56fc7f3a29999c",
+  "command": [
+    "taskkill",
+    "/PID",
+    "36444",
+    "/T",
+    "/F"
+  ],
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "ERROR: Access denied\r\r\n",
+  "completion": {
+    "method": "PowerShell Stop-Process for the verified task parent 36444 and PDS child 40196",
+    "powershell_exit_code": 0,
+    "verified_processes_absent": true,
+    "actual_process_exit_code": 4294967295,
+    "finished_utc": "2026-10-24T14:58:25.837301+00:00",
+    "note": "taskkill first returned Access denied; native Stop-Process then succeeded. Original failed attempt is retained above."
+  }
+}

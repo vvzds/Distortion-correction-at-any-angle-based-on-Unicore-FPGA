@@ -1,0 +1,124 @@
+{
+  "case": "real_joint",
+  "engine": "icarus",
+  "passed": true,
+  "steps": [
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-I",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\verification_data",
+        "-I",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\host_ab",
+        "-I",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim",
+        "-s",
+        "calibration_core_ab_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\r4_latency_matrix\\real_joint\\simulation.vvp",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\calibration_core_ab_tb.v",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\source\\rtl\\undistort_core.v",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\source\\rtl\\undistort_map.v",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\source\\rtl\\undistort_bilinear.v",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\source\\rtl\\undistort_cache_ab.v"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate",
+      "start_utc": "2026-10-23T11:12:29.464369+00:00",
+      "end_utc": "2026-10-23T11:12:29.544701+00:00",
+      "elapsed_seconds": 0.07799999999951979,
+      "exit_code": 0,
+      "log": "compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-i",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\evidence\\r4_latency_matrix\\real_joint\\simulation.vvp",
+        "+MODE=1",
+        "+PATTERN=1",
+        "+SLOT=3",
+        "+VECTOR=vectors/real_pixels_1.hex",
+        "+LATENCY=64",
+        "+PERIOD=2",
+        "+GRANT=32",
+        "+GATE=1"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\verification_data",
+      "start_utc": "2026-10-23T11:12:29.545701+00:00",
+      "end_utc": "2026-10-23T11:17:05.013019+00:00",
+      "elapsed_seconds": 275.46900000000005,
+      "exit_code": 0,
+      "log": "simulation.log",
+      "log_sha256": "649cdb3d1ebf68c97f9a8afc6d2d9766668fcbb9415839f0fe6f3ed07a02c2a4"
+    }
+  ],
+  "inputs_after": [
+    {
+      "file": "build_candidate_sources.py",
+      "sha256": "0c89dc723988f927a23ee2dfb99b44abf7760ac7aae231cbb133893aa55384c4"
+    },
+    {
+      "file": "run_sim.ps1",
+      "sha256": "33f3411f2be8d25b76e639e873407f72797a19b0cfdc309f30ba6ed1be8ba01f"
+    },
+    {
+      "file": "run_validation.py",
+      "sha256": "d300f38c8393f0037b9e556bf69d4a99043b861e413fe68f9536b526e6e398e1"
+    },
+    {
+      "file": "sim/calibration_core_ab_tb.v",
+      "sha256": "4dcbe29cd806d205cf96f71a37aad2ba613c47d1c66dbf8a257fbc819abda165"
+    },
+    {
+      "file": "sim/r3_r4_core_monitor.vh",
+      "sha256": "36d069cae8d92ca14bacfc3b9cf383e8dfdf0c49b6fe7031f5942dadea5a013e"
+    },
+    {
+      "file": "source/rtl/undistort_bilinear.v",
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+    },
+    {
+      "file": "source/rtl/undistort_cache_ab.v",
+      "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60"
+    },
+    {
+      "file": "source/rtl/undistort_core.v",
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+    },
+    {
+      "file": "source/rtl/undistort_map.v",
+      "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3"
+    },
+    {
+      "file": "verification_data/parameters/calibration_q16.vh",
+      "sha256": "8f2f0497c012fbbe07b0c418c98ea6d9aaf7292a3f203c73ec084d4c2758a55b"
+    },
+    {
+      "file": "verification_data/vectors/map_expected.hex",
+      "sha256": "9e9c4bf5a6bcf60c13a28ae8d82aba3d9ac25eab1a4b67ac99a7a7901a2e7f84"
+    },
+    {
+      "file": "verification_data/vectors/real_pixels_1.hex",
+      "sha256": "cf355f61f75a711f4bff31b0466a6799ff4ea80f219d72f5a0c02cb24de3706d"
+    },
+    {
+      "file": "verification_data/vectors/source_words_1.hex",
+      "sha256": "0f02d3ca0c201ba287e4181143eb767ace196d2644d4f6b9192b4584423ad1a4"
+    }
+  ],
+  "inputs_unchanged": true,
+  "terminal_marker": "CORE PASS",
+  "terminal_marker_seen": true,
+  "bad_tokens": [],
+  "summary_lines": [
+    "R3_CORE_DRAIN clears=1 accepted=26695 returned=106780 busy_start_ignored=1 outstanding=0",
+    "R4_ACTUAL first_min=65 first_max=66 gap_min=2 gap_max=2 grant_min=32 grant_max=32 return_beats=106780 transactions=26695 cycles=4161845 pixels=2073600 mismatches=0",
+    "AB_STATS segments=26695 line_stats_valid=0 latency=64 period=2 grant=32",
+    "CORE PASS mode=1 pattern=1 slot=3 pixels=2073600 err=0 cycles=4161845 cpp=2.007063 model_fps_125MHz=30.034756 line_loads=0 hits=0 first_read=73 last_read=982 minrow=21 maxrow=1051",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\calibration_core_ab_tb.v:145: $finish called at 33294792000 (1ps)"
+  ]
+}

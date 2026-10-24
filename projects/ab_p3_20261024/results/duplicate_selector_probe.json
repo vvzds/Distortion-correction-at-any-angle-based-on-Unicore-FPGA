@@ -1,0 +1,7 @@
+{
+  "cases": 256,
+  "passed": true,
+  "domain": "All 2-state row/segment equality flags, qfound masks and qwhich; selector identity implies equality for all qid data values",
+  "scope": "Prospective local factorization only; not RTL sequential equivalence, not timing evidence",
+  "source_sha256": "e874e1c81ee22314280533c14a9d18c48bc67ef35dd17e5faa12ff4c523aedc3"
+}
