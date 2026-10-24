@@ -1,0 +1,26 @@
+{
+  "state": "FAILED",
+  "started": "2026-10-24T20:15:37.150184+08:00",
+  "top": "hdmi_ddr_ov5640_top",
+  "command": [
+    "D:\\FPGA PDS\\site\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery\\compile_only.tcl",
+    "-work_dir",
+    "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery",
+    "-project_name",
+    "full_source_top_recovered"
+  ],
+  "programmed": false,
+  "uart_sent": false,
+  "synthesis_run": false,
+  "place_route_run": false,
+  "pid": 93280,
+  "exit_code": 1,
+  "errors": [
+    "E: Flow-0189: Internal error occurred.",
+    "E: Failed to execute the script : "
+  ],
+  "elapsed_s": 3.4,
+  "log_sha256": "db8c9fe38241d569b6be935bdd0ad9fb18ca836615ed2fdb74393bb0e3290ff5"
+}

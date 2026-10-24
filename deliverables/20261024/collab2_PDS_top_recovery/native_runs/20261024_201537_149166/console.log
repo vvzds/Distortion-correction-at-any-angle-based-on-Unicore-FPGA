@@ -1,0 +1,86 @@
+License checkout: fabric_shell from D:\FPGA PDS\site\new_pds_d853bc339bf1.lic
+Compiling architecture definition.
+Analyzing project file 'D:/FPGA PDS/yx/DCSjingtaijiaozheng/01_project/top_recovery/full_source_top_recovered.pds'.
+Executing : set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676
+Executing : set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676 successfully.
+Executing : add_design source/rtl/hdmi_ddr_ov5640_top.v
+Executing : add_design source/rtl/hdmi_ddr_ov5640_top.v successfully.
+Executing : add_design source/rtl/raw8_to_rgb565.v
+Executing : add_design source/rtl/raw8_to_rgb565.v successfully.
+Executing : add_design source/rtl/frame_bank_ctrl.v
+Executing : add_design source/rtl/frame_bank_ctrl.v successfully.
+Executing : add_design source/rtl/corr_read_bridge.v
+Executing : add_design source/rtl/corr_read_bridge.v successfully.
+Executing : add_design source/rtl/corr_write_pack.v
+Executing : add_design source/rtl/corr_write_pack.v successfully.
+Executing : add_design source/rtl/corr_write_arb.v
+Executing : add_design source/rtl/corr_write_arb.v successfully.
+Executing : add_design source/rtl/corr_slot_ctrl.v
+Executing : add_design source/rtl/corr_slot_ctrl.v successfully.
+Executing : add_design source/rtl/fram_buf.v
+Executing : add_design source/rtl/fram_buf.v successfully.
+Executing : add_design source/rtl/i2c_com.v
+Executing : add_design source/rtl/i2c_com.v successfully.
+Executing : add_design source/rtl/iic_dri.v
+Executing : add_design source/rtl/iic_dri.v successfully.
+Executing : add_design source/rtl/ms72xx_ctl.v
+Executing : add_design source/rtl/ms72xx_ctl.v successfully.
+Executing : add_design source/rtl/ms7200_ctl.v
+Executing : add_design source/rtl/ms7200_ctl.v successfully.
+Executing : add_design source/rtl/ms7210_ctl.v
+Executing : add_design source/rtl/ms7210_ctl.v successfully.
+Executing : add_design source/rtl/power_on_delay.v
+Executing : add_design source/rtl/power_on_delay.v successfully.
+Executing : add_design source/rtl/rd_buf.v
+Executing : add_design source/rtl/rd_buf.v successfully.
+Executing : add_design source/rtl/rd_ctrl.v
+Executing : add_design source/rtl/rd_ctrl.v successfully.
+Executing : add_design source/rtl/reg_config.v
+Executing : add_design source/rtl/reg_config.v successfully.
+Executing : add_design source/rtl/sync_vg.v
+Executing : add_design source/rtl/sync_vg.v successfully.
+Executing : add_design source/rtl/wr_buf.v
+Executing : add_design source/rtl/wr_buf.v successfully.
+Executing : add_design source/rtl/wr_cmd_trans.v
+Executing : add_design source/rtl/wr_cmd_trans.v successfully.
+Executing : add_design source/rtl/wr_ctrl.v
+Executing : add_design source/rtl/wr_ctrl.v successfully.
+Executing : add_design source/rtl/wr_rd_ctrl_top.v
+Executing : add_design source/rtl/wr_rd_ctrl_top.v successfully.
+Executing : add_design ipcore/pll/pll.idf
+Executing : add_design ipcore/pll/pll.idf successfully.
+Executing : add_design ipcore/rd_fram_buf/rd_fram_buf.idf
+W: Flow-4058: The device information PG2L100H-6FBG484 of IP 'D:/FPGA PDS/yx/DCSjingtaijiaozheng/01_project/top_recovery/ipcore/rd_fram_buf/rd_fram_buf.idf' is not the same as the current project.
+Executing : add_design ipcore/rd_fram_buf/rd_fram_buf.idf successfully.
+Executing : add_design ipcore/wr_fram_buf/wr_fram_buf.idf
+W: Flow-4058: The device information PG2L100H-6FBG484 of IP 'D:/FPGA PDS/yx/DCSjingtaijiaozheng/01_project/top_recovery/ipcore/wr_fram_buf/wr_fram_buf.idf' is not the same as the current project.
+Executing : add_design ipcore/wr_fram_buf/wr_fram_buf.idf successfully.
+Executing : add_design ipcore/ddr3_test/ddr3_test.idf
+Executing : add_design ipcore/ddr3_test/ddr3_test.idf successfully.
+Executing : add_design source/rtl/corr_top.v
+Executing : add_design source/rtl/corr_top.v successfully.
+Executing : add_design source/rtl/param_mgr.v
+Executing : add_design source/rtl/param_mgr.v successfully.
+Executing : add_design source/rtl/gamma_lut.v
+Executing : add_design source/rtl/gamma_lut.v successfully.
+Executing : add_design source/rtl/rect_wr_if.v
+Executing : add_design source/rtl/rect_wr_if.v successfully.
+Executing : add_design source/rtl/undistort_core.v
+Executing : add_design source/rtl/undistort_core.v successfully.
+Executing : add_design source/rtl/undistort_map.v
+Executing : add_design source/rtl/undistort_map.v successfully.
+Executing : add_design source/rtl/undistort_bilinear.v
+Executing : add_design source/rtl/undistort_bilinear.v successfully.
+Executing : add_design source/rtl/undistort_line_cache.v
+Executing : add_design source/rtl/undistort_line_cache.v successfully.
+Executing : add_constraint HDMI_DDR3_OV5640_test.fdc
+Executing : add_constraint HDMI_DDR3_OV5640_test.fdc successfully.
+
+
+Executing : compile -top_module hdmi_ddr_ov5640_top
+
+
+Process "Compile" started.
+Current time: Sat Oct 24 20:15:40 2026
+E: Flow-0189: Internal error occurred.
+E: Failed to execute the script : 

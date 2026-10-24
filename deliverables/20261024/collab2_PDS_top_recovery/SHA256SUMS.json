@@ -1,0 +1,19 @@
+{
+  "00_开工声明_给执行者.md": "d79a60f06926cf4abbbf5749bf0cc8d9eb124b6e32a5384516379a9464d75bf6",
+  "FINAL_VERIFICATION.json": "ecd5988876aef45310cf7ca10e9a6f5fef83c1624cd31e295b359cc43c59cc0b",
+  "full_source_1080p30.before.pds": "24069949b848e89fc007262a5f87482f2ba9475c939dce7d18807a36389d2749",
+  "gui_failure_before.log": "23a2b81cfea0dc5c442720f521890fbb20f18c95c511e16ddba642ffda354077",
+  "native_runs/20261024_201537_149166/console.log": "db8c9fe38241d569b6be935bdd0ad9fb18ca836615ed2fdb74393bb0e3290ff5",
+  "native_runs/20261024_201537_149166/receipt.json": "af4dec55e9fe47dbebe8faec8c734a70f1326db6b9f4da507075fcfc4abd1920",
+  "native_runs/20261024_201750_987356/console.log": "8c30c5656762c099d6dd284c616b0392fc0919cbc81eeb07e3e0b95196b9fa01",
+  "native_runs/20261024_201750_987356/receipt.json": "146b576e108f265c323361df34ddf67ed2895fa4531e65ddc15b694f73e56562",
+  "PDS_top_recovery.zip": "026b4aecf83dff33cf8378c2ad5db0097dc396433a52660e3312750c3bd32a4a",
+  "preflight.json": "65ca6bf2dcd4ef744f12f60e17d0a691a4a7c84f662e863cb0f9cd7ab1bcd16d",
+  "README.md": "90360b105ccdbbaf37742ac6c389f6895f45a1228a9cbb37e3fbf8a806f471bb",
+  "STATUS.json": "eb17e908621a4e0c24a6f3603d2beb8a80bda0cc218e099fe49f259476577a77",
+  "tools/finalize_recovery.py": "238a18979f942c5d243da4fe859dcc94bed78d1d84dae5dce3879fcf1cca3a24",
+  "tools/package_recovery.py": "eef7bdce2d23465ad19bd84a2011a3652e17b195ef76facbe9d5042021bc44ba",
+  "tools/prepare_recovery.py": "b7e423ca5bb771bf494dfa41a059dcdd8e47cf712bcb5da27f0f7512253486e9",
+  "tools/run_compile.py": "2704777c5b5e1815455a16563095f9253bbd1261ccd82054fb208b5cd98c3db3",
+  "tools/verify_delivery.py": "ed06222cc849f35101a2bfe7b81d5a7beda105e7b908dc6f9b03d07744d62d43"
+}

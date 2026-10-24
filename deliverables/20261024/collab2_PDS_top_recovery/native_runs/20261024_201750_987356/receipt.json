@@ -1,0 +1,23 @@
+{
+  "state": "PASS",
+  "started": "2026-10-24T20:17:50.988354+08:00",
+  "top": "hdmi_ddr_ov5640_top",
+  "command": [
+    "D:\\FPGA PDS\\site\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery\\compile_only.tcl",
+    "-work_dir",
+    "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery",
+    "-project_name",
+    "full_source_top_recovered"
+  ],
+  "programmed": false,
+  "uart_sent": false,
+  "synthesis_run": false,
+  "place_route_run": false,
+  "pid": 87748,
+  "exit_code": 0,
+  "errors": [],
+  "elapsed_s": 174.01,
+  "log_sha256": "8c30c5656762c099d6dd284c616b0392fc0919cbc81eeb07e3e0b95196b9fa01"
+}
