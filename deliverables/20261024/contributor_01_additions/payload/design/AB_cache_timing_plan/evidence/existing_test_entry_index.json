@@ -1,0 +1,79 @@
+[
+  {
+    "test_reference": "run_validation.py",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\run_validation.py",
+    "exists": true,
+    "sha256": "d300f38c8393f0037b9e556bf69d4a99043b861e413fe68f9536b526e6e398e1",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "run_validation_exact64.py",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\run_validation_exact64.py",
+    "exists": true,
+    "sha256": "c7caab3c8a25679d2be0969e4ec4a793c468af9f92cf15da604f47ca2e862543",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/cache72_ab_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\cache72_ab_tb.v",
+    "exists": true,
+    "sha256": "ec2d4813477c0a030f5eafe283fb26c67c11a67ab53e3c528e28c19a9b610b62",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/segment_cache_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\segment_cache_tb.v",
+    "exists": true,
+    "sha256": "08db4e1d30ef7d16dbd85e9d762dd6228d81ed5a6028780d3792ef6d27b83468",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/cache_mode_switch_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\cache_mode_switch_tb.v",
+    "exists": true,
+    "sha256": "c353db1207a569cf417d7eacffbf216aa67c12b0b7fce25005b9efc4022271b2",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/cache_boundary_r3_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\cache_boundary_r3_tb.v",
+    "exists": true,
+    "sha256": "29f1f2da13e39a19ff983bd1fb4f2c874ca5fa67800f49bf6f9dbd72cf892d5e",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/calibration_core_ab_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\calibration_core_ab_tb.v",
+    "exists": true,
+    "sha256": "4dcbe29cd806d205cf96f71a37aad2ba613c47d1c66dbf8a257fbc819abda165",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/c6_host_arb_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\c6_host_arb_tb.v",
+    "exists": true,
+    "sha256": "35032b4712bdeb32336bba7b4012ae59517ec8344c32502d64a49b999a9730d0",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/c6_real_subsystem_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\c6_real_subsystem_tb.v",
+    "exists": true,
+    "sha256": "8e9b9aaa08987274ff2672f3df94d4062e6bd4eceaaa1ff00fce745576f07cc6",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "sim/c6_display_bridge_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\sim\\c6_display_bridge_tb.v",
+    "exists": true,
+    "sha256": "001f19a6352ede8990120c325116afeaa7c2e485b462ce43343405a3555f6eae",
+    "executed_in_this_plan": false
+  },
+  {
+    "test_reference": "integration/tb/corr_top_tb.v",
+    "existing_source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_复验接收_20261023\\execution\\candidate\\integration\\tb\\corr_top_tb.v",
+    "exists": true,
+    "sha256": "240f3e4b74d22954458bf71c8fbc400e50e615349454b43b284c543cb1855e69",
+    "executed_in_this_plan": false
+  }
+]

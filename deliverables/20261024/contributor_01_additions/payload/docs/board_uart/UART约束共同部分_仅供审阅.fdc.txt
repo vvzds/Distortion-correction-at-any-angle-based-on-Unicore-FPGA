@@ -1,0 +1,13 @@
+# REVIEW ONLY: not sourced by any build; hardware identity/connection and timing review pending.
+# Manufacturer UART demo uses DRIVE 8; remote-update demo uses 12. No single final DRIVE chosen.
+define_attribute {p:uart_rx} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:uart_rx} {PAP_IO_LOC} {B24}
+define_attribute {p:uart_rx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_rx} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:uart_tx} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:uart_tx} {PAP_IO_LOC} {C24}
+define_attribute {p:uart_tx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_tx} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:uart_tx} {PAP_IO_SLEW} {SLOW}
+# TX DRIVE unresolved: UART demo 8mA, remote-update demo 12mA.
+# No input_delay/output_delay/false_path invented. Not a complete timing constraint.

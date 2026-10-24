@@ -1,0 +1,98 @@
+{
+  "status": "FAIL",
+  "scope": "MAP_PORTS_IDENTITY_VALID_INIT_LATCH_RESET_ONLY",
+  "source": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow.v",
+  "expected_latency_edge_distance": 11,
+  "init_limit": 128,
+  "inputs_before": {
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow.v": "e8b853b5b5d72cf47fbec073f1a3a326b25007843de8f93a6ae0f5a7b819c7fd",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\sim\\map_contract_probe_tb.sv": "91ad98ade78b809d0de8c8b89fb7dd96df1687498947e9c1874f34ee404a0196",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py": "3a4de190c3d56b276ead847822f32874c9a2634e5172946d2038eede916ed942"
+  },
+  "inputs_after": {
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow.v": "e8b853b5b5d72cf47fbec073f1a3a326b25007843de8f93a6ae0f5a7b819c7fd",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\sim\\map_contract_probe_tb.sv": "91ad98ade78b809d0de8c8b89fb7dd96df1687498947e9c1874f34ee404a0196",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py": "3a4de190c3d56b276ead847822f32874c9a2634e5172946d2038eede916ed942"
+  },
+  "inputs_unchanged": true,
+  "tool_before": {
+    "iverilog.exe": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "vvp.exe": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62"
+  },
+  "tool_after": {
+    "iverilog.exe": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "vvp.exe": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62"
+  },
+  "port_width_warning": true,
+  "steps": [
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow",
+      "start_utc": "2026-10-24T04:54:19.219915+00:00",
+      "end_utc": "2026-10-24T04:54:19.309038+00:00",
+      "exit_code": 0,
+      "log": "compiler_version.log",
+      "log_sha256": "afe39246ebea2fc44b4de97450548f6e0b4281f87666efc2d35d2cf11968b282"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow",
+      "start_utc": "2026-10-24T04:54:19.311038+00:00",
+      "end_utc": "2026-10-24T04:54:19.331470+00:00",
+      "exit_code": 0,
+      "log": "runtime_version.log",
+      "log_sha256": "860edbaa0c428bb900da9c1204853fa7fcb3b8a1446b1d7aa932233bc0135cf0"
+    },
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-Wall",
+        "-s",
+        "map_contract_probe_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow\\probe.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\sim\\map_contract_probe_tb.sv"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow",
+      "start_utc": "2026-10-24T04:54:19.332469+00:00",
+      "end_utc": "2026-10-24T04:54:19.464070+00:00",
+      "exit_code": 0,
+      "log": "compile.log",
+      "log_sha256": "0bc1095665febba6bd83a62436f8c02019ab3a2c0ef8a9952f247542fce8a87e"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-i",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow\\probe.vvp",
+        "+LATENCY=11",
+        "+INIT_LIMIT=128"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow",
+      "start_utc": "2026-10-24T04:54:19.479596+00:00",
+      "end_utc": "2026-10-24T04:54:19.508814+00:00",
+      "exit_code": 1,
+      "log": "simulation.log",
+      "log_sha256": "03a415019a3e98205e0666f2f3e42d6b5fede09e000b3c2df27b591bef69c05f"
+    }
+  ],
+  "summary": [
+    "INIT index=0 edge_distance=106"
+  ],
+  "full_brown4_equivalence": "NOT_RUN",
+  "fullframe": "NOT_RUN",
+  "physical": "NOT_RUN",
+  "board": "PAUSED_BY_USER"
+}

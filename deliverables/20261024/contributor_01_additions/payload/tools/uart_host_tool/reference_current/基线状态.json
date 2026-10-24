@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-18",
+  "source_notice": "uart_host_tool_T_LIM修复通知_设计方_20261018.md",
+  "status": "received_and_sha256_verified",
+  "designer_reports_regression_passed": true,
+  "locally_reproduced_rtl_regression": false,
+  "files": [
+    {
+      "file": "param_mgr.v",
+      "expected_fixed_sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "historical_path": "reference_original/01_ref/param_mgr.v",
+      "historical_sha256": "656bb7984a13881c5032d274c38dcc5388b517f41cc3b296ea8a5d8dc640ebde",
+      "historical_matches_fixed": false,
+      "fixed_file_received": true,
+      "current_path": "reference_current/param_mgr.v",
+      "actual_fixed_sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "matches_notice_sha256": true
+    },
+    {
+      "file": "param_mgr_tb.v",
+      "expected_fixed_sha256": "04bec0071562df4fd1f895faa7fc1d5df6460ba0006f24dfe50b96048478c25d",
+      "historical_path": "reference_original/01_ref/param_mgr_tb.v",
+      "historical_sha256": "fa037115ac8b67371fc6a7b2ab7fdf97a220777911581a169259539805b0e4cc",
+      "historical_matches_fixed": false,
+      "fixed_file_received": true,
+      "current_path": "reference_current/param_mgr_tb.v",
+      "actual_fixed_sha256": "04bec0071562df4fd1f895faa7fc1d5df6460ba0006f24dfe50b96048478c25d",
+      "matches_notice_sha256": true
+    }
+  ],
+  "source_refill_package": "uart_host_tool_refill_pkg_for_collab1_20261018.zip",
+  "source_refill_sha256": "31eb9c516658ffb1963a53b59aea59467aa35452e46962d2ab50caa29ae5f614",
+  "designer_acceptance": "incremental_acceptance_passed_no_rework",
+  "root_status_map_version": "1.2.1",
+  "status_freeze_doc_version": "V1.1",
+  "I6_current_reference": "0x00080012",
+  "U4_existing_mock_frames_unchanged": true,
+  "fields_unchanged": true,
+  "received_references": [
+    {
+      "file": "param_mgr.v",
+      "path": "reference_current/param_mgr.v",
+      "expected_sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "actual_sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "matched": true
+    },
+    {
+      "file": "param_mgr_tb.v",
+      "path": "reference_current/param_mgr_tb.v",
+      "expected_sha256": "04bec0071562df4fd1f895faa7fc1d5df6460ba0006f24dfe50b96048478c25d",
+      "actual_sha256": "04bec0071562df4fd1f895faa7fc1d5df6460ba0006f24dfe50b96048478c25d",
+      "matched": true
+    },
+    {
+      "file": "status位域冻结确认书_20261015_V1.1.md",
+      "path": "reference_current/status位域冻结确认书_20261015_V1.1.md",
+      "expected_sha256": "e4b6ea41279bb2bb5d7fd4bbcca576499f50f0696602edacb4ef5a4e48e63c98",
+      "actual_sha256": "e4b6ea41279bb2bb5d7fd4bbcca576499f50f0696602edacb4ef5a4e48e63c98",
+      "matched": true
+    },
+    {
+      "file": "status_map_V1.2.1.json",
+      "path": "reference_current/status_map_V1.2.1.json",
+      "expected_sha256": "26df15094ca4744defd8e92981871132e7b58a966a872411ff1fa6cb3cb89f73",
+      "actual_sha256": "26df15094ca4744defd8e92981871132e7b58a966a872411ff1fa6cb3cb89f73",
+      "matched": true
+    }
+  ],
+  "verification_source_note": "Designer supplied source/reference documents; no local RTL regression or hardware test was run."
+}

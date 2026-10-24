@@ -1,0 +1,22 @@
+License checkout: fabric_shell from D:\FPGA PDS\site\new_pds_d853bc339bf1.lic
+Compiling architecture definition.
+Analyzing project file 'D:/FPGA PDS/sty/collab2_undistort_core_task_pkg_v1.1/sim_ascii/pds_core_stage2.pds'.
+Executing : set_arch -family Logos2 -device PG2L100H -package FBG676 -speedgrade -6
+Executing : set_arch -family Logos2 -device PG2L100H -package FBG676 -speedgrade -6 successfully.
+Executing : add_sources -design source/rtl
+File "source/rtl/undistort_map.v" has been added to project successfully. 
+File "source/rtl/undistort_core.v" has been added to project successfully. 
+File "source/rtl/undistort_line_cache.v" has been added to project successfully. 
+File "source/rtl/param_mgr.v" has been added to project successfully. 
+File "source/rtl/gamma_lut.v" has been added to project successfully. 
+File "source/rtl/undistort_bilinear.v" has been added to project successfully. 
+Executing : add_sources -design source/rtl successfully.
+
+
+Executing : compile -top_module undistort_core
+
+
+Process "Compile" started.
+Current time: Thu Oct 15 21:33:50 2026
+E: Flow-0189: Internal error occurred.
+E: Failed to execute the script : 

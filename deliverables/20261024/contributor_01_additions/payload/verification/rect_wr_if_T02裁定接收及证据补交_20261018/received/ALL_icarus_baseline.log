@@ -1,0 +1,47 @@
+rect_wr_if TB Verilog-2001 125MHz seed_up=49a2137b seed_slot=c0213471 seed_wr=17009bc3
+W0 SLOT delay=0 next_slot=4
+W0 SLOT delay=0 next_slot=4
+W0 BLOCK start_cycle=26 wm=1 length=3720
+W0 SLOT delay=0 next_slot=4
+[W0] PASS (err=0) words=960 commits=0 peak_wm=2 peak_fifo=1 digest=ffffffff
+W1 SLOT delay=0 next_slot=4
+[W1] PASS (err=0) words=960 commits=0 peak_wm=2 peak_fifo=1 digest=ffffffff
+W2 SLOT delay=0 next_slot=4
+W2 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+[W2] PASS (err=0) words=1036800 commits=1 peak_wm=2 peak_fifo=1 digest=00000000
+W3 SLOT delay=0 next_slot=4
+W3 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+W3 delay=0 preassert=1 verified
+W3 SLOT delay=4 next_slot=4
+W3 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+W3 delay=4 preassert=0 verified
+W3 SLOT delay=16 next_slot=4
+W3 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+W3 delay=16 preassert=0 verified
+[W3] PASS (err=0) words=1036800 commits=1 peak_wm=9 peak_fifo=9 digest=00000000
+W4 SLOT delay=0 next_slot=4
+W4 BLOCK start_cycle=40006 wm=1 length=3720
+W4 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+[W4] PASS (err=0) words=1036800 commits=1 peak_wm=1861 peak_fifo=1861 digest=00000000
+W5 SLOT delay=239 next_slot=4
+W5 BLOCK start_cycle=2072582 wm=1 length=3720
+W5 COMMIT frame=1 slot=4 cycle=2076815 backlog=1605 latency=1
+W5 SLOT delay=512 next_slot=5
+W5 COMMIT frame=2 slot=5 cycle=4147207 backlog=0 latency=1
+W5 OVERLAP next_sof_cycle=2073605 previous_commit_cycle=2076815 commit_backlog=1605
+[W5] PASS (err=0) words=2073600 commits=2 peak_wm=1863 peak_fifo=1862 digest=00000000
+W6 SLOT delay=0 next_slot=4
+W6 COMMIT frame=1 slot=4 cycle=5183745 backlog=0 latency=1
+[W6] PASS (err=0) words=1036800 commits=1 peak_wm=2 peak_fifo=1 digest=00000000
+W8 SLOT delay=239 next_slot=4
+W8 COMMIT frame=1 slot=4 cycle=5183745 backlog=0 latency=1
+W8 SLOT delay=243 next_slot=5
+W8 COMMIT frame=2 slot=5 cycle=10368290 backlog=0 latency=1
+W8 SLOT delay=14 next_slot=6
+W8 COMMIT frame=3 slot=6 cycle=15554708 backlog=0 latency=1
+W8 SLOT delay=235 next_slot=7
+W8 COMMIT frame=4 slot=7 cycle=20737626 backlog=0 latency=1
+[W8] PASS (err=0) words=4147200 commits=4 peak_wm=48 peak_fifo=48 digest=00000000
+[W7] PASS (err=0) protocol assertions active throughout W0-W8
+=== ALL TESTS PASSED (err=0) ===
+C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\rect_wr_if_v1_0_dev\sim\rect_wr_if_tb.v:407: $finish called at 323526758000 (1ps)

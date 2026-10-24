@@ -1,0 +1,462 @@
+[
+  {
+    "task_id": "A01",
+    "receipt_ids": [
+      "R10",
+      "R14",
+      "R06"
+    ],
+    "status": "FAILED",
+    "review_kind": "AUTHOR_SELF_REVIEW",
+    "scope": "Frozen AB single seed2 offline diagnosis; matched original core synthesis reused",
+    "candidate_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [
+      {
+        "argv": [
+          "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+          "-file",
+          "Q:/analysis.tcl",
+          "-work_dir",
+          "Q:/",
+          "-project_name",
+          "ab_seed2_analysis"
+        ],
+        "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\ab_seed2_inputs",
+        "pid": 32056,
+        "tool_sha256": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f"
+      }
+    ],
+    "started_at": "2026-10-24T14:06:37.657680+08:00",
+    "finished_at": "2026-10-24T14:42:29.665408+08:00",
+    "exit_code": 0,
+    "files": [
+      {
+        "path": "reports/A01_AB单seed物理诊断与四层资源账本.md",
+        "sha256": "24289700311d3c0586fcd8c2bac0d8bc9e0f8b323e977cae26acbe1af781de17"
+      },
+      {
+        "path": "evidence/ab_seed2_short_evidence/process_receipt.json",
+        "sha256": "94e5854c0f686b20cd2a13bc10dd75bd09b8fbc0ce03ad95170a84568d84af64"
+      },
+      {
+        "path": "evidence/ab_seed2_review/native_review.json",
+        "sha256": "0368ebecb2876f722c07969e8b19a199340fcebcba7a3da01b7d4d6c5f61ff1b"
+      },
+      {
+        "path": "evidence/review_evidence/AB_final_execution_audit.json",
+        "sha256": "5c673edd3aa35809a22ec77f8d2b13c9ff3237f2c073def00fb85d51a57feaff"
+      },
+      {
+        "path": "evidence/review_evidence/AB_new_host_storage.json",
+        "sha256": "fbb4bd3769aaf7e25666d0a766589fac06430b5820aa8006ce8dfd9c404109d7"
+      },
+      {
+        "path": "evidence/review_evidence/AB_critical_paths.json",
+        "sha256": "13bca6ffb006c8138d29c4dc023a2108704abf5ad7142d8fa0656f1b2cf82f7b"
+      }
+    ],
+    "reused_evidence": [
+      {
+        "origin": "ORIGINAL_RUN_REUSED",
+        "date": "2026-10-23",
+        "path": "reused_synthesis/core",
+        "reason": "Four source RTL files and synthesis Tcl byte-identical to new frozen input; evidence/synthesis comparison and fixed-input audit included"
+      }
+    ],
+    "findings": [
+      "EXECUTED_FAIL: process exit0; four-corner setup slow fails -2.585ns; holdfix -2.496ns",
+      "Resource two tables agree; cache8/core9/host22.5DRM; APM105",
+      "Worst path is cache qid to last_use; route delay90.7%",
+      "Auto UART RX N6/BANKR5 gives VCCIO3.3 incompatibility; no LOC transplant"
+    ],
+    "open_items": [
+      "B04 independent review",
+      "Design decision on cache metadata timing and future optimized core",
+      "Electrical/IO constraints not accepted; no board bitstream"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00",
+    "states": {
+      "tool_completion": "PASSED_SCOPE",
+      "input_integrity": "PASSED_SCOPE",
+      "four_corner_timing": "FAILED",
+      "resource_two_tables": "PASSED_SCOPE",
+      "cache_DRM_limit": "PASSED_SCOPE",
+      "electrical": "FAILED_NOT_BOARD_ACCEPTED",
+      "board": "NOT_RUN"
+    }
+  },
+  {
+    "task_id": "A02",
+    "receipt_ids": [
+      "R02",
+      "R03",
+      "R04",
+      "R06",
+      "R14"
+    ],
+    "status": "PASSED_SCOPE",
+    "review_kind": "INDEPENDENT_CROSS_REVIEW",
+    "scope": "Original tool review; new adapter is AUTHOR_SELF_REVIEW and awaits B04",
+    "candidate_sha256": "7B997F7040C0F05D0CC785A6CEED44AA3EFF1348FBED3EAA4171596CCFDE755D",
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [
+      {
+        "argv": [
+          "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "management_adapter.py",
+          "--results",
+          "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\inputs\\G8_RESULTS",
+          "--out",
+          "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\derived_g8_logged_final",
+          "--console-policy",
+          "strict"
+        ],
+        "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\tools\\tools",
+        "pid": 32960,
+        "tool_sha256": "10d845f50a2af64e3500bb2fcb348b5bc98a75d8ddada63e45ba1da6a1fc79d1"
+      }
+    ],
+    "started_at": "2026-10-24T14:48:23.028671+08:00",
+    "finished_at": "2026-10-24T14:48:35.238757+08:00",
+    "exit_code": 0,
+    "files": [
+      {
+        "path": "reports/A02_工具交叉审验与历史执行适配.md",
+        "sha256": "20e3d64b716fd67a9ecae6c1d53c1afecb0be8a5a82e09386be5edf5c1ae4f99"
+      },
+      {
+        "path": "evidence/original_selftests/selftest_receipt.json",
+        "sha256": "2e0864e2613642f3dce762747780e163d9ee8d121ebf67c8b212e85e5d9d999a"
+      },
+      {
+        "path": "evidence/adapted_regression_complete_fixtures/selftest_receipt.json",
+        "sha256": "ee17e1418c1fa50bd912395eed0cda7bc547d6baac1f17138df46ef196a5eb6e"
+      },
+      {
+        "path": "evidence/adapter_matrix/receipt.json",
+        "sha256": "312a2f17d8dd05dbb3056362d2847e588bc232734591a39e303aa2219adfe5f6"
+      },
+      {
+        "path": "evidence/adapter_execution_evidence/process_receipt.json",
+        "sha256": "8b83815f0ba18cf35d88d99795a10a7f31a184fd9c81974cbb118954d76c73b3"
+      },
+      {
+        "path": "evidence/derived_g8_logged_final/derived_review.json",
+        "sha256": "bf6daf8bc9b741a1e238a30de086ca2241b8434e4ff2c0078a3fa5311df7f6dc"
+      },
+      {
+        "path": "evidence/review_evidence/adapter.diff",
+        "sha256": "c6fb64fcbf29515c0ad20c4474726302720f5dd492730fe70f6473d4632f8637"
+      }
+    ],
+    "reused_evidence": [
+      {
+        "origin": "ORIGINAL_RUN_REUSED",
+        "archive": "G8_RESULTS",
+        "index": "reference/reused_archive_index.json",
+        "member_root": "physical_g8",
+        "reason": "No need to repeat eight PDS physical runs"
+      }
+    ],
+    "findings": [
+      "78 ordinary +78 optimized original tests; same78+78 adapted; extra11+11 synthetic methods",
+      "147 frozen files per seed and manifests byte-identical across prepared/history",
+      "DERIVED_REVIEW only; actual PID recovered; missing post-tool SHA stays null",
+      "Strict valid4/8, CSV closed0/8,worst-1.897; thresholds8/7/-0.05 unchanged"
+    ],
+    "open_items": [
+      "B04 independent review of new adapter",
+      "Four LUT two-table discrepancies remain rejected"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00",
+    "physical_result": "FAILED"
+  },
+  {
+    "task_id": "A03",
+    "receipt_ids": [
+      "R06",
+      "R07",
+      "R08",
+      "R09"
+    ],
+    "status": "PASSED_SCOPE",
+    "review_kind": "INDEPENDENT_CROSS_REVIEW",
+    "scope": "Shared TB/runner and resource generation separation",
+    "candidate_sha256": null,
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [],
+    "started_at": null,
+    "finished_at": null,
+    "exit_code": null,
+    "files": [
+      {
+        "path": "reports/A03_共享仿真与资源复核.md",
+        "sha256": "4ccdc72971bb6f84b02c8e644664b84f5f10a5bf1372f52f99265d8892acb48e"
+      },
+      {
+        "path": "evidence/review_evidence/A03_shared_comparison_recheck.json",
+        "sha256": "9ed7cf85489936caff39cd1aec11bd9efd9bebde3e0dbb40d84efce30ac9e868"
+      },
+      {
+        "path": "evidence/review_evidence/G8_replication_vs_lut_delta.json",
+        "sha256": "a4f273439512f2e92935e0ca6fbe8d430669345633ea76f06e6efa3158c5f38e"
+      },
+      {
+        "path": "evidence/budget_recheck.json",
+        "sha256": "bb9c1250b0d7e88d6eae2deab0fad12892c31a8ca9d8a35f57f1e0218a87f0c7"
+      }
+    ],
+    "reused_evidence": [
+      {
+        "origin": "ORIGINAL_RUN_REUSED",
+        "archive": "COMPARE",
+        "index": "reference/reused_archive_index.json",
+        "member_root": "AB_G8_M01_review_20261023/evidence/shared_comparison",
+        "reason": "Six complete fullframe logs rehashed and parsed; no new functional doubt requiring rerun"
+      }
+    ],
+    "findings": [
+      "6 frames12441600 pixels0 differences",
+      "AB2.006979cpp >2; G8 13.396487cpp;125MHz hypothetical",
+      "Grant32 configured; first/gap measured4/1 or64/2",
+      "G7 andG8 resource identities kept separate"
+    ],
+    "open_items": [
+      "AB throughput has only0.12% modeled30fps margin",
+      "R11/R12/P10 board evidence not captured"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00"
+  },
+  {
+    "task_id": "A02-CW1",
+    "receipt_ids": [
+      "R06",
+      "R14"
+    ],
+    "status": "PASSED_SCOPE",
+    "review_kind": "INDEPENDENT_CROSS_REVIEW",
+    "scope": "Warning event identity, stage and repetitions",
+    "candidate_sha256": null,
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [],
+    "started_at": null,
+    "finished_at": null,
+    "exit_code": null,
+    "files": [
+      {
+        "path": "evidence/warning_recheck.json",
+        "sha256": "ec9b38a94a5b45daeac83637257c05e0dde3d73db65ff1f0c7131227be0e4358"
+      },
+      {
+        "path": "evidence/native_connectivity/all_sta_events.json",
+        "sha256": "d8d3b7d1e1d1f60be3893580ce2e8b867c617fdd867a02eebbde2f354eda3e04"
+      },
+      {
+        "path": "reports/CW_告警清理与SCCB审查.md",
+        "sha256": "bcdb701fba685fcdf65cba0e2ff94a77ff8f15c26d4cd7a89b41e5c389e225b6"
+      }
+    ],
+    "reused_evidence": [],
+    "findings": [
+      "258sources/96stage logs/2288C events verified",
+      "G7 synth38;G8 synth46; 576STA events retained"
+    ],
+    "open_items": [
+      "Original frozen38 not unconditionally closed"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00"
+  },
+  {
+    "task_id": "A03-CW2",
+    "receipt_ids": [
+      "R06",
+      "R14"
+    ],
+    "status": "BLOCKED",
+    "review_kind": "INDEPENDENT_CROSS_REVIEW",
+    "scope": "36 shared pins + UART electrical candidate",
+    "candidate_sha256": null,
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [],
+    "started_at": null,
+    "finished_at": null,
+    "exit_code": null,
+    "files": [
+      {
+        "path": "evidence/review_evidence/C1_36pin_board_ledger.json",
+        "sha256": "c66279655eda57bc8149d69ed5464307a49d5140b087cedc4db34f51c60dcc74"
+      },
+      {
+        "path": "evidence/review_evidence/C1_36pin_board_ledger.md",
+        "sha256": "8a471a64515d206cb1a5cd8b89bc6df283994dfebb8d2181a928eb58423a4925"
+      },
+      {
+        "path": "reference/uart_test_厂商原件.fdc",
+        "sha256": "a0e8f461ba0d38e9b944724689cc7c0b9e421ebf8abbcdc25ed908bfd522884c"
+      }
+    ],
+    "reused_evidence": [],
+    "findings": [
+      "User board statement MES2L676 BASEV1.2 recorded",
+      "UART8mA/SLOW source candidate and PRR actual match; not board approval"
+    ],
+    "open_items": [
+      "Official FBG676 shared function table",
+      "Net-to-pin board schematic and actual boot/config mode",
+      "Actual bank supply/external load and electrical evidence"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00"
+  },
+  {
+    "task_id": "A03-CW3",
+    "receipt_ids": [
+      "R06",
+      "R14"
+    ],
+    "status": "PASSED_SCOPE",
+    "review_kind": "AUTHOR_SELF_REVIEW",
+    "scope": "Isolated single-CMOS2 host cleanup; no active video logic rewrite",
+    "candidate_sha256": "000cbf7b990e41cdc4ea5dc9c1c9f98b9fddd5bf6f70e96dc82c79af1af69c93",
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [
+      {
+        "argv": [
+          "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+          "-file",
+          "R:/cleanup_analysis.tcl",
+          "-work_dir",
+          "R:/",
+          "-project_name",
+          "cw_cleanup_analysis"
+        ],
+        "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\cw_cleanup_seed2",
+        "pid": 26912,
+        "tool_sha256": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f"
+      }
+    ],
+    "started_at": "2026-10-24T14:15:19.812389+08:00",
+    "finished_at": "2026-10-24T14:23:09.807354+08:00",
+    "exit_code": 0,
+    "files": [
+      {
+        "path": "evidence/review_evidence/cw_cleanup.diff",
+        "sha256": "5c82a0e86bf79df34ec189f170ad261b71d02a9935b5002a2caabd5851621f2b"
+      },
+      {
+        "path": "evidence/review_evidence/cleanup_scope_check.json",
+        "sha256": "0c23cbf97c1a2efa0aa553ab6b04b90e468e22c477e2aba762f7cf4d52233066"
+      },
+      {
+        "path": "evidence/cw_cleanup_evidence/process_receipt.json",
+        "sha256": "2d9aa9fe644ac85d786d34ad50a5e543c45173fd90be3afe730ad539b14eb5f0"
+      },
+      {
+        "path": "evidence/cw_cleanup_review_final/native_review.json",
+        "sha256": "e3dc6aa4b93ffaf153baae2ae73d34e512f6001c3f8e156a577f4245aadde638"
+      }
+    ],
+    "reused_evidence": [],
+    "findings": [
+      "142 unchanged active submodule/IP files; exactly7 unused declarations removed",
+      "CMOS1 SCCB remains; removed11 unused external pixel input bits",
+      "18debug+11dangling+2UART source-attribute warnings absent after new PNR",
+      "Frozen timing exceptions and generated clocks unchanged"
+    ],
+    "open_items": [
+      "New candidate only; source C2 attr does not close board electrical",
+      "Timing-0.640ns and1LUT discrepancy preserved",
+      "Not whole-board HDMI acceptance"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00"
+  },
+  {
+    "task_id": "A03-CW4",
+    "receipt_ids": [
+      "R06",
+      "R14"
+    ],
+    "status": "ANALYZED",
+    "review_kind": "AUTHOR_SELF_REVIEW",
+    "scope": "Native clock/arc/reset/exception review + directed RTL simulation",
+    "candidate_sha256": "7B997F7040C0F05D0CC785A6CEED44AA3EFF1348FBED3EAA4171596CCFDE755D",
+    "environment": {
+      "local_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "local_PDS": "2022.2-SP6.1 build138931",
+      "historical_PDS": "2022.2-SP6.4 build146967 when explicitly labeled"
+    },
+    "commands": [],
+    "started_at": null,
+    "finished_at": null,
+    "exit_code": null,
+    "files": [
+      {
+        "path": "evidence/native_connectivity/connectivity.json",
+        "sha256": "d24ab2f1de1bbef07ccd4c4398ee54cae880f151df57f60508ade72cc49b02ed"
+      },
+      {
+        "path": "evidence/native_connectivity/all_sta_events.json",
+        "sha256": "d8d3b7d1e1d1f60be3893580ce2e8b867c617fdd867a02eebbde2f354eda3e04"
+      },
+      {
+        "path": "evidence/g8_seed2_native_review_final/native_review.json",
+        "sha256": "5c1136096e0a9c08287b77445a65a485cdcc316590de17745654722778fa84d8"
+      },
+      {
+        "path": "evidence/cw_cleanup_review_final/native_review.json",
+        "sha256": "e3dc6aa4b93ffaf153baae2ae73d34e512f6001c3f8e156a577f4245aadde638"
+      },
+      {
+        "path": "evidence/sccb_sim_final/receipt.json",
+        "sha256": "b0bb200e5ffaad0c23e23a016747d05ac0c364b67c3be02bcce288742fe5dbac"
+      }
+    ],
+    "reused_evidence": [],
+    "findings": [
+      "STA resolves SCCB target to divider Q with master clk_25M, clock loads34/33",
+      "Native exception hits first enable D and reset RS endpoints; retained full emitted tables",
+      "3 phases complete263 transactions incl NACK retry and reset interruption, divider2400 verified",
+      "No false_path widening or invalid clock removal"
+    ],
+    "open_items": [
+      "No available gopSRL2 behavioral model was found; RTL simulation is not primitive timing simulation",
+      "B02/B04 review reset primitive semantics/SRB/physical reset waveforms",
+      "No automatic closure of clock/reset/external timing warnings"
+    ],
+    "production_promoted": false,
+    "receipt_written_at": "2026-10-24T14:51:14.456778+08:00"
+  }
+]

@@ -1,0 +1,5 @@
+INIT index=0 edge_distance=106
+INIT index=1 edge_distance=106
+INIT index=2 edge_distance=106
+PROBE_PASS accepted=274 returned=269 reset_discarded=5 latency_edge_distance=11 adjacent_returns=223 init_count=3
+C:\Users\lenovo\Desktop\ww\∂¿¡¢≤π≥‰—È÷§_20261024\sim\map_contract_probe_tb.sv:113: $finish called at 5784000 (1ps)

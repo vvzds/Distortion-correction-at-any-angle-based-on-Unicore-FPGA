@@ -1,0 +1,6 @@
+PROGRESS mode=1 pattern=1 pixels=518400 cycles=4479242
+PROGRESS mode=1 pattern=1 pixels=1036800 cycles=6525684
+PROGRESS mode=1 pattern=1 pixels=1555200 cycles=9105558
+PROGRESS mode=1 pattern=1 pixels=2073600 cycles=13999431
+CORE PASS mode=1 pattern=1 slot=3 pixels=2073600 err=0 cycles=13999448 cpp=6.751277 model_fps_125MHz=8.928923 line_loads=69916 hits=3 first_read=73 last_read=979 minrow=21 maxrow=1051
+sim/calibration_core_tb.v:120: $finish called at 111995616000 (1ps)

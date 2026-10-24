@@ -1,0 +1,2 @@
+SOURCE_WORDS PASS pixels=4147200 row_flip_and_packing=1 matches_original_procedural_model=1
+sim/calibration_source_words_tb.v:27: $finish called at 0 (1ps)

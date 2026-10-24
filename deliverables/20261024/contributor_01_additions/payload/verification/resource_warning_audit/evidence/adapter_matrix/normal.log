@@ -1,0 +1,16 @@
+test_direction_conflict (__main__.AdapterTests.test_direction_conflict) ... ok
+test_error_matrix (__main__.AdapterTests.test_error_matrix) ... ok
+test_expiry_warning_real_shape (__main__.AdapterTests.test_expiry_warning_real_shape) ... ok
+test_historical_record_faults (__main__.AdapterTests.test_historical_record_faults) ... ok
+test_resource_difference_1_2 (__main__.AdapterTests.test_resource_difference_1_2) ... ok
+test_seed_stage_matrix (__main__.AdapterTests.test_seed_stage_matrix) ... ok
+test_startup_optin (__main__.AdapterTests.test_startup_optin) ... ok
+test_startup_strict_reject (__main__.AdapterTests.test_startup_strict_reject) ... ok
+test_supported_versions (__main__.AdapterTests.test_supported_versions) ... ok
+test_thresholds (__main__.AdapterTests.test_thresholds) ... ok
+test_wrong_build (__main__.AdapterTests.test_wrong_build) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.010s
+
+OK

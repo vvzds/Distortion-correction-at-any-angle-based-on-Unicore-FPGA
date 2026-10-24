@@ -1,0 +1,93 @@
+[
+  {
+    "source": "D:\\FPGA PDS\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\1_Demo_document\\实验例程说明篇\\教程1_硬件实验指导手册_盘古676系列100Pro+开发板.pdf",
+    "copy": "reference/厂商硬件实验指导手册.pdf",
+    "bytes": 3504935,
+    "sha256": "f2fb07625a0a31705d7e8477308f7bcb1aa5272b6b0754cfbf9daca20ebec114"
+  },
+  {
+    "source": "D:\\FPGA PDS\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\2_Demo\\2_8_uart_test.rar",
+    "archive_sha256": "9a2ffb9d0aa30d51e07076e3794db623c6979ad01bd3b4888cd8926ddce9a1be",
+    "member": "2_8_uart_test/2_8_uart_test/uart_test.fdc",
+    "copy": "reference/uart_test_厂商原件.fdc",
+    "sha256": "a0e8f461ba0d38e9b944724689cc7c0b9e421ebf8abbcdc25ed908bfd522884c"
+  },
+  {
+    "source": "D:\\FPGA PDS\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\9_远程升级\\FPGA_remote_update\\pg2l100h_remote_update\\remote_update_golden\\prj\\pg2l100h_remote_updata.fdc",
+    "copy": "reference/remote_update_厂商原件.fdc",
+    "bytes": 9556,
+    "sha256": "1eff7ea7cd5027500bbbbef8e475b331109cec0ca38ff59080347b145ca443ca"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\received\\标定结果说明(1).md",
+    "copy": "reference/标定结果说明_原件.md",
+    "bytes": 3011,
+    "sha256": "cbdd79557ec21f094d6918ca27a248f54ca73aa2c3e8531e07f9ca47fac375bc"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\affine_disabled_0x02.bin",
+    "copy": "parameters/affine_disabled_0x02.bin",
+    "bytes": 30,
+    "sha256": "c88e5f60daf582324a0166512ebfaf2b0213a1a3404aee836fd1d59480de7340"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\calibration_q16.vh",
+    "copy": "parameters/calibration_q16.vh",
+    "bytes": 467,
+    "sha256": "8f2f0497c012fbbe07b0c418c98ea6d9aaf7292a3f203c73ec084d4c2758a55b"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\gamma_disabled_0x04.bin",
+    "copy": "parameters/gamma_disabled_0x04.bin",
+    "bytes": 9,
+    "sha256": "d82bf966a6f9f130aec1c4e7b84b2d4cb607ab868b486f76a21fd7e4c7be447b"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\identity_0x01.bin",
+    "copy": "parameters/identity_0x01.bin",
+    "bytes": 37,
+    "sha256": "c1fab7ced10d33faa93c4cd9db0310c0984a919f6e11ac27b685fa56d6983a9d"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\identity_0x01.hex",
+    "copy": "parameters/identity_0x01.hex",
+    "bytes": 112,
+    "sha256": "5ff53710665556f9bb117648c1f8bfe40b715ebb9402ae293657398ffef2fcdd"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\identity_parameters.csv",
+    "copy": "parameters/identity_parameters.csv",
+    "bytes": 158,
+    "sha256": "657b74157ed77637a5d331ce3908754a5a74e6c62adb1d025ccdce002e7809f1"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\parameter_encoding.json",
+    "copy": "parameters/parameter_encoding.json",
+    "bytes": 3415,
+    "sha256": "3a847379e8285aff9df16a1077cdac3c3b14049ec0a060eb879fc3ff07d687a5"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\real_0x01.bin",
+    "copy": "parameters/real_0x01.bin",
+    "bytes": 37,
+    "sha256": "1ac17c4bea8947d1e4a84f50a7eaaf46c0b1d90dd4b8e8ba880bc01e0a09537a"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\real_0x01.hex",
+    "copy": "parameters/real_0x01.hex",
+    "bytes": 112,
+    "sha256": "6db4cdff71391d700b2f2324a6e01c4dd016d7fa24f6fc683ed9c562585525f9"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\parameters\\real_parameters.csv",
+    "copy": "parameters/real_parameters.csv",
+    "bytes": 213,
+    "sha256": "4599511a4c0a570438e146bc8d57178d4fb088bf6e676928de4b7237190d8d20"
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\calibration_brown4_1080p30_20261022\\reports\\verification_summary.json",
+    "copy": "reference/既有标定仿真总结.json",
+    "bytes": 4195,
+    "sha256": "524466b84a94588bc3c8b5ef48020b59df1ef10f5becda02b755b6d35ce39ec3"
+  }
+]

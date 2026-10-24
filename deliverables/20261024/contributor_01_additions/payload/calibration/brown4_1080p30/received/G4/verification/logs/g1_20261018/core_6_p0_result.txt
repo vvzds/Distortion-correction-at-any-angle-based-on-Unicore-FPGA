@@ -1,0 +1,4 @@
+[T6] PASS err=0 checked=129600 max_error=0 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T6] cycles=15011550 stable_cpp=7.239187 loads=86224 reloads=85193 hits=4 max_loads_per_line=193
+=== ALL TESTS PASSED (err=0) ===

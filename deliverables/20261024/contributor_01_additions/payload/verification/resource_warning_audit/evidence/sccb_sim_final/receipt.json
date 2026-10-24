@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "scope": "RTL_RESET_SCCB_PROTOCOL_ONLY",
+  "input_clock_test_period_ns": 10,
+  "accelerated_config_half_period": 4,
+  "production_divisor_separately_measured": 2400,
+  "physical_clock_frequency_not_simulated": true,
+  "primitive_simulation": "NOT_RUN_NO_GOP_SRL2_BEHAVIORAL_MODEL",
+  "inputs_before": {
+    "sccb_review_tb.sv": "5d5132eaf45c85507454bb5eeb8a9f1f8ca9c6cea1b8215810dbffde9315f8e8",
+    "reg_config.v": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+    "i2c_com.v": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+  },
+  "inputs_after": {
+    "sccb_review_tb.sv": "5d5132eaf45c85507454bb5eeb8a9f1f8ca9c6cea1b8215810dbffde9315f8e8",
+    "reg_config.v": "4f2c4c30410059081ba0532f45a26e865845efdc1e302490e208f73de0fa4ded",
+    "i2c_com.v": "49e28129562f72cd0c5f99d3d86687a02a31e11e079fbccab404dd4bd350dbee"
+  },
+  "tool_before": {
+    "iverilog.exe": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "vvp.exe": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62"
+  },
+  "tool_after": {
+    "iverilog.exe": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "vvp.exe": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62"
+  },
+  "steps": [
+    {
+      "argv": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final",
+      "pid": 33464,
+      "started": "2026-10-24T14:25:33.115693+08:00",
+      "finished": "2026-10-24T14:25:33.529037+08:00",
+      "exit_code": 0,
+      "log": "tool_version.log",
+      "sha256": "afe39246ebea2fc44b4de97450548f6e0b4281f87666efc2d35d2cf11968b282"
+    },
+    {
+      "argv": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-s",
+        "sccb_review_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final\\sim.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim\\sccb_review_tb.sv",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim\\reg_config.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim\\i2c_com.v"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final",
+      "pid": 32540,
+      "started": "2026-10-24T14:25:33.532037+08:00",
+      "finished": "2026-10-24T14:25:33.602783+08:00",
+      "exit_code": 0,
+      "log": "compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "Z:\\bin\\vvp.exe",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final\\sim.vvp",
+        "+PHASE=3"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final",
+      "pid": 14960,
+      "started": "2026-10-24T14:25:33.602783+08:00",
+      "finished": "2026-10-24T14:25:33.916325+08:00",
+      "exit_code": 0,
+      "log": "phase_3.log",
+      "sha256": "e95d22f83d2e588b8fe5f903971aaba165e350e8d4c97d7e4d400a7e96546787"
+    },
+    {
+      "argv": [
+        "Z:\\bin\\vvp.exe",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final\\sim.vvp",
+        "+PHASE=47"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final",
+      "pid": 31636,
+      "started": "2026-10-24T14:25:33.918455+08:00",
+      "finished": "2026-10-24T14:25:34.148435+08:00",
+      "exit_code": 0,
+      "log": "phase_47.log",
+      "sha256": "cc294470fd7343eac457b7c99483f3737b11247d214567d1ca95ab8e9c9ab3b7"
+    },
+    {
+      "argv": [
+        "Z:\\bin\\vvp.exe",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final\\sim.vvp",
+        "+PHASE=93"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\sccb_sim_final",
+      "pid": 24408,
+      "started": "2026-10-24T14:25:34.160785+08:00",
+      "finished": "2026-10-24T14:25:34.390626+08:00",
+      "exit_code": 0,
+      "log": "phase_93.log",
+      "sha256": "07e5cacb5551931c336412276982bbe131ed1e6084509e524d3225b55309577d"
+    }
+  ]
+}

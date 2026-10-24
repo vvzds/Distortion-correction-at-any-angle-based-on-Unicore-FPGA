@@ -1,0 +1,14 @@
+{
+  "production_changed": [
+    "source/rtl/undistort_core.v"
+  ],
+  "unchanged_production": 3,
+  "existing_sim_unchanged": 21,
+  "core_external_interface_unchanged": true,
+  "run_copy_matches": 18,
+  "positive_result_files": 18,
+  "expected_fault_result": "33 injected early requests detected as FAIL",
+  "logs": 30,
+  "g4_synthesis": "NOT RUN",
+  "corr_top_pnr": "NOT RUN: missing project/tool"
+}

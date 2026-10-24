@@ -1,0 +1,2 @@
+PASS SCCB phase=47 transactions=263 bits_each=32 ACKs_each=4 NACK_retry=1 reset_release_edges=2 production_divisor=2400 periods=49
+C:\Users\lenovo\Desktop\ww\audit_work_20261024\sccb_sim\sccb_review_tb.sv:51: $finish called at 1206555000 (1ps)

@@ -1,0 +1,1117 @@
+{
+  "source_path": "critical_warning_review/evidence/G8_native_seed2/routed.v",
+  "source_sha256": "1b6e1d245be01ba469ce674165a987744d8094e79ac4204049d8dfb5d5225a50",
+  "parsed_native_instances": 18919,
+  "clocks": [
+    {
+      "net": "coms1_reg_config/clock_20k",
+      "definition_fdc": "get_nets coms1_reg_config.clock_20k",
+      "fdc_source_pin": "u_pll/u_gpll/CLKOUT2",
+      "source_frequency_MHz": 24.75,
+      "divide_by": 2400,
+      "derived_frequency_kHz": 10.3125,
+      "native_connections": [
+        {
+          "instance": "coms1_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+          "primitive": "gopSRL2",
+          "port": "CLK",
+          "line": 164311
+        },
+        {
+          "instance": "coms1_reg_config/clock_20k/opit_0_inv",
+          "primitive": "gopQ",
+          "port": "Q",
+          "line": 164337
+        },
+        {
+          "instance": "coms1_reg_config/clock_20k_cnt[0]/opit_0_inv_L6QL5_perm",
+          "primitive": "gopLUT6QL5",
+          "port": "I4",
+          "line": 164363
+        },
+        {
+          "instance": "coms1_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+          "primitive": "gopSRL2",
+          "port": "CLK",
+          "line": 164839
+        },
+        {
+          "instance": "coms1_reg_config/reg_conf_done_reg/opit_0_inv",
+          "primitive": "gopQ",
+          "port": "CLK",
+          "line": 164865
+        },
+        {
+          "instance": "coms1_reg_config/reg_data/gopdrm_18k",
+          "primitive": "gopDRM18K",
+          "port": "CLKA",
+          "line": 164890
+        },
+        {
+          "instance": "coms1_reg_config/reg_data/gopdrm_18k",
+          "primitive": "gopDRM18K",
+          "port": "CLKB",
+          "line": 164890
+        },
+        {
+          "instance": "coms1_reg_config/reg_index[1]/opit_0_inv_L6QL5Q1_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 165028
+        },
+        {
+          "instance": "coms1_reg_config/reg_index[3]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 165065
+        },
+        {
+          "instance": "coms1_reg_config/reg_index[4]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 165098
+        },
+        {
+          "instance": "coms1_reg_config/reg_index[5]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 165135
+        },
+        {
+          "instance": "coms1_reg_config/reg_index[7]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 165167
+        },
+        {
+          "instance": "coms1_reg_config/reg_index[8]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 165204
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[1]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 165237
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[3]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165274
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[4]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 165308
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[5]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 165345
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[6]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165377
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[7]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165411
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[8]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165445
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[9]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165479
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[10]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165513
+        },
+        {
+          "instance": "coms1_reg_config/settle_count[11]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 165547
+        },
+        {
+          "instance": "coms1_reg_config/start/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 165581
+        },
+        {
+          "instance": "coms1_reg_config/u1/N24[0]/LUT6_inst_perm",
+          "primitive": "gopLUT6",
+          "port": "I1",
+          "line": 165625
+        },
+        {
+          "instance": "coms1_reg_config/u1/ack1/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 165825
+        },
+        {
+          "instance": "coms1_reg_config/u1/ack2/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 165857
+        },
+        {
+          "instance": "coms1_reg_config/u1/ack3/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 165890
+        },
+        {
+          "instance": "coms1_reg_config/u1/ack4/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 165922
+        },
+        {
+          "instance": "coms1_reg_config/u1/cyc_count[0]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 165954
+        },
+        {
+          "instance": "coms1_reg_config/u1/cyc_count[1]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 165987
+        },
+        {
+          "instance": "coms1_reg_config/u1/cyc_count[2]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 166020
+        },
+        {
+          "instance": "coms1_reg_config/u1/cyc_count[3]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 166053
+        },
+        {
+          "instance": "coms1_reg_config/u1/cyc_count[4]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 166085
+        },
+        {
+          "instance": "coms1_reg_config/u1/cyc_count[5]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 166117
+        },
+        {
+          "instance": "coms1_reg_config/u1/reg_sdat/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 166149
+        },
+        {
+          "instance": "coms1_reg_config/u1/sclk/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 166183
+        },
+        {
+          "instance": "coms1_reg_config/u1/tr_end/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 166215
+        }
+      ],
+      "clock_pin_connections": 33,
+      "query_scope": "NATIVE_ROUTED_VERILOG_CONNECTIVITY_NOT_TIMING_ENGINE_COLLECTION"
+    },
+    {
+      "net": "coms2_reg_config/clock_20k",
+      "definition_fdc": "get_nets coms2_reg_config.clock_20k",
+      "fdc_source_pin": "u_pll/u_gpll/CLKOUT2",
+      "source_frequency_MHz": 24.75,
+      "divide_by": 2400,
+      "derived_frequency_kHz": 10.3125,
+      "native_connections": [
+        {
+          "instance": "coms2_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+          "primitive": "gopSRL2",
+          "port": "CLK",
+          "line": 166768
+        },
+        {
+          "instance": "coms2_reg_config/clock_20k/opit_0_inv",
+          "primitive": "gopQ",
+          "port": "Q",
+          "line": 166794
+        },
+        {
+          "instance": "coms2_reg_config/clock_20k_cnt[0]/opit_0_inv_L6QL5_perm",
+          "primitive": "gopLUT6QL5",
+          "port": "I0",
+          "line": 166820
+        },
+        {
+          "instance": "coms2_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+          "primitive": "gopSRL2",
+          "port": "CLK",
+          "line": 167296
+        },
+        {
+          "instance": "coms2_reg_config/reg_conf_done_reg/opit_0_inv",
+          "primitive": "gopQ",
+          "port": "CLK",
+          "line": 167322
+        },
+        {
+          "instance": "coms2_reg_config/reg_data/gopdrm_18k",
+          "primitive": "gopDRM18K",
+          "port": "CLKA",
+          "line": 167347
+        },
+        {
+          "instance": "coms2_reg_config/reg_data/gopdrm_18k",
+          "primitive": "gopDRM18K",
+          "port": "CLKB",
+          "line": 167347
+        },
+        {
+          "instance": "coms2_reg_config/reg_index[1]/opit_0_inv_L6QL5Q1_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 167485
+        },
+        {
+          "instance": "coms2_reg_config/reg_index[3]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 167522
+        },
+        {
+          "instance": "coms2_reg_config/reg_index[4]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 167555
+        },
+        {
+          "instance": "coms2_reg_config/reg_index[5]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 167592
+        },
+        {
+          "instance": "coms2_reg_config/reg_index[7]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 167624
+        },
+        {
+          "instance": "coms2_reg_config/reg_index[8]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 167661
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[1]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 167694
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[3]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 167731
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[4]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 167765
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[5]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 167802
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[6]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 167834
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[7]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 167868
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[8]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 167902
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[9]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 167936
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[10]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 167970
+        },
+        {
+          "instance": "coms2_reg_config/settle_count[11]/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 168004
+        },
+        {
+          "instance": "coms2_reg_config/start/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168038
+        },
+        {
+          "instance": "coms2_reg_config/u1/N24[0]/LUT6_inst_perm",
+          "primitive": "gopLUT6",
+          "port": "I1",
+          "line": 168070
+        },
+        {
+          "instance": "coms2_reg_config/u1/ack1/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168270
+        },
+        {
+          "instance": "coms2_reg_config/u1/ack2/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 168302
+        },
+        {
+          "instance": "coms2_reg_config/u1/ack3/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168335
+        },
+        {
+          "instance": "coms2_reg_config/u1/ack4/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 168367
+        },
+        {
+          "instance": "coms2_reg_config/u1/cyc_count[1]/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 168400
+        },
+        {
+          "instance": "coms2_reg_config/u1/cyc_count[2]/opit_0_inv_L6QL5Q_perm",
+          "primitive": "gopLUT6QL5Q",
+          "port": "CLK",
+          "line": 168433
+        },
+        {
+          "instance": "coms2_reg_config/u1/cyc_count[3]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168470
+        },
+        {
+          "instance": "coms2_reg_config/u1/cyc_count[4]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168502
+        },
+        {
+          "instance": "coms2_reg_config/u1/cyc_count[5]/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168534
+        },
+        {
+          "instance": "coms2_reg_config/u1/reg_sdat/opit_0_inv_AQ_perm",
+          "primitive": "gopAL6Q",
+          "port": "CLK",
+          "line": 168566
+        },
+        {
+          "instance": "coms2_reg_config/u1/sclk/opit_0_inv_L5Q_perm",
+          "primitive": "gopLUT6L5Q",
+          "port": "CLK",
+          "line": 168600
+        },
+        {
+          "instance": "coms2_reg_config/u1/tr_end/opit_0_inv_L6Q_perm",
+          "primitive": "gopLUT6Q",
+          "port": "CLK",
+          "line": 168633
+        }
+      ],
+      "clock_pin_connections": 32,
+      "query_scope": "NATIVE_ROUTED_VERILOG_CONNECTIVITY_NOT_TIMING_ENGINE_COLLECTION"
+    }
+  ],
+  "reset_primitives": [
+    {
+      "type": "gopSRL2",
+      "name": "coms1_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "line": 164311,
+      "parameters": {
+        "FF0_RS": "\"RESET\"",
+        "FFAPP0_RS": "\"RESET\"",
+        "FF0_INIT": "1'b0",
+        "FFAPP0_INIT": "1'b0",
+        "RS_MODE": "\"ASYNC\"",
+        "LRS_POL": "\"TRUE\"",
+        "LRS_EN": "\"TRUE\"",
+        "LCE_POL": "\"FALSE\"",
+        "LCE_EN": "\"FALSE\"",
+        "CLK_POL": "\"FALSE\"",
+        "RSMUX_SEL": "\"LOCAL\"",
+        "CEMUX_SEL": "\"LOCAL\"",
+        "GRS_EN": "\"TRUE\"",
+        "LATCH_EN": "\"FALSE\""
+      },
+      "ports": {
+        "CECO": "",
+        "CR0": "coms1_reg_config/camera_reset_sync[1]",
+        "Q0": "",
+        "RSCO": "",
+        "CE": "",
+        "CLK": "coms1_reg_config/clock_20k",
+        "D": "ntR3370",
+        "RS": "nt_cmos2_reset"
+      }
+    },
+    {
+      "type": "gopSRL2",
+      "name": "coms1_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "line": 164839,
+      "parameters": {
+        "FF0_RS": "\"RESET\"",
+        "FFAPP0_RS": "\"RESET\"",
+        "FF0_INIT": "1'b0",
+        "FFAPP0_INIT": "1'b0",
+        "RS_MODE": "\"ASYNC\"",
+        "LRS_POL": "\"TRUE\"",
+        "LRS_EN": "\"TRUE\"",
+        "LCE_POL": "\"FALSE\"",
+        "LCE_EN": "\"FALSE\"",
+        "CLK_POL": "\"FALSE\"",
+        "RSMUX_SEL": "\"LOCAL\"",
+        "CEMUX_SEL": "\"LOCAL\"",
+        "GRS_EN": "\"TRUE\"",
+        "LATCH_EN": "\"FALSE\""
+      },
+      "ports": {
+        "CECO": "",
+        "CR0": "coms1_reg_config/initial_enable_sync[1]",
+        "Q0": "",
+        "RSCO": "",
+        "CE": "",
+        "CLK": "coms1_reg_config/clock_20k",
+        "D": "initial_en",
+        "RS": "coms1_reg_config/camera_reset_sync[1]"
+      }
+    },
+    {
+      "type": "gopSRL2",
+      "name": "coms2_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "line": 166768,
+      "parameters": {
+        "FF0_RS": "\"RESET\"",
+        "FFAPP0_RS": "\"RESET\"",
+        "FF0_INIT": "1'b0",
+        "FFAPP0_INIT": "1'b0",
+        "RS_MODE": "\"ASYNC\"",
+        "LRS_POL": "\"TRUE\"",
+        "LRS_EN": "\"TRUE\"",
+        "LCE_POL": "\"FALSE\"",
+        "LCE_EN": "\"FALSE\"",
+        "CLK_POL": "\"FALSE\"",
+        "RSMUX_SEL": "\"LOCAL\"",
+        "CEMUX_SEL": "\"LOCAL\"",
+        "GRS_EN": "\"TRUE\"",
+        "LATCH_EN": "\"FALSE\""
+      },
+      "ports": {
+        "CECO": "",
+        "CR0": "coms2_reg_config/camera_reset_sync[1]",
+        "Q0": "",
+        "RSCO": "",
+        "CE": "",
+        "CLK": "coms2_reg_config/clock_20k",
+        "D": "ntR3387",
+        "RS": "nt_cmos2_reset"
+      }
+    },
+    {
+      "type": "gopSRL2",
+      "name": "coms2_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "line": 167296,
+      "parameters": {
+        "FF0_RS": "\"RESET\"",
+        "FFAPP0_RS": "\"RESET\"",
+        "FF0_INIT": "1'b0",
+        "FFAPP0_INIT": "1'b0",
+        "RS_MODE": "\"ASYNC\"",
+        "LRS_POL": "\"TRUE\"",
+        "LRS_EN": "\"TRUE\"",
+        "LCE_POL": "\"FALSE\"",
+        "LCE_EN": "\"FALSE\"",
+        "CLK_POL": "\"FALSE\"",
+        "RSMUX_SEL": "\"CHAIN\"",
+        "CEMUX_SEL": "\"LOCAL\"",
+        "GRS_EN": "\"TRUE\"",
+        "LATCH_EN": "\"FALSE\""
+      },
+      "ports": {
+        "CECO": "",
+        "CR0": "coms2_reg_config/initial_enable_sync[1]",
+        "Q0": "",
+        "RSCO": "",
+        "CE": "",
+        "CLK": "coms2_reg_config/clock_20k",
+        "D": "initial_en",
+        "RS": "ntR2487"
+      }
+    }
+  ],
+  "reset_net_connections": [
+    {
+      "net": "ntR3370",
+      "instance": "coms1_reg_config/N943_9/gateop_perm",
+      "primitive": "gopA",
+      "port": "I5",
+      "line": 164170
+    },
+    {
+      "net": "coms1_reg_config/initial_enable_sync[1]",
+      "instance": "coms1_reg_config/N1239/gateop_perm",
+      "primitive": "gopA",
+      "port": "I3",
+      "line": 164198
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/N1239_1/gateop_perm",
+      "primitive": "gopA",
+      "port": "I3",
+      "line": 164212
+    },
+    {
+      "net": "coms1_reg_config/initial_enable_sync[1]",
+      "instance": "coms1_reg_config/N1256_1/LUT6D_inst_perm",
+      "primitive": "gopLUT6L5",
+      "port": "I0",
+      "line": 164226
+    },
+    {
+      "net": "coms1_reg_config/initial_enable_sync[1]",
+      "instance": "coms1_reg_config/N1269/LUT6D_inst_perm",
+      "primitive": "gopLUT6L5",
+      "port": "I0",
+      "line": 164254
+    },
+    {
+      "net": "coms1_reg_config/initial_enable_sync[1]",
+      "instance": "coms1_reg_config/N1339_4/gateop_perm",
+      "primitive": "gopA",
+      "port": "I4",
+      "line": 164297
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "CR0",
+      "line": 164311
+    },
+    {
+      "net": "ntR3370",
+      "instance": "coms1_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "D",
+      "line": 164311
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "RS",
+      "line": 164311
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/clock_20k/opit_0_inv",
+      "primitive": "gopQ",
+      "port": "RS",
+      "line": 164337
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/clock_20k_cnt[0]/opit_0_inv_L6QL5_perm",
+      "primitive": "gopLUT6QL5",
+      "port": "RS",
+      "line": 164363
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/clock_20k_cnt[1]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 164398
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/clock_20k_cnt[2]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 164432
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/clock_20k_cnt[3]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 164466
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms1_reg_config/clock_20k_cnt[4]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 164500
+    },
+    {
+      "net": "coms1_reg_config/initial_enable_sync[1]",
+      "instance": "coms1_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "CR0",
+      "line": 164839
+    },
+    {
+      "net": "initial_en",
+      "instance": "coms1_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "D",
+      "line": 164839
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "RS",
+      "line": 164839
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/reg_conf_done_reg/opit_0_inv",
+      "primitive": "gopQ",
+      "port": "RS",
+      "line": 164865
+    },
+    {
+      "net": "ntR3370",
+      "instance": "coms1_reg_config/reg_index[3]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "I5",
+      "line": 165065
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/reg_index[3]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 165065
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/reg_index[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 165135
+    },
+    {
+      "net": "ntR3370",
+      "instance": "coms1_reg_config/reg_index[7]/opit_0_inv_L6QL5Q_perm",
+      "primitive": "gopLUT6QL5Q",
+      "port": "I5",
+      "line": 165167
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/reg_index[7]/opit_0_inv_L6QL5Q_perm",
+      "primitive": "gopLUT6QL5Q",
+      "port": "RS",
+      "line": 165167
+    },
+    {
+      "net": "ntR3370",
+      "instance": "coms1_reg_config/reg_index[8]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "I5",
+      "line": 165204
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/reg_index[8]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 165204
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/settle_count[3]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 165274
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/settle_count[4]/opit_0_inv_L6QL5Q_perm",
+      "primitive": "gopLUT6QL5Q",
+      "port": "RS",
+      "line": 165308
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/settle_count[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 165345
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/start/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 165581
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/ack1/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 165825
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/ack2/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 165857
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/ack3/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 165890
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/ack4/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 165922
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/cyc_count[2]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 166020
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/cyc_count[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 166117
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/reg_sdat/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 166149
+    },
+    {
+      "net": "coms1_reg_config/camera_reset_sync[1]",
+      "instance": "coms1_reg_config/u1/sclk/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 166183
+    },
+    {
+      "net": "coms2_reg_config/initial_enable_sync[1]",
+      "instance": "coms2_reg_config/N1239/gateop_perm",
+      "primitive": "gopA",
+      "port": "I4",
+      "line": 166655
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/N1239_1/gateop_perm",
+      "primitive": "gopA",
+      "port": "I1",
+      "line": 166669
+    },
+    {
+      "net": "coms2_reg_config/initial_enable_sync[1]",
+      "instance": "coms2_reg_config/N1256_1/LUT6D_inst_perm",
+      "primitive": "gopLUT6L5",
+      "port": "I3",
+      "line": 166683
+    },
+    {
+      "net": "coms2_reg_config/initial_enable_sync[1]",
+      "instance": "coms2_reg_config/N1269/LUT6D_inst_perm",
+      "primitive": "gopLUT6L5",
+      "port": "I2",
+      "line": 166711
+    },
+    {
+      "net": "coms2_reg_config/initial_enable_sync[1]",
+      "instance": "coms2_reg_config/N1339_4/gateop_perm",
+      "primitive": "gopA",
+      "port": "I4",
+      "line": 166754
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "CR0",
+      "line": 166768
+    },
+    {
+      "net": "ntR3387",
+      "instance": "coms2_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "D",
+      "line": 166768
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms2_reg_config/camera_reset_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "RS",
+      "line": 166768
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms2_reg_config/clock_20k_cnt[1]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 166855
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms2_reg_config/clock_20k_cnt[2]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 166889
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms2_reg_config/clock_20k_cnt[3]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 166923
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "coms2_reg_config/clock_20k_cnt[4]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 166957
+    },
+    {
+      "net": "coms2_reg_config/initial_enable_sync[1]",
+      "instance": "coms2_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "CR0",
+      "line": 167296
+    },
+    {
+      "net": "initial_en",
+      "instance": "coms2_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "D",
+      "line": 167296
+    },
+    {
+      "net": "ntR2487",
+      "instance": "coms2_reg_config/initial_enable_sync[0]/opit_0_inv_srl",
+      "primitive": "gopSRL2",
+      "port": "RS",
+      "line": 167296
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/reg_conf_done_reg/opit_0_inv",
+      "primitive": "gopQ",
+      "port": "RS",
+      "line": 167322
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/reg_index[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 167592
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/reg_index[8]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 167661
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/settle_count[3]/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 167731
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/settle_count[4]/opit_0_inv_L6QL5Q_perm",
+      "primitive": "gopLUT6QL5Q",
+      "port": "RS",
+      "line": 167765
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/settle_count[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 167802
+    },
+    {
+      "net": "ntR3387",
+      "instance": "coms2_reg_config/u1/ack2/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "I5",
+      "line": 168302
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/u1/ack2/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 168302
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/u1/cyc_count[1]/opit_0_inv_L5Q_perm",
+      "primitive": "gopLUT6L5Q",
+      "port": "RS",
+      "line": 168400
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/u1/cyc_count[2]/opit_0_inv_L6QL5Q_perm",
+      "primitive": "gopLUT6QL5Q",
+      "port": "RS",
+      "line": 168433
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/u1/cyc_count[3]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 168470
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/u1/cyc_count[4]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 168502
+    },
+    {
+      "net": "ntR2487",
+      "instance": "coms2_reg_config/u1/cyc_count[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RSCO",
+      "line": 168534
+    },
+    {
+      "net": "coms2_reg_config/camera_reset_sync[1]",
+      "instance": "coms2_reg_config/u1/cyc_count[5]/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 168534
+    },
+    {
+      "net": "ntR2487",
+      "instance": "coms2_reg_config/u1/reg_sdat/opit_0_inv_AQ_perm",
+      "primitive": "gopAL6Q",
+      "port": "RS",
+      "line": 168566
+    },
+    {
+      "net": "ntR2487",
+      "instance": "coms2_reg_config/u1/tr_end/opit_0_inv_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "RS",
+      "line": 168633
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "power_on_delay_inst/camera_rstn_reg/opit_0_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "L6Q",
+      "line": 263854
+    },
+    {
+      "net": "initial_en",
+      "instance": "power_on_delay_inst/initial_en/opit_0_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "L6Q",
+      "line": 265759
+    },
+    {
+      "net": "nt_cmos2_reset",
+      "instance": "power_on_delay_inst/initial_en/opit_0_L6Q_perm",
+      "primitive": "gopLUT6Q",
+      "port": "I3",
+      "line": 265759
+    }
+  ],
+  "limitations": [
+    "Native gopSRL2 simulation model unavailable in installed searchable Verilog sources; RTL simulation does not close primitive recovery/removal.",
+    "Native false_path exception hit-list not yet exported; reset fanout is structural evidence, not a fabricated STA hit-list."
+  ]
+}

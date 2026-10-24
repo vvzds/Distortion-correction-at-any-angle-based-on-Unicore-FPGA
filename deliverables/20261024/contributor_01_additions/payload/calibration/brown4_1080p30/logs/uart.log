@@ -1,0 +1,2 @@
+UART PASS actual_115200_8N1=1 identity_and_real_decode=1 busy_atomic=1 updates=2
+sim/calibration_uart_tb.v:52: $finish called at 6471912000 (1ps)

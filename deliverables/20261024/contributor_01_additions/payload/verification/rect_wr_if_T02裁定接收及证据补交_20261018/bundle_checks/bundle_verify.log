@@ -1,0 +1,7 @@
+command: git -C C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\rect_wr_if_v1_0_dev bundle verify C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\rect_wr_if_v1.0_delivery_20261015\rect_wr_if.git.bundle
+exit_code: 0
+C:/Users/lenovo/Documents/Codex/2026-10-11/w-m/outputs/rect_wr_if_v1.0_delivery_20261015/rect_wr_if.git.bundle is okay
+The bundle contains this ref:
+a0380bb21dc3078891c4c059d23b0532873ceaf7 HEAD
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1

@@ -1,0 +1,14 @@
+{
+  "received_date": "2026-10-18",
+  "source_file": "rect_wr_if_R01恢复拍数口径_设计方回复_20261018.md",
+  "received_sha256": "df66ecff7fbf466fa9d963cff299200b6e3e622f6461400c8182e1c0349390e6",
+  "R01_status": "closed_by_designer_confirmation",
+  "elapsed_recovery_cycles_upper_bound": 3728,
+  "accepted_recovery_cycles_upper_bound": 3724,
+  "max_intrinsic_gap_cycles": 4,
+  "recovery_crosses_at_most_one_backlogged_frame_boundary": true,
+  "previous_integer_model_matches": true,
+  "RTL_TB_changed": false,
+  "new_simulation_run": false,
+  "corrected_do_ModelSim_execution": "pending_user_arrangement"
+}

@@ -1,0 +1,105 @@
+--- original/source/rtl/hdmi_ddr_ov5640_top.v
++++ isolated/source/rtl/hdmi_ddr_ov5640_top.v
+@@ -39,10 +39,6 @@
+     //coms1	
+     inout                                cmos1_scl            ,//cmos1 i2c 
+     inout                                cmos1_sda            ,//cmos1 i2c 
+-    input                                cmos1_vsync          ,//cmos1 vsync
+-    input                                cmos1_href           ,//cmos1 hsync refrence,data valid
+-    input                                cmos1_pclk           ,//cmos1 pxiel clock
+-    input   [7:0]                        cmos1_data           ,//cmos1 data
+     output                               cmos1_reset          ,//cmos1 reset
+     //coms2
+     inout                                cmos2_scl            ,//cmos2 i2c 
+@@ -108,12 +104,9 @@
+     reg                         cmos1_href_d0       ;
+     reg                         cmos1_vsync_d0      ;
+     wire                        cmos1_pclk_16bit    ;
+-    wire[15:0]                  cmos2_d_16bit       /*synthesis PAP_MARK_DEBUG="1"*/;
+-    wire                        cmos2_href_16bit    /*synthesis PAP_MARK_DEBUG="1"*/;
+     reg [7:0]                   cmos2_d_d0          /*synthesis PAP_MARK_DEBUG="1"*/;
+     reg                         cmos2_href_d0       /*synthesis PAP_MARK_DEBUG="1"*/;
+     reg                         cmos2_vsync_d0      /*synthesis PAP_MARK_DEBUG="1"*/;
+-    wire                        cmos2_pclk_16bit    /*synthesis PAP_MARK_DEBUG="1"*/;
+     wire[15:0]                  o_rgb565            ;
+     wire                        pclk_in_test        ;    
+     wire                        vs_in_test          ;
+--- original/HDMI_DDR3_OV5640_test.fdc
++++ isolated/HDMI_DDR3_OV5640_test.fdc
+@@ -780,46 +780,6 @@
+ define_attribute {p:clk_p} {PAP_IO_VCCIO} {1.5}
+ define_attribute {p:clk_p} {PAP_IO_STANDARD} {HSTL15D_I}
+ define_attribute {p:clk_p} {PAP_IO_UNUSED} {TRUE}
+-define_attribute {p:cmos1_data[7]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[7]} {PAP_IO_LOC} {V14}
+-define_attribute {p:cmos1_data[7]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[7]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[7]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[6]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[6]} {PAP_IO_LOC} {V18}
+-define_attribute {p:cmos1_data[6]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[6]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[6]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[5]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[5]} {PAP_IO_LOC} {Y21}
+-define_attribute {p:cmos1_data[5]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[5]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[5]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[4]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[4]} {PAP_IO_LOC} {T15}
+-define_attribute {p:cmos1_data[4]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[4]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[4]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[3]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[3]} {PAP_IO_LOC} {W25}
+-define_attribute {p:cmos1_data[3]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[3]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[3]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[2]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[2]} {PAP_IO_LOC} {Y26}
+-define_attribute {p:cmos1_data[2]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[2]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[2]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[1]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[1]} {PAP_IO_LOC} {U20}
+-define_attribute {p:cmos1_data[1]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[1]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[1]} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_data[0]} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_data[0]} {PAP_IO_LOC} {T14}
+-define_attribute {p:cmos1_data[0]} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_data[0]} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_data[0]} {PAP_IO_NONE} {TRUE}
+ define_attribute {p:cmos2_data[7]} {PAP_IO_DIRECTION} {INPUT}
+ define_attribute {p:cmos2_data[7]} {PAP_IO_LOC} {T18}
+ define_attribute {p:cmos2_data[7]} {PAP_IO_VCCIO} {3.3}
+@@ -902,21 +862,6 @@
+ define_attribute {p:cmos2_reset} {PAP_IO_DRIVE} {4}
+ define_attribute {p:cmos2_reset} {PAP_IO_NONE} {TRUE}
+ define_attribute {p:cmos2_reset} {PAP_IO_SLEW} {FAST}
+-define_attribute {p:cmos1_href} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_href} {PAP_IO_LOC} {W18}
+-define_attribute {p:cmos1_href} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_href} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_href} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_pclk} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_pclk} {PAP_IO_LOC} {Y22}
+-define_attribute {p:cmos1_pclk} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_pclk} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_pclk} {PAP_IO_NONE} {TRUE}
+-define_attribute {p:cmos1_vsync} {PAP_IO_DIRECTION} {INPUT}
+-define_attribute {p:cmos1_vsync} {PAP_IO_LOC} {Y23}
+-define_attribute {p:cmos1_vsync} {PAP_IO_VCCIO} {3.3}
+-define_attribute {p:cmos1_vsync} {PAP_IO_STANDARD} {LVCMOS33}
+-define_attribute {p:cmos1_vsync} {PAP_IO_NONE} {TRUE}
+ define_attribute {p:cmos2_href} {PAP_IO_DIRECTION} {INPUT}
+ define_attribute {p:cmos2_href} {PAP_IO_LOC} {W23}
+ define_attribute {p:cmos2_href} {PAP_IO_VCCIO} {3.3}
+@@ -1023,3 +968,7 @@
+ define_attribute {p:uart_rx} {PAP_IO_LOC} {B24}
+ define_attribute {p:uart_rx} {PAP_IO_VCCIO} {3.3}
+ define_attribute {p:uart_rx} {PAP_IO_STANDARD} {LVCMOS33}
++
++# CW isolated candidate: vendor UART test FDC uses TX 8mA/SLOW; board acceptance pending.
++define_attribute {p:uart_tx} {PAP_IO_DRIVE} {8}
++define_attribute {p:uart_tx} {PAP_IO_SLEW} {SLOW}

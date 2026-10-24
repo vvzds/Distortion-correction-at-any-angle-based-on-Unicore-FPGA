@@ -1,0 +1,20 @@
+{
+  "scope": "DESIGN_ALGEBRA_ONLY; no candidate RTL, functional simulation, formal RTL proof or PDS execution",
+  "per_entry_write_priority_combinations": 192,
+  "per_entry_write_priority": "PASS_ABSTRACT",
+  "four_ID_equality_patterns": 256,
+  "resolved_prefix_mask_union": "PASS_ABSTRACT",
+  "assumptions": [
+    "legal state transitions resolve one key in successful Q_CHECK or Q_ALLOC",
+    "successful resolved IDs remain protected by original qfound/qid machinery",
+    "mask is cleared before each lookup and on reset/frame_clear",
+    "all successful resolution events must update mask with actual resolved sel/chosen, not old qid"
+  ],
+  "not_proved": [
+    "RTL event implementation",
+    "physical locality",
+    "timing closure",
+    "hardware behavior",
+    "all legacy error inputs"
+  ]
+}

@@ -1,0 +1,3 @@
+command: git -C C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\rect_bundle_recheck_akp8zp1y\clone rev-parse HEAD
+exit_code: 0
+a0380bb21dc3078891c4c059d23b0532873ceaf7

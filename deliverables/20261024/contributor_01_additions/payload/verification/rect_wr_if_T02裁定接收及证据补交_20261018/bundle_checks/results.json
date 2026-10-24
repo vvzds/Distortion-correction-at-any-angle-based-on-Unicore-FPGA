@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "check": "bundle_verify",
+      "exit_code": 0
+    },
+    {
+      "check": "bundle_clone",
+      "exit_code": 0
+    },
+    {
+      "check": "bundle_fsck",
+      "exit_code": 0
+    },
+    {
+      "check": "bundle_head",
+      "exit_code": 0
+    }
+  ],
+  "commit": "a0380bb21dc3078891c4c059d23b0532873ceaf7",
+  "RTL_TB_byte_match": true
+}

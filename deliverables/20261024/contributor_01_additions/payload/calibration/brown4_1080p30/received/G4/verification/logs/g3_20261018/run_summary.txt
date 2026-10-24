@@ -1,0 +1,9 @@
+G3 ModelSim batch verification, 2026-10-18
+Run directory: D:/FPGA PDS/sty/undistort_core_g1_verify/g3/sim
+Tool: ModelSim SE-64 10.7
+run_undistort_map_g3_equiv.do: process exit_code=0; 128 frames / 51520 coordinates / extra_latency=4 PASS.
+run_undistort_map.do: process exit_code=0; 560 independent-real samples PASS.
+run_undistort_core.do: process exit_code=0; frozen T0-T9 and eight golden groups PASS.
+Source hashes: verification/g3_sim_sources_sha256.tsv.
+Known FileWatch Tcl shutdown warning retained in full console; not counted as an RTL FAIL.
+No G3 PDS synthesis, physical timing closure, or hardware test is claimed.

@@ -1,0 +1,16 @@
+{
+  "status": "RUNNING",
+  "argv": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "analysis.tcl"
+  ],
+  "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\ab_seed2_inputs",
+  "tool_sha256": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f",
+  "declared_tool_version": "PDS 2022.2-SP6.1 build 138931; verify native log",
+  "version_confirmed": false,
+  "started_at": "2026-10-24T14:05:12.638264+08:00",
+  "timeout_seconds": 7200,
+  "pid": 28208,
+  "exit_code": null
+}

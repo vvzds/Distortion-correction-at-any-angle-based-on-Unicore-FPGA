@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-18",
+  "new_reference_hashes_all_match": true,
+  "historical_RTL_TB_preserved": true,
+  "root_map_matches_supplied_bytes": true,
+  "map_fields_unchanged": true,
+  "tool_and_selftest_unchanged_vs_accepted_tlimfix": {
+    "uart_tool.py": "043f8076f3ee9b810081fa337b6ed0cdffa85131ee4a3c04f409534960331a57",
+    "tests/selftest.py": "4676d710d0d00de4e5a21049c8d39afa45dbb3f03b1791b1efe74f1cb5690cde",
+    "tests/__init__.py": "0167bacd2d1f47d767addf7998706c8f265673c832224ae517ded77a42807cb5"
+  },
+  "current_I6_example_display": "状态: 0x00080012 (524306)\nfw_version: 0x12 (18)\nparams_valid: 0x0 (0)\nframe_busy: 0x0 (0)\npub_count: 0x8 (8)",
+  "U4_existing_constructed_vectors_preserved": true,
+  "local_RTL_or_board_test_performed": false
+}

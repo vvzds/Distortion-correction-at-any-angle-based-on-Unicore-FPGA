@@ -1,0 +1,2 @@
+[G4 protocol] PASS mode=1 transactions=26 malformed=2 negative_checks=3
+=== ALL TESTS PASSED (err=0) ===

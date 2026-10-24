@@ -1,0 +1,24 @@
+{
+  "status": "RUNNING",
+  "argv": [
+    "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "management_adapter.py",
+    "--results",
+    "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\inputs\\G8_RESULTS",
+    "--out",
+    "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\derived_g8_logged_final",
+    "--console-policy",
+    "strict"
+  ],
+  "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\tools\\tools",
+  "tool_sha256": "10d845f50a2af64e3500bb2fcb348b5bc98a75d8ddada63e45ba1da6a1fc79d1",
+  "declared_tool_version": "Python runtime; read-only DERIVED_REVIEW, not PDS",
+  "version_confirmed": false,
+  "started_at": "2026-10-24T14:48:23.028671+08:00",
+  "timeout_seconds": 600,
+  "pid": 32960,
+  "exit_code": null
+}

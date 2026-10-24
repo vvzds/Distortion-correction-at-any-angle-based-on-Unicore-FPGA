@@ -1,0 +1,176 @@
+{
+  "archive_path": "C:\\Users\\叶翔\\xwechat_files\\wxid_qanrp2aqlq8h22_bb90\\msg\\file\\2026-10\\g3_pds_sp64_20261018.zip",
+  "archive_bytes": 19343,
+  "archive_sha256": "221DB9AE12193F2EE9DBE4EF341496F3A855F349A0898C109107F6F09A4ADB1F",
+  "report_files": 4,
+  "original_documents": 2,
+  "all_archives_byte_exact": true,
+  "g3_measurement": {
+    "requested_period_ns": 8,
+    "setup_wns_ns": -1.372,
+    "setup_tns_ns": -121.657,
+    "failing_endpoints": 423,
+    "estimated_mhz": 106.7008,
+    "slow_hold_whs_ns": 0.324,
+    "slow_hold_failing_endpoints": 0,
+    "LUT": 4299,
+    "FF": 3744,
+    "APM": 106,
+    "DRM": 16,
+    "physical_pnr": "NOT PROVIDED"
+  },
+  "production_and_existing_sim_unchanged": [
+    {
+      "path": "sim/run_undistort_bilinear.do",
+      "baseline_blob": "8663ec78f23db2927dcf728bcc9c50062857168a",
+      "current_blob": "8663ec78f23db2927dcf728bcc9c50062857168a",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_core.do",
+      "baseline_blob": "f96f84825279929909ae2886cb996d3231e0b4fb",
+      "current_blob": "f96f84825279929909ae2886cb996d3231e0b4fb",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_core_golden.do",
+      "baseline_blob": "39c7edf825c5e7176b2bae47bcc5b197c07ad88a",
+      "current_blob": "39c7edf825c5e7176b2bae47bcc5b197c07ad88a",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_core_sim.do",
+      "baseline_blob": "8754037c0c13ce87a2acf3af2114f5215c317c91",
+      "current_blob": "8754037c0c13ce87a2acf3af2114f5215c317c91",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_core_t1.do",
+      "baseline_blob": "4b9dd78579841c70992c646b820ebfc91a3a2eef",
+      "current_blob": "4b9dd78579841c70992c646b820ebfc91a3a2eef",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_core_t2.do",
+      "baseline_blob": "bb4d48b06b4e4a6cc10eb4e294f5988b015600c6",
+      "current_blob": "bb4d48b06b4e4a6cc10eb4e294f5988b015600c6",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_line_cache.do",
+      "baseline_blob": "c8417ece771ca0806d793024775f97c6e448260d",
+      "current_blob": "c8417ece771ca0806d793024775f97c6e448260d",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_map.do",
+      "baseline_blob": "853596e0e20eac1f89d88b90bb5ad30f1f66e0a4",
+      "current_blob": "853596e0e20eac1f89d88b90bb5ad30f1f66e0a4",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_map_equiv.do",
+      "baseline_blob": "03234b26bf8d708d94e1579c077d33b26b2f8f1a",
+      "current_blob": "03234b26bf8d708d94e1579c077d33b26b2f8f1a",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_map_g2_equiv.do",
+      "baseline_blob": "818ad1393a105df763ad5a87884d73c41f64258e",
+      "current_blob": "818ad1393a105df763ad5a87884d73c41f64258e",
+      "unchanged": true
+    },
+    {
+      "path": "sim/run_undistort_map_g3_equiv.do",
+      "baseline_blob": "c5eea58ea46d6b27c318ad553f90e3e9ef7a7018",
+      "current_blob": "c5eea58ea46d6b27c318ad553f90e3e9ef7a7018",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_bilinear_tb.v",
+      "baseline_blob": "665a80af6a7022cdaaf6ac6d429455f6b6f78d00",
+      "current_blob": "665a80af6a7022cdaaf6ac6d429455f6b6f78d00",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_core_golden_tb.v",
+      "baseline_blob": "74fc865a390f6423ccca239de72af74f02763ca7",
+      "current_blob": "74fc865a390f6423ccca239de72af74f02763ca7",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_core_sim_tb.v",
+      "baseline_blob": "7be263247cb0f0e252d570c59e493adf15ea34f5",
+      "current_blob": "7be263247cb0f0e252d570c59e493adf15ea34f5",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_core_t1_tb.v",
+      "baseline_blob": "cd6f4b96aa4776c981fa92a32e80df6538c5846f",
+      "current_blob": "cd6f4b96aa4776c981fa92a32e80df6538c5846f",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_core_t2_tb.v",
+      "baseline_blob": "c93971b70862f3d2d6fe6878671b74858bab9759",
+      "current_blob": "c93971b70862f3d2d6fe6878671b74858bab9759",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_line_cache_tb.v",
+      "baseline_blob": "19b3c77d0c6c7446cbb60efeeec2baf9ec3ecfb7",
+      "current_blob": "19b3c77d0c6c7446cbb60efeeec2baf9ec3ecfb7",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_map_equiv_tb.v",
+      "baseline_blob": "e7478fca6daea5579469e788cb0c7cad3244754b",
+      "current_blob": "e7478fca6daea5579469e788cb0c7cad3244754b",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_map_g2_equiv_tb.v",
+      "baseline_blob": "30328f7e82d396599ea2aa9401672b39813d2c2e",
+      "current_blob": "30328f7e82d396599ea2aa9401672b39813d2c2e",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_map_g3_equiv_tb.v",
+      "baseline_blob": "aae1a924148c1cd275b1d53c65abc2b884d0f01b",
+      "current_blob": "aae1a924148c1cd275b1d53c65abc2b884d0f01b",
+      "unchanged": true
+    },
+    {
+      "path": "sim/undistort_map_tb.v",
+      "baseline_blob": "a410a39d47cb4e9a3e58d9f7e8d8ec2c4ee27f41",
+      "current_blob": "a410a39d47cb4e9a3e58d9f7e8d8ec2c4ee27f41",
+      "unchanged": true
+    },
+    {
+      "path": "source/rtl/undistort_bilinear.v",
+      "baseline_blob": "83e0ebe16824fe271fd4b56be1740b512a7cc1f7",
+      "current_blob": "83e0ebe16824fe271fd4b56be1740b512a7cc1f7",
+      "unchanged": true
+    },
+    {
+      "path": "source/rtl/undistort_core.v",
+      "baseline_blob": "edd137a7df3aca5ee5fd18480a0434b295faeb9e",
+      "current_blob": "edd137a7df3aca5ee5fd18480a0434b295faeb9e",
+      "unchanged": true
+    },
+    {
+      "path": "source/rtl/undistort_line_cache.v",
+      "baseline_blob": "0eaffa4d0ce6f021c92be3b0acff00715f24f466",
+      "current_blob": "0eaffa4d0ce6f021c92be3b0acff00715f24f466",
+      "unchanged": true
+    },
+    {
+      "path": "source/rtl/undistort_map.v",
+      "baseline_blob": "b7150ef9975b9b80113dcf69c2a1fcadd8995d22",
+      "current_blob": "b7150ef9975b9b80113dcf69c2a1fcadd8995d22",
+      "unchanged": true
+    }
+  ],
+  "g4_started": false,
+  "new_simulation_or_synthesis_run": false
+}

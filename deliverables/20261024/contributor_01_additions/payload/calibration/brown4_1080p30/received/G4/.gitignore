@@ -1,0 +1,16 @@
+sim/work/
+sim/transcript
+sim/*.wlf
+sim/*.log
+sim/*_result.txt
+sim/equiv_work/
+sim/g2_equiv_work/
+sim/g3_equiv_work/
+sim/g4_protocol_work/
+verification/reference_tb_runs/work/
+verification/reference_tb_runs/transcript
+verification/reference_tb_runs/*.wlf
+sim/undistort_core_smoke_tb.v
+sim/run_undistort_core_smoke.do
+verification/logs/pre_range_fix/
+verification/pds_help.tcl
