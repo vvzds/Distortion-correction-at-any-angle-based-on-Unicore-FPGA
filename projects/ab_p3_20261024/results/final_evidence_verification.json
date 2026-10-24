@@ -1,0 +1,13 @@
+{
+  "verification_passed": true,
+  "physical_status": "CONTROLLED_STOP_UNCONVERGED",
+  "timing_passed": false,
+  "timing_verdict": "NOT_ESTABLISHED",
+  "final_wns_ns": null,
+  "input_files_verified": {
+    "candidate": 81,
+    "physical": 139
+  },
+  "core_throughput_owner": "collaborator02",
+  "timestamp_utc": "2026-10-24T15:01:32.646706+00:00"
+}
