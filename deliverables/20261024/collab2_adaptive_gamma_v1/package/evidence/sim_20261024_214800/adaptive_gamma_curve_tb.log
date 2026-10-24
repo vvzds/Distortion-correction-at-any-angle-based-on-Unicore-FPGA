@@ -1,0 +1,15 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 21:48:04 on Oct 24,2026
+# vlog -vlog01compat rtl/adaptive_gamma_curve.v rtl/adaptive_gamma.v sim/adaptive_gamma_curve_tb.v 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/Ò¶Ïè/AppData/Local/Temp/adaptive_gamma_sim/sim_20261024_214800/work/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vlog-9) Problem while writing token file "C:/Users/Ò¶Ïè/AppData/Local/Temp/adaptive_gamma_sim/sim_20261024_214800/work/_temp/vlog5vmjk6".
+# ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼þ¡£ (GetLastError() = 2)
+# rtl/adaptive_gamma_curve.v(2): Verilog Compiler exiting
+# End time: 21:48:04 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/FPGA PDS/site/modelsim-win64-10.7-se/win64/vlog failed.
+# Executing ONERROR command at macro ./run.do line 3
+# Errors: 2, Warnings: 0

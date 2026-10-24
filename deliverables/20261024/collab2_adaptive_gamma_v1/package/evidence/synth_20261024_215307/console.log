@@ -1,0 +1,18 @@
+License checkout: fabric_shell from D:\FPGA PDS\site\new_pds_d853bc339bf1.lic
+Compiling architecture definition.
+Analyzing project file 'D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_215307/adaptive_gamma.pds'.
+Executing : set_arch -family Logos2 -device PG2L100H -package FBG676 -speedgrade -6
+Executing : set_arch -family Logos2 -device PG2L100H -package FBG676 -speedgrade -6 successfully.
+Executing : add_design rtl/adaptive_gamma_curve.v
+Executing : add_design rtl/adaptive_gamma_curve.v successfully.
+Executing : add_design rtl/adaptive_gamma.v
+Executing : add_design rtl/adaptive_gamma.v successfully.
+
+
+Executing : compile -top_module adaptive_gamma
+
+
+Process "Compile" started.
+Current time: Sat Oct 24 21:53:08 2026
+E: Flow-0189: Internal error occurred.
+E: Failed to execute the script : 

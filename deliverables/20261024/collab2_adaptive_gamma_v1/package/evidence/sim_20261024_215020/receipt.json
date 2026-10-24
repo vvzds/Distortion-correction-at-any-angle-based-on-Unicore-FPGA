@@ -1,0 +1,26 @@
+{
+  "started": "2026-10-24T21:50:20.232428+08:00",
+  "tool": "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+  "tool_sha256": "a5fb4747c8c06b1f3ad5b5f9ae6240ab6e28598cdf6058aa6f5139d0732303cf",
+  "inputs": {
+    "rtl\\adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+    "rtl\\adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+    "rtl\\corr_top.v": "10735e481fe0c72402d8f67d790c104a276011cf7cfdfc1ded59c8020e17a3d8",
+    "rtl\\gamma_lut.v": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1",
+    "sim\\adaptive_gamma_curve_tb.v": "ab282cda6adb7eea8f76cc247309bbe4a0d12e9e08b168114b0d9663232730ff",
+    "sim\\adaptive_gamma_full_tb.v": "e34651d2c5314fcbe1ae8b1428e83e8257bea01d7f4c5b590815cb7966d29bb5",
+    "sim\\adaptive_gamma_tb.v": "08b29eb6e42c8101cbed3838a9785cb70f509a91dce87e9f5667decee2ba2d22",
+    "sim\\vectors.mem": "2bdee22bea15a995fdd26a64b52207d385719aac918be80fdeee0f15b4531a8d"
+  },
+  "cases": [
+    {
+      "top": "adaptive_gamma_curve_tb",
+      "passed": false,
+      "exit": 2,
+      "seconds": 1.2660000000032596,
+      "log_sha256": "3c63d60740b696af50e2a5cf143e72294529792798770f48623655af881ad7fc"
+    }
+  ],
+  "hardware_test": false,
+  "physical_timing": "NOT_RUN"
+}

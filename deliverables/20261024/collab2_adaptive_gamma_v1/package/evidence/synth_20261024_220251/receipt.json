@@ -1,0 +1,24 @@
+{
+  "command": [
+    "D:/FPGA PDS/site/PDS_2022.2-SP6.1-win64/bin/pds_shell.exe",
+    "-file",
+    "D:\\FPGA PDS\\sty\\undistort_core_g1_verify\\adaptive_gamma_20261024\\synth_20261024_220251\\synthesize.tcl",
+    "-work_dir",
+    "D:\\FPGA PDS\\sty\\undistort_core_g1_verify\\adaptive_gamma_20261024\\synth_20261024_220251",
+    "-project_name",
+    "adaptive_gamma"
+  ],
+  "started": "2026-10-24T22:02:51.276494+08:00",
+  "input_sha256": {
+    "adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+    "adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+    "corr_top.v": "10735e481fe0c72402d8f67d790c104a276011cf7cfdfc1ded59c8020e17a3d8",
+    "gamma_lut.v": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1"
+  },
+  "scope": "standalone synthesis only; not PNR or board timing closure",
+  "board_programmed": false,
+  "pid": 85568,
+  "exit": 0,
+  "seconds": 8.10899999999674,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "base_commit": "f50b4070e7ea75c188e5c3d1c3ba207c88b09d7d",
+  "reference": {
+    "corr_top.v": "f6bbe92b20d95b7e34d2996143da5bc7bc3e8952187c7fd111c0c2accb9ba1ce",
+    "gamma_lut.v": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1",
+    "param_mgr.v": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a"
+  },
+  "core_changed": false,
+  "protocol_changed": false,
+  "new_bitstream": false,
+  "exponents": [
+    0.6,
+    0.8,
+    1.0,
+    1.25,
+    1.6
+  ]
+}

@@ -1,0 +1,304 @@
+License checkout: fabric_shell from D:\FPGA PDS\site\new_pds_d853bc339bf1.lic
+Compiling architecture definition.
+Analyzing project file 'D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/adaptive_gamma.pds'.
+Executing : set_arch -family Logos2 -device PG2L100H -package FBG676 -speedgrade -6
+Executing : set_arch -family Logos2 -device PG2L100H -package FBG676 -speedgrade -6 successfully.
+Executing : add_design rtl/adaptive_gamma_curve.v
+Executing : add_design rtl/adaptive_gamma_curve.v successfully.
+Executing : add_design rtl/adaptive_gamma.v
+Executing : add_design rtl/adaptive_gamma.v successfully.
+
+
+Executing : compile -top_module adaptive_gamma
+
+
+Process "Compile" started.
+Current time: Sat Oct 24 22:02:52 2026
+Compiling architecture definition.
+Analyzing project file 'D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/adaptive_gamma.pds'.
+License checkout: fabric_ads from D:\FPGA PDS\site\new_pds_d853bc339bf1.lic
+Compiling verification operator library.
+Loading technology operator library.
+Compiling technology operator library.
+Compiling technology operator (valence) library.
+I: Enable Verilog2k features and keywords
+Start rtl-analyze.
+Executing : .rtl_analyze -work work -include_path {{D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251}} {D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma_curve.v}
+I: Verilog-0001: Analyzing file D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma_curve.v
+I: Verilog-0002: [D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma_curve.v(line number: 2)] Analyzing module adaptive_gamma_curve (library work)
+Parsing done.
+Executing : .rtl_analyze -work work -include_path {{D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251}} {D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma_curve.v} successfully.
+Executing : .rtl_analyze -work work -include_path {{D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251}} {D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v}
+I: Verilog-0001: Analyzing file D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v
+I: Verilog-0002: [D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v(line number: 3)] Analyzing module adaptive_gamma (library work)
+Parsing done.
+Executing : .rtl_analyze -work work -include_path {{D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251}} {D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v} successfully.
+I: Module "adaptive_gamma" is set as top module.
+Executing : rtl-analyze successfully. Time elapsed: 1.797s wall, 0.016s user + 0.000s system = 0.016s CPU (0.9%)
+
+Start rtl-elaborate.
+I: Verilog-0003: [D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v(line number: 3)] Elaborating module adaptive_gamma
+I: Module instance {adaptive_gamma} parameter value:
+    WIDTH = 32'b00000000000000000000011110000000
+    HEIGHT = 32'b00000000000000000000010000111000
+I: Verilog-0004: [D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v(line number: 40)] Elaborating instance u_curve
+I: Verilog-0003: [D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma_curve.v(line number: 2)] Elaborating module adaptive_gamma_curve
+Executing : rtl-elaborate successfully. Time elapsed: 0.021s wall, 0.016s user + 0.000s system = 0.016s CPU (74.1%)
+
+Start rtl-prep.
+Executing : rtl-prep successfully. Time elapsed: 0.038s wall, 0.016s user + 0.016s system = 0.031s CPU (82.4%)
+
+Start rtl-infer.
+Start DFF-inference.
+W: Sdm-2000: [D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/rtl/adaptive_gamma.v(line number: 58)] Removed register node count[21] that is stuck at constant 0.
+Executing : DFF-inference successfully.
+Executing : rtl-infer successfully. Time elapsed: 0.132s wall, 0.109s user + 0.031s system = 0.141s CPU (106.7%)
+
+Start rtl-control-opt.
+Executing : rtl-control-opt successfully. Time elapsed: 0.003s wall, 0.000s user + 0.000s system = 0.000s CPU (n/a%)
+
+Start rtl-data-opt.
+Executing : rtl-data-opt successfully. Time elapsed: 0.049s wall, 0.047s user + 0.000s system = 0.047s CPU (95.4%)
+
+Start FSM inference.
+Executing : FSM inference successfully. Time elapsed: 0.003s wall, 0.000s user + 0.000s system = 0.000s CPU (n/a%)
+
+Start sdm2adm.
+W: Loop was found during constant probe.
+W: Loop was found during constant probe.
+W: Loop was found during constant probe.
+W: Loop was found during constant probe.
+I: Constant propagation done on N330 (bmsWIDEMUX).
+I: Constant propagation done on N105 (bmsWIDEMUX).
+I: Constant propagation done on N114 (bmsWIDEMUX).
+I: Constant propagation done on N125 (bmsWIDEMUX).
+I: Constant propagation done on N136 (bmsWIDEMUX).
+I: Constant propagation done on N144 (bmsWIDEMUX).
+I: Constant propagation done on N294_1 (bmsPMUX).
+I: Constant propagation done on N226 (bmsWIDEINV).
+I: Constant propagation done on N350 (bmsPMUX).
+I: Constant propagation done on N117 (bmsWIDEMUX).
+Executing : sdm2adm successfully. Time elapsed: 0.042s wall, 0.047s user + 0.000s system = 0.047s CPU (112.1%)
+
+Saving design to DB.
+Action compile: Real time elapsed is 0h:0m:4s
+Action compile: CPU time elapsed is 0h:0m:1s
+Action compile: Process CPU time elapsed is 0h:0m:1s
+Current time: Sat Oct 24 22:02:56 2026
+Action compile: Peak memory pool usage is 141 MB
+Action from compile to compile: Total Real Time elapsed is 0h:0m:4s
+Action from compile to compile: Total CPU time elapsed is 0h:0m:1s
+Action from compile to compile: Total Process CPU Time elapsed is 0h:0m:1s
+Process "Compile" done.
+Executing : compile -top_module adaptive_gamma successfully.
+
+
+Executing : synthesize -ads -disable_io_insertion -frequency 125
+
+
+Process "Synthesize" started.
+Current time: Sat Oct 24 22:02:56 2026
+Compiling architecture definition.
+Analyzing project file 'D:/FPGA PDS/sty/undistort_core_g1_verify/adaptive_gamma_20261024/synth_20261024_220251/adaptive_gamma.pds'.
+License checkout: fabric_ads from D:\FPGA PDS\site\new_pds_d853bc339bf1.lic
+Compiling verification operator library.
+Compiling common defs.
+Loading technology operator library.
+Compiling technology operator library.
+Compiling technology operator (valence) library.
+Reading design from compile DB
+Reading design from compile DB successfully.
+NOTE: The technology fpga was specified.
+NOTE: delay_model specified was generic_cmos.
+NOTE: Using the fpga syntax tables...
+Totals:
+ Calls to malloc = 0
+ Calls to calloc = 148538
+
+Constraint check start.
+W: ConstraintEditor-4019: Port Bus 'i_pix' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port Bus 'o_pix' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'clk' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_enable' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_eof' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_eop' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_pix_vld' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_sof' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_sop' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_pix_vld' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rst_n' unspecified I/O constraint.
+Constraint check end.
+
+C: SDC-2025: Clock source 'n:clk' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.
+Executing : get_ports clk
+Executing : get_ports clk successfully.
+Executing : create_clock -name adaptive_gamma|clk [get_ports clk] -period 8.000 -waveform {0.000 4.000} -add
+Executing : create_clock -name adaptive_gamma|clk [get_ports clk] -period 8.000 -waveform {0.000 4.000} -add successfully.
+Executing : set_clock_groups -name Inferred_clock_group_0 -asynchronous -group adaptive_gamma|clk
+Executing : set_clock_groups -name Inferred_clock_group_0 -asynchronous -group adaptive_gamma|clk successfully.
+Start pre-mapping.
+I: Constant propagation done on N275_1 (bmsWIDEMUX).
+Executing : pre-mapping successfully. Time elapsed: 0.054s wall, 0.016s user + 0.078s system = 0.094s CPU (175.2%)
+
+Start mod-gen.
+I: Constant propagation done on out_xor (bmsREDXOR).
+I: Constant propagation done on out_xor_1 (bmsREDXOR).
+I: Constant propagation done on out_xor_2 (bmsREDXOR).
+I: Constant propagation done on out_xor_3 (bmsREDXOR).
+I: Constant propagation done on out_xor_4 (bmsREDXOR).
+I: Constant propagation done on out_xor_5 (bmsREDXOR).
+I: Constant propagation done on out_xor_6 (bmsREDXOR).
+I: Constant propagation done on out_xor_7 (bmsREDXOR).
+I: Constant propagation done on out_xor_8 (bmsREDXOR).
+Executing : mod-gen successfully. Time elapsed: 0.114s wall, 0.203s user + 0.031s system = 0.234s CPU (204.7%)
+
+Start logic-optimization.
+Executing : logic-optimization successfully. Time elapsed: 0.461s wall, 0.328s user + 0.125s system = 0.453s CPU (98.4%)
+
+Start tech-mapping phase 1.
+Executing : tech-mapping phase 1 successfully. Time elapsed: 0.017s wall, 0.016s user + 0.000s system = 0.016s CPU (92.6%)
+
+Start tech-mapping phase 2.
+Executing : tech-mapping phase 2 successfully. Time elapsed: 0.375s wall, 0.562s user + 0.281s system = 0.844s CPU (225.0%)
+
+Start tech-optimization.
+Executing : tech-optimization successfully. Time elapsed: 0.054s wall, 0.094s user + 0.078s system = 0.172s CPU (315.7%)
+
+Start phys-optimization.
+Executing : phys-optimization successfully. Time elapsed: 0.000s wall, 0.000s user + 0.000s system = 0.000s CPU (n/a%)
+
+Start restore-hierarchy.
+Executing : restore-hierarchy successfully. Time elapsed: 0.003s wall, 0.000s user + 0.000s system = 0.000s CPU (n/a%)
+
+
+Cell Usage:
+GTP_DFF_C                    19 uses
+GTP_DFF_CE                   77 uses
+GTP_DFF_PE                    2 uses
+GTP_INV                       1 use
+GTP_LUT3                      5 uses
+GTP_LUT4                     12 uses
+GTP_LUT5                     25 uses
+GTP_LUT6                     96 uses
+GTP_LUT6CARRY                87 uses
+GTP_LUT6D                    27 uses
+GTP_MUX2LUT7                 25 uses
+GTP_MUX2LUT8                  4 uses
+
+I/O ports: 0
+
+Mapping Summary:
+Total LUTs: 252 of 66600 (0.38%)
+	LUTs as dram: 0 of 19900 (0.00%)
+	LUTs as logic: 252
+Total Registers: 98 of 133200 (0.07%)
+Total Latches: 0
+
+DRM36K/FIFO:
+Total DRM = 0.0 of 155 (0.00%)
+
+APMs:
+Total APMs = 0.00 of 240 (0.00%)
+
+Total I/O ports = 0 of 300 (0.00%)
+
+
+Overview of Control Sets:
+
+Number of unique control sets : 5
+
+Histogram:
+**************************************************************
+  Fanout      | Count    | Sync Set/Reset    Async Set/Reset
+--------------------------------------------------------------
+  [0, 2)      | 0        | 0                 0
+  [2, 4)      | 1        | 0                 1
+  [4, 6)      | 1        | 0                 1
+  [6, 8)      | 0        | 0                 0
+  [8, 10)     | 0        | 0                 0
+  [10, 12)    | 1        | 0                 1
+  [12, 14)    | 0        | 0                 0
+  [14, 16)    | 0        | 0                 0
+  [16, Inf)   | 2        | 0                 2
+--------------------------------------------------------------
+  The maximum fanout: 61
+==============================================================
+
+Flip-Flop Distribution:
+************************************************************************
+  Clock Enable    Sync Set/Reset    Async Set/Reset    Total Registers
+------------------------------------------------------------------------
+  NO              NO                NO                 0
+  NO              NO                YES                19
+  NO              YES               NO                 0
+  YES             NO                NO                 0
+  YES             NO                YES                79
+  YES             YES               NO                 0
+========================================================================
+
+Latch Distribution:
+************************************************
+  Gate Enable    Preset/Clear    Total Latches
+************************************************
+  NO             NO              0
+  NO             YES             0
+  YES            NO              0
+  YES            YES             0
+************************************************
+
+Design 'adaptive_gamma' has been successfully synthesized to architecture-specific objects.
+Saving design to DB.
+Saving design to adaptive_gamma_syn.vm
+Constructing timing graph ...
+Timing graph has been constructed successfully
+W: Timing-4087: Port 'o_pix[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[2]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[3]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[4]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[5]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[6]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[7]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[8]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[9]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[10]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[11]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[12]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[13]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[14]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix[15]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'o_pix_vld' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'i_enable' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_eof' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_eop' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[0]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[1]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[2]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[3]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[4]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[5]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[6]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[7]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[8]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[9]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[10]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[11]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[12]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[13]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[14]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix[15]' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_pix_vld' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_sof' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'i_sop' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'rst_n' is not constrained, it is treated as combinational input.
+Action synthesize: Real time elapsed is 0h:0m:3s
+Action synthesize: CPU time elapsed is 0h:0m:1s
+Action synthesize: Process CPU time elapsed is 0h:0m:2s
+Current time: Sat Oct 24 22:02:58 2026
+Action synthesize: Peak memory pool usage is 202 MB
+Action from compile to synthesize: Total Real Time elapsed is 0h:0m:7s
+Action from compile to synthesize: Total CPU time elapsed is 0h:0m:2s
+Action from compile to synthesize: Total Process CPU Time elapsed is 0h:0m:3s
+Process "Synthesize" done.
+Executing : synthesize -ads -disable_io_insertion -frequency 125 successfully.
+ADAPTIVE_GAMMA_SYNTHESIS_COMPLETE

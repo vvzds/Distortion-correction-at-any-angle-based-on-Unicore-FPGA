@@ -1,0 +1,22 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 21:50:21 on Oct 24,2026
+# vlog -vlog01compat rtl/adaptive_gamma_curve.v rtl/adaptive_gamma.v sim/adaptive_gamma_curve_tb.v 
+# -- Compiling module adaptive_gamma_curve
+# -- Compiling module adaptive_gamma
+# -- Compiling module adaptive_gamma_curve_tb
+# 
+# Top level modules:
+# 	adaptive_gamma
+# 	adaptive_gamma_curve_tb
+# End time: 21:50:21 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.adaptive_gamma_curve_tb 
+# Start time: 21:50:20 on Oct 24,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Fatal: Internal Error - vopt returned success but vsim could not find a design to simulate!. Please contact customer support for further assistance.
+# ** Error: Error loading design
+# Executing ONERROR command at macro ./run.do line 4
+# End time: 21:50:21 on Oct 24,2026, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0

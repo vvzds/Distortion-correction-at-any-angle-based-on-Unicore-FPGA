@@ -1,0 +1,13 @@
+{
+  "name": "collab2_adaptive_gamma",
+  "version": "1.0.0-candidate",
+  "date": "2026-10-24",
+  "baseline_commit": "f50b4070e7ea75c188e5c3d1c3ba207c88b09d7d",
+  "baseline_corr_top_sha256": "f6bbe92b20d95b7e34d2996143da5bc7bc3e8952187c7fd111c0c2accb9ba1ce",
+  "owner": "二号协作者",
+  "recipients": [
+    "执行者/管理方",
+    "一号或当前整机协作者"
+  ],
+  "status": "功能仿真和独立综合通过；整机布局布线与实板待验证"
+}

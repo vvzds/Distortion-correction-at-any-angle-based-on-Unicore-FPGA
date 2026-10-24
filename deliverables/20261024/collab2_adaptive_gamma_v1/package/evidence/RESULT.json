@@ -1,0 +1,61 @@
+{
+  "status": "FUNCTIONAL_AND_STANDALONE_SYNTHESIS_PASS",
+  "tests": [
+    {
+      "name": "adaptive_gamma_curve_tb",
+      "log": "evidence/sim_20261024_215038/adaptive_gamma_curve_tb.log",
+      "sha256": "9f56959e46b5e92dafb036cb5fc0963f78a236e0ce6f369176a82799dbe74176",
+      "receipt": "evidence/sim_20261024_215038/receipt.json",
+      "exit": 0
+    },
+    {
+      "name": "adaptive_gamma_tb",
+      "log": "evidence/sim_20261024_215526/adaptive_gamma_tb.log",
+      "sha256": "9e5e0c63ac44bceae6645cf9787aedbbf70430e23999cc2c23a00e16da232bc8",
+      "receipt": "evidence/sim_20261024_215526/receipt.json",
+      "exit": 0
+    },
+    {
+      "name": "adaptive_gamma_full_tb",
+      "log": "evidence/sim_20261024_215038/adaptive_gamma_full_tb.log",
+      "sha256": "452786535913639fdec7d93a244b3a42c037c41805fc0f24abd1b30ace0c5a6c",
+      "receipt": "evidence/sim_20261024_215038/receipt.json",
+      "exit": 0
+    },
+    {
+      "name": "gamma_lut_tb",
+      "log": "evidence/sim_20261024_215226/gamma_lut_tb.log",
+      "sha256": "ad822fd3d862e7a9bf41f1ed30824fb1c11b99020f9fff588ab26419af8e073e",
+      "receipt": "evidence/sim_20261024_215226/receipt.json",
+      "exit": 0
+    },
+    {
+      "name": "gamma_write_path_tb",
+      "log": "evidence/sim_20261024_215226/gamma_write_path_tb.log",
+      "sha256": "c2ac526fdea8ee774b6d11f7411c8445559114711d63f079e304a2c8a03d5703",
+      "receipt": "evidence/sim_20261024_215226/receipt.json",
+      "exit": 0
+    },
+    {
+      "name": "corr_top_tb",
+      "log": "evidence/sim_20261024_215226/corr_top_tb.log",
+      "sha256": "f7259e15cc423a6c2940626d68f30ff895bfc2a788da467e9fb852f5d91fed88",
+      "receipt": "evidence/sim_20261024_215226/receipt.json",
+      "exit": 0
+    }
+  ],
+  "native_synthesis": {
+    "receipt": "evidence/synth_20261024_220251/receipt.json",
+    "LUT": 252,
+    "FF": 98,
+    "DRM": 0,
+    "APM": 0,
+    "requested_mhz": 125,
+    "setup_wns_ns": 3.574,
+    "hold_whs_ns": 0.671,
+    "scope": "single-corner standalone synthesis estimate; IO not constrained"
+  },
+  "full_host_pnr": "NOT_RUN",
+  "board_test": "NOT_RUN",
+  "bitstream_generated": false
+}

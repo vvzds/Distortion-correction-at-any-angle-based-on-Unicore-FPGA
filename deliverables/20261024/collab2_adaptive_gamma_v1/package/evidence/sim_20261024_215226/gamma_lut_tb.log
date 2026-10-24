@@ -1,0 +1,71 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 21:52:27 on Oct 24,2026
+# vlog -vlog01compat rtl/adaptive_gamma_curve.v rtl/adaptive_gamma.v rtl/gamma_lut.v rtl/corr_top.v reference/param_mgr.v reference/rect_wr_if.v reference/undistort_core.v reference/undistort_map.v reference/undistort_line_cache.v reference/undistort_bilinear.v sim/ideal_link.v sim/gamma_lut_tb.v 
+# -- Compiling module adaptive_gamma_curve
+# -- Compiling module adaptive_gamma
+# -- Compiling module gamma_lut
+# -- Compiling module corr_top
+# -- Compiling module param_mgr
+# -- Compiling module rect_wr_if
+# -- Compiling module undistort_core
+# -- Compiling module undistort_map
+# -- Compiling module undistort_line_cache
+# -- Compiling module undistort_bilinear
+# -- Compiling module ideal_link
+# -- Compiling module gamma_lut_tb
+# 
+# Top level modules:
+# 	corr_top
+# 	ideal_link
+# 	gamma_lut_tb
+# End time: 21:52:27 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 21:52:27 on Oct 24,2026
+# vopt work.gamma_lut_tb "+acc" -o gamma_lut_tb_opt 
+# 
+# Top level modules:
+# 	gamma_lut_tb
+# 
+# Analyzing design...
+# -- Loading module gamma_lut_tb
+# -- Loading module gamma_lut
+# Optimizing 2 design-units (inlining 0/2 module instances):
+# -- Optimizing module gamma_lut_tb(fast)
+# -- Optimizing module gamma_lut(fast)
+# Optimized design name is gamma_lut_tb_opt
+# End time: 21:52:28 on Oct 24,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.gamma_lut_tb_opt 
+# Start time: 21:52:26 on Oct 24,2026
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.gamma_lut_tb(fast)
+# Loading work.gamma_lut(fast)
+# ==== gamma_lut_tb self-check simulation start ====
+# G0 reset defaults: done
+# G1 bypass pass-through: done
+# G2 identity LUT lossless round-trip: done
+# G3 asymmetric 3-channel LUT mapping: done
+# G4 boundary pixels: done
+# G5 per-beat enable toggle: done
+# G6 irregular vld gaps: done
+# === ALL TESTS PASSED (err=0) ===
+# ** Note: $finish    : sim/gamma_lut_tb.v(198)
+#    Time: 2941 ns  Iteration: 0  Instance: /gamma_lut_tb
+# Break in Module gamma_lut_tb at sim/gamma_lut_tb.v line 198
+# End time: 21:52:28 on Oct 24,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

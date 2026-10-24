@@ -1,0 +1,91 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 21:52:29 on Oct 24,2026
+# vlog -vlog01compat rtl/adaptive_gamma_curve.v rtl/adaptive_gamma.v rtl/gamma_lut.v rtl/corr_top.v reference/param_mgr.v reference/rect_wr_if.v reference/undistort_core.v reference/undistort_map.v reference/undistort_line_cache.v reference/undistort_bilinear.v sim/ideal_link.v sim/gamma_write_path_tb.v 
+# -- Compiling module adaptive_gamma_curve
+# -- Compiling module adaptive_gamma
+# -- Compiling module gamma_lut
+# -- Compiling module corr_top
+# -- Compiling module param_mgr
+# -- Compiling module rect_wr_if
+# -- Compiling module undistort_core
+# -- Compiling module undistort_map
+# -- Compiling module undistort_line_cache
+# -- Compiling module undistort_bilinear
+# -- Compiling module ideal_link
+# -- Compiling module gamma_write_path_tb
+# 
+# Top level modules:
+# 	ideal_link
+# 	gamma_write_path_tb
+# End time: 21:52:29 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 21:52:29 on Oct 24,2026
+# vopt work.gamma_write_path_tb "+acc" -o gamma_write_path_tb_opt 
+# 
+# Top level modules:
+# 	gamma_write_path_tb
+# 
+# Analyzing design...
+# -- Loading module gamma_write_path_tb
+# -- Loading module corr_top
+# -- Loading module param_mgr
+# -- Loading module undistort_core
+# -- Loading module undistort_map
+# -- Loading module undistort_line_cache
+# -- Loading module undistort_bilinear
+# -- Loading module rect_wr_if
+# -- Loading module adaptive_gamma
+# -- Loading module adaptive_gamma_curve
+# Optimizing 10 design-units (inlining 0/10 module instances):
+# -- Optimizing module undistort_core(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "undistort_core(fast)".
+# -- Optimizing module param_mgr(fast)
+# ** Note: (vopt-143) Recognized 2 FSMs in module "param_mgr(fast)".
+# -- Optimizing module undistort_map(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "undistort_map(fast)".
+# -- Optimizing module adaptive_gamma_curve(fast)
+# -- Optimizing module undistort_line_cache(fast)
+# -- Optimizing module rect_wr_if(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "rect_wr_if(fast)".
+# -- Optimizing module gamma_write_path_tb(fast)
+# -- Optimizing module adaptive_gamma(fast)
+# -- Optimizing module corr_top(fast)
+# -- Optimizing module undistort_bilinear(fast)
+# Optimized design name is gamma_write_path_tb_opt
+# End time: 21:52:29 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.gamma_write_path_tb_opt 
+# Start time: 21:52:28 on Oct 24,2026
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.gamma_write_path_tb(fast)
+# Loading work.corr_top(fast)
+# Loading work.param_mgr(fast)
+# Loading work.undistort_core(fast)
+# Loading work.undistort_map(fast)
+# Loading work.undistort_line_cache(fast)
+# Loading work.undistort_bilinear(fast)
+# Loading work.adaptive_gamma(fast)
+# Loading work.adaptive_gamma_curve(fast)
+# Loading work.rect_wr_if(fast)
+# WRITE_WORDS=2073600 COMMITS=2 err=0
+# === ALL TESTS PASSED (err=0) ===
+# ** Note: $finish    : sim/gamma_write_path_tb.v(79)
+#    Time: 66355368 ns  Iteration: 1  Instance: /gamma_write_path_tb
+# Break in Module gamma_write_path_tb at sim/gamma_write_path_tb.v line 79
+# End time: 21:52:36 on Oct 24,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0

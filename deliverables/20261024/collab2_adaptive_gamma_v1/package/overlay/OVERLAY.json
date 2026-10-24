@@ -1,0 +1,13 @@
+{
+  "mode": "adaptive_default_on_enable_by_existing_0x04_bit0",
+  "baseline_sha256": "f6bbe92b20d95b7e34d2996143da5bc7bc3e8952187c7fd111c0c2accb9ba1ce",
+  "sources": {
+    "adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+    "adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+    "corr_top.v": "56602a5a9283ba6ddc8a967c8d012b1b00ce6150874afba3570287434c9962fc",
+    "gamma_lut.v": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1"
+  },
+  "tested_parameter_value": 1,
+  "baseline_modified": false,
+  "bitstream_generated": false
+}
