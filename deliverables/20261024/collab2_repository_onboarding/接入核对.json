@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-24",
+  "actor": "GIifthard",
+  "role": "二号协作者",
+  "repository": "vvzds/Distortion-correction-at-any-angle-based-on-Unicore-FPGA",
+  "private": true,
+  "verified_permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": true,
+    "triage": true,
+    "pull": true
+  },
+  "requested_commit": "09f53a3a61649d8496c5feee71e77e3b80747c98",
+  "observed_main": "a500eee34965f2f343cd61ed7143a2def6bb48df",
+  "requested_commit_is_ancestor": true,
+  "invitation_accepted": true,
+  "authentication_method": "Official GitHub CLI device authorization completed by user",
+  "local_checkout_kind": "partial clone with large/archive blobs fetched on demand",
+  "credentials_included": false,
+  "RTL_modified": false,
+  "PDS_or_board_test_performed": false,
+  "production_promoted": false
+}
