@@ -1,0 +1,150 @@
+{
+  "scope": "SYNTHESIS_ONLY_SP6.1_NOT_SP6.4_PNR",
+  "kind": "core",
+  "command": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "Q:/synth.tcl",
+    "-work_dir",
+    "Q:/",
+    "-project_name",
+    "ab_r1r4_core"
+  ],
+  "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core",
+  "start_utc": "2026-10-23T14:47:13.698666+00:00",
+  "timeout_seconds": 1800,
+  "tool_sha256_before": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f",
+  "inputs_before": {
+    "core/source/rtl/undistort_bilinear.v": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+    "core/source/rtl/undistort_cache_ab.v": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "core/source/rtl/undistort_core.v": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "core/source/rtl/undistort_map.v": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+    "core/synth.tcl": "997cc2158c2313bf27727fc35ada0f96eee4348cd6aec90442593e11262079eb",
+    "tools/run_synthesis.py": "57dbf1cafddcf73b1e066c6296121afdec2fd39c40631ae4b004f38fc7bd3253"
+  },
+  "subst": {
+    "drive": "Q:",
+    "target": "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core"
+  },
+  "status": "FAILED",
+  "pid": 30388,
+  "end_utc": "2026-10-23T14:49:15.543777+00:00",
+  "elapsed_seconds": 121.84400000000096,
+  "exit_code": 0,
+  "inputs_after": {
+    "core/ab_r1r4_core.pds": "d113f258983dc12d2058b03b55ac5971c39cefedd6a3701f3ecf0ef8e5cec3ca",
+    "core/source/rtl/undistort_bilinear.v": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+    "core/source/rtl/undistort_cache_ab.v": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "core/source/rtl/undistort_core.v": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "core/source/rtl/undistort_map.v": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+    "core/synth.tcl": "997cc2158c2313bf27727fc35ada0f96eee4348cd6aec90442593e11262079eb",
+    "tools/run_synthesis.py": "57dbf1cafddcf73b1e066c6296121afdec2fd39c40631ae4b004f38fc7bd3253"
+  },
+  "inputs_unchanged": false,
+  "tool_sha256_after": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f",
+  "console_sha256": "c57c3de76de9a06f443aca0988ff711f1b0f50a2296d3b053998a4725e6dad42",
+  "pnr": "NOT_RUN",
+  "bitstream": "NOT_GENERATED",
+  "board": "PAUSED",
+  "uart_loc_confirmed": false,
+  "artifacts": [
+    {
+      "file": "core/compile/cmr.db",
+      "bytes": 249421,
+      "sha256": "7b5040f625bfc6cdae9985ace2a0c837754d2eaaf2ddf6bded44cd69d7311ed1"
+    },
+    {
+      "file": "core/compile/error_info.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "core/compile/formal.pvf",
+      "bytes": 328,
+      "sha256": "30fc5ff9f4cf5945c990b2bf6d56d1f8562d93e07964270dba0792eae848df7f"
+    },
+    {
+      "file": "core/compile/include_relation.txt",
+      "bytes": 8,
+      "sha256": "e6c767aaabb678ed4d3fb4f5c9193c55abf9739f641095705e94f198f08010f9"
+    },
+    {
+      "file": "core/compile/parse_design/run.log",
+      "bytes": 547,
+      "sha256": "90a434c411a3f5e2d49eff1b264e5cbc7ed11e37f236b1674b5b49103d2dacb2"
+    },
+    {
+      "file": "core/compile/parse_design/screen.pds",
+      "bytes": 2966,
+      "sha256": "2ab91e36ec6757e7770a83241ee657f8897c7f0e3b76576404e529623a0b3052"
+    },
+    {
+      "file": "core/compile/parse_design/screen.tcl",
+      "bytes": 234,
+      "sha256": "9e665746fc1f7422840a667e942a179580cddc4ccdc44712b33ba3e182576a55"
+    },
+    {
+      "file": "core/compile/run.log",
+      "bytes": 166728,
+      "sha256": "57c357f7914882ab1af8783fea39390f9fcfe6ca1ef4f941eb828d4641d9d149"
+    },
+    {
+      "file": "core/compile/undistort_core.cmr",
+      "bytes": 1029,
+      "sha256": "c3a621385d2c16bbba3ad9ef212bff631a729aa8e73b2c2698fa06f1e15ebbc9"
+    },
+    {
+      "file": "core/compile/undistort_core_comp.adf",
+      "bytes": 8747924,
+      "sha256": "3bb8e5873e81b2fd40549e8c323ace0e1a33b8f2f0255adde333a4c68bcfc886"
+    },
+    {
+      "file": "core/synthesize/add_sub_carrychain.log",
+      "bytes": 15300,
+      "sha256": "5698eedd027fe5651a0b5785348118c2279c8257e86fdb4e986df12dfce723f7"
+    },
+    {
+      "file": "core/synthesize/apm_drm_lutram_utilization.log",
+      "bytes": 155322,
+      "sha256": "57c9bd4c281eff6b62e35313891f95ef2b4bb322944ddc1435d7277debc0c768"
+    },
+    {
+      "file": "core/synthesize/formal.pvf",
+      "bytes": 123433,
+      "sha256": "1ee5b90ca299a46a12d7f53c0e7504cd44f502c052dfea4a2d323d5e085e1dd4"
+    },
+    {
+      "file": "core/synthesize/run.log",
+      "bytes": 1190834,
+      "sha256": "ded6e4eb04cdc7c5ce78f9c79abaa2362365f570ce1a771200ee5d04a33e208e"
+    },
+    {
+      "file": "core/synthesize/snr.db",
+      "bytes": 5311005,
+      "sha256": "a0c4742347524be13ffe799be751792c9bc62660b89e9be00bf6da5e32de74d3"
+    },
+    {
+      "file": "core/synthesize/undistort_core.snr",
+      "bytes": 90613,
+      "sha256": "06f5483bf34a2a919cf3e88c33ae521d3ea3f77b319892455acc9bd0b51077a5"
+    },
+    {
+      "file": "core/synthesize/undistort_core_controlsets.txt",
+      "bytes": 30205,
+      "sha256": "7628e91f801f4f42315a53501ffe65c9b4250705676f254b41df16c1ee277625"
+    },
+    {
+      "file": "core/synthesize/undistort_core_syn.adf",
+      "bytes": 3957853,
+      "sha256": "9f90df9d25570bbc802e7e0e1b6f05c6690a7f6390cd98131315c24fc77fce81"
+    },
+    {
+      "file": "core/synthesize/undistort_core_syn.vm",
+      "bytes": 16144369,
+      "sha256": "11ab3edc1cc61f7b7977ec4399bd892e1470366d7b87c4fc94cf40965815655c"
+    }
+  ],
+  "timing_rows": [
+    " undistort_core|clk        125.0000 MHz    113.6880 MHz         8.0000         8.7960         -0.796"
+  ]
+}

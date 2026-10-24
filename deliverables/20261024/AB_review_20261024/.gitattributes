@@ -1,0 +1,7 @@
+# Preserve incoming native logs, reports, manifests and source package bytes exactly.
+incoming/** -text -diff -whitespace
+package/evidence/** -text -diff -whitespace
+package/core/** -text -diff -whitespace
+package/host/** -text -diff -whitespace
+package/T02/reference/** -text -diff -whitespace
+package/T02/*.diff -text -diff -whitespace

@@ -1,0 +1,30 @@
+{
+  "status": "PASS_RECEIVED_DOCUMENTATION_ONLY",
+  "received_bj": "2026-10-24",
+  "source_zip": "给二号及设计方_独立进展T02合并与材料清单_20261024.zip",
+  "source_zip_bytes": 498808,
+  "source_zip_sha256": "b31cab7e7dadbee5426d99032b7d352be3b29d8d0a5e165a2a0c33408e47552a",
+  "zip_members": 43,
+  "manifest_files": 42,
+  "zip_manifest_crc_paths_sha256": "PASS",
+  "external_materials_attachment_sha256": "4cbe5f22145beb3b2854c2ea4d347de0c8606fafe7a6721f424b35e805b5a104",
+  "package_materials_attachment_byte_identical": true,
+  "t02_merge_status": "MERGED_FOR_REVIEW_NOT_NEW_DESIGNER_RULING",
+  "t02_arithmetic": "PASS",
+  "frozen_values_unchanged": [3720, 128, 1988, 2048],
+  "rtl_modified": false,
+  "tb_modified": false,
+  "new_pds_or_rtl_sim": false,
+  "ab_new_hash": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+  "new_physical_pnr": false,
+  "new_bitstream": false,
+  "new_board_test": false,
+  "master_version": "2.0.4",
+  "formal_master_updated": false,
+  "next_owners": {
+    "二号": ["审阅T02正文/diff", "独立复核A+B综合限制", "按N01-N04回传新核心材料"],
+    "设计方/执行方": ["D01归档审阅", "E01-E04物理评估材料"],
+    "本机": ["保留证据", "等待回件", "不改生产基线"]
+  },
+  "delivery_status": "RECEIVED_AND_ARCHIVED"
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 1912,
+    "sha256": "b182e55047101a5a1b96de1f382c147ef5ef6abee26452df9e3ac9540cad34a1"
+  },
+  {
+    "file": "T02/T02_V1.1_合并正文.md",
+    "bytes": 9043,
+    "sha256": "c46df5ffc6a52be534b6554c742583f955ac46e58b74b19f8206a8897232b2fe"
+  },
+  {
+    "file": "T02/T02_第2章_R01合并.diff",
+    "bytes": 4409,
+    "sha256": "68d12d016e706d1e8044956f659a79082af8da3832658957adbc8b0b35878256"
+  },
+  {
+    "file": "T02/reference/W0_W8_vsim_do修正版实跑_20261018.log",
+    "bytes": 5171,
+    "sha256": "6a9dde19d0cea3b7b0831c24439536c090f967b105d4db1dbdd602fee2294586"
+  },
+  {
+    "file": "T02/reference/rect_wr_if_R01恢复拍数口径_设计方回复_20261018.md",
+    "bytes": 9378,
+    "sha256": "df66ecff7fbf466fa9d963cff299200b6e3e622f6461400c8182e1c0349390e6"
+  },
+  {
+    "file": "T02/reference/rect_wr_if_一号接收记录_设计方回复_20261018.md",
+    "bytes": 13730,
+    "sha256": "d974c1014a96b36659305998166c6eabff9cdd1494e3994fc23b00e5a6437aaa"
+  },
+  {
+    "file": "T02/reference/rect_wr_if_修正do_10.7实跑验证记录_设计方_20261018.md",
+    "bytes": 6185,
+    "sha256": "d21ecf1b58b427110270ad6302c1384912b00374af48836420992ef4a10dbc4c"
+  },
+  {
+    "file": "T02/source_manifest.json",
+    "bytes": 786,
+    "sha256": "8c52ff8cd64047c57487179a484bee7838193d6936cd0551a1a2d632f0e0a886"
+  },
+  {
+    "file": "T02/合并核对.json",
+    "bytes": 434,
+    "sha256": "2d0ad428b43ba94937371086c54690c1f109e48d4b39eb30d0a039c5449249d3"
+  },
+  {
+    "file": "core/multiseed_summary.csv",
+    "bytes": 1647,
+    "sha256": "3f668ef3c6338c72a31d81085c79297bf4c94394eae7ce3b4119293c9ae73793"
+  },
+  {
+    "file": "core/synthesize/undistort_core.snr",
+    "bytes": 90613,
+    "sha256": "06f5483bf34a2a919cf3e88c33ae521d3ea3f77b319892455acc9bd0b51077a5"
+  },
+  {
+    "file": "docs/AB_R1_R4_验收回执_原件.md",
+    "bytes": 6994,
+    "sha256": "bbe7daa242fcf639a150f269c46ef5b1e70425218d8198fc9be3becdb345f202"
+  },
+  {
+    "file": "docs/AB执行方SOP.md",
+    "bytes": 3313,
+    "sha256": "e1f52199dab6fc930ac929274b17fefe23a6fe835d39c79ac9859ae9a5cf15aa"
+  },
+  {
+    "file": "docs/AB新哈希综合与独立任务交付报告.md",
+    "bytes": 5439,
+    "sha256": "d88ead586f9de7ffe9aa54c4ed402f3d10da39a570340115f70a64387943ba01"
+  },
+  {
+    "file": "docs/R3_清理排空适用范围与证明.md",
+    "bytes": 3453,
+    "sha256": "d2b08ff1215c3326a2cad926f44007ccee4f09a06618bb70877cfc09764686f3"
+  },
+  {
+    "file": "docs/待协作者统一提供材料清单.md",
+    "bytes": 5504,
+    "sha256": "4cbe5f22145beb3b2854c2ea4d347de0c8606fafe7a6721f424b35e805b5a104"
+  },
+  {
+    "file": "docs/新优化核心接入前检查.md",
+    "bytes": 2181,
+    "sha256": "9390ca675c7a484bea5de38c9594f8fad366d065f1206279e7279567a8ce4a05"
+  },
+  {
+    "file": "docs/补正回传表.md",
+    "bytes": 5706,
+    "sha256": "27ee21e1b776b457dcc02c85527c3b0f346f4fe81caaa7d01be693052fd76ff4"
+  },
+  {
+    "file": "evidence/20261024_续接输入复核.json",
+    "bytes": 524,
+    "sha256": "8e9b4ed7f492a6ff3f46a8cf3fa13db5fff5178577a321f3b6af9a1072fb0bf8"
+  },
+  {
+    "file": "evidence/runner_v2_check.json",
+    "bytes": 1002,
+    "sha256": "59fc406d9a727f6d2842262e21ec55e0f3cd26e18f399803f29c474cba3aae10"
+  },
+  {
+    "file": "evidence/synth_core/console.log",
+    "bytes": 1360771,
+    "sha256": "c57c3de76de9a06f443aca0988ff711f1b0f50a2296d3b053998a4725e6dad42"
+  },
+  {
+    "file": "evidence/synth_core/fixed_input_audit.json",
+    "bytes": 1546,
+    "sha256": "4a5f97bf1232785bb6657bfa781e7d8308a4c554fc95150ba1f56c2c99215d33"
+  },
+  {
+    "file": "evidence/synth_core/process_receipt.json",
+    "bytes": 5961,
+    "sha256": "0f34d75a7b35fdeb7b63e289272a32adae3c2a4ec61eb3cb4dd63e267e2a8407"
+  },
+  {
+    "file": "evidence/synth_core/warning_lines.txt",
+    "bytes": 499934,
+    "sha256": "d8221ebb09fe09e3bf906778e81703d20a63264242d6c6a885ce7f706eff5440"
+  },
+  {
+    "file": "evidence/synth_host/console.log",
+    "bytes": 3747615,
+    "sha256": "05d16a37a7cc981f3f04561359c3382cb127a6976efd7ef2ab419a6a3995a17e"
+  },
+  {
+    "file": "evidence/synth_host/fixed_input_audit.json",
+    "bytes": 1588,
+    "sha256": "67cf2d5e9af25c937af29704e70997567d052ef310af00a0990eeb77d88e9a39"
+  },
+  {
+    "file": "evidence/synth_host/process_receipt.json",
+    "bytes": 41727,
+    "sha256": "d12a6f5c0249221ec0f9326dfe4308bf9166a8bc243527e66f52b94efdf4e3ff"
+  },
+  {
+    "file": "evidence/synth_host/warning_lines.txt",
+    "bytes": 2213484,
+    "sha256": "f3697a56656b96370f750a5f3173506726d07d9c0752b17a16744fa121dacecc"
+  },
+  {
+    "file": "evidence/warning_index.json",
+    "bytes": 92692,
+    "sha256": "3d3666fd1bd8ecece47ffa9d7a7a215e36c3626e81e4cf75471b1e667f7b7471"
+  },
+  {
+    "file": "handoff/frozen_execution_inputs.json",
+    "bytes": 18667,
+    "sha256": "3bcb1327399d5b4ba5bd34f31c3135708c31642b3863aa6e51d5765ee95b03a4"
+  },
+  {
+    "file": "host/multiseed_summary.csv",
+    "bytes": 1619,
+    "sha256": "6bb40996e6794f0c0d05d8097150cba39e70ce935e18250c1a3ac95a6b38b28a"
+  },
+  {
+    "file": "host/synthesize/hdmi_ddr_ov5640_top.snr",
+    "bytes": 997705,
+    "sha256": "c8c84e7b7e35e4c61c3d96674f3c46c94612dc795bcc73846965b920e4287149"
+  },
+  {
+    "file": "templates/W9_W10及FIFO验证准备.md",
+    "bytes": 2193,
+    "sha256": "f75d3aed56aa483609386a1703941bc903bc032090d0134ed0e7f4c60091611a"
+  },
+  {
+    "file": "templates/回执总索引_待填写.json",
+    "bytes": 1792,
+    "sha256": "06c0ee38938ca178eea8c9871a633991d6d48f6afc1457fb76a166334eccd8c5"
+  },
+  {
+    "file": "tools/audit_synthesis.py",
+    "bytes": 3776,
+    "sha256": "57a5f9385afea0942189404d1a513031b923f08059e66e4fda4b7603163854c0"
+  },
+  {
+    "file": "tools/check_runner_v2.py",
+    "bytes": 2153,
+    "sha256": "dfc1fa17096a602728e23bec2ffc4555985afc537cec80df8cbda9585ccae6b7"
+  },
+  {
+    "file": "tools/prepare_delivery.py",
+    "bytes": 19953,
+    "sha256": "4c193c23e7f7d2907d7d677b0d31c6c6900ae0889cfad3d6a663eafb0f800867"
+  },
+  {
+    "file": "tools/run_synthesis.py",
+    "bytes": 4384,
+    "sha256": "57dbf1cafddcf73b1e066c6296121afdec2fd39c40631ae4b004f38fc7bd3253"
+  },
+  {
+    "file": "tools/run_synthesis_v2.py",
+    "bytes": 5233,
+    "sha256": "964b1d9f1153b239ccc535cc4bdb6c7eb1a75940f0a2d13db0fc33ddbc7e44b6"
+  },
+  {
+    "file": "tools/verify_package.py",
+    "bytes": 2193,
+    "sha256": "977a95c567572d7d718f7135bebe04c07e287ccf061d312831d8156ff18e7ddb"
+  },
+  {
+    "file": "交付范围说明.md",
+    "bytes": 631,
+    "sha256": "0142799899bd0b2da7503fd6ff765e7c4bf1b2ccdeec6973f73d65ca1addf131"
+  },
+  {
+    "file": "任务台账与续接.md",
+    "bytes": 3084,
+    "sha256": "1989bf99f4bc54f89038c21c080c610054c61e18fdbc0602bb5335b37caf3244"
+  }
+]

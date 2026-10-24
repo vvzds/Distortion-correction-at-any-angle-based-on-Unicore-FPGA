@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-24",
+  "status": "PASS",
+  "scope": "SAVED_SYNTHESIS_EVIDENCE_AND_PACKAGING_PREFLIGHT_NO_NEW_PDS_OR_RTL_SIM",
+  "cases": {
+    "core": {
+      "original_inputs_checked": 6,
+      "artifacts_checked": 19,
+      "receipt_unchanged": true
+    },
+    "host": {
+      "original_inputs_checked": 141,
+      "artifacts_checked": 19,
+      "receipt_unchanged": true
+    }
+  },
+  "t02_reference_files_checked": 4,
+  "core_host_rtl_pairs_checked": 4,
+  "python_ast": "PASS",
+  "errors": []
+}

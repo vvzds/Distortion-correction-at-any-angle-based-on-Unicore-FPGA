@@ -1,0 +1,22 @@
+[
+  {
+    "file": "reference/rect_wr_if_R01恢复拍数口径_设计方回复_20261018.md",
+    "bytes": 9378,
+    "sha256": "df66ecff7fbf466fa9d963cff299200b6e3e622f6461400c8182e1c0349390e6"
+  },
+  {
+    "file": "reference/rect_wr_if_一号接收记录_设计方回复_20261018.md",
+    "bytes": 13730,
+    "sha256": "d974c1014a96b36659305998166c6eabff9cdd1494e3994fc23b00e5a6437aaa"
+  },
+  {
+    "file": "reference/rect_wr_if_修正do_10.7实跑验证记录_设计方_20261018.md",
+    "bytes": 6185,
+    "sha256": "d21ecf1b58b427110270ad6302c1384912b00374af48836420992ef4a10dbc4c"
+  },
+  {
+    "file": "reference/W0_W8_vsim_do修正版实跑_20261018.log",
+    "bytes": 5171,
+    "sha256": "6a9dde19d0cea3b7b0831c24439536c090f967b105d4db1dbdd602fee2294586"
+  }
+]

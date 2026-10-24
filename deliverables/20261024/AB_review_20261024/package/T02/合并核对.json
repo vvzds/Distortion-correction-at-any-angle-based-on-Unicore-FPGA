@@ -1,0 +1,24 @@
+{
+  "frozen_values": [
+    3720,
+    128,
+    1988,
+    2048
+  ],
+  "arithmetic": "PASS",
+  "g4": {
+    "elapsed": 3728,
+    "accepted": 3724,
+    "wm": 128
+  },
+  "g3": {
+    "elapsed": 3726,
+    "accepted": 3723,
+    "wm": 128
+  },
+  "invalid_elapsed_3724_g4_wm": 130,
+  "rtl_modified": false,
+  "tb_modified": false,
+  "old_evidence_unchanged": true,
+  "status": "MERGED_FOR_REVIEW_NOT_NEW_DESIGNER_RULING"
+}

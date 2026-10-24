@@ -1,0 +1,102 @@
+# if {[file exists work]} {vdel -lib work -all}
+# vlib work
+# vmap work work
+# Model Technology ModelSim SE-64 vmap 10.7 Lib Mapping Utility 2017.12 Dec  7 2017
+# vmap work work 
+# Copying D:/FPGA/MODELSIM/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# vlog -work work +define+SIMULATION [file join $root source rtl rect_wr_if.v] [file join $script_dir rect_wr_if_tb.v]
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 15:36:58 on Oct 18,2026
+# vlog -work work "+define+SIMULATION" C:/Users/songtianyu/AppData/Local/Temp/rwi_do_v2/source/rtl/rect_wr_if.v C:/Users/songtianyu/AppData/Local/Temp/rwi_do_v2/sim/rect_wr_if_tb.v 
+# -- Compiling module rect_wr_if
+# -- Compiling module rect_wr_if_tb
+# 
+# Top level modules:
+# 	rect_wr_if_tb
+# End time: 15:36:58 on Oct 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -voptargs=+acc -onfinish stop work.rect_wr_if_tb
+# vsim -t 1ps -voptargs="+acc" -onfinish stop work.rect_wr_if_tb 
+# Start time: 15:36:58 on Oct 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "rect_wr_if(fast)".
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.rect_wr_if_tb(fast)
+# Loading work.rect_wr_if(fast)
+# run -all
+# rect_wr_if TB Verilog-2001 125MHz seed_up=49a2137b seed_slot=c0213471 seed_wr=17009bc3
+# W0 SLOT delay=0 next_slot=4
+# W0 SLOT delay=0 next_slot=4
+# W0 BLOCK start_cycle=26 wm=1 length=3720
+# W0 SLOT delay=0 next_slot=4
+# [W0] PASS (err=0) words=960 commits=0 peak_wm=2 peak_fifo=1 digest=ffffffff
+# W1 SLOT delay=0 next_slot=4
+# [W1] PASS (err=0) words=960 commits=0 peak_wm=2 peak_fifo=1 digest=ffffffff
+# W2 SLOT delay=0 next_slot=4
+# W2 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+# [W2] PASS (err=0) words=1036800 commits=1 peak_wm=2 peak_fifo=1 digest=00000000
+# W3 SLOT delay=0 next_slot=4
+# W3 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+# W3 delay=0 preassert=1 verified
+# W3 SLOT delay=4 next_slot=4
+# W3 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+# W3 delay=4 preassert=0 verified
+# W3 SLOT delay=16 next_slot=4
+# W3 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+# W3 delay=16 preassert=0 verified
+# [W3] PASS (err=0) words=1036800 commits=1 peak_wm=9 peak_fifo=9 digest=00000000
+# W4 SLOT delay=0 next_slot=4
+# W4 BLOCK start_cycle=40006 wm=1 length=3720
+# W4 COMMIT frame=1 slot=4 cycle=2073607 backlog=0 latency=1
+# [W4] PASS (err=0) words=1036800 commits=1 peak_wm=1861 peak_fifo=1861 digest=00000000
+# W5 SLOT delay=239 next_slot=4
+# W5 BLOCK start_cycle=2072582 wm=1 length=3720
+# W5 COMMIT frame=1 slot=4 cycle=2076815 backlog=1605 latency=1
+# W5 SLOT delay=512 next_slot=5
+# W5 COMMIT frame=2 slot=5 cycle=4147207 backlog=0 latency=1
+# W5 OVERLAP next_sof_cycle=2073605 previous_commit_cycle=2076815 commit_backlog=1605
+# [W5] PASS (err=0) words=2073600 commits=2 peak_wm=1863 peak_fifo=1862 digest=00000000
+# W6 SLOT delay=0 next_slot=4
+# W6 COMMIT frame=1 slot=4 cycle=5183745 backlog=0 latency=1
+# [W6] PASS (err=0) words=1036800 commits=1 peak_wm=2 peak_fifo=1 digest=00000000
+# W8 SLOT delay=239 next_slot=4
+# W8 COMMIT frame=1 slot=4 cycle=5183745 backlog=0 latency=1
+# W8 SLOT delay=243 next_slot=5
+# W8 COMMIT frame=2 slot=5 cycle=10368290 backlog=0 latency=1
+# W8 SLOT delay=14 next_slot=6
+# W8 COMMIT frame=3 slot=6 cycle=15554708 backlog=0 latency=1
+# W8 SLOT delay=235 next_slot=7
+# W8 COMMIT frame=4 slot=7 cycle=20737626 backlog=0 latency=1
+# [W8] PASS (err=0) words=4147200 commits=4 peak_wm=48 peak_fifo=48 digest=00000000
+# [W7] PASS (err=0) protocol assertions active throughout W0-W8
+# === ALL TESTS PASSED (err=0) ===
+# ** Note: $finish    : C:/Users/songtianyu/AppData/Local/Temp/rwi_do_v2/sim/rect_wr_if_tb.v(407)
+#    Time: 323526758 ns  Iteration: 0  Instance: /rect_wr_if_tb
+# Break in Module rect_wr_if_tb at C:/Users/songtianyu/AppData/Local/Temp/rwi_do_v2/sim/rect_wr_if_tb.v line 407
+# Stopped at C:/Users/songtianyu/AppData/Local/Temp/rwi_do_v2/sim/rect_wr_if_tb.v line 407
+# set failures [examine -radix decimal /rect_wr_if_tb/err]
+# 0
+# set completed_normally [examine -radix unsigned /rect_wr_if_tb/tb_done]
+# 1
+# set completed [examine -radix decimal /rect_wr_if_tb/commits]
+# 4
+# if {$failures != 0 || $completed != 4 || $completed_normally != 1} {
+#     puts "FAIL ModelSim: err=$failures final_commits=$completed"
+#     quit -force -code 1
+# }
+# quit -force -code 0
+# End time: 15:38:11 on Oct 18,2026, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0

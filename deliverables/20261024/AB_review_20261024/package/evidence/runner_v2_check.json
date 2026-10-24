@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "RUNNER_BOOKKEEPING_ONLY_NO_PDS_RERUN",
+  "cases": [
+    {
+      "name": "unchanged_input",
+      "status": "PASS"
+    },
+    {
+      "name": "generated_project_does_not_change_fixed_set",
+      "status": "PASS"
+    },
+    {
+      "name": "modified_original_input_detected",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_original_input_detected",
+      "status": "PASS"
+    },
+    {
+      "name": "refuses_existing_native_evidence_before_launch",
+      "status": "PASS"
+    },
+    {
+      "name": "cli_parse",
+      "status": "PASS"
+    }
+  ],
+  "runner_sha256": "964b1d9f1153b239ccc535cc4bdb6c7eb1a75940f0a2d13db0fc33ddbc7e44b6",
+  "command": [
+    "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\tools\\run_synthesis_v2.py",
+    "--help"
+  ],
+  "cli_exit_code": 0
+}

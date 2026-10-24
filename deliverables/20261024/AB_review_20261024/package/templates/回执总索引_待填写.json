@@ -1,0 +1,68 @@
+{
+  "status": "TEMPLATE_NOT_EXECUTED",
+  "timezone": "Asia/Shanghai",
+  "package_version": null,
+  "sender": null,
+  "items": [
+    {
+      "id": "N01-N04",
+      "status": "NOT_RECEIVED",
+      "reason": "新优化核心及其契约/等价/物理证据待提供",
+      "path": null,
+      "input_sha256": null,
+      "output_sha256": null,
+      "tool_version": null,
+      "start": null,
+      "end": null,
+      "exit_code": null
+    },
+    {
+      "id": "E01-E04",
+      "status": "PENDING_EXTERNAL",
+      "reason": "SP6.4、约束/连线、物理验收口径及本轮警告/IP适用性审查待明确",
+      "path": null,
+      "input_sha256": null,
+      "output_sha256": null,
+      "tool_version": null,
+      "start": null,
+      "end": null,
+      "exit_code": null
+    },
+    {
+      "id": "D01",
+      "status": "PENDING_REVIEW_ARCHIVE",
+      "reason": "按既有R01裁定完成T02合并稿，待审阅归档，非重开裁定",
+      "path": null,
+      "input_sha256": null,
+      "output_sha256": null,
+      "tool_version": null,
+      "start": null,
+      "end": null,
+      "exit_code": null
+    },
+    {
+      "id": "B01-B03",
+      "status": "PAUSED_BY_USER",
+      "reason": "G4接核实机任务暂停，等待新核心并恢复板测",
+      "path": null,
+      "input_sha256": null,
+      "output_sha256": null,
+      "tool_version": null,
+      "start": null,
+      "end": null,
+      "exit_code": null
+    },
+    {
+      "id": "W01",
+      "status": "WAIT_FINAL_NETLIST",
+      "reason": "最终网表未冻结",
+      "path": null,
+      "input_sha256": null,
+      "output_sha256": null,
+      "tool_version": null,
+      "start": null,
+      "end": null,
+      "exit_code": null
+    }
+  ]
+}
