@@ -1,0 +1,27 @@
+{
+  "original_main": "a500eee34965f2f343cd61ed7143a2def6bb48df",
+  "source_subtrees": {
+    "source": {
+      "before": "ee5737691b5825c092dc404311ec2d00968f7954",
+      "current": "ee5737691b5825c092dc404311ec2d00968f7954"
+    },
+    "ipcore": {
+      "before": "b715ea3b9f8c19df7d407afa364f8b8446b29d55",
+      "current": "b715ea3b9f8c19df7d407afa364f8b8446b29d55"
+    },
+    "sim": {
+      "before": "ae4bc37135daf8481b33a3c10fc8449922189cf7",
+      "current": "ae4bc37135daf8481b33a3c10fc8449922189cf7"
+    },
+    "HDMI_DDR3_OV5640_test.fdc": {
+      "before": "2e78073d3ad294d63a1cbe28c20512b2ab5bbac7",
+      "current": "2e78073d3ad294d63a1cbe28c20512b2ab5bbac7"
+    },
+    "task1_1080p30.pds": {
+      "before": "41625bffcf7e53ff95fabca904f0cf06256d4f83",
+      "current": "41625bffcf7e53ff95fabca904f0cf06256d4f83"
+    }
+  },
+  "all_current_production_inputs_unchanged": true,
+  "policy": "Versioned artifacts, latest-version entry index, and Git merge history; no mixing of unrelated core/gate/production variants."
+}

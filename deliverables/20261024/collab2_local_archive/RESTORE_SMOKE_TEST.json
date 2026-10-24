@@ -1,0 +1,28 @@
+{
+  "state": "PASS",
+  "restoration": "RESTORE PASS: 5 files, SHA256 verified",
+  "list_command_passed": true,
+  "destination": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\restore_smoke_result",
+  "files": [
+    {
+      "path": "2026_FPGA_紫光同创赛道二_畸变图像校正.docx",
+      "sha256": "22595f692b63b4ff672fcf66851fe7812856752fd52ef1b4de373bad12013b48"
+    },
+    {
+      "path": "2026_FPGA_紫光同创赛道二_畸变图像校正详细实施报告版本一.docx",
+      "sha256": "b5e848af5708f744b777d99847bce08cd0a2908300fa5d7b90ebf45f00ead6e7"
+    },
+    {
+      "path": "collab2_undistort_core_task_pkg_v1.0.zip",
+      "sha256": "8c286fc7c1500d096e403ab975f5b5b8717d27e5ecdf77f32e4ef9703d8317be"
+    },
+    {
+      "path": "新建 DOCX 文档.docx",
+      "sha256": "0f77f584f65b075253290d6386b41b43b45c737f74b7bd1fccbc8967845fb3fa"
+    },
+    {
+      "path": "选题二_图像畸变校正_模块接口与并行任务.md",
+      "sha256": "4a7f97d6824aac433b42e9c17f24ecf5dd20bda1121bef47f872f73012048978"
+    }
+  ]
+}

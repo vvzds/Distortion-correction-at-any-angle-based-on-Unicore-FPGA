@@ -1,0 +1,5 @@
+* -text
+packs/*.zip -diff
+MANIFEST.json -diff
+PATHS.jsonl.gz -diff
+standalone_project_files/** -diff -whitespace

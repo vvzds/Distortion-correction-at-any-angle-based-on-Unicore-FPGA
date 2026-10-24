@@ -1,0 +1,3742 @@
+{
+  "scan_exclusions": [
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\二号核心包升级_20261023\\G7_core_candidate\\.git",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\二号核心包升级_20261023\\门禁适配复核\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\CC Switch.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\Modelsim.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\ok-ww.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\OneDragon-Launcher.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\OneNote.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\Pango Design Suite 2022.2-SP6.1.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\Visual Studio 2022.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\学习通.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\王者万象棋.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\绝区零.lnk",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\computer_use_repair_20261020",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\github_repository_setup_20261024",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\host_validation_deps",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pip_cache",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pip_tmp",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\python_tools",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_tmp_v12",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\wheels_v12",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\yosys40",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\yosys_cache",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\candidate\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\incoming\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g6_20261020\\project\\.git",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g6_acceptance_20261022\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g6_locality_receipt_20261023\\candidate\\G6_locality_gate_20261023\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\delivery\\G8_candidate\\.git",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_bringup_20261024\\evidence\\run_build_local.pyc",
+      "reason": "credential/cache/shortcut"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\__pycache__",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\undistort_core_v11\\.git",
+      "reason": "generated archive output, dependency runtime, Git metadata or account setup"
+    }
+  ],
+  "file_exclusions": [
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\MATLAB\\链接.txt",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/MATLAB/链接.txt",
+      "size": 100,
+      "mtime_ns": 1790675244630217000,
+      "reason": "vendor software installer/embedded SDK, not FPGA project artifacts"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\PDS\\PDS_2022.2-SP6.4-win64.zip",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/PDS/PDS_2022.2-SP6.4-win64.zip",
+      "size": 1934650447,
+      "mtime_ns": 1790675332353364500,
+      "reason": "vendor software installer/embedded SDK, not FPGA project artifacts"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\PDS\\PDS软件告警解释参考_V0.1.xlsx",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/PDS/PDS软件告警解释参考_V0.1.xlsx",
+      "size": 199715,
+      "mtime_ns": 1790675244636188800,
+      "reason": "vendor software installer/embedded SDK, not FPGA project artifacts"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\PDS\\小眼睛FPGA--license申请模板.xlsx",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/PDS/小眼睛FPGA--license申请模板.xlsx",
+      "size": 12604,
+      "mtime_ns": 1790675242476144900,
+      "reason": "vendor software installer/embedded SDK, not FPGA project artifacts"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\Wireshark\\Wireshark-win32-2.4.1.0.exe",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/Wireshark/Wireshark-win32-2.4.1.0.exe",
+      "size": 53597448,
+      "mtime_ns": 1790675257655766000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\串口调试助手\\sscom5.13.1.exe",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/串口调试助手/sscom5.13.1.exe",
+      "size": 451072,
+      "mtime_ns": 1790675241846951600,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\串口调试助手\\sscom51.ini",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/串口调试助手/sscom51.ini",
+      "size": 5072,
+      "mtime_ns": 1790675242475143300,
+      "reason": "vendor software installer/embedded SDK, not FPGA project artifacts"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\网络调试助手\\NetAssist.exe",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/5_Software/网络调试助手/NetAssist.exe",
+      "size": 498176,
+      "mtime_ns": 1790675241557584300,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\8_软核\\Embedded.zip",
+      "root": "pds_resouce",
+      "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/8_软核/Embedded.zip",
+      "size": 2276928124,
+      "mtime_ns": 1790675233253054400,
+      "reason": "embedded software SDK unrelated to image-correction project"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024\\CP210x_11.5.0.417_AMD64_MicrosoftCatalog.cab",
+      "root": "desktop_yx",
+      "rel": "CP2102串口驱动准备_二号_20261024/CP210x_11.5.0.417_AMD64_MicrosoftCatalog.cab",
+      "size": 210360,
+      "mtime_ns": 1792836399931538700,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024\\driver\\silabser.cat",
+      "root": "desktop_yx",
+      "rel": "CP2102串口驱动准备_二号_20261024/driver/silabser.cat",
+      "size": 13865,
+      "mtime_ns": 1766954998000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024\\driver\\arm\\silabser.sys",
+      "root": "desktop_yx",
+      "rel": "CP2102串口驱动准备_二号_20261024/driver/arm/silabser.sys",
+      "size": 132328,
+      "mtime_ns": 1766955000000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024\\driver\\arm64\\silabser.sys",
+      "root": "desktop_yx",
+      "rel": "CP2102串口驱动准备_二号_20261024/driver/arm64/silabser.sys",
+      "size": 153832,
+      "mtime_ns": 1766955000000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024\\driver\\x64\\silabser.sys",
+      "root": "desktop_yx",
+      "rel": "CP2102串口驱动准备_二号_20261024/driver/x64/silabser.sys",
+      "size": 156904,
+      "mtime_ns": 1766955000000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024\\driver\\x86\\silabser.sys",
+      "root": "desktop_yx",
+      "rel": "CP2102串口驱动准备_二号_20261024/driver/x86/silabser.sys",
+      "size": 137448,
+      "mtime_ns": 1766955002000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\outputs\\static_G4_timing_resume_20261024\\gate_selftest\\test_bitstream_stage_rebuild_rejected\\project\\fake_tool\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "outputs/static_G4_timing_resume_20261024/gate_selftest/test_bitstream_stage_rebuild_rejected/project/fake_tool/bin/pds_shell.exe",
+      "size": 25,
+      "mtime_ns": 1792835327869327500,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\outputs\\static_G4_timing_resume_20261024\\gate_selftest\\test_native_error_exit_zero_rejected\\project\\fake_tool\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "outputs/static_G4_timing_resume_20261024/gate_selftest/test_native_error_exit_zero_rejected/project/fake_tool/bin/pds_shell.exe",
+      "size": 25,
+      "mtime_ns": 1792835328021848900,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\outputs\\static_G4_timing_resume_20261024\\gate_selftest\\test_pipeline_fail_never_calls_bitstream\\project\\fake_tool\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "outputs/static_G4_timing_resume_20261024/gate_selftest/test_pipeline_fail_never_calls_bitstream/project/fake_tool/bin/pds_shell.exe",
+      "size": 25,
+      "mtime_ns": 1792835328072661100,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\outputs\\static_G4_timing_resume_20261024\\gate_selftest\\test_synthetic_pipeline_pass\\project\\fake_tool\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "outputs/static_G4_timing_resume_20261024/gate_selftest/test_synthetic_pipeline_pass/project/fake_tool/bin/pds_shell.exe",
+      "size": 25,
+      "mtime_ns": 1792835328154103900,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023\\test_runs\\253deb024ca44f50bde95817a03e063c\\PDS_2022.2-SP6.4\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "work/G8_gate_exec_20261023/test_runs/253deb024ca44f50bde95817a03e063c/PDS_2022.2-SP6.4/bin/pds_shell.exe",
+      "size": 24,
+      "mtime_ns": 1792763138713274900,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023\\test_runs\\26fb29e094f044d886e14d21a62ff23c\\PDS_2022.2-SP6.4\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "work/G8_gate_exec_20261023/test_runs/26fb29e094f044d886e14d21a62ff23c/PDS_2022.2-SP6.4/bin/pds_shell.exe",
+      "size": 24,
+      "mtime_ns": 1792762737981666600,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023\\test_runs\\3e69e4a371e24b1aa60f2953ad67c064\\PDS_2022.2-SP6.4\\bin\\pds_shell.exe",
+      "root": "workspace",
+      "rel": "work/G8_gate_exec_20261023/test_runs/3e69e4a371e24b1aa60f2953ad67c064/PDS_2022.2-SP6.4/bin/pds_shell.exe",
+      "size": 24,
+      "mtime_ns": 1792762943793233300,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024\\cp210x_official\\CP210x_11.5.0.417_AMD64_MicrosoftCatalog.cab",
+      "root": "workspace",
+      "rel": "work/static_G4_timing_resume_20261024/cp210x_official/CP210x_11.5.0.417_AMD64_MicrosoftCatalog.cab",
+      "size": 210360,
+      "mtime_ns": 1792836399931538700,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024\\cp210x_official\\extracted\\silabser.cat",
+      "root": "workspace",
+      "rel": "work/static_G4_timing_resume_20261024/cp210x_official/extracted/silabser.cat",
+      "size": 13865,
+      "mtime_ns": 1766954998000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024\\cp210x_official\\extracted\\arm\\silabser.sys",
+      "root": "workspace",
+      "rel": "work/static_G4_timing_resume_20261024/cp210x_official/extracted/arm/silabser.sys",
+      "size": 132328,
+      "mtime_ns": 1766955000000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024\\cp210x_official\\extracted\\arm64\\silabser.sys",
+      "root": "workspace",
+      "rel": "work/static_G4_timing_resume_20261024/cp210x_official/extracted/arm64/silabser.sys",
+      "size": 153832,
+      "mtime_ns": 1766955000000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024\\cp210x_official\\extracted\\x64\\silabser.sys",
+      "root": "workspace",
+      "rel": "work/static_G4_timing_resume_20261024/cp210x_official/extracted/x64/silabser.sys",
+      "size": 156904,
+      "mtime_ns": 1766955000000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024\\cp210x_official\\extracted\\x86\\silabser.sys",
+      "root": "workspace",
+      "rel": "work/static_G4_timing_resume_20261024/cp210x_official/extracted/x86/silabser.sys",
+      "size": 137448,
+      "mtime_ns": 1766955002000000000,
+      "reason": "third-party tool/driver runtime binary; original project scripts and verification receipts retained"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\core.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/core.py",
+      "size": 147845,
+      "mtime_ns": 1791812807261474700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\decorators.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/decorators.py",
+      "size": 21680,
+      "mtime_ns": 1791812807262978100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\exceptions.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/exceptions.py",
+      "size": 11862,
+      "mtime_ns": 1791812807262978100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\formatting.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/formatting.py",
+      "size": 10444,
+      "mtime_ns": 1791812807263981400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\globals.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/globals.py",
+      "size": 1923,
+      "mtime_ns": 1791812807263981400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\parser.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/parser.py",
+      "size": 19052,
+      "mtime_ns": 1791812807264981800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\py.typed",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/py.typed",
+      "size": 0,
+      "mtime_ns": 1791812807264981800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\shell_completion.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/shell_completion.py",
+      "size": 26172,
+      "mtime_ns": 1791812807264981800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\termui.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/termui.py",
+      "size": 35370,
+      "mtime_ns": 1791812807266419700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\testing.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/testing.py",
+      "size": 27584,
+      "mtime_ns": 1791812807267424300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\types.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/types.py",
+      "size": 46842,
+      "mtime_ns": 1791812807267424300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\utils.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/utils.py",
+      "size": 21483,
+      "mtime_ns": 1791812807268419700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\_compat.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/_compat.py",
+      "size": 17939,
+      "mtime_ns": 1791812807258478100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\_termui_impl.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/_termui_impl.py",
+      "size": 32805,
+      "mtime_ns": 1791812807259475200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\_textwrap.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/_textwrap.py",
+      "size": 6270,
+      "mtime_ns": 1791812807259475200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\_utils.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/_utils.py",
+      "size": 996,
+      "mtime_ns": 1791812807260483400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\_winconsole.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/_winconsole.py",
+      "size": 8543,
+      "mtime_ns": 1791812807261474700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/click/__init__.py",
+      "size": 5145,
+      "mtime_ns": 1791812807258478100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click-8.5.0.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/click-8.5.0.dist-info/METADATA",
+      "size": 2567,
+      "mtime_ns": 1791812807270796000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click-8.5.0.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/click-8.5.0.dist-info/RECORD",
+      "size": 1640,
+      "mtime_ns": 1791812807270796000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click-8.5.0.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/click-8.5.0.dist-info/WHEEL",
+      "size": 82,
+      "mtime_ns": 1791812807269418800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\click-8.5.0.dist-info\\licenses\\LICENSE.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/click-8.5.0.dist-info/licenses/LICENSE.txt",
+      "size": 1475,
+      "mtime_ns": 1791812807269418800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend\\_nb_backend_v1.cp312-win_amd64.pyd",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend/_nb_backend_v1.cp312-win_amd64.pyd",
+      "size": 159232,
+      "mtime_ns": 1791812976115062200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend\\_nb_backend_v1.cp313-win_amd64.pyd",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend/_nb_backend_v1.cp313-win_amd64.pyd",
+      "size": 159232,
+      "mtime_ns": 1791812793872298400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend/__init__.py",
+      "size": 1918,
+      "mtime_ns": 1791812976116061900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend-1.0.0.dist-info\\DELVEWHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend-1.0.0.dist-info/DELVEWHEEL",
+      "size": 415,
+      "mtime_ns": 1791812976120675000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend-1.0.0.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend-1.0.0.dist-info/METADATA",
+      "size": 1382,
+      "mtime_ns": 1791812976121674500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend-1.0.0.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend-1.0.0.dist-info/RECORD",
+      "size": 654,
+      "mtime_ns": 1791812976122806800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend-1.0.0.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend-1.0.0.dist-info/WHEEL",
+      "size": 105,
+      "mtime_ns": 1791812976123811100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\nanobind_backend.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "root": "workspace",
+      "rel": "work/tools_v12/nanobind_backend.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "size": 575056,
+      "mtime_ns": 1791812976118674800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\android.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/android.py",
+      "size": 10294,
+      "mtime_ns": 1791812809469885900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\api.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/api.py",
+      "size": 27616,
+      "mtime_ns": 1791812809471018700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\ios.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/ios.py",
+      "size": 6892,
+      "mtime_ns": 1791812809472038300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\macos.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/macos.py",
+      "size": 8479,
+      "mtime_ns": 1791812809472038300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\py.typed",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/py.typed",
+      "size": 0,
+      "mtime_ns": 1791812809473031800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\pytest_plugin.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/pytest_plugin.py",
+      "size": 812,
+      "mtime_ns": 1791812809473031800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\testing.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/testing.py",
+      "size": 2612,
+      "mtime_ns": 1791812809474026800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\unix.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/unix.py",
+      "size": 16684,
+      "mtime_ns": 1791812809474026800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\version.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/version.py",
+      "size": 522,
+      "mtime_ns": 1791812809475262200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\windows.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/windows.py",
+      "size": 16549,
+      "mtime_ns": 1791812809475262200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\_xdg.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/_xdg.py",
+      "size": 8460,
+      "mtime_ns": 1791812809469885900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/__init__.py",
+      "size": 43297,
+      "mtime_ns": 1791812809467876800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs\\__main__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs/__main__.py",
+      "size": 2021,
+      "mtime_ns": 1791812809468867000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs-4.13.0.dist-info\\entry_points.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs-4.13.0.dist-info/entry_points.txt",
+      "size": 53,
+      "mtime_ns": 1791812809477694500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs-4.13.0.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs-4.13.0.dist-info/METADATA",
+      "size": 5468,
+      "mtime_ns": 1791812809476268300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs-4.13.0.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs-4.13.0.dist-info/RECORD",
+      "size": 1458,
+      "mtime_ns": 1791812809479735300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs-4.13.0.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs-4.13.0.dist-info/WHEEL",
+      "size": 87,
+      "mtime_ns": 1791812809477694500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\platformdirs-4.13.0.dist-info\\licenses\\LICENSE",
+      "root": "workspace",
+      "rel": "work/tools_v12/platformdirs-4.13.0.dist-info/licenses/LICENSE",
+      "size": 1089,
+      "mtime_ns": 1791812809478720000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\analysis.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/analysis.pyi",
+      "size": 8869,
+      "mtime_ns": 1791812790686918900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\ast.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/ast.pyi",
+      "size": 136638,
+      "mtime_ns": 1791812790688126900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\driver.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/driver.pyi",
+      "size": 4741,
+      "mtime_ns": 1791812790688126900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\parsing.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/parsing.pyi",
+      "size": 22274,
+      "mtime_ns": 1791812790689307600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\py.typed",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/py.typed",
+      "size": 0,
+      "mtime_ns": 1791812790689307600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang.pyd",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang.pyd",
+      "size": 9063936,
+      "mtime_ns": 1791812790720907200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\syntax.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/syntax.pyi",
+      "size": 333761,
+      "mtime_ns": 1791812790722240700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/__init__.py",
+      "size": 801,
+      "mtime_ns": 1791812790722916300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\__init__.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/__init__.pyi",
+      "size": 150332,
+      "mtime_ns": 1791812790723906900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang\\analysis.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang/analysis.pyi",
+      "size": 8869,
+      "mtime_ns": 1791812790723906900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang\\ast.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang/ast.pyi",
+      "size": 136638,
+      "mtime_ns": 1791812790724907400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang\\driver.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang/driver.pyi",
+      "size": 4741,
+      "mtime_ns": 1791812790724907400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang\\parsing.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang/parsing.pyi",
+      "size": 22274,
+      "mtime_ns": 1791812790725909700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang\\syntax.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang/syntax.pyi",
+      "size": 333761,
+      "mtime_ns": 1791812790726907700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang\\pyslang\\__init__.pyi",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang/pyslang/__init__.pyi",
+      "size": 150332,
+      "mtime_ns": 1791812790727908400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang-12.0.0.dist-info\\DELVEWHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang-12.0.0.dist-info/DELVEWHEEL",
+      "size": 406,
+      "mtime_ns": 1791812790733437600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang-12.0.0.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang-12.0.0.dist-info/METADATA",
+      "size": 7359,
+      "mtime_ns": 1791812790733437600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang-12.0.0.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang-12.0.0.dist-info/RECORD",
+      "size": 1834,
+      "mtime_ns": 1791812790734444700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang-12.0.0.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang-12.0.0.dist-info/WHEEL",
+      "size": 104,
+      "mtime_ns": 1791812790734444700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang-12.0.0.dist-info\\licenses\\LICENSE",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang-12.0.0.dist-info/licenses/LICENSE",
+      "size": 1066,
+      "mtime_ns": 1791812790735445400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "size": 575056,
+      "mtime_ns": 1791812790729919600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\pyslang.libs\\msvcp140_atomic_wait-9fa51bca7d3b7fe73e9cef76bc9022a1.dll",
+      "root": "workspace",
+      "rel": "work/tools_v12/pyslang.libs/msvcp140_atomic_wait-9fa51bca7d3b7fe73e9cef76bc9022a1.dll",
+      "size": 37376,
+      "mtime_ns": 1791812790730915400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\py.typed",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/py.typed",
+      "size": 0,
+      "mtime_ns": 1791812804657968200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_bindings.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_bindings.py",
+      "size": 316507,
+      "mtime_ns": 1791812804644903700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_config.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_config.py",
+      "size": 21139,
+      "mtime_ns": 1791812804644903700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_engine.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_engine.py",
+      "size": 821,
+      "mtime_ns": 1791812804644903700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_error.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_error.py",
+      "size": 2115,
+      "mtime_ns": 1791812804646318300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_exportable.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_exportable.py",
+      "size": 318,
+      "mtime_ns": 1791812804647331200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_extern.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_extern.py",
+      "size": 1801,
+      "mtime_ns": 1791812804647331200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_ffi.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_ffi.py",
+      "size": 7054,
+      "mtime_ns": 1791812804648326200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_func.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_func.py",
+      "size": 8334,
+      "mtime_ns": 1791812804649326600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_globals.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_globals.py",
+      "size": 2257,
+      "mtime_ns": 1791812804649326600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_instance.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_instance.py",
+      "size": 3400,
+      "mtime_ns": 1791812804650326300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_instance_pre.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_instance_pre.py",
+      "size": 1912,
+      "mtime_ns": 1791812804650326300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_linker.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_linker.py",
+      "size": 10873,
+      "mtime_ns": 1791812804651326300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_managed.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_managed.py",
+      "size": 2574,
+      "mtime_ns": 1791812804651326300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_memory.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_memory.py",
+      "size": 6115,
+      "mtime_ns": 1791812804652339600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_module.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_module.py",
+      "size": 5898,
+      "mtime_ns": 1791812804652339600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_sharedmemory.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_sharedmemory.py",
+      "size": 2748,
+      "mtime_ns": 1791812804653327000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_slab.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_slab.py",
+      "size": 671,
+      "mtime_ns": 1791812804653327000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_store.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_store.py",
+      "size": 6021,
+      "mtime_ns": 1791812804654332600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_table.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_table.py",
+      "size": 3850,
+      "mtime_ns": 1791812804654332600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_tag.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_tag.py",
+      "size": 1812,
+      "mtime_ns": 1791812804654332600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_trap.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_trap.py",
+      "size": 12495,
+      "mtime_ns": 1791812804655340000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_types.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_types.py",
+      "size": 17626,
+      "mtime_ns": 1791812804655340000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_value.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_value.py",
+      "size": 9509,
+      "mtime_ns": 1791812804656626400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_wasi.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_wasi.py",
+      "size": 7382,
+      "mtime_ns": 1791812804656626400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\_wat2wasm.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/_wat2wasm.py",
+      "size": 1802,
+      "mtime_ns": 1791812804656626400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/__init__.py",
+      "size": 1872,
+      "mtime_ns": 1791812804642897800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_component.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_component.py",
+      "size": 5796,
+      "mtime_ns": 1791812804658971700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_enter.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_enter.py",
+      "size": 1165,
+      "mtime_ns": 1791812804659971100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_func.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_func.py",
+      "size": 2797,
+      "mtime_ns": 1791812804659971100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_instance.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_instance.py",
+      "size": 2198,
+      "mtime_ns": 1791812804661502100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_linker.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_linker.py",
+      "size": 10495,
+      "mtime_ns": 1791812804661502100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_resources.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_resources.py",
+      "size": 4568,
+      "mtime_ns": 1791812804662495800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_resource_type.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_resource_type.py",
+      "size": 1327,
+      "mtime_ns": 1791812804662495800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\_types.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/_types.py",
+      "size": 52344,
+      "mtime_ns": 1791812804663505700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\component\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/component/__init__.py",
+      "size": 1303,
+      "mtime_ns": 1791812804658971700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime\\win32-x86_64\\_wasmtime.dll",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime/win32-x86_64/_wasmtime.dll",
+      "size": 22382592,
+      "mtime_ns": 1791812804744308200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime-49.0.0.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime-49.0.0.dist-info/METADATA",
+      "size": 5074,
+      "mtime_ns": 1791812804745533200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime-49.0.0.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime-49.0.0.dist-info/RECORD",
+      "size": 3345,
+      "mtime_ns": 1791812804747777800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime-49.0.0.dist-info\\top_level.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime-49.0.0.dist-info/top_level.txt",
+      "size": 9,
+      "mtime_ns": 1791812804747777800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime-49.0.0.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime-49.0.0.dist-info/WHEEL",
+      "size": 91,
+      "mtime_ns": 1791812804746766200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\wasmtime-49.0.0.dist-info\\licenses\\LICENSE",
+      "root": "workspace",
+      "rel": "work/tools_v12/wasmtime-49.0.0.dist-info/licenses/LICENSE",
+      "size": 12243,
+      "mtime_ns": 1791812804745533200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_runtime/__init__.py",
+      "size": 6682,
+      "mtime_ns": 1791812800559255800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime-1.96.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_runtime-1.96.dist-info/METADATA",
+      "size": 2431,
+      "mtime_ns": 1791812800561253700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime-1.96.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_runtime-1.96.dist-info/RECORD",
+      "size": 511,
+      "mtime_ns": 1791812800563254200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime-1.96.dist-info\\top_level.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_runtime-1.96.dist-info/top_level.txt",
+      "size": 15,
+      "mtime_ns": 1791812800563254200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime-1.96.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_runtime-1.96.dist-info/WHEEL",
+      "size": 91,
+      "mtime_ns": 1791812800562259200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_runtime-1.96.dist-info\\licenses\\LICENSE.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_runtime-1.96.dist-info/licenses/LICENSE.txt",
+      "size": 763,
+      "mtime_ns": 1791812800560254200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\sby.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/sby.py",
+      "size": 18414,
+      "mtime_ns": 1791812798563318400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\smtbmc.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/smtbmc.py",
+      "size": 73159,
+      "mtime_ns": 1791812798563318400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\witness.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/witness.py",
+      "size": 17279,
+      "mtime_ns": 1791812798564318400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\yosys.wasm",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/yosys.wasm",
+      "size": 21712677,
+      "mtime_ns": 1791812798637895600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\__init__.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/__init__.py",
+      "size": 1325,
+      "mtime_ns": 1791812798562314200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\abc9_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/abc9_map.v",
+      "size": 923,
+      "mtime_ns": 1791812798638904400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\abc9_model.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/abc9_model.v",
+      "size": 653,
+      "mtime_ns": 1791812798639904000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\abc9_unmap.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/abc9_unmap.v",
+      "size": 638,
+      "mtime_ns": 1791812798639904000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\adff2dff.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/adff2dff.v",
+      "size": 575,
+      "mtime_ns": 1791812798640904300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\cells.lib",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/cells.lib",
+      "size": 2432,
+      "mtime_ns": 1791812798642822800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\cmp2lcu.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/cmp2lcu.v",
+      "size": 5260,
+      "mtime_ns": 1791812798642822800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\cmp2lut.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/cmp2lut.v",
+      "size": 2540,
+      "mtime_ns": 1791812798642822800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\cmp2softlogic.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/cmp2softlogic.v",
+      "size": 2716,
+      "mtime_ns": 1791812798644289000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\dff2ff.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/dff2ff.v",
+      "size": 299,
+      "mtime_ns": 1791812798644289000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gate2lut.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gate2lut.v",
+      "size": 1447,
+      "mtime_ns": 1791812798645664300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\mul2dsp.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/mul2dsp.v",
+      "size": 9065,
+      "mtime_ns": 1791812798645664300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\pmux2mux.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/pmux2mux.v",
+      "size": 342,
+      "mtime_ns": 1791812798646669000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\simcells.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/simcells.v",
+      "size": 87795,
+      "mtime_ns": 1791812798646669000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\simlib.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/simlib.v",
+      "size": 67614,
+      "mtime_ns": 1791812798647668900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\smtmap.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/smtmap.v",
+      "size": 654,
+      "mtime_ns": 1791812798648668600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\techmap.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/techmap.v",
+      "size": 16940,
+      "mtime_ns": 1791812798648668600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\achronix\\speedster22i\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/achronix/speedster22i/cells_map.v",
+      "size": 2629,
+      "mtime_ns": 1791812798649669200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\achronix\\speedster22i\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/achronix/speedster22i/cells_sim.v",
+      "size": 2343,
+      "mtime_ns": 1791812798650669200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/arith_map.v",
+      "size": 2473,
+      "mtime_ns": 1791812798650669200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/brams.txt",
+      "size": 1137,
+      "mtime_ns": 1791812798652173500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/brams_map.v",
+      "size": 12152,
+      "mtime_ns": 1791812798652173500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/cells_map.v",
+      "size": 3928,
+      "mtime_ns": 1791812798653179100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/cells_sim.v",
+      "size": 3209,
+      "mtime_ns": 1791812798653179100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\eagle_bb.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/eagle_bb.v",
+      "size": 33586,
+      "mtime_ns": 1791812798653179100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\lutrams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/lutrams.txt",
+      "size": 151,
+      "mtime_ns": 1791812798654683000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\anlogic\\lutrams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/anlogic/lutrams_map.v",
+      "size": 661,
+      "mtime_ns": 1791812798654683000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\choices\\kogge-stone.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/choices/kogge-stone.v",
+      "size": 1583,
+      "mtime_ns": 1791812798656146800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\coolrunner2\\cells_counter_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/coolrunner2/cells_counter_map.v",
+      "size": 4884,
+      "mtime_ns": 1791812798656674400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\coolrunner2\\cells_latch.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/coolrunner2/cells_latch.v",
+      "size": 367,
+      "mtime_ns": 1791812798657679100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\coolrunner2\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/coolrunner2/cells_sim.v",
+      "size": 5435,
+      "mtime_ns": 1791812798657679100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\coolrunner2\\tff_extract.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/coolrunner2/tff_extract.v",
+      "size": 465,
+      "mtime_ns": 1791812798658679100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\coolrunner2\\xc2_dff.lib",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/coolrunner2/xc2_dff.lib",
+      "size": 839,
+      "mtime_ns": 1791812798658679100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/arith_map.v",
+      "size": 2591,
+      "mtime_ns": 1791812798659679300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/brams.txt",
+      "size": 822,
+      "mtime_ns": 1791812798660679700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/brams_map.v",
+      "size": 11917,
+      "mtime_ns": 1791812798660679700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\cells_bb.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/cells_bb.v",
+      "size": 36560,
+      "mtime_ns": 1791812798661679200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\cells_ff.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/cells_ff.vh",
+      "size": 6129,
+      "mtime_ns": 1791812798662678600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\cells_io.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/cells_io.vh",
+      "size": 2055,
+      "mtime_ns": 1791812798662678600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/cells_map.v",
+      "size": 15010,
+      "mtime_ns": 1791812798663679800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/cells_sim.v",
+      "size": 22821,
+      "mtime_ns": 1791812798663679800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/dsp_map.v",
+      "size": 1436,
+      "mtime_ns": 1791812798664679400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\latches_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/latches_map.v",
+      "size": 258,
+      "mtime_ns": 1791812798664679400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\lutrams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/lutrams.txt",
+      "size": 145,
+      "mtime_ns": 1791812798665679400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ecp5\\lutrams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ecp5/lutrams_map.v",
+      "size": 519,
+      "mtime_ns": 1791812798665679400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\efinix\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/efinix/arith_map.v",
+      "size": 2437,
+      "mtime_ns": 1791812798666678400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\efinix\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/efinix/brams.txt",
+      "size": 296,
+      "mtime_ns": 1791812798666678400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\efinix\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/efinix/brams_map.v",
+      "size": 3603,
+      "mtime_ns": 1791812798667678900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\efinix\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/efinix/cells_map.v",
+      "size": 2693,
+      "mtime_ns": 1791812798668678600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\efinix\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/efinix/cells_sim.v",
+      "size": 5392,
+      "mtime_ns": 1791812798669191500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\efinix\\gbuf_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/efinix/gbuf_map.v",
+      "size": 131,
+      "mtime_ns": 1791812798669696400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/arith_map.v",
+      "size": 1385,
+      "mtime_ns": 1791812798669696400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/cells_map.v",
+      "size": 1063,
+      "mtime_ns": 1791812798670701600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\ff_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/ff_map.v",
+      "size": 720,
+      "mtime_ns": 1791812798671187000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\io_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/io_map.v",
+      "size": 290,
+      "mtime_ns": 1791812798671690900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\latches_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/latches_map.v",
+      "size": 258,
+      "mtime_ns": 1791812798674222500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\prims.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/prims.v",
+      "size": 11731,
+      "mtime_ns": 1791812798674222500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\ram_regfile.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/ram_regfile.txt",
+      "size": 782,
+      "mtime_ns": 1791812798675222900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\fabulous\\regfile_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/fabulous/regfile_map.v",
+      "size": 1431,
+      "mtime_ns": 1791812798675222900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/arith_map.v",
+      "size": 2016,
+      "mtime_ns": 1791812798676223000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/brams.txt",
+      "size": 1230,
+      "mtime_ns": 1791812798677223000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\brams_init_20.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/brams_init_20.vh",
+      "size": 4480,
+      "mtime_ns": 1791812798677223000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\brams_init_40.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/brams_init_40.vh",
+      "size": 17970,
+      "mtime_ns": 1791812798678223100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/brams_map.v",
+      "size": 29326,
+      "mtime_ns": 1791812798679222700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\cells_bb.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/cells_bb.v",
+      "size": 3649,
+      "mtime_ns": 1791812798679222700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/cells_sim.v",
+      "size": 65939,
+      "mtime_ns": 1791812798680222500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\inv_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/inv_map.v",
+      "size": 180,
+      "mtime_ns": 1791812798680222500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\lut_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/lut_map.v",
+      "size": 1558,
+      "mtime_ns": 1791812798681223300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\lut_tree_cells.genlib",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/lut_tree_cells.genlib",
+      "size": 6422,
+      "mtime_ns": 1791812798681223300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\lut_tree_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/lut_tree_map.v",
+      "size": 19119,
+      "mtime_ns": 1791812798682223100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\mul_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/mul_map.v",
+      "size": 2029,
+      "mtime_ns": 1791812798682223100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\mux_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/mux_map.v",
+      "size": 1493,
+      "mtime_ns": 1791812798683222800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gatemate\\reg_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gatemate/reg_map.v",
+      "size": 1871,
+      "mtime_ns": 1791812798683222800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/arith_map.v",
+      "size": 2104,
+      "mtime_ns": 1791812798684222900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/brams.txt",
+      "size": 1147,
+      "mtime_ns": 1791812798684222900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/brams_map.v",
+      "size": 8602,
+      "mtime_ns": 1791812798684222900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/cells_map.v",
+      "size": 6100,
+      "mtime_ns": 1791812798685726900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/cells_sim.v",
+      "size": 42925,
+      "mtime_ns": 1791812798686732100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\cells_xtra.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/cells_xtra.v",
+      "size": 100151,
+      "mtime_ns": 1791812798687406300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\lutrams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/lutrams.txt",
+      "size": 160,
+      "mtime_ns": 1791812798687935300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\gowin\\lutrams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/gowin/lutrams_map.v",
+      "size": 1122,
+      "mtime_ns": 1791812798687935300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_blackbox.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_blackbox.v",
+      "size": 365,
+      "mtime_ns": 1791812798688940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_latch.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_latch.v",
+      "size": 248,
+      "mtime_ns": 1791812798688940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_map.v",
+      "size": 5298,
+      "mtime_ns": 1791812798689940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_sim.v",
+      "size": 105,
+      "mtime_ns": 1791812798689940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_sim_ams.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_sim_ams.v",
+      "size": 2072,
+      "mtime_ns": 1791812798690940100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_sim_digital.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_sim_digital.v",
+      "size": 15006,
+      "mtime_ns": 1791812798691940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\cells_sim_wip.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/cells_sim_wip.v",
+      "size": 2926,
+      "mtime_ns": 1791812798691940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\greenpak4\\gp_dff.lib",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/greenpak4/gp_dff.lib",
+      "size": 998,
+      "mtime_ns": 1791812798692940000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\abc9_model.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/abc9_model.v",
+      "size": 3612,
+      "mtime_ns": 1791812798692940000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/arith_map.v",
+      "size": 2172,
+      "mtime_ns": 1791812798693940100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/brams.txt",
+      "size": 300,
+      "mtime_ns": 1791812798693940100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/brams_map.v",
+      "size": 3958,
+      "mtime_ns": 1791812798694940100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/cells_map.v",
+      "size": 1087,
+      "mtime_ns": 1791812798695940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/cells_sim.v",
+      "size": 153943,
+      "mtime_ns": 1791812798695940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/dsp_map.v",
+      "size": 789,
+      "mtime_ns": 1791812798696940200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\ff_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/ff_map.v",
+      "size": 3043,
+      "mtime_ns": 1791812798697940200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\latches_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/latches_map.v",
+      "size": 258,
+      "mtime_ns": 1791812798697940200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\spram.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/spram.txt",
+      "size": 153,
+      "mtime_ns": 1791812798697940200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\ice40\\spram_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/ice40/spram_map.v",
+      "size": 475,
+      "mtime_ns": 1791812798698939600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/cxxrtl.h",
+      "size": 70249,
+      "mtime_ns": 1791812798700939900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl_replay.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/cxxrtl_replay.h",
+      "size": 29990,
+      "mtime_ns": 1791812798701940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl_time.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/cxxrtl_time.h",
+      "size": 6174,
+      "mtime_ns": 1791812798701940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl_vcd.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/cxxrtl_vcd.h",
+      "size": 8488,
+      "mtime_ns": 1791812798702940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\capi\\cxxrtl_capi.cc",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/capi/cxxrtl_capi.cc",
+      "size": 4549,
+      "mtime_ns": 1791812798703939500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\capi\\cxxrtl_capi.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/capi/cxxrtl_capi.h",
+      "size": 16521,
+      "mtime_ns": 1791812798704940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\capi\\cxxrtl_capi_vcd.cc",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/capi/cxxrtl_capi_vcd.cc",
+      "size": 2815,
+      "mtime_ns": 1791812798704940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\capi\\cxxrtl_capi_vcd.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/capi/cxxrtl_capi_vcd.h",
+      "size": 4286,
+      "mtime_ns": 1791812798705940600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\backends\\rtlil\\rtlil_backend.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/backends/rtlil/rtlil_backend.h",
+      "size": 2407,
+      "mtime_ns": 1791812798706939900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\frontends\\ast\\ast.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/frontends/ast/ast.h",
+      "size": 16974,
+      "mtime_ns": 1791812798707940000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\frontends\\ast\\ast_binding.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/frontends/ast/ast_binding.h",
+      "size": 1756,
+      "mtime_ns": 1791812798707940000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\frontends\\blif\\blifparse.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/frontends/blif/blifparse.h",
+      "size": 1139,
+      "mtime_ns": 1791812798708940500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\binding.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/binding.h",
+      "size": 1947,
+      "mtime_ns": 1791812798709940000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\cellaigs.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/cellaigs.h",
+      "size": 1349,
+      "mtime_ns": 1791812798710940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\celledges.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/celledges.h",
+      "size": 2216,
+      "mtime_ns": 1791812798710940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\celltypes.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/celltypes.h",
+      "size": 18323,
+      "mtime_ns": 1791812798711939600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\consteval.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/consteval.h",
+      "size": 10913,
+      "mtime_ns": 1791812798711939600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\constids.inc",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/constids.inc",
+      "size": 3525,
+      "mtime_ns": 1791812798712940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\cost.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/cost.h",
+      "size": 3104,
+      "mtime_ns": 1791812798712940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\ff.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/ff.h",
+      "size": 7574,
+      "mtime_ns": 1791812798713940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\ffinit.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/ffinit.h",
+      "size": 3473,
+      "mtime_ns": 1791812798713940300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\ffmerge.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/ffmerge.h",
+      "size": 6305,
+      "mtime_ns": 1791812798714939600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\fmt.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/fmt.h",
+      "size": 2790,
+      "mtime_ns": 1791812798714939600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\hashlib.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/hashlib.h",
+      "size": 30207,
+      "mtime_ns": 1791812798715940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\json.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/json.h",
+      "size": 2851,
+      "mtime_ns": 1791812798715940400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\log.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/log.h",
+      "size": 15373,
+      "mtime_ns": 1791812798717444600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\macc.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/macc.h",
+      "size": 6991,
+      "mtime_ns": 1791812798717444600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\mem.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/mem.h",
+      "size": 9176,
+      "mtime_ns": 1791812798718448900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\modtools.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/modtools.h",
+      "size": 14281,
+      "mtime_ns": 1791812798718448900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\qcsat.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/qcsat.h",
+      "size": 2804,
+      "mtime_ns": 1791812798719457600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\register.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/register.h",
+      "size": 5482,
+      "mtime_ns": 1791812798719457600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\rtlil.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/rtlil.h",
+      "size": 84899,
+      "mtime_ns": 1791812798720448500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\satgen.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/satgen.h",
+      "size": 10483,
+      "mtime_ns": 1791812798720448500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\scopeinfo.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/scopeinfo.h",
+      "size": 11230,
+      "mtime_ns": 1791812798721449000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\sigtools.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/sigtools.h",
+      "size": 7504,
+      "mtime_ns": 1791812798721449000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\timinginfo.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/timinginfo.h",
+      "size": 7100,
+      "mtime_ns": 1791812798722448700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\utils.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/utils.h",
+      "size": 6824,
+      "mtime_ns": 1791812798723448900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\yosys.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/yosys.h",
+      "size": 3421,
+      "mtime_ns": 1791812798723448900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\yosys_common.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/yosys_common.h",
+      "size": 11332,
+      "mtime_ns": 1791812798723448900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\kernel\\yw.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/kernel/yw.h",
+      "size": 5429,
+      "mtime_ns": 1791812798724449500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\libs\\ezsat\\ezminisat.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/libs/ezsat/ezminisat.h",
+      "size": 2098,
+      "mtime_ns": 1791812798725448700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\libs\\ezsat\\ezsat.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/libs/ezsat/ezsat.h",
+      "size": 14523,
+      "mtime_ns": 1791812798726449300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\libs\\json11\\json11.hpp",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/libs/json11/json11.hpp",
+      "size": 9268,
+      "mtime_ns": 1791812798727449400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\libs\\sha1\\sha1.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/libs/sha1/sha1.h",
+      "size": 1382,
+      "mtime_ns": 1791812798727449400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\include\\passes\\fsm\\fsmdata.h",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/include/passes/fsm/fsmdata.h",
+      "size": 6753,
+      "mtime_ns": 1791812798728449400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\common\\altpll_bb.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/common/altpll_bb.v",
+      "size": 14302,
+      "mtime_ns": 1791812798729449300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\common\\brams_m9k.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/common/brams_m9k.txt",
+      "size": 518,
+      "mtime_ns": 1791812798730449400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\common\\brams_map_m9k.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/common/brams_map_m9k.v",
+      "size": 4319,
+      "mtime_ns": 1791812798730449400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\common\\ff_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/common/ff_map.v",
+      "size": 630,
+      "mtime_ns": 1791812798731448700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\common\\m9k_bb.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/common/m9k_bb.v",
+      "size": 3076,
+      "mtime_ns": 1791812798731448700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\cyclone10lp\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/cyclone10lp/cells_map.v",
+      "size": 3442,
+      "mtime_ns": 1791812798732952300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\cyclone10lp\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/cyclone10lp/cells_sim.v",
+      "size": 4373,
+      "mtime_ns": 1791812798732952300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\cycloneiv\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/cycloneiv/cells_map.v",
+      "size": 2302,
+      "mtime_ns": 1791812798734428900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\cycloneiv\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/cycloneiv/cells_sim.v",
+      "size": 9690,
+      "mtime_ns": 1791812798734428900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\cycloneive\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/cycloneive/cells_map.v",
+      "size": 3437,
+      "mtime_ns": 1791812798735838300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\cycloneive\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/cycloneive/cells_sim.v",
+      "size": 9839,
+      "mtime_ns": 1791812798736845400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\max10\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/max10/cells_map.v",
+      "size": 2318,
+      "mtime_ns": 1791812798737845400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel\\max10\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel/max10/cells_sim.v",
+      "size": 9538,
+      "mtime_ns": 1791812798737845400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\abc9_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/abc9_map.v",
+      "size": 632,
+      "mtime_ns": 1791812798738847100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\abc9_model.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/abc9_model.v",
+      "size": 342,
+      "mtime_ns": 1791812798739845900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\abc9_unmap.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/abc9_unmap.v",
+      "size": 352,
+      "mtime_ns": 1791812798739845900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\alm_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/alm_map.v",
+      "size": 1504,
+      "mtime_ns": 1791812798740845600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\alm_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/alm_sim.v",
+      "size": 16659,
+      "mtime_ns": 1791812798741845100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\arith_alm_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/arith_alm_map.v",
+      "size": 2096,
+      "mtime_ns": 1791812798741845100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\bram_m10k.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/bram_m10k.txt",
+      "size": 578,
+      "mtime_ns": 1791812798741845100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\bram_m10k_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/bram_m10k_map.v",
+      "size": 746,
+      "mtime_ns": 1791812798743350100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\bram_m20k.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/bram_m20k.txt",
+      "size": 780,
+      "mtime_ns": 1791812798743350100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\bram_m20k_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/bram_m20k_map.v",
+      "size": 696,
+      "mtime_ns": 1791812798744354800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\dff_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/dff_map.v",
+      "size": 579,
+      "mtime_ns": 1791812798744354800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\dff_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/dff_sim.v",
+      "size": 4803,
+      "mtime_ns": 1791812798744354800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/dsp_map.v",
+      "size": 891,
+      "mtime_ns": 1791812798745354500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\dsp_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/dsp_sim.v",
+      "size": 2238,
+      "mtime_ns": 1791812798746354600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\lutram_mlab.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/lutram_mlab.txt",
+      "size": 316,
+      "mtime_ns": 1791812798746354600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\megafunction_bb.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/megafunction_bb.v",
+      "size": 23589,
+      "mtime_ns": 1791812798747354300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\mem_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/mem_sim.v",
+      "size": 5317,
+      "mtime_ns": 1791812798747354300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\misc_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/misc_sim.v",
+      "size": 562,
+      "mtime_ns": 1791812798748355000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\common\\quartus_rename.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/common/quartus_rename.v",
+      "size": 7552,
+      "mtime_ns": 1791812798748355000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\intel_alm\\cyclonev\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/intel_alm/cyclonev/cells_sim.v",
+      "size": 5522,
+      "mtime_ns": 1791812798749354900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\arith_map_ccu2c.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/arith_map_ccu2c.v",
+      "size": 2592,
+      "mtime_ns": 1791812798750355100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\arith_map_ccu2d.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/arith_map_ccu2d.v",
+      "size": 2596,
+      "mtime_ns": 1791812798750355100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\brams_16kd.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/brams_16kd.txt",
+      "size": 812,
+      "mtime_ns": 1791812798751355100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\brams_8kc.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/brams_8kc.txt",
+      "size": 917,
+      "mtime_ns": 1791812798751355100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\brams_map_16kd.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/brams_map_16kd.v",
+      "size": 11907,
+      "mtime_ns": 1791812798752355100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\brams_map_8kc.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/brams_map_8kc.v",
+      "size": 8100,
+      "mtime_ns": 1791812798752859200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\ccu2c_sim.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/ccu2c_sim.vh",
+      "size": 1624,
+      "mtime_ns": 1791812798752859200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\ccu2d_sim.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/ccu2d_sim.vh",
+      "size": 1083,
+      "mtime_ns": 1791812798753864200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_bb_ecp5.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_bb_ecp5.v",
+      "size": 61140,
+      "mtime_ns": 1791812798754864200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_bb_xo2.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_bb_xo2.v",
+      "size": 20410,
+      "mtime_ns": 1791812798754864200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_bb_xo3.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_bb_xo3.v",
+      "size": 20410,
+      "mtime_ns": 1791812798755865000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_bb_xo3d.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_bb_xo3d.v",
+      "size": 20429,
+      "mtime_ns": 1791812798755865000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_ff.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_ff.vh",
+      "size": 6129,
+      "mtime_ns": 1791812798756863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_io.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_io.vh",
+      "size": 2055,
+      "mtime_ns": 1791812798756863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_map.v",
+      "size": 15010,
+      "mtime_ns": 1791812798757864700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_sim_ecp5.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_sim_ecp5.v",
+      "size": 125,
+      "mtime_ns": 1791812798758863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_sim_xo2.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_sim_xo2.v",
+      "size": 125,
+      "mtime_ns": 1791812798758863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_sim_xo3.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_sim_xo3.v",
+      "size": 125,
+      "mtime_ns": 1791812798758863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\cells_sim_xo3d.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/cells_sim_xo3d.v",
+      "size": 125,
+      "mtime_ns": 1791812798759864300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\common_sim.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/common_sim.vh",
+      "size": 9492,
+      "mtime_ns": 1791812798760863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\dsp_map_18x18.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/dsp_map_18x18.v",
+      "size": 1436,
+      "mtime_ns": 1791812798760863700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\latches_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/latches_map.v",
+      "size": 258,
+      "mtime_ns": 1791812798761864100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\lutrams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/lutrams.txt",
+      "size": 145,
+      "mtime_ns": 1791812798761864100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\lattice\\lutrams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/lattice/lutrams_map.v",
+      "size": 519,
+      "mtime_ns": 1791812798761864100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/arith_map.v",
+      "size": 2804,
+      "mtime_ns": 1791812798763270700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/brams.txt",
+      "size": 882,
+      "mtime_ns": 1791812798764275200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/brams_map.v",
+      "size": 15615,
+      "mtime_ns": 1791812798764275200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/cells_map.v",
+      "size": 3947,
+      "mtime_ns": 1791812798765276500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/cells_sim.v",
+      "size": 25106,
+      "mtime_ns": 1791812798766274500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\cells_xtra.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/cells_xtra.v",
+      "size": 1161486,
+      "mtime_ns": 1791812798768274600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/dsp_map.v",
+      "size": 1671,
+      "mtime_ns": 1791812798769275700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\latches_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/latches_map.v",
+      "size": 258,
+      "mtime_ns": 1791812798769275700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\lrams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/lrams.txt",
+      "size": 324,
+      "mtime_ns": 1791812798770275400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\lrams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/lrams_map.v",
+      "size": 8557,
+      "mtime_ns": 1791812798770275400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\lutrams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/lutrams.txt",
+      "size": 148,
+      "mtime_ns": 1791812798771275600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\lutrams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/lutrams_map.v",
+      "size": 428,
+      "mtime_ns": 1791812798771275600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\nexus\\parse_init.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/nexus/parse_init.vh",
+      "size": 855,
+      "mtime_ns": 1791812798772275900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_autotune.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_autotune.py",
+      "size": 25322,
+      "mtime_ns": 1791812798773275200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_cmdline.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_cmdline.py",
+      "size": 5074,
+      "mtime_ns": 1791812798773275200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_core.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_core.py",
+      "size": 60212,
+      "mtime_ns": 1791812798774275500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_design.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_design.py",
+      "size": 9351,
+      "mtime_ns": 1791812798774275500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_engine_abc.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_engine_abc.py",
+      "size": 9173,
+      "mtime_ns": 1791812798775274900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_engine_aiger.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_engine_aiger.py",
+      "size": 9073,
+      "mtime_ns": 1791812798776276300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_engine_btor.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_engine_btor.py",
+      "size": 11088,
+      "mtime_ns": 1791812798776276300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_engine_smtbmc.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_engine_smtbmc.py",
+      "size": 11979,
+      "mtime_ns": 1791812798777275200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_jobserver.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_jobserver.py",
+      "size": 12066,
+      "mtime_ns": 1791812798777275200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_mode_bmc.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_mode_bmc.py",
+      "size": 1908,
+      "mtime_ns": 1791812798778275600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_mode_cover.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_mode_cover.py",
+      "size": 1598,
+      "mtime_ns": 1791812798778275600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_mode_live.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_mode_live.py",
+      "size": 1491,
+      "mtime_ns": 1791812798778275600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_mode_prove.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_mode_prove.py",
+      "size": 1941,
+      "mtime_ns": 1791812798779779700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_sim.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_sim.py",
+      "size": 4403,
+      "mtime_ns": 1791812798779779700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\sby_status.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/sby_status.py",
+      "size": 10946,
+      "mtime_ns": 1791812798780784900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\smtio.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/smtio.py",
+      "size": 48097,
+      "mtime_ns": 1791812798780784900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\python3\\ywio.py",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/python3/ywio.py",
+      "size": 12442,
+      "mtime_ns": 1791812798781784900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\common\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/common/cells_sim.v",
+      "size": 366,
+      "mtime_ns": 1791812798782784400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\abc9_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/abc9_map.v",
+      "size": 771,
+      "mtime_ns": 1791812798783784500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\abc9_model.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/abc9_model.v",
+      "size": 197,
+      "mtime_ns": 1791812798784784300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\abc9_unmap.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/abc9_unmap.v",
+      "size": 384,
+      "mtime_ns": 1791812798784784300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/cells_map.v",
+      "size": 499,
+      "mtime_ns": 1791812798785784500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/cells_sim.v",
+      "size": 7927,
+      "mtime_ns": 1791812798786784700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\ffs_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/ffs_map.v",
+      "size": 194,
+      "mtime_ns": 1791812798786784700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\latches_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/latches_map.v",
+      "size": 258,
+      "mtime_ns": 1791812798787784700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\pp3\\lut_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/pp3/lut_map.v",
+      "size": 928,
+      "mtime_ns": 1791812798787784700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/arith_map.v",
+      "size": 2560,
+      "mtime_ns": 1791812798788784800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/brams_map.v",
+      "size": 103558,
+      "mtime_ns": 1791812798793293500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\brams_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/brams_sim.v",
+      "size": 339634,
+      "mtime_ns": 1791812798794293800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\bram_types_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/bram_types_sim.v",
+      "size": 2551774,
+      "mtime_ns": 1791812798792293200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/cells_sim.v",
+      "size": 7347,
+      "mtime_ns": 1791812798794293800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\dsp_final_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/dsp_final_map.v",
+      "size": 7384,
+      "mtime_ns": 1791812798795293700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/dsp_map.v",
+      "size": 3086,
+      "mtime_ns": 1791812798795293700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\dsp_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/dsp_sim.v",
+      "size": 107262,
+      "mtime_ns": 1791812798796640100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\ffs_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/ffs_map.v",
+      "size": 3133,
+      "mtime_ns": 1791812798797644600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\libmap_brams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/libmap_brams.txt",
+      "size": 352,
+      "mtime_ns": 1791812798797644600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\libmap_brams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/libmap_brams_map.v",
+      "size": 14121,
+      "mtime_ns": 1791812798797644600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\sram1024x18_mem.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/sram1024x18_mem.v",
+      "size": 1128,
+      "mtime_ns": 1791812798798644600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\TDP18K_FIFO.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/TDP18K_FIFO.v",
+      "size": 10404,
+      "mtime_ns": 1791812798788784800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\quicklogic\\qlf_k6n10f\\ufifo_ctl.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/quicklogic/qlf_k6n10f/ufifo_ctl.v",
+      "size": 19068,
+      "mtime_ns": 1791812798798644600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\sf2\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/sf2/arith_map.v",
+      "size": 1942,
+      "mtime_ns": 1791812798799644800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\sf2\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/sf2/cells_map.v",
+      "size": 1745,
+      "mtime_ns": 1791812798799644800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\sf2\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/sf2/cells_sim.v",
+      "size": 8449,
+      "mtime_ns": 1791812798800899300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\abc9_model.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/abc9_model.v",
+      "size": 1497,
+      "mtime_ns": 1791812798801903900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\arith_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/arith_map.v",
+      "size": 4593,
+      "mtime_ns": 1791812798801903900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_defs.vh",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_defs.vh",
+      "size": 15515,
+      "mtime_ns": 1791812798802904000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc2v.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc2v.txt",
+      "size": 665,
+      "mtime_ns": 1791812798802904000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc2v_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc2v_map.v",
+      "size": 11752,
+      "mtime_ns": 1791812798803903200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc3sda.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc3sda.txt",
+      "size": 2357,
+      "mtime_ns": 1791812798804904400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc3sda_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc3sda_map.v",
+      "size": 5591,
+      "mtime_ns": 1791812798804904400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc4v.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc4v.txt",
+      "size": 3268,
+      "mtime_ns": 1791812798805904600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc4v_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc4v_map.v",
+      "size": 3501,
+      "mtime_ns": 1791812798805904600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc5v_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc5v_map.v",
+      "size": 5590,
+      "mtime_ns": 1791812798806903600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xc6v_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xc6v_map.v",
+      "size": 7211,
+      "mtime_ns": 1791812798806903600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xcu_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xcu_map.v",
+      "size": 5949,
+      "mtime_ns": 1791812798807904000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xcv.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xcv.txt",
+      "size": 302,
+      "mtime_ns": 1791812798807904000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\brams_xcv_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/brams_xcv_map.v",
+      "size": 5210,
+      "mtime_ns": 1791812798808903800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\cells_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/cells_map.v",
+      "size": 16017,
+      "mtime_ns": 1791812798808903800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\cells_sim.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/cells_sim.v",
+      "size": 161270,
+      "mtime_ns": 1791812798809904200,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\cells_xtra.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/cells_xtra.v",
+      "size": 1375136,
+      "mtime_ns": 1791812798812412800,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\ff_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/ff_map.v",
+      "size": 4943,
+      "mtime_ns": 1791812798813413100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\lutrams_xc5v.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/lutrams_xc5v.txt",
+      "size": 1364,
+      "mtime_ns": 1791812798814413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\lutrams_xc5v_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/lutrams_xc5v_map.v",
+      "size": 19522,
+      "mtime_ns": 1791812798815413300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\lutrams_xcu.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/lutrams_xcu.txt",
+      "size": 2167,
+      "mtime_ns": 1791812798815413300,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\lutrams_xcv.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/lutrams_xcv.txt",
+      "size": 797,
+      "mtime_ns": 1791812798816413100,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\lutrams_xcv_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/lutrams_xcv_map.v",
+      "size": 3209,
+      "mtime_ns": 1791812798817413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\lut_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/lut_map.v",
+      "size": 3503,
+      "mtime_ns": 1791812798814413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\mux_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/mux_map.v",
+      "size": 2498,
+      "mtime_ns": 1791812798817413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\urams.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/urams.txt",
+      "size": 617,
+      "mtime_ns": 1791812798817413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\urams_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/urams_map.v",
+      "size": 3552,
+      "mtime_ns": 1791812798818413600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xc3sda_dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xc3sda_dsp_map.v",
+      "size": 560,
+      "mtime_ns": 1791812798819413700,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xc3s_mult_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xc3s_mult_map.v",
+      "size": 266,
+      "mtime_ns": 1791812798818413600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xc4v_dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xc4v_dsp_map.v",
+      "size": 661,
+      "mtime_ns": 1791812798820412900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xc5v_dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xc5v_dsp_map.v",
+      "size": 785,
+      "mtime_ns": 1791812798820412900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xc6s_dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xc6s_dsp_map.v",
+      "size": 562,
+      "mtime_ns": 1791812798820412900,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xc7_dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xc7_dsp_map.v",
+      "size": 884,
+      "mtime_ns": 1791812798821413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys\\share\\xilinx\\xcu_dsp_map.v",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys/share/xilinx/xcu_dsp_map.v",
+      "size": 882,
+      "mtime_ns": 1791812798821413400,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys-0.40.0.0.post707.dist-info\\entry_points.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys-0.40.0.0.post707.dist-info/entry_points.txt",
+      "size": 220,
+      "mtime_ns": 1791812798823413500,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys-0.40.0.0.post707.dist-info\\METADATA",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys-0.40.0.0.post707.dist-info/METADATA",
+      "size": 2607,
+      "mtime_ns": 1791812798822413600,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys-0.40.0.0.post707.dist-info\\RECORD",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys-0.40.0.0.post707.dist-info/RECORD",
+      "size": 29644,
+      "mtime_ns": 1791812798824415000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys-0.40.0.0.post707.dist-info\\top_level.txt",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys-0.40.0.0.post707.dist-info/top_level.txt",
+      "size": 13,
+      "mtime_ns": 1791812798824415000,
+      "reason": "third-party dependency/cache directory"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12\\yowasp_yosys-0.40.0.0.post707.dist-info\\WHEEL",
+      "root": "workspace",
+      "rel": "work/tools_v12/yowasp_yosys-0.40.0.0.post707.dist-info/WHEEL",
+      "size": 92,
+      "mtime_ns": 1791812798823413500,
+      "reason": "third-party dependency/cache directory"
+    }
+  ]
+}

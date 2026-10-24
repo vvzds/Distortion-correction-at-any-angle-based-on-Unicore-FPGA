@@ -1,0 +1,10 @@
+{
+  "state": "PASS",
+  "objects_checked": 14518,
+  "file_aliases": 188336,
+  "remote_git_objects_content_verified": 775,
+  "pack_hashes_checked": 65,
+  "chunks_checked": 66255,
+  "errors": [],
+  "method": "All object recipes decoded; every resulting SHA256 and size checked. Reused Git references checked by exact Git blob SHA1 against local bytes; no large remote redownload needed."
+}

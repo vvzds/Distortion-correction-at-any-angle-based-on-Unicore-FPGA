@@ -1,0 +1,1174 @@
+{
+  "00_TASK_BRIEF_uart_host_tool_VERSION_.md": {
+    "highest_declared_version": "1.0",
+    "versions": [
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "17f4acaaa9bae43c4cf20d149ea4facab6c100780335646eda53083622eeaf08",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/current/host/UART_HOST_TOOL/reference_original/00_TASK_BRIEF_uart_host_tool_v1.0.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "00_TASK_BRIEF_undistort_core_VERSION_.md": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "38ba4867b03f86b615d9aabb76d371dbbe20469efb8410dac33bc9f3b91f3fed",
+            "root": "pds_yx",
+            "rel": "undistort_core_stage2_v1.2/verification/reference_package/00_TASK_BRIEF_undistort_core_v1.1.md"
+          },
+          {
+            "git_oid": "a601df7dbfd68cd1c9801376e3aadacb37386d6d",
+            "path": "deliverables/20261024/contributor_01_additions/payload/calibration/brown4_1080p30/received/G4/verification/reference_package/00_TASK_BRIEF_undistort_core_v1.1.md",
+            "commit": "6534f42ea0f5ef51b954389cf3f5ab07cdaf95f7"
+          }
+        ]
+      },
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "2a17f0954fc4576c9a958ba44e13015d1f82738fbb665ed75e6d1dacc4f2b617",
+            "root": "pds_last",
+            "rel": "collab2_undistort_core_task_pkg_v1.0/00_TASK_BRIEF_undistort_core_v1.0.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "05_FPGA&CPLD的下载与固化_VERSION_.pdf": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "0481ab05aa263c44d064f1eda76dc10a627f4ec5328bb2453880ceb20e9887cf",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/1_Demo_document/工具使用篇/05_FPGA&CPLD的下载与固化_v1.1.pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "108030sty_basic1_fwd_VERSION_.sbit": {
+    "highest_declared_version": "1.4",
+    "versions": [
+      {
+        "version": "1.4",
+        "candidates": [
+          {
+            "sha256": "4be96b0847b26d8fcc8930348a27cf79465343ef6fd9e43bde5ed4d98b99427e",
+            "root": "pds_sty",
+            "rel": "sty/108030sty_basic1_fwd_v1.4.sbit"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "79914cdd-ae67-45ab-8176-ca6808aa5179_45e49061-aeae-4c3d-9a3e-2225085ebafc_uart_host_tool_VERSION__tlimfix.zip": {
+    "highest_declared_version": "1.0",
+    "versions": [
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "c10527a636d3b109c7870092017158dee7d294a2fffeef1189b1d9700a75f993",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/archives/79914cdd-ae67-45ab-8176-ca6808aa5179_45e49061-aeae-4c3d-9a3e-2225085ebafc_uart_host_tool_v1.0_tlimfix_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "AN04002 Logos2系列FPGA远程升级应用指南_VERSION_.pdf": {
+    "highest_declared_version": "1.4",
+    "versions": [
+      {
+        "version": "1.4",
+        "candidates": [
+          {
+            "sha256": "c7afd9fabec3b063790d49079636b11a5e36664e10ac6e4c29409b8c797f3fd4",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/9_远程升级/FPGA_remote_update/doc/AN04002 Logos2系列FPGA远程升级应用指南_V1.4.pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "E8_复跑与_VERSION_接收回复_二号.md": {
+    "highest_declared_version": "1.5",
+    "versions": [
+      {
+        "version": "1.5",
+        "candidates": [
+          {
+            "sha256": "de0d1901573579340a22a05f863d35e22dceb88eeb57a30dcb98d3f2f6b0ab50",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/historical_reviews/e8/E8_复跑与V1.5接收回复_二号_20261019.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "FMC-base-_VERSION_-24-12-10(200K).pdf": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "eb97a5574aaf016b6df847f58ec172ff7b3f589dda1efc2f2280d4bf09e70f56",
+            "root": "pds_resouce",
+            "rel": "OV5640双目摄像头资料/实验例程4-基于100Pro+开发板/FMC+双目Demo/3_Hardware/FMC-base-V1.1-24-12-10(200K)-20241225.pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "FPGA_CFG_JTAG_DEMO_VERSION_z": {
+    "highest_declared_version": "1.0.7",
+    "versions": [
+      {
+        "version": "1.0.7",
+        "candidates": [
+          {
+            "sha256": "23e844042f8b401ac1b388298ab6b64cae9c728031f3065ed4e117ab1ef73a0c",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/9_远程升级/FPGA jtag远程升级方案/FPGA_CFG_JTAG_DEMO_V1.0.7z"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "LOGOS2远程升级_VERSION_z": {
+    "highest_declared_version": "1.4.7",
+    "versions": [
+      {
+        "version": "1.4.7",
+        "candidates": [
+          {
+            "sha256": "e52225d88080ac52d810711e2e7cda827fc63f84b97e31a0d297dcf15fa851f0",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/9_远程升级/FPGA jtag远程升级方案/LOGOS2远程升级V1.4.7z"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "M01_新帧发布率观测与回放_VERSION__软件候选.zip": {
+    "highest_declared_version": "1.0",
+    "versions": [
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "015d154caf10d92ee60fc818da7508cbce8891f7a883cb8b81c2a2f506524a3c",
+            "root": "desktop_yx",
+            "rel": "整机候选核对_1080p30_二号给管理方_20261024/G4_1080p30_整机候选核对包_二号给管理方_20261024/04_参数与串口工具/M01_既有工具_本轮未实测/M01_新帧发布率观测与回放_v1.0_软件候选_20261023.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "MES-FMC-LPC-IO硬件使用手册_VERSION_.pdf": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "850b5aab8986f045d53e554e1184da1f8cc2649d352bb53aaf3cec92b9482324",
+            "root": "pds_resouce",
+            "rel": "OV5640双目摄像头资料/实验例程4-基于100Pro+开发板/FMC+双目Demo/3_Hardware/MES-FMC-LPC-IO硬件使用手册_v1.1(0408).pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "MES-LPC-IO _VERSION_- 点位图.pdf": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "f50aff03457692265322d3cf9a9217b9496b9b547741c0f727bb096cd506f3ec",
+            "root": "pds_resouce",
+            "rel": "OV5640双目摄像头资料/实验例程4-基于100Pro+开发板/FMC+双目Demo/3_Hardware/MES-LPC-IO V1.1- 20250210点位图.pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "MES2L676-BASE-_VERSION_-供客户做底板.pcb": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "5e5ef81c5cd1e67875c8426a111178169bb40bb9129e65c4e44e83786987df78",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/3_Hardware/MES2L676底板设计资料/MES2L676-BASE-V1.2-供客户做底板.pcb"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "MES2L676-BASE-_VERSION_-供客户做底板.sch": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "eb49c64fdaf3a08e4b9a8affceab7a63ca7754ef9dd67ad9ec28664aad1a864f",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/3_Hardware/MES2L676底板设计资料/MES2L676-BASE-V1.2-供客户做底板.sch"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "MES2L676-BASE-_VERSION_-点位图.pdf": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "24beef76b455b7ce81cb210eb2af2e53bace16f2bd572d81c1017035fa457c6d",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/3_Hardware/点位图/MES2L676-BASE-V1.2-点位图.pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "MES2L676-CORE-_VERSION_-点位图.pdf": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "12463b2c668549d4d6a9a9132796124bd474236f84f13b6b1bc398a0cdf3deb8",
+            "root": "pds_resouce",
+            "rel": "盘古100Pro+开发板（MES2L676-100HP）配套资料/3_Hardware/点位图/MES2L676-CORE-V1.2-点位图.pdf"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "T02_VERSION__合并正文.md": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "git_oid": "b5164298c7daea0f97112b0bb4b6bb6c7e0b683a",
+            "path": "deliverables/20261024/AB_review_20261024/package/T02/T02_V1.1_合并正文.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "UART参数协议规格_VERSION_.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "0fd8ee46f5af54bf9cf62efa646c3de5c453ef49c7dd1abb61f6552dd1a1a964",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/current/host/docs/UART参数协议规格_V1.2.md"
+          },
+          {
+            "git_oid": "f4cdf8c5979a561f11f018d388982dec2b8cb74f",
+            "path": "uart_host_tool/UART参数协议规格_V1.2.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "_VERSION__总说明接收核对回复_二号.md": {
+    "highest_declared_version": "1.4",
+    "versions": [
+      {
+        "version": "1.4",
+        "candidates": [
+          {
+            "sha256": "604b6445f8998217eb5c16db1d3b3416169109dc23038f58f68afbb0f8cb5297",
+            "root": "workspace",
+            "rel": "work/v14_status_review_20261019/V1.4_总说明接收核对回复_二号_20261019.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "_VERSION__接收核对记录_二号.md": {
+    "highest_declared_version": "1.6",
+    "versions": [
+      {
+        "version": "1.6",
+        "candidates": [
+          {
+            "sha256": "abcf6508b8f79cb0ac01b5abf85fa9018c94666850664dacbe2891392115813d",
+            "root": "workspace",
+            "rel": "work/v16_status_review_20261019/V1.6_接收核对记录_二号_20261019.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "_VERSION_裁定_状态增补_二号.md": {
+    "highest_declared_version": "1.6",
+    "versions": [
+      {
+        "version": "1.6",
+        "candidates": [
+          {
+            "sha256": "d878c2c1326f412444f7613eb48d6ef1d5a474448c6055ee30ab574b33711c29",
+            "root": "workspace",
+            "rel": "work/v16_status_review_20261019/V1.6裁定_状态增补_二号_20261019.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "collab2_undistort_core_task_pkg_VERSION_.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "6e8b1ea52d6073ca8917bbb2d7dea6807a6681feabbac673b56c9db0d86c7712",
+            "root": "wechat_file_2026-10",
+            "rel": "collab2_undistort_core_task_pkg_v1.2(1).zip"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "422b7d4be386ae561860cfb02c41d843751ecba2a2a56bed71658bcc067ac6a8",
+            "root": "pds_sty",
+            "rel": "collab2_undistort_core_task_pkg_v1.1.zip"
+          }
+        ]
+      },
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "8c286fc7c1500d096e403ab975f5b5b8717d27e5ecdf77f32e4ef9703d8317be",
+            "root": "pds_last",
+            "rel": "collab2_undistort_core_task_pkg_v1.0.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "rect_wr_if_VERSION__问题回传表_设计方回复.md": {
+    "highest_declared_version": "1.0",
+    "versions": [
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "33cc89b4332c2cccb913bdde0b3dd636cc000120241a9d74d18731a4cc34d069",
+            "root": "wechat_file_2026-10",
+            "rel": "rect_wr_if_V1.0_问题回传表_设计方回复_20261015(1).md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "status_map_VERSION_.json": {
+    "highest_declared_version": "1.2.1",
+    "versions": [
+      {
+        "version": "1.2.1",
+        "candidates": [
+          {
+            "sha256": "26df15094ca4744defd8e92981871132e7b58a966a872411ff1fa6cb3cb89f73",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/current/refill/status_map_V1.2.1.json"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "e715dda91b072ece6d12f9766ae64d9a785a6b9026b69719abb444bbc60b807b",
+            "root": "desktop_yx",
+            "rel": "整机候选核对_1080p30_二号给管理方_20261024/G4_1080p30_整机候选核对包_二号给管理方_20261024/04_参数与串口工具/UART_HOST_TOOL/reference_original/status_map_V1.2.json"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "status位域冻结确认书_VERSION_.md": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "e4b6ea41279bb2bb5d7fd4bbcca576499f50f0696602edacb4ef5a4e48e63c98",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/current/refill/status位域冻结确认书_20261015_V1.1.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "sty_basic1_fwd_VERSION_.sbit": {
+    "highest_declared_version": "1.5",
+    "versions": [
+      {
+        "version": "1.5",
+        "candidates": [
+          {
+            "sha256": "eb23a52cc6dc4e932c24a0fa4e7205d795e8c8c4becc1f07cd6370b0106c8261",
+            "root": "pds_sty",
+            "rel": "sty/sty_basic1_fwd_v1.5.sbit"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "uart_host_tool_VERSION__增量接收审查结论_设计方.md": {
+    "highest_declared_version": "1.0",
+    "versions": [
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "50fabc4989ff764d19c5a5286bf93b2aa7e66b79fea8e15e0b9541f773d98ad7",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/references/uart_host_tool_V1.0_增量接收审查结论_设计方_20261018.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_VERSION__阶段1实现方案.md": {
+    "highest_declared_version": "1.1",
+    "versions": [
+      {
+        "version": "1.1",
+        "candidates": [
+          {
+            "sha256": "7a42c8c2aef01c4e14923af5fa86f926385b7f688b8a5adbc964d639ea007f01",
+            "root": "desktop_project_docs",
+            "rel": "undistort_core_v1.1_阶段1实现方案.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_VERSION__验收回复_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "274e68780d2eb405c2578018d1629818b9ce93bb8f2ba0b1eee47eff889aa626",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_V1.2_验收回复_设计方_20261017(1).md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION_.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "7588cecc822f281ce82e47f5d7e2d8d08c4bdbf3070c3bab326871e07676f629",
+            "root": "pds_yx",
+            "rel": "undistort_core_stage2_v1.2.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G1_SP64综合复核记录_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "b2ff92bf2b439dbaaaeb6e997a5e47031b958c4316520033c3b9f1600020988b",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G1_SP64综合复核记录_设计方_20261018(1).md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G1_candidate.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "68aa4ab33d54893e444749593f8e8f248056e84aa4f13842ba27524aa443cca8",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G1_candidate_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G1_candidate.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "5d039dbba7a5dfdaf470b56c4a9b6e5412eca96559ce056f71c09bd7c3f5fb6c",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G1_candidate_20261018.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G1_refill.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "0022cd354b5851723ba6a9f4b1b722250f8e8487e53a633b2e78c71cf8672f99",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G1_refill_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G1_refill.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "4824a817b52c3b3040bfbd422d99b4e62eaeccb87699bbc537c3b2beac9c5208",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G1_refill_20261018.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G1_refill_接收审查结论_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "a37441fda2a849790921655dc752f90173ea06fca5837b13f033d71ec5784003",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G1_refill_接收审查结论_设计方_20261018(2).md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G2_candidate.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "ab09c44acdae442cbaa98e0d0b7b602c98ca8b77b15eafedd5e795900446e5d5",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G2_candidate_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G2_candidate.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "d6231a8a15eb58b3f0fad20d324850a62f26e708048e16c23a73f68a5dd4f2ff",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G2_candidate_20261018.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G2_candidate_接收审查结论_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "780bf5e4e92a81ac42d53ac8f062498a7be398fff6b9effd9f46cd1c87e66b98",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G2_candidate_接收审查结论_设计方_20261018(1).md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G3_SP64综合复核记录_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "dafe00bd6bccd96f74dafd24c4d638f536648b008dacdfaf67f371a55eaefbd7",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G3_SP64综合复核记录_设计方_20261018.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G3_candidate.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "c0ca37654e0ea3f495740b0a23e7dbe34fa55c536e765816e2b7be20e0f34a64",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G3_candidate_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G3_candidate.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "b916965aa27770ffb4ba9a72a334f11668f869df45bfeb07ea6afe99373a15de",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G3_candidate_20261018.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G3_candidate_接收审查结论_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "d96c3248b7c9284cadcf80f773221706e7c7ba79d85f7b6494c23d5ba141af06",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G3_candidate_接收审查结论_设计方_20261018.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G4_SP64综合复核记录_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "ec0f85035ad11f7974390e48297069bb383b1f3833ce52cdb5588319e36407a8",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G4_SP64综合复核记录_设计方_20261018.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G4_candidate.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "60f913e36830519312e875ea1ae75434d04e59359972268d33a1f54d7acdd44d",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G4_candidate_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G4_candidate.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "341c789d4633fb8a37d06c19ad95b4ecc2d6b45bb4f77af8b0b1710f353deced",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G4_candidate_20261018.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G4_candidate_接收审查结论_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "eece4a053fd45e5e9781159c29b5e23705683523a160ffd3822310edc0ebd9b2",
+            "root": "wechat_file_2026-10",
+            "rel": "undistort_core_stage2_v1.2_G4_candidate_接收审查结论_设计方_20261018.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G4_reviewed.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "749f2398a5559c11577b02f83fcad2a054206d014018decada5f884a2f1d9d58",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G4_reviewed_20261018.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G4_reviewed.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "aa2576d04c45697fcb07414f15fa7624f379584164610ccf0fba53c41423c610",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G4_reviewed_20261018.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G5_candidate.zip": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "52fe15243b249145bbbd55556ce0c9a310fb8964e8afae9b1a09562feede020a",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G5_candidate_20261019.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G5_candidate.zip.sha256": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "48145db867be04b3dafa984fbda8978e8994ac4e5d659afbfaa3d4680a32f29e",
+            "root": "workspace",
+            "rel": "work/undistort_core_stage2_v1.2_G5_candidate_20261019.zip.sha256"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "undistort_core_stage2_VERSION__G5_candidate_接收审查结论_设计方.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "571b03cb1f8ec94ecad0ea9ed0f785c8eb9cbf6540f847ea771219d9c551048e",
+            "root": "workspace",
+            "rel": "work/e7_g5_review_20261019/g5_incoming/undistort_core_stage2_v1.2_G5_candidate_接收审查结论_设计方_20261019.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "二号_VERSION_接收核对记录_裁定回复_设计方.md": {
+    "highest_declared_version": "1.6",
+    "versions": [
+      {
+        "version": "1.6",
+        "candidates": [
+          {
+            "sha256": "84d574c87b5a5c4502ff5831bdeefcfe71e89810d6ab70e479168499460ada0d",
+            "root": "workspace",
+            "rel": "work/g6_20261020/delivery/provenance/二号V1.6接收核对记录_裁定回复_设计方_20261019(3).md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "二号核心包优化执行安排_依据_VERSION_.md": {
+    "highest_declared_version": "2.0.1",
+    "versions": [
+      {
+        "version": "2.0.1",
+        "candidates": [
+          {
+            "sha256": "f4b0743feb29c834c97984aeb67742e979e7c3d3306f36972a264183229a17c0",
+            "root": "workspace",
+            "rel": "work/二号核心包优化执行安排_依据v2.0.1_20261023.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "各协作者当前任务清单_VERSION_.md": {
+    "highest_declared_version": "2.0.4",
+    "versions": [
+      {
+        "version": "2.0.4",
+        "candidates": [
+          {
+            "sha256": "9805c67fd521c80732beac1412edfe977af555af86b1f1d55ef661ce2b586588",
+            "root": "desktop_yx",
+            "rel": "V204任务对照与核心证据升级_20261023/完整资料/reference/v2.0.4/各协作者当前任务清单_v2.0.4_20261023.md"
+          },
+          {
+            "git_oid": "2cb3c100fd04778b7973d5a32022bed865e370c3",
+            "path": "deliverables/20261023/progress_v2.0.4/各协作者当前任务清单_v2.0.4_20261023.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      },
+      {
+        "version": "2.0.3",
+        "candidates": [
+          {
+            "sha256": "f5be22dea0495db187857f4b5969c2f9deb85815743c3f3176cb52f3fe00c837",
+            "root": "workspace",
+            "rel": "work/G7_R01_R14_followup_20261023/received/reference_governance/各协作者当前任务清单_v2.0.3_20261023.md"
+          },
+          {
+            "git_oid": "a4b4f6ae602a4989192db506be33295adb7df5c6",
+            "path": "docs/project/各协作者当前任务清单_v2.0.3_20261023.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      },
+      {
+        "version": "2.0.1",
+        "candidates": [
+          {
+            "sha256": "114ee28fff31703fedaa930f02afb2b9ea11b08585be276746941af0ab0a1c37",
+            "root": "wechat_attach",
+            "rel": "45c166d2013de1ef13bda2f11286b94b/2026-10/Rec/52ad652cb7817cd8/F/5/各协作者当前任务清单_v2.0.1_20261023.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "图像畸变校正系统设计文档_VERSION_.md": {
+    "highest_declared_version": "1.2",
+    "versions": [
+      {
+        "version": "1.2",
+        "candidates": [
+          {
+            "sha256": "3e749bff06fcf744b567ea300f2e258b1edb0ddcd49102dfa062d6ed3bdd181d",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/references/图像畸变校正系统设计文档_V1.2.md"
+          },
+          {
+            "git_oid": "1649190b827b4da87dae107c7730fb5fb29cdfd3",
+            "path": "deliverables/20261024/DRM_APM_budget/review/evidence/specs/图像畸变校正系统设计文档_V1.2.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "文档核验记录_VERSION_.json": {
+    "highest_declared_version": "2.0.4",
+    "versions": [
+      {
+        "version": "2.0.4",
+        "candidates": [
+          {
+            "sha256": "b331a12b9c8e3e18b5b7a316557f2122fa04fdfbb91e9bd9cb8cc315cda07f37",
+            "root": "desktop_yx",
+            "rel": "V204任务对照与核心证据升级_20261023/完整资料/reference/v2.0.4/文档核验记录_v2.0.4.json"
+          },
+          {
+            "git_oid": "3364c69c73d036d93fac311e5cc20217bd1e405f",
+            "path": "deliverables/20261023/progress_v2.0.4/文档核验记录_v2.0.4.json",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "更新与转交说明_VERSION_.md": {
+    "highest_declared_version": "2.0.4",
+    "versions": [
+      {
+        "version": "2.0.4",
+        "candidates": [
+          {
+            "sha256": "ceb39640936a0a05b7e20ed88c668835077ad862451166bcf47500fe86c17742",
+            "root": "desktop_yx",
+            "rel": "V204任务对照与核心证据升级_20261023/完整资料/reference/v2.0.4/更新与转交说明_v2.0.4.md"
+          },
+          {
+            "git_oid": "dbdf33162b6a721700f8f5d32288a8075af3fda4",
+            "path": "deliverables/20261023/progress_v2.0.4/更新与转交说明_v2.0.4.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "模块分工与工作包交付总说明_VERSION_.md": {
+    "highest_declared_version": "2.0.4",
+    "versions": [
+      {
+        "version": "2.0.4",
+        "candidates": [
+          {
+            "sha256": "81411deb34e78f9de609dea4d899119278e0895b0fef226206720e62da0b4e11",
+            "root": "desktop_yx",
+            "rel": "V204任务对照与核心证据升级_20261023/完整资料/reference/v2.0.4/模块分工与工作包交付总说明_v2.0.4.md"
+          },
+          {
+            "git_oid": "d091389e0415e20c959b2b7f38e895c978356f41",
+            "path": "deliverables/20261023/progress_v2.0.4/模块分工与工作包交付总说明_v2.0.4.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      },
+      {
+        "version": "2.0.3",
+        "candidates": [
+          {
+            "sha256": "2d36c72f80c80ad977d2b6a2080bc66bab0e3ff876dc508bbdee39dc8b3903fe",
+            "root": "pds_sty",
+            "rel": "undistort_core_g1_verify/ab_g8_compare_20261023/AB/incoming/参考/模块分工与工作包交付总说明_v2.0.3.md"
+          },
+          {
+            "git_oid": "63694b859cee878f0057724f50470c66ebd7b788",
+            "path": "docs/project/模块分工与工作包交付总说明_v2.0.3.md",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      },
+      {
+        "version": "2.0.1",
+        "candidates": [
+          {
+            "sha256": "b32f862c00113a9bad212941aa88c8422a3e8b5f99d2bb960257b19836e342f3",
+            "root": "wechat_attach",
+            "rel": "45c166d2013de1ef13bda2f11286b94b/2026-10/Rec/52ad652cb7817cd8/F/3/模块分工与工作包交付总说明_v2.0.1.md"
+          }
+        ]
+      },
+      {
+        "version": "2.0.0",
+        "candidates": [
+          {
+            "sha256": "6816dd2ab0ec452282b35c5ae619dd7228b639ced897a26d5cc7abd3c919e539",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/references/模块分工与工作包交付总说明_v2.0.0.md"
+          }
+        ]
+      },
+      {
+        "version": "1.6",
+        "candidates": [
+          {
+            "sha256": "abdd8128cef865810bb45019b71fb1ee7e36c57549d058104c94862a1c615c60",
+            "root": "workspace",
+            "rel": "work/v16_status_review_20261019/raw/模块分工与工作包交付总说明_v1.6(1).md"
+          }
+        ]
+      },
+      {
+        "version": "1.5",
+        "candidates": [
+          {
+            "sha256": "b6df55517b359775a784955ddbd32e15c9a520d7bfb436af928c7aace6dd2147",
+            "root": "desktop_yx",
+            "rel": "G7_R01_R14_followup_G8_20261023/delivery/M03_pinned/reference_original/M03/historical_reviews/e8/raw/模块分工与工作包交付总说明_v1.5(1).md"
+          }
+        ]
+      },
+      {
+        "version": "1.4",
+        "candidates": [
+          {
+            "sha256": "6e7debe2ed810261777b689c0782ca618b5792bda28d29e721f42e7a182b5f2d",
+            "root": "workspace",
+            "rel": "work/v14_status_review_20261019/raw/模块分工与工作包交付总说明_v1.4(1).md"
+          },
+          {
+            "sha256": "16d3e3c21200e1448afd3b8b1670e98890f51761ce5545f29dd2c0d02d0b75c1",
+            "root": "wechat_file_2026-10",
+            "rel": "模块分工与工作包交付总说明_v1.4(2).md"
+          }
+        ]
+      },
+      {
+        "version": "1.0",
+        "candidates": [
+          {
+            "sha256": "f0679a61f930d05792e335c3ee022ddc8486f3b9b73c1d3b1cc934e76a0425a9",
+            "root": "wechat_file_2026-10",
+            "rel": "模块分工与工作包交付总说明_v1.0.md"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "项目进度_VERSION_及G7_M03统一回执_给二号协作者_.zip": {
+    "highest_declared_version": "2.0.4",
+    "versions": [
+      {
+        "version": "2.0.4",
+        "candidates": [
+          {
+            "sha256": "071415d0af30f0ef4d3dd6270031aee34d26a439898eb0a45c0f64e2a34e8314",
+            "root": "wechat_attach",
+            "rel": "5dcf5f2a7cd5a922aeb19906f3d4cf9d/2026-10/Rec/464222c685fb9527/F/0/项目进度_v2.0.4及G7_M03统一回执_给二号协作者_.zip"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  },
+  "项目进度与任务清单_VERSION__给一号协作者.zip": {
+    "highest_declared_version": "2.0.4",
+    "versions": [
+      {
+        "version": "2.0.4",
+        "candidates": [
+          {
+            "git_oid": "0705344b28cb64fbb6d2e0deece95e0b00e9f512",
+            "path": "deliverables/20261023/progress_v2.0.4/项目进度与任务清单_v2.0.4_给一号协作者_20261023.zip",
+            "commit": "a500eee34965f2f343cd61ed7143a2def6bb48df"
+          }
+        ]
+      }
+    ],
+    "rule": "Prefer highest explicit semantic version within the same filename family; different contents at the same version are parallel variants, not automatically replaceable production RTL."
+  }
+}

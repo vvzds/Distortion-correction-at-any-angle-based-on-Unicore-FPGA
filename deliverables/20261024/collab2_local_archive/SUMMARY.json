@@ -1,0 +1,10 @@
+{
+  "files": 188336,
+  "unique_files": 14518,
+  "original_bytes": 30094477580,
+  "unique_bytes": 15164596890,
+  "reused_remote_objects": 754,
+  "packs": 65,
+  "new_payload_bytes": 2862028868,
+  "scan_errors": []
+}

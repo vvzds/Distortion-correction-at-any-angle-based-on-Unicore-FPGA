@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\叶翔\\xwechat_files\\wxid_qanrp2aqlq8h22_bb90\\temp\\RWTemp\\2026-10\\45c166d2013de1ef13bda2f11286b94b\\46f1c0b041507f9e6f2b98e32a39a48e.jpg",
+      "path": "original_project_images/46f1c0b041507f9e6f2b98e32a39a48e.jpg",
+      "bytes": 700708,
+      "sha256": "87461cb7802da058b3abc3536e92a35cbd6dc377f439c44c55eae03b03c8ed75"
+    },
+    {
+      "source": "C:\\Users\\叶翔\\xwechat_files\\wxid_qanrp2aqlq8h22_bb90\\temp\\RWTemp\\2026-10\\45c166d2013de1ef13bda2f11286b94b\\ee6e3795377fc95a86443e422c4e06a7.png",
+      "path": "original_project_images/ee6e3795377fc95a86443e422c4e06a7.png",
+      "bytes": 254970,
+      "sha256": "5b34675ec143c197385ce8ca7d338a3bf2ccfff756ffc6940e4561539f5fefb0"
+    },
+    {
+      "source": "C:\\Users\\叶翔\\AppData\\Local\\Temp\\codex-clipboard-1bd12681-8e36-408d-8c99-095c7bccb083.png",
+      "path": "original_project_images/codex-clipboard-1bd12681-8e36-408d-8c99-095c7bccb083.png",
+      "bytes": 8949,
+      "sha256": "10ed2cf5ea163458aa7e1ac9444a23750d92563e70248fb6ef6d62db1b9e6ec9"
+    },
+    {
+      "source": "C:\\Users\\叶翔\\AppData\\Local\\Temp\\codex-clipboard-345bd8db-6e6c-43e9-8f09-b6d24603d7be.png",
+      "path": "original_project_images/codex-clipboard-345bd8db-6e6c-43e9-8f09-b6d24603d7be.png",
+      "bytes": 222120,
+      "sha256": "a38b1dc5273e8f68316e6dc09a1512b4120b4999180d66a964a41825a8ac2377"
+    },
+    {
+      "source": "C:\\Users\\叶翔\\AppData\\Local\\Temp\\codex-clipboard-9e10b587-6a38-4e65-a437-330444e95922.png",
+      "path": "original_project_images/codex-clipboard-9e10b587-6a38-4e65-a437-330444e95922.png",
+      "bytes": 21998,
+      "sha256": "b502f56ee8154fbfcf4762aca6942961eb385ad14e185bab9be2a7fbe3c2a524"
+    },
+    {
+      "source": "C:\\Users\\叶翔\\AppData\\Local\\Temp\\codex-clipboard-db721f17-cfdb-4004-b7e7-ba139a53ab1c.jpg",
+      "path": "original_project_images/codex-clipboard-db721f17-cfdb-4004-b7e7-ba139a53ab1c.jpg",
+      "bytes": 117188,
+      "sha256": "d2c0ef005a4805e4241f669c7c9731d92f7edee7d892530e5b15d4f38b868a15"
+    },
+    {
+      "source": "C:\\Users\\叶翔\\AppData\\Local\\Temp\\codex-clipboard-fbf1d6c6-6eaa-4b98-bc5e-6f078818f3aa.png",
+      "path": "original_project_images/codex-clipboard-fbf1d6c6-6eaa-4b98-bc5e-6f078818f3aa.png",
+      "bytes": 25809,
+      "sha256": "db7f414ac49a79750b3d7a9dd5133483509f1ae6a1a5f483025cc6b34fe0afed"
+    }
+  ],
+  "not_present_locally": [
+    "1046d8a2ca60cfac8d40b9dc5e9a07a8",
+    "1b31ff6f4080da3b4d17850ba93ee188",
+    "1dc0fc333c5abb87b9f683f425352f03",
+    "2f6620ffd7cb56aee6ec38966d99a2f5",
+    "33433ae104d629cb2a18f52aa4738f1c",
+    "40d3efaf841e6278be053af693b6d905",
+    "465c60bfdb4e73164dce8f8dff4e3732",
+    "47988197c258b545c271cb3ed3bd5f4f",
+    "48eaf4ad60dbe38b7a2f7da8181f6467",
+    "4f244f8b17c36419816da9b5bbd90e6c",
+    "581be558d68acd63c4f0ad3e4149fa09",
+    "5b77d290db9693f78b62751bc34dddd1",
+    "5d4bd334db5d6132cc1c5871117f6009",
+    "73d0a809244ebbcf1103f821cae39481",
+    "98504953212d34b88b7962fd6769562c",
+    "a5432853dc7cb45f4028a0ff8325f447",
+    "b174e531ae76609373984b0aa79a197c",
+    "b45bb6738dc98bd849cf425ff67c7243",
+    "cbbb71f17661a1d8e95557c589bb7228",
+    "codex-clipboard-35026470-fde1-471c-8df6-d0a1c5cee3e7",
+    "codex-clipboard-522b1084-8c2d-4fd3-ab59-734d7eccf804",
+    "codex-clipboard-c72f51ee-1ce7-4bfc-9ebd-8a6f1a4e56df",
+    "codex-clipboard-d112ea3f-33de-466f-ac8a-b33bf86dfaee",
+    "codex-clipboard-de3a36ec-51ac-4e28-acfb-fc2478d187cc",
+    "codex-clipboard-f0dda44e-82c9-49a9-8443-7e7c34f23769",
+    "d1f7662a1a57c1a409c2827bdbf33d74",
+    "db73fddc090af922891fb479008ef092",
+    "e09a27854a79a7587c7e55f0c449fbd8",
+    "f88837dd266f473da1b89550ab4da36d",
+    "fe3355b9bf0e0961ac9f9f2d66982ce7"
+  ]
+}

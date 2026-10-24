@@ -59,3 +59,5 @@ Build check on 2026-10-18: PDS 2022.2-SP6.1 completed compile, synthesis,
 device mapping, place and route, timing analysis, and bitstream generation.
 The timing report states `Design Summary : All Constraints Met.` This checks
 the host project's buildability; it is not a correction-function or board test.
+
+[二号本机全部项目资料与旧版恢复索引](deliverables/20261024/collab2_local_archive/README.md)
