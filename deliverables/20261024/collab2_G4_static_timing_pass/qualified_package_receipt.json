@@ -1,0 +1,9 @@
+{
+  "package": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\outputs\\static_G4_timing_resume_20261024\\G4_静态校正1080p30_时序通过待板测_二号给管理方_20261024",
+  "archive": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\outputs\\static_G4_timing_resume_20261024\\G4_静态校正1080p30_时序通过待板测_二号给管理方_20261024.zip",
+  "sha256": "e13b1537ab54940df836576f368a35d90bf40dfffaf2d6b9052389c1aa6342fb",
+  "bytes": 33983622,
+  "files": 275,
+  "state": "BUILD_PASSED_BOARD_TEST_PENDING",
+  "board_tested": false
+}

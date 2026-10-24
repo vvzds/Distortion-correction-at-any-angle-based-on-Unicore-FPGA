@@ -1,0 +1,778 @@
+{
+  "report_sha256": "012e0522c055c258960ab68538130901b76dbe3693b888d79a34707069fb661c",
+  "summaries": [
+    {
+      "kind": "Setup",
+      "corner": "Slow",
+      "table": "****************************************************************************************************\n                                                                          TNS Failing      TNS Total\n Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n sys_clk                sys_clk                     33.729       0.000              0            113\n rst_clk                rst_clk                      3.927       0.000              0            419\n ddrphy_sysclk          ddrphy_sysclk                0.183       0.000              0          43962\n phy_dq_sysclk_1        ddrphy_sysclk                2.871       0.000              0            260\n phy_dq_sysclk_0        ddrphy_sysclk                3.714       0.000              0              1\n ddrphy_sysclk          phy_dq_sysclk_0              1.388       0.000              0            196\n ddrphy_sysclk          phy_dq_sysclk_1              0.943       0.000              0            420\n cmos2_pclk_raw         cmos2_pclk_raw               5.382       0.000              0            891\n pix_clk                pix_clk                      8.749       0.000              0            282\n cfg_clk                cfg_clk                     95.674       0.000              0            538\n clk_25M                clk_25M                     37.961       0.000              0             31\n sys_clk                clk_25M                      0.701       0.000              0              6\n sccb1_clk              sccb1_clk                96965.461       0.000              0            173\n sccb2_clk              sccb2_clk                96965.658       0.000              0            168\n pix_clk                hdmi_pclk                    7.071       0.000              0             27\n",
+      "rows": [
+        {
+          "launch": "sys_clk",
+          "capture": "sys_clk",
+          "worst_ns": 33.729,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 113
+        },
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 3.927,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 419
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.183,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 43962
+        },
+        {
+          "launch": "phy_dq_sysclk_1",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 2.871,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 260
+        },
+        {
+          "launch": "phy_dq_sysclk_0",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 3.714,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_0",
+          "worst_ns": 1.388,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 196
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_1",
+          "worst_ns": 0.943,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 420
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 5.382,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 891
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 8.749,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 282
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 95.674,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 538
+        },
+        {
+          "launch": "clk_25M",
+          "capture": "clk_25M",
+          "worst_ns": 37.961,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sys_clk",
+          "capture": "clk_25M",
+          "worst_ns": 0.701,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 6
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 96965.461,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 173
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 96965.658,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 168
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "hdmi_pclk",
+          "worst_ns": 7.071,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 27
+        }
+      ]
+    },
+    {
+      "kind": "Hold",
+      "corner": "Slow",
+      "table": "****************************************************************************************************\n                                                                          THS Failing      THS Total\n Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n sys_clk                sys_clk                      0.264       0.000              0            113\n rst_clk                rst_clk                      0.211       0.000              0            419\n ddrphy_sysclk          ddrphy_sysclk                0.135       0.000              0          43962\n phy_dq_sysclk_1        ddrphy_sysclk                0.605       0.000              0            260\n phy_dq_sysclk_0        ddrphy_sysclk                1.106       0.000              0              1\n ddrphy_sysclk          phy_dq_sysclk_0              0.473       0.000              0            196\n ddrphy_sysclk          phy_dq_sysclk_1              0.494       0.000              0            420\n cmos2_pclk_raw         cmos2_pclk_raw               0.247       0.000              0            891\n pix_clk                pix_clk                      0.355       0.000              0            282\n cfg_clk                cfg_clk                      0.198       0.000              0            538\n clk_25M                clk_25M                      0.288       0.000              0             31\n sys_clk                clk_25M                      0.520       0.000              0              6\n sccb1_clk              sccb1_clk                    0.307       0.000              0            173\n sccb2_clk              sccb2_clk                    0.255       0.000              0            168\n pix_clk                hdmi_pclk                    0.262       0.000              0             27\n",
+      "rows": [
+        {
+          "launch": "sys_clk",
+          "capture": "sys_clk",
+          "worst_ns": 0.264,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 113
+        },
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 0.211,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 419
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.135,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 43962
+        },
+        {
+          "launch": "phy_dq_sysclk_1",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.605,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 260
+        },
+        {
+          "launch": "phy_dq_sysclk_0",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 1.106,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_0",
+          "worst_ns": 0.473,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 196
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_1",
+          "worst_ns": 0.494,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 420
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 0.247,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 891
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 0.355,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 282
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 0.198,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 538
+        },
+        {
+          "launch": "clk_25M",
+          "capture": "clk_25M",
+          "worst_ns": 0.288,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sys_clk",
+          "capture": "clk_25M",
+          "worst_ns": 0.52,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 6
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 0.307,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 173
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 0.255,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 168
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "hdmi_pclk",
+          "worst_ns": 0.262,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 27
+        }
+      ]
+    },
+    {
+      "kind": "Recovery",
+      "corner": "Slow",
+      "table": "****************************************************************************************************\n                                                                          TNS Failing      TNS Total\n Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n rst_clk                rst_clk                      5.153       0.000              0             98\n ddrphy_sysclk          ddrphy_sysclk                2.429       0.000              0           8664\n cmos2_pclk_raw         cmos2_pclk_raw               9.609       0.000              0              4\n pix_clk                pix_clk                      9.970       0.000              0              8\n cfg_clk                cfg_clk                     97.022       0.000              0              1\n sccb1_clk              sccb1_clk                96968.090       0.000              0             31\n sccb2_clk              sccb2_clk                96967.833       0.000              0             30\n",
+      "rows": [
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 5.153,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 98
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 2.429,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8664
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 9.609,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 4
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 9.97,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 97.022,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 96968.09,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 96967.833,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 30
+        }
+      ]
+    },
+    {
+      "kind": "Removal",
+      "corner": "Slow",
+      "table": "****************************************************************************************************\n                                                                          THS Failing      THS Total\n Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n rst_clk                rst_clk                      0.353       0.000              0             98\n ddrphy_sysclk          ddrphy_sysclk                0.349       0.000              0           8664\n cmos2_pclk_raw         cmos2_pclk_raw               0.840       0.000              0              4\n pix_clk                pix_clk                      0.790       0.000              0              8\n cfg_clk                cfg_clk                      0.933       0.000              0              1\n sccb1_clk              sccb1_clk                    0.340       0.000              0             31\n sccb2_clk              sccb2_clk                    0.346       0.000              0             30\n",
+      "rows": [
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 0.353,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 98
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.349,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8664
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 0.84,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 4
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 0.79,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 0.933,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 0.34,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 0.346,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 30
+        }
+      ]
+    },
+    {
+      "kind": "Minimum Pulse Width",
+      "corner": "Slow",
+      "table": "****************************************************************************************************\n                                                                         WPWS Failing     WPWS Total\n Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n sys_clk                                            18.318       0.000              0             20\n rst_clk                                             3.800       0.000              0             99\n ddrphy_sysclk                                       3.040       0.000              0          11839\n phy_dq_clk_0                                        0.035       0.000              0             35\n phy_dq_sysclk_0                                     1.850       0.000              0             35\n phy_dq_clk_1                                        0.035       0.000              0             84\n phy_dq_sysclk_1                                     2.400       0.000              0             84\n cmos2_pclk_raw                                      4.992       0.000              0            169\n pix_clk                                             5.774       0.000              0             70\n cfg_clk                                            49.062       0.000              0            102\n clk_25M                                            20.001       0.000              0              6\n sccb1_clk                                       48481.440       0.000              0             34\n sccb2_clk                                       48481.440       0.000              0             33\n",
+      "rows": []
+    },
+    {
+      "kind": "Setup",
+      "corner": "Fast",
+      "table": "****************************************************************************************************\n                                                                          TNS Failing      TNS Total\n Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n sys_clk                sys_clk                     35.069       0.000              0            113\n rst_clk                rst_clk                      5.441       0.000              0            419\n ddrphy_sysclk          ddrphy_sysclk                2.298       0.000              0          43962\n phy_dq_sysclk_1        ddrphy_sysclk                4.425       0.000              0            260\n phy_dq_sysclk_0        ddrphy_sysclk                4.911       0.000              0              1\n ddrphy_sysclk          phy_dq_sysclk_0              3.583       0.000              0            196\n ddrphy_sysclk          phy_dq_sysclk_1              3.245       0.000              0            420\n cmos2_pclk_raw         cmos2_pclk_raw               6.528       0.000              0            891\n pix_clk                pix_clk                     10.404       0.000              0            282\n cfg_clk                cfg_clk                     97.392       0.000              0            538\n clk_25M                clk_25M                     38.950       0.000              0             31\n sys_clk                clk_25M                      1.601       0.000              0              6\n sccb1_clk              sccb1_clk                96967.126       0.000              0            173\n sccb2_clk              sccb2_clk                96967.244       0.000              0            168\n pix_clk                hdmi_pclk                    8.257       0.000              0             27\n",
+      "rows": [
+        {
+          "launch": "sys_clk",
+          "capture": "sys_clk",
+          "worst_ns": 35.069,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 113
+        },
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 5.441,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 419
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 2.298,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 43962
+        },
+        {
+          "launch": "phy_dq_sysclk_1",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 4.425,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 260
+        },
+        {
+          "launch": "phy_dq_sysclk_0",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 4.911,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_0",
+          "worst_ns": 3.583,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 196
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_1",
+          "worst_ns": 3.245,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 420
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 6.528,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 891
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 10.404,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 282
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 97.392,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 538
+        },
+        {
+          "launch": "clk_25M",
+          "capture": "clk_25M",
+          "worst_ns": 38.95,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sys_clk",
+          "capture": "clk_25M",
+          "worst_ns": 1.601,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 6
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 96967.126,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 173
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 96967.244,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 168
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "hdmi_pclk",
+          "worst_ns": 8.257,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 27
+        }
+      ]
+    },
+    {
+      "kind": "Hold",
+      "corner": "Fast",
+      "table": "****************************************************************************************************\n                                                                          THS Failing      THS Total\n Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n sys_clk                sys_clk                      0.181       0.000              0            113\n rst_clk                rst_clk                      0.153       0.000              0            419\n ddrphy_sysclk          ddrphy_sysclk                0.101       0.000              0          43962\n phy_dq_sysclk_1        ddrphy_sysclk                0.133       0.000              0            260\n phy_dq_sysclk_0        ddrphy_sysclk                0.438       0.000              0              1\n ddrphy_sysclk          phy_dq_sysclk_0              0.125       0.000              0            196\n ddrphy_sysclk          phy_dq_sysclk_1              0.109       0.000              0            420\n cmos2_pclk_raw         cmos2_pclk_raw               0.168       0.000              0            891\n pix_clk                pix_clk                      0.250       0.000              0            282\n cfg_clk                cfg_clk                      0.141       0.000              0            538\n clk_25M                clk_25M                      0.187       0.000              0             31\n sys_clk                clk_25M                      0.237       0.000              0              6\n sccb1_clk              sccb1_clk                    0.252       0.000              0            173\n sccb2_clk              sccb2_clk                    0.251       0.000              0            168\n pix_clk                hdmi_pclk                    0.376       0.000              0             27\n",
+      "rows": [
+        {
+          "launch": "sys_clk",
+          "capture": "sys_clk",
+          "worst_ns": 0.181,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 113
+        },
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 0.153,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 419
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.101,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 43962
+        },
+        {
+          "launch": "phy_dq_sysclk_1",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.133,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 260
+        },
+        {
+          "launch": "phy_dq_sysclk_0",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.438,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_0",
+          "worst_ns": 0.125,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 196
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "phy_dq_sysclk_1",
+          "worst_ns": 0.109,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 420
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 0.168,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 891
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 0.25,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 282
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 0.141,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 538
+        },
+        {
+          "launch": "clk_25M",
+          "capture": "clk_25M",
+          "worst_ns": 0.187,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sys_clk",
+          "capture": "clk_25M",
+          "worst_ns": 0.237,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 6
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 0.252,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 173
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 0.251,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 168
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "hdmi_pclk",
+          "worst_ns": 0.376,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 27
+        }
+      ]
+    },
+    {
+      "kind": "Recovery",
+      "corner": "Fast",
+      "table": "****************************************************************************************************\n                                                                          TNS Failing      TNS Total\n Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n rst_clk                rst_clk                      6.173       0.000              0             98\n ddrphy_sysclk          ddrphy_sysclk                4.218       0.000              0           8664\n cmos2_pclk_raw         cmos2_pclk_raw              10.517       0.000              0              4\n pix_clk                pix_clk                     11.301       0.000              0              8\n cfg_clk                cfg_clk                     98.193       0.000              0              1\n sccb1_clk              sccb1_clk                96968.666       0.000              0             31\n sccb2_clk              sccb2_clk                96968.573       0.000              0             30\n",
+      "rows": [
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 6.173,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 98
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 4.218,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8664
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 10.517,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 4
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 11.301,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 98.193,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 96968.666,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 96968.573,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 30
+        }
+      ]
+    },
+    {
+      "kind": "Removal",
+      "corner": "Fast",
+      "table": "****************************************************************************************************\n                                                                          THS Failing      THS Total\n Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n rst_clk                rst_clk                      0.248       0.000              0             98\n ddrphy_sysclk          ddrphy_sysclk                0.247       0.000              0           8664\n cmos2_pclk_raw         cmos2_pclk_raw               0.512       0.000              0              4\n pix_clk                pix_clk                      0.523       0.000              0              8\n cfg_clk                cfg_clk                      0.658       0.000              0              1\n sccb1_clk              sccb1_clk                    0.279       0.000              0             31\n sccb2_clk              sccb2_clk                    0.329       0.000              0             30\n",
+      "rows": [
+        {
+          "launch": "rst_clk",
+          "capture": "rst_clk",
+          "worst_ns": 0.248,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 98
+        },
+        {
+          "launch": "ddrphy_sysclk",
+          "capture": "ddrphy_sysclk",
+          "worst_ns": 0.247,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8664
+        },
+        {
+          "launch": "cmos2_pclk_raw",
+          "capture": "cmos2_pclk_raw",
+          "worst_ns": 0.512,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 4
+        },
+        {
+          "launch": "pix_clk",
+          "capture": "pix_clk",
+          "worst_ns": 0.523,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 8
+        },
+        {
+          "launch": "cfg_clk",
+          "capture": "cfg_clk",
+          "worst_ns": 0.658,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 1
+        },
+        {
+          "launch": "sccb1_clk",
+          "capture": "sccb1_clk",
+          "worst_ns": 0.279,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 31
+        },
+        {
+          "launch": "sccb2_clk",
+          "capture": "sccb2_clk",
+          "worst_ns": 0.329,
+          "total_negative_ns": 0.0,
+          "failed_endpoints": 0,
+          "total_endpoints": 30
+        }
+      ]
+    },
+    {
+      "kind": "Minimum Pulse Width",
+      "corner": "Fast",
+      "table": "****************************************************************************************************\n                                                                         WPWS Failing     WPWS Total\n Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints\n----------------------------------------------------------------------------------------------------\n sys_clk                                            18.318       0.000              0             20\n rst_clk                                             3.800       0.000              0             99\n ddrphy_sysclk                                       3.345       0.000              0          11839\n phy_dq_clk_0                                        0.035       0.000              0             35\n phy_dq_sysclk_0                                     1.850       0.000              0             35\n phy_dq_clk_1                                        0.035       0.000              0             84\n phy_dq_sysclk_1                                     2.400       0.000              0             84\n cmos2_pclk_raw                                      5.382       0.000              0            169\n pix_clk                                             6.164       0.000              0             70\n cfg_clk                                            49.452       0.000              0            102\n clk_25M                                            20.001       0.000              0              6\n sccb1_clk                                       48481.830       0.000              0             34\n sccb2_clk                                       48481.830       0.000              0             33\n",
+      "rows": []
+    }
+  ],
+  "violated_paths": []
+}

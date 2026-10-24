@@ -1,0 +1,7 @@
+*.zip binary
+*.json -text
+*.txt -text
+*.md -text
+delivery_tools/*.py -text
+# Preserve native PDS report spacing exactly for evidence hashes.
+native_timing_report.rtr.txt -whitespace
