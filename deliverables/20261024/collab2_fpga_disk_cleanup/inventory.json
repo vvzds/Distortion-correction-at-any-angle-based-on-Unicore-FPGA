@@ -1,0 +1,840 @@
+{
+  "roots": [
+    {
+      "path": "D:\\FPGA PDS\\fpgaled",
+      "bytes": 102039,
+      "files": 16,
+      "large_files": []
+    },
+    {
+      "path": "D:\\FPGA PDS\\last",
+      "bytes": 127494,
+      "files": 9,
+      "large_files": []
+    },
+    {
+      "path": "D:\\FPGA PDS\\resouce",
+      "bytes": 5872485089,
+      "files": 3648,
+      "large_files": [
+        {
+          "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\2_Demo\\4_14_hdmi_in_sfp_hdmi_out.rar",
+          "bytes": 191665290
+        },
+        {
+          "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\5_Software\\PDS\\PDS_2022.2-SP6.4-win64.zip",
+          "bytes": 1934650447
+        },
+        {
+          "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料\\8_软核\\Embedded.zip",
+          "bytes": 2276928124
+        }
+      ]
+    },
+    {
+      "path": "D:\\FPGA PDS\\sty",
+      "bytes": 693600016,
+      "files": 5629,
+      "large_files": []
+    },
+    {
+      "path": "D:\\FPGA PDS\\ww",
+      "bytes": 30328896,
+      "files": 8,
+      "large_files": []
+    },
+    {
+      "path": "D:\\FPGA PDS\\yx",
+      "bytes": 1396871430,
+      "files": 3703,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\AB补正接收与G8对照_M01核验_20261023",
+      "bytes": 48658263,
+      "files": 7,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\CP2102串口驱动准备_二号_20261024",
+      "bytes": 907712,
+      "files": 19,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G6_PAP_GROUP_review_upgrade_20261023",
+      "bytes": 110875723,
+      "files": 38,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_cache_profile_v1_20261023",
+      "bytes": 26940194,
+      "files": 439,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_core_robustness_upgrade_20261023",
+      "bytes": 821944,
+      "files": 129,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023",
+      "bytes": 206682753,
+      "files": 27602,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_param_regression_v1_20261023",
+      "bytes": 1622618,
+      "files": 115,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023",
+      "bytes": 1706200562,
+      "files": 1967,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\G7_R01_R14_followup_G8_20261023.zip",
+          "bytes": 818884562
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\delivery\\received\\G7_M03_R01_R14_original.zip",
+          "bytes": 802850170
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8_自动门禁与执行检查工具_20261023",
+      "bytes": 83087681,
+      "files": 1226,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024",
+      "bytes": 1494287748,
+      "files": 230,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\收到原件\\G8八种子复核与R01-R14统一回执_给二号协作者_20261023.zip",
+          "bytes": 1267092583
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\GitHub仓库接入_二号_20261024",
+      "bytes": 18357,
+      "files": 9,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\M03_batch_audit_upgrade_20261023",
+      "bytes": 31459028,
+      "files": 3082,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\M03_quality_evidence_v1_20261023",
+      "bytes": 2898968,
+      "files": 392,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\PDS顶层解析修复_二号_20261024",
+      "bytes": 5710666,
+      "files": 16,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\V204任务对照与核心证据升级_20261023",
+      "bytes": 5731098,
+      "files": 115,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\二号核心包升级_20261023",
+      "bytes": 69707876,
+      "files": 5380,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\整机候选核对_1080p30_二号给管理方_20261024",
+      "bytes": 130300030,
+      "files": 271,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\本机项目全量归档上传_二号_20261024",
+      "bytes": 2892879396,
+      "files": 112,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\自适应Gamma_二号_20261024",
+      "bytes": 3130015,
+      "files": 149,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\资源预算告警与B01-B03独立审验_20261024",
+      "bytes": 13813898,
+      "files": 14,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态校正_黑屏定位与恒等出图_二号_20261024",
+      "bytes": 130918198,
+      "files": 253,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_接核编译与板测_二号_20261024",
+      "bytes": 1781,
+      "files": 1,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024",
+      "bytes": 404801305,
+      "files": 464,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变矫正优先_后续任务规划_20261024",
+      "bytes": 6167,
+      "files": 2,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023",
+      "bytes": 191053815,
+      "files": 1050,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\adaptive_gamma_20261024",
+      "bytes": 2379494,
+      "files": 122,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020",
+      "bytes": 234671755,
+      "files": 183,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\calibration_capture_20261021",
+      "bytes": 20594607,
+      "files": 14,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\computer_use_repair_20261020",
+      "bytes": 11678,
+      "files": 6,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\corr_top_integration_20261018",
+      "bytes": 5294,
+      "files": 1,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\e7_g5_review_20261019",
+      "bytes": 1137409,
+      "files": 84,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\e8_acceptance_g6_handoff_20261019",
+      "bytes": 13117,
+      "files": 4,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\e8_review_20261019",
+      "bytes": 924292,
+      "files": 96,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\fusion_v11",
+      "bytes": 1768921,
+      "files": 122,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g4_full_evidence_review_20261019",
+      "bytes": 15013030,
+      "files": 364,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g6_20261020",
+      "bytes": 42677001,
+      "files": 481,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g6_acceptance_20261022",
+      "bytes": 118274270,
+      "files": 7982,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g6_locality_receipt_20261023",
+      "bytes": 47426371,
+      "files": 206,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023",
+      "bytes": 2426481624,
+      "files": 330,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\g7_core_upgrade_20261023",
+      "bytes": 2654755,
+      "files": 213,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023",
+      "bytes": 5816007423,
+      "files": 41359,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\delivery\\received\\G7_M03_R01_R14_original.zip",
+          "bytes": 802850170
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\received\\historical_g6\\R05_G6历史原件补证.zip",
+          "bytes": 262646608
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\release\\G7_R01_R14_followup_G8_20261023.zip",
+          "bytes": 818884562
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\release\\delivery\\received\\G7_M03_R01_R14_original.zip",
+          "bytes": 802850170
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023",
+      "bytes": 351589858,
+      "files": 44865,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024",
+      "bytes": 3667740584,
+      "files": 4078,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\received\\original_received\\G7_R01_R14_followup_G8_20261023.zip",
+          "bytes": 818884562
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\github_repository_setup_20261024",
+      "bytes": 58006697,
+      "files": 17,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\host_pc_pkg_20261018",
+      "bytes": 159866,
+      "files": 27,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\host_pc_review_20261018",
+      "bytes": 27251,
+      "files": 8,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\host_pc_review_fixed_20261019",
+      "bytes": 297473,
+      "files": 80,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\host_pc_review_r3_20261018",
+      "bytes": 214178,
+      "files": 42,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\host_validation_deps",
+      "bytes": 112212384,
+      "files": 168,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\integ_regression_review_20261019",
+      "bytes": 332305,
+      "files": 56,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\m03_implementation",
+      "bytes": 54446,
+      "files": 8,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\m03_official_20261023",
+      "bytes": 2903145,
+      "files": 297,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024",
+      "bytes": 1707849137,
+      "files": 28305,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\received\\archives\\G8_RESULTS.zip",
+          "bytes": 1267092583
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup",
+      "bytes": 3920129661,
+      "files": 8,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\payload_extract_only.nsis",
+          "bytes": 1955259512
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\Setup.exe",
+          "bytes": 1955299448
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_top_recovery_20261024",
+      "bytes": 18364,
+      "files": 5,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pip_cache",
+      "bytes": 34952911,
+      "files": 46,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pip_tmp",
+      "bytes": 0,
+      "files": 0,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\python_tools",
+      "bytes": 0,
+      "files": 0,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\quality_v12",
+      "bytes": 1807420,
+      "files": 133,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024",
+      "bytes": 268762485,
+      "files": 50,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\rgb_v10",
+      "bytes": 1741319,
+      "files": 129,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_black_screen_20261024",
+      "bytes": 36548,
+      "files": 8,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_bringup_20261024",
+      "bytes": 18446143,
+      "files": 436,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_handoff_20261024",
+      "bytes": 16619,
+      "files": 1,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_G4_timing_resume_20261024",
+      "bytes": 1161766,
+      "files": 55,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_undistort_independent_20261024",
+      "bytes": 2365,
+      "files": 1,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\static_undistort_next_tasks_20261024",
+      "bytes": 6167,
+      "files": 2,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\stride_v9",
+      "bytes": 1843988,
+      "files": 167,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\sync_v6",
+      "bytes": 1792211,
+      "files": 150,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\synth_v12a_fix",
+      "bytes": 4230902,
+      "files": 119,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\timing_v12a",
+      "bytes": 1824211,
+      "files": 137,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_tmp_v12",
+      "bytes": 0,
+      "files": 0,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\tools_v12",
+      "bytes": 66122562,
+      "files": 453,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\undistort_core_g5",
+      "bytes": 3686664,
+      "files": 334,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\undistort_core_v11",
+      "bytes": 3245298,
+      "files": 289,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\v12_reference_stage",
+      "bytes": 126299,
+      "files": 9,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\v14_status_review_20261019",
+      "bytes": 36879,
+      "files": 8,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\v16_status_review_20261019",
+      "bytes": 27917,
+      "files": 6,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023",
+      "bytes": 808665552,
+      "files": 123,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\received\\既有统一回执\\G7_M03六次成果_R01-R14统一回执_给二号协作者_20261023.zip",
+          "bytes": 802850170
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_check",
+      "bytes": 4850438,
+      "files": 12,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_points_20261013",
+      "bytes": 32036174,
+      "files": 29,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_v10",
+      "bytes": 19670994,
+      "files": 16,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_v10_key0",
+      "bytes": 26347058,
+      "files": 27,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_v11_quality",
+      "bytes": 10521195,
+      "files": 14,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_v8",
+      "bytes": 8174953,
+      "files": 17,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\video_v9",
+      "bytes": 9294942,
+      "files": 17,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\vsync_v7",
+      "bytes": 1812552,
+      "files": 157,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\vts_v8",
+      "bytes": 1830820,
+      "files": 161,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\wheels_v12",
+      "bytes": 19488952,
+      "files": 8,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\yosys40",
+      "bytes": 0,
+      "files": 0,
+      "large_files": []
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\yosys_cache",
+      "bytes": 268168200,
+      "files": 2,
+      "large_files": [
+        {
+          "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\yosys_cache\\yowasp_yosys\\yosys.wasm\\eefd8af82fc32afa943c1aa5f2f6c6dcbd9baca9",
+          "bytes": 216665776
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\__pycache__",
+      "bytes": 11686,
+      "files": 2,
+      "large_files": []
+    }
+  ],
+  "errors": [
+    "[WinError 5] 拒绝访问。: 'D:\\\\FPGA PDS\\\\sty\\\\undistort_core_g1_verify\\\\mtf_e8_l2pcp3ak'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp0hozso4q'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp0_tsdlk0'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp1maso9kd'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp1mta05gn'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp2g7ninbn'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp3hapvfez'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp42_zldj_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp502s0ikr'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp5p63z6mi'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp83czjiry'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp86_ldoz6'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp88ox61nz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8ag3xz6t'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8m25uniy'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8r96oc9e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8vz295zw'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp9gtc_m9f'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp9it_628f'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpa4t4yorf'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpbrgrjlt1'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpbz8019i_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpde1cnowo'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpebvd4_bu'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpejgsufr4'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpfq8tax88'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpgh1s5w72'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmphhn4d_3e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpj434a41d'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpjr86bpc3'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpknordep0'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpkzpsocsv'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpl0h5jlnk'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpovmltur2'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpq0pyzj57'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpq3cbsy46'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpqwvtab1y'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpsagvqhk_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpskpg5wp8'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpsyxxa_iz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpuclt3z21'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpudnoc7yb'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpul8gouhk'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpvs3livly'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpw9f4lo7e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpwrd_3xoq'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpy2wc3vyz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpy6i568n5'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpyw1414dx'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpz_yc0002'",
+    "[WinError 3] 系统找不到指定的路径。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\AB_M01_intake_compare_20261023\\\\received\\\\M01\\\\M01_pub_monitor_v1.0_20261023\\\\reference_original\\\\M01\\\\archives\\\\79914cdd-ae67-45ab-8176-ca6808aa5179_45e49061-aeae-4c3d-9a3e-2225085ebafc_uart_host_tool_v1.0_tlimfix_20261018.zip'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmp46g3eura'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmp5bu77bbn'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmp8jwmfgeh'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmp9fdtyq88'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpakpyrehg'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpc13sgl4a'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpcgs4ptjy'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpgpbienmu'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpilztpfl2'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpim67v14v'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpn_kvxhqz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmprc8d0g6o'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmpsngsxdcz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\g6_acceptance_20261022\\\\tmp_um6unij'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\host_pc_review_20261018\\\\tmp\\\\tmp7za1s2_o'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\host_pc_review_20261018\\\\tmp\\\\tmpllsixt4a'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\host_pc_review_20261018\\\\tmp\\\\tmpzubp3hg5'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_0287mow8'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_04almzd1'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_0a5u0hp_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_0i9wrl6e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_227rm78m'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_35h00_60'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_3rkw92gm'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_3z30mtko'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_56wxak5z'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_57pf_nc3'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_5edyx7hs'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_5exbsg22'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_62qah4xm'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_6kgvhrgg'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_6y209193'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_78wj3mzz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_80jiowyf'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_8ugi9n13'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_8uy1fz8l'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_9a92lpdj'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_9i5kwb_f'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_b29vx0qs'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_b5pyj4x9'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_bj2v1u1x'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_d4wgb4ge'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_dlg4kg_5'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_do5dk20e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_dtdu6zpi'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_ecg8s65z'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_ef2yym1i'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_euchxq_z'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_eyq6ih4t'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_fqso5j1j'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_fum8huib'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_f_qeg2ol'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_gaiqzuaj'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_gmm2pua_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_h6k67ord'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_hi47rmof'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_hmg5b3n5'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_hpzzj84y'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_im9b5kbj'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_j53pgpox'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_jhi9vonx'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_kdfkjqa7'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_lro6homq'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_l_4vyi94'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_mf16vta8'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_mu6p462b'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_mwuhx0hn'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_n94saqel'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_ncidx1vu'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_npa7hbgm'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_p8nk77f6'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_r24n915a'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_rqqmy7sd'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_s4uw6gut'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_tncswkq9'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_ttup6kxm'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_v6ltk7wj'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_v9oqyeq7'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_vizkuwog'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_vvtxi5p_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_wh4sd26r'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_wmolbtmj'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_x1vzv5a7'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_x795p77g'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_xlfaeleg'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_xrqzp_a2'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_xyg_9iux'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_yis7__jm'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_yn4mgnyq'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_yz9cqf8s'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp_zd5tz59h'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp__gy1hs4p'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp__inhq4k6'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\pip_tmp\\\\yowasp__tcaw9h4'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\bin'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\click'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\click-8.5.0.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\nanobind_backend'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\nanobind_backend-1.0.0.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\nanobind_backend.libs'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\platformdirs'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\platformdirs-4.12.4.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\pyslang'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\pyslang-12.0.0.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\pyslang.libs'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\wasmtime'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\wasmtime-47.0.1.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\yowasp_runtime'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\yowasp_runtime-1.96.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\yowasp_yosys'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\python_tools\\\\yowasp_yosys-0.69.0.0.post1233.dist-info'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\static_G4_bringup_20261024\\\\task_temp\\\\tmphti4aq7s'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\static_G4_bringup_20261024\\\\task_temp\\\\tmpk0moytkw'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\static_G4_bringup_20261024\\\\task_temp\\\\tmpsv8ro6_n'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\tools_tmp_v12\\\\pip-build-tracker-cdk0m0dm'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\tools_tmp_v12\\\\pip-ephem-wheel-cache-b0mgbq0n'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\tools_tmp_v12\\\\pip-install-xn6_h3wo'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\tools_tmp_v12\\\\pip-target-ko9sw6oj'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\tools_tmp_v12\\\\pip-unpack-1rbf8fqe'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\yosys40\\\\bin'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\yosys40\\\\yowasp_yosys'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Documents\\\\Codex\\\\2026-10-10\\\\x20\\\\work\\\\yosys40\\\\yowasp_yosys-0.40.0.0.post707.dist-info'"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "completed": "2026-10-24T22:39:30.9817644+08:00",
+  "deleted_files": 2895,
+  "deleted_logical_bytes": 11080365964,
+  "skipped_or_failed_files": 0,
+  "before": [
+    {
+      "Name": "C",
+      "Free": 19487137792
+    },
+    {
+      "Name": "D",
+      "Free": 43747373056
+    }
+  ],
+  "after": [
+    {
+      "Name": "C",
+      "Free": 26793074688
+    },
+    {
+      "Name": "D",
+      "Free": 44689424384
+    }
+  ],
+  "plan_sha256": "7d53f7fd03cf7d3d55c6cd97768dbfccac364abb1001e442eb76730f16b29ae0"
+}

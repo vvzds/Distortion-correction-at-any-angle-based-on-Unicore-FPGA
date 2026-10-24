@@ -1,0 +1,1022 @@
+[
+  {
+    "path": "D:\\FPGA PDS\\resouce\\OV5640双目摄像头资料",
+    "bytes": 479321483,
+    "files": 1616
+  },
+  {
+    "path": "D:\\FPGA PDS\\resouce\\盘古100Pro+开发板（MES2L676-100HP）配套资料",
+    "bytes": 5393163606,
+    "files": 2032
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\C1C5_pang.sbit",
+    "bytes": 3791112,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\C1C5_shenfen.sbit",
+    "bytes": 3791112,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\collab2_undistort_core_task_pkg_v1.1",
+    "bytes": 22369306,
+    "files": 440
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\collab2_undistort_core_task_pkg_v1.1.zip",
+    "bytes": 46963,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\log",
+    "bytes": 10693,
+    "files": 4
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\logbackup",
+    "bytes": 2630,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\stereo_raw720_hd1080",
+    "bytes": 66112278,
+    "files": 187
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\sty",
+    "bytes": 11373336,
+    "files": 3
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\try",
+    "bytes": 2681262,
+    "files": 132
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\try2",
+    "bytes": 68031782,
+    "files": 187
+  },
+  {
+    "path": "D:\\FPGA PDS\\sty\\undistort_core_g1_verify",
+    "bytes": 515389542,
+    "files": 4672
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\06_180秒同轮角点漂移定位结果_20261020.md",
+    "bytes": 6346,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\1stereo_fusion_hd1080",
+    "bytes": 65154741,
+    "files": 180
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng",
+    "bytes": 189855324,
+    "files": 474
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\G6_接收状态更新_20261020.md",
+    "bytes": 2389,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\static_G4_bringup_20261024",
+    "bytes": 99005366,
+    "files": 203
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\static_G4_timing_resume_20261024",
+    "bytes": 839037503,
+    "files": 2065
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\stereo_fusion_v11_pds2022.zip",
+    "bytes": 955707,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\stereo_fusion_v12",
+    "bytes": 65869272,
+    "files": 189
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\stereo_fusion_v12a",
+    "bytes": 63968791,
+    "files": 326
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\stereo_fusion_v12_pds2022.zip",
+    "bytes": 968010,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\stereo_rgb720_hd1080",
+    "bytes": 70639883,
+    "files": 183
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\stereo_rgb_v10_pds2022.zip",
+    "bytes": 958479,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\undistort_core_stage2_v1.2",
+    "bytes": 316315,
+    "files": 76
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\undistort_core_stage2_v1.2.zip",
+    "bytes": 130293,
+    "files": 1
+  },
+  {
+    "path": "D:\\FPGA PDS\\yx\\标定结果说明.md",
+    "bytes": 3011,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\00_转交管理方_二号完成说明.md",
+    "bytes": 2785,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\data",
+    "bytes": 165655,
+    "files": 2
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\evidence",
+    "bytes": 188812462,
+    "files": 27582
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\fixtures",
+    "bytes": 17090391,
+    "files": 5
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\g7_console.py",
+    "bytes": 3208,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\g7_gate.py",
+    "bytes": 14964,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\G7_gate_v1_20261023.zip",
+    "bytes": 541017,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\make_test_fixture.py",
+    "bytes": 6233,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\MANIFEST_SHA256.json",
+    "bytes": 3362,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\PACKAGE_VERIFICATION.json",
+    "bytes": 750,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\packaging",
+    "bytes": 3821,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\pds_reports.py",
+    "bytes": 8450,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\README.md",
+    "bytes": 8070,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\run_tests.py",
+    "bytes": 2583,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\SHA256SUMS.txt",
+    "bytes": 179,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_gate_v1_20261023\\test_g7_gate.py",
+    "bytes": 18823,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\delivery",
+    "bytes": 887315575,
+    "files": 1964
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\G7_R01_R14_followup_G8_20261023.zip",
+    "bytes": 818884562,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\G7_R01_R14_followup_G8_20261023.zip.sha256",
+    "bytes": 103,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\RELEASE_VERIFICATION.json",
+    "bytes": 322,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\00_阅读与转交说明.md",
+    "bytes": 1585,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\01_G8回件独立复核结论.md",
+    "bytes": 5104,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\02_R01-R15统一回执清单_最新.md",
+    "bytes": 4868,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\03_核心后续优化方向_二号留档.md",
+    "bytes": 2235,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\G8回件复核_二号协作者留档_无需转交_20261024.zip",
+    "bytes": 6783407,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\G8回件复核_给一号协作者_20261024.zip",
+    "bytes": 17820,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\G8回件复核_给执行者_20261024.zip",
+    "bytes": 17761,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\MANIFEST_SHA256.json",
+    "bytes": 48545,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\二号协作者留档_无需转交",
+    "bytes": 219925076,
+    "files": 205
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\归档校验记录.json",
+    "bytes": 1527,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\待汇总进展.md",
+    "bytes": 896,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\收到原件",
+    "bytes": 1267092583,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\给一号协作者",
+    "bytes": 193270,
+    "files": 7
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\G8八种子回件复核_20261024\\给执行者",
+    "bytes": 193071,
+    "files": 7
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\本机项目全量归档上传_二号_20261024\\00_归档开工声明_给管理方及一号.md",
+    "bytes": 813,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\本机项目全量归档上传_二号_20261024\\01_结果与仓库入口_给管理方及一号.md",
+    "bytes": 541,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\本机项目全量归档上传_二号_20261024\\02_仓库上传回执.json",
+    "bytes": 1307,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\本机项目全量归档上传_二号_20261024\\完整归档",
+    "bytes": 2892876735,
+    "files": 109
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\00_继续开工声明_给执行者.md",
+    "bytes": 1586,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\01_本轮结果与续跑说明_给执行者.md",
+    "bytes": 1173,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\02_后备保持时间优化准备_给执行者.md",
+    "bytes": 1287,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\03_原生批次结果_给执行者.md",
+    "bytes": 922,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\04_定向修复结果与布线续作_给执行者.md",
+    "bytes": 1177,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\batch_native_evidence",
+    "bytes": 172209261,
+    "files": 108
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\batch_receipt.json",
+    "bytes": 1461,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\G4_静态校正1080p30_时序通过待板测_二号给管理方_20261024",
+    "bytes": 112534856,
+    "files": 275
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\G4_静态校正1080p30_时序通过待板测_二号给管理方_20261024.zip",
+    "bytes": 33983622,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\native_batch_progress.json",
+    "bytes": 6539,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\native_seed_4_hold20_progress.json",
+    "bytes": 1364,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\qualified_package_receipt.json",
+    "bytes": 574,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\seed4_native_evidence",
+    "bytes": 43044091,
+    "files": 29
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\single_native_evidence",
+    "bytes": 42954108,
+    "files": 27
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\verification.json",
+    "bytes": 345,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\原生物理选项依据",
+    "bytes": 20026,
+    "files": 7
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Desktop\\yx\\静态畸变校正_时序实现与板测续作_二号_20261024\\构建门禁与续跑脚本",
+    "bytes": 38913,
+    "files": 7
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\AB_G8对照与M01核验_二号回传_20261023.zip",
+    "bytes": 48645398,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\build_delivery.py",
+    "bytes": 16552,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\delivery",
+    "bytes": 49420039,
+    "files": 81
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\intake.json",
+    "bytes": 974,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\manifest_verification.json",
+    "bytes": 190,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\package_delivery.py",
+    "bytes": 2098,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\package_verification.json",
+    "bytes": 328,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\received",
+    "bytes": 92968236,
+    "files": 963
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\AB_M01_intake_compare_20261023\\test_temp",
+    "bytes": 0,
+    "files": 0
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\00_接收与验证记录.md",
+    "bytes": 8591,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\01_缺陷回复_二号.md",
+    "bytes": 1633,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\02_运行与剩余实机步骤.md",
+    "bytes": 2672,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\03_实采验证续报_20261020.md",
+    "bytes": 5375,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\04_预热静置补测结果_20261020.md",
+    "bytes": 3723,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\05_管理方复核回复与静置定位_20261020.md",
+    "bytes": 5621,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\06_180秒同轮角点漂移定位结果_20261020.md",
+    "bytes": 6346,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\07_静置定位复核接收回复与口径澄清_20261020.md",
+    "bytes": 3539,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\analyze_real_runs.py",
+    "bytes": 4197,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\build_delivery.py",
+    "bytes": 13654,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\build_real_capture_addendum.py",
+    "bytes": 2884,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\build_static_drift_delivery.py",
+    "bytes": 3980,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\camera_devices.py",
+    "bytes": 3301,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\candidate",
+    "bytes": 127839,
+    "files": 8
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\capture_drift_sources.py",
+    "bytes": 7182,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\capture_static_diagnostic.py",
+    "bytes": 2633,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\changes.diff",
+    "bytes": 24634,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\check_sampling_direction.py",
+    "bytes": 2140,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\diagnose_saved_static.py",
+    "bytes": 2751,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\evidence",
+    "bytes": 234195911,
+    "files": 128
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\incoming",
+    "bytes": 136842,
+    "files": 9
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\live_control.json",
+    "bytes": 69,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\MANIFEST.json",
+    "bytes": 5881,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\PC_ONLY_本轮结果.md",
+    "bytes": 2170,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\PC_ONLY_测试说明.md",
+    "bytes": 2739,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\pc_stability.py",
+    "bytes": 11291,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\probe_hagibis_formats.py",
+    "bytes": 3578,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\probe_hardware.py",
+    "bytes": 2053,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\query_uart_status.py",
+    "bytes": 1391,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\raw",
+    "bytes": 28060,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\replay_real_source.py",
+    "bytes": 2337,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\resume_preflight.py",
+    "bytes": 4096,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\run_candidate_checks.py",
+    "bytes": 1393,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\run_received_checks.py",
+    "bytes": 1806,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\static_drift_check.py",
+    "bytes": 8153,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\static_soak_control.json",
+    "bytes": 69,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\summarize_static_drift.py",
+    "bytes": 3148,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\test_static_drift_check.py",
+    "bytes": 2977,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\__pycache__",
+    "bytes": 21929,
+    "files": 2
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\affine_track_loop_review_20261020\\实机恢复预检_20261020.md",
+    "bytes": 3167,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023\\archive_cli_replay",
+    "bytes": 1157806458,
+    "files": 142
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023\\delivery",
+    "bytes": 57828362,
+    "files": 36
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023\\evidence",
+    "bytes": 10439,
+    "files": 9
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023\\G6_PAP_GROUP_binding_audit",
+    "bytes": 1157789004,
+    "files": 141
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023\\G6_PAP_GROUP_review_upgrade_20261023.zip",
+    "bytes": 53047253,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G6_PAP_GROUP_review_20261023\\G6_PAP_GROUP_review_upgrade_20261023.zip.sha256",
+    "bytes": 108,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\delivery",
+    "bytes": 1058014362,
+    "files": 26975
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\finalize_release.py",
+    "bytes": 8585,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\intake.json",
+    "bytes": 305,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\received",
+    "bytes": 3053040644,
+    "files": 12720
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G7_R01_R14_followup_20261023\\release",
+    "bytes": 1706200562,
+    "files": 1967
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023\\delivery",
+    "bytes": 46130125,
+    "files": 1222
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023\\release",
+    "bytes": 83087681,
+    "files": 1226
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_gate_exec_20261023\\test_runs",
+    "bytes": 222372052,
+    "files": 42417
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\delivery",
+    "bytes": 220374650,
+    "files": 225
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\evidence",
+    "bytes": 26765148,
+    "files": 25
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\intake.json",
+    "bytes": 262,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\received",
+    "bytes": 3420309910,
+    "files": 3821
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\tools",
+    "bytes": 23889,
+    "files": 5
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\G8_receipt_review_20261024\\zip_listing.txt",
+    "bytes": 266725,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\delivery",
+    "bytes": 164819908,
+    "files": 2335
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\evidence",
+    "bytes": 112950,
+    "files": 58
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\intake.json",
+    "bytes": 292,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\prepared",
+    "bytes": 28398898,
+    "files": 23728
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\received",
+    "bytes": 1513111240,
+    "files": 390
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\runs",
+    "bytes": 1294285,
+    "files": 1779
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\sandbox_m02",
+    "bytes": 29899,
+    "files": 2
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\outsourced_audit_20261024\\tools",
+    "bytes": 81665,
+    "files": 12
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\installer_contents.txt",
+    "bytes": 259,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\Pango_Design_Suite_Windows_Install_Guide.pdf",
+    "bytes": 8697104,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\Pango_Design_Suite_Windows_Install_Guide.txt",
+    "bytes": 40086,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\payload_extract_only.nsis",
+    "bytes": 1955259512,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\payload_listing.txt",
+    "bytes": 226,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\Release_Notes.pdf",
+    "bytes": 786274,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\Release_Notes.txt",
+    "bytes": 46752,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\pds_sp64_setup\\Setup.exe",
+    "bytes": 1955299448,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\00_归档开工声明_给管理方及一号.md",
+    "bytes": 813,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\build_archive.py",
+    "bytes": 7483,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\check_additional_scope.py",
+    "bytes": 395,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\check_scope_tail.py",
+    "bytes": 971,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\contributor01_manifest.json",
+    "bytes": 564392,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\filtered_exclusions.json",
+    "bytes": 173269,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\finalize_docs.py",
+    "bytes": 10888,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\final_upload_receipt.json",
+    "bytes": 1307,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\hashed_files.jsonl",
+    "bytes": 98442098,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\hash_inventory.py",
+    "bytes": 5018,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\inventory.json",
+    "bytes": 82204492,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\inventory.py",
+    "bytes": 3959,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\local_objects.json",
+    "bytes": 85621155,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\prepare_remote.py",
+    "bytes": 2661,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\publish_final.py",
+    "bytes": 7886,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\push_batches_receipt.json",
+    "bytes": 8849,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\remote_git_objects.json",
+    "bytes": 891403,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\remote_manifests",
+    "bytes": 582770,
+    "files": 18
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\remote_manifests.py",
+    "bytes": 1165,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\restore_archive.py",
+    "bytes": 6518,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\restore_smoke_result",
+    "bytes": 187330,
+    "files": 5
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\smoke_restore.py",
+    "bytes": 1334,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\supplement_images.py",
+    "bytes": 2774,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\supplement_project_sources.py",
+    "bytes": 1806,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\upload_batches.py",
+    "bytes": 2597,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\verify_archive.py",
+    "bytes": 2856,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\verify_downloaded_archive.py",
+    "bytes": 1324,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\repository_sync_20261024\\__pycache__",
+    "bytes": 24972,
+    "files": 2
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\delivery",
+    "bytes": 5257882,
+    "files": 110
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\finish_delivery.py",
+    "bytes": 22582,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\intake.json",
+    "bytes": 366,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\package_final.py",
+    "bytes": 2620,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\package_verification.json",
+    "bytes": 571,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\received",
+    "bytes": 802917288,
+    "files": 8
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\V204_intake_independent_20261023\\V204核心证据升级与M02复核准备_二号统一回传_20261023.zip",
+    "bytes": 464243,
+    "files": 1
+  },
+  {
+    "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\yosys_cache\\yowasp_yosys",
+    "bytes": 268168200,
+    "files": 2
+  }
+]

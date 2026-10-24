@@ -1,0 +1,15 @@
+{
+  "00_清理开工声明_给执行者.md": "833e64c3916242b54f9d46d7a6e6fdeacaf80cd738c7715901240c606b114e08",
+  "cleanup_result.json": "51c1d45d5dd0a81f8b5cc959fd35900023aab3592c4f6b55c8b072f44056a759",
+  "deletion_journal.jsonl": "16405f553ce4df37cbb9ef967e6420b7ea69e96987ac6b806d2b5be53a7cd92a",
+  "detail.json": "71241f14f6fff865fc6f585a00a60c7e6eb756a412c864e6800507b546ca1c88",
+  "inventory.json": "f9ce2c205f767c10f0bedca7912e2d61b291705645e806c7e81c16eac7362ce3",
+  "plan.json": "7d53f7fd03cf7d3d55c6cd97768dbfccac364abb1001e442eb76730f16b29ae0",
+  "README.md": "a81fe79478d7313d1b07baf87d228cb45c3dbfc3b7f65b98968ce524c0020d7c",
+  "recovery_verification.json": "8f4b632b9c3dca2a740a3045e5bea5578312a5123e41e3fce2877eb0d903a41d",
+  "scripts/detail.py": "547edaf99f6dda6a21a91fc83dfc65c66bb662459dbfbc2a8eeac03dc2cb93d9",
+  "scripts/execute_cleanup.ps1": "ead33b3370448c3b3025530e7447ead5f5dacd8083fc09cd10e62148a2420948",
+  "scripts/finalize_report.py": "4a8cb8585ac9322cd8023369843c0c2da089f63ae6c672f511b867ec4b2d22cf",
+  "scripts/inventory.py": "69ebd6b67edf6c739923a62aa989d51b723c3ebf9416b233945f96a1ebc7b31c",
+  "scripts/prepare_cleanup.py": "b0b14a5fc996cc8730ec4e86fba73f881dcdea4f88e4ec35087d3b4a1843e2b8"
+}
