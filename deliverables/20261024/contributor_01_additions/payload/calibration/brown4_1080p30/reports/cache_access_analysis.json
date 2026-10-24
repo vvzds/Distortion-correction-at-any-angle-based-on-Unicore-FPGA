@@ -1,0 +1,9 @@
+{
+  "row_pair_runs": 71349,
+  "predicted_real_line_loads": 69916,
+  "predicted_real_reloads": 68885,
+  "source_rows_used": 1031,
+  "max_missing_loads_per_pair": 2,
+  "read_256bit_beats": 8389920,
+  "note": "Offline four-bank replacement analysis, not board timing or standalone RTL proof"
+}

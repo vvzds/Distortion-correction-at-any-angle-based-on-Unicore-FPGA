@@ -1,0 +1,30 @@
+{
+  "schema": "management-run-derived-review-v1",
+  "origin": "DERIVED_REVIEW",
+  "new_pds_execution": false,
+  "source_root_hint": "G8_RESULTS",
+  "launch_source": {
+    "source_path": "physical_launch.json",
+    "source_sha256": "41A49A6ECC5D7C6320E2B8E9004E10BFA2F584E9FCD9860BE24C3B53DB549117"
+  },
+  "candidate_commit": "25b4ccd1fa99ca9ef9851b69a083ddd488e8361b",
+  "console_policy": "strict",
+  "production_promotion": false,
+  "board_acceptance": "NOT_TESTED",
+  "valid": 4,
+  "closed": 0,
+  "worst_valid_wns_ns": -1.897,
+  "timing_reference_pass": false,
+  "two_view_reference_pass": false,
+  "numeric_reference_ready_for_review": false,
+  "thresholds": {
+    "min_valid": 8,
+    "min_closed": 7,
+    "min_worst_ns": -0.05
+  },
+  "native_csv": {
+    "collected": 8,
+    "closed": 0,
+    "worst_wns_ns": -1.897
+  }
+}

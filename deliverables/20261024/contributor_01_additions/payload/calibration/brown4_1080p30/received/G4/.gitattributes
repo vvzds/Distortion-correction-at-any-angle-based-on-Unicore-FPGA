@@ -1,0 +1,12 @@
+# 原始补发件按字节保存，禁止自动换行转换破坏已核验SHA256。
+verification/reference_package/01_ref/param_mgr.v -text
+verification/reference_package/01_ref/param_mgr_tb.v -text
+verification/design_refill_20261018/** -text
+verification/design_g1_sp64_20261018/** -text
+verification/logs/g2_20261018/** -text
+verification/design_g2_sp64_20261018/** -text
+verification/logs/g3_20261018/** -text
+verification/design_g3_sp64_20261018/** -text
+verification/design_g4_review_20261018/** -text
+verification/logs/g4_20261018/** -text
+verification/dev_notes/g4_first_protocol_failure.txt -text

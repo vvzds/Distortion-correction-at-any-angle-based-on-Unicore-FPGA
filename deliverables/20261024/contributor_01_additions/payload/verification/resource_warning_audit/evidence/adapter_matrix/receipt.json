@@ -1,0 +1,27 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\review_adapter\\tests\\test_adapter.py"
+    ],
+    "exit_code": 0,
+    "origin": "SYNTHETIC",
+    "sha256": "889b2a0b3d9c8fb9c684d61e73f15d9c58746e38d874c4c7908c4a3bc7407990"
+  },
+  {
+    "argv": [
+      "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-O",
+      "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\review_adapter\\tests\\test_adapter.py"
+    ],
+    "exit_code": 0,
+    "origin": "SYNTHETIC",
+    "sha256": "889b2a0b3d9c8fb9c684d61e73f15d9c58746e38d874c4c7908c4a3bc7407990"
+  }
+]

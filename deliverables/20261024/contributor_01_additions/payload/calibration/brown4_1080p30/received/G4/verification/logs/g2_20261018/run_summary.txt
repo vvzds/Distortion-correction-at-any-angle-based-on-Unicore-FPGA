@@ -1,0 +1,10 @@
+Date: 2026-10-18 16:36:59 +08:00
+Simulator: ModelSim SE-64 10.7
+Run directory: D:/FPGA PDS/sty/undistort_core_g1_verify/sim
+G2 map SHA256: 6E57245B06873C5A1913E84F62FD359DADF45F2CC4B968BCFFCB0DE507990BAE
+run_undistort_map.do: process exit 0; new result PASS samples=560
+run_undistort_map_g2_equiv.do: process exit 0; PASS frames=96 samples=35136 extra_latency=3
+run_undistort_core.do: process exit 0; T0-T9 + golden 8 configurations PASS
+Known tool-exit diagnostic: FileWatch(fileName) Tcl message retained in raw console logs.
+No G2 PDS synthesis or P&R result was produced.
+=== ALL TESTS PASSED (err=0) ===

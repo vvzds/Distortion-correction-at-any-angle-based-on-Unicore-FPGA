@@ -1,0 +1,126 @@
+# do run_undistort_core_g4_protocol.do
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 20:58:36 on Oct 18,2026
+# vlog -work g4_protocol_work ../source/rtl/undistort_map.v ../source/rtl/undistort_line_cache.v ../source/rtl/undistort_bilinear.v ../source/rtl/undistort_core.v undistort_core_g4_protocol_tb.v 
+# -- Compiling module undistort_map
+# -- Compiling module undistort_line_cache
+# -- Compiling module undistort_bilinear
+# -- Compiling module undistort_core
+# -- Compiling module undistort_core_g4_protocol_tb
+# 
+# Top level modules:
+# 	undistort_core_g4_protocol_tb
+# End time: 20:58:36 on Oct 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 20:58:36 on Oct 18,2026
+# vopt -work g4_protocol_work g4_protocol_work.undistort_core_g4_protocol_tb -gMODE=0 "+acc" -o g4_protocol_0 
+# 
+# Top level modules:
+# 	undistort_core_g4_protocol_tb
+# 
+# Analyzing design...
+# -- Loading module undistort_core_g4_protocol_tb
+# -- Loading module undistort_core
+# -- Loading module undistort_map
+# -- Loading module undistort_line_cache
+# -- Loading module undistort_bilinear
+# Incremental compilation check found 4 design-units (out of 5) may be reused.
+# Optimizing 1 design-unit (inlining 0/5 module instances):
+# -- Optimizing module undistort_core_g4_protocol_tb(fast)
+# Optimized design name is g4_protocol_0
+# End time: 20:58:36 on Oct 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Break in Module undistort_core_g4_protocol_tb at undistort_core_g4_protocol_tb.v line 267
+# Stopped at undistort_core_g4_protocol_tb.v line 267
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 20:58:37 on Oct 18,2026
+# vopt -work g4_protocol_work g4_protocol_work.undistort_core_g4_protocol_tb -gMODE=1 "+acc" -o g4_protocol_1 
+# 
+# Top level modules:
+# 	undistort_core_g4_protocol_tb
+# 
+# Analyzing design...
+# -- Loading module undistort_core_g4_protocol_tb
+# -- Loading module undistort_core
+# -- Loading module undistort_map
+# -- Loading module undistort_line_cache
+# -- Loading module undistort_bilinear
+# Incremental compilation check found 4 design-units (out of 5) may be reused.
+# Optimizing 1 design-unit (inlining 0/5 module instances):
+# -- Optimizing module undistort_core_g4_protocol_tb(fast)
+# Optimized design name is g4_protocol_1
+# End time: 20:58:37 on Oct 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break in Module undistort_core_g4_protocol_tb at undistort_core_g4_protocol_tb.v line 267
+# Stopped at undistort_core_g4_protocol_tb.v line 267
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 20:58:38 on Oct 18,2026
+# vopt -work g4_protocol_work g4_protocol_work.undistort_core_g4_protocol_tb -gMODE=0 -gFAULT=1 "+acc" -o g4_protocol_fault 
+# 
+# Top level modules:
+# 	undistort_core_g4_protocol_tb
+# 
+# Analyzing design...
+# -- Loading module undistort_core_g4_protocol_tb
+# -- Loading module undistort_core
+# -- Loading module undistort_map
+# -- Loading module undistort_line_cache
+# -- Loading module undistort_bilinear
+# Incremental compilation check found 4 design-units (out of 5) may be reused.
+# Optimizing 1 design-unit (inlining 0/5 module instances):
+# -- Optimizing module undistort_core_g4_protocol_tb(fast)
+# Optimized design name is g4_protocol_fault
+# End time: 20:58:38 on Oct 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break in Module undistort_core_g4_protocol_tb at undistort_core_g4_protocol_tb.v line 267
+# Stopped at undistort_core_g4_protocol_tb.v line 267
+# file6ec9740
+# FAIL mode=0 case=0 injected early request must FAIL
+# FAIL mode=0 case=1 injected early request must FAIL
+# FAIL mode=0 case=2 injected early request must FAIL
+# FAIL mode=0 case=3 injected early request must FAIL
+# FAIL mode=0 case=4 injected early request must FAIL
+# FAIL mode=0 case=5 injected early request must FAIL
+# FAIL mode=0 case=6 injected early request must FAIL
+# FAIL mode=0 case=7 injected early request must FAIL
+# FAIL mode=0 case=8 injected early request must FAIL
+# FAIL mode=0 case=9 injected early request must FAIL
+# FAIL mode=0 case=10 injected early request must FAIL
+# FAIL mode=0 case=11 injected early request must FAIL
+# FAIL mode=0 case=12 injected early request must FAIL
+# FAIL mode=0 case=13 injected early request must FAIL
+# FAIL mode=0 case=14 injected early request must FAIL
+# FAIL mode=0 case=15 injected early request must FAIL
+# FAIL mode=0 case=16 injected early request must FAIL
+# FAIL mode=0 case=17 injected early request must FAIL
+# FAIL mode=0 case=18 injected early request must FAIL
+# FAIL mode=0 case=19 injected early request must FAIL
+# FAIL mode=0 case=20 injected early request must FAIL
+# FAIL mode=0 case=21 injected early request must FAIL
+# FAIL mode=0 case=22 injected early request must FAIL
+# FAIL mode=0 case=23 injected early request must FAIL
+# FAIL mode=0 case=24 injected early request must FAIL
+# FAIL mode=0 case=25 injected early request must FAIL
+# FAIL mode=0 case=26 injected early request must FAIL
+# FAIL mode=0 case=27 injected early request must FAIL
+# FAIL mode=0 case=28 injected early request must FAIL
+# FAIL mode=0 case=28 injected early request must FAIL
+# FAIL mode=0 case=28 injected early request must FAIL
+# FAIL mode=0 case=28 injected early request must FAIL
+# FAIL mode=0 case=28 injected early request must FAIL
+# FAIL err=33
+# 

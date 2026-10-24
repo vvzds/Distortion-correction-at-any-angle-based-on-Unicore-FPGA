@@ -1,0 +1,51 @@
+# do run_undistort_map_g3_equiv.do
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 17:18:52 on Oct 18,2026
+# vlog -work g3_equiv_work ../verification/g1_baseline/undistort_map_v12_ref.v ../source/rtl/undistort_map.v undistort_map_g3_equiv_tb.v 
+# -- Compiling module undistort_map_v12_ref
+# -- Compiling module undistort_map
+# -- Compiling module undistort_map_g3_equiv_tb
+# 
+# Top level modules:
+# 	undistort_map_g3_equiv_tb
+# End time: 17:18:52 on Oct 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 17:18:52 on Oct 18,2026
+# vopt -work g3_equiv_work g3_equiv_work.undistort_map_g3_equiv_tb "+acc" -o map_g3_equiv_acc 
+# 
+# Top level modules:
+# 	undistort_map_g3_equiv_tb
+# 
+# Analyzing design...
+# -- Loading module undistort_map_g3_equiv_tb
+# -- Loading module undistort_map
+# -- Loading module undistort_map_v12_ref
+# Optimizing 3 design-units (inlining 0/3 module instances):
+# -- Optimizing module undistort_map(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "undistort_map(fast)".
+# -- Optimizing module undistort_map_g3_equiv_tb(fast)
+# -- Optimizing module undistort_map_v12_ref(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "undistort_map_v12_ref(fast)".
+# Optimized design name is map_g3_equiv_acc
+# End time: 17:18:53 on Oct 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Break in Module undistort_map_g3_equiv_tb at undistort_map_g3_equiv_tb.v line 136
+# Stopped at undistort_map_g3_equiv_tb.v line 136
+# filee1398a0
+# [G3 equivalence] PASS err=0 frames=128 samples=51520 extra_latency=4
+# === ALL TESTS PASSED (err=0) ===
+# 

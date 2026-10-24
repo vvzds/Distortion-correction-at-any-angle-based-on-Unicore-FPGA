@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "baseline_file": "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core\\source\\rtl\\undistort_map.v",
+  "baseline_sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+  "baseline_unchanged": true,
+  "cases": [
+    {
+      "case": "valid_one_edge_early",
+      "expected_rejection": "VALID_LATENCY",
+      "exit_code": 1,
+      "status": "EXPECTED_REJECTION_PASS",
+      "source_sha256": "0b200eae6e625e46baf540eb471044346d95d990cfd69c49fc3cd9ca9004e082",
+      "actual_result": "FAIL",
+      "port_width_warning": false,
+      "command": [
+        "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py",
+        "--map",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\valid_one_edge_early.v",
+        "--tool-root",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app",
+        "--out",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\valid_one_edge_early"
+      ]
+    },
+    {
+      "case": "identity_pixel_corrupt",
+      "expected_rejection": "IDENTITY_COORD",
+      "exit_code": 1,
+      "status": "EXPECTED_REJECTION_PASS",
+      "source_sha256": "3b7ee52fd93a0500940930758bc5d4f857ff1fdfa239256525f8e3fa81bce09b",
+      "actual_result": "FAIL",
+      "port_width_warning": false,
+      "command": [
+        "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py",
+        "--map",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\identity_pixel_corrupt.v",
+        "--tool-root",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app",
+        "--out",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\identity_pixel_corrupt"
+      ]
+    },
+    {
+      "case": "output_width_narrow",
+      "expected_rejection": "PORT_WIDTH_WARNING",
+      "exit_code": 1,
+      "status": "EXPECTED_REJECTION_PASS",
+      "source_sha256": "e8b853b5b5d72cf47fbec073f1a3a326b25007843de8f93a6ae0f5a7b819c7fd",
+      "actual_result": "FAIL",
+      "port_width_warning": true,
+      "command": [
+        "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py",
+        "--map",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow.v",
+        "--tool-root",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app",
+        "--out",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\negative_01\\output_width_narrow"
+      ]
+    }
+  ],
+  "scope": "TESTBENCH_NEGATIVE_SELF_CHECK_ONLY_MUTATED_COPIES_NOT_NEW_RTL_CANDIDATES"
+}

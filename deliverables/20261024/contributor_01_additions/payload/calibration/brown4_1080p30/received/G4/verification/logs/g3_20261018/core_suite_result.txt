@@ -1,0 +1,62 @@
+[T9 frame 1] loads=1080 hits=0 pixels=0 frames=1 err=0 latency=1 rel=1
+[T9 frame 2] loads=1080 hits=0 pixels=0 frames=2 err=0 latency=16 rel=2
+[T9 frame 3] loads=1080 hits=0 pixels=0 frames=3 err=0 latency=64 rel=3
+[T0] PASS err=0
+[T7] PASS err=0
+[T9] PASS err=0 frames=3
+=== ALL TESTS PASSED (err=0) ===
+
+[T1 frame 1] PASS err=0 pixels=2073600 cycles=4147454 stable_cpp=2.000000 loads=1080 hits=1
+[T1 frame 2] PASS err=0 pixels=2073600 cycles=8294912 stable_cpp=2.000000 loads=1080 hits=1
+
+[T1] PASS err=0 frames=2 pixels=4147200 rel=2
+[T7] PASS err=0 ignored_start/parameter_snapshot/frame_clear
+[T8 T1] PASS stable_cpp=2.000000 loads_per_frame=1080 hits=1
+=== ALL TESTS PASSED (err=0) ===
+
+[T2] PASS err=0 pixels=2073600 cycles=4147454 stable_cpp=2.000000 loads=1080 hits=1
+[T7] PASS err=0 rel=1 drained=1
+=== ALL TESTS PASSED (err=0) ===
+
+[T3] PASS err=0 checked=129600 max_error=0 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T3] cycles=10486262 stable_cpp=5.056850 loads=50309 reloads=49259 hits=4 max_loads_per_line=100
+=== ALL TESTS PASSED (err=0) ===
+
+[T4] PASS err=0 checked=129600 max_error=1 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T4] cycles=6959018 stable_cpp=3.355886 loads=22315 reloads=21235 hits=18 max_loads_per_line=47
+=== ALL TESTS PASSED (err=0) ===
+
+[T5a] PASS err=0 checked=129600 max_error=0 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T5a] cycles=4283408 stable_cpp=2.065504 loads=1080 reloads=0 hits=30 max_loads_per_line=2
+=== ALL TESTS PASSED (err=0) ===
+
+[T5b] PASS err=0 checked=129600 max_error=0 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T5b] cycles=4283408 stable_cpp=2.065504 loads=1080 reloads=0 hits=30 max_loads_per_line=2
+=== ALL TESTS PASSED (err=0) ===
+
+[T5c] PASS err=0 checked=129600 max_error=0 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T5c] cycles=4283408 stable_cpp=2.065504 loads=1080 reloads=0 hits=30 max_loads_per_line=2
+=== ALL TESTS PASSED (err=0) ===
+
+[T6] PASS err=0 checked=129600 max_error=0 within_one=1.000000 pattern=0 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T6] cycles=15011552 stable_cpp=7.239187 loads=86224 reloads=85193 hits=4 max_loads_per_line=193
+=== ALL TESTS PASSED (err=0) ===
+
+[T3] PASS err=0 checked=129600 max_error=1 within_one=1.000000 pattern=1 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T3] cycles=10486262 stable_cpp=5.056850 loads=50309 reloads=49259 hits=4 max_loads_per_line=100
+=== ALL TESTS PASSED (err=0) ===
+
+[T4] PASS err=0 checked=129600 max_error=1 within_one=1.000000 pattern=1 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T4] cycles=6959018 stable_cpp=3.355886 loads=22315 reloads=21235 hits=18 max_loads_per_line=47
+=== ALL TESTS PASSED (err=0) ===
+
+=== CORE SUITE PASSED: T0-T9 (err=0) ===
+=== ALL TESTS PASSED (err=0) ===

@@ -1,0 +1,2 @@
+BOUNDARY PASS checks=32 clamps_all_edges=1 rowB_zero=1
+sim/calibration_boundary_tb.v:52: $finish called at 6776000 (1ps)

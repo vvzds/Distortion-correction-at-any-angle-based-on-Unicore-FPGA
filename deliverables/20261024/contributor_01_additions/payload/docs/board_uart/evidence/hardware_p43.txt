@@ -1,0 +1,19 @@
+39
+PCIE_RX2P PCIe 通道 2 数据接收 P 端 D14
+PCIE_RX2N PCIe 通道 2 数据接收 N 端 C14
+PCIE_TX3P PCIe 通道 3 数据发送 P 端 B7
+PCIE_TX3N PCIe 通道 3 数据发送 N 端 A7
+PCIE_RX3P PCIe 通道 3 数据接收 P 端 B11
+PCIE_RX3N PCIe 通道 3 数据接收 N 端 A11
+PCIE_PERST PCIe 的复位引脚 G24
+PCIE_WAKE PCIe 的唤醒引脚 F24
+PCIE_REFCLK_P PCIe 的参考时钟 P 端 F13
+PCIE_REFCLK_N PCIe 的参考时钟 N 端 E13
+2.1.3.2.5. 串口
+MES2L676-100HP 扩展底板上集成了一路 USB 转串口模块，采用的 USB-UART 芯片是
+CP2102 , USB 接口采用 USB Type C 接口，可用 USB Type C 线连接到 PC 端进行串口数
+据通信。
+USB Uart 电路设计的示意图如下图所示：
+具体的管脚分配如下：
+信号 描述 PG2L100H-676 管脚
+FPGA_UART_RXD UART 数据输入 B24

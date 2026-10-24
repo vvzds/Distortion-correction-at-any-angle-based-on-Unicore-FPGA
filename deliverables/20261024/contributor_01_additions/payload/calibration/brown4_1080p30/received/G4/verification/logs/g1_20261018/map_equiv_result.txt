@@ -1,0 +1,2 @@
+[G1 equivalence] PASS err=0 frames=96 samples=35136 extra_latency=2
+=== ALL TESTS PASSED (err=0) ===

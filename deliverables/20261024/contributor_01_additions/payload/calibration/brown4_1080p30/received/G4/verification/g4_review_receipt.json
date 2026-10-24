@@ -1,0 +1,14 @@
+{
+  "source": "C:\\Users\\叶翔\\xwechat_files\\wxid_qanrp2aqlq8h22_bb90\\msg\\file\\2026-10\\G4_读地址拆级方案_评审意见_设计方_20261018(1).md",
+  "archived_path": "verification/design_g4_review_20261018/G4_读地址拆级方案_评审意见_设计方_20261018.md",
+  "bytes": 6256,
+  "sha256": "D8F05B57188810E67593721DE44B5A284EFC11F2F93F2231397726DB0BC079BE",
+  "review_status": "方案评审通过",
+  "implementation_approval": false,
+  "decision_options": {
+    "A": "start G4",
+    "B": "corr_top P&R first",
+    "C": "parallel"
+  },
+  "production_rtl_changed": false
+}

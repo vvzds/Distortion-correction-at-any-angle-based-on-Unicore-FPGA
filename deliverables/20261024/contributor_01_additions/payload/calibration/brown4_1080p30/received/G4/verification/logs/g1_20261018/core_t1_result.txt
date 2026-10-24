@@ -1,0 +1,2 @@
+[T1 frame 1] PASS err=0 pixels=2073600 cycles=4147452 stable_cpp=2.000000 loads=1080 hits=1
+[T1 frame 2] PASS err=0 pixels=2073600 cycles=8294908 stable_cpp=2.000000 loads=1080 hits=1

@@ -1,0 +1,79 @@
+[
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\source\\rtl\\undistort_cache_ab.v",
+    "package_path": "reference/frozen_rtl/undistort_cache_ab.v",
+    "bytes": 16030,
+    "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\source\\rtl\\undistort_core.v",
+    "package_path": "reference/frozen_rtl/undistort_core.v",
+    "bytes": 20450,
+    "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\source\\rtl\\undistort_map.v",
+    "package_path": "reference/frozen_rtl/undistort_map.v",
+    "bytes": 9191,
+    "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\source\\rtl\\undistort_bilinear.v",
+    "package_path": "reference/frozen_rtl/undistort_bilinear.v",
+    "bytes": 1777,
+    "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\HDMI_DDR3_OV5640_test.fdc",
+    "package_path": "reference/frozen_fdc/HDMI_DDR3_OV5640_test.fdc",
+    "bytes": 57196,
+    "sha256": "ba2e0b2666ba6ac4a90a0c2fd2352eeb2ae14b1f65458b14bead433166afbb71",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\report_timing\\hdmi_ddr_ov5640_top.rtr",
+    "package_path": "reference/native/hdmi_ddr_ov5640_top.rtr",
+    "bytes": 1715817,
+    "sha256": "80e7c04e5edef06fa3be9eb461f13736ad7634198518bd055b31008cf4212a89",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\runs\\ab_seed2_inputs\\place_route\\hdmi_ddr_ov5640_top.prr",
+    "package_path": "reference/native/hdmi_ddr_ov5640_top.prr",
+    "bytes": 138150,
+    "sha256": "4faa076839caff02247f6f9808e6ea17cef91adb7b04aadd30d10f21d31e53f2",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\evidence\\review_evidence\\AB_critical_paths.json",
+    "package_path": "reference/AB_critical_paths.json",
+    "bytes": 28602,
+    "sha256": "13bca6ffb006c8138d29c4dc023a2108704abf5ad7142d8fa0656f1b2cf82f7b",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\evidence\\review_evidence\\A03_shared_comparison_recheck.json",
+    "package_path": "reference/A03_shared_comparison_recheck.json",
+    "bytes": 3915,
+    "sha256": "9ed7cf85489936caff39cd1aec11bd9efd9bebde3e0dbb40d84efce30ac9e868",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\reports\\A01_AB单seed物理诊断与四层资源账本.md",
+    "package_path": "reference/A01_既有报告.md",
+    "bytes": 5769,
+    "sha256": "24289700311d3c0586fcd8c2bac0d8bc9e0f8b323e977cae26acbe1af781de17",
+    "verified_against_prior_delivery_manifest": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\ww\\audit_delivery_20261024\\reports\\A03_共享仿真与资源复核.md",
+    "package_path": "reference/A03_既有报告.md",
+    "bytes": 2288,
+    "sha256": "4ccdc72971bb6f84b02c8e644664b84f5f10a5bf1372f52f99265d8892acb48e",
+    "verified_against_prior_delivery_manifest": true
+  }
+]

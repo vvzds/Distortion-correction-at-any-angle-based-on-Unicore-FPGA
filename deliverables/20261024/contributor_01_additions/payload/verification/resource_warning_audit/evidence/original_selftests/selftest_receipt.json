@@ -1,0 +1,46 @@
+{
+  "schema": "g8-tools-selftest-v1",
+  "jobs": [
+    {
+      "mode": "normal",
+      "argv": [
+        "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\inputs\\G8_TOOLS\\delivery\\tests\\test_g8_tools.py"
+      ],
+      "exit_code": 0,
+      "seconds": 119.43799999999464
+    },
+    {
+      "mode": "optimized",
+      "argv": [
+        "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\inputs\\G8_TOOLS\\delivery\\tests\\test_g8_tools.py"
+      ],
+      "exit_code": 0,
+      "seconds": 98.68700000000536
+    }
+  ],
+  "tool_inputs_sha256": {
+    "tools/g8_check_execution.py": "CD6707754D06355ECE39C0ADB6C110CB2E37D69788D2473DC00ED7711DDEBD96",
+    "tools/g8_common.py": "6783AEDEA73F5AFF35889E49212C5BBAEF81564002759C54E363D87CB03BF57A",
+    "tools/g8_console.py": "65F0D4709735E74F793F82E8CD426E3A23365523D6E1874FB492F05FD9FD8743",
+    "tools/g8_execute.py": "C7726D42615CED08F307F27B35E15609705103D70C1C4D1C35B9FE35D61E4095",
+    "tools/g8_execution_records.py": "9D37BBD8FF3EED5C43F911B01BCB257E8CF40A5D6588856DD1AFC8908A5EF026",
+    "tools/g8_gate.py": "F3F332383316E59A9427B4A5B847D0C4CEE577CA5C873CE0E1F5B598DC5ECDBA",
+    "tools/g8_preflight.py": "839FDA0A1DF7694F7A12C237AA15D22FFD9CA6D4575F144E9F4E730779859431",
+    "tools/pds_reports.py": "3D804B8716997183AE4A6DE28B2A23121809123A9DAB16C2780DF7AB9130A3CF",
+    "tools/run_selftests.py": "B4BB4D0248BBABEEBF061536E72B2DB6D1D8600AD81B55AFEA3B8A866CAA75CF",
+    "tools/data/g8_baseline.json": "24AE3E6B230A3451221EC0CC047890FD6E93A559C24BD223ACFE5AAE6FF75EDF",
+    "tests/make_fixture.py": "163E644D09DC5D9D557C88DB3170AF5EDE2E1C91BEE9BC0FC479CAAEB2C05E40",
+    "tests/test_g8_tools.py": "18114EC9832249AB80F4036D76B895185C98EDA1B933FCDFA56907EE95BEC8C9",
+    "tests/fixtures/native.csv": "2E8164AA523C08893BC74D13171CE5799273DC5593201F0102D280AE9335BB21",
+    "tests/fixtures/resources.prr": "2C4935B4347C8DB0E1A645FC2E25464A22F764334934F18D9BEF96F74C1C12E8"
+  },
+  "inputs_unchanged": true,
+  "pds_executed": false,
+  "finished": "2026-10-24T14:08:59.682736+08:00",
+  "pass": true
+}

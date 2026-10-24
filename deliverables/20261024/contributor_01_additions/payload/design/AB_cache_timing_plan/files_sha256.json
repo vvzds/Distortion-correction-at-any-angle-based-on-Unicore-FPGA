@@ -1,0 +1,122 @@
+[
+  {
+    "path": "01_缓存时序改进设计方案.md",
+    "bytes": 12436,
+    "sha256": "5ca76208dbadf00e2199d2e388c362e4c797f5aa57e9282c1841be5172c47248"
+  },
+  {
+    "path": "02_等价性与物理验证计划.md",
+    "bytes": 9560,
+    "sha256": "edd1fa3c39efa018f4f0fab7b48c8da46181bb322f9f3b74722e33b3f0c2af3d"
+  },
+  {
+    "path": "03_提交设计方裁定.md",
+    "bytes": 2653,
+    "sha256": "39eb3c467ad3d4f5854f5cb1e2b4a9da87f71356ecc70c99eaf28b4addd380f0"
+  },
+  {
+    "path": "evidence/critical_path_native_excerpt.txt",
+    "bytes": 8964,
+    "sha256": "71cb80c3cfd393101fb33172fa3a68b79c22bbd95281a721e66d990933c6e4b2"
+  },
+  {
+    "path": "evidence/design_algebra_checks.json",
+    "bytes": 823,
+    "sha256": "1094086935f2083acccd32bbc8c1e4c0a904124eb642c039353db7c73587b341"
+  },
+  {
+    "path": "evidence/design_facts.json",
+    "bytes": 4180,
+    "sha256": "25a40189cb4b90f0add7a626d051255581645152c8880f572e5a9367163be16e"
+  },
+  {
+    "path": "evidence/existing_test_entry_index.json",
+    "bytes": 4127,
+    "sha256": "682d19a72d2f4cf0b8dff7d3afc4d54b456ed5ca7a0cff887cb44d9142dd65e2"
+  },
+  {
+    "path": "evidence/source_anchors.json",
+    "bytes": 1680,
+    "sha256": "dd1b304257d4777871f45fd0d4176f15b260b67486e7b53b1e69fa4234625cf6"
+  },
+  {
+    "path": "evidence/source_identity.json",
+    "bytes": 3982,
+    "sha256": "a78eebcc5675ec751410562a1f774803044e3ce69a7acd8fa71f7841a117ab57"
+  },
+  {
+    "path": "README_交付说明.md",
+    "bytes": 2007,
+    "sha256": "1dfff2e9ecc7b7be51d4407d5eb83338adcb7f412d08d631087b724f9e1a9403"
+  },
+  {
+    "path": "reference/A01_既有报告.md",
+    "bytes": 5769,
+    "sha256": "24289700311d3c0586fcd8c2bac0d8bc9e0f8b323e977cae26acbe1af781de17"
+  },
+  {
+    "path": "reference/A03_shared_comparison_recheck.json",
+    "bytes": 3915,
+    "sha256": "9ed7cf85489936caff39cd1aec11bd9efd9bebde3e0dbb40d84efce30ac9e868"
+  },
+  {
+    "path": "reference/A03_既有报告.md",
+    "bytes": 2288,
+    "sha256": "4ccdc72971bb6f84b02c8e644664b84f5f10a5bf1372f52f99265d8892acb48e"
+  },
+  {
+    "path": "reference/AB_critical_paths.json",
+    "bytes": 28602,
+    "sha256": "13bca6ffb006c8138d29c4dc023a2108704abf5ad7142d8fa0656f1b2cf82f7b"
+  },
+  {
+    "path": "reference/frozen_fdc/HDMI_DDR3_OV5640_test.fdc",
+    "bytes": 57196,
+    "sha256": "ba2e0b2666ba6ac4a90a0c2fd2352eeb2ae14b1f65458b14bead433166afbb71"
+  },
+  {
+    "path": "reference/frozen_rtl/undistort_bilinear.v",
+    "bytes": 1777,
+    "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+  },
+  {
+    "path": "reference/frozen_rtl/undistort_cache_ab.v",
+    "bytes": 16030,
+    "sha256": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60"
+  },
+  {
+    "path": "reference/frozen_rtl/undistort_core.v",
+    "bytes": 20450,
+    "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+  },
+  {
+    "path": "reference/frozen_rtl/undistort_map.v",
+    "bytes": 9191,
+    "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3"
+  },
+  {
+    "path": "reference/native/hdmi_ddr_ov5640_top.prr",
+    "bytes": 138150,
+    "sha256": "4faa076839caff02247f6f9808e6ea17cef91adb7b04aadd30d10f21d31e53f2"
+  },
+  {
+    "path": "reference/native/hdmi_ddr_ov5640_top.rtr",
+    "bytes": 1715817,
+    "sha256": "80e7c04e5edef06fa3be9eb461f13736ad7634198518bd055b31008cf4212a89"
+  },
+  {
+    "path": "tools/collect_design_evidence.py",
+    "bytes": 7201,
+    "sha256": "373b1dd1fff8f82a0e813e20e31d89d5656de54b53e5e07b9f5f8ecaabd3e6ae"
+  },
+  {
+    "path": "tools/package_plan.py",
+    "bytes": 2540,
+    "sha256": "48bccec6febcbd7601e07d2493feeb081f8e5a56497183c0f835cd444ff1c3f3"
+  },
+  {
+    "path": "verify_package.py",
+    "bytes": 583,
+    "sha256": "37afe034bc20d3e910e548f3b1562b9a8e44c04449d6f6e8522d2a60c10d9d7a"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "received_bytes": 4931,
+  "received_sha256": "972c27ad535b86f600a1a411a3042f0b102a83406a3494451e26974ed6dc2245",
+  "crlf_restored_bytes": 5032,
+  "crlf_restored_sha256": "321e85c1ffde2c2cd5abdd3b5ed260e5bf7e2ea6eb374fc96f550fdea9e61ca1",
+  "W0_W8_PASS_and_verdict_readouts": true,
+  "icarus_all_TB_output_lines_found_in_modelsim_log": true,
+  "icarus_TB_lines_compared": 46,
+  "excluded_simulator_specific_line": "$finish called at ... (Icarus path/time diagnostic)",
+  "locally_ran_modelsim": false,
+  "integer_budget_model_only": true,
+  "recovery": [
+    {
+      "gap_cycles": 3,
+      "wm_snapshots": {
+        "3724": 129,
+        "3726": 128,
+        "3728": 127
+      },
+      "first_elapsed_wm_le_128": 3726,
+      "accepted_cycles_required": 3723
+    },
+    {
+      "gap_cycles": 4,
+      "wm_snapshots": {
+        "3724": 130,
+        "3726": 129,
+        "3728": 128
+      },
+      "first_elapsed_wm_le_128": 3728,
+      "accepted_cycles_required": 3724
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\lenovo\\Desktop\\ww\\audit_20261024\\verify_package.py"
+  ],
+  "pid": 24520,
+  "started": "2026-10-24T14:52:23.276527+08:00",
+  "finished": "2026-10-24T14:52:25.985127+08:00",
+  "exit_code": 0,
+  "log_sha256": "9601e571be461f0fa8201ff61d4304b8596a1502da37a21d3aae58bfbe260bfa"
+}

@@ -1,0 +1,2 @@
+command: git -C C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\rect_bundle_recheck_akp8zp1y\clone fsck --full
+exit_code: 0

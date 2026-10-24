@@ -1,0 +1,67 @@
+{
+  "status": "DOCUMENT_CROSSCHECK_PASS_PHYSICAL_BOARD_UNCONFIRMED",
+  "manual_pages": [
+    43,
+    44
+  ],
+  "manual_printed_pages": [
+    39,
+    40
+  ],
+  "uart_demo": {
+    "uart_tx": {
+      "PAP_IO_DIRECTION": "OUTPUT",
+      "PAP_IO_LOC": "C24",
+      "PAP_IO_VCCIO": "3.3",
+      "PAP_IO_STANDARD": "LVCMOS33",
+      "PAP_IO_DRIVE": "8",
+      "PAP_IO_NONE": "TRUE",
+      "PAP_IO_SLEW": "SLOW"
+    },
+    "uart_rx": {
+      "PAP_IO_DIRECTION": "INPUT",
+      "PAP_IO_LOC": "B24",
+      "PAP_IO_VCCIO": "3.3",
+      "PAP_IO_STANDARD": "LVCMOS33",
+      "PAP_IO_NONE": "TRUE"
+    }
+  },
+  "remote_demo": {
+    "uart_tx": {
+      "PAP_IO_DIRECTION": "OUTPUT",
+      "PAP_IO_LOC": "C24",
+      "PAP_IO_VCCIO": "3.3",
+      "PAP_IO_STANDARD": "LVCMOS33",
+      "PAP_IO_DRIVE": "12",
+      "PAP_IO_SLEW": "SLOW",
+      "PAP_IO_PULLUP": "TRUE",
+      "PAP_IO_NONE": "TRUE"
+    },
+    "uart_rx": {
+      "PAP_IO_DIRECTION": "INPUT",
+      "PAP_IO_LOC": "B24",
+      "PAP_IO_VCCIO": "3.3",
+      "PAP_IO_STANDARD": "LVCMOS33",
+      "PAP_IO_NONE": "TRUE"
+    }
+  },
+  "tx_drive_conflict": "8mA UART demo vs 12mA remote update demo; both SLOW",
+  "host_fdc_sha256": "ba2e0b2666ba6ac4a90a0c2fd2352eeb2ae14b1f65458b14bead433166afbb71",
+  "host_uart_attributes": {},
+  "host_b24_c24_claims": [],
+  "top_uart_lines": [
+    {
+      "line": 37,
+      "text": "input wire uart_rx,"
+    },
+    {
+      "line": 38,
+      "text": "output wire uart_tx,"
+    }
+  ],
+  "actual_board_revision": null,
+  "actual_connection": null,
+  "live_vccio_measurement": null,
+  "applied_to_project": false,
+  "com_status": "CIM_ACCESS_DENIED_REGISTRY_NOT_CONFIRMED_NO_SERIAL_OPEN"
+}

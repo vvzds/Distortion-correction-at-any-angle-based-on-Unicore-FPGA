@@ -1,0 +1,4 @@
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module undistort_map declared here: C:\Users\lenovo\Desktop\ww\AB_independent_20261023\core\source\rtl\undistort_map.v:2

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "log_size": 5171,
+  "log_sha256": "6a9dde19d0cea3b7b0831c24439536c090f967b105d4db1dbdd602fee2294586",
+  "received_bytes_match_declared_hash": true,
+  "script_sha256": "fea4ef4379b0d6ab5d7e2ed3328d41464c63b730db851fcc0902a63f7ccaafb7",
+  "all_46_TB_output_lines_match_in_order": true,
+  "verdict_readouts": {
+    "err": 0,
+    "tb_done": 1,
+    "commits": 4
+  },
+  "log_final_quit_code": 0,
+  "designer_reports_process_exit_code": 0,
+  "process_exit_code_captured_locally": false,
+  "designer_executed_mode": "project root / ASCII path / pwd fallback",
+  "root_override_branch_executed_in_this_run": false,
+  "RTL_TB_unchanged": true,
+  "corrected_do_verification_status": "closed",
+  "local_new_simulation_run": false
+}

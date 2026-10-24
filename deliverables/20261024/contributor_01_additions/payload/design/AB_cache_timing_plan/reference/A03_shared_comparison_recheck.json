@@ -1,0 +1,140 @@
+{
+  "status": "PASS_EVIDENCE_ONLY",
+  "rerun_fullframe": false,
+  "pixels": 12441600,
+  "checks": [
+    {
+      "candidate": "AB",
+      "profile": "identity",
+      "log": "evidence/shared_comparison/AB_identity.log",
+      "sha256": "c9bfb2e0aa1624e31bf97a6a53adbb25a8637aafce46f396234b4d54eff851c0",
+      "cycles": 4147474,
+      "pixels": 2073600,
+      "errors": 0,
+      "cpp_recalculated": 2.000132137345679,
+      "fps_at_assumed_125MHz": 30.13882666895561,
+      "cpp_le_2": false,
+      "measured_first_edges": [
+        4,
+        4
+      ],
+      "measured_gap_edges": [
+        1,
+        1
+      ],
+      "grant_config": 0,
+      "grant_measured_extrema": null
+    },
+    {
+      "candidate": "AB",
+      "profile": "real_fast",
+      "log": "evidence/shared_comparison/AB_real_fast.log",
+      "sha256": "ef461e2e4a7fd916817b7f9d4012fd974b44df2f876a03c04af711234a8ac499",
+      "cycles": 4147517,
+      "pixels": 2073600,
+      "errors": 0,
+      "cpp_recalculated": 2.000152874228395,
+      "fps_at_assumed_125MHz": 30.138514200182904,
+      "cpp_le_2": false,
+      "measured_first_edges": [
+        4,
+        4
+      ],
+      "measured_gap_edges": [
+        1,
+        1
+      ],
+      "grant_config": 0,
+      "grant_measured_extrema": null
+    },
+    {
+      "candidate": "AB",
+      "profile": "real_stress",
+      "log": "evidence/shared_comparison/AB_real_stress.log",
+      "sha256": "42753d0c94d1866fe563292d358d0d4cf1addf38ebe3178b5f1639876c3b237a",
+      "cycles": 4161672,
+      "pixels": 2073600,
+      "errors": 0,
+      "cpp_recalculated": 2.0069791666666665,
+      "fps_at_assumed_125MHz": 30.03600475962546,
+      "cpp_le_2": false,
+      "measured_first_edges": [
+        64,
+        64
+      ],
+      "measured_gap_edges": [
+        2,
+        2
+      ],
+      "grant_config": 32,
+      "grant_measured_extrema": null
+    },
+    {
+      "candidate": "G8",
+      "profile": "identity",
+      "log": "evidence/shared_comparison/G8_identity.log",
+      "sha256": "3aae0022462b5c6e3b0fde2ae1a97c4d68c5fa4d5ecb3dae7e705b147b241e37",
+      "cycles": 4147475,
+      "pixels": 2073600,
+      "errors": 0,
+      "cpp_recalculated": 2.0001326195987654,
+      "fps_at_assumed_125MHz": 30.13881940216638,
+      "cpp_le_2": false,
+      "measured_first_edges": [
+        4,
+        4
+      ],
+      "measured_gap_edges": [
+        1,
+        1
+      ],
+      "grant_config": 0,
+      "grant_measured_extrema": null
+    },
+    {
+      "candidate": "G8",
+      "profile": "real_fast",
+      "log": "evidence/shared_comparison/G8_real_fast.log",
+      "sha256": "cb40c0904fa42e7b48403b55a1e93351fc2600a76d9c45c732c32516ddc5a649",
+      "cycles": 13026680,
+      "pixels": 2073600,
+      "errors": 0,
+      "cpp_recalculated": 6.282156635802469,
+      "fps_at_assumed_125MHz": 9.595691304307774,
+      "cpp_le_2": false,
+      "measured_first_edges": [
+        4,
+        4
+      ],
+      "measured_gap_edges": [
+        1,
+        1
+      ],
+      "grant_config": 0,
+      "grant_measured_extrema": null
+    },
+    {
+      "candidate": "G8",
+      "profile": "real_stress",
+      "log": "evidence/shared_comparison/G8_real_stress.log",
+      "sha256": "4c4196df6734990f29ef7f0f914161071d4901b883e1b1ba434313f48b536765",
+      "cycles": 27778956,
+      "pixels": 2073600,
+      "errors": 0,
+      "cpp_recalculated": 13.396487268518518,
+      "fps_at_assumed_125MHz": 4.499809136095683,
+      "cpp_le_2": false,
+      "measured_first_edges": [
+        64,
+        64
+      ],
+      "measured_gap_edges": [
+        2,
+        2
+      ],
+      "grant_config": 32,
+      "grant_measured_extrema": null
+    }
+  ],
+  "limitation": "Same DDR service algorithm, not same transaction-address/return timeline; 125MHz is hypothetical until physical timing closes."
+}

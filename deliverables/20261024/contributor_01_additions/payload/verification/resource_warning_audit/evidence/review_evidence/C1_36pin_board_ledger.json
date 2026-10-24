@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "CW01",
+    "port": "b_out[7]",
+    "loc": "T22",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "T22",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 32
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW02",
+    "port": "b_out[6]",
+    "loc": "R22",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "R22",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 31
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW03",
+    "port": "b_out[5]",
+    "loc": "N18",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "N18",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 30
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      48
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW04",
+    "port": "b_out[0]",
+    "loc": "P19",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "P19",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 25
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      48
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW05",
+    "port": "g_out[6]",
+    "loc": "N23",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "N23",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 62
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW06",
+    "port": "g_out[5]",
+    "loc": "N24",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "N24",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 61
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW07",
+    "port": "g_out[4]",
+    "loc": "P23",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "P23",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 60
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW08",
+    "port": "g_out[3]",
+    "loc": "P24",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "P24",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 59
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW09",
+    "port": "g_out[2]",
+    "loc": "R25",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "R25",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 58
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW10",
+    "port": "g_out[1]",
+    "loc": "P25",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "P25",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 57
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW11",
+    "port": "g_out[0]",
+    "loc": "T25",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "T25",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 56
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW12",
+    "port": "r_out[7]",
+    "loc": "P16",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "P16",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 148
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW13",
+    "port": "r_out[6]",
+    "loc": "K25",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "K25",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 147
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW14",
+    "port": "r_out[5]",
+    "loc": "K26",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "K26",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 146
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW15",
+    "port": "r_out[3]",
+    "loc": "L25",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "L25",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 144
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      30,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW16",
+    "port": "de_out",
+    "loc": "N19",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "N19",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 55
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      48
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW17",
+    "port": "hs_out",
+    "loc": "R20",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "R20",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 66
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      48
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW18",
+    "port": "rstn_out",
+    "loc": "G25",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "G25",
+      "bank": "BANKL4",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "FAST",
+      "line": 149
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      32,
+      38,
+      47,
+      50
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW19",
+    "port": "vs_out",
+    "loc": "R21",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "R21",
+      "bank": "BANKL5",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "FAST",
+      "line": 156
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      31,
+      48
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW20",
+    "port": "mem_dq[15]",
+    "loc": "G6",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "G6",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 102
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      27
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW21",
+    "port": "mem_dq[13]",
+    "loc": "E6",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "E6",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 100
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      27
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW22",
+    "port": "mem_dq[12]",
+    "loc": "G8",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "G8",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 99
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW23",
+    "port": "mem_dq[11]",
+    "loc": "D6",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "D6",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 98
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26,
+      46,
+      49
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW24",
+    "port": "mem_dq[10]",
+    "loc": "H8",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "H8",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 97
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW25",
+    "port": "mem_dq[8]",
+    "loc": "H6",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "H6",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 126
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW26",
+    "port": "mem_dq[7]",
+    "loc": "J5",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "J5",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 125
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW27",
+    "port": "mem_dq[5]",
+    "loc": "K7",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "K7",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 123
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW28",
+    "port": "mem_dq[3]",
+    "loc": "L8",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "L8",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 121
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW29",
+    "port": "mem_dq[1]",
+    "loc": "J6",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "J6",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 107
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW30",
+    "port": "mem_dqs[1]",
+    "loc": "H7",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "H7",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15D_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 129
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      27
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW31",
+    "port": "mem_dqs[0]",
+    "loc": "J4",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "J4",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15D_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 128
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      27,
+      28,
+      34
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW32",
+    "port": "mem_dqs_n[1]",
+    "loc": "G7",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "G7",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15D_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 133
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      27
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW33",
+    "port": "mem_dqs_n[0]",
+    "loc": "H4",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "H4",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15D_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 132
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      27
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW34",
+    "port": "mem_dm[0]",
+    "loc": "K6",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "K6",
+      "bank": "BANKR4",
+      "vccio": "1.5",
+      "iostd": "HSTL15_I",
+      "drive": "8",
+      "pull": "NONE",
+      "slew": "SLOW",
+      "line": 92
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      26
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW35",
+    "port": "iic_tx_sda",
+    "loc": "K23",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "inout",
+      "loc": "K23",
+      "bank": "BANKL4",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "4",
+      "pull": "NONE",
+      "slew": "FAST",
+      "line": 68
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      32,
+      39,
+      47,
+      50
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  },
+  {
+    "id": "CW36",
+    "port": "iic_tx_scl",
+    "loc": "K22",
+    "tool_observed": {
+      "candidate": "G7",
+      "seed": 2,
+      "direction": "output",
+      "loc": "K22",
+      "bank": "BANKL4",
+      "vccio": "3.3",
+      "iostd": "LVCMOS33",
+      "drive": "4",
+      "pull": "NONE",
+      "slew": "FAST",
+      "line": 67
+    },
+    "board_user_statement": "MES2L676 / BASE V1.2",
+    "manual_pin_occurrence_pages": [
+      32,
+      39,
+      47,
+      50
+    ],
+    "manual_supply_reference": "hardware guide PDF p21: R4/R5=1.5V; L3/L4/L5=3.3V; L6/L7 adjustable, not actual board measurement",
+    "pin_config_function": "MISSING_VERIFIED_FBG676_SHARE_FUNCTION_TABLE",
+    "schematic_connectivity": "MISSING_PARSED_NET_TO_PACKAGE_PIN_EVIDENCE",
+    "boot_mode": "ACTUAL_SWITCH/JUMPER/CONFIG_MODE_NOT_CONFIRMED",
+    "actual_bank_supply": "NOT_MEASURED",
+    "status": "BLOCKED_C1_BOARD_EVIDENCE"
+  }
+]

@@ -1,0 +1,385 @@
+[
+  {
+    "seed": 2,
+    "device_minus_module_LUT": 1.0,
+    "replication_lines": []
+  },
+  {
+    "seed": 3,
+    "device_minus_module_LUT": 0.0,
+    "replication_lines": [
+      [
+        646,
+        "I: Place-6001: Add the new FF instances CLMA_267_570(/FF0/FF) replicated by the FF instance CLMA_327_570(/FF0/FF) ."
+      ],
+      [
+        647,
+        "Origin u_corr_top/u_param_mgr/o_cx[12]/opit_0_inv replicates:"
+      ],
+      [
+        649,
+        "I: Place-6001: Add the new FF instances CLMS_267_547(/FF0/FF) replicated by the FF instance CLMA_351_546(/FF0/FF) ."
+      ],
+      [
+        650,
+        "Origin u_corr_top/u_param_mgr/o_p2[0]/opit_0_inv replicates:"
+      ]
+    ]
+  },
+  {
+    "seed": 5,
+    "device_minus_module_LUT": 0.0,
+    "replication_lines": [
+      [
+        634,
+        "I: Place-6001: Add the new LUT instances CLMA_231_660(/devDL6L5Q) CLMS_243_667(/devCL6L5Q_S) CLMA_303_637(/devBL6L5Q) replicated by the LUT instance CLMS_183_631(/devDL6L5Q_S)."
+      ],
+      [
+        635,
+        "Origin u_corr_top/u_core/u_cache/N4[5]/LUT6D_inst replicates:"
+      ],
+      [
+        639,
+        "I: Place-6001: Add the new LUT instances CLMA_231_660(/devCL6L5Q) CLMA_219_631(/devCL6L5Q) replicated by the LUT instance CLMS_183_631(/devBL6L5Q_S)."
+      ],
+      [
+        640,
+        "Origin u_corr_top/u_core/u_cache/N4[1]/LUT6D_inst replicates:"
+      ],
+      [
+        643,
+        "I: Place-6001: Add the new LUT instances CLMS_183_637(/devCL6L5Q_S) CLMS_225_655(/devBL6L5Q_S) replicated by the LUT instance CLMS_183_631(/devCL6L5Q_S)."
+      ],
+      [
+        644,
+        "Origin u_corr_top/u_core/u_cache/N4[3]/LUT6D_inst replicates:"
+      ]
+    ]
+  },
+  {
+    "seed": 7,
+    "device_minus_module_LUT": 0.0,
+    "replication_lines": [
+      [
+        637,
+        "I: Place-6001: Add the new FF instances CLMA_267_648(/FFAPP0/FF) CLMA_285_684(/FFAPP0/FF) replicated by the FF instance CLMA_261_546(/FFAPP0/FF) ."
+      ],
+      [
+        638,
+        "Origin fram_buf/rd_buf/wr_addr[0]/opit_0_L6Q_LUT6DL5Q replicates:"
+      ],
+      [
+        641,
+        "I: Place-6001: Add the new FF instances CLMA_261_547(/FF0/FF) replicated by the FF instance CLMA_267_516(/FF3/FF) ."
+      ],
+      [
+        642,
+        "Origin u_corr_top/u_param_mgr/o_p2[0]/opit_0_inv replicates:"
+      ],
+      [
+        644,
+        "I: Place-6001: Add the new LUT instances CLMA_183_660(/devAL6) CLMA_219_606(/devBL6) replicated by the LUT instance CLMA_183_654(/devCL6)."
+      ],
+      [
+        645,
+        "Origin u_corr_top/u_core/N473_196/LUT6_inst replicates:"
+      ],
+      [
+        648,
+        "I: Place-6001: Add the new FF instances CLMA_159_636(/FF1/FF) replicated by the FF instance CLMS_75_637(/FF2/FF) ."
+      ],
+      [
+        649,
+        "Origin u_corr_top/u_param_mgr/o_aff_a12[19]/opit_0_inv replicates:"
+      ],
+      [
+        651,
+        "I: Place-6001: Add the new FF instances CLMA_159_624(/FFAPP0/FF) replicated by the FF instance CLMA_201_630(/FF2/FF) ."
+      ],
+      [
+        652,
+        "Origin u_corr_top/u_param_mgr/o_aff_a12[29]/opit_0_inv replicates:"
+      ],
+      [
+        654,
+        "I: Place-6001: Add the new LUT instances CLMA_249_690(/devDL6L5Q) CLMA_231_697(/devAL6L5Q) replicated by the LUT instance CLMA_231_649(/devAL6L5Q)."
+      ],
+      [
+        655,
+        "Origin u_corr_top/u_core/u_cache/N5/LUT6D_inst replicates:"
+      ],
+      [
+        658,
+        "I: Place-6001: Add the new FF instances CLMA_171_684(/FF0/FF) replicated by the FF instance CLMA_159_750(/FF1/FF) ."
+      ],
+      [
+        659,
+        "Origin u_corr_top/u_param_mgr/o_aff_a22[19]/opit_0_inv replicates:"
+      ],
+      [
+        661,
+        "I: Place-6001: Add the new LUT instances CLMA_285_702(/devDL6L5Q) replicated by the LUT instance CLMA_231_666(/devDL6L5Q)."
+      ],
+      [
+        662,
+        "Origin u_corr_top/u_core/u_cache/N4[5]/LUT6D_inst replicates:"
+      ]
+    ]
+  },
+  {
+    "seed": 8,
+    "device_minus_module_LUT": 0.0,
+    "replication_lines": [
+      [
+        634,
+        "I: Place-6001: Add the new FF instances CLMA_219_594(/FF0/FF) replicated by the FF instance CLMS_75_589(/FF3/FF) ."
+      ],
+      [
+        635,
+        "Origin u_corr_top/u_param_mgr/o_aff_a11[24]/opit_0_inv replicates:"
+      ],
+      [
+        637,
+        "I: Place-6001: Add the new FF instances CLMA_249_600(/FF2/FF) replicated by the FF instance CLMS_351_589(/FF1/FF) ."
+      ],
+      [
+        638,
+        "Origin u_corr_top/u_param_mgr/o_k2[26]/opit_0_inv replicates:"
+      ],
+      [
+        640,
+        "I: Place-6001: Add the new FF instances CLMA_249_600(/FF1/FF) replicated by the FF instance CLMA_345_600(/FF2/FF) ."
+      ],
+      [
+        641,
+        "Origin u_corr_top/u_param_mgr/o_k2[27]/opit_0_inv replicates:"
+      ],
+      [
+        643,
+        "I: Place-6001: Add the new FF instances CLMS_291_601(/FF0/FF) replicated by the FF instance CLMA_333_600(/FF0/FF) ."
+      ],
+      [
+        644,
+        "Origin u_corr_top/u_param_mgr/o_k2[21]/opit_0_inv replicates:"
+      ],
+      [
+        646,
+        "I: Place-6001: Add the new FF instances CLMS_207_499(/FF0/FF) replicated by the FF instance CLMS_189_553(/FF1/FF) ."
+      ],
+      [
+        647,
+        "Origin u_corr_top/u_param_mgr/o_aff_a12[17]/opit_0_inv replicates:"
+      ],
+      [
+        649,
+        "I: Place-6001: Add the new FF instances CLMA_273_600(/FF2/FF) replicated by the FF instance CLMA_345_618(/FF3/FF) ."
+      ],
+      [
+        650,
+        "Origin u_corr_top/u_param_mgr/o_k2[30]/opit_0_inv replicates:"
+      ],
+      [
+        652,
+        "I: Place-6001: Add the new LUT instances CLMA_243_678(/devBL6L5Q) replicated by the LUT instance CLMA_207_732(/devDL6L5Q)."
+      ],
+      [
+        653,
+        "Origin u_corr_top/u_core/u_cache/N4[5]/LUT6D_inst replicates:"
+      ],
+      [
+        655,
+        "I: Place-6001: Add the new FF instances CLMA_303_642(/FF0/FF) replicated by the FF instance CLMS_351_595(/FF1/FF) ."
+      ],
+      [
+        656,
+        "Origin u_corr_top/u_param_mgr/o_k2[28]/opit_0_inv replicates:"
+      ],
+      [
+        658,
+        "I: Place-6001: Add the new FF instances CLMA_183_540(/FF0/FF) replicated by the FF instance CLMS_225_571(/FF3/FF) ."
+      ],
+      [
+        659,
+        "Origin u_corr_top/u_param_mgr/o_aff_a21[20]/opit_0_inv replicates:"
+      ],
+      [
+        661,
+        "I: Place-6001: Add the new FF instances CLMA_183_534(/FF2/FF) replicated by the FF instance CLMA_231_546(/FF1/FF) ."
+      ],
+      [
+        662,
+        "Origin u_corr_top/u_param_mgr/o_cx[18]/opit_0_inv replicates:"
+      ],
+      [
+        664,
+        "I: Place-6001: Add the new FF instances CLMA_285_540(/FF1/FF) replicated by the FF instance CLMA_339_540(/FF2/FF) ."
+      ],
+      [
+        665,
+        "Origin u_corr_top/u_param_mgr/o_aff_tx[20]/opit_0_inv replicates:"
+      ],
+      [
+        667,
+        "I: Place-6001: Add the new FF instances CLMA_159_582(/FF2/FF) replicated by the FF instance CLMA_81_588(/FF0/FF) ."
+      ],
+      [
+        668,
+        "Origin u_corr_top/u_param_mgr/o_aff_a11[7]/opit_0_inv replicates:"
+      ],
+      [
+        670,
+        "I: Place-6001: Add the new FF instances CLMA_309_528(/FF3/FF) replicated by the FF instance CLMA_189_462(/FF0/FF) ."
+      ],
+      [
+        671,
+        "Origin u_corr_top/u_param_mgr/o_aff_tx[31]/opit_0_inv replicates:"
+      ],
+      [
+        673,
+        "I: Place-6001: Add the new FF instances CLMS_309_589(/FF1/FF) replicated by the FF instance CLMS_267_607(/FF3/FF) ."
+      ],
+      [
+        674,
+        "Origin u_corr_top/u_param_mgr/o_k2[2]/opit_0_inv replicates:"
+      ],
+      [
+        676,
+        "I: Place-6001: Add the new FF instances CLMA_231_546(/FFAPP0/FF) replicated by the FF instance CLMA_171_558(/FF3/FF) ."
+      ],
+      [
+        677,
+        "Origin u_corr_top/u_param_mgr/o_aff_tx[27]/opit_0_inv replicates:"
+      ],
+      [
+        679,
+        "I: Place-6001: Add the new FF instances CLMS_291_619(/FF2/FF) replicated by the FF instance CLMA_351_630(/FF2/FF) ."
+      ],
+      [
+        680,
+        "Origin u_corr_top/u_param_mgr/o_k2[3]/opit_0_inv replicates:"
+      ]
+    ]
+  },
+  {
+    "seed": 9,
+    "device_minus_module_LUT": 1.0,
+    "replication_lines": [
+      [
+        634,
+        "I: Place-6001: Add the new LUT instances CLMA_249_577(/devAL6L5Q) CLMA_285_606(/devDL6L5Q) CLMA_273_535(/devCL6L5Q) CLMA_273_529(/devCL6L5Q) CLMA_291_630(/devCL6L5Q) CLMA_273_654(/devBL6L5Q) replicated by the LUT instance CLMA_249_649(/devBL6L5Q)."
+      ],
+      [
+        635,
+        "Origin u_corr_top/u_core/u_cache/N4[5]/LUT6D_inst replicates:"
+      ],
+      [
+        642,
+        "I: Place-6001: Add the new LUT instances CLMA_273_540(/devBL6L5Q) CLMA_285_606(/devCL6L5Q) CLMA_273_654(/devCL6L5Q) CLMA_273_529(/devBL6L5Q) CLMS_285_613(/devDL6L5Q_S) CLMA_273_535(/devAL6L5Q) replicated by the LUT instance CLMA_273_529(/devAL6L5Q)."
+      ],
+      [
+        643,
+        "Origin u_corr_top/u_core/u_cache/N5/LUT6D_inst replicates:"
+      ],
+      [
+        650,
+        "I: Place-6001: Add the new LUT instances CLMA_273_541(/devBL6L5Q) CLMA_273_534(/devDL6L5Q) CLMA_267_570(/devDL6L5Q) CLMA_273_541(/devCL6L5Q) replicated by the LUT instance CLMA_273_648(/devCL6L5Q)."
+      ],
+      [
+        651,
+        "Origin u_corr_top/u_core/u_cache/N4[1]/LUT6D_inst replicates:"
+      ],
+      [
+        656,
+        "I: Place-6001: Add the new LUT instances CLMA_261_565(/devBL6L5Q) CLMA_273_535(/devDL6L5Q) CLMA_267_576(/devCL6L5Q) CLMA_273_540(/devCL6L5Q) replicated by the LUT instance CLMA_273_534(/devCL6L5Q)."
+      ],
+      [
+        657,
+        "Origin u_corr_top/u_core/u_cache/N4[3]/LUT6D_inst replicates:"
+      ],
+      [
+        662,
+        "I: Place-6001: Add the new LUT instances CLMA_273_529(/devDL6) replicated by the LUT instance CLMA_273_498(/devAL6)."
+      ],
+      [
+        663,
+        "Origin u_corr_top/u_core/N220/LUT6_inst replicates:"
+      ]
+    ]
+  },
+  {
+    "seed": 10,
+    "device_minus_module_LUT": 1.0,
+    "replication_lines": [
+      [
+        634,
+        "I: Place-6001: Add the new LUT instances CLMA_225_594(/devCL6L5Q) CLMA_243_594(/devDL6L5Q) CLMA_261_661(/devDL6L5Q) CLMA_273_631(/devCL6L5Q) replicated by the LUT instance CLMA_231_709(/devBL6L5Q)."
+      ],
+      [
+        635,
+        "Origin u_corr_top/u_core/u_cache/N4[1]/LUT6D_inst replicates:"
+      ],
+      [
+        640,
+        "I: Place-6001: Add the new LUT instances CLMS_243_601(/devDL6L5Q_S) CLMA_219_601(/devDL6L5Q) CLMA_249_637(/devBL6L5Q) CLMA_219_601(/devCL6L5Q) replicated by the LUT instance CLMA_261_685(/devCL6L5Q)."
+      ],
+      [
+        641,
+        "Origin u_corr_top/u_core/u_cache/N4[3]/LUT6D_inst replicates:"
+      ],
+      [
+        646,
+        "I: Place-6001: Add the new LUT instances CLMA_249_637(/devDL6L5Q) CLMA_219_601(/devAL6L5Q) CLMA_249_637(/devAL6L5Q) CLMA_225_594(/devBL6L5Q) replicated by the LUT instance CLMA_249_690(/devDL6L5Q)."
+      ],
+      [
+        647,
+        "Origin u_corr_top/u_core/u_cache/N4[5]/LUT6D_inst replicates:"
+      ],
+      [
+        652,
+        "I: Place-6001: Add the new LUT instances CLMA_249_637(/devCL6L5Q) CLMA_225_594(/devAL6L5Q) CLMA_219_601(/devBL6L5Q) replicated by the LUT instance CLMS_225_697(/devAL6L5Q_S)."
+      ],
+      [
+        653,
+        "Origin u_corr_top/u_core/u_cache/N5/LUT6D_inst replicates:"
+      ]
+    ]
+  },
+  {
+    "seed": 11,
+    "device_minus_module_LUT": 2.0,
+    "replication_lines": [
+      [
+        634,
+        "I: Place-6001: Add the new LUT instances CLMA_231_600(/devCL6L5Q) CLMA_285_636(/devDL6L5Q) CLMA_225_606(/devBL6L5Q) CLMS_225_601(/devBL6L5Q_S) replicated by the LUT instance CLMS_225_601(/devCL6L5Q_S)."
+      ],
+      [
+        635,
+        "Origin u_corr_top/u_core/u_cache/N4[3]/LUT6D_inst replicates:"
+      ],
+      [
+        640,
+        "I: Place-6001: Add the new LUT instances CLMA_231_618(/devAL6L5Q) CLMA_249_643(/devDL6L5Q) replicated by the LUT instance CLMS_225_601(/devAL6L5Q_S)."
+      ],
+      [
+        641,
+        "Origin u_corr_top/u_core/u_cache/N4[1]/LUT6D_inst replicates:"
+      ],
+      [
+        644,
+        "I: Place-6001: Add the new LUT instances CLMS_225_601(/devDL6L5Q_S) CLMS_225_607(/devBL6L5Q_S) replicated by the LUT instance CLMA_267_648(/devCL6L5Q)."
+      ],
+      [
+        645,
+        "Origin u_corr_top/u_core/u_cache/N4[5]/LUT6D_inst replicates:"
+      ],
+      [
+        648,
+        "I: Place-6001: Add the new LUT instances CLMA_219_607(/devAL6L5Q) CLMA_219_607(/devBL6L5Q) replicated by the LUT instance CLMA_267_654(/devCL6L5Q)."
+      ],
+      [
+        649,
+        "Origin u_corr_top/u_core/u_cache/N5/LUT6D_inst replicates:"
+      ]
+    ]
+  }
+]

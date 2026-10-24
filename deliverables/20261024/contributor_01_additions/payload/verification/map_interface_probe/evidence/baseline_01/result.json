@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "scope": "MAP_PORTS_IDENTITY_VALID_INIT_LATCH_RESET_ONLY",
+  "source": "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core\\source\\rtl\\undistort_map.v",
+  "expected_latency_edge_distance": 11,
+  "init_limit": 128,
+  "inputs_before": {
+    "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core\\source\\rtl\\undistort_map.v": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\sim\\map_contract_probe_tb.sv": "91ad98ade78b809d0de8c8b89fb7dd96df1687498947e9c1874f34ee404a0196",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py": "3a4de190c3d56b276ead847822f32874c9a2634e5172946d2038eede916ed942"
+  },
+  "inputs_after": {
+    "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core\\source\\rtl\\undistort_map.v": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\sim\\map_contract_probe_tb.sv": "91ad98ade78b809d0de8c8b89fb7dd96df1687498947e9c1874f34ee404a0196",
+    "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\run_map_probe.py": "3a4de190c3d56b276ead847822f32874c9a2634e5172946d2038eede916ed942"
+  },
+  "inputs_unchanged": true,
+  "tool_before": {
+    "iverilog.exe": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "vvp.exe": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62"
+  },
+  "tool_after": {
+    "iverilog.exe": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "vvp.exe": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62"
+  },
+  "port_width_warning": false,
+  "steps": [
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\baseline_01",
+      "start_utc": "2026-10-24T04:53:47.100001+00:00",
+      "end_utc": "2026-10-24T04:53:48.609129+00:00",
+      "exit_code": 0,
+      "log": "compiler_version.log",
+      "log_sha256": "afe39246ebea2fc44b4de97450548f6e0b4281f87666efc2d35d2cf11968b282"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\baseline_01",
+      "start_utc": "2026-10-24T04:53:48.628964+00:00",
+      "end_utc": "2026-10-24T04:53:49.061152+00:00",
+      "exit_code": 0,
+      "log": "runtime_version.log",
+      "log_sha256": "860edbaa0c428bb900da9c1204853fa7fcb3b8a1446b1d7aa932233bc0135cf0"
+    },
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-Wall",
+        "-s",
+        "map_contract_probe_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\baseline_01\\probe.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_independent_20261023\\core\\source\\rtl\\undistort_map.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\sim\\map_contract_probe_tb.sv"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\baseline_01",
+      "start_utc": "2026-10-24T04:53:49.078749+00:00",
+      "end_utc": "2026-10-24T04:53:49.257745+00:00",
+      "exit_code": 0,
+      "log": "compile.log",
+      "log_sha256": "2d02471c1594e142377be3ebd81a8e9e62a48818cb814232b7e5888255888efe"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-i",
+        "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\baseline_01\\probe.vvp",
+        "+LATENCY=11",
+        "+INIT_LIMIT=128"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\独立补充验证_20261024\\evidence\\baseline_01",
+      "start_utc": "2026-10-24T04:53:49.275746+00:00",
+      "end_utc": "2026-10-24T04:53:49.387906+00:00",
+      "exit_code": 0,
+      "log": "simulation.log",
+      "log_sha256": "75e4ac3fe5308dad8f1445e8359bbf5f37476cfa7d439e66ed970156f76ed023"
+    }
+  ],
+  "summary": [
+    "INIT index=0 edge_distance=106",
+    "INIT index=1 edge_distance=106",
+    "INIT index=2 edge_distance=106",
+    "PROBE_PASS accepted=274 returned=269 reset_discarded=5 latency_edge_distance=11 adjacent_returns=223 init_count=3"
+  ],
+  "full_brown4_equivalence": "NOT_RUN",
+  "fullframe": "NOT_RUN",
+  "physical": "NOT_RUN",
+  "board": "PAUSED_BY_USER"
+}

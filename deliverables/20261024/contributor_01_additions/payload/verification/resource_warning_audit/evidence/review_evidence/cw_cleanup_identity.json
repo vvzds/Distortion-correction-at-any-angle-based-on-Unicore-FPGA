@@ -1,0 +1,33 @@
+{
+  "scope": "ISOLATED_G8_HOST_CLEANUP_SEED2_NOT_PRODUCTION",
+  "source": "G8_TOOLS/delivery/prepared_inputs/seed_2",
+  "changes": [
+    {
+      "file": "source/rtl/hdmi_ddr_ov5640_top.v",
+      "before_sha256": "52119434028aa42e79e6a882cba294d7b2eaf94ae0fb086324e5f47628954f53",
+      "after_sha256": "000cbf7b990e41cdc4ea5dc9c1c9f98b9fddd5bf6f70e96dc82c79af1af69c93",
+      "only_unused_declarations": true,
+      "removed_names": [
+        "cmos2_d_16bit",
+        "cmos2_href_16bit",
+        "cmos2_pclk_16bit",
+        "cmos1_vsync",
+        "cmos1_href",
+        "cmos1_pclk",
+        "cmos1_data"
+      ]
+    },
+    {
+      "file": "HDMI_DDR3_OV5640_test.fdc",
+      "before_sha256": "8988f22ffcb67cc9bf9b19af79529ec8b9900d66de2d2f08908f78b0fad92d26",
+      "after_sha256": "916c957fd18f63d8eae480c1060c970a3539ad9d7bcaacb66c790eba217b1528",
+      "removed_attribute_lines": 55,
+      "timing_constraints_unchanged": true,
+      "uart_basis": "manufacturer uart_test.fdc; candidate only"
+    }
+  ],
+  "core_unchanged": true,
+  "sccb1_preserved": true,
+  "timing_exception_changes": false,
+  "gen_bitstream": false
+}

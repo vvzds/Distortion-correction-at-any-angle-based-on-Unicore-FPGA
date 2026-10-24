@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-24",
+  "base_commit": "a500eee34965f2f343cd61ed7143a2def6bb48df",
+  "snapshot_restore": {
+    "result": "PASS",
+    "files": 1133,
+    "method": "Verify remote Git blob identity for 11 local archive copies; restore from payload, pinned Git blobs and archive members; verify each file byte count and SHA256.",
+    "limitation": "Local matching archive copies used to avoid redundant network transfer. This is file-integrity verification, not new RTL/PDS/board validation."
+  },
+  "checks": [
+    {
+      "name": "M01 delivery integrity",
+      "exit_code": 0,
+      "output": "M01_DELIVERY PASS files= 333\r\n"
+    },
+    {
+      "name": "UART U0-U5 selftest",
+      "exit_code": 0,
+      "output": "U0 V2 已确认勘误: 原文 39B/B8；有效帧 37B/B7\r\n[U0] PASS\r\n[U1] PASS\r\n[U2] PASS\r\n[U3] PASS\r\n[U4] PASS\r\n[U5] PASS\r\n=== ALL TESTS PASSED ===\r\n"
+    },
+    {
+      "name": "AB cache plan package integrity",
+      "exit_code": 0,
+      "output": "PASS 24 files; package integrity only, no RTL or physical acceptance\r\n"
+    }
+  ],
+  "not_run": [
+    "new RTL simulation",
+    "PDS synthesis or implementation",
+    "board validation"
+  ]
+}

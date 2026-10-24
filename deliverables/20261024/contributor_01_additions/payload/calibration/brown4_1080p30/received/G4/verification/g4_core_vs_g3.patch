@@ -1,0 +1,81 @@
+diff --git a/source/rtl/undistort_core.v b/source/rtl/undistort_core.v
+index edd137a..654fb27 100644
+--- a/source/rtl/undistort_core.v
++++ b/source/rtl/undistort_core.v
+@@ -29,7 +29,7 @@ module undistort_core #(
+     localparam BANKS=2*LINES_PER_SET;
+     localparam [3:0] IDLE=0,HOLD=1,INIT_MAP=2,WAIT_INIT=3,
+                      RUN=4,READ_REQ=5,READ_WAIT=6,SIM_RUN=7,
+-                     DRAIN=8,RELEASE=9,DONE=10;
++                     DRAIN=8,RELEASE=9,DONE=10,READ_ADDR=11;
+     reg [3:0] state,read_return_state;
+     reg [1:0] source_slot;
+     reg signed [31:0] fx,fy,cx,cy,k1,k2,p1,p2;
+@@ -64,7 +64,8 @@ module undistort_core #(
+ 
+     wire map_init_done,map_valid;
+     wire [26:0] map_sx,map_sy;
+-    wire map_issue=(state==RUN || state==READ_REQ || state==READ_WAIT) &&
++    wire map_issue=(state==RUN || state==READ_ADDR ||
++                    state==READ_REQ || state==READ_WAIT) &&
+                    !gen_done && ({1'b0,fifo_count}+{1'b0,inflight_count}<7'd16);
+     undistort_map u_map(
+         .clk(clk),.rst_n(rst_n),.i_frame_init(state==INIT_MAP),
+@@ -88,7 +89,8 @@ module undistort_core #(
+     wire [7:0] bank_a,bank_b;
+     wire [15:0] p00,p01,p10,p11;
+     wire sample_dispatch=((state==RUN ||
+-                           (prefetch_active && (state==READ_REQ || state==READ_WAIT))) &&
++                           (prefetch_active && (state==READ_ADDR ||
++                            state==READ_REQ || state==READ_WAIT))) &&
+                           !sample_phase && fifo_count!=0 &&
+                           hit_a && hit_b);
+     wire cache_load_begin=(state==READ_REQ && o_corr_rd_req && i_corr_rd_gnt);
+@@ -243,20 +245,14 @@ module undistort_core #(
+                        fifo_count!=0 && hit_a && hit_b && !prefetch_hit) begin
+                         load_row<=consume_y+1'b1;
+                         load_bank<=prefetch_victim;
+-                        o_corr_rd_addr<=({22'd0,source_slot}<<20)+
+-                                         (consume_y+24'd1)*24'd960;
+-                        o_corr_rd_len<=7'd119;o_corr_rd_req<=1;
+                         prefetch_active<=1;
+-                        read_return_state<=RUN;state<=READ_REQ;
++                        read_return_state<=RUN;state<=READ_ADDR;
+                     end else if(!sample_phase && fifo_count!=0) begin
+                         if(!hit_a || !hit_b) begin
+                             load_row<=hit_a?query_b:query_a;
+                             load_bank<=victim;
+-                            o_corr_rd_addr<=({22'd0,source_slot}<<20)+
+-                                             (hit_a?query_b:query_a)*24'd960;
+-                            o_corr_rd_len<=7'd119;o_corr_rd_req<=1;
+                             prefetch_active<=0;
+-                            read_return_state<=RUN;state<=READ_REQ;
++                            read_return_state<=RUN;state<=READ_ADDR;
+                         end
+                     end
+                 end
+@@ -264,10 +260,7 @@ module undistort_core #(
+                     if(!hit_a || !hit_b) begin
+                         load_row<=hit_a?query_b:query_a;
+                         load_bank<=victim;
+-                        o_corr_rd_addr<=({22'd0,source_slot}<<20)+
+-                                         (hit_a?query_b:query_a)*24'd960;
+-                        o_corr_rd_len<=7'd119;o_corr_rd_req<=1;
+-                        read_return_state<=SIM_RUN;state<=READ_REQ;
++                        read_return_state<=SIM_RUN;state<=READ_ADDR;
+                     end else if(sim_x==11'd1919) begin
+                         if(!current_line_loaded)
+                             o_stat_line_hits<=o_stat_line_hits+1'b1;
+@@ -279,6 +272,12 @@ module undistort_core #(
+                         end
+                     end else sim_x<=sim_x+1'b1;
+                 end
++                READ_ADDR: begin
++                    o_corr_rd_addr<=({22'd0,source_slot}<<20)+
++                                     ({13'd0,load_row}*24'd960);
++                    o_corr_rd_len<=7'd119;o_corr_rd_req<=1;
++                    state<=READ_REQ;
++                end
+                 READ_REQ: if(i_corr_rd_gnt) begin
+                     o_corr_rd_req<=0;
+                     o_stat_line_loads<=o_stat_line_loads+1'b1;

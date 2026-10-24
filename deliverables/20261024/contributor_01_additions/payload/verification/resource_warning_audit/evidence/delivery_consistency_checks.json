@@ -1,0 +1,15 @@
+{
+  "AB_timing_FAIL": true,
+  "AB_resource_tables_exact": true,
+  "G8_strict_4_of_8": true,
+  "CW_resource_error_preserved": true,
+  "CW_debug_removed": true,
+  "no_bitstreams": true,
+  "AB_exception_rows_schema": true,
+  "AB_source_timing_exceptions_reported": true,
+  "CW_exception_rows_schema": true,
+  "CW_source_timing_exceptions_reported": true,
+  "original_selftests": true,
+  "adapted_regression_complete_fixtures": true,
+  "SCCB_final": true
+}

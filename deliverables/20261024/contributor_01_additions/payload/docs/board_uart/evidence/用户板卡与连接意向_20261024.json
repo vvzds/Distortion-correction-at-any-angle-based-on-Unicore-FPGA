@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-24",
+  "source": "user_reply",
+  "board_marking": "MES2L676",
+  "base_version": "BASE V1.2",
+  "uart_selection": "USER_UNCERTAIN_HOST_RECOMMENDS_ONBOARD_USB_OPTION1",
+  "actual_connection_verified": false,
+  "optics_change_raw_reply": "应该没有",
+  "optics_unchanged_confirmed": null,
+  "guidance": "选择板载USB串口后的调整说明_20261024.md",
+  "project_modified": false,
+  "board_test": "PAUSED"
+}

@@ -1,0 +1,2 @@
+MAP PASS pixels=2073600 err=0 bit_exact_model=1 all_four_source_slots_checked=1
+sim/calibration_map_tb.v:50: $finish called at 16589928000 (1ps)

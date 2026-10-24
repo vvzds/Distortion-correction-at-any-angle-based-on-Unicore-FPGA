@@ -1,0 +1,74 @@
+[
+  {
+    "line": 66,
+    "text": "    reg [21:0] last_use[0:191];"
+  },
+  {
+    "line": 139,
+    "text": "            if(!a[30])older=b;"
+  },
+  {
+    "line": 140,
+    "text": "            else if(!b[30])older=a;"
+  },
+  {
+    "line": 141,
+    "text": "            else older=(a[29:8]<b[29:8])?a:b;"
+  },
+  {
+    "line": 191,
+    "text": "            if(i_frame_clear)begin"
+  },
+  {
+    "line": 224,
+    "text": "                    last_use[i_touch_ids[7:0]]<=i_touch_seq;"
+  },
+  {
+    "line": 225,
+    "text": "                    last_use[i_touch_ids[15:8]]<=i_touch_seq;"
+  },
+  {
+    "line": 226,
+    "text": "                    last_use[i_touch_ids[23:16]]<=i_touch_seq;"
+  },
+  {
+    "line": 227,
+    "text": "                    last_use[i_touch_ids[31:24]]<=i_touch_seq;"
+  },
+  {
+    "line": 250,
+    "text": "                    Q_SELECT:begin"
+  },
+  {
+    "line": 260,
+    "text": "                    Q_CHECK:begin"
+  },
+  {
+    "line": 271,
+    "text": "                    Q_ELIG:begin"
+  },
+  {
+    "line": 278,
+    "text": "                                (!tag_pending[idx] && last_use[idx]<i_retired_count))),"
+  },
+  {
+    "line": 279,
+    "text": "                                (tag_valid[idx]?last_use[idx]:22'd0),idx[7:0]};"
+  },
+  {
+    "line": 302,
+    "text": "                    Q_ALLOC:begin"
+  },
+  {
+    "line": 306,
+    "text": "                            last_use[chosen]<=qseq;"
+  },
+  {
+    "line": 313,
+    "text": "                    Q_DONE:begin"
+  },
+  {
+    "line": 315,
+    "text": "                        for(k=0;k<4;k=k+1)last_use[qid[k]]<=qseq;"
+  }
+]

@@ -1,0 +1,292 @@
+--- original/audit_ram_instances.py
++++ derived/audit_ram_instances.py
+@@ -0,0 +1,19 @@
++"""Trace native RAM/FF instances by original PDS module/labels; no source-size resource inference."""
++from pathlib import Path
++import argparse,re,collections,hashlib,json
++
++def main():
++ p=argparse.ArgumentParser();p.add_argument('--netlist',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args();rows=[];module=None
++ for n,l in enumerate(a.netlist.read_text().splitlines(),1):
++  m=re.match(r'module\s+(\S+)',l)
++  if m:module=m[1]
++  m=re.match(r'\s+(GTP_\w+)\s+/\*\s*(.*?)\s*\*/',l)
++  if not m:continue
++  label=m[2].strip().lstrip('\\');group=next((x for x in ['ram_even','ram_odd','coordinate_keys','coord_x','coord_y','prepared_ids','tag_row','tag_seg','last_use','fetch_fifo','line_row','tag_valid'] if label.startswith(x)),None)
++  if 'RAM' in m[1] or 'DRM' in m[1] or (group and m[1].startswith('GTP_DFF')):
++   rows.append(dict(module=module,primitive=m[1],label=label,group=group or 'OTHER',line=n))
++ c=collections.Counter((r['module'],r['group'],r['primitive']) for r in rows)
++ output=dict(source_name=a.netlist.name,source_sha256=hashlib.sha256(a.netlist.read_bytes()).hexdigest(),instances=rows,groups=[dict(module=k[0],group=k[1],primitive=k[2],count=v) for k,v in c.items()])
++ with a.out.open('x',encoding='utf-8') as f:json.dump(output,f,ensure_ascii=False,indent=2)
++ print(json.dumps(output['groups'],ensure_ascii=False))
++if __name__=='__main__':main()
+--- original/check_cleanup_scope.py
++++ derived/check_cleanup_scope.py
+@@ -0,0 +1,26 @@
++"""Prove scoped cleanup by exact bytes and unchanged active video/control RTL, not board equivalence."""
++from pathlib import Path
++import argparse,re,json,hashlib
++sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
++def main():
++ p=argparse.ArgumentParser();p.add_argument('--original',type=Path,required=True);p.add_argument('--candidate',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args();rows=[]
++ for sub in ['source','ipcore']:
++  fs=[f for f in (a.original/sub).rglob('*') if f.is_file()];origset={f.relative_to(a.original).as_posix() for f in fs};newset={f.relative_to(a.candidate).as_posix() for f in (a.candidate/sub).rglob('*') if f.is_file()}
++  if origset!=newset:raise ValueError('source/IP file set changed')
++  for f in fs:
++   n=f.relative_to(a.original);g=a.candidate/n
++   if n.as_posix()=='source/rtl/hdmi_ddr_ov5640_top.v':continue
++   if f.read_bytes()!=g.read_bytes():raise ValueError('active submodule changed '+str(n))
++   rows.append(dict(file=n.as_posix(),sha256=sha(f),equal=True))
++ name='source/rtl/hdmi_ddr_ov5640_top.v';raw=(a.original/name).read_bytes();lines=raw.splitlines(keepends=True);names=[b'cmos2_d_16bit',b'cmos2_href_16bit',b'cmos2_pclk_16bit',b'cmos1_vsync',b'cmos1_href',b'cmos1_pclk',b'cmos1_data']
++ counts={n.decode():len(re.findall(rb'\b'+n+rb'\b',raw)) for n in names}
++ if any(n!=1 for n in counts.values()):raise ValueError('consumer found')
++ expected=b''.join(l for l in lines if not any(re.search(rb'\b'+n+rb'\b',l) for n in names))
++ if expected!=(a.candidate/name).read_bytes():raise ValueError('unexpected top functional change')
++ fn='HDMI_DDR3_OV5640_test.fdc';before=(a.original/fn).read_bytes();after=(a.candidate/fn).read_bytes()
++ timing=lambda s:[l for l in s.splitlines() if re.match(rb'(create_clock|create_generated_clock|set_input_delay|set_output_delay|set_false_path|set_clock_groups)',l)]
++ if timing(before)!=timing(after):raise ValueError('timing constraints changed')
++ result=dict(status='PASS_SCOPED_STATIC_EQUIVALENCE',active_submodule_files=rows,removed_identifiers_reference_count=counts,top_change_exactly_seven_unused_declarations=True,removed_pixel_ports=['cmos1_data[7:0]','cmos1_href','cmos1_pclk','cmos1_vsync'],retained='Both camera reg_config/SCCB/reset/done; CMOS2 RAW8/RGB/DDR/correction/HDMI active logic',timing_constraints_identical=True,timing_statement_count=len(timing(before)),whole_board_video_test='NOT_RUN',top_before_sha256=sha(a.original/name),top_after_sha256=sha(a.candidate/name))
++ with a.out.open('x',encoding='utf-8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
++ print(result['status'],len(rows),'active submodule/IP files unchanged')
++if __name__=='__main__':main()
+--- original/g8_console.py
++++ derived/g8_console.py
+@@ -15,21 +15,26 @@
+     lines = text.splitlines()
+     errors = [dict(line=i+1, text=s) for i, s in enumerate(lines) if ERROR.match(s)]
+     need(len(lines) >= 5, 'Console truncated')
+-    need(re.fullmatch(r'License checkout: fabric_shell from .+[\\/]PDS_2022\.2-SP6\.4[\\/]license[\\/][^\\/]+\.lic', lines[0]),
+-         'Unsupported SP6.4 startup/license prefix')
++    need(re.fullmatch(r'License checkout: fabric_shell from [A-Za-z]:[\\/][^\r\n]+\.lic', lines[0]),
++         'Unsupported absolute license prefix')
+     need(lines[1] == 'Compiling architecture definition.', 'Unexpected startup architecture prefix')
+     offset = 2
++    # The local SP6.1 startup may contain exactly one license-expiry warning.
++    if offset < len(lines) and re.fullmatch(r'W: Warning : The license will invalid in [0-9]+ days\. In order not to affect your usage, please update the license in time\.', lines[offset]):
++        offset += 1
++        while offset < len(lines) and not lines[offset].strip():
++            offset += 1
+     if errors:
+         need(policy == 'startup-db-v1-g8', 'Console error under strict policy')
+-        need([e['text'] for e in errors] == MESSAGES and lines[2:4] == MESSAGES,
++        need([e['text'] for e in errors] == MESSAGES and lines[offset:offset+2] == MESSAGES,
+              'Unexpected, repeated, relocated or altered error diagnostics')
+-        offset = 4
++        offset += 2
+     need(re.fullmatch(r"Analyzing project file '[^'\r\n]+/seed_"+str(seed)+r"/run_trial\.pds'\.", lines[offset]),
+          'Startup project/seed mismatch')
+     arch = 'set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676'
+     need(lines[offset+1] == 'Executing : '+arch, 'Unexpected first architecture command')
+-    need(str(shell).replace('\\', '/').endswith('/PDS_2022.2-SP6.4/bin/pds_shell.exe'),
+-         'Receipt shell is not supported SP6.4 executable path')
++    need(re.fullmatch(r'[A-Za-z]:/.*/PDS_2022\.2-SP6\.(?:1(?:-win64)?|4(?:-win64)?)/bin/pds_shell\.exe', str(shell).replace('\\', '/')),
++         'Receipt shell is not a supported SP6.1/SP6.4 executable path')
+     stages = ['Executing : '+arch+' successfully.',
+               'Executing : compile -top_module hdmi_ddr_ov5640_top successfully.',
+               'Executing : synthesize -ads -selected_syn_tool_opt 2 successfully.',
+--- original/management_adapter.py
++++ derived/management_adapter.py
+@@ -0,0 +1,102 @@
++"""DERIVED_REVIEW of immutable management runs; never creates g8-process-v1 receipts."""
++from pathlib import Path
++import argparse,sys,re,json,datetime
++from g8_common import (load,dump,sha,read,need,hash_map,inventory,safe_file,SEEDS,trusted_baseline,check_plan,check_inputs,timeline)
++from g8_console import classify,ERROR
++from pds_reports import parse_csv,parse_final,parse_resources,parse_rtr
++from g8_gate import PHASES,REQUIRED_NATIVE
++
++LAUNCH_SHA='41A49A6ECC5D7C6320E2B8E9004E10BFA2F584E9FCD9860BE24C3B53DB549117'
++COMMIT='25b4ccd1fa99ca9ef9851b69a083ddd488e8361b'
++
++def profile(rows):
++    valid=[r for r in rows if r.get('evidence_valid')]
++    worst=min((r['postroute']['Setup(Slow)'] for r in valid),default=None)
++    closed=sum(r['postroute']['closed'] for r in valid)
++    timing=len(valid)==8 and closed>=7 and worst>=-.05
++    views=len(valid)==8 and all(r['numeric_views_pass'] for r in valid)
++    return dict(valid=len(valid),closed=closed,worst_valid_wns_ns=worst,timing_reference_pass=timing,two_view_reference_pass=views,numeric_reference_ready_for_review=timing and views,thresholds=dict(min_valid=8,min_closed=7,min_worst_ns=-.05))
++
++def views(post,final):
++    q=final['sections']; direction=post['closed']==(q['Setup(Slow)']['wns']>=0)
++    other=all(post[k]>=0 and q[k]['wns']>=0 and q[k]['tns']==0 and q[k]['ep']==0 for k in ('Setup(Fast)','Hold(Slow)','Hold(Fast)'))
++    return dict(two_views_consistent=direction,other_quadrants_met=other,numeric_views_pass=direction and other)
++
++def validate_record(r,seed,expected,launch):
++    need(all(type(r[k]) is int and r[k]==seed for k in ('seed','placement_seed','route_seed')),'Wrong seed')
++    need(r['pds_shell']==launch['pds_shell'] and r['argv']==[r['pds_shell'],'-file','run_trial.tcl'],'Wrong executable/argv')
++    need(r['cwd'].replace('\\','/').endswith('/seed_'+str(seed)),'Wrong cwd seed')
++    timeline(r)
++    need(type(r['exit_code']) is int and r['exit_code']==0 and r['error'] is None,'Nonzero/timeout/error run')
++    need(type(r['timeout_seconds']) is int and r['timeout_seconds']>0 and r['seconds']<=r['timeout_seconds']+5,'Timeout bound')
++    need(r['inputs_unchanged'] is True and hash_map(r['inputs_before'])==expected==hash_map(r['inputs_after']),'Input drift')
++
++def collect(root,seed,base,launch,policy):
++    target=root/f'seed_{seed}';row=dict(seed=seed,evidence_valid=False,origin='DERIVED_REVIEW',sources=[])
++    def source(path):
++        row['sources'].append(dict(source_path=path.relative_to(root.parent).as_posix(),source_sha256=sha(path)))
++        return path
++    try:
++        expected=check_inputs(target,seed,base)
++        receipt=source(target/'process_receipt.json');r=load(receipt)
++        validate_record(r,seed,expected,launch)
++        artifacts=hash_map(r['artifacts_sha256']);files=inventory(target)
++        need(set(files)==set(artifacts)|{'process_receipt.json'},'Missing/extra historical file')
++        for name,h in artifacts.items():
++            f=safe_file(target,name,auxiliary=True);need(sha(f)==h,'Artifact SHA mismatch: '+name);source(f)
++        row['execution']=dict(pid=None,pid_source=None,argv=r['argv'],cwd=r['cwd'],started=r['started'],finished=r['finished'],exit_code=r['exit_code'],timeout_seconds=r['timeout_seconds'],tool_sha256_before=launch['pds_shell_sha256'],tool_sha256_after=None,limitation='Historical runner did not capture tool SHA after execution; not invented.')
++        if 'process_pid.json' in artifacts:
++            pid=load(target/'process_pid.json');need(type(pid['pid']) is int and pid['pid']>0 and pid['started']==r['started'],'PID record invalid')
++            row['execution'].update(pid=pid['pid'],pid_source=(target/'process_pid.json').relative_to(root.parent).as_posix())
++        started=load(target/'process_started.json')
++        need(started['seed']==seed and started['argv']==r['argv'] and started['cwd']==r['cwd'] and started['started']==r['started'] and hash_map(started['inputs_before'])==expected and started['pds_shell_sha256']==launch['pds_shell_sha256'],'Started record differs')
++        need('console_full.log' in artifacts and all(s+'/run.log' in artifacts for s in PHASES),'Missing execution stage')
++        row['console']=classify(read(target/'console_full.log'),seed,r['pds_shell'],policy)
++        need('SYNTHETIC' not in read(target/'console_full.log'),'Synthetic cannot be real evidence')
++        errors=[];warning_events=[]
++        for phase in PHASES:
++            for i,line in enumerate(read(target/phase/'run.log').splitlines(),1):
++                if ERROR.match(line):errors.append(dict(phase=phase,line=i,text=line))
++                if re.match(r'^\s*C:',line):warning_events.append(dict(phase=phase,line=i,text=line))
++        need(not errors,'Error in phase log');row['critical_warning_events']=warning_events
++        native={}
++        for key,pattern in REQUIRED_NATIVE.items():
++            hits=[n for n in artifacts if Path(n).match(pattern)]
++            need(len(hits)==1,'Missing/ambiguous native '+key);native[key]=hits[0]
++        row['native']=native
++        csv_text=read(target/native['csv']);prr_text=read(target/native['resources'])
++        cv=re.search(r'2022\.2-SP6\.(\d)<build (\d+)>',csv_text.splitlines()[0]);pv=re.search(r'2022\.2-SP6\.(\d) <build (\d+)>',prr_text.splitlines()[0])
++        need(cv is not None and pv is not None and cv.groups()==pv.groups(),'CSV/PRR version mismatch')
++        need('SP6.'+cv[1] in r['pds_shell'],'Tool path versus native version mismatch')
++        row['native_version']=dict(service_pack=cv[1],build=cv[2])
++        row['postroute']=parse_csv(csv_text,seed);row['after_hold_fix']=parse_final(read(target/native['final']));row.update(views(row['postroute'],row['after_hold_fix']))
++        row['clock']=parse_rtr(read(target/native['clock']))
++        row['artifact_integrity_valid']=True
++        try:row['resources']=parse_resources(prr_text)
++        except ValueError as e:row['resource_error']=str(e)
++        row['evidence_valid']='resource_error' not in row
++        if not row['evidence_valid']:row['invalid_reason']=row['resource_error']
++        need(all(sha(root.parent/x['source_path'])==x['source_sha256'] for x in row['sources']),'Evidence changed during collection')
++    except (ValueError,KeyError,TypeError,OSError) as e:
++        row.update(evidence_valid=False,invalid_reason=type(e).__name__+': '+str(e))
++    return row
++
++def main():
++    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--results',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--console-policy',choices=['strict','startup-db-v1-g8'],default='startup-db-v1-g8');a=p.parse_args()
++    need(not a.out.exists(),'New output required');need(not a.out.resolve().is_relative_to(a.results.resolve()),'Output outside immutable results')
++    base=trusted_baseline();root=a.results/'physical_g8';check_plan(root,base)
++    lf=a.results/'physical_launch.json';need(sha(lf)==LAUNCH_SHA,'Untrusted historical launch');launch=load(lf)
++    need(launch['candidate']==COMMIT and launch['seeds']==SEEDS,'Wrong candidate/seeds')
++    rows=[collect(root,s,base,launch,a.console_policy) for s in SEEDS]
++    # Recheck early seeds after the last seed, preserving the original late-mutation gate.
++    for row in rows:
++        for anchor in row['sources']:
++            if sha(a.results/anchor['source_path']) != anchor['source_sha256']:
++                row.update(evidence_valid=False,artifact_integrity_valid=False,invalid_reason='Late source mutation: '+anchor['source_path'])
++    need(sha(lf)==LAUNCH_SHA,'Historical launch changed during review');check_plan(root,base)
++    report=dict(schema='management-run-derived-review-v1',origin='DERIVED_REVIEW',new_pds_execution=False,source_root_hint='G8_RESULTS',launch_source=dict(source_path='physical_launch.json',source_sha256=sha(lf)),candidate_commit=COMMIT,console_policy=a.console_policy,seeds=rows,production_promotion=False,board_acceptance='NOT_TESTED',**profile(rows))
++    post=[r['postroute'] for r in rows if 'postroute' in r];report['native_csv']=dict(collected=len(post),closed=sum(r['closed'] for r in post),worst_wns_ns=min((r['Setup(Slow)'] for r in post),default=None))
++    a.out.mkdir(parents=True);dump(a.out/'derived_review.json',report)
++    print(json.dumps({k:v for k,v in report.items() if k!='seeds'},ensure_ascii=False,indent=2))
++    return 0 if len(rows)==8 and all(r.get('artifact_integrity_valid') for r in rows) else 2
++if __name__=='__main__':sys.exit(main())
+--- original/native_connectivity.py
++++ derived/native_connectivity.py
+@@ -0,0 +1,30 @@
++"""Read-only native netlist connectivity; never claims timing exception hit coverage."""
++from pathlib import Path
++import re,json,hashlib,argparse
++
++def main():
++ p=argparse.ArgumentParser();p.add_argument('--warning-root',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args();a.out.mkdir(parents=True,exist_ok=False)
++ f=a.warning_root/'evidence/G8_native_seed2/routed.v';instances=[];block=[];start=0;count=0
++ for n,line in enumerate(f.read_text().splitlines(),1):
++  if re.match(r'^\s+gop\w+\s+/\*',line):block=[line];start=n
++  elif block:block.append(line)
++  if block and line.rstrip().endswith(');'):
++   count+=1;s='\n'.join(block);block=[]
++   if 'coms' not in s and 'nt_cmos2_reset' not in s:continue
++   m=re.search(r'(gop\w+)\s+/\*\s*(.*?)\s*\*/',s);label=m[2].strip().lstrip('\\');ports={k:re.sub(r'\s+','',v).replace('\\','') for k,v in re.findall(r'\.(\w+)\s+\((.*?)\)',s,re.S)}
++   pars={k:v for k,v in re.findall(r'\.(\w+)\(([^)]+)\)',s)}
++   instances.append(dict(type=m[1],name=label,line=start,parameters=pars,ports=ports))
++ clocks=[]
++ for cam in [1,2]:
++  net=f'coms{cam}_reg_config/clock_20k';hits=[dict(instance=i['name'],primitive=i['type'],port=k,line=i['line']) for i in instances for k,v in i['ports'].items() if v==net]
++  clocks.append(dict(net=net,fdc_definition=f'get_nets coms{cam}_reg_config.clock_20k',fdc_source='u_pll/u_gpll/CLKOUT2',source_MHz=24.75,divide_by=2400,frequency_kHz=10.3125,native_connections=hits,clock_pin_connections=sum(x['port']=='CLK' for x in hits)))
++ resets=[i for i in instances if 'camera_reset_sync' in i['name'] or 'initial_enable_sync' in i['name']]
++ r=dict(source_path='critical_warning_review/evidence/G8_native_seed2/routed.v',source_sha256=hashlib.sha256(f.read_bytes()).hexdigest(),parsed_instances=count,scope='NATIVE_CONNECTIVITY_NOT_STA_COLLECTION_OR_PRIMITIVE_SIM',clocks=clocks,reset_primitives=resets,instances_touching_sccb=instances)
++ (a.out/'connectivity.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8')
++ audit=json.loads((a.warning_root/'warning_audit.json').read_text());events=[]
++ for row in audit['records']:
++  es=[e for e in row['events'] if e['code'].startswith('STA-3003')]
++  if es:events.append(dict(candidate=row['candidate'],seed=row['seed'],stage=row['stage'],source_path=row['path'],source_sha256=hashlib.sha256((a.warning_root/row['path']).read_bytes()).hexdigest(),events=es))
++ (a.out/'all_sta_events.json').write_text(json.dumps(events,ensure_ascii=False,indent=2),encoding='utf-8')
++ print('Native instances',count,'clock pin connections',[(c['net'],c['clock_pin_connections']) for c in clocks],'all STA events',sum(len(x['events']) for x in events))
++if __name__=='__main__':main()
+--- original/pds_reports.py
++++ derived/pds_reports.py
+@@ -30,7 +30,7 @@
+ 
+ def parse_csv(text, expected_seed=None):
+     lines = text.splitlines()
+-    need(lines and lines[0] == 'version,2022.2-SP6.4<build 146967>', 'Unsupported PDS CSV version/build')
++    need(lines and lines[0] in ('version,2022.2-SP6.4<build 146967>', 'version,2022.2-SP6.1<build 138931>'), 'Unsupported PDS CSV version/build')
+     headers = [i for i, s in enumerate(lines) if s.startswith('Seed,State,Convergence,')]
+     need(len(headers) == 1, 'Missing or repeated CSV header')
+     head = headers[0]
+@@ -122,7 +122,7 @@
+ 
+ 
+ def parse_resources(text):
+-    need('2022.2-SP6.4 <build 146967>' in text.splitlines()[0], 'Unsupported resource report version')
++    need(any(v in text.splitlines()[0] for v in ('2022.2-SP6.4 <build 146967>', '2022.2-SP6.1 <build 138931>')), 'Unsupported resource report version')
+     need(text.count('Device Utilization Summary :') == 1 and
+          text.count('Device Utilization Summary Of Each Module:') == 1, 'Missing or repeated resource tables')
+     device, modules = text.split('Device Utilization Summary Of Each Module:')
+--- original/review_native_run.py
++++ derived/review_native_run.py
+@@ -0,0 +1,45 @@
++"""Native single-run review. Execution, four-corner timing and electrical acceptance stay separate."""
++from pathlib import Path
++import argparse,json,re,hashlib,xml.etree.ElementTree as E
++from pds_reports import parse_csv,parse_final,parse_resources
++sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
++def main():
++ p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--label',required=True);a=p.parse_args();a.out.mkdir(parents=True,exist_ok=False);r=a.run
++ def pick(pattern):
++  fs=list(r.glob(pattern))
++  if len(fs)!=1:raise ValueError(pattern)
++  return fs[0]
++ fcsv=pick('multiseed_summary.csv');ffinal=pick('place_route/*_timing_summary_after_hold_fix.txt');fprr=pick('place_route/*.prr');fx=pick('report_timing/rtr.db')
++ csv=parse_csv(fcsv.read_text(),2);final=parse_final(ffinal.read_text());res=None;error=None
++ try:res=parse_resources(fprr.read_text())
++ except ValueError as e:error=str(e)
++ text=fprr.read_text();dev,mods=text.split('Device Utilization Summary Of Each Module:');device={}
++ for k in ['LUT','FF']:device[k]=sum(float(v) for v in re.findall(r'(?m)^\|   '+k+r'\s*\|\s*([\d.]+)',dev))
++ for k in ['APM','DRM']:device[k]=float(re.search(r'\| Use of '+k+r'\s*\|\s*([\d.]+)',dev)[1])
++ modules=[]
++ for line in mods.splitlines():
++  cs=[s.strip() for s in line.split('|')]
++  if len(cs)>=8:
++   try:vals=list(map(float,cs[2:7]))
++   except ValueError:continue
++   modules.append(dict(name=cs[1],**dict(zip(['LUT','FF','Distributed_RAM','APM','DRM'],vals))))
++ stages={}
++ for stage in ['compile','synthesize','device_map','place_route','report_timing']:
++  path=r/stage/'run.log';es=[]
++  for n,line in enumerate(path.read_text(errors='replace').splitlines(),1):
++   if re.match(r'^\s*(?:C:|E:)',line):es.append(dict(line=n,text=line))
++  stages[stage]=dict(sha256=sha(path),critical_count=sum(x['text'].lstrip().startswith('C:') for x in es),error_count=sum(x['text'].lstrip().startswith('E:') for x in es),events=es)
++ tree=E.fromstring(fx.read_text());tables=[]
++ for t in tree.iter('table'):
++  ident=t.get('id','');title=t.get('title','')
++  if ident in ['report_timing_clock_summary','check_timing_summary','report_clock_interaction'] or ident.endswith('_detailed_report') or any(k in ident for k in ['exception','unconstrain','recovery','removal']):
++   headers=[d.text or '' for d in t.findall('./column_headers/data')];rows=[]
++   for rr in t.iter('row'):
++    values=[d.text or '' for d in rr.findall('./data')]
++    if values and len(values)==len(headers):rows.append(dict(zip(headers,values)))
++   tables.append(dict(id=ident,title=title,headers=headers,rows=rows))
++ q=final['sections'];timing=all(q[k]['wns']>=0 and q[k]['tns']==0 and q[k]['ep']==0 and csv[k]>=0 for k in ['Setup(Slow)','Setup(Fast)','Hold(Slow)','Hold(Fast)'])
++ output=dict(label=a.label,seed=2,single_seed_only=True,report_header=text.splitlines()[0],sources=[dict(path=f.relative_to(r).as_posix(),sha256=sha(f)) for f in [fcsv,ffinal,fprr,fx]],csv=csv,after_hold_fix=final,timing_all_four_pass=timing,csv_holdfix_setup_direction_agrees=csv['closed']==(q['Setup(Slow)']['wns']>=0),device_resources=device,module_resources=modules,resource_tables_valid=error is None,resource_error=error,warning_stages=stages,native_clock_exception_tables=tables,bitstream='NOT_GENERATED_BY_SCOPE',board='NOT_TESTED',production_promotion=False)
++ (a.out/'native_review.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8')
++ print(json.dumps({k:output[k] for k in ['label','report_header','csv','timing_all_four_pass','csv_holdfix_setup_direction_agrees','device_resources','resource_tables_valid','resource_error']},ensure_ascii=False));print('C-level counts',{s:x['critical_count'] for s,x in stages.items()})
++if __name__=='__main__':main()

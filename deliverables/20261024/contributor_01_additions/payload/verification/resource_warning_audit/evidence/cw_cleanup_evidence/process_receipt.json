@@ -1,0 +1,26 @@
+{
+  "status": "FINISHED",
+  "argv": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "R:/cleanup_analysis.tcl",
+    "-work_dir",
+    "R:/",
+    "-project_name",
+    "cw_cleanup_analysis"
+  ],
+  "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\cw_cleanup_seed2",
+  "tool_sha256": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f",
+  "declared_tool_version": "PDS 2022.2-SP6.1 build 138931; same-session subst R=cw_cleanup_seed2",
+  "version_confirmed": false,
+  "started_at": "2026-10-24T14:15:19.812389+08:00",
+  "timeout_seconds": 7200,
+  "pid": 26912,
+  "exit_code": 0,
+  "finished_at": "2026-10-24T14:23:09.807354+08:00",
+  "termination": null,
+  "changed_input_files": [],
+  "artifact_read_errors": [],
+  "console_sha256": "c809fea1c52e4268e89f831901833347f4057f7e34061d1d8c675028f01def4c",
+  "physics_pass": "NOT_ASSESSED"
+}

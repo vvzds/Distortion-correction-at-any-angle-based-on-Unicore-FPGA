@@ -1,0 +1,3 @@
+[T2] PASS err=0 pixels=2073600 cycles=4147453 stable_cpp=2.000000 loads=1080 hits=1
+[T7] PASS err=0 rel=1 drained=1
+=== ALL TESTS PASSED (err=0) ===

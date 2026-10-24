@@ -1,0 +1,237 @@
+{
+  "source": "AB_independent_20261023/core/synthesize/undistort_core_syn.vm",
+  "source_sha256": "11ab3edc1cc61f7b7977ec4399bd892e1470366d7b87c4fc94cf40965815655c",
+  "instances": [
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_even_0",
+      "module": "undistort_cache_ab",
+      "line": 262389,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, even_addr[8], even_addr[7], even_addr[6], even_addr[5], even_addr[4], even_addr[3], even_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[31], i_load_data[30], i_load_data[29], i_load_data[28], i_load_data[27], i_load_data[26], i_load_data[25], i_load_data[24], 1'b0, i_load_data[23], i_load_data[22], i_load_data[21], i_load_data[20], i_load_data[19], i_load_data[18], i_load_data[17], i_load_data[16], 1'b0, i_load_data[15], i_load_data[14], i_load_data[13], i_load_data[12], i_load_data[11], i_load_data[10], i_load_data[9], i_load_data[8], 1'b0, i_load_data[7], i_load_data[6], i_load_data[5], i_load_data[4], i_load_data[3], i_load_data[2], i_load_data[1], i_load_data[0]}",
+        "DIB": "{1'b0, i_load_data[63], i_load_data[62], i_load_data[61], i_load_data[60], i_load_data[59], i_load_data[58], i_load_data[57], i_load_data[56], 1'b0, i_load_data[55], i_load_data[54], i_load_data[53], i_load_data[52], i_load_data[51], i_load_data[50], i_load_data[49], i_load_data[48], 1'b0, i_load_data[47], i_load_data[46], i_load_data[45], i_load_data[44], i_load_data[43], i_load_data[42], i_load_data[41], i_load_data[40], 1'b0, i_load_data[39], i_load_data[38], i_load_data[37], i_load_data[36], i_load_data[35], i_load_data[34], i_load_data[33], i_load_data[32]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N94",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_even_1",
+      "module": "undistort_cache_ab",
+      "line": 262577,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, even_addr[8], even_addr[7], even_addr[6], even_addr[5], even_addr[4], even_addr[3], even_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[95], i_load_data[94], i_load_data[93], i_load_data[92], i_load_data[91], i_load_data[90], i_load_data[89], i_load_data[88], 1'b0, i_load_data[87], i_load_data[86], i_load_data[85], i_load_data[84], i_load_data[83], i_load_data[82], i_load_data[81], i_load_data[80], 1'b0, i_load_data[79], i_load_data[78], i_load_data[77], i_load_data[76], i_load_data[75], i_load_data[74], i_load_data[73], i_load_data[72], 1'b0, i_load_data[71], i_load_data[70], i_load_data[69], i_load_data[68], i_load_data[67], i_load_data[66], i_load_data[65], i_load_data[64]}",
+        "DIB": "{1'b0, i_load_data[127], i_load_data[126], i_load_data[125], i_load_data[124], i_load_data[123], i_load_data[122], i_load_data[121], i_load_data[120], 1'b0, i_load_data[119], i_load_data[118], i_load_data[117], i_load_data[116], i_load_data[115], i_load_data[114], i_load_data[113], i_load_data[112], 1'b0, i_load_data[111], i_load_data[110], i_load_data[109], i_load_data[108], i_load_data[107], i_load_data[106], i_load_data[105], i_load_data[104], 1'b0, i_load_data[103], i_load_data[102], i_load_data[101], i_load_data[100], i_load_data[99], i_load_data[98], i_load_data[97], i_load_data[96]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N94",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_even_2",
+      "module": "undistort_cache_ab",
+      "line": 262765,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, even_addr[8], even_addr[7], even_addr[6], even_addr[5], even_addr[4], even_addr[3], even_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[159], i_load_data[158], i_load_data[157], i_load_data[156], i_load_data[155], i_load_data[154], i_load_data[153], i_load_data[152], 1'b0, i_load_data[151], i_load_data[150], i_load_data[149], i_load_data[148], i_load_data[147], i_load_data[146], i_load_data[145], i_load_data[144], 1'b0, i_load_data[143], i_load_data[142], i_load_data[141], i_load_data[140], i_load_data[139], i_load_data[138], i_load_data[137], i_load_data[136], 1'b0, i_load_data[135], i_load_data[134], i_load_data[133], i_load_data[132], i_load_data[131], i_load_data[130], i_load_data[129], i_load_data[128]}",
+        "DIB": "{1'b0, i_load_data[191], i_load_data[190], i_load_data[189], i_load_data[188], i_load_data[187], i_load_data[186], i_load_data[185], i_load_data[184], 1'b0, i_load_data[183], i_load_data[182], i_load_data[181], i_load_data[180], i_load_data[179], i_load_data[178], i_load_data[177], i_load_data[176], 1'b0, i_load_data[175], i_load_data[174], i_load_data[173], i_load_data[172], i_load_data[171], i_load_data[170], i_load_data[169], i_load_data[168], 1'b0, i_load_data[167], i_load_data[166], i_load_data[165], i_load_data[164], i_load_data[163], i_load_data[162], i_load_data[161], i_load_data[160]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N94",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_even_3",
+      "module": "undistort_cache_ab",
+      "line": 262953,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, even_addr[8], even_addr[7], even_addr[6], even_addr[5], even_addr[4], even_addr[3], even_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[223], i_load_data[222], i_load_data[221], i_load_data[220], i_load_data[219], i_load_data[218], i_load_data[217], i_load_data[216], 1'b0, i_load_data[215], i_load_data[214], i_load_data[213], i_load_data[212], i_load_data[211], i_load_data[210], i_load_data[209], i_load_data[208], 1'b0, i_load_data[207], i_load_data[206], i_load_data[205], i_load_data[204], i_load_data[203], i_load_data[202], i_load_data[201], i_load_data[200], 1'b0, i_load_data[199], i_load_data[198], i_load_data[197], i_load_data[196], i_load_data[195], i_load_data[194], i_load_data[193], i_load_data[192]}",
+        "DIB": "{1'b0, i_load_data[255], i_load_data[254], i_load_data[253], i_load_data[252], i_load_data[251], i_load_data[250], i_load_data[249], i_load_data[248], 1'b0, i_load_data[247], i_load_data[246], i_load_data[245], i_load_data[244], i_load_data[243], i_load_data[242], i_load_data[241], i_load_data[240], 1'b0, i_load_data[239], i_load_data[238], i_load_data[237], i_load_data[236], i_load_data[235], i_load_data[234], i_load_data[233], i_load_data[232], 1'b0, i_load_data[231], i_load_data[230], i_load_data[229], i_load_data[228], i_load_data[227], i_load_data[226], i_load_data[225], i_load_data[224]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N94",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_odd_0",
+      "module": "undistort_cache_ab",
+      "line": 263141,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, odd_addr[8], odd_addr[7], odd_addr[6], odd_addr[5], odd_addr[4], odd_addr[3], odd_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[31], i_load_data[30], i_load_data[29], i_load_data[28], i_load_data[27], i_load_data[26], i_load_data[25], i_load_data[24], 1'b0, i_load_data[23], i_load_data[22], i_load_data[21], i_load_data[20], i_load_data[19], i_load_data[18], i_load_data[17], i_load_data[16], 1'b0, i_load_data[15], i_load_data[14], i_load_data[13], i_load_data[12], i_load_data[11], i_load_data[10], i_load_data[9], i_load_data[8], 1'b0, i_load_data[7], i_load_data[6], i_load_data[5], i_load_data[4], i_load_data[3], i_load_data[2], i_load_data[1], i_load_data[0]}",
+        "DIB": "{1'b0, i_load_data[63], i_load_data[62], i_load_data[61], i_load_data[60], i_load_data[59], i_load_data[58], i_load_data[57], i_load_data[56], 1'b0, i_load_data[55], i_load_data[54], i_load_data[53], i_load_data[52], i_load_data[51], i_load_data[50], i_load_data[49], i_load_data[48], 1'b0, i_load_data[47], i_load_data[46], i_load_data[45], i_load_data[44], i_load_data[43], i_load_data[42], i_load_data[41], i_load_data[40], 1'b0, i_load_data[39], i_load_data[38], i_load_data[37], i_load_data[36], i_load_data[35], i_load_data[34], i_load_data[33], i_load_data[32]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N97",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_odd_1",
+      "module": "undistort_cache_ab",
+      "line": 263329,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, odd_addr[8], odd_addr[7], odd_addr[6], odd_addr[5], odd_addr[4], odd_addr[3], odd_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[95], i_load_data[94], i_load_data[93], i_load_data[92], i_load_data[91], i_load_data[90], i_load_data[89], i_load_data[88], 1'b0, i_load_data[87], i_load_data[86], i_load_data[85], i_load_data[84], i_load_data[83], i_load_data[82], i_load_data[81], i_load_data[80], 1'b0, i_load_data[79], i_load_data[78], i_load_data[77], i_load_data[76], i_load_data[75], i_load_data[74], i_load_data[73], i_load_data[72], 1'b0, i_load_data[71], i_load_data[70], i_load_data[69], i_load_data[68], i_load_data[67], i_load_data[66], i_load_data[65], i_load_data[64]}",
+        "DIB": "{1'b0, i_load_data[127], i_load_data[126], i_load_data[125], i_load_data[124], i_load_data[123], i_load_data[122], i_load_data[121], i_load_data[120], 1'b0, i_load_data[119], i_load_data[118], i_load_data[117], i_load_data[116], i_load_data[115], i_load_data[114], i_load_data[113], i_load_data[112], 1'b0, i_load_data[111], i_load_data[110], i_load_data[109], i_load_data[108], i_load_data[107], i_load_data[106], i_load_data[105], i_load_data[104], 1'b0, i_load_data[103], i_load_data[102], i_load_data[101], i_load_data[100], i_load_data[99], i_load_data[98], i_load_data[97], i_load_data[96]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N97",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_odd_2",
+      "module": "undistort_cache_ab",
+      "line": 263517,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, odd_addr[8], odd_addr[7], odd_addr[6], odd_addr[5], odd_addr[4], odd_addr[3], odd_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[159], i_load_data[158], i_load_data[157], i_load_data[156], i_load_data[155], i_load_data[154], i_load_data[153], i_load_data[152], 1'b0, i_load_data[151], i_load_data[150], i_load_data[149], i_load_data[148], i_load_data[147], i_load_data[146], i_load_data[145], i_load_data[144], 1'b0, i_load_data[143], i_load_data[142], i_load_data[141], i_load_data[140], i_load_data[139], i_load_data[138], i_load_data[137], i_load_data[136], 1'b0, i_load_data[135], i_load_data[134], i_load_data[133], i_load_data[132], i_load_data[131], i_load_data[130], i_load_data[129], i_load_data[128]}",
+        "DIB": "{1'b0, i_load_data[191], i_load_data[190], i_load_data[189], i_load_data[188], i_load_data[187], i_load_data[186], i_load_data[185], i_load_data[184], 1'b0, i_load_data[183], i_load_data[182], i_load_data[181], i_load_data[180], i_load_data[179], i_load_data[178], i_load_data[177], i_load_data[176], 1'b0, i_load_data[175], i_load_data[174], i_load_data[173], i_load_data[172], i_load_data[171], i_load_data[170], i_load_data[169], i_load_data[168], 1'b0, i_load_data[167], i_load_data[166], i_load_data[165], i_load_data[164], i_load_data[163], i_load_data[162], i_load_data[161], i_load_data[160]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N97",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM36K_E1",
+      "label": "ram_odd_3",
+      "module": "undistort_cache_ab",
+      "line": 263705,
+      "DRM36K_equiv": 1.0,
+      "parameters": {
+        "DATA_WIDTH_A": "64",
+        "DATA_WIDTH_B": "64",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "12"
+      },
+      "ports": {
+        "ADDRA": "{1'b1, write_index[8], write_index[7], write_index[6], write_index[5], write_index[4], write_index[3], write_index[2], load_beat[1], load_beat[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{1'b1, odd_addr[8], odd_addr[7], odd_addr[6], odd_addr[5], odd_addr[4], odd_addr[3], odd_addr[2], use_x[5], use_x[4], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, i_load_data[223], i_load_data[222], i_load_data[221], i_load_data[220], i_load_data[219], i_load_data[218], i_load_data[217], i_load_data[216], 1'b0, i_load_data[215], i_load_data[214], i_load_data[213], i_load_data[212], i_load_data[211], i_load_data[210], i_load_data[209], i_load_data[208], 1'b0, i_load_data[207], i_load_data[206], i_load_data[205], i_load_data[204], i_load_data[203], i_load_data[202], i_load_data[201], i_load_data[200], 1'b0, i_load_data[199], i_load_data[198], i_load_data[197], i_load_data[196], i_load_data[195], i_load_data[194], i_load_data[193], i_load_data[192]}",
+        "DIB": "{1'b0, i_load_data[255], i_load_data[254], i_load_data[253], i_load_data[252], i_load_data[251], i_load_data[250], i_load_data[249], i_load_data[248], 1'b0, i_load_data[247], i_load_data[246], i_load_data[245], i_load_data[244], i_load_data[243], i_load_data[242], i_load_data[241], i_load_data[240], 1'b0, i_load_data[239], i_load_data[238], i_load_data[237], i_load_data[236], i_load_data[235], i_load_data[234], i_load_data[233], i_load_data[232], 1'b0, i_load_data[231], i_load_data[230], i_load_data[229], i_load_data[228], i_load_data[227], i_load_data[226], i_load_data[225], i_load_data[224]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N97",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM18K_E1",
+      "label": "coord_x_1",
+      "module": "undistort_core",
+      "line": 440898,
+      "DRM36K_equiv": 0.5,
+      "parameters": {
+        "DATA_WIDTH_A": "32",
+        "DATA_WIDTH_B": "32",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "11"
+      },
+      "ports": {
+        "ADDRA": "{fifo_wr[8], fifo_wr[7], fifo_wr[6], fifo_wr[5], fifo_wr[4], fifo_wr[3], fifo_wr[2], fifo_wr[1], fifo_wr[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{fifo_rd[8], fifo_rd[7], fifo_rd[6], fifo_rd[5], fifo_rd[4], fifo_rd[3], fifo_rd[2], fifo_rd[1], fifo_rd[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, map_sx[15], map_sx[14], map_sx[13], map_sx[12], map_sx[11], map_sx[10], map_sx[9], map_sx[8], 1'b0, map_sx[7], map_sx[6], map_sx[5], map_sx[4], map_sx[3], map_sx[2], map_sx[1], map_sx[0]}",
+        "DIB": "{1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, map_sx[26], map_sx[25], map_sx[24], 1'b0, map_sx[23], map_sx[22], map_sx[21], map_sx[20], map_sx[19], map_sx[18], map_sx[17], map_sx[16]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N1709",
+        "WEB": "1'b0"
+      }
+    },
+    {
+      "type": "GTP_DRM18K_E1",
+      "label": "prepared_ids_b",
+      "module": "undistort_core",
+      "line": 458227,
+      "DRM36K_equiv": 0.5,
+      "parameters": {
+        "DATA_WIDTH_A": "32",
+        "DATA_WIDTH_B": "32",
+        "RAM_DATA_WIDTH": "9",
+        "RAM_ADDR_WIDTH": "11"
+      },
+      "ports": {
+        "ADDRA": "{prep_ptr[8], prep_ptr[7], prep_ptr[6], prep_ptr[5], prep_ptr[4], prep_ptr[3], prep_ptr[2], prep_ptr[1], prep_ptr[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "ADDRB": "{fifo_rd[8], fifo_rd[7], fifo_rd[6], fifo_rd[5], fifo_rd[4], fifo_rd[3], fifo_rd[2], fifo_rd[1], fifo_rd[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}",
+        "DIA": "{1'b0, N1703[15], N1703[14], N1703[13], N1703[12], N1703[11], N1703[10], N1703[9], N1703[8], 1'b0, N1703[7], N1703[6], N1703[5], N1703[4], N1703[3], N1703[2], N1703[1], N1703[0]}",
+        "DIB": "{1'b0, N1703[31], N1703[30], N1703[29], N1703[28], N1703[27], N1703[26], N1703[25], N1703[24], 1'b0, N1703[23], N1703[22], N1703[21], N1703[20], N1703[19], N1703[18], N1703[17], N1703[16]}",
+        "CLKA": "clk",
+        "CLKB": "clk",
+        "WEA": "N1711",
+        "WEB": "1'b0"
+      }
+    }
+  ],
+  "total_DRM": 9.0
+}

@@ -1,0 +1,8 @@
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module undistort_map declared here: C:\Users\lenovo\Desktop\ww\独立补充验证_20261024\evidence\negative_01\output_width_narrow.v:2
+C:\Users\lenovo\Desktop\ww\独立补充验证_20261024\sim\map_contract_probe_tb.sv:14: warning: Port 24 (o_sx_q16) of undistort_map expects 26 bits, got 27.
+C:\Users\lenovo\Desktop\ww\独立补充验证_20261024\sim\map_contract_probe_tb.sv:14:        : Padding 1 high bits of the expression.
+C:\Users\lenovo\Desktop\ww\独立补充验证_20261024\sim\map_contract_probe_tb.sv:14: warning: Port 25 (o_sy_q16) of undistort_map expects 26 bits, got 27.
+C:\Users\lenovo\Desktop\ww\独立补充验证_20261024\sim\map_contract_probe_tb.sv:14:        : Padding 1 high bits of the expression.

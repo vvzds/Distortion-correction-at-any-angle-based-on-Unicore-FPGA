@@ -1,0 +1,72 @@
+[
+  {
+    "path": "audit_ram_instances.py",
+    "bytes": 1399,
+    "sha256": "fac8f58cab88ed29c3ab88e490de72ba729bf3289abd157ed83c60858adf5dc5"
+  },
+  {
+    "path": "g8_check_execution.py",
+    "bytes": 4138,
+    "sha256": "cd6707754d06355ece39c0adb6c110cb2e37d69788d2473dc00ed7711ddebd96"
+  },
+  {
+    "path": "g8_common.py",
+    "bytes": 8094,
+    "sha256": "6783aedea73f5aff35889e49212c5bbaef81564002759c54e363d87cb03bf57a"
+  },
+  {
+    "path": "g8_console.py",
+    "bytes": 3679,
+    "sha256": "def11ac89ccdc634773ab0930dd045c42da2b4902d81b76164d7e59aeb31f177"
+  },
+  {
+    "path": "g8_execute.py",
+    "bytes": 9376,
+    "sha256": "c7726d42615ced08f307f27b35e15609705103d70c1c4d1c35b9fe35d61e4095"
+  },
+  {
+    "path": "g8_execution_records.py",
+    "bytes": 5197,
+    "sha256": "9d37bbd8ff3eed5c43f911b01bcb257e8cf40a5d6588856dd1afc8908a5ef026"
+  },
+  {
+    "path": "g8_gate.py",
+    "bytes": 11142,
+    "sha256": "f3f332383316e59a9427b4a5b847d0c4cee577ca5c873ce0e1f5b598dc5ecdba"
+  },
+  {
+    "path": "g8_preflight.py",
+    "bytes": 875,
+    "sha256": "839fda0a1df7694f7a12c237aa15d22ffd9ca6d4575f144e9f4e730779859431"
+  },
+  {
+    "path": "management_adapter.py",
+    "bytes": 8555,
+    "sha256": "a39ce958d03cf9d444de8dab716954c6382002ab9cbda7631eb15c0cce2ba8c3"
+  },
+  {
+    "path": "native_connectivity.py",
+    "bytes": 2726,
+    "sha256": "eedcf05ca4ec763e95c9e36e9bdd2fa611eb1ae2a5e8b97b256c269ad7382459"
+  },
+  {
+    "path": "pds_reports.py",
+    "bytes": 8699,
+    "sha256": "ed17cc1e4c2c4c968b50165df1fc9742d435585b6e4e6eab788727327c956a86"
+  },
+  {
+    "path": "review_native_run.py",
+    "bytes": 3863,
+    "sha256": "cdabb4915b33ee53ccc05a290b139bac3df90e44fa3bf4b3f85ec8274fe9b76e"
+  },
+  {
+    "path": "run_selftests.py",
+    "bytes": 1910,
+    "sha256": "b4bb4d0248bbabeebf061536e72b2db6d1d8600ad81b55afea3b8a866caa75cf"
+  },
+  {
+    "path": "data/g8_baseline.json",
+    "bytes": 166450,
+    "sha256": "24ae3e6b230a3451221ec0cc047890fd6e93a559c24bd223acfe5aae6ff75edf"
+  }
+]

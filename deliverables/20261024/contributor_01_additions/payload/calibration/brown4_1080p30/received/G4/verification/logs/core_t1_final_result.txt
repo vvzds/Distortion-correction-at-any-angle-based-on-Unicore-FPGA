@@ -1,0 +1,4 @@
+[T1] PASS err=0 frames=2 pixels=4147200 rel=2
+[T7] PASS err=0 ignored_start/parameter_snapshot/frame_clear
+[T8 T1] PASS stable_cpp=2.000000 loads_per_frame=1080 hits=1
+=== ALL TESTS PASSED (err=0) ===
