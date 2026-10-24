@@ -1,0 +1,56 @@
+--- P1
++++ P2
+@@ -123,12 +123,35 @@
+     reg [4:0] qs0,qs1;
+     reg [21:0] qseq;
+     reg [7:0] qid[0:3];
+-    // IDs resolved in this lookup; used only for Q_DONE timestamp updates.
++    // Initially selected hits plus successful allocations; only used at Q_DONE.
+     reg [191:0] done_mask;
+     reg [3:0] qfound;
+     reg [1:0] qwhich;
+     reg [11:0] match_hit[0:3];
+     reg [7:0] match_id[0:47];
++    // P2: decode selected hits in parallel during the existing Q_SELECT.
++    // Each MATCH group owns 16 slot IDs (8 per row parity). Higher groups
++    // win, exactly as the original Q_SELECT priority loop. The mask includes
++    // future hits, which remain protected by the original qfound/qid logic.
++    wire [11:0] winning_group[0:3];
++    wire [191:0] selected_hit_mask;
++    genvar pk,pg,ps;
++    generate
++        for(pk=0;pk<4;pk=pk+1)begin:p2_key_decode
++            for(pg=0;pg<12;pg=pg+1)begin:p2_group_decode
++                assign winning_group[pk][pg]=match_hit[pk][pg] &&
++                    ((match_hit[pk] >> (pg+1))==12'd0);
++            end
++        end
++        for(ps=0;ps<192;ps=ps+1)begin:p2_slot_decode
++            wire [3:0] key_selected;
++            for(pk=0;pk<4;pk=pk+1)begin:p2_selected_key
++                assign key_selected[pk]=winning_group[pk][ps/16] &&
++                    (match_id[pk*12+ps/16]==ps);
++            end
++            assign selected_hit_mask[ps]=|key_selected;
++        end
++    endgenerate
+     reg [11:0] victim_hit;
+     reg [7:0] victim_id[0:11];
+     reg [21:0] victim_age[0:11];
+@@ -254,7 +277,7 @@
+                         qstate<=Q_SELECT;
+                     end
+                     Q_SELECT:begin
+-                        done_mask<=0;
++                        done_mask<=selected_hit_mask;
+                         for(k=0;k<4;k=k+1)begin
+                             found=0;sel=0;
+                             for(g=0;g<12;g=g+1)if(match_hit[k][g])begin
+@@ -271,7 +294,6 @@
+                             ((k>=2?qb:qa)==missing_row) && ((k%2?qs1:qs0)==missing_seg))
+                             begin found=1;sel=qid[k];end
+                         if(found)begin
+-                            done_mask[sel]<=1'b1;
+                             qid[qwhich]<=sel;qfound[qwhich]<=1;
+                             if(qwhich==3)qstate<=Q_DONE;else qwhich<=qwhich+1'b1;
+                         end else qstate<=Q_ELIG;

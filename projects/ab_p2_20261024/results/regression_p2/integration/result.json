@@ -1,0 +1,128 @@
+{
+  "case": "integration",
+  "engine": "icarus",
+  "passed": true,
+  "steps": [
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\verification_data",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\host_ab",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\sim",
+        "-s",
+        "corr_top_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\results\\regression_p2\\integration\\simulation.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\source\\rtl\\undistort_core.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\source\\rtl\\undistort_map.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\source\\rtl\\undistort_bilinear.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\source\\rtl\\undistort_cache_ab.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\integration\\source\\rtl\\corr_top.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\integration\\source\\rtl\\param_mgr.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\integration\\source\\rtl\\gamma_lut.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\integration\\source\\rtl\\rect_wr_if.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\integration\\sim_models\\ideal_link.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate\\integration\\tb\\corr_top_tb.v"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\candidate",
+      "start_utc": "2026-10-24T11:59:58.868220+00:00",
+      "end_utc": "2026-10-24T11:59:59.014258+00:00",
+      "elapsed_seconds": 0.13999999999941792,
+      "exit_code": 0,
+      "log": "compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-i",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\results\\regression_p2\\integration\\simulation.vvp"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2缓存实施_20261024\\results\\regression_p2\\integration",
+      "start_utc": "2026-10-24T11:59:59.015263+00:00",
+      "end_utc": "2026-10-24T12:27:46.615509+00:00",
+      "elapsed_seconds": 1667.6100000000006,
+      "exit_code": 0,
+      "log": "simulation.log",
+      "log_sha256": "31e8d238dfdf2ec791744a840e753fa5672061258e0a531afe8b68d012e16134"
+    }
+  ],
+  "inputs_after": [
+    {
+      "file": "build_candidate_sources.py",
+      "sha256": "0c89dc723988f927a23ee2dfb99b44abf7760ac7aae231cbb133893aa55384c4"
+    },
+    {
+      "file": "integration/sim_models/ideal_link.v",
+      "sha256": "8234b63b7bf2233724ecaadcf9b32db0861c1c9de4e6da186aa566b6dbf5fb4d"
+    },
+    {
+      "file": "integration/source/rtl/corr_top.v",
+      "sha256": "217003139e4d5eda02ca5ff7ef29ccb3a6e186041e61209ea5e258f8bd5b7064"
+    },
+    {
+      "file": "integration/source/rtl/gamma_lut.v",
+      "sha256": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1"
+    },
+    {
+      "file": "integration/source/rtl/param_mgr.v",
+      "sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a"
+    },
+    {
+      "file": "integration/source/rtl/rect_wr_if.v",
+      "sha256": "c201b8d2a58ef726b192e8ca7a35125805df7280a243141485c386aa5528f3ee"
+    },
+    {
+      "file": "integration/tb/corr_top_tb.v",
+      "sha256": "240f3e4b74d22954458bf71c8fbc400e50e615349454b43b284c543cb1855e69"
+    },
+    {
+      "file": "run_sim.ps1",
+      "sha256": "33f3411f2be8d25b76e639e873407f72797a19b0cfdc309f30ba6ed1be8ba01f"
+    },
+    {
+      "file": "run_validation.py",
+      "sha256": "d300f38c8393f0037b9e556bf69d4a99043b861e413fe68f9536b526e6e398e1"
+    },
+    {
+      "file": "source/rtl/undistort_bilinear.v",
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+    },
+    {
+      "file": "source/rtl/undistort_cache_ab.v",
+      "sha256": "ecc95ddacbc2138b390f5fda48e9494a2ccbd5db17790a2768a5cf5ca76d58a4"
+    },
+    {
+      "file": "source/rtl/undistort_core.v",
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+    },
+    {
+      "file": "source/rtl/undistort_map.v",
+      "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3"
+    }
+  ],
+  "inputs_unchanged": true,
+  "terminal_marker": "ALL TESTS PASSED (err=0)",
+  "terminal_marker_seen": true,
+  "bad_tokens": [],
+  "summary_lines": [
+    "[33523180000] PASS I2 identity copy: slot 4 == golden (f=0 gmode=0)",
+    "[66702892000] PASS I2b aff-identity copy: slot 5 == golden (f=0 gmode=0)",
+    "[99882604000] PASS I3 frame3 pre-gamma: slot 6 == golden (f=0 gmode=0)",
+    "[133062316000] PASS I3 gamma B-invert: slot 7 == golden (f=0 gmode=1)",
+    "[133184180000] PASS I4 loose status: loose status=00040312",
+    "[199421740000] PASS I5 frame5: slot 4 == golden (f=0 gmode=1)",
+    "[199421740000] PASS I5 frame6: slot 5 == golden (f=3 gmode=1)",
+    "[232601452000] PASS I5 frame7: slot 6 == golden (f=4 gmode=1)",
+    "[265943028000] PASS I6 exact status: status=00080012",
+    "[299471652000] PASS I7 frame8 (free-run): slot 7 == golden (f=4 gmode=1)",
+    "[299471652000] PASS I7 frame9 (slow write): slot 4 == golden (f=4 gmode=1)",
+    "=== ALL TESTS PASSED (err=0) ==="
+  ]
+}

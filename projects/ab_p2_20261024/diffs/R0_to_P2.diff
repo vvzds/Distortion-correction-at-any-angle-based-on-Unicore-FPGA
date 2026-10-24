@@ -1,0 +1,113 @@
+--- R0
++++ P2
+@@ -123,10 +123,35 @@
+     reg [4:0] qs0,qs1;
+     reg [21:0] qseq;
+     reg [7:0] qid[0:3];
++    // Initially selected hits plus successful allocations; only used at Q_DONE.
++    reg [191:0] done_mask;
+     reg [3:0] qfound;
+     reg [1:0] qwhich;
+     reg [11:0] match_hit[0:3];
+     reg [7:0] match_id[0:47];
++    // P2: decode selected hits in parallel during the existing Q_SELECT.
++    // Each MATCH group owns 16 slot IDs (8 per row parity). Higher groups
++    // win, exactly as the original Q_SELECT priority loop. The mask includes
++    // future hits, which remain protected by the original qfound/qid logic.
++    wire [11:0] winning_group[0:3];
++    wire [191:0] selected_hit_mask;
++    genvar pk,pg,ps;
++    generate
++        for(pk=0;pk<4;pk=pk+1)begin:p2_key_decode
++            for(pg=0;pg<12;pg=pg+1)begin:p2_group_decode
++                assign winning_group[pk][pg]=match_hit[pk][pg] &&
++                    ((match_hit[pk] >> (pg+1))==12'd0);
++            end
++        end
++        for(ps=0;ps<192;ps=ps+1)begin:p2_slot_decode
++            wire [3:0] key_selected;
++            for(pk=0;pk<4;pk=pk+1)begin:p2_selected_key
++                assign key_selected[pk]=winning_group[pk][ps/16] &&
++                    (match_id[pk*12+ps/16]==ps);
++            end
++            assign selected_hit_mask[ps]=|key_selected;
++        end
++    endgenerate
+     reg [11:0] victim_hit;
+     reg [7:0] victim_id[0:11];
+     reg [21:0] victim_age[0:11];
+@@ -147,7 +172,7 @@
+     wire [10:0] missing_row=qwhich[1]?qb:qa;
+     wire [4:0] missing_seg=qwhich[0]?qs1:qs0;
+     wire alloc=qstate==Q_ALLOC && chosen_ok;
+-    integer i,k,g,j,idx,sel,l;
++    integer i,k,g,j,idx,sel,l,lu;
+     reg [10:0] cmp_row;
+     reg [4:0] cmp_seg;
+     reg [21:0] best_age;
+@@ -171,7 +196,7 @@
+             parity_a<=0;same_row<=0;first_a<=0;first_b<=0;
+             o_p00<=0;o_p01<=0;o_p10<=0;o_p11<=0;
+             qstate<=Q_IDLE;qa<=0;qb<=0;qs0<=0;qs1<=0;qseq<=0;
+-            qfound<=0;qwhich<=0;chosen<=0;chosen_ok<=0;
++            qfound<=0;qwhich<=0;chosen<=0;chosen_ok<=0;done_mask<=0;
+             o_lookup_done<=0;o_id_a0<=0;o_id_a1<=0;o_id_b0<=0;o_id_b1<=0;
+         end else begin
+             o_load_done<=0;o_load_error<=0;o_lookup_done<=0;
+@@ -190,7 +215,7 @@
+             end
+             if(i_frame_clear)begin
+                 line_valid<=0;tag_valid<=0;tag_ready<=0;tag_pending<=0;
+-                fetch_wr<=0;fetch_rd<=0;fetch_count<=0;qstate<=Q_IDLE;
++                fetch_wr<=0;fetch_rd<=0;fetch_count<=0;qstate<=Q_IDLE;done_mask<=0;
+                 load_active<=0;first_pending<=0;output_pending<=0;
+             end else begin
+                 case({alloc,fetch_pop})
+@@ -220,11 +245,15 @@
+                         else begin tag_ready[load_bank]<=1;tag_pending[load_bank]<=0;end
+                     end else load_beat<=load_beat+1'b1;
+                 end else if(i_load_vld && !load_active)o_load_error<=1;
+-                if(i_touch)begin
+-                    last_use[i_touch_ids[7:0]]<=i_touch_seq;
+-                    last_use[i_touch_ids[15:8]]<=i_touch_seq;
+-                    last_use[i_touch_ids[23:16]]<=i_touch_seq;
+-                    last_use[i_touch_ids[31:24]]<=i_touch_seq;
++                // Each timestamp has one static writer. Allocation/completion
++                // retain priority over same-cycle touches; no reset is added.
++                if(alloc || qstate==Q_DONE || i_touch)
++                for(lu=0;lu<192;lu=lu+1)begin
++                    if((alloc && chosen==lu) ||
++                       (qstate==Q_DONE && done_mask[lu]))last_use[lu]<=qseq;
++                    else if(i_touch && (i_touch_ids[7:0]==lu ||
++                            i_touch_ids[15:8]==lu || i_touch_ids[23:16]==lu ||
++                            i_touch_ids[31:24]==lu))last_use[lu]<=i_touch_seq;
+                 end
+                 case(qstate)
+                     Q_IDLE:if(i_lookup_req && !i_line_mode)begin
+@@ -248,6 +277,7 @@
+                         qstate<=Q_SELECT;
+                     end
+                     Q_SELECT:begin
++                        done_mask<=selected_hit_mask;
+                         for(k=0;k<4;k=k+1)begin
+                             found=0;sel=0;
+                             for(g=0;g<12;g=g+1)if(match_hit[k][g])begin
+@@ -301,9 +331,9 @@
+                     end
+                     Q_ALLOC:begin
+                         if(chosen_ok)begin
++                            done_mask[chosen]<=1'b1;
+                             tag_valid[chosen]<=1;tag_ready[chosen]<=0;tag_pending[chosen]<=1;
+                             tag_row[chosen]<=missing_row;tag_seg[chosen]<=missing_seg;
+-                            last_use[chosen]<=qseq;
+                             fetch_fifo[fetch_wr]<=chosen;fetch_wr<=fetch_wr+1'b1;
+                             qid[qwhich]<=chosen;qfound[qwhich]<=1;
+                             if(qwhich==3)qstate<=Q_DONE;
+@@ -312,7 +342,6 @@
+                     end
+                     Q_DONE:begin
+                         o_id_a0<=qid[0];o_id_a1<=qid[1];o_id_b0<=qid[2];o_id_b1<=qid[3];
+-                        for(k=0;k<4;k=k+1)last_use[qid[k]]<=qseq;
+                         o_lookup_done<=1;qstate<=Q_IDLE;
+                     end
+                     default:qstate<=Q_IDLE;

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.vvp
+/physical/host_seed2/compile/
+/physical/host_seed2/device_map/*.adf
+/physical/host_seed2/place_route/*.adf
+/physical/host_seed2/synthesize/*.adf
+/physical/host_seed2/report_timing/*.adf
