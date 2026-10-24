@@ -1,0 +1,42 @@
+[
+  {
+    "mutation": "omit_fourth_hit",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "536c67c62d8d6f40544e008dc349287f75c29b0a651881594dc09851c0d0284b",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P2����ʵʩ_20261024\\tests\\cache_p2_equivalence_tb.sv:228: P2_MASK selected/allocated set mismatch\n       Time: 53000  Scope: cache_p2_equivalence_tb\n"
+  },
+  {
+    "mutation": "ignore_group_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "2884ce02fccc54521facb3c718d4df724e3981ed0071bc31f385b679ea760255",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P2����ʵʩ_20261024\\tests\\cache_p2_equivalence_tb.sv:228: P2_MASK selected/allocated set mismatch\n       Time: 149000  Scope: cache_p2_equivalence_tb\n"
+  },
+  {
+    "mutation": "omit_allocated_id",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "36a4f778a9e50826e1a18cf273bd665ec63bd1bffc8348db5487ac4f30c8bcae",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P2����ʵʩ_20261024\\tests\\cache_p2_equivalence_tb.sv:228: P2_MASK selected/allocated set mismatch\n       Time: 1509000  Scope: cache_p2_equivalence_tb\n"
+  },
+  {
+    "mutation": "stale_initial_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "5950ec25512962e96630ccef6eb7a6cea934986a816e8d850e778c1fdb87be97",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P2����ʵʩ_20261024\\tests\\cache_p2_equivalence_tb.sv:228: P2_MASK selected/allocated set mismatch\n       Time: 221000  Scope: cache_p2_equivalence_tb\n"
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "2382c58e70620e50a7d3203e777b7eea2b8357c19cdf257d14a6e96f82c10e67",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P2����ʵʩ_20261024\\tests\\cache_p2_equivalence_tb.sv:213: last_use mismatch slot=191 edge=290 state=6\n       Time: 2317000  Scope: cache_p2_equivalence_tb\n"
+  }
+]

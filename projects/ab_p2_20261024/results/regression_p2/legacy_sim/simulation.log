@@ -1,0 +1,8 @@
+[T0] PASS err=0
+[T9 frame 1] loads=1080 hits=0 pixels=0 frames=1 err=0
+[T9 frame 2] loads=1080 hits=0 pixels=0 frames=2 err=0
+[T9 frame 3] loads=1080 hits=0 pixels=0 frames=3 err=0
+[T7] PASS err=0
+[T9] PASS err=0
+=== ALL TESTS PASSED (err=0) ===
+C:\Users\lenovo\Desktop\ww\AB_P2ª∫¥Ê µ ©_20261024\candidate\sim\legacy_sim_tb.v:149: $finish called at 53801712000 (1ps)

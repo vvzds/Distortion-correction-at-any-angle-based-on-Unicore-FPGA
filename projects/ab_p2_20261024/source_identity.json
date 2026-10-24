@@ -1,0 +1,7 @@
+{
+  "authorization": "User explicitly authorizes next cache optimization without prior design-party handoff. Preserve frozen interfaces/cycles and map/core.",
+  "previous_cache_sha256": "8cf12b084c4915887e06318355cd9252d70756b8eae155a8b523f40069674fe5",
+  "cache_sha256": "ecc95ddacbc2138b390f5fda48e9494a2ccbd5db17790a2768a5cf5ca76d58a4",
+  "only_changed_functional_source": "source/rtl/undistort_cache_ab.v",
+  "mask_invariant": "Q_SELECT captures all selected hits; Q_ALLOC adds chosen; all selected future hits retain original qfound/qid protection; before DONE mask equals final ID set."
+}

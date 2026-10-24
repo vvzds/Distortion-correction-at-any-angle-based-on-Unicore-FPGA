@@ -1,0 +1,15 @@
+{
+  "verification_passed": true,
+  "candidate_promoted": false,
+  "timing_passed": false,
+  "input_files_verified": {
+    "candidate": 81,
+    "physical/host_seed2": 139
+  },
+  "native_report_sha_verified": 12,
+  "csv_matches_final_report": true,
+  "csv_state": "OK",
+  "csv_convergence": "Fail",
+  "csv_sha256": "431d990b8fab913bbc68be34361ad2b056601f4e150b3b4577de22f9d1cc0956",
+  "verified_utc": "2026-10-24T13:05:34.960604+00:00"
+}
