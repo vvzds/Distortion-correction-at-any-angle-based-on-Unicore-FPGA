@@ -1,0 +1,2 @@
+P8_TOUCH_EXHAUSTIVE PASS checks=2752 lanes=4 ids_per_lane=256 enable_values=2 duplicates=192 mixed=512
+C:\Users\lenovo\Desktop\ww\AB_P8´¥ÃþÒëÂë¾Ö²¿»¯_20261025\tests\p8_touch_exhaustive_tb.sv:40: $finish called at 22037000 (1ps)

@@ -1,0 +1,58 @@
+{
+  "p7r1": {
+    "sha256": "ecc6a76bb6e0264df15a2d191bee409aabc126781f51bce5330902d3cabd29c8",
+    "counts": {
+      "UNCODED": 2172,
+      "W:Flow-4058": 4,
+      "W:Verilog-2006": 15,
+      "W:Public-4030": 7,
+      "W:Verilog-2008": 100,
+      "W:Verilog-2023": 43,
+      "W:Verilog-2048": 1,
+      "W:Verilog-2039": 9,
+      "W:Verilog-2038": 79,
+      "W:Verilog-2020": 160,
+      "W:Verilog-2032": 1,
+      "W:Verilog-2019": 17,
+      "W:Sdm-2003": 1,
+      "W:Sdm-2000": 64,
+      "W:Sdm-2014": 6774,
+      "C:DRC-2021": 18,
+      "C:ConstraintEditor-2002": 36,
+      "W:ConstraintEditor-4019": 4,
+      "W:Public-4008": 9136,
+      "W:Timing-4087": 89,
+      "W:Timing-4086": 37
+    },
+    "error_count": 0
+  },
+  "p8": {
+    "sha256": "a8775fc664b2386dedb5489ca81747912d5d8111928bb6279f83f59be2fecc22",
+    "counts": {
+      "UNCODED": 1872,
+      "W:Flow-4058": 4,
+      "W:Verilog-2006": 15,
+      "W:Public-4030": 7,
+      "W:Verilog-2008": 100,
+      "W:Verilog-2023": 43,
+      "W:Verilog-2048": 1,
+      "W:Verilog-2039": 9,
+      "W:Verilog-2038": 79,
+      "W:Verilog-2020": 160,
+      "W:Verilog-2032": 1,
+      "W:Verilog-2019": 17,
+      "W:Sdm-2003": 1,
+      "W:Sdm-2000": 64,
+      "W:Sdm-2014": 6774,
+      "C:DRC-2021": 18,
+      "C:ConstraintEditor-2002": 36,
+      "W:ConstraintEditor-4019": 4,
+      "W:Public-4008": 9028,
+      "W:Timing-4087": 89,
+      "W:Timing-4086": 37
+    },
+    "error_count": 0
+  },
+  "new_keyword_hits": [],
+  "scope": "Synthesis-only normalized category and keyword triage, not a full-design sign-off; original warnings retained."
+}

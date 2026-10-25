@@ -1,0 +1,3 @@
+P7_BANK_COVERAGE PASS slots=192 public_alloc=192 fetch=192 public_load=192 repeat_hit=192 local_priority=24 global_priority=2
+P7_BANKS_EQUIVALENCE PASS tests=468 edges=7318 done=450 alloc=269 blocked=2 touch_done=2 touch_alloc=1 touch_elig=1 allhit=7
+C:\Users\lenovo\Desktop\ww\AB_P8´¥ÃþÒëÂë¾Ö²¿»¯_20261025\tests\cache_p7_banks_tb.sv:394: $finish called at 58544000 (1ps)
