@@ -49,27 +49,43 @@ def main():
     files = sorted(glob.glob(os.path.join(a.dir, '*.png')) +
                    glob.glob(os.path.join(a.dir, '*.bmp')))
     print(f'发现 {len(files)} 张图像')
-    assert len(files) >= 15, '标定图像不足 15 张，请先按采集 SOP 完成 20+ 张采集'
+    if len(files) < 15:
+        raise ValueError('标定图像不足 15 张，请先按采集 SOP 完成 20+ 张采集')
 
     # ---- 内角点规格自动探测（12x9 内点 / 11x8 内点 两种标称口径）----
     def detect(gray, cb):
         return cv2.findChessboardCornersSB(gray, tuple(cb), None)
 
-    g0 = cv2.cvtColor(cv2.imread(files[0]), cv2.COLOR_BGR2GRAY)
+    # 逐张可读性与尺寸校验：所有用图必须 1920x1080 且可读（R02 修订）
+    def load_gray(f):
+        img = cv2.imread(f)
+        if img is None:
+            return None
+        if img.shape[:2] != (1080, 1920):
+            print(f'  skip(非1920x1080): {os.path.basename(f)} shape={img.shape[:2]}')
+            return None
+        return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    g0 = load_gray(files[0])
+    if g0 is None:
+        raise ValueError('首张图不可读或非 1920x1080，不得用于标定（坐标系作废）')
     cands = [tuple(a.cb), (a.cb[0] - 1, a.cb[1] - 1)]
     CB = None
     for t in cands:
         if detect(g0, t)[0]:
             CB = t
             break
-    assert CB is not None, f'首张图按 {cands} 均未检出棋盘，检查图像与标定板'
+    if CB is None:
+        raise ValueError(f'首张图按 {cands} 均未检出棋盘，检查图像与标定板')
     print(f'采用内角点规格: {CB[0]} x {CB[1]}')
 
     objp = np.zeros((CB[0] * CB[1], 3), np.float32)
     objp[:, :2] = np.mgrid[0:CB[0], 0:CB[1]].T.reshape(-1, 2) * a.sq
     objps, imgps, used = [], [], []
     for f in files:
-        g = cv2.cvtColor(cv2.imread(f), cv2.COLOR_BGR2GRAY)
+        g = load_gray(f)
+        if g is None:
+            continue
         ok, c = detect(g, CB)
         if ok:
             objps.append(objp)
@@ -78,13 +94,21 @@ def main():
         else:
             print('  skip(角点未检出):', os.path.basename(f))
     print(f'有效用例: {len(used)}/{len(files)}')
-    assert len(used) >= 15, '有效张数不足 15，补拍（棋盘需完整、清晰、无反光）'
+    if len(used) < 15:
+        raise ValueError('有效张数不足 15，补拍（棋盘需完整、清晰、无反光）')
 
-    # ---- 标定：distCoeffs 长度=4 -> 仅优化 k1,k2,p1,p2（与引擎同构）----
+    # ---- 标定：显式 CALIB_FIX_K3 + 5 元素 dist，k3 恒 0 不被优化（R01 修订）----
+    # distCoeffs 传 5 元素初值并显式置 CALIB_FIX_K3：k3 固定为 0，
+    # 与引擎 4 参数模型严格同构；记录完整 dist 与 flags 供证据链核对。
+    dist0 = np.zeros(5, np.float64)
+    calib_flags = cv2.CALIB_FIX_K3
     rms, K, dist, rvecs, tvecs = cv2.calibrateCamera(
-        objps, imgps, g.shape[::-1], None, np.zeros(4, np.float64))
+        objps, imgps, (1920, 1080), None, dist0, flags=calib_flags)
     fx, fy, cx, cy = K[0, 0], K[1, 1], K[0, 2], K[1, 2]
     k1, k2, p1, p2 = (float(x) for x in np.ravel(dist)[:4])
+    dist_full = [float(x) for x in np.ravel(dist)[:5]]
+    print(f'calibrateCamera flags = CALIB_FIX_K3（k3 固定为 0）')
+    print(f'完整 distCoeffs（5 元素）= {dist_full}')
 
     # ---- 逐张重投影 RMS（>1px 列为离群，提示补拍）----
     perr = []
@@ -106,15 +130,42 @@ def main():
     p = dict(fx=fx, fy=fy, cx=cx, cy=cy, k1=k1, k2=k2, p1=p1, p2=p2)
     viol = g02_violations(p)
     if viol:
-        print('\nG02 预检 FAIL（引擎将拒收该组）:')
+        # R03 修订：G02 预检 FAIL 时只存诊断证据，不生成可发送 UART 帧
+        print('\nG02 预检 FAIL（引擎将拒收该组）: 已拦截，不生成 0x01 发送帧。')
         for n, v, lo, hi in viol:
             print(f'  {n}={v:.6f} 越界 [{lo}, {hi}]')
         print('排查: 标定板平整度 / 摆姿角覆盖是否单一 / 反光')
-    else:
-        print('\nG02 范围预检: PASS（8 参数全部在引擎合法域内）')
+        out = dict(time=datetime.datetime.now().isoformat(timespec='seconds'),
+                   board=f'chessboard {CB[0]}x{CB[1]} inner corners, square={a.sq} m',
+                   images=used, rms=float(rms), per_view_err=dict(zip(used, perr)),
+                   fx=fx, fy=fy, cx=cx, cy=cy, k1=k1, k2=k2, p1=p1, p2=p2,
+                   calib_flags='CALIB_FIX_K3', dist_full=dist_full,
+                   g02_pass=False, g02_violations=[dict(name=n, value=v, lo=lo, hi=hi)
+                                                   for n, v, lo, hi in viol])
+        with open('calib_result.json', 'w', encoding='utf-8') as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+        print('诊断已存档 calib_result.json（g02_pass=false，无 uart01_frame 字段）')
+        return
+
+    print('\nG02 范围预检: PASS（8 参数全部在引擎合法域内）')
 
     # ---- UART 0x01 帧生成（checksum = 负载字节和 mod 256）----
     payload = b''.join(q16_16(v) for v in (fx, fy, cx, cy, k1, k2, p1, p2))
+    # R03 修订：编码域校验——Q16.16 量化往返误差必须 <= 0.5 LSB，
+    # 且解码值仍在 G02 域内（防止量化本身引入越界/回绕）。
+    def q16_dec(b4):
+        u = int.from_bytes(b4, 'little')
+        return (u - (1 << 32) if u >= (1 << 31) else u) / 65536.0
+    names = ('fx', 'fy', 'cx', 'cy', 'k1', 'k2', 'p1', 'p2')
+    enc_chk = {}
+    for nm, v in zip(names, (fx, fy, cx, cy, k1, k2, p1, p2)):
+        dv = q16_dec(q16_16(v))
+        enc_chk[nm] = abs(dv - v)
+        if not enc_chk[nm] <= 0.5 / 65536.0:
+            raise ValueError(f'{nm} 量化往返误差超 0.5 LSB')
+    if g02_violations({n: q16_dec(q16_16(p[n])) for n in names}):
+        raise ValueError('量化后参数越出 G02 域，禁止发送')
+    print('编码域校验: PASS（量化往返误差 <= 0.5 LSB，量化后仍在 G02 域内）')
     frame = bytes([0xAA, 0x55, 0x01, 32]) + payload + bytes([sum(payload) & 0xFF])
     hexstr = ' '.join(f'{b:02X}' for b in frame)
     print('\nUART 0x01 帧（37 字节）:')
@@ -125,12 +176,17 @@ def main():
                board=f'chessboard {CB[0]}x{CB[1]} inner corners, square={a.sq} m',
                images=used, rms=float(rms), per_view_err=dict(zip(used, perr)),
                fx=fx, fy=fy, cx=cx, cy=cy, k1=k1, k2=k2, p1=p1, p2=p2,
+               calib_flags='CALIB_FIX_K3', dist_full=dist_full,
+               enc_roundtrip_max_lsb=max(enc_chk.values()) * 65536.0,
                g02_pass=(len(viol) == 0), uart01_frame=hexstr)
     with open('calib_result.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print('\n结果已存档 calib_result.json（发送前核对，保留原始文件作为标定证据）')
-    print('下发方式: 用已验收的 uart_host_tool 发送 0x01 参数组（或将上方 hex 串按')
-    print('工具十六进制模式发送），发送后 --status 读回确认 bit8(params_valid)=1。')
+    print('下发方式（工具现有入口，H08 修订）:')
+    print('  python uart_tool.py send-0x01 --port COMx --params '
+          '"fx=...,fy=...,cx=...,cy=...,k1=...,k2=...,p1=...,p2=..."')
+    print('  python uart_tool.py read-0x05 --port COMx --status-map status_map_uart.json')
+    print('发送后用 read-0x05 确认 bit8(params_valid)=1。')
 
 
 if __name__ == '__main__':

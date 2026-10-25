@@ -3,3 +3,6 @@ docs/project/** -text whitespace=cr-at-eol
 deliverables/** -text whitespace=cr-at-eol
 # Preserve intentional Markdown hard breaks and historical trailing blank lines.
 docs/project/*.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+# Accepted M02 source is identified by its exact delivery SHA256.
+calibration/calibrate.py -text whitespace=cr-at-eol
+calibration/run_calibration.py -text

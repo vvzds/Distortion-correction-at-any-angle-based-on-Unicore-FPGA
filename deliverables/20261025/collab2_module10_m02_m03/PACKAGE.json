@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-25T18:37:40.103403+08:00",
+  "zip_name": "模块10_完整回传包_二号_20261025.zip",
+  "zip_sha256": "3cc98d5c4bd4a4e0c45b3552e9f95b46adfe20f28b238e1b2d371ca29efd0a8a",
+  "zip_bytes": 346093566,
+  "parts": [
+    {
+      "path": "module10_complete.zip.part001",
+      "bytes": 50331648,
+      "sha256": "574c006bb9d1271aec5ce179500fa3db6c871d0b2ad96c39e0b2828b46d68623"
+    },
+    {
+      "path": "module10_complete.zip.part002",
+      "bytes": 50331648,
+      "sha256": "9f052c07a05264e0c414f238cad5441555a78f1395341aed37f9096e51b6c1a1"
+    },
+    {
+      "path": "module10_complete.zip.part003",
+      "bytes": 50331648,
+      "sha256": "e50c8d3e1b3183b8fb082e3141a3ed692af9b5e31370aee314630d93b9a60e82"
+    },
+    {
+      "path": "module10_complete.zip.part004",
+      "bytes": 50331648,
+      "sha256": "a8ba2d6e3f46707449a2c4e17d80283fc3d40cf4e0340b1d446c47e6d2de5603"
+    },
+    {
+      "path": "module10_complete.zip.part005",
+      "bytes": 50331648,
+      "sha256": "2b1b90ff3d7f78f00e9159886dbf772e2c7f2cc2fe469482759e67ac52841fc0"
+    },
+    {
+      "path": "module10_complete.zip.part006",
+      "bytes": 50331648,
+      "sha256": "26400d501775c521dba561f9fb9c7bae99561901bf19ab5098531fce452e7195"
+    },
+    {
+      "path": "module10_complete.zip.part007",
+      "bytes": 44103678,
+      "sha256": "73acfb58f8425a0af38a29cd630140db5b7dd2b2d050983e18b0a61730ec41c0"
+    }
+  ],
+  "manifest_sha256": "6d114f340d4788de2231a13040f9fc4d8f6240d30d915457dbababc368164e5c",
+  "files": 1519,
+  "no_new_rtl_or_bitstream": true,
+  "board_quality_acceptance": "NOT_EVALUATED"
+}
