@@ -1,0 +1,98 @@
+[
+  {
+    "path": "reference/param_mgr.v",
+    "source": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\source\\rtl\\param_mgr.v",
+    "sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+    "bytes": 24219
+  },
+  {
+    "path": "reference/param_mgr_tb.v",
+    "source": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\sim\\param_mgr_tb.v",
+    "sha256": "5b445d735068d16c41e951b066b78c3a776fc892d73015e5dfcdac67ffce1726",
+    "bytes": 23718
+  },
+  {
+    "path": "reference/corr_top.v",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery\\source\\rtl\\corr_top.v",
+    "sha256": "f6bbe92b20d95b7e34d2996143da5bc7bc3e8952187c7fd111c0c2accb9ba1ce",
+    "bytes": 11865
+  },
+  {
+    "path": "reference/UART参数协议规格_V1.2.md",
+    "source": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\uart_host_tool\\UART参数协议规格_V1.2.md",
+    "sha256": "0fd8ee46f5af54bf9cf62efa646c3de5c453ef49c7dd1abb61f6552dd1a1a964",
+    "bytes": 5077
+  },
+  {
+    "path": "reference/uart_tool_tlimfix.py",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\04_uart_tool\\uart_tool.py",
+    "sha256": "043f8076f3ee9b810081fa337b6ed0cdffa85131ee4a3c04f409534960331a57",
+    "bytes": 20028
+  },
+  {
+    "path": "reference/parameters/affine_disabled_0x02.bin",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\affine_disabled_0x02.bin",
+    "sha256": "c88e5f60daf582324a0166512ebfaf2b0213a1a3404aee836fd1d59480de7340",
+    "bytes": 30
+  },
+  {
+    "path": "reference/parameters/calibration_q16.vh",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\calibration_q16.vh",
+    "sha256": "8f2f0497c012fbbe07b0c418c98ea6d9aaf7292a3f203c73ec084d4c2758a55b",
+    "bytes": 467
+  },
+  {
+    "path": "reference/parameters/gamma_disabled_0x04.bin",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\gamma_disabled_0x04.bin",
+    "sha256": "d82bf966a6f9f130aec1c4e7b84b2d4cb607ab868b486f76a21fd7e4c7be447b",
+    "bytes": 9
+  },
+  {
+    "path": "reference/parameters/identity_0x01.bin",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\identity_0x01.bin",
+    "sha256": "c1fab7ced10d33faa93c4cd9db0310c0984a919f6e11ac27b685fa56d6983a9d",
+    "bytes": 37
+  },
+  {
+    "path": "reference/parameters/identity_0x01.hex",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\identity_0x01.hex",
+    "sha256": "5ff53710665556f9bb117648c1f8bfe40b715ebb9402ae293657398ffef2fcdd",
+    "bytes": 112
+  },
+  {
+    "path": "reference/parameters/identity_parameters.csv",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\identity_parameters.csv",
+    "sha256": "657b74157ed77637a5d331ce3908754a5a74e6c62adb1d025ccdce002e7809f1",
+    "bytes": 158
+  },
+  {
+    "path": "reference/parameters/parameter_encoding.json",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\parameter_encoding.json",
+    "sha256": "3a847379e8285aff9df16a1077cdac3c3b14049ec0a060eb879fc3ff07d687a5",
+    "bytes": 3415
+  },
+  {
+    "path": "reference/parameters/real_0x01.bin",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\real_0x01.bin",
+    "sha256": "1ac17c4bea8947d1e4a84f50a7eaaf46c0b1d90dd4b8e8ba880bc01e0a09537a",
+    "bytes": 37
+  },
+  {
+    "path": "reference/parameters/real_0x01.hex",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\real_0x01.hex",
+    "sha256": "6db4cdff71391d700b2f2324a6e01c4dd016d7fa24f6fc683ed9c562585525f9",
+    "bytes": 112
+  },
+  {
+    "path": "reference/parameters/real_parameters.csv",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\03_parameters\\parameters\\real_parameters.csv",
+    "sha256": "4599511a4c0a570438e146bc8d57178d4fb088bf6e676928de4b7237190d8d20",
+    "bytes": 213
+  },
+  {
+    "path": "EXTERNAL_BITSTREAM",
+    "source": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery\\generate_bitstream\\hdmi_ddr_ov5640_top.sbit",
+    "sha256": "67ce6939f03abe9e9594f6bd071a567988eeda96fecb4eec2c3f5b8ed6cdf317",
+    "bytes": 3791112
+  }
+]

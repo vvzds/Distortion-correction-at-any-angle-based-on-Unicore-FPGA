@@ -1,0 +1,70 @@
+{
+  "start": "2026-10-25T19:32:40.039988+08:00",
+  "scope": "MODULE2_PARAMETERS_UART",
+  "stages": [],
+  "errors": [
+    "Traceback (most recent call last):\n  File \"C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\module2_completion_20261025\\board_validation.py\", line 142, in main\n    if gray.std()<8 or gray.mean()<8:raise ValueError('Black or untextured input; no parameter writes')\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Black or untextured input; no parameter writes\n"
+  ],
+  "restoration": {},
+  "parameters_sent": false,
+  "bitstream_identity": "LOCAL_FILE_SHA_AND_USER_PROGRAM_CONFIRMATION_ONLY",
+  "internal_atomicity": "RTL_SIMULATION_ONLY",
+  "ports": [
+    {
+      "device": "COM9",
+      "description": "USB Serial Port (COM9)",
+      "vid": 1027,
+      "pid": 24592
+    },
+    {
+      "device": "COM10",
+      "description": "USB Serial Port (COM10)",
+      "vid": 1027,
+      "pid": 24592
+    },
+    {
+      "device": "COM11",
+      "description": "Silicon Labs CP210x USB to UART Bridge (COM11)",
+      "vid": 4292,
+      "pid": 60000
+    }
+  ],
+  "initial_status": {
+    "time": "2026-10-25T19:32:40.055551+08:00",
+    "monotonic_ns": 438159984000000,
+    "raw": "00000012",
+    "fw": 18,
+    "params_valid": 0,
+    "busy": 0,
+    "pub_count": 0
+  },
+  "cameras": [
+    {
+      "index": 0,
+      "FriendlyName": "Integrated Camera",
+      "DevicePath": "\\\\?\\usb#vid_04f2&pid_b7b8&mi_00#6&13b24c8b&2&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+    },
+    {
+      "index": 1,
+      "FriendlyName": "Hagibis",
+      "DevicePath": "\\\\?\\usb#vid_345f&pid_2131&mi_00#6&249d72a0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+    },
+    {
+      "index": 2,
+      "FriendlyName": "ToDesk Camera"
+    },
+    {
+      "index": 3,
+      "FriendlyName": "OBS Virtual Camera"
+    }
+  ],
+  "capture_transport": {
+    "width": 1920.0,
+    "height": 1080.0,
+    "fps": 30.00003000003,
+    "fourcc": 1196444237
+  },
+  "state": "FAILED_OR_INCOMPLETE",
+  "finished": "2026-10-25T19:32:45.111213+08:00",
+  "photos": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193240_fb3cde"
+}

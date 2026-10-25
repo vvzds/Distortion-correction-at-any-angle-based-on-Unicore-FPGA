@@ -1,0 +1,1016 @@
+{"time": "2026-10-25T19:33:39.237274+08:00", "monotonic_ns": 438219156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438219156000000}
+{"time": "2026-10-25T19:33:39.238290+08:00", "monotonic_ns": 438219171000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:39.238290+08:00", "monotonic_ns": 438219171000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:39.239289+08:00", "monotonic_ns": 438219171000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:39.239289+08:00", "monotonic_ns": 438219171000000, "direction": "RX", "hex": "1200000012"}
+{"time": "2026-10-25T19:33:44.027110+08:00", "monotonic_ns": 438223953000000, "direction": "TX", "hex": "aa5504040000000000", "written": 9, "start_monotonic_ns": 438223953000000}
+{"time": "2026-10-25T19:33:44.027110+08:00", "monotonic_ns": 438223953000000, "direction": "TX", "hex": "aa5502190000010000000000000000000000010000000000000000000002", "written": 30, "start_monotonic_ns": 438223953000000}
+{"time": "2026-10-25T19:33:44.029195+08:00", "monotonic_ns": 438223953000000, "direction": "TX", "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0", "written": 37, "start_monotonic_ns": 438223953000000}
+{"time": "2026-10-25T19:33:44.030709+08:00", "monotonic_ns": 438223953000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438223953000000}
+{"time": "2026-10-25T19:33:44.035876+08:00", "monotonic_ns": 438223968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:44.035876+08:00", "monotonic_ns": 438223968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:44.035876+08:00", "monotonic_ns": 438223968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:44.035876+08:00", "monotonic_ns": 438223968000000, "direction": "RX", "hex": "1203000015"}
+{"time": "2026-10-25T19:33:44.537264+08:00", "monotonic_ns": 438224468000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438224468000000}
+{"time": "2026-10-25T19:33:44.538271+08:00", "monotonic_ns": 438224468000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:44.538271+08:00", "monotonic_ns": 438224468000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:44.538271+08:00", "monotonic_ns": 438224468000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:44.538271+08:00", "monotonic_ns": 438224468000000, "direction": "RX", "hex": "1203020017"}
+{"time": "2026-10-25T19:33:45.040344+08:00", "monotonic_ns": 438224968000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438224968000000}
+{"time": "2026-10-25T19:33:45.041349+08:00", "monotonic_ns": 438224968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:45.041349+08:00", "monotonic_ns": 438224968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:45.042349+08:00", "monotonic_ns": 438224968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:45.042349+08:00", "monotonic_ns": 438224968000000, "direction": "RX", "hex": "1203040019"}
+{"time": "2026-10-25T19:33:45.543704+08:00", "monotonic_ns": 438225468000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438225468000000}
+{"time": "2026-10-25T19:33:45.544714+08:00", "monotonic_ns": 438225468000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:45.544714+08:00", "monotonic_ns": 438225468000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:45.545711+08:00", "monotonic_ns": 438225468000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:45.545711+08:00", "monotonic_ns": 438225468000000, "direction": "RX", "hex": "120306001b"}
+{"time": "2026-10-25T19:33:46.047775+08:00", "monotonic_ns": 438225968000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438225968000000}
+{"time": "2026-10-25T19:33:46.049298+08:00", "monotonic_ns": 438225968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:46.049298+08:00", "monotonic_ns": 438225968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:46.049298+08:00", "monotonic_ns": 438225968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:46.049298+08:00", "monotonic_ns": 438225968000000, "direction": "RX", "hex": "120308001d"}
+{"time": "2026-10-25T19:33:46.550979+08:00", "monotonic_ns": 438226484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438226484000000}
+{"time": "2026-10-25T19:33:46.551998+08:00", "monotonic_ns": 438226484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:46.551998+08:00", "monotonic_ns": 438226484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:46.551998+08:00", "monotonic_ns": 438226484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:46.551998+08:00", "monotonic_ns": 438226484000000, "direction": "RX", "hex": "12030a001f"}
+{"time": "2026-10-25T19:33:47.054681+08:00", "monotonic_ns": 438226984000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438226984000000}
+{"time": "2026-10-25T19:33:47.055689+08:00", "monotonic_ns": 438226984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:47.055689+08:00", "monotonic_ns": 438226984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:47.055689+08:00", "monotonic_ns": 438226984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:47.055689+08:00", "monotonic_ns": 438226984000000, "direction": "RX", "hex": "12030c0021"}
+{"time": "2026-10-25T19:33:47.557625+08:00", "monotonic_ns": 438227484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438227484000000}
+{"time": "2026-10-25T19:33:47.608306+08:00", "monotonic_ns": 438227531000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:47.608306+08:00", "monotonic_ns": 438227531000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:47.608306+08:00", "monotonic_ns": 438227531000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:47.608306+08:00", "monotonic_ns": 438227531000000, "direction": "RX", "hex": "12030e0023"}
+{"time": "2026-10-25T19:33:48.110177+08:00", "monotonic_ns": 438228031000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438228031000000}
+{"time": "2026-10-25T19:33:48.111184+08:00", "monotonic_ns": 438228031000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:48.111184+08:00", "monotonic_ns": 438228031000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:48.111184+08:00", "monotonic_ns": 438228031000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:48.111184+08:00", "monotonic_ns": 438228031000000, "direction": "RX", "hex": "1203100025"}
+{"time": "2026-10-25T19:33:48.613252+08:00", "monotonic_ns": 438228546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438228546000000}
+{"time": "2026-10-25T19:33:48.614795+08:00", "monotonic_ns": 438228546000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:48.614795+08:00", "monotonic_ns": 438228546000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:48.614795+08:00", "monotonic_ns": 438228546000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:48.614795+08:00", "monotonic_ns": 438228546000000, "direction": "RX", "hex": "1203120027"}
+{"time": "2026-10-25T19:33:49.116331+08:00", "monotonic_ns": 438229046000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438229046000000}
+{"time": "2026-10-25T19:33:49.117338+08:00", "monotonic_ns": 438229046000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:49.117338+08:00", "monotonic_ns": 438229046000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:49.117338+08:00", "monotonic_ns": 438229046000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:49.117338+08:00", "monotonic_ns": 438229046000000, "direction": "RX", "hex": "1203140029"}
+{"time": "2026-10-25T19:33:49.619841+08:00", "monotonic_ns": 438229546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438229546000000}
+{"time": "2026-10-25T19:33:49.670864+08:00", "monotonic_ns": 438229593000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:49.670864+08:00", "monotonic_ns": 438229593000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:49.670864+08:00", "monotonic_ns": 438229593000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:49.670864+08:00", "monotonic_ns": 438229593000000, "direction": "RX", "hex": "120316002b"}
+{"time": "2026-10-25T19:33:50.172073+08:00", "monotonic_ns": 438230093000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438230093000000}
+{"time": "2026-10-25T19:33:50.223166+08:00", "monotonic_ns": 438230156000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:50.223166+08:00", "monotonic_ns": 438230156000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:50.223166+08:00", "monotonic_ns": 438230156000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:50.223166+08:00", "monotonic_ns": 438230156000000, "direction": "RX", "hex": "120318002d"}
+{"time": "2026-10-25T19:33:50.724826+08:00", "monotonic_ns": 438230656000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438230656000000}
+{"time": "2026-10-25T19:33:50.725956+08:00", "monotonic_ns": 438230656000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:50.725956+08:00", "monotonic_ns": 438230656000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:50.725956+08:00", "monotonic_ns": 438230656000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:50.725956+08:00", "monotonic_ns": 438230656000000, "direction": "RX", "hex": "12031a002f"}
+{"time": "2026-10-25T19:33:51.227849+08:00", "monotonic_ns": 438231156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438231156000000}
+{"time": "2026-10-25T19:33:51.228986+08:00", "monotonic_ns": 438231156000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:51.228986+08:00", "monotonic_ns": 438231156000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:51.228986+08:00", "monotonic_ns": 438231156000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:51.228986+08:00", "monotonic_ns": 438231156000000, "direction": "RX", "hex": "12031c0031"}
+{"time": "2026-10-25T19:33:51.730774+08:00", "monotonic_ns": 438231656000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438231656000000}
+{"time": "2026-10-25T19:33:51.731778+08:00", "monotonic_ns": 438231656000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:51.731778+08:00", "monotonic_ns": 438231656000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:51.731778+08:00", "monotonic_ns": 438231656000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:51.731778+08:00", "monotonic_ns": 438231656000000, "direction": "RX", "hex": "12031e0033"}
+{"time": "2026-10-25T19:33:52.233552+08:00", "monotonic_ns": 438232156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438232156000000}
+{"time": "2026-10-25T19:33:52.284588+08:00", "monotonic_ns": 438232218000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:52.284588+08:00", "monotonic_ns": 438232218000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:52.284588+08:00", "monotonic_ns": 438232218000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:52.284588+08:00", "monotonic_ns": 438232218000000, "direction": "RX", "hex": "1203200035"}
+{"time": "2026-10-25T19:33:52.307911+08:00", "monotonic_ns": 438232234000000, "direction": "TX", "hex": "aa5504040000000000", "written": 9, "start_monotonic_ns": 438232234000000}
+{"time": "2026-10-25T19:33:52.309903+08:00", "monotonic_ns": 438232234000000, "direction": "TX", "hex": "aa5502190000010000000000000000000000010000000000000000000002", "written": 30, "start_monotonic_ns": 438232234000000}
+{"time": "2026-10-25T19:33:52.310903+08:00", "monotonic_ns": 438232234000000, "direction": "TX", "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0", "written": 37, "start_monotonic_ns": 438232234000000}
+{"time": "2026-10-25T19:33:52.311903+08:00", "monotonic_ns": 438232234000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438232234000000}
+{"time": "2026-10-25T19:33:52.362303+08:00", "monotonic_ns": 438232281000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:52.362303+08:00", "monotonic_ns": 438232281000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:52.362303+08:00", "monotonic_ns": 438232281000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:52.362303+08:00", "monotonic_ns": 438232281000000, "direction": "RX", "hex": "1203210036"}
+{"time": "2026-10-25T19:33:52.362303+08:00", "monotonic_ns": 438232281000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438232281000000}
+{"time": "2026-10-25T19:33:52.364393+08:00", "monotonic_ns": 438232296000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:52.364393+08:00", "monotonic_ns": 438232296000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:52.364393+08:00", "monotonic_ns": 438232296000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:52.364393+08:00", "monotonic_ns": 438232296000000, "direction": "RX", "hex": "1203210036"}
+{"time": "2026-10-25T19:33:52.866718+08:00", "monotonic_ns": 438232796000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438232796000000}
+{"time": "2026-10-25T19:33:52.867726+08:00", "monotonic_ns": 438232796000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:52.867726+08:00", "monotonic_ns": 438232796000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:52.867726+08:00", "monotonic_ns": 438232796000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:52.867726+08:00", "monotonic_ns": 438232796000000, "direction": "RX", "hex": "1203230038"}
+{"time": "2026-10-25T19:33:53.369699+08:00", "monotonic_ns": 438233296000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438233296000000}
+{"time": "2026-10-25T19:33:53.370708+08:00", "monotonic_ns": 438233296000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:53.370708+08:00", "monotonic_ns": 438233296000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:53.370708+08:00", "monotonic_ns": 438233296000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:53.370708+08:00", "monotonic_ns": 438233296000000, "direction": "RX", "hex": "120325003a"}
+{"time": "2026-10-25T19:33:53.873124+08:00", "monotonic_ns": 438233796000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438233796000000}
+{"time": "2026-10-25T19:33:53.874139+08:00", "monotonic_ns": 438233796000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:53.874139+08:00", "monotonic_ns": 438233796000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:53.874139+08:00", "monotonic_ns": 438233796000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:53.874139+08:00", "monotonic_ns": 438233796000000, "direction": "RX", "hex": "120327003c"}
+{"time": "2026-10-25T19:33:54.376377+08:00", "monotonic_ns": 438234296000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438234296000000}
+{"time": "2026-10-25T19:33:54.427169+08:00", "monotonic_ns": 438234359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:54.427169+08:00", "monotonic_ns": 438234359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:54.427169+08:00", "monotonic_ns": 438234359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:54.427169+08:00", "monotonic_ns": 438234359000000, "direction": "RX", "hex": "120329003e"}
+{"time": "2026-10-25T19:33:54.929400+08:00", "monotonic_ns": 438234859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438234859000000}
+{"time": "2026-10-25T19:33:54.930795+08:00", "monotonic_ns": 438234859000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:54.930795+08:00", "monotonic_ns": 438234859000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:54.930795+08:00", "monotonic_ns": 438234859000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:54.930795+08:00", "monotonic_ns": 438234859000000, "direction": "RX", "hex": "12032b0040"}
+{"time": "2026-10-25T19:33:55.432583+08:00", "monotonic_ns": 438235359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438235359000000}
+{"time": "2026-10-25T19:33:55.433599+08:00", "monotonic_ns": 438235359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:55.433599+08:00", "monotonic_ns": 438235359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:55.433599+08:00", "monotonic_ns": 438235359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:55.433599+08:00", "monotonic_ns": 438235359000000, "direction": "RX", "hex": "12032d0042"}
+{"time": "2026-10-25T19:33:55.936010+08:00", "monotonic_ns": 438235859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438235859000000}
+{"time": "2026-10-25T19:33:55.937018+08:00", "monotonic_ns": 438235859000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:55.937018+08:00", "monotonic_ns": 438235859000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:55.937018+08:00", "monotonic_ns": 438235859000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:55.937018+08:00", "monotonic_ns": 438235859000000, "direction": "RX", "hex": "12032f0044"}
+{"time": "2026-10-25T19:33:56.439592+08:00", "monotonic_ns": 438236359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438236359000000}
+{"time": "2026-10-25T19:33:56.490365+08:00", "monotonic_ns": 438236421000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:56.490365+08:00", "monotonic_ns": 438236421000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:56.490365+08:00", "monotonic_ns": 438236421000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:56.490365+08:00", "monotonic_ns": 438236421000000, "direction": "RX", "hex": "1203310046"}
+{"time": "2026-10-25T19:33:56.992451+08:00", "monotonic_ns": 438236921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438236921000000}
+{"time": "2026-10-25T19:33:57.043357+08:00", "monotonic_ns": 438236968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:57.043357+08:00", "monotonic_ns": 438236968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:57.043357+08:00", "monotonic_ns": 438236968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:57.043357+08:00", "monotonic_ns": 438236968000000, "direction": "RX", "hex": "1203330048"}
+{"time": "2026-10-25T19:33:57.544688+08:00", "monotonic_ns": 438237468000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438237468000000}
+{"time": "2026-10-25T19:33:57.545703+08:00", "monotonic_ns": 438237468000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:57.545703+08:00", "monotonic_ns": 438237468000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:57.545703+08:00", "monotonic_ns": 438237468000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:57.545703+08:00", "monotonic_ns": 438237468000000, "direction": "RX", "hex": "120335004a"}
+{"time": "2026-10-25T19:33:58.047834+08:00", "monotonic_ns": 438237968000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438237968000000}
+{"time": "2026-10-25T19:33:58.049348+08:00", "monotonic_ns": 438237968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:58.049348+08:00", "monotonic_ns": 438237968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:58.049348+08:00", "monotonic_ns": 438237968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:58.049348+08:00", "monotonic_ns": 438237968000000, "direction": "RX", "hex": "120337004c"}
+{"time": "2026-10-25T19:33:58.550896+08:00", "monotonic_ns": 438238484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438238484000000}
+{"time": "2026-10-25T19:33:58.551902+08:00", "monotonic_ns": 438238484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:58.551902+08:00", "monotonic_ns": 438238484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:58.551902+08:00", "monotonic_ns": 438238484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:58.551902+08:00", "monotonic_ns": 438238484000000, "direction": "RX", "hex": "120339004e"}
+{"time": "2026-10-25T19:33:59.054504+08:00", "monotonic_ns": 438238984000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438238984000000}
+{"time": "2026-10-25T19:33:59.105523+08:00", "monotonic_ns": 438239031000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:59.105523+08:00", "monotonic_ns": 438239031000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:59.105523+08:00", "monotonic_ns": 438239031000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:59.105523+08:00", "monotonic_ns": 438239031000000, "direction": "RX", "hex": "12033b0050"}
+{"time": "2026-10-25T19:33:59.607571+08:00", "monotonic_ns": 438239531000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438239531000000}
+{"time": "2026-10-25T19:33:59.608785+08:00", "monotonic_ns": 438239531000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:33:59.608785+08:00", "monotonic_ns": 438239531000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:33:59.608785+08:00", "monotonic_ns": 438239531000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:33:59.608785+08:00", "monotonic_ns": 438239531000000, "direction": "RX", "hex": "12033e0053"}
+{"time": "2026-10-25T19:34:00.111126+08:00", "monotonic_ns": 438240031000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438240031000000}
+{"time": "2026-10-25T19:34:00.112284+08:00", "monotonic_ns": 438240031000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:00.112284+08:00", "monotonic_ns": 438240031000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:00.112284+08:00", "monotonic_ns": 438240031000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:00.112284+08:00", "monotonic_ns": 438240031000000, "direction": "RX", "hex": "1203400055"}
+{"time": "2026-10-25T19:34:00.614727+08:00", "monotonic_ns": 438240546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438240546000000}
+{"time": "2026-10-25T19:34:00.616257+08:00", "monotonic_ns": 438240546000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:00.616257+08:00", "monotonic_ns": 438240546000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:00.616257+08:00", "monotonic_ns": 438240546000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:00.616257+08:00", "monotonic_ns": 438240546000000, "direction": "RX", "hex": "1203420057"}
+{"time": "2026-10-25T19:34:02.097525+08:00", "monotonic_ns": 438242031000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438242015000000}
+{"time": "2026-10-25T19:34:02.098705+08:00", "monotonic_ns": 438242031000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:02.098705+08:00", "monotonic_ns": 438242031000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:02.098705+08:00", "monotonic_ns": 438242031000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:02.098705+08:00", "monotonic_ns": 438242031000000, "direction": "RX", "hex": "120347005c"}
+{"time": "2026-10-25T19:34:02.098705+08:00", "monotonic_ns": 438242031000000, "direction": "TX", "hex": "aa550120e0b5e3054d67e3057888730310b038020000000000000000000000000000000089", "written": 37, "start_monotonic_ns": 438242031000000}
+{"time": "2026-10-25T19:34:02.150750+08:00", "monotonic_ns": 438242078000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438242078000000}
+{"time": "2026-10-25T19:34:02.152875+08:00", "monotonic_ns": 438242078000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:02.152875+08:00", "monotonic_ns": 438242078000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:02.152875+08:00", "monotonic_ns": 438242078000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:02.152875+08:00", "monotonic_ns": 438242078000000, "direction": "RX", "hex": "120349005e"}
+{"time": "2026-10-25T19:34:02.654453+08:00", "monotonic_ns": 438242578000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438242578000000}
+{"time": "2026-10-25T19:34:02.655702+08:00", "monotonic_ns": 438242578000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:02.655702+08:00", "monotonic_ns": 438242578000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:02.655702+08:00", "monotonic_ns": 438242578000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:02.655702+08:00", "monotonic_ns": 438242578000000, "direction": "RX", "hex": "120358006d"}
+{"time": "2026-10-25T19:34:03.158690+08:00", "monotonic_ns": 438243078000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438243078000000}
+{"time": "2026-10-25T19:34:03.209783+08:00", "monotonic_ns": 438243140000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:03.209783+08:00", "monotonic_ns": 438243140000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:03.209783+08:00", "monotonic_ns": 438243140000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:03.209783+08:00", "monotonic_ns": 438243140000000, "direction": "RX", "hex": "120367007c"}
+{"time": "2026-10-25T19:34:03.711839+08:00", "monotonic_ns": 438243640000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438243640000000}
+{"time": "2026-10-25T19:34:03.713267+08:00", "monotonic_ns": 438243640000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:03.713267+08:00", "monotonic_ns": 438243640000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:03.713267+08:00", "monotonic_ns": 438243640000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:03.713267+08:00", "monotonic_ns": 438243640000000, "direction": "RX", "hex": "120378008d"}
+{"time": "2026-10-25T19:34:04.214985+08:00", "monotonic_ns": 438244140000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438244140000000}
+{"time": "2026-10-25T19:34:04.215989+08:00", "monotonic_ns": 438244140000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:04.215989+08:00", "monotonic_ns": 438244140000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:04.216989+08:00", "monotonic_ns": 438244140000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:04.216989+08:00", "monotonic_ns": 438244140000000, "direction": "RX", "hex": "120387009c"}
+{"time": "2026-10-25T19:34:04.719127+08:00", "monotonic_ns": 438244640000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438244640000000}
+{"time": "2026-10-25T19:34:04.720631+08:00", "monotonic_ns": 438244640000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:04.720631+08:00", "monotonic_ns": 438244640000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:04.720631+08:00", "monotonic_ns": 438244640000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:04.720631+08:00", "monotonic_ns": 438244640000000, "direction": "RX", "hex": "12039600ab"}
+{"time": "2026-10-25T19:34:05.222145+08:00", "monotonic_ns": 438245156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438245156000000}
+{"time": "2026-10-25T19:34:05.273143+08:00", "monotonic_ns": 438245203000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:05.273143+08:00", "monotonic_ns": 438245203000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:05.273143+08:00", "monotonic_ns": 438245203000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:05.273143+08:00", "monotonic_ns": 438245203000000, "direction": "RX", "hex": "1203a500ba"}
+{"time": "2026-10-25T19:34:05.775012+08:00", "monotonic_ns": 438245703000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438245703000000}
+{"time": "2026-10-25T19:34:05.826014+08:00", "monotonic_ns": 438245750000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:05.826014+08:00", "monotonic_ns": 438245750000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:05.826014+08:00", "monotonic_ns": 438245750000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:05.826014+08:00", "monotonic_ns": 438245750000000, "direction": "RX", "hex": "1203b600cb"}
+{"time": "2026-10-25T19:34:06.328452+08:00", "monotonic_ns": 438246250000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438246250000000}
+{"time": "2026-10-25T19:34:06.329961+08:00", "monotonic_ns": 438246250000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:06.329961+08:00", "monotonic_ns": 438246250000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:06.329961+08:00", "monotonic_ns": 438246250000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:06.329961+08:00", "monotonic_ns": 438246250000000, "direction": "RX", "hex": "1203c700dc"}
+{"time": "2026-10-25T19:34:06.831540+08:00", "monotonic_ns": 438246765000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438246765000000}
+{"time": "2026-10-25T19:34:06.832668+08:00", "monotonic_ns": 438246765000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:06.832668+08:00", "monotonic_ns": 438246765000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:06.832668+08:00", "monotonic_ns": 438246765000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:06.832668+08:00", "monotonic_ns": 438246765000000, "direction": "RX", "hex": "1203d600eb"}
+{"time": "2026-10-25T19:34:07.335420+08:00", "monotonic_ns": 438247265000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438247265000000}
+{"time": "2026-10-25T19:34:07.336425+08:00", "monotonic_ns": 438247265000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:07.336425+08:00", "monotonic_ns": 438247265000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:07.336425+08:00", "monotonic_ns": 438247265000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:07.336425+08:00", "monotonic_ns": 438247265000000, "direction": "RX", "hex": "1203e500fa"}
+{"time": "2026-10-25T19:34:07.838970+08:00", "monotonic_ns": 438247765000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438247765000000}
+{"time": "2026-10-25T19:34:07.889949+08:00", "monotonic_ns": 438247812000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:07.889949+08:00", "monotonic_ns": 438247812000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:07.889949+08:00", "monotonic_ns": 438247812000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:07.889949+08:00", "monotonic_ns": 438247812000000, "direction": "RX", "hex": "1203f40009"}
+{"time": "2026-10-25T19:34:08.392572+08:00", "monotonic_ns": 438248312000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438248312000000}
+{"time": "2026-10-25T19:34:08.443381+08:00", "monotonic_ns": 438248375000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:08.443381+08:00", "monotonic_ns": 438248375000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:08.443381+08:00", "monotonic_ns": 438248375000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:08.443381+08:00", "monotonic_ns": 438248375000000, "direction": "RX", "hex": "120305011b"}
+{"time": "2026-10-25T19:34:08.945195+08:00", "monotonic_ns": 438248875000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438248875000000}
+{"time": "2026-10-25T19:34:08.946198+08:00", "monotonic_ns": 438248875000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:08.946198+08:00", "monotonic_ns": 438248875000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:08.946198+08:00", "monotonic_ns": 438248875000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:08.946198+08:00", "monotonic_ns": 438248875000000, "direction": "RX", "hex": "120315012b"}
+{"time": "2026-10-25T19:34:09.448439+08:00", "monotonic_ns": 438249375000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438249375000000}
+{"time": "2026-10-25T19:34:09.449442+08:00", "monotonic_ns": 438249375000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:09.450442+08:00", "monotonic_ns": 438249375000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:09.450442+08:00", "monotonic_ns": 438249375000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:09.450442+08:00", "monotonic_ns": 438249375000000, "direction": "RX", "hex": "120325013b"}
+{"time": "2026-10-25T19:34:09.952243+08:00", "monotonic_ns": 438249875000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438249875000000}
+{"time": "2026-10-25T19:34:09.953251+08:00", "monotonic_ns": 438249875000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:09.953251+08:00", "monotonic_ns": 438249875000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:09.953251+08:00", "monotonic_ns": 438249875000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:09.954251+08:00", "monotonic_ns": 438249875000000, "direction": "RX", "hex": "120334014a"}
+{"time": "2026-10-25T19:34:10.455475+08:00", "monotonic_ns": 438250375000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438250375000000}
+{"time": "2026-10-25T19:34:10.506543+08:00", "monotonic_ns": 438250437000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:10.506543+08:00", "monotonic_ns": 438250437000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:10.506543+08:00", "monotonic_ns": 438250437000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:10.506543+08:00", "monotonic_ns": 438250437000000, "direction": "RX", "hex": "1203430159"}
+{"time": "2026-10-25T19:34:11.989993+08:00", "monotonic_ns": 438251921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438251921000000}
+{"time": "2026-10-25T19:34:11.991581+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:11.991581+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:11.991581+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:11.991995+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "1203710187"}
+{"time": "2026-10-25T19:34:11.991995+08:00", "monotonic_ns": 438251921000000, "direction": "TX", "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0", "written": 37, "start_monotonic_ns": 438251921000000}
+{"time": "2026-10-25T19:34:11.992994+08:00", "monotonic_ns": 438251921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438251921000000}
+{"time": "2026-10-25T19:34:11.996000+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:11.996991+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:11.996991+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:11.996991+08:00", "monotonic_ns": 438251921000000, "direction": "RX", "hex": "1203710187"}
+{"time": "2026-10-25T19:34:12.498410+08:00", "monotonic_ns": 438252421000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438252421000000}
+{"time": "2026-10-25T19:34:12.499940+08:00", "monotonic_ns": 438252421000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:12.499940+08:00", "monotonic_ns": 438252421000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:12.499940+08:00", "monotonic_ns": 438252421000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:12.499940+08:00", "monotonic_ns": 438252421000000, "direction": "RX", "hex": "1203730189"}
+{"time": "2026-10-25T19:34:13.002241+08:00", "monotonic_ns": 438252921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438252921000000}
+{"time": "2026-10-25T19:34:13.003254+08:00", "monotonic_ns": 438252937000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:13.003254+08:00", "monotonic_ns": 438252937000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:13.003254+08:00", "monotonic_ns": 438252937000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:13.003254+08:00", "monotonic_ns": 438252937000000, "direction": "RX", "hex": "120375018b"}
+{"time": "2026-10-25T19:34:13.506134+08:00", "monotonic_ns": 438253437000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438253437000000}
+{"time": "2026-10-25T19:34:13.507153+08:00", "monotonic_ns": 438253437000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:13.507153+08:00", "monotonic_ns": 438253437000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:13.507153+08:00", "monotonic_ns": 438253437000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:13.507153+08:00", "monotonic_ns": 438253437000000, "direction": "RX", "hex": "120377018d"}
+{"time": "2026-10-25T19:34:14.009483+08:00", "monotonic_ns": 438253937000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438253937000000}
+{"time": "2026-10-25T19:34:14.060432+08:00", "monotonic_ns": 438253984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:14.060432+08:00", "monotonic_ns": 438253984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:14.060432+08:00", "monotonic_ns": 438253984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:14.060432+08:00", "monotonic_ns": 438253984000000, "direction": "RX", "hex": "120379018f"}
+{"time": "2026-10-25T19:34:14.562617+08:00", "monotonic_ns": 438254484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438254484000000}
+{"time": "2026-10-25T19:34:14.563620+08:00", "monotonic_ns": 438254484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:14.563620+08:00", "monotonic_ns": 438254484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:14.563620+08:00", "monotonic_ns": 438254484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:14.563620+08:00", "monotonic_ns": 438254484000000, "direction": "RX", "hex": "12037c0192"}
+{"time": "2026-10-25T19:34:15.066544+08:00", "monotonic_ns": 438255000000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438255000000000}
+{"time": "2026-10-25T19:34:15.068184+08:00", "monotonic_ns": 438255000000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:15.068184+08:00", "monotonic_ns": 438255000000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:15.068184+08:00", "monotonic_ns": 438255000000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:15.068184+08:00", "monotonic_ns": 438255000000000, "direction": "RX", "hex": "12037e0194"}
+{"time": "2026-10-25T19:34:15.570329+08:00", "monotonic_ns": 438255500000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438255500000000}
+{"time": "2026-10-25T19:34:15.572066+08:00", "monotonic_ns": 438255500000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:15.572066+08:00", "monotonic_ns": 438255500000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:15.572066+08:00", "monotonic_ns": 438255500000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:15.572066+08:00", "monotonic_ns": 438255500000000, "direction": "RX", "hex": "1203800196"}
+{"time": "2026-10-25T19:34:16.074110+08:00", "monotonic_ns": 438256000000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438256000000000}
+{"time": "2026-10-25T19:34:16.125246+08:00", "monotonic_ns": 438256046000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:16.125246+08:00", "monotonic_ns": 438256046000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:16.125246+08:00", "monotonic_ns": 438256046000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:16.125246+08:00", "monotonic_ns": 438256046000000, "direction": "RX", "hex": "1203820198"}
+{"time": "2026-10-25T19:34:16.627138+08:00", "monotonic_ns": 438256546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438256546000000}
+{"time": "2026-10-25T19:34:16.678111+08:00", "monotonic_ns": 438256609000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:16.678111+08:00", "monotonic_ns": 438256609000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:16.678111+08:00", "monotonic_ns": 438256609000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:16.678111+08:00", "monotonic_ns": 438256609000000, "direction": "RX", "hex": "120384019a"}
+{"time": "2026-10-25T19:34:17.180087+08:00", "monotonic_ns": 438257109000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438257109000000}
+{"time": "2026-10-25T19:34:17.230901+08:00", "monotonic_ns": 438257156000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:17.230901+08:00", "monotonic_ns": 438257156000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:17.230901+08:00", "monotonic_ns": 438257156000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:17.230901+08:00", "monotonic_ns": 438257156000000, "direction": "RX", "hex": "120386019c"}
+{"time": "2026-10-25T19:34:17.732532+08:00", "monotonic_ns": 438257656000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438257656000000}
+{"time": "2026-10-25T19:34:17.733783+08:00", "monotonic_ns": 438257656000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:17.733783+08:00", "monotonic_ns": 438257656000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:17.733783+08:00", "monotonic_ns": 438257656000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:17.733783+08:00", "monotonic_ns": 438257656000000, "direction": "RX", "hex": "120388019e"}
+{"time": "2026-10-25T19:34:18.235874+08:00", "monotonic_ns": 438258156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438258156000000}
+{"time": "2026-10-25T19:34:18.237124+08:00", "monotonic_ns": 438258156000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:18.237124+08:00", "monotonic_ns": 438258156000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:18.237124+08:00", "monotonic_ns": 438258156000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:18.237124+08:00", "monotonic_ns": 438258156000000, "direction": "RX", "hex": "12038a01a0"}
+{"time": "2026-10-25T19:34:18.739300+08:00", "monotonic_ns": 438258671000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438258671000000}
+{"time": "2026-10-25T19:34:18.740822+08:00", "monotonic_ns": 438258671000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:18.740822+08:00", "monotonic_ns": 438258671000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:18.740822+08:00", "monotonic_ns": 438258671000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:18.740822+08:00", "monotonic_ns": 438258671000000, "direction": "RX", "hex": "12038c01a2"}
+{"time": "2026-10-25T19:34:19.242931+08:00", "monotonic_ns": 438259171000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438259171000000}
+{"time": "2026-10-25T19:34:19.293829+08:00", "monotonic_ns": 438259218000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:19.293829+08:00", "monotonic_ns": 438259218000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:19.293829+08:00", "monotonic_ns": 438259218000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:19.293829+08:00", "monotonic_ns": 438259218000000, "direction": "RX", "hex": "12038e01a4"}
+{"time": "2026-10-25T19:34:19.796691+08:00", "monotonic_ns": 438259718000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438259718000000}
+{"time": "2026-10-25T19:34:19.847699+08:00", "monotonic_ns": 438259781000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:19.847699+08:00", "monotonic_ns": 438259781000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:19.847699+08:00", "monotonic_ns": 438259781000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:19.847699+08:00", "monotonic_ns": 438259781000000, "direction": "RX", "hex": "12039101a7"}
+{"time": "2026-10-25T19:34:20.349613+08:00", "monotonic_ns": 438260281000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438260281000000}
+{"time": "2026-10-25T19:34:20.351227+08:00", "monotonic_ns": 438260281000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:20.351227+08:00", "monotonic_ns": 438260281000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:20.351227+08:00", "monotonic_ns": 438260281000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:20.351227+08:00", "monotonic_ns": 438260281000000, "direction": "RX", "hex": "12039301a9"}
+{"time": "2026-10-25T19:34:21.835583+08:00", "monotonic_ns": 438261765000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438261765000000}
+{"time": "2026-10-25T19:34:21.836583+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:21.836583+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:21.836583+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:21.836583+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "12039901af"}
+{"time": "2026-10-25T19:34:21.837582+08:00", "monotonic_ns": 438261765000000, "direction": "TX", "hex": "aa550219000001000000000000000000000001000000180000000000011b", "written": 30, "start_monotonic_ns": 438261765000000}
+{"time": "2026-10-25T19:34:21.838583+08:00", "monotonic_ns": 438261765000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438261765000000}
+{"time": "2026-10-25T19:34:21.840916+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:21.841923+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:21.841923+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:21.841923+08:00", "monotonic_ns": 438261765000000, "direction": "RX", "hex": "12039901af"}
+{"time": "2026-10-25T19:34:22.343431+08:00", "monotonic_ns": 438262265000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438262265000000}
+{"time": "2026-10-25T19:34:22.344459+08:00", "monotonic_ns": 438262265000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:22.344459+08:00", "monotonic_ns": 438262265000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:22.344459+08:00", "monotonic_ns": 438262265000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:22.344459+08:00", "monotonic_ns": 438262265000000, "direction": "RX", "hex": "12039b01b1"}
+{"time": "2026-10-25T19:34:22.847461+08:00", "monotonic_ns": 438262781000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438262781000000}
+{"time": "2026-10-25T19:34:22.848537+08:00", "monotonic_ns": 438262781000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:22.848537+08:00", "monotonic_ns": 438262781000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:22.848537+08:00", "monotonic_ns": 438262781000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:22.848537+08:00", "monotonic_ns": 438262781000000, "direction": "RX", "hex": "12039d01b3"}
+{"time": "2026-10-25T19:34:23.351530+08:00", "monotonic_ns": 438263281000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438263281000000}
+{"time": "2026-10-25T19:34:23.402484+08:00", "monotonic_ns": 438263328000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:23.402484+08:00", "monotonic_ns": 438263328000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:23.402484+08:00", "monotonic_ns": 438263328000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:23.402484+08:00", "monotonic_ns": 438263328000000, "direction": "RX", "hex": "12039f01b5"}
+{"time": "2026-10-25T19:34:23.905013+08:00", "monotonic_ns": 438263828000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438263828000000}
+{"time": "2026-10-25T19:34:23.906310+08:00", "monotonic_ns": 438263828000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:23.906310+08:00", "monotonic_ns": 438263828000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:23.906310+08:00", "monotonic_ns": 438263828000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:23.906310+08:00", "monotonic_ns": 438263828000000, "direction": "RX", "hex": "1203a101b7"}
+{"time": "2026-10-25T19:34:24.408869+08:00", "monotonic_ns": 438264328000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438264328000000}
+{"time": "2026-10-25T19:34:24.410129+08:00", "monotonic_ns": 438264343000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:24.410129+08:00", "monotonic_ns": 438264343000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:24.410129+08:00", "monotonic_ns": 438264343000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:24.410129+08:00", "monotonic_ns": 438264343000000, "direction": "RX", "hex": "1203a301b9"}
+{"time": "2026-10-25T19:34:24.912727+08:00", "monotonic_ns": 438264843000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438264843000000}
+{"time": "2026-10-25T19:34:24.913742+08:00", "monotonic_ns": 438264843000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:24.913742+08:00", "monotonic_ns": 438264843000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:24.913742+08:00", "monotonic_ns": 438264843000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:24.913742+08:00", "monotonic_ns": 438264843000000, "direction": "RX", "hex": "1203a501bb"}
+{"time": "2026-10-25T19:34:25.416728+08:00", "monotonic_ns": 438265343000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438265343000000}
+{"time": "2026-10-25T19:34:25.418116+08:00", "monotonic_ns": 438265343000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:25.418116+08:00", "monotonic_ns": 438265343000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:25.418116+08:00", "monotonic_ns": 438265343000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:25.418116+08:00", "monotonic_ns": 438265343000000, "direction": "RX", "hex": "1203a701bd"}
+{"time": "2026-10-25T19:34:25.920734+08:00", "monotonic_ns": 438265843000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438265843000000}
+{"time": "2026-10-25T19:34:25.922025+08:00", "monotonic_ns": 438265843000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:25.922025+08:00", "monotonic_ns": 438265843000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:25.922025+08:00", "monotonic_ns": 438265843000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:25.922025+08:00", "monotonic_ns": 438265843000000, "direction": "RX", "hex": "1203a901bf"}
+{"time": "2026-10-25T19:34:26.425187+08:00", "monotonic_ns": 438266359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438266359000000}
+{"time": "2026-10-25T19:34:26.426202+08:00", "monotonic_ns": 438266359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:26.426202+08:00", "monotonic_ns": 438266359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:26.426202+08:00", "monotonic_ns": 438266359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:26.426202+08:00", "monotonic_ns": 438266359000000, "direction": "RX", "hex": "1203ab01c1"}
+{"time": "2026-10-25T19:34:26.928431+08:00", "monotonic_ns": 438266859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438266859000000}
+{"time": "2026-10-25T19:34:26.929435+08:00", "monotonic_ns": 438266859000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:26.929435+08:00", "monotonic_ns": 438266859000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:26.929435+08:00", "monotonic_ns": 438266859000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:26.929435+08:00", "monotonic_ns": 438266859000000, "direction": "RX", "hex": "1203ad01c3"}
+{"time": "2026-10-25T19:34:27.432131+08:00", "monotonic_ns": 438267359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438267359000000}
+{"time": "2026-10-25T19:34:27.433655+08:00", "monotonic_ns": 438267359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:27.433655+08:00", "monotonic_ns": 438267359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:27.433655+08:00", "monotonic_ns": 438267359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:27.433655+08:00", "monotonic_ns": 438267359000000, "direction": "RX", "hex": "1203af01c5"}
+{"time": "2026-10-25T19:34:27.935454+08:00", "monotonic_ns": 438267859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438267859000000}
+{"time": "2026-10-25T19:34:27.986209+08:00", "monotonic_ns": 438267906000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:27.986209+08:00", "monotonic_ns": 438267906000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:27.986209+08:00", "monotonic_ns": 438267906000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:27.986731+08:00", "monotonic_ns": 438267906000000, "direction": "RX", "hex": "1203b101c7"}
+{"time": "2026-10-25T19:34:28.488698+08:00", "monotonic_ns": 438268421000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438268421000000}
+{"time": "2026-10-25T19:34:28.490135+08:00", "monotonic_ns": 438268421000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:28.490135+08:00", "monotonic_ns": 438268421000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:28.490135+08:00", "monotonic_ns": 438268421000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:28.490135+08:00", "monotonic_ns": 438268421000000, "direction": "RX", "hex": "1203b301c9"}
+{"time": "2026-10-25T19:34:28.992942+08:00", "monotonic_ns": 438268921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438268921000000}
+{"time": "2026-10-25T19:34:28.993957+08:00", "monotonic_ns": 438268921000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:28.993957+08:00", "monotonic_ns": 438268921000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:28.993957+08:00", "monotonic_ns": 438268921000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:28.993957+08:00", "monotonic_ns": 438268921000000, "direction": "RX", "hex": "1203b501cb"}
+{"time": "2026-10-25T19:34:29.496424+08:00", "monotonic_ns": 438269421000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438269421000000}
+{"time": "2026-10-25T19:34:29.497444+08:00", "monotonic_ns": 438269421000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:29.497444+08:00", "monotonic_ns": 438269421000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:29.498443+08:00", "monotonic_ns": 438269421000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:29.498443+08:00", "monotonic_ns": 438269421000000, "direction": "RX", "hex": "1203b701cd"}
+{"time": "2026-10-25T19:34:30.000360+08:00", "monotonic_ns": 438269921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438269921000000}
+{"time": "2026-10-25T19:34:30.051325+08:00", "monotonic_ns": 438269984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:30.051325+08:00", "monotonic_ns": 438269984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:30.051325+08:00", "monotonic_ns": 438269984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:30.051325+08:00", "monotonic_ns": 438269984000000, "direction": "RX", "hex": "1203b901cf"}
+{"time": "2026-10-25T19:34:31.532309+08:00", "monotonic_ns": 438271453000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438271453000000}
+{"time": "2026-10-25T19:34:31.533815+08:00", "monotonic_ns": 438271453000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:31.533815+08:00", "monotonic_ns": 438271453000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:31.533815+08:00", "monotonic_ns": 438271453000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:31.533815+08:00", "monotonic_ns": 438271453000000, "direction": "RX", "hex": "1203bf01d5"}
+{"time": "2026-10-25T19:34:31.533815+08:00", "monotonic_ns": 438271453000000, "direction": "TX", "hex": "aa5502190000010000000000000000000000010000000000000000000002", "written": 30, "start_monotonic_ns": 438271453000000}
+{"time": "2026-10-25T19:34:31.535872+08:00", "monotonic_ns": 438271468000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438271468000000}
+{"time": "2026-10-25T19:34:31.537884+08:00", "monotonic_ns": 438271468000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:31.537884+08:00", "monotonic_ns": 438271468000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:31.537884+08:00", "monotonic_ns": 438271468000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:31.537884+08:00", "monotonic_ns": 438271468000000, "direction": "RX", "hex": "1203bf01d5"}
+{"time": "2026-10-25T19:34:32.040365+08:00", "monotonic_ns": 438271968000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438271968000000}
+{"time": "2026-10-25T19:34:32.041884+08:00", "monotonic_ns": 438271968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:32.041884+08:00", "monotonic_ns": 438271968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:32.041884+08:00", "monotonic_ns": 438271968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:32.041884+08:00", "monotonic_ns": 438271968000000, "direction": "RX", "hex": "1203c101d7"}
+{"time": "2026-10-25T19:34:32.543958+08:00", "monotonic_ns": 438272468000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438272468000000}
+{"time": "2026-10-25T19:34:32.544976+08:00", "monotonic_ns": 438272468000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:32.544976+08:00", "monotonic_ns": 438272468000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:32.544976+08:00", "monotonic_ns": 438272468000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:32.544976+08:00", "monotonic_ns": 438272468000000, "direction": "RX", "hex": "1203c301d9"}
+{"time": "2026-10-25T19:34:33.047701+08:00", "monotonic_ns": 438272968000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438272968000000}
+{"time": "2026-10-25T19:34:33.048707+08:00", "monotonic_ns": 438272968000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:33.048707+08:00", "monotonic_ns": 438272968000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:33.048707+08:00", "monotonic_ns": 438272968000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:33.048707+08:00", "monotonic_ns": 438272968000000, "direction": "RX", "hex": "1203c501db"}
+{"time": "2026-10-25T19:34:33.552333+08:00", "monotonic_ns": 438273484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438273484000000}
+{"time": "2026-10-25T19:34:33.553337+08:00", "monotonic_ns": 438273484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:33.553337+08:00", "monotonic_ns": 438273484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:33.553337+08:00", "monotonic_ns": 438273484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:33.553337+08:00", "monotonic_ns": 438273484000000, "direction": "RX", "hex": "1203c701dd"}
+{"time": "2026-10-25T19:34:34.056333+08:00", "monotonic_ns": 438273984000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438273984000000}
+{"time": "2026-10-25T19:34:34.057500+08:00", "monotonic_ns": 438273984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:34.057500+08:00", "monotonic_ns": 438273984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:34.057500+08:00", "monotonic_ns": 438273984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:34.057500+08:00", "monotonic_ns": 438273984000000, "direction": "RX", "hex": "1203c901df"}
+{"time": "2026-10-25T19:34:34.560397+08:00", "monotonic_ns": 438274484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438274484000000}
+{"time": "2026-10-25T19:34:34.561405+08:00", "monotonic_ns": 438274484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:34.561405+08:00", "monotonic_ns": 438274484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:34.561405+08:00", "monotonic_ns": 438274484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:34.561405+08:00", "monotonic_ns": 438274484000000, "direction": "RX", "hex": "1203cb01e1"}
+{"time": "2026-10-25T19:34:35.064774+08:00", "monotonic_ns": 438274984000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438274984000000}
+{"time": "2026-10-25T19:34:35.065777+08:00", "monotonic_ns": 438275000000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:35.065777+08:00", "monotonic_ns": 438275000000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:35.065777+08:00", "monotonic_ns": 438275000000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:35.065777+08:00", "monotonic_ns": 438275000000000, "direction": "RX", "hex": "1203cd01e3"}
+{"time": "2026-10-25T19:34:35.568746+08:00", "monotonic_ns": 438275500000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438275500000000}
+{"time": "2026-10-25T19:34:35.569752+08:00", "monotonic_ns": 438275500000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:35.569752+08:00", "monotonic_ns": 438275500000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:35.569752+08:00", "monotonic_ns": 438275500000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:35.569752+08:00", "monotonic_ns": 438275500000000, "direction": "RX", "hex": "1203cf01e5"}
+{"time": "2026-10-25T19:34:36.072520+08:00", "monotonic_ns": 438276000000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438276000000000}
+{"time": "2026-10-25T19:34:36.123157+08:00", "monotonic_ns": 438276046000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:36.123157+08:00", "monotonic_ns": 438276046000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:36.123157+08:00", "monotonic_ns": 438276046000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:36.123157+08:00", "monotonic_ns": 438276046000000, "direction": "RX", "hex": "1203d101e7"}
+{"time": "2026-10-25T19:34:36.625291+08:00", "monotonic_ns": 438276546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438276546000000}
+{"time": "2026-10-25T19:34:36.676275+08:00", "monotonic_ns": 438276609000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:36.676275+08:00", "monotonic_ns": 438276609000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:36.676275+08:00", "monotonic_ns": 438276609000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:36.676275+08:00", "monotonic_ns": 438276609000000, "direction": "RX", "hex": "1203d301e9"}
+{"time": "2026-10-25T19:34:37.178718+08:00", "monotonic_ns": 438277109000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438277109000000}
+{"time": "2026-10-25T19:34:37.179738+08:00", "monotonic_ns": 438277109000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:37.179738+08:00", "monotonic_ns": 438277109000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:37.179738+08:00", "monotonic_ns": 438277109000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:37.179738+08:00", "monotonic_ns": 438277109000000, "direction": "RX", "hex": "1203d601ec"}
+{"time": "2026-10-25T19:34:37.682553+08:00", "monotonic_ns": 438277609000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438277609000000}
+{"time": "2026-10-25T19:34:37.683560+08:00", "monotonic_ns": 438277609000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:37.683560+08:00", "monotonic_ns": 438277609000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:37.683560+08:00", "monotonic_ns": 438277609000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:37.683560+08:00", "monotonic_ns": 438277609000000, "direction": "RX", "hex": "1203d801ee"}
+{"time": "2026-10-25T19:34:38.186575+08:00", "monotonic_ns": 438278109000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438278109000000}
+{"time": "2026-10-25T19:34:38.187720+08:00", "monotonic_ns": 438278109000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:38.187720+08:00", "monotonic_ns": 438278109000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:38.187720+08:00", "monotonic_ns": 438278109000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:38.187720+08:00", "monotonic_ns": 438278109000000, "direction": "RX", "hex": "1203da01f0"}
+{"time": "2026-10-25T19:34:38.690656+08:00", "monotonic_ns": 438278625000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438278625000000}
+{"time": "2026-10-25T19:34:38.741434+08:00", "monotonic_ns": 438278671000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:38.741434+08:00", "monotonic_ns": 438278671000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:38.741434+08:00", "monotonic_ns": 438278671000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:38.741434+08:00", "monotonic_ns": 438278671000000, "direction": "RX", "hex": "1203dc01f2"}
+{"time": "2026-10-25T19:34:39.243891+08:00", "monotonic_ns": 438279171000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438279171000000}
+{"time": "2026-10-25T19:34:39.244926+08:00", "monotonic_ns": 438279171000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:39.244926+08:00", "monotonic_ns": 438279171000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:39.244926+08:00", "monotonic_ns": 438279171000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:39.244926+08:00", "monotonic_ns": 438279171000000, "direction": "RX", "hex": "1203de01f4"}
+{"time": "2026-10-25T19:34:39.747570+08:00", "monotonic_ns": 438279671000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438279671000000}
+{"time": "2026-10-25T19:34:39.748657+08:00", "monotonic_ns": 438279671000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:39.748657+08:00", "monotonic_ns": 438279671000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:39.748657+08:00", "monotonic_ns": 438279671000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:39.748657+08:00", "monotonic_ns": 438279671000000, "direction": "RX", "hex": "1203e001f6"}
+{"time": "2026-10-25T19:34:41.228681+08:00", "monotonic_ns": 438281156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438281156000000}
+{"time": "2026-10-25T19:34:41.231212+08:00", "monotonic_ns": 438281156000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:41.231212+08:00", "monotonic_ns": 438281156000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:41.231212+08:00", "monotonic_ns": 438281156000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:41.231212+08:00", "monotonic_ns": 438281156000000, "direction": "RX", "hex": "1203e601fc"}
+{"time": "2026-10-25T19:34:41.231212+08:00", "monotonic_ns": 438281156000000, "direction": "TX", "hex": "aa5504040000000000", "written": 9, "start_monotonic_ns": 438281156000000}
+{"time": "2026-10-25T19:34:41.232726+08:00", "monotonic_ns": 438281156000000, "direction": "TX", "hex": "aa550300000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff80", "written": 261, "start_monotonic_ns": 438281156000000}
+{"time": "2026-10-25T19:34:41.235742+08:00", "monotonic_ns": 438281156000000, "direction": "TX", "hex": "aa550301000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff80", "written": 261, "start_monotonic_ns": 438281156000000}
+{"time": "2026-10-25T19:34:41.256845+08:00", "monotonic_ns": 438281187000000, "direction": "TX", "hex": "aa550302000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff80", "written": 261, "start_monotonic_ns": 438281156000000}
+{"time": "2026-10-25T19:34:41.261849+08:00", "monotonic_ns": 438281187000000, "direction": "TX", "hex": "aa5504040100000001", "written": 9, "start_monotonic_ns": 438281187000000}
+{"time": "2026-10-25T19:34:41.363970+08:00", "monotonic_ns": 438281296000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438281296000000}
+{"time": "2026-10-25T19:34:41.366066+08:00", "monotonic_ns": 438281296000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:41.366066+08:00", "monotonic_ns": 438281296000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:41.366066+08:00", "monotonic_ns": 438281296000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:41.366066+08:00", "monotonic_ns": 438281296000000, "direction": "RX", "hex": "1203e601fc"}
+{"time": "2026-10-25T19:34:41.868279+08:00", "monotonic_ns": 438281796000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438281796000000}
+{"time": "2026-10-25T19:34:41.919329+08:00", "monotonic_ns": 438281843000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:41.919329+08:00", "monotonic_ns": 438281843000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:41.919329+08:00", "monotonic_ns": 438281843000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:41.919329+08:00", "monotonic_ns": 438281843000000, "direction": "RX", "hex": "1203e801fe"}
+{"time": "2026-10-25T19:34:42.422051+08:00", "monotonic_ns": 438282343000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438282343000000}
+{"time": "2026-10-25T19:34:42.423079+08:00", "monotonic_ns": 438282343000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:42.423079+08:00", "monotonic_ns": 438282343000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:42.423079+08:00", "monotonic_ns": 438282343000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:42.423079+08:00", "monotonic_ns": 438282343000000, "direction": "RX", "hex": "1203ea0100"}
+{"time": "2026-10-25T19:34:42.925962+08:00", "monotonic_ns": 438282859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438282859000000}
+{"time": "2026-10-25T19:34:42.927487+08:00", "monotonic_ns": 438282859000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:42.927487+08:00", "monotonic_ns": 438282859000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:42.927487+08:00", "monotonic_ns": 438282859000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:42.927487+08:00", "monotonic_ns": 438282859000000, "direction": "RX", "hex": "1203ec0102"}
+{"time": "2026-10-25T19:34:43.429532+08:00", "monotonic_ns": 438283359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438283359000000}
+{"time": "2026-10-25T19:34:43.430550+08:00", "monotonic_ns": 438283359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:43.430550+08:00", "monotonic_ns": 438283359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:43.430550+08:00", "monotonic_ns": 438283359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:43.430550+08:00", "monotonic_ns": 438283359000000, "direction": "RX", "hex": "1203ee0104"}
+{"time": "2026-10-25T19:34:43.933505+08:00", "monotonic_ns": 438283859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438283859000000}
+{"time": "2026-10-25T19:34:43.934612+08:00", "monotonic_ns": 438283859000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:43.934612+08:00", "monotonic_ns": 438283859000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:43.934612+08:00", "monotonic_ns": 438283859000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:43.934612+08:00", "monotonic_ns": 438283859000000, "direction": "RX", "hex": "1203f00106"}
+{"time": "2026-10-25T19:34:44.437194+08:00", "monotonic_ns": 438284359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438284359000000}
+{"time": "2026-10-25T19:34:44.438212+08:00", "monotonic_ns": 438284359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:44.438212+08:00", "monotonic_ns": 438284359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:44.438212+08:00", "monotonic_ns": 438284359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:44.438212+08:00", "monotonic_ns": 438284359000000, "direction": "RX", "hex": "1203f20108"}
+{"time": "2026-10-25T19:34:44.941516+08:00", "monotonic_ns": 438284875000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438284875000000}
+{"time": "2026-10-25T19:34:44.942519+08:00", "monotonic_ns": 438284875000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:44.942519+08:00", "monotonic_ns": 438284875000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:44.942519+08:00", "monotonic_ns": 438284875000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:44.942519+08:00", "monotonic_ns": 438284875000000, "direction": "RX", "hex": "1203f4010a"}
+{"time": "2026-10-25T19:34:45.445387+08:00", "monotonic_ns": 438285375000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438285375000000}
+{"time": "2026-10-25T19:34:45.446407+08:00", "monotonic_ns": 438285375000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:45.446407+08:00", "monotonic_ns": 438285375000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:45.446407+08:00", "monotonic_ns": 438285375000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:45.446407+08:00", "monotonic_ns": 438285375000000, "direction": "RX", "hex": "1203f6010c"}
+{"time": "2026-10-25T19:34:45.949018+08:00", "monotonic_ns": 438285875000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438285875000000}
+{"time": "2026-10-25T19:34:45.950025+08:00", "monotonic_ns": 438285875000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:45.951035+08:00", "monotonic_ns": 438285875000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:45.951035+08:00", "monotonic_ns": 438285875000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:45.951035+08:00", "monotonic_ns": 438285875000000, "direction": "RX", "hex": "1203f9010f"}
+{"time": "2026-10-25T19:34:46.453653+08:00", "monotonic_ns": 438286375000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438286375000000}
+{"time": "2026-10-25T19:34:46.504508+08:00", "monotonic_ns": 438286437000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:46.504508+08:00", "monotonic_ns": 438286437000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:46.504508+08:00", "monotonic_ns": 438286437000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:46.504508+08:00", "monotonic_ns": 438286437000000, "direction": "RX", "hex": "1203fb0111"}
+{"time": "2026-10-25T19:34:47.007183+08:00", "monotonic_ns": 438286937000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438286937000000}
+{"time": "2026-10-25T19:34:47.058024+08:00", "monotonic_ns": 438286984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:47.058024+08:00", "monotonic_ns": 438286984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:47.058024+08:00", "monotonic_ns": 438286984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:47.058024+08:00", "monotonic_ns": 438286984000000, "direction": "RX", "hex": "1203fd0113"}
+{"time": "2026-10-25T19:34:47.560167+08:00", "monotonic_ns": 438287484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438287484000000}
+{"time": "2026-10-25T19:34:47.610916+08:00", "monotonic_ns": 438287531000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:47.610916+08:00", "monotonic_ns": 438287531000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:47.610916+08:00", "monotonic_ns": 438287531000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:47.610916+08:00", "monotonic_ns": 438287531000000, "direction": "RX", "hex": "1203ff0115"}
+{"time": "2026-10-25T19:34:48.113769+08:00", "monotonic_ns": 438288046000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438288046000000}
+{"time": "2026-10-25T19:34:48.114945+08:00", "monotonic_ns": 438288046000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:48.114945+08:00", "monotonic_ns": 438288046000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:48.114945+08:00", "monotonic_ns": 438288046000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:48.114945+08:00", "monotonic_ns": 438288046000000, "direction": "RX", "hex": "1203010218"}
+{"time": "2026-10-25T19:34:48.617650+08:00", "monotonic_ns": 438288546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438288546000000}
+{"time": "2026-10-25T19:34:48.619059+08:00", "monotonic_ns": 438288546000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:48.619059+08:00", "monotonic_ns": 438288546000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:48.619059+08:00", "monotonic_ns": 438288546000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:48.619059+08:00", "monotonic_ns": 438288546000000, "direction": "RX", "hex": "120303021a"}
+{"time": "2026-10-25T19:34:49.121531+08:00", "monotonic_ns": 438289046000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438289046000000}
+{"time": "2026-10-25T19:34:49.123141+08:00", "monotonic_ns": 438289046000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:49.123141+08:00", "monotonic_ns": 438289046000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:49.123141+08:00", "monotonic_ns": 438289046000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:49.123141+08:00", "monotonic_ns": 438289046000000, "direction": "RX", "hex": "120305021c"}
+{"time": "2026-10-25T19:34:49.625625+08:00", "monotonic_ns": 438289546000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438289546000000}
+{"time": "2026-10-25T19:34:49.676298+08:00", "monotonic_ns": 438289609000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:49.676298+08:00", "monotonic_ns": 438289609000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:49.676298+08:00", "monotonic_ns": 438289609000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:49.676298+08:00", "monotonic_ns": 438289609000000, "direction": "RX", "hex": "120307021e"}
+{"time": "2026-10-25T19:34:51.154841+08:00", "monotonic_ns": 438291078000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438291078000000}
+{"time": "2026-10-25T19:34:51.156186+08:00", "monotonic_ns": 438291078000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:51.156186+08:00", "monotonic_ns": 438291078000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:51.156186+08:00", "monotonic_ns": 438291078000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:51.156186+08:00", "monotonic_ns": 438291078000000, "direction": "RX", "hex": "12030d0224"}
+{"time": "2026-10-25T19:34:51.157291+08:00", "monotonic_ns": 438291078000000, "direction": "TX", "hex": "aa5504040000000000", "written": 9, "start_monotonic_ns": 438291078000000}
+{"time": "2026-10-25T19:34:51.159298+08:00", "monotonic_ns": 438291093000000, "direction": "TX", "hex": "aa550300000101020203040405050607070808090a0a0b0b0c0d0d0e0e0f10101111121313141415161617171819191a1a1b1c1c1d1d1e1f1f20202122222323242525262627282829292a2b2b2c2c2d2e2e2f2f303131323233343435353637373838393a3a3b3b3c3d3d3e3e3f40404141424343444445464647474849494a4a4b4c4c4d4d4e4f4f50505152525353545555565657585859595a5b5b5c5c5d5e5e5f5f606161626263646465656667676868696a6a6b6b6c6d6d6e6e6f70707171727373747475767677777879797a7a7b7c7c7d7d7e7f7f80808182828383848585868687888889898a8b8b8c8c8d8e8e8f8f9091919292939494959596979798989980", "written": 261, "start_monotonic_ns": 438291078000000}
+{"time": "2026-10-25T19:34:51.161297+08:00", "monotonic_ns": 438291093000000, "direction": "TX", "hex": "aa550301000101020203040405050607070808090a0a0b0b0c0d0d0e0e0f10101111121313141415161617171819191a1a1b1c1c1d1d1e1f1f20202122222323242525262627282829292a2b2b2c2c2d2e2e2f2f303131323233343435353637373838393a3a3b3b3c3d3d3e3e3f40404141424343444445464647474849494a4a4b4c4c4d4d4e4f4f50505152525353545555565657585859595a5b5b5c5c5d5e5e5f5f606161626263646465656667676868696a6a6b6b6c6d6d6e6e6f70707171727373747475767677777879797a7a7b7c7c7d7d7e7f7f80808182828383848585868687888889898a8b8b8c8c8d8e8e8f8f9091919292939494959596979798989980", "written": 261, "start_monotonic_ns": 438291093000000}
+{"time": "2026-10-25T19:34:51.182508+08:00", "monotonic_ns": 438291109000000, "direction": "TX", "hex": "aa550302000101020203040405050607070808090a0a0b0b0c0d0d0e0e0f10101111121313141415161617171819191a1a1b1c1c1d1d1e1f1f20202122222323242525262627282829292a2b2b2c2c2d2e2e2f2f303131323233343435353637373838393a3a3b3b3c3d3d3e3e3f40404141424343444445464647474849494a4a4b4c4c4d4d4e4f4f50505152525353545555565657585859595a5b5b5c5c5d5e5e5f5f606161626263646465656667676868696a6a6b6b6c6d6d6e6e6f70707171727373747475767677777879797a7a7b7c7c7d7d7e7f7f80808182828383848585868687888889898a8b8b8c8c8d8e8e8f8f9091919292939494959596979798989980", "written": 261, "start_monotonic_ns": 438291093000000}
+{"time": "2026-10-25T19:34:51.187893+08:00", "monotonic_ns": 438291109000000, "direction": "TX", "hex": "aa5504040100000001", "written": 9, "start_monotonic_ns": 438291109000000}
+{"time": "2026-10-25T19:34:51.241152+08:00", "monotonic_ns": 438291171000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438291171000000}
+{"time": "2026-10-25T19:34:51.242152+08:00", "monotonic_ns": 438291171000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:51.242152+08:00", "monotonic_ns": 438291171000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:51.242152+08:00", "monotonic_ns": 438291171000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:51.242152+08:00", "monotonic_ns": 438291171000000, "direction": "RX", "hex": "12030e0225"}
+{"time": "2026-10-25T19:34:51.744532+08:00", "monotonic_ns": 438291671000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438291671000000}
+{"time": "2026-10-25T19:34:51.745536+08:00", "monotonic_ns": 438291671000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:51.745536+08:00", "monotonic_ns": 438291671000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:51.745536+08:00", "monotonic_ns": 438291671000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:51.745536+08:00", "monotonic_ns": 438291671000000, "direction": "RX", "hex": "1203100227"}
+{"time": "2026-10-25T19:34:52.248837+08:00", "monotonic_ns": 438292171000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438292171000000}
+{"time": "2026-10-25T19:34:52.249420+08:00", "monotonic_ns": 438292171000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:52.249420+08:00", "monotonic_ns": 438292171000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:52.249420+08:00", "monotonic_ns": 438292171000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:52.249420+08:00", "monotonic_ns": 438292171000000, "direction": "RX", "hex": "1203120229"}
+{"time": "2026-10-25T19:34:52.752904+08:00", "monotonic_ns": 438292671000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438292671000000}
+{"time": "2026-10-25T19:34:52.753964+08:00", "monotonic_ns": 438292687000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:52.753964+08:00", "monotonic_ns": 438292687000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:52.753964+08:00", "monotonic_ns": 438292687000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:52.753964+08:00", "monotonic_ns": 438292687000000, "direction": "RX", "hex": "120314022b"}
+{"time": "2026-10-25T19:34:53.256950+08:00", "monotonic_ns": 438293187000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438293187000000}
+{"time": "2026-10-25T19:34:53.257953+08:00", "monotonic_ns": 438293187000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:53.257953+08:00", "monotonic_ns": 438293187000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:53.257953+08:00", "monotonic_ns": 438293187000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:53.257953+08:00", "monotonic_ns": 438293187000000, "direction": "RX", "hex": "120316022d"}
+{"time": "2026-10-25T19:34:53.760808+08:00", "monotonic_ns": 438293687000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438293687000000}
+{"time": "2026-10-25T19:34:53.761814+08:00", "monotonic_ns": 438293687000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:53.761814+08:00", "monotonic_ns": 438293687000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:53.761814+08:00", "monotonic_ns": 438293687000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:53.761814+08:00", "monotonic_ns": 438293687000000, "direction": "RX", "hex": "120318022f"}
+{"time": "2026-10-25T19:34:54.264927+08:00", "monotonic_ns": 438294187000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438294187000000}
+{"time": "2026-10-25T19:34:54.265934+08:00", "monotonic_ns": 438294187000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:54.265934+08:00", "monotonic_ns": 438294187000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:54.265934+08:00", "monotonic_ns": 438294187000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:54.265934+08:00", "monotonic_ns": 438294187000000, "direction": "RX", "hex": "12031a0231"}
+{"time": "2026-10-25T19:34:54.768607+08:00", "monotonic_ns": 438294687000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438294687000000}
+{"time": "2026-10-25T19:34:54.769844+08:00", "monotonic_ns": 438294703000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:54.769844+08:00", "monotonic_ns": 438294703000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:54.769844+08:00", "monotonic_ns": 438294703000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:54.769844+08:00", "monotonic_ns": 438294703000000, "direction": "RX", "hex": "12031c0233"}
+{"time": "2026-10-25T19:34:55.273174+08:00", "monotonic_ns": 438295203000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438295203000000}
+{"time": "2026-10-25T19:34:55.274177+08:00", "monotonic_ns": 438295203000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:55.274177+08:00", "monotonic_ns": 438295203000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:55.274177+08:00", "monotonic_ns": 438295203000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:55.274177+08:00", "monotonic_ns": 438295203000000, "direction": "RX", "hex": "12031e0235"}
+{"time": "2026-10-25T19:34:55.777249+08:00", "monotonic_ns": 438295703000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438295703000000}
+{"time": "2026-10-25T19:34:55.778797+08:00", "monotonic_ns": 438295703000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:55.778797+08:00", "monotonic_ns": 438295703000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:55.778797+08:00", "monotonic_ns": 438295703000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:55.778797+08:00", "monotonic_ns": 438295703000000, "direction": "RX", "hex": "1203200237"}
+{"time": "2026-10-25T19:34:56.281634+08:00", "monotonic_ns": 438296203000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438296203000000}
+{"time": "2026-10-25T19:34:56.282643+08:00", "monotonic_ns": 438296203000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:56.282643+08:00", "monotonic_ns": 438296203000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:56.282643+08:00", "monotonic_ns": 438296203000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:56.282643+08:00", "monotonic_ns": 438296203000000, "direction": "RX", "hex": "1203220239"}
+{"time": "2026-10-25T19:34:56.785461+08:00", "monotonic_ns": 438296718000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438296718000000}
+{"time": "2026-10-25T19:34:56.786470+08:00", "monotonic_ns": 438296718000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:56.786470+08:00", "monotonic_ns": 438296718000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:56.786470+08:00", "monotonic_ns": 438296718000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:56.786470+08:00", "monotonic_ns": 438296718000000, "direction": "RX", "hex": "120324023b"}
+{"time": "2026-10-25T19:34:57.289193+08:00", "monotonic_ns": 438297218000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438297218000000}
+{"time": "2026-10-25T19:34:57.339910+08:00", "monotonic_ns": 438297265000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:57.339910+08:00", "monotonic_ns": 438297265000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:57.339910+08:00", "monotonic_ns": 438297265000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:57.339910+08:00", "monotonic_ns": 438297265000000, "direction": "RX", "hex": "120326023d"}
+{"time": "2026-10-25T19:34:57.842513+08:00", "monotonic_ns": 438297765000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438297765000000}
+{"time": "2026-10-25T19:34:57.893469+08:00", "monotonic_ns": 438297812000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:57.893469+08:00", "monotonic_ns": 438297812000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:57.893469+08:00", "monotonic_ns": 438297812000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:57.893469+08:00", "monotonic_ns": 438297812000000, "direction": "RX", "hex": "120328023f"}
+{"time": "2026-10-25T19:34:58.396428+08:00", "monotonic_ns": 438298328000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438298328000000}
+{"time": "2026-10-25T19:34:58.397571+08:00", "monotonic_ns": 438298328000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:58.397571+08:00", "monotonic_ns": 438298328000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:58.397571+08:00", "monotonic_ns": 438298328000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:58.397571+08:00", "monotonic_ns": 438298328000000, "direction": "RX", "hex": "12032a0241"}
+{"time": "2026-10-25T19:34:58.900520+08:00", "monotonic_ns": 438298828000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438298828000000}
+{"time": "2026-10-25T19:34:58.901523+08:00", "monotonic_ns": 438298828000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:58.901523+08:00", "monotonic_ns": 438298828000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:58.901523+08:00", "monotonic_ns": 438298828000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:58.901523+08:00", "monotonic_ns": 438298828000000, "direction": "RX", "hex": "12032c0243"}
+{"time": "2026-10-25T19:34:59.404627+08:00", "monotonic_ns": 438299328000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438299328000000}
+{"time": "2026-10-25T19:34:59.405634+08:00", "monotonic_ns": 438299328000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:34:59.405634+08:00", "monotonic_ns": 438299328000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:34:59.405634+08:00", "monotonic_ns": 438299328000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:34:59.405634+08:00", "monotonic_ns": 438299328000000, "direction": "RX", "hex": "12032e0245"}
+{"time": "2026-10-25T19:35:00.854084+08:00", "monotonic_ns": 438300781000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438300781000000}
+{"time": "2026-10-25T19:35:00.855084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:00.855084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:00.855084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:00.855084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "120334024b"}
+{"time": "2026-10-25T19:35:00.855084+08:00", "monotonic_ns": 438300781000000, "direction": "TX", "hex": "aa5504040000000000", "written": 9, "start_monotonic_ns": 438300781000000}
+{"time": "2026-10-25T19:35:00.857084+08:00", "monotonic_ns": 438300781000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438300781000000}
+{"time": "2026-10-25T19:35:00.859084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:00.859084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:00.859084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:00.859084+08:00", "monotonic_ns": 438300781000000, "direction": "RX", "hex": "120334024b"}
+{"time": "2026-10-25T19:35:01.361181+08:00", "monotonic_ns": 438301281000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438301281000000}
+{"time": "2026-10-25T19:35:01.362285+08:00", "monotonic_ns": 438301281000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:01.362285+08:00", "monotonic_ns": 438301281000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:01.362285+08:00", "monotonic_ns": 438301281000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:01.362285+08:00", "monotonic_ns": 438301281000000, "direction": "RX", "hex": "120336024d"}
+{"time": "2026-10-25T19:35:01.865442+08:00", "monotonic_ns": 438301796000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438301796000000}
+{"time": "2026-10-25T19:35:01.916326+08:00", "monotonic_ns": 438301843000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:01.916326+08:00", "monotonic_ns": 438301843000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:01.916326+08:00", "monotonic_ns": 438301843000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:01.916326+08:00", "monotonic_ns": 438301843000000, "direction": "RX", "hex": "120338024f"}
+{"time": "2026-10-25T19:35:02.419102+08:00", "monotonic_ns": 438302343000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438302343000000}
+{"time": "2026-10-25T19:35:02.420118+08:00", "monotonic_ns": 438302343000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:02.420118+08:00", "monotonic_ns": 438302343000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:02.420118+08:00", "monotonic_ns": 438302343000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:02.420118+08:00", "monotonic_ns": 438302343000000, "direction": "RX", "hex": "12033a0251"}
+{"time": "2026-10-25T19:35:02.923604+08:00", "monotonic_ns": 438302843000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438302843000000}
+{"time": "2026-10-25T19:35:02.924616+08:00", "monotonic_ns": 438302843000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:02.924616+08:00", "monotonic_ns": 438302843000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:02.924616+08:00", "monotonic_ns": 438302843000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:02.924616+08:00", "monotonic_ns": 438302843000000, "direction": "RX", "hex": "12033c0253"}
+{"time": "2026-10-25T19:35:03.427506+08:00", "monotonic_ns": 438303359000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438303359000000}
+{"time": "2026-10-25T19:35:03.428012+08:00", "monotonic_ns": 438303359000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:03.429150+08:00", "monotonic_ns": 438303359000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:03.429150+08:00", "monotonic_ns": 438303359000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:03.429150+08:00", "monotonic_ns": 438303359000000, "direction": "RX", "hex": "12033e0255"}
+{"time": "2026-10-25T19:35:03.931155+08:00", "monotonic_ns": 438303859000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438303859000000}
+{"time": "2026-10-25T19:35:03.982276+08:00", "monotonic_ns": 438303906000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:03.982276+08:00", "monotonic_ns": 438303906000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:03.982785+08:00", "monotonic_ns": 438303906000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:03.982785+08:00", "monotonic_ns": 438303906000000, "direction": "RX", "hex": "1203400257"}
+{"time": "2026-10-25T19:35:04.484919+08:00", "monotonic_ns": 438304406000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438304406000000}
+{"time": "2026-10-25T19:35:04.485926+08:00", "monotonic_ns": 438304406000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:04.485926+08:00", "monotonic_ns": 438304406000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:04.485926+08:00", "monotonic_ns": 438304406000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:04.485926+08:00", "monotonic_ns": 438304406000000, "direction": "RX", "hex": "1203420259"}
+{"time": "2026-10-25T19:35:04.989096+08:00", "monotonic_ns": 438304921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438304921000000}
+{"time": "2026-10-25T19:35:04.990335+08:00", "monotonic_ns": 438304921000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:04.990335+08:00", "monotonic_ns": 438304921000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:04.990335+08:00", "monotonic_ns": 438304921000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:04.990335+08:00", "monotonic_ns": 438304921000000, "direction": "RX", "hex": "120344025b"}
+{"time": "2026-10-25T19:35:05.493151+08:00", "monotonic_ns": 438305421000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438305421000000}
+{"time": "2026-10-25T19:35:05.494160+08:00", "monotonic_ns": 438305421000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:05.494160+08:00", "monotonic_ns": 438305421000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:05.495163+08:00", "monotonic_ns": 438305421000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:05.495163+08:00", "monotonic_ns": 438305421000000, "direction": "RX", "hex": "120346025d"}
+{"time": "2026-10-25T19:35:05.997647+08:00", "monotonic_ns": 438305921000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438305921000000}
+{"time": "2026-10-25T19:35:05.998667+08:00", "monotonic_ns": 438305921000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:05.998667+08:00", "monotonic_ns": 438305921000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:05.998667+08:00", "monotonic_ns": 438305921000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:05.998667+08:00", "monotonic_ns": 438305921000000, "direction": "RX", "hex": "120348025f"}
+{"time": "2026-10-25T19:35:06.501980+08:00", "monotonic_ns": 438306421000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438306421000000}
+{"time": "2026-10-25T19:35:06.503053+08:00", "monotonic_ns": 438306437000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:06.503053+08:00", "monotonic_ns": 438306437000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:06.503053+08:00", "monotonic_ns": 438306437000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:06.503053+08:00", "monotonic_ns": 438306437000000, "direction": "RX", "hex": "12034a0261"}
+{"time": "2026-10-25T19:35:07.005899+08:00", "monotonic_ns": 438306937000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438306937000000}
+{"time": "2026-10-25T19:35:07.056759+08:00", "monotonic_ns": 438306984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:07.056759+08:00", "monotonic_ns": 438306984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:07.056759+08:00", "monotonic_ns": 438306984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:07.056759+08:00", "monotonic_ns": 438306984000000, "direction": "RX", "hex": "12034c0263"}
+{"time": "2026-10-25T19:35:07.559157+08:00", "monotonic_ns": 438307484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438307484000000}
+{"time": "2026-10-25T19:35:07.560351+08:00", "monotonic_ns": 438307484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:07.560351+08:00", "monotonic_ns": 438307484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:07.560351+08:00", "monotonic_ns": 438307484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:07.560351+08:00", "monotonic_ns": 438307484000000, "direction": "RX", "hex": "12034e0265"}
+{"time": "2026-10-25T19:35:08.063536+08:00", "monotonic_ns": 438307984000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438307984000000}
+{"time": "2026-10-25T19:35:08.064681+08:00", "monotonic_ns": 438307984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:08.064681+08:00", "monotonic_ns": 438307984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:08.064681+08:00", "monotonic_ns": 438307984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:08.064681+08:00", "monotonic_ns": 438307984000000, "direction": "RX", "hex": "1203500267"}
+{"time": "2026-10-25T19:35:08.567765+08:00", "monotonic_ns": 438308500000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438308500000000}
+{"time": "2026-10-25T19:35:08.568594+08:00", "monotonic_ns": 438308500000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:08.569597+08:00", "monotonic_ns": 438308500000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:08.569597+08:00", "monotonic_ns": 438308500000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:08.569597+08:00", "monotonic_ns": 438308500000000, "direction": "RX", "hex": "1203520269"}
+{"time": "2026-10-25T19:35:09.072521+08:00", "monotonic_ns": 438309000000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438309000000000}
+{"time": "2026-10-25T19:35:09.073527+08:00", "monotonic_ns": 438309000000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:09.073527+08:00", "monotonic_ns": 438309000000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:09.073527+08:00", "monotonic_ns": 438309000000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:09.073527+08:00", "monotonic_ns": 438309000000000, "direction": "RX", "hex": "120354026b"}
+{"time": "2026-10-25T19:35:10.549317+08:00", "monotonic_ns": 438310468000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438310468000000}
+{"time": "2026-10-25T19:35:10.550318+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:10.550318+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:10.550318+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:10.550318+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "12035a0271"}
+{"time": "2026-10-25T19:35:10.551684+08:00", "monotonic_ns": 438310484000000, "direction": "TX", "hex": "aa5504040100000000", "written": 9, "start_monotonic_ns": 438310484000000}
+{"time": "2026-10-25T19:35:10.553753+08:00", "monotonic_ns": 438310484000000, "direction": "TX", "hex": "aa55021800", "written": 5, "start_monotonic_ns": 438310484000000}
+{"time": "2026-10-25T19:35:10.554751+08:00", "monotonic_ns": 438310484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438310484000000}
+{"time": "2026-10-25T19:35:10.556838+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:10.556838+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:10.556838+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:10.556838+08:00", "monotonic_ns": 438310484000000, "direction": "RX", "hex": "12035a0271"}
+{"time": "2026-10-25T19:35:11.059550+08:00", "monotonic_ns": 438310984000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438310984000000}
+{"time": "2026-10-25T19:35:11.060558+08:00", "monotonic_ns": 438310984000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:11.060558+08:00", "monotonic_ns": 438310984000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:11.060558+08:00", "monotonic_ns": 438310984000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:11.060558+08:00", "monotonic_ns": 438310984000000, "direction": "RX", "hex": "12035c0273"}
+{"time": "2026-10-25T19:35:11.564264+08:00", "monotonic_ns": 438311484000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438311484000000}
+{"time": "2026-10-25T19:35:11.565271+08:00", "monotonic_ns": 438311484000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:11.565271+08:00", "monotonic_ns": 438311484000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:11.565271+08:00", "monotonic_ns": 438311484000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:11.566271+08:00", "monotonic_ns": 438311500000000, "direction": "RX", "hex": "12035e0275"}
+{"time": "2026-10-25T19:35:12.069078+08:00", "monotonic_ns": 438312000000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438312000000000}
+{"time": "2026-10-25T19:35:12.070148+08:00", "monotonic_ns": 438312000000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:12.070148+08:00", "monotonic_ns": 438312000000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:12.070148+08:00", "monotonic_ns": 438312000000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:12.070148+08:00", "monotonic_ns": 438312000000000, "direction": "RX", "hex": "1203600277"}
+{"time": "2026-10-25T19:35:12.573562+08:00", "monotonic_ns": 438312500000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438312500000000}
+{"time": "2026-10-25T19:35:12.574577+08:00", "monotonic_ns": 438312500000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:12.574577+08:00", "monotonic_ns": 438312500000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:12.574577+08:00", "monotonic_ns": 438312500000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:12.574577+08:00", "monotonic_ns": 438312500000000, "direction": "RX", "hex": "1203620279"}
+{"time": "2026-10-25T19:35:13.078059+08:00", "monotonic_ns": 438313000000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438313000000000}
+{"time": "2026-10-25T19:35:13.079730+08:00", "monotonic_ns": 438313000000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:13.079730+08:00", "monotonic_ns": 438313000000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:13.079730+08:00", "monotonic_ns": 438313000000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:13.079730+08:00", "monotonic_ns": 438313000000000, "direction": "RX", "hex": "120364027b"}
+{"time": "2026-10-25T19:35:13.582321+08:00", "monotonic_ns": 438313515000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438313515000000}
+{"time": "2026-10-25T19:35:13.583414+08:00", "monotonic_ns": 438313515000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:13.583414+08:00", "monotonic_ns": 438313515000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:13.583414+08:00", "monotonic_ns": 438313515000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:13.583414+08:00", "monotonic_ns": 438313515000000, "direction": "RX", "hex": "120366027d"}
+{"time": "2026-10-25T19:35:14.086233+08:00", "monotonic_ns": 438314015000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438314015000000}
+{"time": "2026-10-25T19:35:14.087488+08:00", "monotonic_ns": 438314015000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:14.087488+08:00", "monotonic_ns": 438314015000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:14.087488+08:00", "monotonic_ns": 438314015000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:14.087488+08:00", "monotonic_ns": 438314015000000, "direction": "RX", "hex": "120368027f"}
+{"time": "2026-10-25T19:35:14.590692+08:00", "monotonic_ns": 438314515000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438314515000000}
+{"time": "2026-10-25T19:35:14.641649+08:00", "monotonic_ns": 438314562000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:14.641649+08:00", "monotonic_ns": 438314562000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:14.641649+08:00", "monotonic_ns": 438314562000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:14.641649+08:00", "monotonic_ns": 438314562000000, "direction": "RX", "hex": "12036a0281"}
+{"time": "2026-10-25T19:35:15.144692+08:00", "monotonic_ns": 438315078000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438315078000000}
+{"time": "2026-10-25T19:35:15.195664+08:00", "monotonic_ns": 438315125000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:15.195664+08:00", "monotonic_ns": 438315125000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:15.195664+08:00", "monotonic_ns": 438315125000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:15.195664+08:00", "monotonic_ns": 438315125000000, "direction": "RX", "hex": "12036d0284"}
+{"time": "2026-10-25T19:35:15.698072+08:00", "monotonic_ns": 438315625000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438315625000000}
+{"time": "2026-10-25T19:35:15.699599+08:00", "monotonic_ns": 438315625000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:15.699599+08:00", "monotonic_ns": 438315625000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:15.699599+08:00", "monotonic_ns": 438315625000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:15.699599+08:00", "monotonic_ns": 438315625000000, "direction": "RX", "hex": "12036f0286"}
+{"time": "2026-10-25T19:35:16.202797+08:00", "monotonic_ns": 438316125000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438316125000000}
+{"time": "2026-10-25T19:35:16.203811+08:00", "monotonic_ns": 438316125000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:16.203811+08:00", "monotonic_ns": 438316125000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:16.203811+08:00", "monotonic_ns": 438316125000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:16.203811+08:00", "monotonic_ns": 438316125000000, "direction": "RX", "hex": "1203710288"}
+{"time": "2026-10-25T19:35:16.706809+08:00", "monotonic_ns": 438316640000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438316640000000}
+{"time": "2026-10-25T19:35:16.708314+08:00", "monotonic_ns": 438316640000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:16.708314+08:00", "monotonic_ns": 438316640000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:16.708314+08:00", "monotonic_ns": 438316640000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:16.708314+08:00", "monotonic_ns": 438316640000000, "direction": "RX", "hex": "120373028a"}
+{"time": "2026-10-25T19:35:17.210806+08:00", "monotonic_ns": 438317140000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438317140000000}
+{"time": "2026-10-25T19:35:17.212020+08:00", "monotonic_ns": 438317140000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:17.212020+08:00", "monotonic_ns": 438317140000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:17.212020+08:00", "monotonic_ns": 438317140000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:17.212020+08:00", "monotonic_ns": 438317140000000, "direction": "RX", "hex": "120375028c"}
+{"time": "2026-10-25T19:35:17.714956+08:00", "monotonic_ns": 438317640000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438317640000000}
+{"time": "2026-10-25T19:35:17.715964+08:00", "monotonic_ns": 438317640000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:17.715964+08:00", "monotonic_ns": 438317640000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:17.715964+08:00", "monotonic_ns": 438317640000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:17.715964+08:00", "monotonic_ns": 438317640000000, "direction": "RX", "hex": "120377028e"}
+{"time": "2026-10-25T19:35:18.219092+08:00", "monotonic_ns": 438318140000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438318140000000}
+{"time": "2026-10-25T19:35:18.220097+08:00", "monotonic_ns": 438318140000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:18.220097+08:00", "monotonic_ns": 438318140000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:18.221101+08:00", "monotonic_ns": 438318140000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:18.221101+08:00", "monotonic_ns": 438318140000000, "direction": "RX", "hex": "1203790290"}
+{"time": "2026-10-25T19:35:18.723142+08:00", "monotonic_ns": 438318656000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438318656000000}
+{"time": "2026-10-25T19:35:18.724511+08:00", "monotonic_ns": 438318656000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:18.724511+08:00", "monotonic_ns": 438318656000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:18.724511+08:00", "monotonic_ns": 438318656000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:18.724511+08:00", "monotonic_ns": 438318656000000, "direction": "RX", "hex": "12037b0292"}
+{"time": "2026-10-25T19:35:20.213986+08:00", "monotonic_ns": 438320140000000, "direction": "TX", "hex": "aa5504040000000000", "written": 9, "start_monotonic_ns": 438320140000000}
+{"time": "2026-10-25T19:35:20.215985+08:00", "monotonic_ns": 438320140000000, "direction": "TX", "hex": "aa5502190000010000000000000000000000010000000000000000000002", "written": 30, "start_monotonic_ns": 438320140000000}
+{"time": "2026-10-25T19:35:20.218985+08:00", "monotonic_ns": 438320140000000, "direction": "TX", "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0", "written": 37, "start_monotonic_ns": 438320140000000}
+{"time": "2026-10-25T19:35:20.220985+08:00", "monotonic_ns": 438320140000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438320140000000}
+{"time": "2026-10-25T19:35:20.223668+08:00", "monotonic_ns": 438320156000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:20.223668+08:00", "monotonic_ns": 438320156000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:20.223668+08:00", "monotonic_ns": 438320156000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:20.223668+08:00", "monotonic_ns": 438320156000000, "direction": "RX", "hex": "1203810298"}
+{"time": "2026-10-25T19:35:20.223668+08:00", "monotonic_ns": 438320156000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438320156000000}
+{"time": "2026-10-25T19:35:20.274591+08:00", "monotonic_ns": 438320203000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:20.274591+08:00", "monotonic_ns": 438320203000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:20.274591+08:00", "monotonic_ns": 438320203000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:20.274591+08:00", "monotonic_ns": 438320203000000, "direction": "RX", "hex": "1203810298"}
+{"time": "2026-10-25T19:35:20.777149+08:00", "monotonic_ns": 438320703000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438320703000000}
+{"time": "2026-10-25T19:35:20.778407+08:00", "monotonic_ns": 438320703000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:20.778407+08:00", "monotonic_ns": 438320703000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:20.778407+08:00", "monotonic_ns": 438320703000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:20.779417+08:00", "monotonic_ns": 438320703000000, "direction": "RX", "hex": "120383029a"}
+{"time": "2026-10-25T19:35:21.282568+08:00", "monotonic_ns": 438321203000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438321203000000}
+{"time": "2026-10-25T19:35:21.283578+08:00", "monotonic_ns": 438321203000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:21.283578+08:00", "monotonic_ns": 438321203000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:21.283578+08:00", "monotonic_ns": 438321203000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:21.283578+08:00", "monotonic_ns": 438321203000000, "direction": "RX", "hex": "120385029c"}
+{"time": "2026-10-25T19:35:21.786809+08:00", "monotonic_ns": 438321718000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438321718000000}
+{"time": "2026-10-25T19:35:21.787827+08:00", "monotonic_ns": 438321718000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:21.787827+08:00", "monotonic_ns": 438321718000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:21.787827+08:00", "monotonic_ns": 438321718000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:21.787827+08:00", "monotonic_ns": 438321718000000, "direction": "RX", "hex": "120387029e"}
+{"time": "2026-10-25T19:35:22.291391+08:00", "monotonic_ns": 438322218000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438322218000000}
+{"time": "2026-10-25T19:35:22.292927+08:00", "monotonic_ns": 438322218000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:22.292927+08:00", "monotonic_ns": 438322218000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:22.292927+08:00", "monotonic_ns": 438322218000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:22.292927+08:00", "monotonic_ns": 438322218000000, "direction": "RX", "hex": "12038902a0"}
+{"time": "2026-10-25T19:35:22.795701+08:00", "monotonic_ns": 438322718000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438322718000000}
+{"time": "2026-10-25T19:35:22.846667+08:00", "monotonic_ns": 438322765000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:22.846667+08:00", "monotonic_ns": 438322765000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:22.846667+08:00", "monotonic_ns": 438322765000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:22.846667+08:00", "monotonic_ns": 438322765000000, "direction": "RX", "hex": "12038b02a2"}
+{"time": "2026-10-25T19:35:23.349675+08:00", "monotonic_ns": 438323281000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438323281000000}
+{"time": "2026-10-25T19:35:23.350808+08:00", "monotonic_ns": 438323281000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:23.350808+08:00", "monotonic_ns": 438323281000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:23.350808+08:00", "monotonic_ns": 438323281000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:23.350808+08:00", "monotonic_ns": 438323281000000, "direction": "RX", "hex": "12038d02a4"}
+{"time": "2026-10-25T19:35:23.854348+08:00", "monotonic_ns": 438323781000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438323781000000}
+{"time": "2026-10-25T19:35:23.855367+08:00", "monotonic_ns": 438323781000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:23.855367+08:00", "monotonic_ns": 438323781000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:23.855367+08:00", "monotonic_ns": 438323781000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:23.855367+08:00", "monotonic_ns": 438323781000000, "direction": "RX", "hex": "12038f02a6"}
+{"time": "2026-10-25T19:35:24.358723+08:00", "monotonic_ns": 438324281000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438324281000000}
+{"time": "2026-10-25T19:35:24.360288+08:00", "monotonic_ns": 438324281000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:24.360288+08:00", "monotonic_ns": 438324281000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:24.360288+08:00", "monotonic_ns": 438324281000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:24.360288+08:00", "monotonic_ns": 438324281000000, "direction": "RX", "hex": "12039102a8"}
+{"time": "2026-10-25T19:35:24.862737+08:00", "monotonic_ns": 438324796000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438324796000000}
+{"time": "2026-10-25T19:35:24.864269+08:00", "monotonic_ns": 438324796000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:24.864269+08:00", "monotonic_ns": 438324796000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:24.864269+08:00", "monotonic_ns": 438324796000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:24.864269+08:00", "monotonic_ns": 438324796000000, "direction": "RX", "hex": "12039302aa"}
+{"time": "2026-10-25T19:35:25.367383+08:00", "monotonic_ns": 438325296000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438325296000000}
+{"time": "2026-10-25T19:35:25.368386+08:00", "monotonic_ns": 438325296000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:25.368386+08:00", "monotonic_ns": 438325296000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:25.368386+08:00", "monotonic_ns": 438325296000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:25.368386+08:00", "monotonic_ns": 438325296000000, "direction": "RX", "hex": "12039502ac"}
+{"time": "2026-10-25T19:35:25.871482+08:00", "monotonic_ns": 438325796000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438325796000000}
+{"time": "2026-10-25T19:35:25.872485+08:00", "monotonic_ns": 438325796000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:25.872485+08:00", "monotonic_ns": 438325796000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:25.873484+08:00", "monotonic_ns": 438325796000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:25.873484+08:00", "monotonic_ns": 438325796000000, "direction": "RX", "hex": "12039702ae"}
+{"time": "2026-10-25T19:35:26.376103+08:00", "monotonic_ns": 438326296000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438326296000000}
+{"time": "2026-10-25T19:35:26.377610+08:00", "monotonic_ns": 438326296000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:26.377610+08:00", "monotonic_ns": 438326296000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:26.377610+08:00", "monotonic_ns": 438326296000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:26.377610+08:00", "monotonic_ns": 438326296000000, "direction": "RX", "hex": "12039902b0"}
+{"time": "2026-10-25T19:35:26.880164+08:00", "monotonic_ns": 438326812000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438326812000000}
+{"time": "2026-10-25T19:35:26.881188+08:00", "monotonic_ns": 438326812000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:26.881188+08:00", "monotonic_ns": 438326812000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:26.881188+08:00", "monotonic_ns": 438326812000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:26.881188+08:00", "monotonic_ns": 438326812000000, "direction": "RX", "hex": "12039b02b2"}
+{"time": "2026-10-25T19:35:27.384601+08:00", "monotonic_ns": 438327312000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438327312000000}
+{"time": "2026-10-25T19:35:27.386090+08:00", "monotonic_ns": 438327312000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:27.386090+08:00", "monotonic_ns": 438327312000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:27.386090+08:00", "monotonic_ns": 438327312000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:27.386090+08:00", "monotonic_ns": 438327312000000, "direction": "RX", "hex": "12039d02b4"}
+{"time": "2026-10-25T19:35:27.888804+08:00", "monotonic_ns": 438327812000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438327812000000}
+{"time": "2026-10-25T19:35:27.889824+08:00", "monotonic_ns": 438327812000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:27.891002+08:00", "monotonic_ns": 438327812000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:27.891002+08:00", "monotonic_ns": 438327812000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:27.891002+08:00", "monotonic_ns": 438327812000000, "direction": "RX", "hex": "12039f02b6"}
+{"time": "2026-10-25T19:35:28.393596+08:00", "monotonic_ns": 438328312000000, "direction": "TX", "hex": "aa55050000", "written": 5, "start_monotonic_ns": 438328312000000}
+{"time": "2026-10-25T19:35:28.394600+08:00", "monotonic_ns": 438328328000000, "direction": "RX", "hex": "aa"}
+{"time": "2026-10-25T19:35:28.394600+08:00", "monotonic_ns": 438328328000000, "direction": "RX", "hex": "55"}
+{"time": "2026-10-25T19:35:28.394600+08:00", "monotonic_ns": 438328328000000, "direction": "RX", "hex": "0504"}
+{"time": "2026-10-25T19:35:28.394600+08:00", "monotonic_ns": 438328328000000, "direction": "RX", "hex": "1203a102b8"}

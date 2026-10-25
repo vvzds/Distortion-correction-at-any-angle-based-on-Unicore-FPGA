@@ -1,0 +1,29 @@
+{
+  "zip_name": "模块2_参数管理UART验证完整回传包_给执行者_二号_20261025.zip",
+  "zip_sha256": "e8c243bd49f78b86754260f274355596e1e777a8117c5b8ce55ce8d94904222f",
+  "bytes": 162690954,
+  "parts": [
+    {
+      "path": "parts/complete.zip.part01",
+      "bytes": 50331648,
+      "sha256": "9708886cd5d52a76073ea2aea724eeb619a7c15e30137991da304d40822ab5cd"
+    },
+    {
+      "path": "parts/complete.zip.part02",
+      "bytes": 50331648,
+      "sha256": "b622b69577af3e758f5992804b72d7d19b55da6bc173fa70e925010ce9510656"
+    },
+    {
+      "path": "parts/complete.zip.part03",
+      "bytes": 50331648,
+      "sha256": "3f9aaea75ac54e0ddeeb8261b73824dc165aa5ab8f22c250ff26b138515fe8c1"
+    },
+    {
+      "path": "parts/complete.zip.part04",
+      "bytes": 11696010,
+      "sha256": "a16ddf4f7076d90f0665ca01418411660a6c6308c7191ae3d4d7a7e2ecf26f06"
+    }
+  ],
+  "manifest_sha256": "c886a0b29b369dbf58633e875f58324b683eea7c2a602182b8edd02203c3b799",
+  "files": 107
+}

@@ -1,0 +1,41 @@
+{
+  "start": "2026-10-25T19:23:42.620227+08:00",
+  "uart": [
+    {
+      "time": "2026-10-25T19:23:42.634943+08:00",
+      "monotonic_ns": 437622562000000,
+      "direction": "TX",
+      "hex": "aa55050000",
+      "written": 5
+    }
+  ],
+  "errors": [
+    "Traceback (most recent call last):\n  File \"C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\module2_completion_20261025\\probe.py\", line 39, in main\n    v=tool.read_status_frame(connection);r['status'].append(dict(time=now(),raw=f'{v:08x}',fw=v&255,params_valid=(v>>8)&1,pub_count=v>>16))\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\FPGA PDS/yx/DCSjingtaijiaozheng/04_uart_tool\\uart_tool.py\", line 300, in read_status_frame\n    value = _read_exact(connection, 1, deadline, clock)[0]\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\FPGA PDS/yx/DCSjingtaijiaozheng/04_uart_tool\\uart_tool.py\", line 284, in _read_exact\n    raise ToolError(\"状态回读超时：尚缺 {} 字节\".format(count - len(result)))\nuart_tool.ToolError: 状态回读超时：尚缺 1 字节\n"
+  ],
+  "write_scope": "0x05 QUERY ONLY",
+  "parameters_sent": false,
+  "ports": [
+    {
+      "device": "COM9",
+      "vid": 1027,
+      "pid": 24592,
+      "description": "USB Serial Port (COM9)"
+    },
+    {
+      "device": "COM10",
+      "vid": 1027,
+      "pid": 24592,
+      "description": "USB Serial Port (COM10)"
+    },
+    {
+      "device": "COM11",
+      "vid": 4292,
+      "pid": 60000,
+      "description": "Silicon Labs CP210x USB to UART Bridge (COM11)"
+    }
+  ],
+  "tool_sha256": "043f8076f3ee9b810081fa337b6ed0cdffa85131ee4a3c04f409534960331a57",
+  "status": [],
+  "state": "PROBE_FAILED_NO_PARAMETER_WRITES",
+  "finished": "2026-10-25T19:23:44.144711+08:00"
+}

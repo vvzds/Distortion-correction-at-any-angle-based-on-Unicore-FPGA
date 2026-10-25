@@ -1,0 +1,2341 @@
+{
+  "start": "2026-10-25T19:33:39.222851+08:00",
+  "scope": "MODULE2_PARAMETERS_UART",
+  "stages": [
+    {
+      "name": "real_baseline",
+      "start": "2026-10-25T19:33:52.311903+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_baseline_00.png",
+          "sha256": "02e3d80f73d828c35183c74d70b46b99ee72b273c343e6bbb73d5391e851e107",
+          "timestamp": "2026-10-25T19:34:00.589233+08:00",
+          "monotonic_ns": 438240515000000,
+          "transport_seq": 586,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.08378472222222,
+            94.41710021219136,
+            87.27970630787037
+          ],
+          "gray_std": 66.46414590415664
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_baseline_01.png",
+          "sha256": "6f602f192305d09420d699fc3ccc10e10d9881407cb34ba7e153a382efe825c6",
+          "timestamp": "2026-10-25T19:34:01.090502+08:00",
+          "monotonic_ns": 438241015000000,
+          "transport_seq": 601,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.66813512731481,
+            94.34698013117284,
+            87.52071132330246
+          ],
+          "gray_std": 66.4677774267231
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_baseline_02.png",
+          "sha256": "269eff9dee6070cc3f9458930b0fc499ca56a99bc706aace7523f9452e3c7c3e",
+          "timestamp": "2026-10-25T19:34:01.590029+08:00",
+          "monotonic_ns": 438241515000000,
+          "transport_seq": 616,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.83481336805555,
+            94.5855044367284,
+            87.22234375
+          ],
+          "gray_std": 66.46288418580419
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:33:52.362303+08:00",
+          "monotonic_ns": 438232281000000,
+          "raw": "00210312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 33
+        },
+        {
+          "time": "2026-10-25T19:33:52.866718+08:00",
+          "monotonic_ns": 438232796000000,
+          "raw": "00230312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 35
+        },
+        {
+          "time": "2026-10-25T19:33:53.369699+08:00",
+          "monotonic_ns": 438233296000000,
+          "raw": "00250312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 37
+        },
+        {
+          "time": "2026-10-25T19:33:53.873124+08:00",
+          "monotonic_ns": 438233796000000,
+          "raw": "00270312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 39
+        },
+        {
+          "time": "2026-10-25T19:33:54.427169+08:00",
+          "monotonic_ns": 438234359000000,
+          "raw": "00290312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 41
+        },
+        {
+          "time": "2026-10-25T19:33:54.929400+08:00",
+          "monotonic_ns": 438234859000000,
+          "raw": "002b0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 43
+        },
+        {
+          "time": "2026-10-25T19:33:55.432583+08:00",
+          "monotonic_ns": 438235359000000,
+          "raw": "002d0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 45
+        },
+        {
+          "time": "2026-10-25T19:33:55.936010+08:00",
+          "monotonic_ns": 438235859000000,
+          "raw": "002f0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 47
+        },
+        {
+          "time": "2026-10-25T19:33:56.490365+08:00",
+          "monotonic_ns": 438236421000000,
+          "raw": "00310312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 49
+        },
+        {
+          "time": "2026-10-25T19:33:57.043357+08:00",
+          "monotonic_ns": 438236968000000,
+          "raw": "00330312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 51
+        },
+        {
+          "time": "2026-10-25T19:33:57.544688+08:00",
+          "monotonic_ns": 438237468000000,
+          "raw": "00350312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 53
+        },
+        {
+          "time": "2026-10-25T19:33:58.047834+08:00",
+          "monotonic_ns": 438237968000000,
+          "raw": "00370312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 55
+        },
+        {
+          "time": "2026-10-25T19:33:58.550896+08:00",
+          "monotonic_ns": 438238484000000,
+          "raw": "00390312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 57
+        },
+        {
+          "time": "2026-10-25T19:33:59.105523+08:00",
+          "monotonic_ns": 438239031000000,
+          "raw": "003b0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 59
+        },
+        {
+          "time": "2026-10-25T19:33:59.607571+08:00",
+          "monotonic_ns": 438239531000000,
+          "raw": "003e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 62
+        },
+        {
+          "time": "2026-10-25T19:34:00.111126+08:00",
+          "monotonic_ns": 438240031000000,
+          "raw": "00400312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 64
+        },
+        {
+          "time": "2026-10-25T19:34:00.614727+08:00",
+          "monotonic_ns": 438240546000000,
+          "raw": "00420312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 66
+        }
+      ],
+      "fresh_publications_at_least": 33,
+      "end": "2026-10-25T19:34:02.094317+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "identity",
+      "start": "2026-10-25T19:34:02.096463+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\identity_00.png",
+          "sha256": "3c6587c76c4d69f74e57cd182206b22a972d13eb8ba00e95daaa72142ffd6b78",
+          "timestamp": "2026-10-25T19:34:10.489293+08:00",
+          "monotonic_ns": 438250421000000,
+          "transport_seq": 883,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            95.07798948688271,
+            96.93375482253086,
+            89.30638358410494
+          ],
+          "gray_std": 66.9177097065763
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\identity_01.png",
+          "sha256": "f6f00cb885e40b3b64e1d7889e88c5c3a310f445db381510fcf75576063397cc",
+          "timestamp": "2026-10-25T19:34:10.988607+08:00",
+          "monotonic_ns": 438250921000000,
+          "transport_seq": 898,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            94.275703125,
+            96.8087287808642,
+            89.66208188657407
+          ],
+          "gray_std": 66.91265813718313
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\identity_02.png",
+          "sha256": "aca57a18c15132776197f4d24f908e16154a9a9dca37e9fbe496d142bf715099",
+          "timestamp": "2026-10-25T19:34:11.488216+08:00",
+          "monotonic_ns": 438251421000000,
+          "transport_seq": 913,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            94.22473620756173,
+            96.83160445601852,
+            89.62285108024692
+          ],
+          "gray_std": 66.9098658212312
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:34:02.150750+08:00",
+          "monotonic_ns": 438242078000000,
+          "raw": "00490312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 73
+        },
+        {
+          "time": "2026-10-25T19:34:02.654453+08:00",
+          "monotonic_ns": 438242578000000,
+          "raw": "00580312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 88
+        },
+        {
+          "time": "2026-10-25T19:34:03.209783+08:00",
+          "monotonic_ns": 438243140000000,
+          "raw": "00670312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 103
+        },
+        {
+          "time": "2026-10-25T19:34:03.711839+08:00",
+          "monotonic_ns": 438243640000000,
+          "raw": "00780312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 120
+        },
+        {
+          "time": "2026-10-25T19:34:04.214985+08:00",
+          "monotonic_ns": 438244140000000,
+          "raw": "00870312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 135
+        },
+        {
+          "time": "2026-10-25T19:34:04.719127+08:00",
+          "monotonic_ns": 438244640000000,
+          "raw": "00960312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 150
+        },
+        {
+          "time": "2026-10-25T19:34:05.273143+08:00",
+          "monotonic_ns": 438245203000000,
+          "raw": "00a50312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 165
+        },
+        {
+          "time": "2026-10-25T19:34:05.826014+08:00",
+          "monotonic_ns": 438245750000000,
+          "raw": "00b60312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 182
+        },
+        {
+          "time": "2026-10-25T19:34:06.328452+08:00",
+          "monotonic_ns": 438246250000000,
+          "raw": "00c70312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 199
+        },
+        {
+          "time": "2026-10-25T19:34:06.831540+08:00",
+          "monotonic_ns": 438246765000000,
+          "raw": "00d60312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 214
+        },
+        {
+          "time": "2026-10-25T19:34:07.335420+08:00",
+          "monotonic_ns": 438247265000000,
+          "raw": "00e50312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 229
+        },
+        {
+          "time": "2026-10-25T19:34:07.889949+08:00",
+          "monotonic_ns": 438247812000000,
+          "raw": "00f40312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 244
+        },
+        {
+          "time": "2026-10-25T19:34:08.443381+08:00",
+          "monotonic_ns": 438248375000000,
+          "raw": "01050312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 261
+        },
+        {
+          "time": "2026-10-25T19:34:08.945195+08:00",
+          "monotonic_ns": 438248875000000,
+          "raw": "01150312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 277
+        },
+        {
+          "time": "2026-10-25T19:34:09.448439+08:00",
+          "monotonic_ns": 438249375000000,
+          "raw": "01250312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 293
+        },
+        {
+          "time": "2026-10-25T19:34:09.952243+08:00",
+          "monotonic_ns": 438249875000000,
+          "raw": "01340312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 308
+        },
+        {
+          "time": "2026-10-25T19:34:10.506543+08:00",
+          "monotonic_ns": 438250437000000,
+          "raw": "01430312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 323
+        }
+      ],
+      "fresh_publications_at_least": 252,
+      "end": "2026-10-25T19:34:11.986970+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "real_restored",
+      "start": "2026-10-25T19:34:11.989993+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_restored_00.png",
+          "sha256": "10006a20700b8a99411a89525fb7ca824dbac355f4e1956386489cfdce6c410b",
+          "timestamp": "2026-10-25T19:34:20.321167+08:00",
+          "monotonic_ns": 438260250000000,
+          "transport_seq": 1178,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.7248654513889,
+            94.06051456404322,
+            87.21383632330247
+          ],
+          "gray_std": 66.37021398930304
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_restored_01.png",
+          "sha256": "731e08f650e44a858bbbf3517107801e53542adc68e09d98a57646c80c0f1df4",
+          "timestamp": "2026-10-25T19:34:20.820493+08:00",
+          "monotonic_ns": 438260750000000,
+          "transport_seq": 1193,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.6675998263889,
+            94.04514371141975,
+            87.23606963734568
+          ],
+          "gray_std": 66.32523792468967
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_restored_02.png",
+          "sha256": "7a608b5172e71c04933860b3b1d924f60d186b6b6d23683ac356e2634ea8e099",
+          "timestamp": "2026-10-25T19:34:21.321321+08:00",
+          "monotonic_ns": 438261250000000,
+          "transport_seq": 1208,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.6694280478395,
+            94.3713922646605,
+            87.22187548225308
+          ],
+          "gray_std": 66.29224849365103
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:34:11.992994+08:00",
+          "monotonic_ns": 438251921000000,
+          "raw": "01710312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 369
+        },
+        {
+          "time": "2026-10-25T19:34:12.498410+08:00",
+          "monotonic_ns": 438252421000000,
+          "raw": "01730312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 371
+        },
+        {
+          "time": "2026-10-25T19:34:13.002241+08:00",
+          "monotonic_ns": 438252921000000,
+          "raw": "01750312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 373
+        },
+        {
+          "time": "2026-10-25T19:34:13.506134+08:00",
+          "monotonic_ns": 438253437000000,
+          "raw": "01770312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 375
+        },
+        {
+          "time": "2026-10-25T19:34:14.060432+08:00",
+          "monotonic_ns": 438253984000000,
+          "raw": "01790312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 377
+        },
+        {
+          "time": "2026-10-25T19:34:14.562617+08:00",
+          "monotonic_ns": 438254484000000,
+          "raw": "017c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 380
+        },
+        {
+          "time": "2026-10-25T19:34:15.066544+08:00",
+          "monotonic_ns": 438255000000000,
+          "raw": "017e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 382
+        },
+        {
+          "time": "2026-10-25T19:34:15.570329+08:00",
+          "monotonic_ns": 438255500000000,
+          "raw": "01800312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 384
+        },
+        {
+          "time": "2026-10-25T19:34:16.125246+08:00",
+          "monotonic_ns": 438256046000000,
+          "raw": "01820312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 386
+        },
+        {
+          "time": "2026-10-25T19:34:16.678111+08:00",
+          "monotonic_ns": 438256609000000,
+          "raw": "01840312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 388
+        },
+        {
+          "time": "2026-10-25T19:34:17.230901+08:00",
+          "monotonic_ns": 438257156000000,
+          "raw": "01860312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 390
+        },
+        {
+          "time": "2026-10-25T19:34:17.732532+08:00",
+          "monotonic_ns": 438257656000000,
+          "raw": "01880312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 392
+        },
+        {
+          "time": "2026-10-25T19:34:18.235874+08:00",
+          "monotonic_ns": 438258156000000,
+          "raw": "018a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 394
+        },
+        {
+          "time": "2026-10-25T19:34:18.739300+08:00",
+          "monotonic_ns": 438258671000000,
+          "raw": "018c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 396
+        },
+        {
+          "time": "2026-10-25T19:34:19.293829+08:00",
+          "monotonic_ns": 438259218000000,
+          "raw": "018e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 398
+        },
+        {
+          "time": "2026-10-25T19:34:19.847699+08:00",
+          "monotonic_ns": 438259781000000,
+          "raw": "01910312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 401
+        },
+        {
+          "time": "2026-10-25T19:34:20.349613+08:00",
+          "monotonic_ns": 438260281000000,
+          "raw": "01930312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 403
+        }
+      ],
+      "fresh_publications_at_least": 34,
+      "end": "2026-10-25T19:34:21.833519+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "affine_tx24",
+      "start": "2026-10-25T19:34:21.835583+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_tx24_00.png",
+          "sha256": "ffbb2f98814db2a9605fb83836944211a5071d88fd30542ed2d0de55ba5c2c7d",
+          "timestamp": "2026-10-25T19:34:30.052851+08:00",
+          "monotonic_ns": 438269984000000,
+          "transport_seq": 1470,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            93.17206838348766,
+            95.83392650462963,
+            88.92722945601852
+          ],
+          "gray_std": 66.0453560492111
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_tx24_01.png",
+          "sha256": "99fc9dba2fb9e3438e7a8568110120ff8bc277fda314dd26f1141c439667992c",
+          "timestamp": "2026-10-25T19:34:30.519260+08:00",
+          "monotonic_ns": 438270453000000,
+          "transport_seq": 1484,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            93.60847511574075,
+            95.9095558449074,
+            89.04897521219135
+          ],
+          "gray_std": 66.09420313504101
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_tx24_02.png",
+          "sha256": "be6bde48e2b0bf30232356f95495c41e586c25f7e86b88492bcb6892c113c625",
+          "timestamp": "2026-10-25T19:34:31.018986+08:00",
+          "monotonic_ns": 438270953000000,
+          "transport_seq": 1499,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            93.2416724537037,
+            95.23324122299383,
+            88.65796440972223
+          ],
+          "gray_std": 66.10328009679603
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:34:21.838583+08:00",
+          "monotonic_ns": 438261765000000,
+          "raw": "01990312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 409
+        },
+        {
+          "time": "2026-10-25T19:34:22.343431+08:00",
+          "monotonic_ns": 438262265000000,
+          "raw": "019b0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 411
+        },
+        {
+          "time": "2026-10-25T19:34:22.847461+08:00",
+          "monotonic_ns": 438262781000000,
+          "raw": "019d0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 413
+        },
+        {
+          "time": "2026-10-25T19:34:23.402484+08:00",
+          "monotonic_ns": 438263328000000,
+          "raw": "019f0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 415
+        },
+        {
+          "time": "2026-10-25T19:34:23.905013+08:00",
+          "monotonic_ns": 438263828000000,
+          "raw": "01a10312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 417
+        },
+        {
+          "time": "2026-10-25T19:34:24.408869+08:00",
+          "monotonic_ns": 438264328000000,
+          "raw": "01a30312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 419
+        },
+        {
+          "time": "2026-10-25T19:34:24.912727+08:00",
+          "monotonic_ns": 438264843000000,
+          "raw": "01a50312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 421
+        },
+        {
+          "time": "2026-10-25T19:34:25.416728+08:00",
+          "monotonic_ns": 438265343000000,
+          "raw": "01a70312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 423
+        },
+        {
+          "time": "2026-10-25T19:34:25.920734+08:00",
+          "monotonic_ns": 438265843000000,
+          "raw": "01a90312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 425
+        },
+        {
+          "time": "2026-10-25T19:34:26.425187+08:00",
+          "monotonic_ns": 438266359000000,
+          "raw": "01ab0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 427
+        },
+        {
+          "time": "2026-10-25T19:34:26.928431+08:00",
+          "monotonic_ns": 438266859000000,
+          "raw": "01ad0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 429
+        },
+        {
+          "time": "2026-10-25T19:34:27.432131+08:00",
+          "monotonic_ns": 438267359000000,
+          "raw": "01af0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 431
+        },
+        {
+          "time": "2026-10-25T19:34:27.986209+08:00",
+          "monotonic_ns": 438267906000000,
+          "raw": "01b10312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 433
+        },
+        {
+          "time": "2026-10-25T19:34:28.488698+08:00",
+          "monotonic_ns": 438268421000000,
+          "raw": "01b30312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 435
+        },
+        {
+          "time": "2026-10-25T19:34:28.992942+08:00",
+          "monotonic_ns": 438268921000000,
+          "raw": "01b50312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 437
+        },
+        {
+          "time": "2026-10-25T19:34:29.496424+08:00",
+          "monotonic_ns": 438269421000000,
+          "raw": "01b70312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 439
+        },
+        {
+          "time": "2026-10-25T19:34:30.051325+08:00",
+          "monotonic_ns": 438269984000000,
+          "raw": "01b90312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 441
+        }
+      ],
+      "fresh_publications_at_least": 32,
+      "end": "2026-10-25T19:34:31.529276+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "affine_off",
+      "start": "2026-10-25T19:34:31.531307+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_off_00.png",
+          "sha256": "d0abf552475222d2e52161aa440cf4289dd2dcd02713ce5a6b9c50461ccd52b3",
+          "timestamp": "2026-10-25T19:34:39.717989+08:00",
+          "monotonic_ns": 438279640000000,
+          "transport_seq": 1760,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.10096257716049,
+            94.05306712962962,
+            87.28903983410494
+          ],
+          "gray_std": 66.35891504230953
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_off_01.png",
+          "sha256": "16b4a6edcd44ce2139c4cb1a6cc977c53cffd470bc20d916a6e861ce97df1a76",
+          "timestamp": "2026-10-25T19:34:40.218087+08:00",
+          "monotonic_ns": 438280140000000,
+          "transport_seq": 1775,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.04243344907407,
+            93.88052420910493,
+            87.18343364197531
+          ],
+          "gray_std": 66.28689073665379
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_off_02.png",
+          "sha256": "a40d2f1c5b62eda7164dd6bb19f22f69ed24f49fe4a0fcaa832053127315ed43",
+          "timestamp": "2026-10-25T19:34:40.717825+08:00",
+          "monotonic_ns": 438280640000000,
+          "transport_seq": 1790,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.80597173996914,
+            94.3318036265432,
+            86.37556568287037
+          ],
+          "gray_std": 66.29477650946896
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:34:31.535872+08:00",
+          "monotonic_ns": 438271468000000,
+          "raw": "01bf0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 447
+        },
+        {
+          "time": "2026-10-25T19:34:32.040365+08:00",
+          "monotonic_ns": 438271968000000,
+          "raw": "01c10312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 449
+        },
+        {
+          "time": "2026-10-25T19:34:32.543958+08:00",
+          "monotonic_ns": 438272468000000,
+          "raw": "01c30312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 451
+        },
+        {
+          "time": "2026-10-25T19:34:33.047701+08:00",
+          "monotonic_ns": 438272968000000,
+          "raw": "01c50312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 453
+        },
+        {
+          "time": "2026-10-25T19:34:33.552333+08:00",
+          "monotonic_ns": 438273484000000,
+          "raw": "01c70312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 455
+        },
+        {
+          "time": "2026-10-25T19:34:34.056333+08:00",
+          "monotonic_ns": 438273984000000,
+          "raw": "01c90312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 457
+        },
+        {
+          "time": "2026-10-25T19:34:34.560397+08:00",
+          "monotonic_ns": 438274484000000,
+          "raw": "01cb0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 459
+        },
+        {
+          "time": "2026-10-25T19:34:35.064774+08:00",
+          "monotonic_ns": 438274984000000,
+          "raw": "01cd0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 461
+        },
+        {
+          "time": "2026-10-25T19:34:35.568746+08:00",
+          "monotonic_ns": 438275500000000,
+          "raw": "01cf0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 463
+        },
+        {
+          "time": "2026-10-25T19:34:36.123157+08:00",
+          "monotonic_ns": 438276046000000,
+          "raw": "01d10312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 465
+        },
+        {
+          "time": "2026-10-25T19:34:36.676275+08:00",
+          "monotonic_ns": 438276609000000,
+          "raw": "01d30312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 467
+        },
+        {
+          "time": "2026-10-25T19:34:37.178718+08:00",
+          "monotonic_ns": 438277109000000,
+          "raw": "01d60312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 470
+        },
+        {
+          "time": "2026-10-25T19:34:37.682553+08:00",
+          "monotonic_ns": 438277609000000,
+          "raw": "01d80312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 472
+        },
+        {
+          "time": "2026-10-25T19:34:38.186575+08:00",
+          "monotonic_ns": 438278109000000,
+          "raw": "01da0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 474
+        },
+        {
+          "time": "2026-10-25T19:34:38.741434+08:00",
+          "monotonic_ns": 438278671000000,
+          "raw": "01dc0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 476
+        },
+        {
+          "time": "2026-10-25T19:34:39.243891+08:00",
+          "monotonic_ns": 438279171000000,
+          "raw": "01de0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 478
+        },
+        {
+          "time": "2026-10-25T19:34:39.747570+08:00",
+          "monotonic_ns": 438279671000000,
+          "raw": "01e00312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 480
+        }
+      ],
+      "fresh_publications_at_least": 33,
+      "end": "2026-10-25T19:34:41.226662+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "gamma_identity",
+      "start": "2026-10-25T19:34:41.228681+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_identity_00.png",
+          "sha256": "02361812aa55291f42c1272665d30e9629a8e3c25309fa54ea7401d04adb9f80",
+          "timestamp": "2026-10-25T19:34:49.649905+08:00",
+          "monotonic_ns": 438289578000000,
+          "transport_seq": 2058,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.23315055941357,
+            94.15734953703704,
+            87.4531606867284
+          ],
+          "gray_std": 66.36933223963767
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_identity_01.png",
+          "sha256": "b7cb6004f3714ca775bd6d0f44422d1ff8391892b0a9839e7912550f78c91d7c",
+          "timestamp": "2026-10-25T19:34:50.150289+08:00",
+          "monotonic_ns": 438290078000000,
+          "transport_seq": 2073,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.7903018904321,
+            94.03350549768518,
+            87.25567081404321
+          ],
+          "gray_std": 66.259651458941
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_identity_02.png",
+          "sha256": "04dd0af5c74ed105f105f29722deae5e936c26769594db07d49558aaf69d74bf",
+          "timestamp": "2026-10-25T19:34:50.650567+08:00",
+          "monotonic_ns": 438290578000000,
+          "transport_seq": 2088,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.99417775848765,
+            94.39952015817902,
+            87.69608458719136
+          ],
+          "gray_std": 66.33121409475596
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:34:41.365065+08:00",
+          "monotonic_ns": 438281296000000,
+          "raw": "01e60312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 486
+        },
+        {
+          "time": "2026-10-25T19:34:41.919329+08:00",
+          "monotonic_ns": 438281843000000,
+          "raw": "01e80312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 488
+        },
+        {
+          "time": "2026-10-25T19:34:42.422051+08:00",
+          "monotonic_ns": 438282343000000,
+          "raw": "01ea0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 490
+        },
+        {
+          "time": "2026-10-25T19:34:42.925962+08:00",
+          "monotonic_ns": 438282859000000,
+          "raw": "01ec0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 492
+        },
+        {
+          "time": "2026-10-25T19:34:43.429532+08:00",
+          "monotonic_ns": 438283359000000,
+          "raw": "01ee0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 494
+        },
+        {
+          "time": "2026-10-25T19:34:43.933505+08:00",
+          "monotonic_ns": 438283859000000,
+          "raw": "01f00312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 496
+        },
+        {
+          "time": "2026-10-25T19:34:44.437194+08:00",
+          "monotonic_ns": 438284359000000,
+          "raw": "01f20312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 498
+        },
+        {
+          "time": "2026-10-25T19:34:44.941516+08:00",
+          "monotonic_ns": 438284875000000,
+          "raw": "01f40312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 500
+        },
+        {
+          "time": "2026-10-25T19:34:45.445387+08:00",
+          "monotonic_ns": 438285375000000,
+          "raw": "01f60312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 502
+        },
+        {
+          "time": "2026-10-25T19:34:45.949018+08:00",
+          "monotonic_ns": 438285875000000,
+          "raw": "01f90312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 505
+        },
+        {
+          "time": "2026-10-25T19:34:46.504508+08:00",
+          "monotonic_ns": 438286437000000,
+          "raw": "01fb0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 507
+        },
+        {
+          "time": "2026-10-25T19:34:47.058024+08:00",
+          "monotonic_ns": 438286984000000,
+          "raw": "01fd0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 509
+        },
+        {
+          "time": "2026-10-25T19:34:47.610916+08:00",
+          "monotonic_ns": 438287531000000,
+          "raw": "01ff0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 511
+        },
+        {
+          "time": "2026-10-25T19:34:48.113769+08:00",
+          "monotonic_ns": 438288046000000,
+          "raw": "02010312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 513
+        },
+        {
+          "time": "2026-10-25T19:34:48.617650+08:00",
+          "monotonic_ns": 438288546000000,
+          "raw": "02030312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 515
+        },
+        {
+          "time": "2026-10-25T19:34:49.121531+08:00",
+          "monotonic_ns": 438289046000000,
+          "raw": "02050312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 517
+        },
+        {
+          "time": "2026-10-25T19:34:49.676298+08:00",
+          "monotonic_ns": 438289609000000,
+          "raw": "02070312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 519
+        }
+      ],
+      "fresh_publications_at_least": 33,
+      "end": "2026-10-25T19:34:51.152382+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "gamma_dim",
+      "start": "2026-10-25T19:34:51.154841+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_dim_00.png",
+          "sha256": "81c33c4eaee3965c5d353e977107544afb25880e6fe84852a2d6a6b114c80176",
+          "timestamp": "2026-10-25T19:34:59.381126+08:00",
+          "monotonic_ns": 438299312000000,
+          "transport_seq": 2350,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            49.1656534529321,
+            52.610619212962966,
+            46.13255497685185
+          ],
+          "gray_std": 38.29310002622573
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_dim_01.png",
+          "sha256": "e8f59de22ffc03255281f26b50da8af93413644e3ec9c13ecf4f7c89b17071d3",
+          "timestamp": "2026-10-25T19:34:59.880030+08:00",
+          "monotonic_ns": 438299812000000,
+          "transport_seq": 2365,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            49.09682870370371,
+            52.418606770833335,
+            46.46269868827161
+          ],
+          "gray_std": 38.30194613373633
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_dim_02.png",
+          "sha256": "bdd6a41c658ba69388269f906217754a24378a3895b23466eaed8e2de67d9ca5",
+          "timestamp": "2026-10-25T19:35:00.347333+08:00",
+          "monotonic_ns": 438300281000000,
+          "transport_seq": 2379,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            49.60386911651234,
+            52.66632716049383,
+            46.05259066358025
+          ],
+          "gray_std": 38.24890972620186
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:34:51.241152+08:00",
+          "monotonic_ns": 438291171000000,
+          "raw": "020e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 526
+        },
+        {
+          "time": "2026-10-25T19:34:51.744532+08:00",
+          "monotonic_ns": 438291671000000,
+          "raw": "02100312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 528
+        },
+        {
+          "time": "2026-10-25T19:34:52.248837+08:00",
+          "monotonic_ns": 438292171000000,
+          "raw": "02120312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 530
+        },
+        {
+          "time": "2026-10-25T19:34:52.752904+08:00",
+          "monotonic_ns": 438292671000000,
+          "raw": "02140312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 532
+        },
+        {
+          "time": "2026-10-25T19:34:53.256950+08:00",
+          "monotonic_ns": 438293187000000,
+          "raw": "02160312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 534
+        },
+        {
+          "time": "2026-10-25T19:34:53.760808+08:00",
+          "monotonic_ns": 438293687000000,
+          "raw": "02180312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 536
+        },
+        {
+          "time": "2026-10-25T19:34:54.264927+08:00",
+          "monotonic_ns": 438294187000000,
+          "raw": "021a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 538
+        },
+        {
+          "time": "2026-10-25T19:34:54.768607+08:00",
+          "monotonic_ns": 438294687000000,
+          "raw": "021c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 540
+        },
+        {
+          "time": "2026-10-25T19:34:55.273174+08:00",
+          "monotonic_ns": 438295203000000,
+          "raw": "021e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 542
+        },
+        {
+          "time": "2026-10-25T19:34:55.777249+08:00",
+          "monotonic_ns": 438295703000000,
+          "raw": "02200312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 544
+        },
+        {
+          "time": "2026-10-25T19:34:56.281634+08:00",
+          "monotonic_ns": 438296203000000,
+          "raw": "02220312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 546
+        },
+        {
+          "time": "2026-10-25T19:34:56.785461+08:00",
+          "monotonic_ns": 438296718000000,
+          "raw": "02240312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 548
+        },
+        {
+          "time": "2026-10-25T19:34:57.339910+08:00",
+          "monotonic_ns": 438297265000000,
+          "raw": "02260312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 550
+        },
+        {
+          "time": "2026-10-25T19:34:57.893469+08:00",
+          "monotonic_ns": 438297812000000,
+          "raw": "02280312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 552
+        },
+        {
+          "time": "2026-10-25T19:34:58.396428+08:00",
+          "monotonic_ns": 438298328000000,
+          "raw": "022a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 554
+        },
+        {
+          "time": "2026-10-25T19:34:58.900520+08:00",
+          "monotonic_ns": 438298828000000,
+          "raw": "022c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 556
+        },
+        {
+          "time": "2026-10-25T19:34:59.404627+08:00",
+          "monotonic_ns": 438299328000000,
+          "raw": "022e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 558
+        }
+      ],
+      "fresh_publications_at_least": 33,
+      "end": "2026-10-25T19:35:00.851080+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "gamma_off",
+      "start": "2026-10-25T19:35:00.853094+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_off_00.png",
+          "sha256": "e5743c3880c6d54b6279035985410e7cf86c2d20100576a7cbd01496b21c3c64",
+          "timestamp": "2026-10-25T19:35:09.046661+08:00",
+          "monotonic_ns": 438308968000000,
+          "transport_seq": 2640,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.08742573302469,
+            93.98428096064815,
+            87.25103539737654
+          ],
+          "gray_std": 66.27224770968483
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_off_01.png",
+          "sha256": "b5511161334efe05b1b5177df0968b540d45418732d184e82936d1d6e63c627a",
+          "timestamp": "2026-10-25T19:35:09.546160+08:00",
+          "monotonic_ns": 438309468000000,
+          "transport_seq": 2655,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.25139949845679,
+            94.34042148919752,
+            86.9919425154321
+          ],
+          "gray_std": 66.40774232934935
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_off_02.png",
+          "sha256": "1358d9099b4672489be9f173d9cf70bb7b14bd906a371d74eb1478fe0bdc278c",
+          "timestamp": "2026-10-25T19:35:10.046174+08:00",
+          "monotonic_ns": 438309968000000,
+          "transport_seq": 2670,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            91.7529335455247,
+            94.60600019290123,
+            86.45424768518518
+          ],
+          "gray_std": 66.22291100287269
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:35:00.857084+08:00",
+          "monotonic_ns": 438300781000000,
+          "raw": "02340312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 564
+        },
+        {
+          "time": "2026-10-25T19:35:01.361181+08:00",
+          "monotonic_ns": 438301281000000,
+          "raw": "02360312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 566
+        },
+        {
+          "time": "2026-10-25T19:35:01.916326+08:00",
+          "monotonic_ns": 438301843000000,
+          "raw": "02380312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 568
+        },
+        {
+          "time": "2026-10-25T19:35:02.419102+08:00",
+          "monotonic_ns": 438302343000000,
+          "raw": "023a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 570
+        },
+        {
+          "time": "2026-10-25T19:35:02.923604+08:00",
+          "monotonic_ns": 438302843000000,
+          "raw": "023c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 572
+        },
+        {
+          "time": "2026-10-25T19:35:03.427506+08:00",
+          "monotonic_ns": 438303359000000,
+          "raw": "023e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 574
+        },
+        {
+          "time": "2026-10-25T19:35:03.982276+08:00",
+          "monotonic_ns": 438303906000000,
+          "raw": "02400312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 576
+        },
+        {
+          "time": "2026-10-25T19:35:04.484919+08:00",
+          "monotonic_ns": 438304406000000,
+          "raw": "02420312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 578
+        },
+        {
+          "time": "2026-10-25T19:35:04.989096+08:00",
+          "monotonic_ns": 438304921000000,
+          "raw": "02440312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 580
+        },
+        {
+          "time": "2026-10-25T19:35:05.493151+08:00",
+          "monotonic_ns": 438305421000000,
+          "raw": "02460312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 582
+        },
+        {
+          "time": "2026-10-25T19:35:05.997647+08:00",
+          "monotonic_ns": 438305921000000,
+          "raw": "02480312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 584
+        },
+        {
+          "time": "2026-10-25T19:35:06.501980+08:00",
+          "monotonic_ns": 438306421000000,
+          "raw": "024a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 586
+        },
+        {
+          "time": "2026-10-25T19:35:07.056759+08:00",
+          "monotonic_ns": 438306984000000,
+          "raw": "024c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 588
+        },
+        {
+          "time": "2026-10-25T19:35:07.559157+08:00",
+          "monotonic_ns": 438307484000000,
+          "raw": "024e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 590
+        },
+        {
+          "time": "2026-10-25T19:35:08.063536+08:00",
+          "monotonic_ns": 438307984000000,
+          "raw": "02500312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 592
+        },
+        {
+          "time": "2026-10-25T19:35:08.568092+08:00",
+          "monotonic_ns": 438308500000000,
+          "raw": "02520312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 594
+        },
+        {
+          "time": "2026-10-25T19:35:09.072521+08:00",
+          "monotonic_ns": 438309000000000,
+          "raw": "02540312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 596
+        }
+      ],
+      "fresh_publications_at_least": 32,
+      "end": "2026-10-25T19:35:10.547302+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    },
+    {
+      "name": "rejected_frames",
+      "start": "2026-10-25T19:35:10.549317+08:00",
+      "captures": [
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\rejected_frames_00.png",
+          "sha256": "23e378960c4cb5aaae5844d3c839e3404c0213142cb89fda4d1e021bcc538824",
+          "timestamp": "2026-10-25T19:35:18.712623+08:00",
+          "monotonic_ns": 438318640000000,
+          "transport_seq": 2930,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.07562596450617,
+            94.2973331404321,
+            87.0755044367284
+          ],
+          "gray_std": 66.38415940789055
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\rejected_frames_01.png",
+          "sha256": "08702489e835dfbb46d85d6e637f4dbfef7f8b151d7d4ec4367a4df3ca98f380",
+          "timestamp": "2026-10-25T19:35:19.212634+08:00",
+          "monotonic_ns": 438319140000000,
+          "transport_seq": 2945,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.0652165316358,
+            94.15296006944445,
+            86.93895447530865
+          ],
+          "gray_std": 66.28092769571816
+        },
+        {
+          "path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\rejected_frames_02.png",
+          "sha256": "76fdba47ca4f403decf64d39abff1e6775deaf94d87d7ccbc50a4f78c555e465",
+          "timestamp": "2026-10-25T19:35:19.712066+08:00",
+          "monotonic_ns": 438319640000000,
+          "transport_seq": 2960,
+          "shape": [
+            1080,
+            1920,
+            3
+          ],
+          "mean_bgr": [
+            92.06705729166667,
+            94.18034191743827,
+            86.79395688657408
+          ],
+          "gray_std": 66.43036542768597
+        }
+      ],
+      "statuses": [
+        {
+          "time": "2026-10-25T19:35:10.555840+08:00",
+          "monotonic_ns": 438310484000000,
+          "raw": "025a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 602
+        },
+        {
+          "time": "2026-10-25T19:35:11.059550+08:00",
+          "monotonic_ns": 438310984000000,
+          "raw": "025c0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 604
+        },
+        {
+          "time": "2026-10-25T19:35:11.564264+08:00",
+          "monotonic_ns": 438311484000000,
+          "raw": "025e0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 606
+        },
+        {
+          "time": "2026-10-25T19:35:12.069078+08:00",
+          "monotonic_ns": 438312000000000,
+          "raw": "02600312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 608
+        },
+        {
+          "time": "2026-10-25T19:35:12.573562+08:00",
+          "monotonic_ns": 438312500000000,
+          "raw": "02620312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 610
+        },
+        {
+          "time": "2026-10-25T19:35:13.078059+08:00",
+          "monotonic_ns": 438313000000000,
+          "raw": "02640312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 612
+        },
+        {
+          "time": "2026-10-25T19:35:13.582321+08:00",
+          "monotonic_ns": 438313515000000,
+          "raw": "02660312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 614
+        },
+        {
+          "time": "2026-10-25T19:35:14.086233+08:00",
+          "monotonic_ns": 438314015000000,
+          "raw": "02680312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 616
+        },
+        {
+          "time": "2026-10-25T19:35:14.641649+08:00",
+          "monotonic_ns": 438314562000000,
+          "raw": "026a0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 618
+        },
+        {
+          "time": "2026-10-25T19:35:15.195664+08:00",
+          "monotonic_ns": 438315125000000,
+          "raw": "026d0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 621
+        },
+        {
+          "time": "2026-10-25T19:35:15.698072+08:00",
+          "monotonic_ns": 438315625000000,
+          "raw": "026f0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 623
+        },
+        {
+          "time": "2026-10-25T19:35:16.202797+08:00",
+          "monotonic_ns": 438316125000000,
+          "raw": "02710312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 625
+        },
+        {
+          "time": "2026-10-25T19:35:16.706809+08:00",
+          "monotonic_ns": 438316640000000,
+          "raw": "02730312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 627
+        },
+        {
+          "time": "2026-10-25T19:35:17.210806+08:00",
+          "monotonic_ns": 438317140000000,
+          "raw": "02750312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 629
+        },
+        {
+          "time": "2026-10-25T19:35:17.714956+08:00",
+          "monotonic_ns": 438317640000000,
+          "raw": "02770312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 631
+        },
+        {
+          "time": "2026-10-25T19:35:18.219092+08:00",
+          "monotonic_ns": 438318140000000,
+          "raw": "02790312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 633
+        },
+        {
+          "time": "2026-10-25T19:35:18.723142+08:00",
+          "monotonic_ns": 438318656000000,
+          "raw": "027b0312",
+          "fw": 18,
+          "params_valid": 1,
+          "busy": 1,
+          "pub_count": 635
+        }
+      ],
+      "fresh_publications_at_least": 33,
+      "end": "2026-10-25T19:35:20.209381+08:00",
+      "state": "CAPTURED_NOT_YET_ANALYZED"
+    }
+  ],
+  "errors": [],
+  "restoration": {
+    "packets_sent": true,
+    "status": {
+      "time": "2026-10-25T19:35:28.393596+08:00",
+      "monotonic_ns": 438328312000000,
+      "raw": "02a10312",
+      "fw": 18,
+      "params_valid": 1,
+      "busy": 1,
+      "pub_count": 673
+    },
+    "fresh_publications_at_least": 32,
+    "verified_publishing": true,
+    "gamma_enable": "OFF_REQUESTED_IMAGE_EVIDENCE_SEPARATE",
+    "affine_enable": "OFF_REQUESTED_IMAGE_EVIDENCE_SEPARATE",
+    "distortion": "REAL_PACKET_SENT"
+  },
+  "parameters_sent": true,
+  "bitstream_identity": "LOCAL_FILE_SHA_AND_FW_STATUS_COMPATIBILITY_ONLY_SRAM_NOT_READ_BACK",
+  "internal_atomicity": "RTL_SIMULATION_ONLY",
+  "ports": [
+    {
+      "device": "COM9",
+      "description": "USB Serial Port (COM9)",
+      "vid": 1027,
+      "pid": 24592
+    },
+    {
+      "device": "COM10",
+      "description": "USB Serial Port (COM10)",
+      "vid": 1027,
+      "pid": 24592
+    },
+    {
+      "device": "COM11",
+      "description": "Silicon Labs CP210x USB to UART Bridge (COM11)",
+      "vid": 4292,
+      "pid": 60000
+    }
+  ],
+  "initial_status": {
+    "time": "2026-10-25T19:33:39.237274+08:00",
+    "monotonic_ns": 438219156000000,
+    "raw": "00000012",
+    "fw": 18,
+    "params_valid": 0,
+    "busy": 0,
+    "pub_count": 0
+  },
+  "cameras": [
+    {
+      "index": 0,
+      "FriendlyName": "Integrated Camera",
+      "DevicePath": "\\\\?\\usb#vid_04f2&pid_b7b8&mi_00#6&13b24c8b&2&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+    },
+    {
+      "index": 1,
+      "FriendlyName": "Hagibis",
+      "DevicePath": "\\\\?\\usb#vid_345f&pid_2131&mi_00#6&249d72a0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+    },
+    {
+      "index": 2,
+      "FriendlyName": "ToDesk Camera"
+    },
+    {
+      "index": 3,
+      "FriendlyName": "OBS Virtual Camera"
+    }
+  ],
+  "capture_transport": {
+    "width": 1920.0,
+    "height": 1080.0,
+    "fps": 30.00003000003,
+    "fourcc": 1196444237
+  },
+  "bootstrap_reason": "Reset or invalid parameter state; compatible FW replied; load known legal real group",
+  "writes": [
+    {
+      "label": "restore_gamma_disabled_0x04.bin",
+      "time": "2026-10-25T19:33:44.027110+08:00",
+      "hex": "aa5504040000000000"
+    },
+    {
+      "label": "restore_affine_disabled_0x02.bin",
+      "time": "2026-10-25T19:33:44.027110+08:00",
+      "hex": "aa5502190000010000000000000000000000010000000000000000000002"
+    },
+    {
+      "label": "restore_real_0x01.bin",
+      "time": "2026-10-25T19:33:44.029195+08:00",
+      "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0"
+    },
+    {
+      "label": "restore_gamma_disabled_0x04.bin",
+      "time": "2026-10-25T19:33:52.307911+08:00",
+      "hex": "aa5504040000000000"
+    },
+    {
+      "label": "restore_affine_disabled_0x02.bin",
+      "time": "2026-10-25T19:33:52.309903+08:00",
+      "hex": "aa5502190000010000000000000000000000010000000000000000000002"
+    },
+    {
+      "label": "restore_real_0x01.bin",
+      "time": "2026-10-25T19:33:52.310903+08:00",
+      "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0"
+    },
+    {
+      "label": "identity",
+      "time": "2026-10-25T19:34:02.149745+08:00",
+      "hex": "aa550120e0b5e3054d67e3057888730310b038020000000000000000000000000000000089"
+    },
+    {
+      "label": "real",
+      "time": "2026-10-25T19:34:11.991995+08:00",
+      "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0"
+    },
+    {
+      "label": "affine24",
+      "time": "2026-10-25T19:34:21.837582+08:00",
+      "hex": "aa550219000001000000000000000000000001000000180000000000011b"
+    },
+    {
+      "label": "affine_off",
+      "time": "2026-10-25T19:34:31.533815+08:00",
+      "hex": "aa5502190000010000000000000000000000010000000000000000000002"
+    },
+    {
+      "label": "gamma_off",
+      "time": "2026-10-25T19:34:41.231212+08:00",
+      "hex": "aa5504040000000000"
+    },
+    {
+      "label": "identity_lut_0",
+      "time": "2026-10-25T19:34:41.233733+08:00",
+      "hex": "aa550300000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff80"
+    },
+    {
+      "label": "identity_lut_1",
+      "time": "2026-10-25T19:34:41.235742+08:00",
+      "hex": "aa550301000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff80"
+    },
+    {
+      "label": "identity_lut_2",
+      "time": "2026-10-25T19:34:41.256845+08:00",
+      "hex": "aa550302000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff80"
+    },
+    {
+      "label": "gamma_on",
+      "time": "2026-10-25T19:34:41.362957+08:00",
+      "hex": "aa5504040100000001"
+    },
+    {
+      "label": "gamma_off",
+      "time": "2026-10-25T19:34:51.157291+08:00",
+      "hex": "aa5504040000000000"
+    },
+    {
+      "label": "dim_lut_0",
+      "time": "2026-10-25T19:34:51.159298+08:00",
+      "hex": "aa550300000101020203040405050607070808090a0a0b0b0c0d0d0e0e0f10101111121313141415161617171819191a1a1b1c1c1d1d1e1f1f20202122222323242525262627282829292a2b2b2c2c2d2e2e2f2f303131323233343435353637373838393a3a3b3b3c3d3d3e3e3f40404141424343444445464647474849494a4a4b4c4c4d4d4e4f4f50505152525353545555565657585859595a5b5b5c5c5d5e5e5f5f606161626263646465656667676868696a6a6b6b6c6d6d6e6e6f70707171727373747475767677777879797a7a7b7c7c7d7d7e7f7f80808182828383848585868687888889898a8b8b8c8c8d8e8e8f8f9091919292939494959596979798989980"
+    },
+    {
+      "label": "dim_lut_1",
+      "time": "2026-10-25T19:34:51.162299+08:00",
+      "hex": "aa550301000101020203040405050607070808090a0a0b0b0c0d0d0e0e0f10101111121313141415161617171819191a1a1b1c1c1d1d1e1f1f20202122222323242525262627282829292a2b2b2c2c2d2e2e2f2f303131323233343435353637373838393a3a3b3b3c3d3d3e3e3f40404141424343444445464647474849494a4a4b4c4c4d4d4e4f4f50505152525353545555565657585859595a5b5b5c5c5d5e5e5f5f606161626263646465656667676868696a6a6b6b6c6d6d6e6e6f70707171727373747475767677777879797a7a7b7c7c7d7d7e7f7f80808182828383848585868687888889898a8b8b8c8c8d8e8e8f8f9091919292939494959596979798989980"
+    },
+    {
+      "label": "dim_lut_2",
+      "time": "2026-10-25T19:34:51.182508+08:00",
+      "hex": "aa550302000101020203040405050607070808090a0a0b0b0c0d0d0e0e0f10101111121313141415161617171819191a1a1b1c1c1d1d1e1f1f20202122222323242525262627282829292a2b2b2c2c2d2e2e2f2f303131323233343435353637373838393a3a3b3b3c3d3d3e3e3f40404141424343444445464647474849494a4a4b4c4c4d4d4e4f4f50505152525353545555565657585859595a5b5b5c5c5d5e5e5f5f606161626263646465656667676868696a6a6b6b6c6d6d6e6e6f70707171727373747475767677777879797a7a7b7c7c7d7d7e7f7f80808182828383848585868687888889898a8b8b8c8c8d8e8e8f8f9091919292939494959596979798989980"
+    },
+    {
+      "label": "gamma_on",
+      "time": "2026-10-25T19:34:51.239149+08:00",
+      "hex": "aa5504040100000001"
+    },
+    {
+      "label": "gamma_off",
+      "time": "2026-10-25T19:35:00.855084+08:00",
+      "hex": "aa5504040000000000"
+    },
+    {
+      "label": "bad_checksum_mode_on",
+      "time": "2026-10-25T19:35:10.551684+08:00",
+      "hex": "aa5504040100000000",
+      "deliberately_malformed": true
+    },
+    {
+      "label": "legacy_length_empty",
+      "time": "2026-10-25T19:35:10.553753+08:00",
+      "hex": "aa55021800",
+      "deliberately_malformed": true
+    },
+    {
+      "label": "restore_gamma_disabled_0x04.bin",
+      "time": "2026-10-25T19:35:20.213986+08:00",
+      "hex": "aa5504040000000000"
+    },
+    {
+      "label": "restore_affine_disabled_0x02.bin",
+      "time": "2026-10-25T19:35:20.215985+08:00",
+      "hex": "aa5502190000010000000000000000000000010000000000000000000002"
+    },
+    {
+      "label": "restore_real_0x01.bin",
+      "time": "2026-10-25T19:35:20.218985+08:00",
+      "hex": "aa550120e0b5e3054d67e3057888730310b03802579effff1d280000ecfffffff9ffffffa0"
+    }
+  ],
+  "bootstrap": {
+    "name": "bootstrap",
+    "statuses": [
+      {
+        "time": "2026-10-25T19:33:44.030709+08:00",
+        "monotonic_ns": 438223953000000,
+        "raw": "00000312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 0
+      },
+      {
+        "time": "2026-10-25T19:33:44.537264+08:00",
+        "monotonic_ns": 438224468000000,
+        "raw": "00020312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 2
+      },
+      {
+        "time": "2026-10-25T19:33:45.040344+08:00",
+        "monotonic_ns": 438224968000000,
+        "raw": "00040312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 4
+      },
+      {
+        "time": "2026-10-25T19:33:45.543704+08:00",
+        "monotonic_ns": 438225468000000,
+        "raw": "00060312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 6
+      },
+      {
+        "time": "2026-10-25T19:33:46.047775+08:00",
+        "monotonic_ns": 438225968000000,
+        "raw": "00080312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 8
+      },
+      {
+        "time": "2026-10-25T19:33:46.550979+08:00",
+        "monotonic_ns": 438226484000000,
+        "raw": "000a0312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 10
+      },
+      {
+        "time": "2026-10-25T19:33:47.054681+08:00",
+        "monotonic_ns": 438226984000000,
+        "raw": "000c0312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 12
+      },
+      {
+        "time": "2026-10-25T19:33:47.608306+08:00",
+        "monotonic_ns": 438227531000000,
+        "raw": "000e0312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 14
+      },
+      {
+        "time": "2026-10-25T19:33:48.110177+08:00",
+        "monotonic_ns": 438228031000000,
+        "raw": "00100312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 16
+      },
+      {
+        "time": "2026-10-25T19:33:48.613252+08:00",
+        "monotonic_ns": 438228546000000,
+        "raw": "00120312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 18
+      },
+      {
+        "time": "2026-10-25T19:33:49.116331+08:00",
+        "monotonic_ns": 438229046000000,
+        "raw": "00140312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 20
+      },
+      {
+        "time": "2026-10-25T19:33:49.670864+08:00",
+        "monotonic_ns": 438229593000000,
+        "raw": "00160312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 22
+      },
+      {
+        "time": "2026-10-25T19:33:50.223166+08:00",
+        "monotonic_ns": 438230156000000,
+        "raw": "00180312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 24
+      },
+      {
+        "time": "2026-10-25T19:33:50.724826+08:00",
+        "monotonic_ns": 438230656000000,
+        "raw": "001a0312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 26
+      },
+      {
+        "time": "2026-10-25T19:33:51.227849+08:00",
+        "monotonic_ns": 438231156000000,
+        "raw": "001c0312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 28
+      },
+      {
+        "time": "2026-10-25T19:33:51.730774+08:00",
+        "monotonic_ns": 438231656000000,
+        "raw": "001e0312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 30
+      },
+      {
+        "time": "2026-10-25T19:33:52.284588+08:00",
+        "monotonic_ns": 438232218000000,
+        "raw": "00200312",
+        "fw": 18,
+        "params_valid": 1,
+        "busy": 1,
+        "pub_count": 32
+      }
+    ],
+    "fresh_publications_at_least": 32
+  },
+  "state": "CAPTURE_SEQUENCE_COMPLETED_ANALYSIS_REQUIRED",
+  "finished": "2026-10-25T19:35:28.447682+08:00",
+  "photos": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475"
+}

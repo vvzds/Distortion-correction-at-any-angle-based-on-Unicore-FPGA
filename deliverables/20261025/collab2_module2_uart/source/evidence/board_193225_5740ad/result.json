@@ -1,0 +1,42 @@
+{
+  "start": "2026-10-25T19:32:25.883172+08:00",
+  "scope": "MODULE2_PARAMETERS_UART",
+  "stages": [],
+  "errors": [],
+  "restoration": {},
+  "parameters_sent": false,
+  "bitstream_identity": "LOCAL_FILE_SHA_AND_USER_PROGRAM_CONFIRMATION_ONLY",
+  "internal_atomicity": "RTL_SIMULATION_ONLY",
+  "ports": [
+    {
+      "device": "COM9",
+      "description": "USB Serial Port (COM9)",
+      "vid": 1027,
+      "pid": 24592
+    },
+    {
+      "device": "COM10",
+      "description": "USB Serial Port (COM10)",
+      "vid": 1027,
+      "pid": 24592
+    },
+    {
+      "device": "COM11",
+      "description": "Silicon Labs CP210x USB to UART Bridge (COM11)",
+      "vid": 4292,
+      "pid": 60000
+    }
+  ],
+  "initial_status": {
+    "time": "2026-10-25T19:32:25.900449+08:00",
+    "monotonic_ns": 438145828000000,
+    "raw": "00000012",
+    "fw": 18,
+    "params_valid": 0,
+    "busy": 0,
+    "pub_count": 0
+  },
+  "state": "QUERY_PASS_NO_PARAMETER_WRITES",
+  "finished": "2026-10-25T19:32:25.904002+08:00",
+  "photos": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193225_5740ad"
+}

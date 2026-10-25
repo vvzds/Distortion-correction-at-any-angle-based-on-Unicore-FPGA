@@ -1,0 +1,19 @@
+test_affine_tail (__main__.Tests.test_affine_tail) ... ok
+test_all_gamma_channels (__main__.Tests.test_all_gamma_channels) ... ok
+test_bad_checksum_refused (__main__.Tests.test_bad_checksum_refused) ... ok
+test_distortion_manual_wire (__main__.Tests.test_distortion_manual_wire) ... ok
+test_legacy_affine_length_refused (__main__.Tests.test_legacy_affine_length_refused) ... ok
+test_mode (__main__.Tests.test_mode) ... ok
+test_packet_reference_hashes (__main__.Tests.test_packet_reference_hashes) ... ok
+test_publication_reset_refused (__main__.Tests.test_publication_reset_refused) ... ok
+test_publication_wrap (__main__.Tests.test_publication_wrap) ... ok
+test_query_exact (__main__.Tests.test_query_exact) ... ok
+test_reserved_refused (__main__.Tests.test_reserved_refused) ... ok
+test_status_normal (__main__.Tests.test_status_normal) ... ok
+test_status_unknown_refused (__main__.Tests.test_status_unknown_refused) ... ok
+test_translate_extended_limit (__main__.Tests.test_translate_extended_limit) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK

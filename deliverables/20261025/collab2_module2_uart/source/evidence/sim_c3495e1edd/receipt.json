@@ -1,0 +1,25 @@
+{
+  "started": "2026-10-25T19:29:15.217109+08:00",
+  "scratch": "D:\\FPGA PDS\\yx\\module2_uart_sim_20261025\\sim_c3495e1edd",
+  "tool": "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+  "tool_sha256": "a5fb4747c8c06b1f3ad5b5f9ae6240ab6e28598cdf6058aa6f5139d0732303cf",
+  "cases": [
+    {
+      "top": "param_mgr_tb",
+      "exit": 0,
+      "passed": true,
+      "rtl_sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "tb_sha256": "5b445d735068d16c41e951b066b78c3a776fc892d73015e5dfcdac67ffce1726",
+      "log_sha256": "47517dae58d3981424d6e9f2422b0dd4262bd158f9f1d9750c26d43f9e21b273"
+    },
+    {
+      "top": "param_mgr_extended_tb",
+      "exit": 0,
+      "passed": true,
+      "rtl_sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+      "tb_sha256": "ffc989ed5a230cf79b77a3e8bf4a7beb71f96df286f2edb31fd1c2aa4812fe49",
+      "log_sha256": "313e5700f19160fafa3f7f576185fed3968ed8a4a4fb493994a2a237c2aac10d"
+    }
+  ],
+  "status": "PASS"
+}

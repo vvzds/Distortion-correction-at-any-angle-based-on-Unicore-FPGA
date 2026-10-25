@@ -1,0 +1,1659 @@
+{
+  "state": "PASS",
+  "wire_rows": 1016,
+  "queries": 198,
+  "parameter_writes": 26,
+  "deliberate_bad_frames": 2,
+  "captures": 27,
+  "span_seconds": 109.172,
+  "first_status": "00000012",
+  "last_status": "02a10312",
+  "count_first": 0,
+  "count_last": 673,
+  "mixed_mode_average_publications_per_second": 6.1645843256512665,
+  "per_stage_rates": [
+    {
+      "stage": "real_baseline",
+      "elapsed_s": 8.265,
+      "count_delta": 33,
+      "observed_publications_per_second": 3.992740471869328
+    },
+    {
+      "stage": "identity",
+      "elapsed_s": 8.359,
+      "count_delta": 250,
+      "observed_publications_per_second": 29.907883718148103
+    },
+    {
+      "stage": "real_restored",
+      "elapsed_s": 8.36,
+      "count_delta": 34,
+      "observed_publications_per_second": 4.0669856459330145
+    },
+    {
+      "stage": "affine_tx24",
+      "elapsed_s": 8.219,
+      "count_delta": 32,
+      "observed_publications_per_second": 3.8934176907166327
+    },
+    {
+      "stage": "affine_off",
+      "elapsed_s": 8.203,
+      "count_delta": 33,
+      "observed_publications_per_second": 4.022918444471535
+    },
+    {
+      "stage": "gamma_identity",
+      "elapsed_s": 8.313,
+      "count_delta": 33,
+      "observed_publications_per_second": 3.969686033922771
+    },
+    {
+      "stage": "gamma_dim",
+      "elapsed_s": 8.157,
+      "count_delta": 32,
+      "observed_publications_per_second": 3.923010910874096
+    },
+    {
+      "stage": "gamma_off",
+      "elapsed_s": 8.219,
+      "count_delta": 32,
+      "observed_publications_per_second": 3.8934176907166327
+    },
+    {
+      "stage": "rejected_frames",
+      "elapsed_s": 8.172,
+      "count_delta": 33,
+      "observed_publications_per_second": 4.038179148311307
+    }
+  ],
+  "restoration_payloads_match": true,
+  "raw_wire_sha256": "f5b0e0a019cefa9872886d16997ee12b345909cc35c42396c536a507a0969f9f",
+  "queries_detail": [
+    {
+      "tx_time": "2026-10-25T19:33:39.237274+08:00",
+      "rx_completed_time": "2026-10-25T19:33:39.239289+08:00",
+      "elapsed_ms": 15.0,
+      "status": "00000012",
+      "pub_count": 0,
+      "valid": 0
+    },
+    {
+      "tx_time": "2026-10-25T19:33:44.030709+08:00",
+      "rx_completed_time": "2026-10-25T19:33:44.035876+08:00",
+      "elapsed_ms": 15.0,
+      "status": "00000312",
+      "pub_count": 0,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:44.537264+08:00",
+      "rx_completed_time": "2026-10-25T19:33:44.538271+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00020312",
+      "pub_count": 2,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:45.040344+08:00",
+      "rx_completed_time": "2026-10-25T19:33:45.042349+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00040312",
+      "pub_count": 4,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:45.543704+08:00",
+      "rx_completed_time": "2026-10-25T19:33:45.545711+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00060312",
+      "pub_count": 6,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:46.047775+08:00",
+      "rx_completed_time": "2026-10-25T19:33:46.049298+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00080312",
+      "pub_count": 8,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:46.550979+08:00",
+      "rx_completed_time": "2026-10-25T19:33:46.551998+08:00",
+      "elapsed_ms": 0.0,
+      "status": "000a0312",
+      "pub_count": 10,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:47.054681+08:00",
+      "rx_completed_time": "2026-10-25T19:33:47.055689+08:00",
+      "elapsed_ms": 0.0,
+      "status": "000c0312",
+      "pub_count": 12,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:47.557625+08:00",
+      "rx_completed_time": "2026-10-25T19:33:47.608306+08:00",
+      "elapsed_ms": 47.0,
+      "status": "000e0312",
+      "pub_count": 14,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:48.110177+08:00",
+      "rx_completed_time": "2026-10-25T19:33:48.111184+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00100312",
+      "pub_count": 16,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:48.613252+08:00",
+      "rx_completed_time": "2026-10-25T19:33:48.614795+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00120312",
+      "pub_count": 18,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:49.116331+08:00",
+      "rx_completed_time": "2026-10-25T19:33:49.117338+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00140312",
+      "pub_count": 20,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:49.619841+08:00",
+      "rx_completed_time": "2026-10-25T19:33:49.670864+08:00",
+      "elapsed_ms": 47.0,
+      "status": "00160312",
+      "pub_count": 22,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:50.172073+08:00",
+      "rx_completed_time": "2026-10-25T19:33:50.223166+08:00",
+      "elapsed_ms": 63.0,
+      "status": "00180312",
+      "pub_count": 24,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:50.724826+08:00",
+      "rx_completed_time": "2026-10-25T19:33:50.725956+08:00",
+      "elapsed_ms": 0.0,
+      "status": "001a0312",
+      "pub_count": 26,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:51.227849+08:00",
+      "rx_completed_time": "2026-10-25T19:33:51.228986+08:00",
+      "elapsed_ms": 0.0,
+      "status": "001c0312",
+      "pub_count": 28,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:51.730774+08:00",
+      "rx_completed_time": "2026-10-25T19:33:51.731778+08:00",
+      "elapsed_ms": 0.0,
+      "status": "001e0312",
+      "pub_count": 30,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:52.233552+08:00",
+      "rx_completed_time": "2026-10-25T19:33:52.284588+08:00",
+      "elapsed_ms": 62.0,
+      "status": "00200312",
+      "pub_count": 32,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:52.311903+08:00",
+      "rx_completed_time": "2026-10-25T19:33:52.362303+08:00",
+      "elapsed_ms": 47.0,
+      "status": "00210312",
+      "pub_count": 33,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:52.362303+08:00",
+      "rx_completed_time": "2026-10-25T19:33:52.364393+08:00",
+      "elapsed_ms": 15.0,
+      "status": "00210312",
+      "pub_count": 33,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:52.866718+08:00",
+      "rx_completed_time": "2026-10-25T19:33:52.867726+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00230312",
+      "pub_count": 35,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:53.369699+08:00",
+      "rx_completed_time": "2026-10-25T19:33:53.370708+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00250312",
+      "pub_count": 37,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:53.873124+08:00",
+      "rx_completed_time": "2026-10-25T19:33:53.874139+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00270312",
+      "pub_count": 39,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:54.376377+08:00",
+      "rx_completed_time": "2026-10-25T19:33:54.427169+08:00",
+      "elapsed_ms": 63.0,
+      "status": "00290312",
+      "pub_count": 41,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:54.929400+08:00",
+      "rx_completed_time": "2026-10-25T19:33:54.930795+08:00",
+      "elapsed_ms": 0.0,
+      "status": "002b0312",
+      "pub_count": 43,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:55.432583+08:00",
+      "rx_completed_time": "2026-10-25T19:33:55.433599+08:00",
+      "elapsed_ms": 0.0,
+      "status": "002d0312",
+      "pub_count": 45,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:55.936010+08:00",
+      "rx_completed_time": "2026-10-25T19:33:55.937018+08:00",
+      "elapsed_ms": 0.0,
+      "status": "002f0312",
+      "pub_count": 47,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:56.439592+08:00",
+      "rx_completed_time": "2026-10-25T19:33:56.490365+08:00",
+      "elapsed_ms": 62.0,
+      "status": "00310312",
+      "pub_count": 49,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:56.992451+08:00",
+      "rx_completed_time": "2026-10-25T19:33:57.043357+08:00",
+      "elapsed_ms": 47.0,
+      "status": "00330312",
+      "pub_count": 51,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:57.544688+08:00",
+      "rx_completed_time": "2026-10-25T19:33:57.545703+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00350312",
+      "pub_count": 53,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:58.047834+08:00",
+      "rx_completed_time": "2026-10-25T19:33:58.049348+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00370312",
+      "pub_count": 55,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:58.550896+08:00",
+      "rx_completed_time": "2026-10-25T19:33:58.551902+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00390312",
+      "pub_count": 57,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:59.054504+08:00",
+      "rx_completed_time": "2026-10-25T19:33:59.105523+08:00",
+      "elapsed_ms": 47.0,
+      "status": "003b0312",
+      "pub_count": 59,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:33:59.607571+08:00",
+      "rx_completed_time": "2026-10-25T19:33:59.608785+08:00",
+      "elapsed_ms": 0.0,
+      "status": "003e0312",
+      "pub_count": 62,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:00.111126+08:00",
+      "rx_completed_time": "2026-10-25T19:34:00.112284+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00400312",
+      "pub_count": 64,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:00.614727+08:00",
+      "rx_completed_time": "2026-10-25T19:34:00.616257+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00420312",
+      "pub_count": 66,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:02.097525+08:00",
+      "rx_completed_time": "2026-10-25T19:34:02.098705+08:00",
+      "elapsed_ms": 16.0,
+      "status": "00470312",
+      "pub_count": 71,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:02.150750+08:00",
+      "rx_completed_time": "2026-10-25T19:34:02.152875+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00490312",
+      "pub_count": 73,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:02.654453+08:00",
+      "rx_completed_time": "2026-10-25T19:34:02.655702+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00580312",
+      "pub_count": 88,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:03.158690+08:00",
+      "rx_completed_time": "2026-10-25T19:34:03.209783+08:00",
+      "elapsed_ms": 62.0,
+      "status": "00670312",
+      "pub_count": 103,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:03.711839+08:00",
+      "rx_completed_time": "2026-10-25T19:34:03.713267+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00780312",
+      "pub_count": 120,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:04.214985+08:00",
+      "rx_completed_time": "2026-10-25T19:34:04.216989+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00870312",
+      "pub_count": 135,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:04.719127+08:00",
+      "rx_completed_time": "2026-10-25T19:34:04.720631+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00960312",
+      "pub_count": 150,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:05.222145+08:00",
+      "rx_completed_time": "2026-10-25T19:34:05.273143+08:00",
+      "elapsed_ms": 47.0,
+      "status": "00a50312",
+      "pub_count": 165,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:05.775012+08:00",
+      "rx_completed_time": "2026-10-25T19:34:05.826014+08:00",
+      "elapsed_ms": 47.0,
+      "status": "00b60312",
+      "pub_count": 182,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:06.328452+08:00",
+      "rx_completed_time": "2026-10-25T19:34:06.329961+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00c70312",
+      "pub_count": 199,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:06.831540+08:00",
+      "rx_completed_time": "2026-10-25T19:34:06.832668+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00d60312",
+      "pub_count": 214,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:07.335420+08:00",
+      "rx_completed_time": "2026-10-25T19:34:07.336425+08:00",
+      "elapsed_ms": 0.0,
+      "status": "00e50312",
+      "pub_count": 229,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:07.838970+08:00",
+      "rx_completed_time": "2026-10-25T19:34:07.889949+08:00",
+      "elapsed_ms": 47.0,
+      "status": "00f40312",
+      "pub_count": 244,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:08.392572+08:00",
+      "rx_completed_time": "2026-10-25T19:34:08.443381+08:00",
+      "elapsed_ms": 63.0,
+      "status": "01050312",
+      "pub_count": 261,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:08.945195+08:00",
+      "rx_completed_time": "2026-10-25T19:34:08.946198+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01150312",
+      "pub_count": 277,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:09.448439+08:00",
+      "rx_completed_time": "2026-10-25T19:34:09.450442+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01250312",
+      "pub_count": 293,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:09.952243+08:00",
+      "rx_completed_time": "2026-10-25T19:34:09.954251+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01340312",
+      "pub_count": 308,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:10.455475+08:00",
+      "rx_completed_time": "2026-10-25T19:34:10.506543+08:00",
+      "elapsed_ms": 62.0,
+      "status": "01430312",
+      "pub_count": 323,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:11.989993+08:00",
+      "rx_completed_time": "2026-10-25T19:34:11.991995+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01710312",
+      "pub_count": 369,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:11.992994+08:00",
+      "rx_completed_time": "2026-10-25T19:34:11.996991+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01710312",
+      "pub_count": 369,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:12.498410+08:00",
+      "rx_completed_time": "2026-10-25T19:34:12.499940+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01730312",
+      "pub_count": 371,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:13.002241+08:00",
+      "rx_completed_time": "2026-10-25T19:34:13.003254+08:00",
+      "elapsed_ms": 16.0,
+      "status": "01750312",
+      "pub_count": 373,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:13.506134+08:00",
+      "rx_completed_time": "2026-10-25T19:34:13.507153+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01770312",
+      "pub_count": 375,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:14.009483+08:00",
+      "rx_completed_time": "2026-10-25T19:34:14.060432+08:00",
+      "elapsed_ms": 47.0,
+      "status": "01790312",
+      "pub_count": 377,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:14.562617+08:00",
+      "rx_completed_time": "2026-10-25T19:34:14.563620+08:00",
+      "elapsed_ms": 0.0,
+      "status": "017c0312",
+      "pub_count": 380,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:15.066544+08:00",
+      "rx_completed_time": "2026-10-25T19:34:15.068184+08:00",
+      "elapsed_ms": 0.0,
+      "status": "017e0312",
+      "pub_count": 382,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:15.570329+08:00",
+      "rx_completed_time": "2026-10-25T19:34:15.572066+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01800312",
+      "pub_count": 384,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:16.074110+08:00",
+      "rx_completed_time": "2026-10-25T19:34:16.125246+08:00",
+      "elapsed_ms": 46.0,
+      "status": "01820312",
+      "pub_count": 386,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:16.627138+08:00",
+      "rx_completed_time": "2026-10-25T19:34:16.678111+08:00",
+      "elapsed_ms": 63.0,
+      "status": "01840312",
+      "pub_count": 388,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:17.180087+08:00",
+      "rx_completed_time": "2026-10-25T19:34:17.230901+08:00",
+      "elapsed_ms": 47.0,
+      "status": "01860312",
+      "pub_count": 390,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:17.732532+08:00",
+      "rx_completed_time": "2026-10-25T19:34:17.733783+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01880312",
+      "pub_count": 392,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:18.235874+08:00",
+      "rx_completed_time": "2026-10-25T19:34:18.237124+08:00",
+      "elapsed_ms": 0.0,
+      "status": "018a0312",
+      "pub_count": 394,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:18.739300+08:00",
+      "rx_completed_time": "2026-10-25T19:34:18.740822+08:00",
+      "elapsed_ms": 0.0,
+      "status": "018c0312",
+      "pub_count": 396,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:19.242931+08:00",
+      "rx_completed_time": "2026-10-25T19:34:19.293829+08:00",
+      "elapsed_ms": 47.0,
+      "status": "018e0312",
+      "pub_count": 398,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:19.796691+08:00",
+      "rx_completed_time": "2026-10-25T19:34:19.847699+08:00",
+      "elapsed_ms": 63.0,
+      "status": "01910312",
+      "pub_count": 401,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:20.349613+08:00",
+      "rx_completed_time": "2026-10-25T19:34:20.351227+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01930312",
+      "pub_count": 403,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:21.835583+08:00",
+      "rx_completed_time": "2026-10-25T19:34:21.836583+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01990312",
+      "pub_count": 409,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:21.838583+08:00",
+      "rx_completed_time": "2026-10-25T19:34:21.841923+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01990312",
+      "pub_count": 409,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:22.343431+08:00",
+      "rx_completed_time": "2026-10-25T19:34:22.344459+08:00",
+      "elapsed_ms": 0.0,
+      "status": "019b0312",
+      "pub_count": 411,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:22.847461+08:00",
+      "rx_completed_time": "2026-10-25T19:34:22.848537+08:00",
+      "elapsed_ms": 0.0,
+      "status": "019d0312",
+      "pub_count": 413,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:23.351530+08:00",
+      "rx_completed_time": "2026-10-25T19:34:23.402484+08:00",
+      "elapsed_ms": 47.0,
+      "status": "019f0312",
+      "pub_count": 415,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:23.905013+08:00",
+      "rx_completed_time": "2026-10-25T19:34:23.906310+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01a10312",
+      "pub_count": 417,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:24.408869+08:00",
+      "rx_completed_time": "2026-10-25T19:34:24.410129+08:00",
+      "elapsed_ms": 15.0,
+      "status": "01a30312",
+      "pub_count": 419,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:24.912727+08:00",
+      "rx_completed_time": "2026-10-25T19:34:24.913742+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01a50312",
+      "pub_count": 421,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:25.416728+08:00",
+      "rx_completed_time": "2026-10-25T19:34:25.418116+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01a70312",
+      "pub_count": 423,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:25.920734+08:00",
+      "rx_completed_time": "2026-10-25T19:34:25.922025+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01a90312",
+      "pub_count": 425,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:26.425187+08:00",
+      "rx_completed_time": "2026-10-25T19:34:26.426202+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01ab0312",
+      "pub_count": 427,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:26.928431+08:00",
+      "rx_completed_time": "2026-10-25T19:34:26.929435+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01ad0312",
+      "pub_count": 429,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:27.432131+08:00",
+      "rx_completed_time": "2026-10-25T19:34:27.433655+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01af0312",
+      "pub_count": 431,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:27.935454+08:00",
+      "rx_completed_time": "2026-10-25T19:34:27.986731+08:00",
+      "elapsed_ms": 47.0,
+      "status": "01b10312",
+      "pub_count": 433,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:28.488698+08:00",
+      "rx_completed_time": "2026-10-25T19:34:28.490135+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01b30312",
+      "pub_count": 435,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:28.992942+08:00",
+      "rx_completed_time": "2026-10-25T19:34:28.993957+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01b50312",
+      "pub_count": 437,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:29.496424+08:00",
+      "rx_completed_time": "2026-10-25T19:34:29.498443+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01b70312",
+      "pub_count": 439,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:30.000360+08:00",
+      "rx_completed_time": "2026-10-25T19:34:30.051325+08:00",
+      "elapsed_ms": 63.0,
+      "status": "01b90312",
+      "pub_count": 441,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:31.532309+08:00",
+      "rx_completed_time": "2026-10-25T19:34:31.533815+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01bf0312",
+      "pub_count": 447,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:31.535872+08:00",
+      "rx_completed_time": "2026-10-25T19:34:31.537884+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01bf0312",
+      "pub_count": 447,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:32.040365+08:00",
+      "rx_completed_time": "2026-10-25T19:34:32.041884+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01c10312",
+      "pub_count": 449,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:32.543958+08:00",
+      "rx_completed_time": "2026-10-25T19:34:32.544976+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01c30312",
+      "pub_count": 451,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:33.047701+08:00",
+      "rx_completed_time": "2026-10-25T19:34:33.048707+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01c50312",
+      "pub_count": 453,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:33.552333+08:00",
+      "rx_completed_time": "2026-10-25T19:34:33.553337+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01c70312",
+      "pub_count": 455,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:34.056333+08:00",
+      "rx_completed_time": "2026-10-25T19:34:34.057500+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01c90312",
+      "pub_count": 457,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:34.560397+08:00",
+      "rx_completed_time": "2026-10-25T19:34:34.561405+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01cb0312",
+      "pub_count": 459,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:35.064774+08:00",
+      "rx_completed_time": "2026-10-25T19:34:35.065777+08:00",
+      "elapsed_ms": 16.0,
+      "status": "01cd0312",
+      "pub_count": 461,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:35.568746+08:00",
+      "rx_completed_time": "2026-10-25T19:34:35.569752+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01cf0312",
+      "pub_count": 463,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:36.072520+08:00",
+      "rx_completed_time": "2026-10-25T19:34:36.123157+08:00",
+      "elapsed_ms": 46.0,
+      "status": "01d10312",
+      "pub_count": 465,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:36.625291+08:00",
+      "rx_completed_time": "2026-10-25T19:34:36.676275+08:00",
+      "elapsed_ms": 63.0,
+      "status": "01d30312",
+      "pub_count": 467,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:37.178718+08:00",
+      "rx_completed_time": "2026-10-25T19:34:37.179738+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01d60312",
+      "pub_count": 470,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:37.682553+08:00",
+      "rx_completed_time": "2026-10-25T19:34:37.683560+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01d80312",
+      "pub_count": 472,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:38.186575+08:00",
+      "rx_completed_time": "2026-10-25T19:34:38.187720+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01da0312",
+      "pub_count": 474,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:38.690656+08:00",
+      "rx_completed_time": "2026-10-25T19:34:38.741434+08:00",
+      "elapsed_ms": 46.0,
+      "status": "01dc0312",
+      "pub_count": 476,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:39.243891+08:00",
+      "rx_completed_time": "2026-10-25T19:34:39.244926+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01de0312",
+      "pub_count": 478,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:39.747570+08:00",
+      "rx_completed_time": "2026-10-25T19:34:39.748657+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01e00312",
+      "pub_count": 480,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:41.228681+08:00",
+      "rx_completed_time": "2026-10-25T19:34:41.231212+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01e60312",
+      "pub_count": 486,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:41.363970+08:00",
+      "rx_completed_time": "2026-10-25T19:34:41.366066+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01e60312",
+      "pub_count": 486,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:41.868279+08:00",
+      "rx_completed_time": "2026-10-25T19:34:41.919329+08:00",
+      "elapsed_ms": 47.0,
+      "status": "01e80312",
+      "pub_count": 488,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:42.422051+08:00",
+      "rx_completed_time": "2026-10-25T19:34:42.423079+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01ea0312",
+      "pub_count": 490,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:42.925962+08:00",
+      "rx_completed_time": "2026-10-25T19:34:42.927487+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01ec0312",
+      "pub_count": 492,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:43.429532+08:00",
+      "rx_completed_time": "2026-10-25T19:34:43.430550+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01ee0312",
+      "pub_count": 494,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:43.933505+08:00",
+      "rx_completed_time": "2026-10-25T19:34:43.934612+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01f00312",
+      "pub_count": 496,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:44.437194+08:00",
+      "rx_completed_time": "2026-10-25T19:34:44.438212+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01f20312",
+      "pub_count": 498,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:44.941516+08:00",
+      "rx_completed_time": "2026-10-25T19:34:44.942519+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01f40312",
+      "pub_count": 500,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:45.445387+08:00",
+      "rx_completed_time": "2026-10-25T19:34:45.446407+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01f60312",
+      "pub_count": 502,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:45.949018+08:00",
+      "rx_completed_time": "2026-10-25T19:34:45.951035+08:00",
+      "elapsed_ms": 0.0,
+      "status": "01f90312",
+      "pub_count": 505,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:46.453653+08:00",
+      "rx_completed_time": "2026-10-25T19:34:46.504508+08:00",
+      "elapsed_ms": 62.0,
+      "status": "01fb0312",
+      "pub_count": 507,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:47.007183+08:00",
+      "rx_completed_time": "2026-10-25T19:34:47.058024+08:00",
+      "elapsed_ms": 47.0,
+      "status": "01fd0312",
+      "pub_count": 509,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:47.560167+08:00",
+      "rx_completed_time": "2026-10-25T19:34:47.610916+08:00",
+      "elapsed_ms": 47.0,
+      "status": "01ff0312",
+      "pub_count": 511,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:48.113769+08:00",
+      "rx_completed_time": "2026-10-25T19:34:48.114945+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02010312",
+      "pub_count": 513,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:48.617650+08:00",
+      "rx_completed_time": "2026-10-25T19:34:48.619059+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02030312",
+      "pub_count": 515,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:49.121531+08:00",
+      "rx_completed_time": "2026-10-25T19:34:49.123141+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02050312",
+      "pub_count": 517,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:49.625625+08:00",
+      "rx_completed_time": "2026-10-25T19:34:49.676298+08:00",
+      "elapsed_ms": 63.0,
+      "status": "02070312",
+      "pub_count": 519,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:51.154841+08:00",
+      "rx_completed_time": "2026-10-25T19:34:51.156186+08:00",
+      "elapsed_ms": 0.0,
+      "status": "020d0312",
+      "pub_count": 525,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:51.241152+08:00",
+      "rx_completed_time": "2026-10-25T19:34:51.242152+08:00",
+      "elapsed_ms": 0.0,
+      "status": "020e0312",
+      "pub_count": 526,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:51.744532+08:00",
+      "rx_completed_time": "2026-10-25T19:34:51.745536+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02100312",
+      "pub_count": 528,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:52.248837+08:00",
+      "rx_completed_time": "2026-10-25T19:34:52.249420+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02120312",
+      "pub_count": 530,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:52.752904+08:00",
+      "rx_completed_time": "2026-10-25T19:34:52.753964+08:00",
+      "elapsed_ms": 16.0,
+      "status": "02140312",
+      "pub_count": 532,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:53.256950+08:00",
+      "rx_completed_time": "2026-10-25T19:34:53.257953+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02160312",
+      "pub_count": 534,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:53.760808+08:00",
+      "rx_completed_time": "2026-10-25T19:34:53.761814+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02180312",
+      "pub_count": 536,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:54.264927+08:00",
+      "rx_completed_time": "2026-10-25T19:34:54.265934+08:00",
+      "elapsed_ms": 0.0,
+      "status": "021a0312",
+      "pub_count": 538,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:54.768607+08:00",
+      "rx_completed_time": "2026-10-25T19:34:54.769844+08:00",
+      "elapsed_ms": 16.0,
+      "status": "021c0312",
+      "pub_count": 540,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:55.273174+08:00",
+      "rx_completed_time": "2026-10-25T19:34:55.274177+08:00",
+      "elapsed_ms": 0.0,
+      "status": "021e0312",
+      "pub_count": 542,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:55.777249+08:00",
+      "rx_completed_time": "2026-10-25T19:34:55.778797+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02200312",
+      "pub_count": 544,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:56.281634+08:00",
+      "rx_completed_time": "2026-10-25T19:34:56.282643+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02220312",
+      "pub_count": 546,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:56.785461+08:00",
+      "rx_completed_time": "2026-10-25T19:34:56.786470+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02240312",
+      "pub_count": 548,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:57.289193+08:00",
+      "rx_completed_time": "2026-10-25T19:34:57.339910+08:00",
+      "elapsed_ms": 47.0,
+      "status": "02260312",
+      "pub_count": 550,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:57.842513+08:00",
+      "rx_completed_time": "2026-10-25T19:34:57.893469+08:00",
+      "elapsed_ms": 47.0,
+      "status": "02280312",
+      "pub_count": 552,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:58.396428+08:00",
+      "rx_completed_time": "2026-10-25T19:34:58.397571+08:00",
+      "elapsed_ms": 0.0,
+      "status": "022a0312",
+      "pub_count": 554,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:58.900520+08:00",
+      "rx_completed_time": "2026-10-25T19:34:58.901523+08:00",
+      "elapsed_ms": 0.0,
+      "status": "022c0312",
+      "pub_count": 556,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:34:59.404627+08:00",
+      "rx_completed_time": "2026-10-25T19:34:59.405634+08:00",
+      "elapsed_ms": 0.0,
+      "status": "022e0312",
+      "pub_count": 558,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:00.854084+08:00",
+      "rx_completed_time": "2026-10-25T19:35:00.855084+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02340312",
+      "pub_count": 564,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:00.857084+08:00",
+      "rx_completed_time": "2026-10-25T19:35:00.859084+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02340312",
+      "pub_count": 564,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:01.361181+08:00",
+      "rx_completed_time": "2026-10-25T19:35:01.362285+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02360312",
+      "pub_count": 566,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:01.865442+08:00",
+      "rx_completed_time": "2026-10-25T19:35:01.916326+08:00",
+      "elapsed_ms": 47.0,
+      "status": "02380312",
+      "pub_count": 568,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:02.419102+08:00",
+      "rx_completed_time": "2026-10-25T19:35:02.420118+08:00",
+      "elapsed_ms": 0.0,
+      "status": "023a0312",
+      "pub_count": 570,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:02.923604+08:00",
+      "rx_completed_time": "2026-10-25T19:35:02.924616+08:00",
+      "elapsed_ms": 0.0,
+      "status": "023c0312",
+      "pub_count": 572,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:03.427506+08:00",
+      "rx_completed_time": "2026-10-25T19:35:03.429150+08:00",
+      "elapsed_ms": 0.0,
+      "status": "023e0312",
+      "pub_count": 574,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:03.931155+08:00",
+      "rx_completed_time": "2026-10-25T19:35:03.982785+08:00",
+      "elapsed_ms": 47.0,
+      "status": "02400312",
+      "pub_count": 576,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:04.484919+08:00",
+      "rx_completed_time": "2026-10-25T19:35:04.485926+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02420312",
+      "pub_count": 578,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:04.989096+08:00",
+      "rx_completed_time": "2026-10-25T19:35:04.990335+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02440312",
+      "pub_count": 580,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:05.493151+08:00",
+      "rx_completed_time": "2026-10-25T19:35:05.495163+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02460312",
+      "pub_count": 582,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:05.997647+08:00",
+      "rx_completed_time": "2026-10-25T19:35:05.998667+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02480312",
+      "pub_count": 584,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:06.501980+08:00",
+      "rx_completed_time": "2026-10-25T19:35:06.503053+08:00",
+      "elapsed_ms": 16.0,
+      "status": "024a0312",
+      "pub_count": 586,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:07.005899+08:00",
+      "rx_completed_time": "2026-10-25T19:35:07.056759+08:00",
+      "elapsed_ms": 47.0,
+      "status": "024c0312",
+      "pub_count": 588,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:07.559157+08:00",
+      "rx_completed_time": "2026-10-25T19:35:07.560351+08:00",
+      "elapsed_ms": 0.0,
+      "status": "024e0312",
+      "pub_count": 590,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:08.063536+08:00",
+      "rx_completed_time": "2026-10-25T19:35:08.064681+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02500312",
+      "pub_count": 592,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:08.567765+08:00",
+      "rx_completed_time": "2026-10-25T19:35:08.569597+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02520312",
+      "pub_count": 594,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:09.072521+08:00",
+      "rx_completed_time": "2026-10-25T19:35:09.073527+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02540312",
+      "pub_count": 596,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:10.549317+08:00",
+      "rx_completed_time": "2026-10-25T19:35:10.550318+08:00",
+      "elapsed_ms": 16.0,
+      "status": "025a0312",
+      "pub_count": 602,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:10.554751+08:00",
+      "rx_completed_time": "2026-10-25T19:35:10.556838+08:00",
+      "elapsed_ms": 0.0,
+      "status": "025a0312",
+      "pub_count": 602,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:11.059550+08:00",
+      "rx_completed_time": "2026-10-25T19:35:11.060558+08:00",
+      "elapsed_ms": 0.0,
+      "status": "025c0312",
+      "pub_count": 604,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:11.564264+08:00",
+      "rx_completed_time": "2026-10-25T19:35:11.566271+08:00",
+      "elapsed_ms": 16.0,
+      "status": "025e0312",
+      "pub_count": 606,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:12.069078+08:00",
+      "rx_completed_time": "2026-10-25T19:35:12.070148+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02600312",
+      "pub_count": 608,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:12.573562+08:00",
+      "rx_completed_time": "2026-10-25T19:35:12.574577+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02620312",
+      "pub_count": 610,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:13.078059+08:00",
+      "rx_completed_time": "2026-10-25T19:35:13.079730+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02640312",
+      "pub_count": 612,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:13.582321+08:00",
+      "rx_completed_time": "2026-10-25T19:35:13.583414+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02660312",
+      "pub_count": 614,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:14.086233+08:00",
+      "rx_completed_time": "2026-10-25T19:35:14.087488+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02680312",
+      "pub_count": 616,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:14.590692+08:00",
+      "rx_completed_time": "2026-10-25T19:35:14.641649+08:00",
+      "elapsed_ms": 47.0,
+      "status": "026a0312",
+      "pub_count": 618,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:15.144692+08:00",
+      "rx_completed_time": "2026-10-25T19:35:15.195664+08:00",
+      "elapsed_ms": 47.0,
+      "status": "026d0312",
+      "pub_count": 621,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:15.698072+08:00",
+      "rx_completed_time": "2026-10-25T19:35:15.699599+08:00",
+      "elapsed_ms": 0.0,
+      "status": "026f0312",
+      "pub_count": 623,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:16.202797+08:00",
+      "rx_completed_time": "2026-10-25T19:35:16.203811+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02710312",
+      "pub_count": 625,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:16.706809+08:00",
+      "rx_completed_time": "2026-10-25T19:35:16.708314+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02730312",
+      "pub_count": 627,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:17.210806+08:00",
+      "rx_completed_time": "2026-10-25T19:35:17.212020+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02750312",
+      "pub_count": 629,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:17.714956+08:00",
+      "rx_completed_time": "2026-10-25T19:35:17.715964+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02770312",
+      "pub_count": 631,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:18.219092+08:00",
+      "rx_completed_time": "2026-10-25T19:35:18.221101+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02790312",
+      "pub_count": 633,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:18.723142+08:00",
+      "rx_completed_time": "2026-10-25T19:35:18.724511+08:00",
+      "elapsed_ms": 0.0,
+      "status": "027b0312",
+      "pub_count": 635,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:20.220985+08:00",
+      "rx_completed_time": "2026-10-25T19:35:20.223668+08:00",
+      "elapsed_ms": 16.0,
+      "status": "02810312",
+      "pub_count": 641,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:20.223668+08:00",
+      "rx_completed_time": "2026-10-25T19:35:20.274591+08:00",
+      "elapsed_ms": 47.0,
+      "status": "02810312",
+      "pub_count": 641,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:20.777149+08:00",
+      "rx_completed_time": "2026-10-25T19:35:20.779417+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02830312",
+      "pub_count": 643,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:21.282568+08:00",
+      "rx_completed_time": "2026-10-25T19:35:21.283578+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02850312",
+      "pub_count": 645,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:21.786809+08:00",
+      "rx_completed_time": "2026-10-25T19:35:21.787827+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02870312",
+      "pub_count": 647,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:22.291391+08:00",
+      "rx_completed_time": "2026-10-25T19:35:22.292927+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02890312",
+      "pub_count": 649,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:22.795701+08:00",
+      "rx_completed_time": "2026-10-25T19:35:22.846667+08:00",
+      "elapsed_ms": 47.0,
+      "status": "028b0312",
+      "pub_count": 651,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:23.349675+08:00",
+      "rx_completed_time": "2026-10-25T19:35:23.350808+08:00",
+      "elapsed_ms": 0.0,
+      "status": "028d0312",
+      "pub_count": 653,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:23.854348+08:00",
+      "rx_completed_time": "2026-10-25T19:35:23.855367+08:00",
+      "elapsed_ms": 0.0,
+      "status": "028f0312",
+      "pub_count": 655,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:24.358723+08:00",
+      "rx_completed_time": "2026-10-25T19:35:24.360288+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02910312",
+      "pub_count": 657,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:24.862737+08:00",
+      "rx_completed_time": "2026-10-25T19:35:24.864269+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02930312",
+      "pub_count": 659,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:25.367383+08:00",
+      "rx_completed_time": "2026-10-25T19:35:25.368386+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02950312",
+      "pub_count": 661,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:25.871482+08:00",
+      "rx_completed_time": "2026-10-25T19:35:25.873484+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02970312",
+      "pub_count": 663,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:26.376103+08:00",
+      "rx_completed_time": "2026-10-25T19:35:26.377610+08:00",
+      "elapsed_ms": 0.0,
+      "status": "02990312",
+      "pub_count": 665,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:26.880164+08:00",
+      "rx_completed_time": "2026-10-25T19:35:26.881188+08:00",
+      "elapsed_ms": 0.0,
+      "status": "029b0312",
+      "pub_count": 667,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:27.384601+08:00",
+      "rx_completed_time": "2026-10-25T19:35:27.386090+08:00",
+      "elapsed_ms": 0.0,
+      "status": "029d0312",
+      "pub_count": 669,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:27.888804+08:00",
+      "rx_completed_time": "2026-10-25T19:35:27.891002+08:00",
+      "elapsed_ms": 0.0,
+      "status": "029f0312",
+      "pub_count": 671,
+      "valid": 1
+    },
+    {
+      "tx_time": "2026-10-25T19:35:28.393596+08:00",
+      "rx_completed_time": "2026-10-25T19:35:28.394600+08:00",
+      "elapsed_ms": 16.0,
+      "status": "02a10312",
+      "pub_count": 673,
+      "valid": 1
+    }
+  ],
+  "limitation": "Host software timestamps/bytes; not UART pin-level timing or direct live-parameter readback."
+}

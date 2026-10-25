@@ -1,0 +1,164 @@
+[
+  {
+    "stage": "real_baseline",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_baseline_00.png",
+    "package_path": "photos/193339_737475/real_baseline_00.png",
+    "sha256": "02e3d80f73d828c35183c74d70b46b99ee72b273c343e6bbb73d5391e851e107"
+  },
+  {
+    "stage": "real_baseline",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_baseline_01.png",
+    "package_path": "photos/193339_737475/real_baseline_01.png",
+    "sha256": "6f602f192305d09420d699fc3ccc10e10d9881407cb34ba7e153a382efe825c6"
+  },
+  {
+    "stage": "real_baseline",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_baseline_02.png",
+    "package_path": "photos/193339_737475/real_baseline_02.png",
+    "sha256": "269eff9dee6070cc3f9458930b0fc499ca56a99bc706aace7523f9452e3c7c3e"
+  },
+  {
+    "stage": "identity",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\identity_00.png",
+    "package_path": "photos/193339_737475/identity_00.png",
+    "sha256": "3c6587c76c4d69f74e57cd182206b22a972d13eb8ba00e95daaa72142ffd6b78"
+  },
+  {
+    "stage": "identity",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\identity_01.png",
+    "package_path": "photos/193339_737475/identity_01.png",
+    "sha256": "f6f00cb885e40b3b64e1d7889e88c5c3a310f445db381510fcf75576063397cc"
+  },
+  {
+    "stage": "identity",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\identity_02.png",
+    "package_path": "photos/193339_737475/identity_02.png",
+    "sha256": "aca57a18c15132776197f4d24f908e16154a9a9dca37e9fbe496d142bf715099"
+  },
+  {
+    "stage": "real_restored",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_restored_00.png",
+    "package_path": "photos/193339_737475/real_restored_00.png",
+    "sha256": "10006a20700b8a99411a89525fb7ca824dbac355f4e1956386489cfdce6c410b"
+  },
+  {
+    "stage": "real_restored",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_restored_01.png",
+    "package_path": "photos/193339_737475/real_restored_01.png",
+    "sha256": "731e08f650e44a858bbbf3517107801e53542adc68e09d98a57646c80c0f1df4"
+  },
+  {
+    "stage": "real_restored",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\real_restored_02.png",
+    "package_path": "photos/193339_737475/real_restored_02.png",
+    "sha256": "7a608b5172e71c04933860b3b1d924f60d186b6b6d23683ac356e2634ea8e099"
+  },
+  {
+    "stage": "affine_tx24",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_tx24_00.png",
+    "package_path": "photos/193339_737475/affine_tx24_00.png",
+    "sha256": "ffbb2f98814db2a9605fb83836944211a5071d88fd30542ed2d0de55ba5c2c7d"
+  },
+  {
+    "stage": "affine_tx24",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_tx24_01.png",
+    "package_path": "photos/193339_737475/affine_tx24_01.png",
+    "sha256": "99fc9dba2fb9e3438e7a8568110120ff8bc277fda314dd26f1141c439667992c"
+  },
+  {
+    "stage": "affine_tx24",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_tx24_02.png",
+    "package_path": "photos/193339_737475/affine_tx24_02.png",
+    "sha256": "be6bde48e2b0bf30232356f95495c41e586c25f7e86b88492bcb6892c113c625"
+  },
+  {
+    "stage": "affine_off",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_off_00.png",
+    "package_path": "photos/193339_737475/affine_off_00.png",
+    "sha256": "d0abf552475222d2e52161aa440cf4289dd2dcd02713ce5a6b9c50461ccd52b3"
+  },
+  {
+    "stage": "affine_off",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_off_01.png",
+    "package_path": "photos/193339_737475/affine_off_01.png",
+    "sha256": "16b4a6edcd44ce2139c4cb1a6cc977c53cffd470bc20d916a6e861ce97df1a76"
+  },
+  {
+    "stage": "affine_off",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\affine_off_02.png",
+    "package_path": "photos/193339_737475/affine_off_02.png",
+    "sha256": "a40d2f1c5b62eda7164dd6bb19f22f69ed24f49fe4a0fcaa832053127315ed43"
+  },
+  {
+    "stage": "gamma_identity",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_identity_00.png",
+    "package_path": "photos/193339_737475/gamma_identity_00.png",
+    "sha256": "02361812aa55291f42c1272665d30e9629a8e3c25309fa54ea7401d04adb9f80"
+  },
+  {
+    "stage": "gamma_identity",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_identity_01.png",
+    "package_path": "photos/193339_737475/gamma_identity_01.png",
+    "sha256": "b7cb6004f3714ca775bd6d0f44422d1ff8391892b0a9839e7912550f78c91d7c"
+  },
+  {
+    "stage": "gamma_identity",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_identity_02.png",
+    "package_path": "photos/193339_737475/gamma_identity_02.png",
+    "sha256": "04dd0af5c74ed105f105f29722deae5e936c26769594db07d49558aaf69d74bf"
+  },
+  {
+    "stage": "gamma_dim",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_dim_00.png",
+    "package_path": "photos/193339_737475/gamma_dim_00.png",
+    "sha256": "81c33c4eaee3965c5d353e977107544afb25880e6fe84852a2d6a6b114c80176"
+  },
+  {
+    "stage": "gamma_dim",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_dim_01.png",
+    "package_path": "photos/193339_737475/gamma_dim_01.png",
+    "sha256": "e8f59de22ffc03255281f26b50da8af93413644e3ec9c13ecf4f7c89b17071d3"
+  },
+  {
+    "stage": "gamma_dim",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_dim_02.png",
+    "package_path": "photos/193339_737475/gamma_dim_02.png",
+    "sha256": "bdd6a41c658ba69388269f906217754a24378a3895b23466eaed8e2de67d9ca5"
+  },
+  {
+    "stage": "gamma_off",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_off_00.png",
+    "package_path": "photos/193339_737475/gamma_off_00.png",
+    "sha256": "e5743c3880c6d54b6279035985410e7cf86c2d20100576a7cbd01496b21c3c64"
+  },
+  {
+    "stage": "gamma_off",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_off_01.png",
+    "package_path": "photos/193339_737475/gamma_off_01.png",
+    "sha256": "b5511161334efe05b1b5177df0968b540d45418732d184e82936d1d6e63c627a"
+  },
+  {
+    "stage": "gamma_off",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\gamma_off_02.png",
+    "package_path": "photos/193339_737475/gamma_off_02.png",
+    "sha256": "1358d9099b4672489be9f173d9cf70bb7b14bd906a371d74eb1478fe0bdc278c"
+  },
+  {
+    "stage": "rejected_frames",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\rejected_frames_00.png",
+    "package_path": "photos/193339_737475/rejected_frames_00.png",
+    "sha256": "23e378960c4cb5aaae5844d3c839e3404c0213142cb89fda4d1e021bcc538824"
+  },
+  {
+    "stage": "rejected_frames",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\rejected_frames_01.png",
+    "package_path": "photos/193339_737475/rejected_frames_01.png",
+    "sha256": "08702489e835dfbb46d85d6e637f4dbfef7f8b151d7d4ec4367a4df3ca98f380"
+  },
+  {
+    "stage": "rejected_frames",
+    "original_path": "C:\\Users\\叶翔\\Desktop\\photo\\module2_uart_20261025\\193339_737475\\rejected_frames_02.png",
+    "package_path": "photos/193339_737475/rejected_frames_02.png",
+    "sha256": "76fdba47ca4f403decf64d39abff1e6775deaf94d87d7ccbc50a4f78c555e465"
+  }
+]
