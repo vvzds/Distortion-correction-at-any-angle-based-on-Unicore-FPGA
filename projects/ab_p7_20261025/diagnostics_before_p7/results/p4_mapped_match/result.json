@@ -1,0 +1,25 @@
+{
+  "exit_code": 1,
+  "argv": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "W:/results/p4_mapped_match/report.tcl",
+    "-work_dir",
+    "W:/results/p4_mapped_match/",
+    "-project_name",
+    "p4_mapped_match"
+  ],
+  "input_db": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\device_map\\hdmi_ddr_ov5640_top_map.adf",
+  "input_sha256": "26f8cd9a8b66f6f7c8bff067302320c92f5e2d6f02da9bca303d6dce5017f422",
+  "input_unchanged": true,
+  "source_version": "P4 mapped estimate (no route)",
+  "errors": [
+    "E: Flow-0013: The input DB 'Y:/device_map/hdmi_ddr_ov5640_top_map.adf' should be of phase 'PNR'.",
+    "E: Failed to execute the script : "
+  ],
+  "selected_endpoints_match": false,
+  "paths": [],
+  "report_sha256": null,
+  "synthesis_or_pnr_executed": false,
+  "kinds": {}
+}

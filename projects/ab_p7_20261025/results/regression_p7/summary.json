@@ -1,0 +1,29 @@
+{
+  "engine": "icarus",
+  "results": [
+    {
+      "case": "integration",
+      "passed": true
+    },
+    {
+      "case": "legacy_sim",
+      "passed": true
+    },
+    {
+      "case": "identity",
+      "passed": true
+    },
+    {
+      "case": "real_joint",
+      "passed": true
+    },
+    {
+      "case": "c6_real_subsystem",
+      "passed": true
+    },
+    {
+      "case": "c6_host_arb",
+      "passed": true
+    }
+  ]
+}

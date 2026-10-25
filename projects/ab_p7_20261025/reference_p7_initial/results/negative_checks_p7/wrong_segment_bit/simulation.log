@@ -1,0 +1,2 @@
+FATAL: C:\Users\lenovo\Desktop\ww\AB_P7标签RAM分银行_20261025\tests\cache_p7_banks_tb.sv:187: output o_fetch_seg mismatch edge=24
+       Time: 189000  Scope: cache_p7_banks_tb

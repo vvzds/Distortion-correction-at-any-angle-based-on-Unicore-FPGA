@@ -1,0 +1,21 @@
+[8076000] I0 done
+[603708000] I1 done (gating/gnt/first-read OK)
+[33523180000] PASS I2 identity copy: slot 4 == golden (f=0 gmode=0)
+[66702892000] PASS I2b aff-identity copy: slot 5 == golden (f=0 gmode=0)
+[66702892000] I2 done
+[99882604000] PASS I3 frame3 pre-gamma: slot 6 == golden (f=0 gmode=0)
+[133062316000] PASS I3 gamma B-invert: slot 7 == golden (f=0 gmode=1)
+[133062316000] I3 done
+[133184180000] PASS I4 loose status: loose status=00040312
+[133184180000] I4 done
+[199421740000] PASS I5 frame5: slot 4 == golden (f=0 gmode=1)
+[199421740000] PASS I5 frame6: slot 5 == golden (f=3 gmode=1)
+[232601452000] PASS I5 frame7: slot 6 == golden (f=4 gmode=1)
+[232601452000] I5 done
+[265943028000] PASS I6 exact status: status=00080012
+[266262788000] I6 done (stop + exact status + restart)
+[299471652000] PASS I7 frame8 (free-run): slot 7 == golden (f=4 gmode=1)
+[299471652000] PASS I7 frame9 (slow write): slot 4 == golden (f=4 gmode=1)
+[299471652000] I7 done (interlock: slotreq@299471597 > commit@299471581)
+=== ALL TESTS PASSED (err=0) ===
+C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\G4_AB_R1_R4_20261023\candidate\integration\tb\corr_top_tb.v:684: $finish called at 299472452000 (1ps)

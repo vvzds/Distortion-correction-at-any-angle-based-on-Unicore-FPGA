@@ -1,0 +1,2 @@
+CACHE_MODE_SWITCH PASS checks=10 segment_loads=12 transitions=3
+C:\Users\lenovo\Desktop\ww\AB_P7R1标签RAM与共享比较_20261025\tests\cache_mode_switch_tb.v:210: $finish called at 5432000 (1ps)

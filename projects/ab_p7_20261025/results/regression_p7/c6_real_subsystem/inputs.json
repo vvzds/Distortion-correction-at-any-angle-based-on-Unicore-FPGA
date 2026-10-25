@@ -1,0 +1,132 @@
+{
+  "case": "c6_real_subsystem",
+  "engine": "icarus",
+  "recorded_at_utc": "2026-10-25T08:18:32.431689+00:00",
+  "inputs": [
+    {
+      "file": "build_candidate_sources.py",
+      "bytes": 15560,
+      "sha256": "0c89dc723988f927a23ee2dfb99b44abf7760ac7aae231cbb133893aa55384c4"
+    },
+    {
+      "file": "integration/source/rtl/corr_top.v",
+      "bytes": 12099,
+      "sha256": "217003139e4d5eda02ca5ff7ef29ccb3a6e186041e61209ea5e258f8bd5b7064"
+    },
+    {
+      "file": "integration/source/rtl/gamma_lut.v",
+      "bytes": 2963,
+      "sha256": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1"
+    },
+    {
+      "file": "integration/source/rtl/param_mgr.v",
+      "bytes": 24219,
+      "sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a"
+    },
+    {
+      "file": "integration/source/rtl/rect_wr_if.v",
+      "bytes": 7672,
+      "sha256": "c201b8d2a58ef726b192e8ca7a35125805df7280a243141485c386aa5528f3ee"
+    },
+    {
+      "file": "reference/corr_read_bridge.v",
+      "bytes": 3920,
+      "sha256": "84dac8880e76471b75994b972f3531bf8ba6d98f4a26f1ec4b4af6b641dc78f6"
+    },
+    {
+      "file": "run_sim.ps1",
+      "bytes": 463,
+      "sha256": "33f3411f2be8d25b76e639e873407f72797a19b0cfdc309f30ba6ed1be8ba01f"
+    },
+    {
+      "file": "run_validation.py",
+      "bytes": 9204,
+      "sha256": "d300f38c8393f0037b9e556bf69d4a99043b861e413fe68f9536b526e6e398e1"
+    },
+    {
+      "file": "sim/c6_real_subsystem_tb.v",
+      "bytes": 9374,
+      "sha256": "8e9b9aaa08987274ff2672f3df94d4062e6bd4eceaaa1ff00fce745576f07cc6"
+    },
+    {
+      "file": "source/rtl/undistort_bilinear.v",
+      "bytes": 1777,
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+    },
+    {
+      "file": "source/rtl/undistort_cache_ab.v",
+      "bytes": 18731,
+      "sha256": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+    },
+    {
+      "file": "source/rtl/undistort_core.v",
+      "bytes": 20450,
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+    },
+    {
+      "file": "source/rtl/undistort_map.v",
+      "bytes": 9191,
+      "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3"
+    },
+    {
+      "file": "verification_data/vectors/real_pixels_1.hex",
+      "bytes": 10368000,
+      "sha256": "cf355f61f75a711f4bff31b0466a6799ff4ea80f219d72f5a0c02cb24de3706d"
+    },
+    {
+      "file": "verification_data/vectors/real_uart_bytes.hex",
+      "bytes": 111,
+      "sha256": "8ee0a253e66df69f20dc4cd0463c2224ab686e7beb1879340feea3a6920c43a3"
+    },
+    {
+      "file": "verification_data/vectors/source_words_1.hex",
+      "bytes": 8424000,
+      "sha256": "0f02d3ca0c201ba287e4181143eb767ace196d2644d4f6b9192b4584423ad1a4"
+    }
+  ],
+  "compile_files": [
+    "sim/c6_real_subsystem_tb.v",
+    "source/rtl/undistort_core.v",
+    "source/rtl/undistort_map.v",
+    "source/rtl/undistort_bilinear.v",
+    "source/rtl/undistort_cache_ab.v",
+    "integration/source/rtl/corr_top.v",
+    "integration/source/rtl/param_mgr.v",
+    "integration/source/rtl/gamma_lut.v",
+    "integration/source/rtl/rect_wr_if.v",
+    "reference/corr_read_bridge.v"
+  ],
+  "runtime_vectors": [
+    "verification_data/vectors/source_words_1.hex",
+    "verification_data/vectors/real_pixels_1.hex",
+    "verification_data/vectors/real_uart_bytes.hex"
+  ],
+  "plusargs": [
+    "+MODE=1"
+  ],
+  "working_directory": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\verification_data",
+  "tools": {
+    "compiler_sha256": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+    "version_step": {
+      "command": [
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app\\bin\\iverilog.exe",
+        "-B",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app\\lib\\ivl",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\results\\regression_p7",
+      "start_utc": "2026-10-25T08:07:13.370652+00:00",
+      "end_utc": "2026-10-25T08:07:13.875931+00:00",
+      "elapsed_seconds": 0.5,
+      "exit_code": 0,
+      "log": "tool_version.log",
+      "log_sha256": "afe39246ebea2fc44b4de97450548f6e0b4281f87666efc2d35d2cf11968b282"
+    },
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "win32",
+    "tool_drive_mapping": {
+      "drive": "Z:",
+      "target": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app"
+    }
+  }
+}

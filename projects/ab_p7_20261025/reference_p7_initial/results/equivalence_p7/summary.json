@@ -1,0 +1,210 @@
+{
+  "tool_sha256": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+  "results": [
+    {
+      "case": "directed",
+      "pass": true,
+      "elapsed_s": 0.7755682468414307,
+      "steps": [
+        {
+          "argv": [
+            "Y:\\bin\\iverilog.exe",
+            "-B",
+            "Y:\\lib\\ivl",
+            "-g2012",
+            "-s",
+            "cache_p7_equivalence_tb",
+            "-o",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\directed\\sim.vvp",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\tests\\cache_p7_equivalence_tb.sv",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\baseline\\undistort_cache_ab_reference.v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            "Y:\\bin\\vvp.exe",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\directed\\sim.vvp"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "inputs_before": {
+        "tests\\cache_p7_equivalence_tb.sv": "2017263566f446592ddd22b5cda495b6c18dda3d7fe5facdacd005a55679914a",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "inputs_after": {
+        "tests\\cache_p7_equivalence_tb.sv": "2017263566f446592ddd22b5cda495b6c18dda3d7fe5facdacd005a55679914a",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "simulation_log_sha256": "2ab62f1fcdaee158f0a8adf036882307277936046544db847a260348a2410348"
+    },
+    {
+      "case": "line",
+      "pass": true,
+      "elapsed_s": 0.5602374076843262,
+      "steps": [
+        {
+          "argv": [
+            "Y:\\bin\\iverilog.exe",
+            "-B",
+            "Y:\\lib\\ivl",
+            "-g2012",
+            "-s",
+            "undistort_line_cache_tb",
+            "-o",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\line\\sim.vvp",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\tests\\cache72_ab_tb.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\baseline\\undistort_cache_ab_reference.v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            "Y:\\bin\\vvp.exe",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\line\\sim.vvp"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "inputs_before": {
+        "tests\\cache72_ab_tb.v": "46b886bcafadf4a865cbbf9ea13e91cbbd1d05cdc6793cc8718476f1cea5c24d",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "inputs_after": {
+        "tests\\cache72_ab_tb.v": "46b886bcafadf4a865cbbf9ea13e91cbbd1d05cdc6793cc8718476f1cea5c24d",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "simulation_log_sha256": "1b79fcbcb505c6446346630df9a1297cd2bcaaf92733a872266f72733d6e503f"
+    },
+    {
+      "case": "segment",
+      "pass": true,
+      "elapsed_s": 3.208738327026367,
+      "steps": [
+        {
+          "argv": [
+            "Y:\\bin\\iverilog.exe",
+            "-B",
+            "Y:\\lib\\ivl",
+            "-g2012",
+            "-s",
+            "segment_cache_tb",
+            "-o",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\segment\\sim.vvp",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\tests\\segment_cache_tb.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\baseline\\undistort_cache_ab_reference.v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            "Y:\\bin\\vvp.exe",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\segment\\sim.vvp"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "inputs_before": {
+        "tests\\segment_cache_tb.v": "8f08f1e9009b9cf8be8a85ab97e0bdad9cde013ae073eb81b63d113104596741",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "inputs_after": {
+        "tests\\segment_cache_tb.v": "8f08f1e9009b9cf8be8a85ab97e0bdad9cde013ae073eb81b63d113104596741",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "simulation_log_sha256": "ea2044e699045d6682a960c70012db3c9cc1b3fa31ea39613bc8f8d8acd5fac4"
+    },
+    {
+      "case": "mode_switch",
+      "pass": true,
+      "elapsed_s": 0.4924793243408203,
+      "steps": [
+        {
+          "argv": [
+            "Y:\\bin\\iverilog.exe",
+            "-B",
+            "Y:\\lib\\ivl",
+            "-g2012",
+            "-s",
+            "cache_mode_switch_tb",
+            "-o",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\mode_switch\\sim.vvp",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\tests\\cache_mode_switch_tb.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\baseline\\undistort_cache_ab_reference.v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            "Y:\\bin\\vvp.exe",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\mode_switch\\sim.vvp"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "inputs_before": {
+        "tests\\cache_mode_switch_tb.v": "ee37ca7b1cec56a9df17da16b6f1cc6b165c66336337f97831e1115b66e7373d",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "inputs_after": {
+        "tests\\cache_mode_switch_tb.v": "ee37ca7b1cec56a9df17da16b6f1cc6b165c66336337f97831e1115b66e7373d",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "simulation_log_sha256": "d53debacccb67d8f9218b45aed0a8317e50f4b37d538c6f52b5d0e60a4ee85c0"
+    },
+    {
+      "case": "old_response",
+      "pass": true,
+      "elapsed_s": 0.48927879333496094,
+      "steps": [
+        {
+          "argv": [
+            "Y:\\bin\\iverilog.exe",
+            "-B",
+            "Y:\\lib\\ivl",
+            "-g2012",
+            "-s",
+            "cache_boundary_r3_tb",
+            "-o",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\old_response\\sim.vvp",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\tests\\cache_boundary_r3_tb.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\baseline\\undistort_cache_ab_reference.v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            "Y:\\bin\\vvp.exe",
+            "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\results\\equivalence_p7\\old_response\\sim.vvp"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "inputs_before": {
+        "tests\\cache_boundary_r3_tb.v": "93de4d15a22f6a4a081e8224e61b9f54fcfe2e4e8f9ffbc27fe8cc609734665a",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "inputs_after": {
+        "tests\\cache_boundary_r3_tb.v": "93de4d15a22f6a4a081e8224e61b9f54fcfe2e4e8f9ffbc27fe8cc609734665a",
+        "candidate\\source\\rtl\\undistort_cache_ab.v": "6cfeae95b23623215a42cfa8cb6da14294e71b7bf92534d1f44d2fb914e5ff5a",
+        "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+      },
+      "simulation_log_sha256": "c2fc03aaf4af878a04a6c9d4ace9aa8deaf304c5efbf4dcb19a40d40176d68ca"
+    }
+  ]
+}

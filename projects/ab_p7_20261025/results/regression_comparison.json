@@ -1,0 +1,218 @@
+{
+  "purpose": "Cycle and behavior regression against frozen original AB; not formal proof or physical/board fps evidence",
+  "passed": true,
+  "results": [
+    {
+      "case": "identity",
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "only_expected_cache_changed": true,
+      "input_differences": [
+        {
+          "file": "source/rtl/undistort_cache_ab.v",
+          "baseline": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+          "candidate": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+        }
+      ],
+      "plusargs_equal": true,
+      "plusargs": [
+        "+MODE=0",
+        "+PATTERN=1",
+        "+SLOT=3",
+        "+VECTOR=vectors/identity_pixels.hex",
+        "+LATENCY=0",
+        "+PERIOD=0",
+        "+GRANT=0",
+        "+GATE=1"
+      ],
+      "normalized_complete_log_equal": true,
+      "candidate_inputs_unchanged": true,
+      "baseline_summary": [
+        "R3_CORE_DRAIN clears=1 accepted=1080 returned=129600 busy_start_ignored=1 outstanding=0",
+        "R4_ACTUAL first_min=4 first_max=9 gap_min=1 gap_max=2 grant_min=0 grant_max=0 return_beats=129600 transactions=1080 cycles=4147487 pixels=2073600 mismatches=0",
+        "AB_STATS segments=0 line_stats_valid=1 latency=0 period=0 grant=0",
+        "CORE PASS mode=0 pattern=1 slot=3 pixels=2073600 err=0 cycles=4147487 cpp=2.000138 model_fps_125MHz=30.138732 line_loads=1080 hits=1 first_read=0 last_read=1079 minrow=0 maxrow=1079",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\calibration_core_ab_tb.v:145: $finish called at 33179928000 (1ps)"
+      ],
+      "candidate_summary": [
+        "R3_CORE_DRAIN clears=1 accepted=1080 returned=129600 busy_start_ignored=1 outstanding=0",
+        "R4_ACTUAL first_min=4 first_max=9 gap_min=1 gap_max=2 grant_min=0 grant_max=0 return_beats=129600 transactions=1080 cycles=4147487 pixels=2073600 mismatches=0",
+        "AB_STATS segments=0 line_stats_valid=1 latency=0 period=0 grant=0",
+        "CORE PASS mode=0 pattern=1 slot=3 pixels=2073600 err=0 cycles=4147487 cpp=2.000138 model_fps_125MHz=30.138732 line_loads=1080 hits=1 first_read=0 last_read=1079 minrow=0 maxrow=1079"
+      ],
+      "passed": true
+    },
+    {
+      "case": "real_joint",
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "only_expected_cache_changed": true,
+      "input_differences": [
+        {
+          "file": "source/rtl/undistort_cache_ab.v",
+          "baseline": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+          "candidate": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+        }
+      ],
+      "plusargs_equal": true,
+      "plusargs": [
+        "+MODE=1",
+        "+PATTERN=1",
+        "+SLOT=3",
+        "+VECTOR=vectors/real_pixels_1.hex",
+        "+LATENCY=64",
+        "+PERIOD=2",
+        "+GRANT=32",
+        "+GATE=1"
+      ],
+      "normalized_complete_log_equal": true,
+      "candidate_inputs_unchanged": true,
+      "baseline_summary": [
+        "R3_CORE_DRAIN clears=1 accepted=26695 returned=106780 busy_start_ignored=1 outstanding=0",
+        "R4_ACTUAL first_min=65 first_max=66 gap_min=2 gap_max=2 grant_min=32 grant_max=32 return_beats=106780 transactions=26695 cycles=4161845 pixels=2073600 mismatches=0",
+        "AB_STATS segments=26695 line_stats_valid=0 latency=64 period=2 grant=32",
+        "CORE PASS mode=1 pattern=1 slot=3 pixels=2073600 err=0 cycles=4161845 cpp=2.007063 model_fps_125MHz=30.034756 line_loads=0 hits=0 first_read=73 last_read=982 minrow=21 maxrow=1051",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\calibration_core_ab_tb.v:145: $finish called at 33294792000 (1ps)"
+      ],
+      "candidate_summary": [
+        "R3_CORE_DRAIN clears=1 accepted=26695 returned=106780 busy_start_ignored=1 outstanding=0",
+        "R4_ACTUAL first_min=65 first_max=66 gap_min=2 gap_max=2 grant_min=32 grant_max=32 return_beats=106780 transactions=26695 cycles=4161845 pixels=2073600 mismatches=0",
+        "AB_STATS segments=26695 line_stats_valid=0 latency=64 period=2 grant=32",
+        "CORE PASS mode=1 pattern=1 slot=3 pixels=2073600 err=0 cycles=4161845 cpp=2.007063 model_fps_125MHz=30.034756 line_loads=0 hits=0 first_read=73 last_read=982 minrow=21 maxrow=1051"
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy_sim",
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "only_expected_cache_changed": true,
+      "input_differences": [
+        {
+          "file": "source/rtl/undistort_cache_ab.v",
+          "baseline": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+          "candidate": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+        }
+      ],
+      "plusargs_equal": true,
+      "plusargs": [],
+      "normalized_complete_log_equal": true,
+      "candidate_inputs_unchanged": true,
+      "baseline_summary": [
+        "[T0] PASS err=0",
+        "[T7] PASS err=0",
+        "[T9] PASS err=0",
+        "=== ALL TESTS PASSED (err=0) ===",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\legacy_sim_tb.v:149: $finish called at 53801712000 (1ps)"
+      ],
+      "candidate_summary": [
+        "[T0] PASS err=0",
+        "[T7] PASS err=0",
+        "[T9] PASS err=0",
+        "=== ALL TESTS PASSED (err=0) ==="
+      ],
+      "passed": true
+    },
+    {
+      "case": "integration",
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "only_expected_cache_changed": true,
+      "input_differences": [
+        {
+          "file": "source/rtl/undistort_cache_ab.v",
+          "baseline": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+          "candidate": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+        }
+      ],
+      "plusargs_equal": true,
+      "plusargs": [],
+      "normalized_complete_log_equal": true,
+      "candidate_inputs_unchanged": true,
+      "baseline_summary": [
+        "[33523180000] PASS I2 identity copy: slot 4 == golden (f=0 gmode=0)",
+        "[66702892000] PASS I2b aff-identity copy: slot 5 == golden (f=0 gmode=0)",
+        "[99882604000] PASS I3 frame3 pre-gamma: slot 6 == golden (f=0 gmode=0)",
+        "[133062316000] PASS I3 gamma B-invert: slot 7 == golden (f=0 gmode=1)",
+        "[133184180000] PASS I4 loose status: loose status=00040312",
+        "[199421740000] PASS I5 frame5: slot 4 == golden (f=0 gmode=1)",
+        "[199421740000] PASS I5 frame6: slot 5 == golden (f=3 gmode=1)",
+        "[232601452000] PASS I5 frame7: slot 6 == golden (f=4 gmode=1)",
+        "[265943028000] PASS I6 exact status: status=00080012",
+        "[299471652000] PASS I7 frame8 (free-run): slot 7 == golden (f=4 gmode=1)",
+        "[299471652000] PASS I7 frame9 (slow write): slot 4 == golden (f=4 gmode=1)",
+        "=== ALL TESTS PASSED (err=0) ===",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\integration\\tb\\corr_top_tb.v:684: $finish called at 299472452000 (1ps)"
+      ],
+      "candidate_summary": [
+        "[33523180000] PASS I2 identity copy: slot 4 == golden (f=0 gmode=0)",
+        "[66702892000] PASS I2b aff-identity copy: slot 5 == golden (f=0 gmode=0)",
+        "[99882604000] PASS I3 frame3 pre-gamma: slot 6 == golden (f=0 gmode=0)",
+        "[133062316000] PASS I3 gamma B-invert: slot 7 == golden (f=0 gmode=1)",
+        "[133184180000] PASS I4 loose status: loose status=00040312",
+        "[199421740000] PASS I5 frame5: slot 4 == golden (f=0 gmode=1)",
+        "[199421740000] PASS I5 frame6: slot 5 == golden (f=3 gmode=1)",
+        "[232601452000] PASS I5 frame7: slot 6 == golden (f=4 gmode=1)",
+        "[265943028000] PASS I6 exact status: status=00080012",
+        "[299471652000] PASS I7 frame8 (free-run): slot 7 == golden (f=4 gmode=1)",
+        "[299471652000] PASS I7 frame9 (slow write): slot 4 == golden (f=4 gmode=1)",
+        "=== ALL TESTS PASSED (err=0) ==="
+      ],
+      "passed": true
+    },
+    {
+      "case": "c6_real_subsystem",
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "only_expected_cache_changed": true,
+      "input_differences": [
+        {
+          "file": "source/rtl/undistort_cache_ab.v",
+          "baseline": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+          "candidate": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+        }
+      ],
+      "plusargs_equal": true,
+      "plusargs": [
+        "+MODE=1"
+      ],
+      "normalized_complete_log_equal": true,
+      "candidate_inputs_unchanged": true,
+      "baseline_summary": [
+        "C6_REAL_SUBSYSTEM PASS mode=1 pixels=2073600 words=1036800 logical_reads=26695 display_txn=30565 cycles=4147513 fps_125MHz=30.138543",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\c6_real_subsystem_tb.v:177: $finish called at 33499824000 (1ps)"
+      ],
+      "candidate_summary": [
+        "C6_REAL_SUBSYSTEM PASS mode=1 pixels=2073600 words=1036800 logical_reads=26695 display_txn=30565 cycles=4147513 fps_125MHz=30.138543"
+      ],
+      "passed": true
+    },
+    {
+      "case": "c6_host_arb",
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "only_expected_cache_changed": true,
+      "input_differences": [
+        {
+          "file": "source/rtl/undistort_cache_ab.v",
+          "baseline": "4fc449dc3bf1e34711c774057c4d92559ebd545e5f88facac27cac5da33a6a60",
+          "candidate": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+        }
+      ],
+      "plusargs_equal": true,
+      "plusargs": [
+        "+MODE=1"
+      ],
+      "normalized_complete_log_equal": true,
+      "candidate_inputs_unchanged": true,
+      "baseline_summary": [
+        "C6_HOST_ARB PASS mode=1 pixels=2073600 words=1036800 logical_reads=26695 display_txn=30565 cycles=4147513 fps_125MHz=30.138543",
+        "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\G4_AB_R1_R4_20261023\\candidate\\sim\\c6_host_arb_tb.v:286: $finish called at 33601056000 (1ps)"
+      ],
+      "candidate_summary": [
+        "C6_HOST_ARB PASS mode=1 pixels=2073600 words=1036800 logical_reads=26695 display_txn=30565 cycles=4147513 fps_125MHz=30.138543"
+      ],
+      "passed": true
+    }
+  ]
+}

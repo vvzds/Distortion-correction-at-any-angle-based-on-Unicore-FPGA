@@ -1,0 +1,44 @@
+{
+  "passed": false,
+  "gates": {
+    "flow_completed": true,
+    "no_error_lines": true,
+    "logical_tag_geometry": true,
+    "all_twelve_banks_ram": true,
+    "no_tag_flipflops": true,
+    "ff_budget": true,
+    "logic_lut_budget": false,
+    "total_lut_budget": true,
+    "drm_budget": true,
+    "parity_load_measurable": false,
+    "parity_pin_load_budget": false
+  },
+  "baseline_p4": {
+    "LUT": 16359.0,
+    "FF": 8268.0,
+    "Distributed_RAM": 3168.0,
+    "APM": 0.0,
+    "DRM": 8.0,
+    "logic_LUT": 13191.0
+  },
+  "candidate": {
+    "LUT": 16158.0,
+    "FF": 8268.0,
+    "Distributed_RAM": 1664.0,
+    "APM": 0.0,
+    "DRM": 8.0,
+    "logic_LUT": 14494.0
+  },
+  "baseline_tag_ram_primitives": 3136,
+  "candidate_tag_ram_primitives": 1632,
+  "baseline_parity_pin_loads": {
+    "qa[0]": 1752,
+    "qb[0]": 1753
+  },
+  "candidate_parity_pin_loads": {
+    "qa[0]": 0,
+    "qb[0]": 0
+  },
+  "meaning": "Early resource/inference/load screen only; not 125MHz or complete functional acceptance",
+  "no_pnr_executed": true
+}

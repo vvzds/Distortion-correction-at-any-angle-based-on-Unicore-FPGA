@@ -1,0 +1,20 @@
+{
+  "meaning": "P4 synthesis resource reference only; no completed P4 PNR timing claim",
+  "files": {
+    "synthesize/hdmi_ddr_ov5640_top.snr": {
+      "sha256": "3b7296d5b3fcf13dba9208a67153bc221ad07f3e570f14f719edb13765d44576",
+      "bytes": 995467,
+      "source": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\synthesize\\hdmi_ddr_ov5640_top.snr"
+    },
+    "synthesize/hdmi_ddr_ov5640_top_syn.vm": {
+      "sha256": "61afdf5d3180e17dfa85884cb8183ebc52aadb238f7f97530fca0b1b463e94b4",
+      "bytes": 27934670,
+      "source": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\synthesize\\hdmi_ddr_ov5640_top_syn.vm"
+    },
+    "source/rtl/undistort_cache_ab.v": {
+      "sha256": "425ea5c734c174d0e4e08619d4ed8aebf96e95f60e8a60df9b2fcc010341fb49",
+      "bytes": 17554,
+      "source": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\source\\rtl\\undistort_cache_ab.v"
+    }
+  }
+}

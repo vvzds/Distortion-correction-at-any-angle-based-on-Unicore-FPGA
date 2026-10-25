@@ -1,0 +1,12 @@
+START icarus legacy_sim
+START icarus integration
+START icarus identity
+END icarus identity PASS
+START icarus real_joint
+END icarus legacy_sim PASS
+START icarus c6_real_subsystem
+END icarus real_joint PASS
+START icarus c6_host_arb
+END icarus c6_real_subsystem PASS
+END icarus c6_host_arb PASS
+END icarus integration PASS

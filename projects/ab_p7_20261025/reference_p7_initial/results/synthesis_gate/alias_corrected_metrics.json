@@ -1,0 +1,79 @@
+{
+  "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+  "sha256": "7ea113820442bc221d3b4244cd7873597690f7ba976c1f361f0052ea5c59c902",
+  "tag_ram_primitives": 1632,
+  "tag_ram_types": {
+    "GTP_RAM32X2DP": 1632
+  },
+  "bank_ram_primitive_counts": {
+    "0": 136,
+    "1": 136,
+    "2": 136,
+    "3": 136,
+    "4": 136,
+    "5": 136,
+    "6": 136,
+    "7": 136,
+    "8": 136,
+    "9": 136,
+    "10": 136,
+    "11": 136
+  },
+  "tag_ff": [],
+  "parity_pin_loads": {
+    "qa[0]": 1034,
+    "qb[0]": 1035
+  },
+  "parity_aliases": {
+    "qa[0]": {
+      "names": [
+        "tag_bank[10].key[1].row_key[0]"
+      ],
+      "total_pin_loads": 1034
+    },
+    "qb[0]": {
+      "names": [
+        "tag_bank[10].key[3].row_key[0]"
+      ],
+      "total_pin_loads": 1035
+    }
+  },
+  "chosen_pin_loads": {
+    "chosen[0]": 1647,
+    "chosen[1]": 1647,
+    "chosen[2]": 1647,
+    "chosen[3]": 1647,
+    "chosen[4]": 10,
+    "chosen[5]": 10,
+    "chosen[6]": 16,
+    "chosen[7]": 15
+  },
+  "max_tag_ram_read_address_load": 768,
+  "top_tag_ram_read_address_loads": [
+    [
+      "tag_bank[10].key[1].row_key[0]",
+      768
+    ],
+    [
+      "tag_bank[10].key[3].row_key[0]",
+      768
+    ],
+    [
+      "o_fetch_bank[3]",
+      96
+    ],
+    [
+      "o_fetch_bank[2]",
+      96
+    ],
+    [
+      "o_fetch_bank[1]",
+      96
+    ],
+    [
+      "o_fetch_bank[0]",
+      96
+    ]
+  ],
+  "limitations": "Cache module only; primitive pin counts, not routed fanout/STA. Same parser applied to both versions."
+}
