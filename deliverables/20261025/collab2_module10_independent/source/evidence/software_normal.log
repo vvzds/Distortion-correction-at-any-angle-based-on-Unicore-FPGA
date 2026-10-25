@@ -1,0 +1,21 @@
+test_analytic_scale (__main__.ReviewTests.test_analytic_scale) ... ok
+test_complete_is_not_accepted (__main__.ReviewTests.test_complete_is_not_accepted) ... ok
+test_degenerate_scale (__main__.ReviewTests.test_degenerate_scale) ... ok
+test_grid_reject (__main__.ReviewTests.test_grid_reject) ... ok
+test_mtf_reject (__main__.ReviewTests.test_mtf_reject) ... ok
+test_real_provenance (__main__.ReviewTests.test_real_provenance) ... ok
+test_repository_binding (__main__.ReviewTests.test_repository_binding) ... ok
+test_resampling_invariance (__main__.ReviewTests.test_resampling_invariance) ... ok
+test_rotation (__main__.ReviewTests.test_rotation) ... ok
+test_shear_normal_not_euclidean_spacing (__main__.ReviewTests.test_shear_normal_not_euclidean_spacing) ... ok
+test_snapshot_changes (__main__.ReviewTests.test_snapshot_changes) ... ok
+test_snapshot_decode (__main__.ReviewTests.test_snapshot_decode) ... ok
+test_snapshot_not_synthetic (__main__.ReviewTests.test_snapshot_not_synthetic) ... ok
+test_snapshot_reject_auto (__main__.ReviewTests.test_snapshot_reject_auto) ... ok
+test_tampered_binding (__main__.ReviewTests.test_tampered_binding) ... ok
+test_unknown_cannot_pass (__main__.ReviewTests.test_unknown_cannot_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.008s
+
+OK

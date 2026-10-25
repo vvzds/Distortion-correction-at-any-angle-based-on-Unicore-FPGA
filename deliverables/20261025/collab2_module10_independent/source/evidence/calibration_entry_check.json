@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-25T19:11:47.182618+08:00",
+  "binding": [
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\calibration\\calibrate.py",
+      "sha256": "e7581eedb1b62090eef15d0d083eb58b41f21b1965438613c45acc2fa7862ebe"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\calibration\\run_calibration.py",
+      "sha256": "edcb1c32ed3d0eeb09607872f17211d977ea7c969a4fe6e7ac6515644a8b58fd"
+    }
+  ],
+  "argv": [
+    "C:\\Users\\叶翔\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\calibration\\run_calibration.py"
+  ],
+  "executed": false,
+  "mode": "CHECK_ONLY",
+  "rollback": "Original paths/copies preserved; historical results are not changed"
+}

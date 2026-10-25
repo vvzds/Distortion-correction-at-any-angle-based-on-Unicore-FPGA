@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "evidence_kind": "REANALYSIS_OF_EXISTING_REAL_CAPTURE",
+  "new_capture": false,
+  "capture_session_sha256": "1b655a107bbabff9afd50d234e52be8d2c03a2c98e1f50c6e092f8613da7f9a9",
+  "mtf_report_sha256": "e9eedbcd94b6400f4f4e46384dc75dba41c06409b12d6f23e0c934d228e2c3af",
+  "bitstream_sha256": "67ce6939f03abe9e9594f6bd071a567988eeda96fecb4eec2c3f5b8ed6cdf317",
+  "optics_epoch": "Human confirmed calibration and all captures AFTER lens replacement",
+  "exposure": "UNKNOWN_NOT_MODIFIED",
+  "white_balance": "UNKNOWN_NOT_MODIFIED",
+  "source_transport": {
+    "requested_fourcc": "MJPG",
+    "actual_fourcc": 1196444237,
+    "reported_fps": 30.00003000003,
+    "limitation": "Card decoded frame; compression/transport affects MTF, not native FPGA DDR dump"
+  },
+  "frames_verified": 9,
+  "measurements": [
+    {
+      "frame_id": "geometry_pair_0__before",
+      "source": "before_identity_00.png",
+      "source_sha256": "4c55026986c7072b2ec7257e8ffd3415ab107a2c3fef5f2aa29cbf5c929d967f",
+      "role": "before",
+      "roi_id": "center_edge",
+      "mtf50_cy_per_px": 0.2055107689144844,
+      "mtf50_cy_per_mm_approx": 0.8058356488690753,
+      "normal_px_per_mm": 3.9211358758741914,
+      "slant_deg_from_vertical": 0.8099049618376043,
+      "tangent_px_per_mm": 3.877049932905665,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_0__before",
+      "source": "before_identity_00.png",
+      "source_sha256": "4c55026986c7072b2ec7257e8ffd3415ab107a2c3fef5f2aa29cbf5c929d967f",
+      "role": "before",
+      "roi_id": "outer_edge",
+      "mtf50_cy_per_px": 0.09332967512143199,
+      "mtf50_cy_per_mm_approx": 0.32867030392889196,
+      "normal_px_per_mm": 3.521605571874716,
+      "slant_deg_from_vertical": 2.976181850221762,
+      "tangent_px_per_mm": 3.7264715594793474,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_0__after",
+      "source": "after_real_00.png",
+      "source_sha256": "1c4cd9f4d1d7545586b200b38a1fe8c604c115bb3151d55fdb611c3d60f46b4c",
+      "role": "after",
+      "roi_id": "center_edge",
+      "mtf50_cy_per_px": 0.18012888310452616,
+      "mtf50_cy_per_mm_approx": 0.7085478319285335,
+      "normal_px_per_mm": 3.933560346995399,
+      "slant_deg_from_vertical": 0.7301026097738801,
+      "tangent_px_per_mm": 3.8890523128799486,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_0__after",
+      "source": "after_real_00.png",
+      "source_sha256": "1c4cd9f4d1d7545586b200b38a1fe8c604c115bb3151d55fdb611c3d60f46b4c",
+      "role": "after",
+      "roi_id": "outer_edge",
+      "mtf50_cy_per_px": 0.0893321799473328,
+      "mtf50_cy_per_mm_approx": 0.3405605245579318,
+      "normal_px_per_mm": 3.8122938985560935,
+      "slant_deg_from_vertical": 2.581250034755548,
+      "tangent_px_per_mm": 3.834491209207601,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_1__before",
+      "source": "before_identity_01.png",
+      "source_sha256": "82be09622f981c6b830ee9715488333d3fd4cacb6e91ca2a749c03930f95b9a8",
+      "role": "before",
+      "roi_id": "center_edge",
+      "mtf50_cy_per_px": 0.15777237825150411,
+      "mtf50_cy_per_mm_approx": 0.6188203343772544,
+      "normal_px_per_mm": 3.9222349389371325,
+      "slant_deg_from_vertical": 0.7986410656427173,
+      "tangent_px_per_mm": 3.876903721881375,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_1__before",
+      "source": "before_identity_01.png",
+      "source_sha256": "82be09622f981c6b830ee9715488333d3fd4cacb6e91ca2a749c03930f95b9a8",
+      "role": "before",
+      "roi_id": "outer_edge",
+      "mtf50_cy_per_px": 0.10313419189462573,
+      "mtf50_cy_per_mm_approx": 0.3632992750713168,
+      "normal_px_per_mm": 3.522588080609648,
+      "slant_deg_from_vertical": 2.9842645548873925,
+      "tangent_px_per_mm": 3.726423141644827,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_1__after",
+      "source": "after_real_01.png",
+      "source_sha256": "eb9786efe84be64faa1deed85039930fecb6171b4ae81daa0e3552c06bc1301e",
+      "role": "after",
+      "roi_id": "center_edge",
+      "mtf50_cy_per_px": 0.1980293670456765,
+      "mtf50_cy_per_mm_approx": 0.7788850407142947,
+      "normal_px_per_mm": 3.933179468955434,
+      "slant_deg_from_vertical": 0.7184890044286971,
+      "tangent_px_per_mm": 3.891555972631818,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_1__after",
+      "source": "after_real_01.png",
+      "source_sha256": "eb9786efe84be64faa1deed85039930fecb6171b4ae81daa0e3552c06bc1301e",
+      "role": "after",
+      "roi_id": "outer_edge",
+      "mtf50_cy_per_px": 0.0898805251358838,
+      "mtf50_cy_per_mm_approx": 0.3423426475498062,
+      "normal_px_per_mm": 3.808863455484304,
+      "slant_deg_from_vertical": 2.6085555145046144,
+      "tangent_px_per_mm": 3.8317158428895963,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_2__before",
+      "source": "before_identity_02.png",
+      "source_sha256": "3d9ea4484f0003d0fe1b57e58eabc62e25965114b39dc6a3be1f30c903677556",
+      "role": "before",
+      "roi_id": "center_edge",
+      "mtf50_cy_per_px": 0.16671540171560786,
+      "mtf50_cy_per_mm_approx": 0.6540256214506825,
+      "normal_px_per_mm": 3.923006601191861,
+      "slant_deg_from_vertical": 0.7261131625451756,
+      "tangent_px_per_mm": 3.8792092141856527,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_2__before",
+      "source": "before_identity_02.png",
+      "source_sha256": "3d9ea4484f0003d0fe1b57e58eabc62e25965114b39dc6a3be1f30c903677556",
+      "role": "before",
+      "roi_id": "outer_edge",
+      "mtf50_cy_per_px": 0.09123408671272162,
+      "mtf50_cy_per_mm_approx": 0.32143216931558843,
+      "normal_px_per_mm": 3.523158732631541,
+      "slant_deg_from_vertical": 2.922357749319814,
+      "tangent_px_per_mm": 3.7235972760137264,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_2__after",
+      "source": "after_real_02.png",
+      "source_sha256": "2cb91056f7cc18f4e422739b04d51c426e20a612593e050dbe58601f0e593d07",
+      "role": "after",
+      "roi_id": "center_edge",
+      "mtf50_cy_per_px": 0.19023381089844477,
+      "mtf50_cy_per_mm_approx": 0.7480360681515436,
+      "normal_px_per_mm": 3.9321930450674634,
+      "slant_deg_from_vertical": 0.759548052965056,
+      "tangent_px_per_mm": 3.891339237190797,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    },
+    {
+      "frame_id": "geometry_pair_2__after",
+      "source": "after_real_02.png",
+      "source_sha256": "2cb91056f7cc18f4e422739b04d51c426e20a612593e050dbe58601f0e593d07",
+      "role": "after",
+      "roi_id": "outer_edge",
+      "mtf50_cy_per_px": 0.09349392301007622,
+      "mtf50_cy_per_mm_approx": 0.35621481116000564,
+      "normal_px_per_mm": 3.810031707853514,
+      "slant_deg_from_vertical": 2.3442198704603214,
+      "tangent_px_per_mm": 3.8296881263668974,
+      "method": "Central-difference local planar Jacobian, approximate; not traceable absolute metrology"
+    }
+  ],
+  "selected_slant_domain": {
+    "deg": [
+      5,
+      15
+    ],
+    "authority": "Existing E8 tool operational recommendation, NOT official contest threshold"
+  },
+  "eligibility": {
+    "status": "NOT_COMPARABLE",
+    "missing": [
+      "exposure_readback_verified",
+      "white_balance_readback_verified",
+      "slant_within_selected_method_domain",
+      "matched_radiometric_pipeline"
+    ],
+    "quality_acceptance": "NOT_EVALUATED",
+    "note": "Eligibility does not establish numerical quality pass"
+  },
+  "checks": {
+    "exposure_readback_verified": false,
+    "white_balance_readback_verified": false,
+    "same_physical_edge": true,
+    "bitstream_parameter_provenance": true,
+    "optics_epoch_confirmed": true,
+    "static_scene_confirmed": true,
+    "slant_within_selected_method_domain": false,
+    "matched_radiometric_pipeline": false,
+    "scale_recorded": true
+  },
+  "limitations": [
+    "Cycles/mm uses a local image Jacobian from nominal 25mm squares; print accuracy/flatness not independently measured.",
+    "No retroactive exposure or WB lock; values stay UNKNOWN, no fabricated register readback.",
+    "Card MJPG transport and interpolation affect SFR; PNG only preserves decoded pixels.",
+    "Existing E8 side metrics retained; no new official acceptance threshold.",
+    "No new current-camera images are claimed; historical batch stays immutable."
+  ]
+}

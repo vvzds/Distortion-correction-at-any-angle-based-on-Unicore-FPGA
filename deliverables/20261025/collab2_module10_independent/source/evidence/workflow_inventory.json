@@ -1,0 +1,175 @@
+{
+  "roots": [
+    "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\calibration",
+    "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\04_uart_tool",
+    "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\calibration_capture_20261021",
+    "C:\\Users\\叶翔\\Desktop\\yx"
+  ],
+  "entries": [
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\calibration\\calibrate.py",
+      "sha256": "e7581eedb1b62090eef15d0d083eb58b41f21b1965438613c45acc2fa7862ebe",
+      "kind": "ACCEPTED_ENTRY",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\fpga-main\\calibration\\run_calibration.py",
+      "sha256": "edcb1c32ed3d0eeb09607872f17211d977ea7c969a4fe6e7ac6515644a8b58fd",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Documents\\Codex\\2026-10-10\\x20\\work\\calibration_capture_20261021\\solve_calibration.py",
+      "sha256": "66070e17f1f7cc55edd1dbda9374878aaefbcf8f46cd014c350cb0b3bc9d9ed9",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\delivery\\M03_pinned\\reference_original\\M03\\current\\host\\calibration_tools\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\G7_R01_R14_followup_G8_20261023\\delivery\\M03_pinned\\reference_original\\M03\\historical_reviews\\host\\incoming\\calibration_tools\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\M03_batch_audit_upgrade_20261023\\reference_original\\M03\\current\\host\\calibration_tools\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\M03_batch_audit_upgrade_20261023\\reference_original\\M03\\historical_reviews\\host\\incoming\\calibration_tools\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\V204任务对照与核心证据升级_20261023\\完整资料\\reference\\M02_original\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\整机候选核对_1080p30_二号给管理方_20261024\\G4_1080p30_整机候选核对包_二号给管理方_20261024\\05_标定溯源\\solve_calibration.py",
+      "sha256": "66070e17f1f7cc55edd1dbda9374878aaefbcf8f46cd014c350cb0b3bc9d9ed9",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\calibrate.py",
+      "sha256": "e7581eedb1b62090eef15d0d083eb58b41f21b1965438613c45acc2fa7862ebe",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\run_calibration.py",
+      "sha256": "edcb1c32ed3d0eeb09607872f17211d977ea7c969a4fe6e7ac6515644a8b58fd",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\m03_tool\\reference_original\\M03\\current\\host\\calibration_tools\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\m03_tool\\reference_original\\M03\\historical_reviews\\host\\incoming\\calibration_tools\\calibrate.py",
+      "sha256": "464e6fa5aa0536db14c8d062357f2f3c8b94735bae118aa3af13ce7784c1c273",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\regression_fixture\\candidate\\calibrate.py",
+      "sha256": "e7581eedb1b62090eef15d0d083eb58b41f21b1965438613c45acc2fa7862ebe",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\repository_applied\\calibration\\calibrate.py",
+      "sha256": "e7581eedb1b62090eef15d0d083eb58b41f21b1965438613c45acc2fa7862ebe",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    },
+    {
+      "path": "C:\\Users\\叶翔\\Desktop\\yx\\模块10_M02应用与M03素材核验_二号_20261025\\repository_applied\\calibration\\run_calibration.py",
+      "sha256": "edcb1c32ed3d0eeb09607872f17211d977ea7c969a4fe6e7ac6515644a8b58fd",
+      "kind": "DISCOVERED_COPY_NOT_PROVEN_ACTIVE",
+      "preserve": true,
+      "migration": "Use checked repository entry; no blind replacement of archives or accepted prior packages"
+    }
+  ],
+  "errors": [
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp0hozso4q'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp0_tsdlk0'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp1maso9kd'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp1mta05gn'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp2g7ninbn'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp3hapvfez'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp42_zldj_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp502s0ikr'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp5p63z6mi'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp83czjiry'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp86_ldoz6'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp88ox61nz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8ag3xz6t'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8m25uniy'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8r96oc9e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp8vz295zw'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp9gtc_m9f'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmp9it_628f'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpa4t4yorf'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpbrgrjlt1'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpbz8019i_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpde1cnowo'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpebvd4_bu'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpejgsufr4'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpfq8tax88'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpgh1s5w72'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmphhn4d_3e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpj434a41d'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpjr86bpc3'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpknordep0'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpkzpsocsv'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpl0h5jlnk'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpovmltur2'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpq0pyzj57'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpq3cbsy46'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpqwvtab1y'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpsagvqhk_'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpskpg5wp8'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpsyxxa_iz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpuclt3z21'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpudnoc7yb'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpul8gouhk'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpvs3livly'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpw9f4lo7e'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpwrd_3xoq'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpy2wc3vyz'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpy6i568n5'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpyw1414dx'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\叶翔\\\\Desktop\\\\yx\\\\G7_gate_v1_20261023\\\\evidence\\\\test_scratch\\\\tmpz_yc0002'"
+  ],
+  "remote_machines": "NOT_OBSERVABLE",
+  "all_live_workflows_updated": false
+}

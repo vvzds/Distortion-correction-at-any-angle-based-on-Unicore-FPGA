@@ -1,0 +1,11 @@
+{
+  "reported_by": "human user 2026-10-25",
+  "change": "Lens only; OV5640 module retained",
+  "all_existing_calibration_and_capture_images": "AFTER_LENS_CHANGE_PER_LATEST_HUMAN_CORRECTION",
+  "current_lens": "ALREADY_REPLACED",
+  "existing_params_invalidated_by_lens_change": false,
+  "current_lens_calibration": "EXISTING_DATA_RETAINED",
+  "current_focal_length_mm": null,
+  "current_FOV_deg": null,
+  "rule": "Latest human correction supersedes earlier before-change answers. No new calibration required due to this replacement; retain existing calibrated parameters and capture records. Runtime crop/orientation and focus must remain consistent."
+}

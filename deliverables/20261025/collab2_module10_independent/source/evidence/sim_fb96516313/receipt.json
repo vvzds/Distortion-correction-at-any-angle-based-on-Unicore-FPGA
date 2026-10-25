@@ -1,0 +1,37 @@
+{
+  "started": "2026-10-25T19:05:02.793622+08:00",
+  "scratch": "D:\\FPGA PDS\\yx\\module10_independent_sim_20261025\\sim_fb96516313",
+  "tool": "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+  "tool_sha256": "a5fb4747c8c06b1f3ad5b5f9ae6240ab6e28598cdf6058aa6f5139d0732303cf",
+  "sources": {
+    "rtl\\ov5640_quality_control.v": "32063fe9a35184c58e2f46f01308c41e78b36707482bc65baa4b62716ee475af",
+    "rtl\\ov5640_quality_lock.v": "8dc76cf160ec65bb7e02492f4e807f34792ecfcb3dcca6371ed892f3f6e87baf",
+    "rtl\\ov5640_sccb_access.v": "48503fb38b9325087c78589331e82715518f77ba629eb7da5265169850c8fb7f",
+    "tb\\tb_quality_control.v": "2ca369c30cbe04024c464cb426fe491a6848915ddf89b2a01e23dca0791c6e7b",
+    "tb\\tb_quality_lock.v": "7842da8b800ff773d593ff574feb65a2f6f4d1504c2c6b7c8d1c26c819387e71",
+    "tb\\tb_sccb_access.v": "eaa0b36cf60d3be368ce14cbb9ebc75d585fc78bb42463db791cb407f2acec6a"
+  },
+  "cases": [
+    {
+      "top": "tb_quality_lock",
+      "exit": 0,
+      "passed": true,
+      "log_sha256": "bf4ce159175dedd9fdfa3f5ba35fbfff11a49976c0edb4f20ec22f5ea1b7089d"
+    },
+    {
+      "top": "tb_sccb_access",
+      "exit": 0,
+      "passed": true,
+      "log_sha256": "2ae63008ef5030d934480933f376adaf2a3bf2f0f6e3bc149a2028e5aa01a2d1"
+    },
+    {
+      "top": "tb_quality_control",
+      "exit": 0,
+      "passed": true,
+      "log_sha256": "d5580b46483267a459cbeb525d0ccdbb335221e8464dc5f744739b657b26ce66"
+    }
+  ],
+  "physical_timing": "NOT_RUN",
+  "board_application": "NOT_RUN",
+  "status": "PASS"
+}

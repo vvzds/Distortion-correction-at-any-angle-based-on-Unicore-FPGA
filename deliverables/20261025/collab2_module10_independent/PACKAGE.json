@@ -1,0 +1,24 @@
+{
+  "zip_name": "模块10_独立补全回传包_二号_20261025.zip",
+  "zip_sha256": "9c2bee005c925e098504322b311c819e3ca593f743a647477551386773990845",
+  "bytes": 112377232,
+  "parts": [
+    {
+      "path": "parts/complete.zip.part01",
+      "sha256": "c205f831897228699ffb2a4ecdea90a6298d21ad17ad609eec7ee4ed722cb699",
+      "bytes": 50331648
+    },
+    {
+      "path": "parts/complete.zip.part02",
+      "sha256": "048ad716929a07b48a102a2114a941d6604a71a2e543b7b49c3c118cb7a1cc12",
+      "bytes": 50331648
+    },
+    {
+      "path": "parts/complete.zip.part03",
+      "sha256": "9570e0978531e3175cad7298ab4c114781bfd242491eaf4cb6c66328bb5e867e",
+      "bytes": 11713936
+    }
+  ],
+  "manifest_sha256": "ca1ab7bf21caaedbd721a01d310a98297c17ff1f634dba126f192886649f10ef",
+  "files": 178
+}

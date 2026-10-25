@@ -1,0 +1,1368 @@
+{
+  "path": "D:\\FPGA PDS\\yx\\DCSjingtaijiaozheng\\01_project\\top_recovery\\source\\rtl\\reg_config.v",
+  "sha256": "efc1cd8f6074cd59b04e37a23ef5c09b2e63458b525a2b1aa648fa4d5f8bb255",
+  "sequence": [
+    {
+      "index": 0,
+      "addr": "3103",
+      "value": "11"
+    },
+    {
+      "index": 1,
+      "addr": "3008",
+      "value": "82"
+    },
+    {
+      "index": 102,
+      "addr": "3008",
+      "value": "42"
+    },
+    {
+      "index": 103,
+      "addr": "3103",
+      "value": "11"
+    },
+    {
+      "index": 104,
+      "addr": "3017",
+      "value": "FF"
+    },
+    {
+      "index": 105,
+      "addr": "3018",
+      "value": "FF"
+    },
+    {
+      "index": 106,
+      "addr": "3034",
+      "value": "18"
+    },
+    {
+      "index": 107,
+      "addr": "3037",
+      "value": "13"
+    },
+    {
+      "index": 108,
+      "addr": "3108",
+      "value": "01"
+    },
+    {
+      "index": 109,
+      "addr": "3630",
+      "value": "36"
+    },
+    {
+      "index": 110,
+      "addr": "3631",
+      "value": "0E"
+    },
+    {
+      "index": 111,
+      "addr": "3632",
+      "value": "E2"
+    },
+    {
+      "index": 112,
+      "addr": "3633",
+      "value": "12"
+    },
+    {
+      "index": 113,
+      "addr": "3621",
+      "value": "E0"
+    },
+    {
+      "index": 114,
+      "addr": "3704",
+      "value": "A0"
+    },
+    {
+      "index": 115,
+      "addr": "3703",
+      "value": "5A"
+    },
+    {
+      "index": 116,
+      "addr": "3715",
+      "value": "78"
+    },
+    {
+      "index": 117,
+      "addr": "3717",
+      "value": "01"
+    },
+    {
+      "index": 118,
+      "addr": "370B",
+      "value": "60"
+    },
+    {
+      "index": 119,
+      "addr": "3705",
+      "value": "1A"
+    },
+    {
+      "index": 120,
+      "addr": "3905",
+      "value": "02"
+    },
+    {
+      "index": 121,
+      "addr": "3906",
+      "value": "10"
+    },
+    {
+      "index": 122,
+      "addr": "3901",
+      "value": "0A"
+    },
+    {
+      "index": 123,
+      "addr": "3731",
+      "value": "12"
+    },
+    {
+      "index": 124,
+      "addr": "3600",
+      "value": "08"
+    },
+    {
+      "index": 125,
+      "addr": "3601",
+      "value": "33"
+    },
+    {
+      "index": 126,
+      "addr": "302D",
+      "value": "60"
+    },
+    {
+      "index": 127,
+      "addr": "3620",
+      "value": "52"
+    },
+    {
+      "index": 128,
+      "addr": "371B",
+      "value": "20"
+    },
+    {
+      "index": 129,
+      "addr": "471C",
+      "value": "50"
+    },
+    {
+      "index": 130,
+      "addr": "3A13",
+      "value": "43"
+    },
+    {
+      "index": 131,
+      "addr": "3A18",
+      "value": "00"
+    },
+    {
+      "index": 132,
+      "addr": "3A19",
+      "value": "F8"
+    },
+    {
+      "index": 133,
+      "addr": "3635",
+      "value": "13"
+    },
+    {
+      "index": 134,
+      "addr": "3636",
+      "value": "03"
+    },
+    {
+      "index": 135,
+      "addr": "3634",
+      "value": "40"
+    },
+    {
+      "index": 136,
+      "addr": "3622",
+      "value": "01"
+    },
+    {
+      "index": 137,
+      "addr": "3C01",
+      "value": "34"
+    },
+    {
+      "index": 138,
+      "addr": "3C04",
+      "value": "28"
+    },
+    {
+      "index": 139,
+      "addr": "3C05",
+      "value": "98"
+    },
+    {
+      "index": 140,
+      "addr": "3C06",
+      "value": "00"
+    },
+    {
+      "index": 141,
+      "addr": "3C07",
+      "value": "08"
+    },
+    {
+      "index": 142,
+      "addr": "3C08",
+      "value": "00"
+    },
+    {
+      "index": 143,
+      "addr": "3C09",
+      "value": "1C"
+    },
+    {
+      "index": 144,
+      "addr": "3C0A",
+      "value": "9C"
+    },
+    {
+      "index": 145,
+      "addr": "3C0B",
+      "value": "40"
+    },
+    {
+      "index": 146,
+      "addr": "3810",
+      "value": "00"
+    },
+    {
+      "index": 147,
+      "addr": "3811",
+      "value": "10"
+    },
+    {
+      "index": 148,
+      "addr": "3812",
+      "value": "00"
+    },
+    {
+      "index": 149,
+      "addr": "3708",
+      "value": "64"
+    },
+    {
+      "index": 150,
+      "addr": "4001",
+      "value": "02"
+    },
+    {
+      "index": 151,
+      "addr": "4005",
+      "value": "1A"
+    },
+    {
+      "index": 152,
+      "addr": "3000",
+      "value": "00"
+    },
+    {
+      "index": 153,
+      "addr": "3004",
+      "value": "FF"
+    },
+    {
+      "index": 154,
+      "addr": "300E",
+      "value": "58"
+    },
+    {
+      "index": 155,
+      "addr": "302E",
+      "value": "00"
+    },
+    {
+      "index": 156,
+      "addr": "4300",
+      "value": "00"
+    },
+    {
+      "index": 157,
+      "addr": "501F",
+      "value": "03"
+    },
+    {
+      "index": 158,
+      "addr": "440E",
+      "value": "00"
+    },
+    {
+      "index": 159,
+      "addr": "5000",
+      "value": "A7"
+    },
+    {
+      "index": 160,
+      "addr": "3A0F",
+      "value": "30"
+    },
+    {
+      "index": 161,
+      "addr": "3A10",
+      "value": "28"
+    },
+    {
+      "index": 162,
+      "addr": "3A1B",
+      "value": "30"
+    },
+    {
+      "index": 163,
+      "addr": "3A1E",
+      "value": "26"
+    },
+    {
+      "index": 164,
+      "addr": "3A11",
+      "value": "60"
+    },
+    {
+      "index": 165,
+      "addr": "3A1F",
+      "value": "14"
+    },
+    {
+      "index": 166,
+      "addr": "5800",
+      "value": "23"
+    },
+    {
+      "index": 167,
+      "addr": "5801",
+      "value": "14"
+    },
+    {
+      "index": 168,
+      "addr": "5802",
+      "value": "0F"
+    },
+    {
+      "index": 169,
+      "addr": "5803",
+      "value": "0F"
+    },
+    {
+      "index": 170,
+      "addr": "5804",
+      "value": "12"
+    },
+    {
+      "index": 171,
+      "addr": "5805",
+      "value": "26"
+    },
+    {
+      "index": 172,
+      "addr": "5806",
+      "value": "0C"
+    },
+    {
+      "index": 173,
+      "addr": "5807",
+      "value": "08"
+    },
+    {
+      "index": 174,
+      "addr": "5808",
+      "value": "05"
+    },
+    {
+      "index": 175,
+      "addr": "5809",
+      "value": "05"
+    },
+    {
+      "index": 176,
+      "addr": "580A",
+      "value": "08"
+    },
+    {
+      "index": 177,
+      "addr": "580B",
+      "value": "0D"
+    },
+    {
+      "index": 178,
+      "addr": "580C",
+      "value": "08"
+    },
+    {
+      "index": 179,
+      "addr": "580D",
+      "value": "03"
+    },
+    {
+      "index": 180,
+      "addr": "580E",
+      "value": "00"
+    },
+    {
+      "index": 181,
+      "addr": "580F",
+      "value": "00"
+    },
+    {
+      "index": 182,
+      "addr": "5810",
+      "value": "03"
+    },
+    {
+      "index": 183,
+      "addr": "5811",
+      "value": "09"
+    },
+    {
+      "index": 184,
+      "addr": "5812",
+      "value": "07"
+    },
+    {
+      "index": 185,
+      "addr": "5813",
+      "value": "03"
+    },
+    {
+      "index": 186,
+      "addr": "5814",
+      "value": "00"
+    },
+    {
+      "index": 187,
+      "addr": "5815",
+      "value": "01"
+    },
+    {
+      "index": 188,
+      "addr": "5816",
+      "value": "03"
+    },
+    {
+      "index": 189,
+      "addr": "5817",
+      "value": "08"
+    },
+    {
+      "index": 190,
+      "addr": "5818",
+      "value": "0D"
+    },
+    {
+      "index": 191,
+      "addr": "5819",
+      "value": "08"
+    },
+    {
+      "index": 192,
+      "addr": "581A",
+      "value": "05"
+    },
+    {
+      "index": 193,
+      "addr": "581B",
+      "value": "06"
+    },
+    {
+      "index": 194,
+      "addr": "581C",
+      "value": "08"
+    },
+    {
+      "index": 195,
+      "addr": "581D",
+      "value": "0E"
+    },
+    {
+      "index": 196,
+      "addr": "581E",
+      "value": "29"
+    },
+    {
+      "index": 197,
+      "addr": "581F",
+      "value": "17"
+    },
+    {
+      "index": 198,
+      "addr": "5820",
+      "value": "11"
+    },
+    {
+      "index": 199,
+      "addr": "5821",
+      "value": "11"
+    },
+    {
+      "index": 200,
+      "addr": "5822",
+      "value": "15"
+    },
+    {
+      "index": 201,
+      "addr": "5823",
+      "value": "28"
+    },
+    {
+      "index": 202,
+      "addr": "5824",
+      "value": "46"
+    },
+    {
+      "index": 203,
+      "addr": "5825",
+      "value": "26"
+    },
+    {
+      "index": 204,
+      "addr": "5826",
+      "value": "08"
+    },
+    {
+      "index": 205,
+      "addr": "5827",
+      "value": "26"
+    },
+    {
+      "index": 206,
+      "addr": "5828",
+      "value": "64"
+    },
+    {
+      "index": 207,
+      "addr": "5829",
+      "value": "26"
+    },
+    {
+      "index": 208,
+      "addr": "582A",
+      "value": "24"
+    },
+    {
+      "index": 209,
+      "addr": "582B",
+      "value": "22"
+    },
+    {
+      "index": 210,
+      "addr": "582C",
+      "value": "24"
+    },
+    {
+      "index": 211,
+      "addr": "582D",
+      "value": "24"
+    },
+    {
+      "index": 212,
+      "addr": "582E",
+      "value": "06"
+    },
+    {
+      "index": 213,
+      "addr": "582F",
+      "value": "22"
+    },
+    {
+      "index": 214,
+      "addr": "5830",
+      "value": "40"
+    },
+    {
+      "index": 215,
+      "addr": "5831",
+      "value": "42"
+    },
+    {
+      "index": 216,
+      "addr": "5832",
+      "value": "24"
+    },
+    {
+      "index": 217,
+      "addr": "5833",
+      "value": "26"
+    },
+    {
+      "index": 218,
+      "addr": "5834",
+      "value": "24"
+    },
+    {
+      "index": 219,
+      "addr": "5835",
+      "value": "22"
+    },
+    {
+      "index": 220,
+      "addr": "5836",
+      "value": "22"
+    },
+    {
+      "index": 221,
+      "addr": "5837",
+      "value": "26"
+    },
+    {
+      "index": 222,
+      "addr": "5838",
+      "value": "44"
+    },
+    {
+      "index": 223,
+      "addr": "5839",
+      "value": "24"
+    },
+    {
+      "index": 224,
+      "addr": "583A",
+      "value": "26"
+    },
+    {
+      "index": 225,
+      "addr": "583B",
+      "value": "28"
+    },
+    {
+      "index": 226,
+      "addr": "583C",
+      "value": "42"
+    },
+    {
+      "index": 227,
+      "addr": "583D",
+      "value": "CE"
+    },
+    {
+      "index": 228,
+      "addr": "5180",
+      "value": "FF"
+    },
+    {
+      "index": 229,
+      "addr": "5181",
+      "value": "F2"
+    },
+    {
+      "index": 230,
+      "addr": "5182",
+      "value": "00"
+    },
+    {
+      "index": 231,
+      "addr": "5183",
+      "value": "14"
+    },
+    {
+      "index": 232,
+      "addr": "5184",
+      "value": "25"
+    },
+    {
+      "index": 233,
+      "addr": "5185",
+      "value": "24"
+    },
+    {
+      "index": 234,
+      "addr": "5186",
+      "value": "09"
+    },
+    {
+      "index": 235,
+      "addr": "5187",
+      "value": "09"
+    },
+    {
+      "index": 236,
+      "addr": "5188",
+      "value": "09"
+    },
+    {
+      "index": 237,
+      "addr": "5189",
+      "value": "75"
+    },
+    {
+      "index": 238,
+      "addr": "518A",
+      "value": "54"
+    },
+    {
+      "index": 239,
+      "addr": "518B",
+      "value": "E0"
+    },
+    {
+      "index": 240,
+      "addr": "518C",
+      "value": "B2"
+    },
+    {
+      "index": 241,
+      "addr": "518D",
+      "value": "42"
+    },
+    {
+      "index": 242,
+      "addr": "518E",
+      "value": "3D"
+    },
+    {
+      "index": 243,
+      "addr": "518F",
+      "value": "56"
+    },
+    {
+      "index": 244,
+      "addr": "5190",
+      "value": "46"
+    },
+    {
+      "index": 245,
+      "addr": "5191",
+      "value": "F8"
+    },
+    {
+      "index": 246,
+      "addr": "5192",
+      "value": "04"
+    },
+    {
+      "index": 247,
+      "addr": "5193",
+      "value": "70"
+    },
+    {
+      "index": 248,
+      "addr": "5194",
+      "value": "F0"
+    },
+    {
+      "index": 249,
+      "addr": "5195",
+      "value": "F0"
+    },
+    {
+      "index": 250,
+      "addr": "5196",
+      "value": "03"
+    },
+    {
+      "index": 251,
+      "addr": "5197",
+      "value": "01"
+    },
+    {
+      "index": 252,
+      "addr": "5198",
+      "value": "04"
+    },
+    {
+      "index": 253,
+      "addr": "5199",
+      "value": "12"
+    },
+    {
+      "index": 254,
+      "addr": "519A",
+      "value": "04"
+    },
+    {
+      "index": 255,
+      "addr": "519B",
+      "value": "00"
+    },
+    {
+      "index": 256,
+      "addr": "519C",
+      "value": "06"
+    },
+    {
+      "index": 257,
+      "addr": "519D",
+      "value": "82"
+    },
+    {
+      "index": 258,
+      "addr": "519E",
+      "value": "38"
+    },
+    {
+      "index": 259,
+      "addr": "5480",
+      "value": "01"
+    },
+    {
+      "index": 260,
+      "addr": "5481",
+      "value": "08"
+    },
+    {
+      "index": 261,
+      "addr": "5482",
+      "value": "14"
+    },
+    {
+      "index": 262,
+      "addr": "5483",
+      "value": "28"
+    },
+    {
+      "index": 263,
+      "addr": "5484",
+      "value": "51"
+    },
+    {
+      "index": 264,
+      "addr": "5485",
+      "value": "65"
+    },
+    {
+      "index": 265,
+      "addr": "5486",
+      "value": "71"
+    },
+    {
+      "index": 266,
+      "addr": "5487",
+      "value": "7D"
+    },
+    {
+      "index": 267,
+      "addr": "5488",
+      "value": "87"
+    },
+    {
+      "index": 268,
+      "addr": "5489",
+      "value": "91"
+    },
+    {
+      "index": 269,
+      "addr": "548A",
+      "value": "9A"
+    },
+    {
+      "index": 270,
+      "addr": "548B",
+      "value": "AA"
+    },
+    {
+      "index": 271,
+      "addr": "548C",
+      "value": "B8"
+    },
+    {
+      "index": 272,
+      "addr": "548D",
+      "value": "CD"
+    },
+    {
+      "index": 273,
+      "addr": "548E",
+      "value": "DD"
+    },
+    {
+      "index": 274,
+      "addr": "548F",
+      "value": "EA"
+    },
+    {
+      "index": 275,
+      "addr": "5490",
+      "value": "1D"
+    },
+    {
+      "index": 276,
+      "addr": "5381",
+      "value": "1E"
+    },
+    {
+      "index": 277,
+      "addr": "5382",
+      "value": "5B"
+    },
+    {
+      "index": 278,
+      "addr": "5383",
+      "value": "08"
+    },
+    {
+      "index": 279,
+      "addr": "5384",
+      "value": "0A"
+    },
+    {
+      "index": 280,
+      "addr": "5385",
+      "value": "7E"
+    },
+    {
+      "index": 281,
+      "addr": "5386",
+      "value": "88"
+    },
+    {
+      "index": 282,
+      "addr": "5387",
+      "value": "7C"
+    },
+    {
+      "index": 283,
+      "addr": "5388",
+      "value": "6C"
+    },
+    {
+      "index": 284,
+      "addr": "5389",
+      "value": "10"
+    },
+    {
+      "index": 285,
+      "addr": "538A",
+      "value": "01"
+    },
+    {
+      "index": 286,
+      "addr": "538B",
+      "value": "98"
+    },
+    {
+      "index": 287,
+      "addr": "5580",
+      "value": "06"
+    },
+    {
+      "index": 288,
+      "addr": "5583",
+      "value": "40"
+    },
+    {
+      "index": 289,
+      "addr": "5584",
+      "value": "10"
+    },
+    {
+      "index": 290,
+      "addr": "5589",
+      "value": "10"
+    },
+    {
+      "index": 291,
+      "addr": "558A",
+      "value": "00"
+    },
+    {
+      "index": 292,
+      "addr": "558B",
+      "value": "F8"
+    },
+    {
+      "index": 293,
+      "addr": "501D",
+      "value": "40"
+    },
+    {
+      "index": 294,
+      "addr": "5300",
+      "value": "08"
+    },
+    {
+      "index": 295,
+      "addr": "5301",
+      "value": "30"
+    },
+    {
+      "index": 296,
+      "addr": "5302",
+      "value": "10"
+    },
+    {
+      "index": 297,
+      "addr": "5303",
+      "value": "00"
+    },
+    {
+      "index": 298,
+      "addr": "5304",
+      "value": "08"
+    },
+    {
+      "index": 299,
+      "addr": "5305",
+      "value": "30"
+    },
+    {
+      "index": 300,
+      "addr": "5306",
+      "value": "08"
+    },
+    {
+      "index": 301,
+      "addr": "5307",
+      "value": "16"
+    },
+    {
+      "index": 302,
+      "addr": "5309",
+      "value": "08"
+    },
+    {
+      "index": 303,
+      "addr": "530A",
+      "value": "30"
+    },
+    {
+      "index": 304,
+      "addr": "530B",
+      "value": "04"
+    },
+    {
+      "index": 305,
+      "addr": "530C",
+      "value": "06"
+    },
+    {
+      "index": 306,
+      "addr": "5025",
+      "value": "00"
+    },
+    {
+      "index": 307,
+      "addr": "3008",
+      "value": "42"
+    },
+    {
+      "index": 308,
+      "addr": "3035",
+      "value": "11"
+    },
+    {
+      "index": 309,
+      "addr": "3036",
+      "value": "54"
+    },
+    {
+      "index": 310,
+      "addr": "3C07",
+      "value": "08"
+    },
+    {
+      "index": 311,
+      "addr": "3820",
+      "value": "40"
+    },
+    {
+      "index": 312,
+      "addr": "3821",
+      "value": "00"
+    },
+    {
+      "index": 313,
+      "addr": "3814",
+      "value": "11"
+    },
+    {
+      "index": 314,
+      "addr": "3815",
+      "value": "11"
+    },
+    {
+      "index": 315,
+      "addr": "3800",
+      "value": "01"
+    },
+    {
+      "index": 316,
+      "addr": "3801",
+      "value": "50"
+    },
+    {
+      "index": 317,
+      "addr": "3802",
+      "value": "01"
+    },
+    {
+      "index": 318,
+      "addr": "3803",
+      "value": "B2"
+    },
+    {
+      "index": 319,
+      "addr": "3804",
+      "value": "08"
+    },
+    {
+      "index": 320,
+      "addr": "3805",
+      "value": "EF"
+    },
+    {
+      "index": 321,
+      "addr": "3806",
+      "value": "05"
+    },
+    {
+      "index": 322,
+      "addr": "3807",
+      "value": "F1"
+    },
+    {
+      "index": 323,
+      "addr": "3808",
+      "value": "07"
+    },
+    {
+      "index": 324,
+      "addr": "3809",
+      "value": "80"
+    },
+    {
+      "index": 325,
+      "addr": "380A",
+      "value": "04"
+    },
+    {
+      "index": 326,
+      "addr": "380B",
+      "value": "38"
+    },
+    {
+      "index": 327,
+      "addr": "380C",
+      "value": "09"
+    },
+    {
+      "index": 328,
+      "addr": "380D",
+      "value": "C4"
+    },
+    {
+      "index": 329,
+      "addr": "380E",
+      "value": "04"
+    },
+    {
+      "index": 330,
+      "addr": "380F",
+      "value": "60"
+    },
+    {
+      "index": 331,
+      "addr": "3813",
+      "value": "04"
+    },
+    {
+      "index": 332,
+      "addr": "3618",
+      "value": "00"
+    },
+    {
+      "index": 333,
+      "addr": "3612",
+      "value": "29"
+    },
+    {
+      "index": 334,
+      "addr": "3709",
+      "value": "52"
+    },
+    {
+      "index": 335,
+      "addr": "370C",
+      "value": "03"
+    },
+    {
+      "index": 336,
+      "addr": "3A02",
+      "value": "04"
+    },
+    {
+      "index": 337,
+      "addr": "3A03",
+      "value": "5C"
+    },
+    {
+      "index": 338,
+      "addr": "3A08",
+      "value": "01"
+    },
+    {
+      "index": 339,
+      "addr": "3A09",
+      "value": "50"
+    },
+    {
+      "index": 340,
+      "addr": "3A0A",
+      "value": "01"
+    },
+    {
+      "index": 341,
+      "addr": "3A0B",
+      "value": "18"
+    },
+    {
+      "index": 342,
+      "addr": "3A0E",
+      "value": "03"
+    },
+    {
+      "index": 343,
+      "addr": "3A0D",
+      "value": "03"
+    },
+    {
+      "index": 344,
+      "addr": "3A14",
+      "value": "04"
+    },
+    {
+      "index": 345,
+      "addr": "3A15",
+      "value": "5C"
+    },
+    {
+      "index": 346,
+      "addr": "4004",
+      "value": "02"
+    },
+    {
+      "index": 347,
+      "addr": "3002",
+      "value": "1C"
+    },
+    {
+      "index": 348,
+      "addr": "3006",
+      "value": "C3"
+    },
+    {
+      "index": 349,
+      "addr": "4713",
+      "value": "03"
+    },
+    {
+      "index": 350,
+      "addr": "4407",
+      "value": "04"
+    },
+    {
+      "index": 351,
+      "addr": "460B",
+      "value": "37"
+    },
+    {
+      "index": 352,
+      "addr": "460C",
+      "value": "22"
+    },
+    {
+      "index": 353,
+      "addr": "4837",
+      "value": "16"
+    },
+    {
+      "index": 354,
+      "addr": "3824",
+      "value": "02"
+    },
+    {
+      "index": 355,
+      "addr": "5001",
+      "value": "83"
+    },
+    {
+      "index": 356,
+      "addr": "3503",
+      "value": "00"
+    },
+    {
+      "index": 357,
+      "addr": "3A00",
+      "value": "78"
+    },
+    {
+      "index": 358,
+      "addr": "4300",
+      "value": "00"
+    },
+    {
+      "index": 359,
+      "addr": "501F",
+      "value": "03"
+    },
+    {
+      "index": 360,
+      "addr": "3103",
+      "value": "03"
+    },
+    {
+      "index": 362,
+      "addr": "3008",
+      "value": "02"
+    }
+  ],
+  "geometry": {
+    "3034": 24,
+    "3035": 17,
+    "3036": 84,
+    "3037": 19,
+    "3108": 1,
+    "4300": 0,
+    "501F": 3,
+    "5000": 167,
+    "5001": 131,
+    "3800": 1,
+    "3801": 80,
+    "3802": 1,
+    "3803": 178,
+    "3804": 8,
+    "3805": 239,
+    "3806": 5,
+    "3807": 241,
+    "3808": 7,
+    "3809": 128,
+    "380A": 4,
+    "380B": 56,
+    "380C": 9,
+    "380D": 196,
+    "380E": 4,
+    "380F": 96,
+    "3810": 0,
+    "3811": 16,
+    "3812": 0,
+    "3813": 4,
+    "3814": 17,
+    "3815": 17,
+    "3816": null,
+    "3817": null,
+    "3818": null,
+    "3819": null,
+    "381A": null,
+    "381B": null,
+    "381C": null,
+    "381D": null,
+    "381E": null,
+    "381F": null,
+    "3820": 64,
+    "3821": 0,
+    "3822": null,
+    "3823": null,
+    "3824": 2
+  },
+  "width": 1920,
+  "height": 1080,
+  "initialization_aec_manual": 0,
+  "note": "Initialization writes do not prove runtime register values; no sensor readback in stable G4 camera configuration."
+}
