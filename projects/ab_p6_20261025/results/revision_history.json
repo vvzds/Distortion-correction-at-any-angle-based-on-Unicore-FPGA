@@ -1,0 +1,7 @@
+{
+  "current_cache_sha256": "db134cb9ae25bb6962fb0b8c81a6e30096109305374625c22ef6650be5af3217",
+  "invalid_initial_trial": "output aliases wired backwards; rejected at first checked edge; invalid evidence retained separately",
+  "current_positive_passed": true,
+  "full_22_bit_extremes": "F13 in directed TB",
+  "source_mutation_complete": true
+}

@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-22",
+  "baseline": "G4 (user confirmed)",
+  "simulator": "Icarus Verilog 12.0 development build",
+  "image": [
+    1920,
+    1080
+  ],
+  "capture_and_hdmi_target_fps": 30,
+  "affine_enabled": false,
+  "gamma_enabled": false,
+  "tests": {
+    "source_words": {
+      "pass": true,
+      "log": "logs/source_words.log",
+      "log_sha256": "850F2C3620C513B1A8475C17ECD1069F5A044129665E2E973F51F89A1732E9E2"
+    },
+    "uart": {
+      "pass": true,
+      "log": "logs/uart.log",
+      "log_sha256": "717A0FA8D53D51FB047A5BEE042A16ACBD224AAA190F19C3CBD4EC3CEF747DC0"
+    },
+    "boundary": {
+      "pass": true,
+      "log": "logs/boundary.log",
+      "log_sha256": "D81EDEA4697D19D715454168AA9D5FA48BAE2850DA195537FD867E529BB32EC6"
+    },
+    "bilinear": {
+      "pass": true,
+      "log": "logs/bilinear.log",
+      "log_sha256": "D6ED3722A8AD8D97D571C87409C00B45A18585D05ABDEF7A667BAF413F247187"
+    },
+    "cache": {
+      "pass": true,
+      "log": "logs/cache.log",
+      "log_sha256": "2182F040709FB853D7FA460EC3DE86EC6454DADEE3A78D11BAEE92B76E66A0B8"
+    },
+    "map": {
+      "pass": true,
+      "log": "logs/map_full.log",
+      "log_sha256": "89B747D8E7C0778058D41420E15AEC3F51DEED06A379F5F029EE102518DEF662"
+    },
+    "identity": {
+      "pass": true,
+      "log": "logs/core_identity.log",
+      "log_sha256": "5DD71ADA7965B730C737C9D1FF9D7E9E833988D3D0D158CEDAED6FE540EFE4E0",
+      "cycles": 4147485,
+      "cpp": 2.000137,
+      "model_fps_125MHz": 30.138747,
+      "line_loads": 1080,
+      "hits": 1,
+      "first_read": 0,
+      "last_read": 1079,
+      "minrow": 0,
+      "maxrow": 1079
+    },
+    "real_highfreq": {
+      "pass": true,
+      "log": "logs/core_real_highfreq.log",
+      "log_sha256": "E147844397E7B25F4DC6801A4CBC32ABF5C02C3D668B04900E11F58FF7E84AEC",
+      "cycles": 13999448,
+      "cpp": 6.751277,
+      "model_fps_125MHz": 8.928923,
+      "line_loads": 69916,
+      "hits": 3,
+      "first_read": 73,
+      "last_read": 979,
+      "minrow": 21,
+      "maxrow": 1051
+    }
+  },
+  "offline_metrics": {
+    "pixels": 2073600,
+    "quantized_vs_original": {
+      "max_abs_x_px": 0.010556434994327901,
+      "max_abs_y_px": 0.0059249013484077295,
+      "max_euclidean_px": 0.012105485359035979,
+      "rms_euclidean_px": 0.003741416306426124,
+      "p95_euclidean_px": 0.007303044533630308
+    },
+    "arithmetic_vs_quantized": {
+      "max_abs_x_px": 0.0005229130233601609,
+      "max_abs_y_px": 0.0004861004085796594,
+      "max_euclidean_px": 0.0006223984137140067,
+      "rms_euclidean_px": 0.0003397041553877594,
+      "p95_euclidean_px": 0.00045101497860557994
+    },
+    "total_vs_original": {
+      "max_abs_x_px": 0.010411986821509345,
+      "max_abs_y_px": 0.006247827546076223,
+      "max_euclidean_px": 0.012099817400271447,
+      "rms_euclidean_px": 0.0036430252316954287,
+      "p95_euclidean_px": 0.00716703953672162
+    },
+    "pattern_0_vs_quantized_float": {
+      "max_channel_lsb": 1,
+      "within_one_fraction": 1.0,
+      "over_two_pixels": 0
+    },
+    "pattern_0_vs_original_float": {
+      "max_channel_lsb": 1,
+      "within_one_fraction": 1.0,
+      "over_two_pixels": 0
+    },
+    "pattern_1_vs_quantized_float": {
+      "max_channel_lsb": 1,
+      "within_one_fraction": 1.0,
+      "over_two_pixels": 0
+    },
+    "pattern_1_vs_original_float": {
+      "max_channel_lsb": 1,
+      "within_one_fraction": 1.0,
+      "over_two_pixels": 0
+    },
+    "all_pixels_source_address_check": "PASS (both rows, slots 0..3)",
+    "corrected_write_display_contract": "PASS: y_mem ascending, HDMI y_mem=1079-y_screen; x even low16",
+    "fixed_coordinate_range_px": [
+      99.25424194335938,
+      1768.5521087646484,
+      28.875579833984375,
+      1057.580551147461
+    ],
+    "predicted_access": {
+      "identity": {
+        "max_source_row_span_per_output_line": 2
+      },
+      "real": {
+        "max_source_row_span_per_output_line": 73
+      }
+    }
+  },
+  "production_RTL_modified": false,
+  "board_tested": false,
+  "bitstream_generated": false,
+  "uart_sent_to_board": false
+}

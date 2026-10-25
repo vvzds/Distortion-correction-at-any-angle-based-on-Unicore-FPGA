@@ -1,0 +1,28 @@
+{
+  "status": "FINISHED",
+  "argv": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "Q:/analysis.tcl",
+    "-work_dir",
+    "Q:/",
+    "-project_name",
+    "ab_seed2_analysis"
+  ],
+  "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\audit_work_20261024\\ab_seed2_inputs",
+  "tool_sha256": "f22f86527d72ce7980dadad3adb189ee1d0271979d053e15d97da954b6848d0f",
+  "declared_tool_version": "PDS 2022.2-SP6.1 build 138931; same-session subst Q=ab_seed2_inputs",
+  "version_confirmed": false,
+  "started_at": "2026-10-24T14:06:37.657680+08:00",
+  "timeout_seconds": 7200,
+  "pid": 32056,
+  "exit_code": 0,
+  "finished_at": "2026-10-24T14:42:29.665408+08:00",
+  "termination": null,
+  "changed_input_files": [
+    "run.log"
+  ],
+  "artifact_read_errors": [],
+  "console_sha256": "12579b43fd8fb8f3ba4c717aeb3db824ef1f393c5d8434c6e1918d1559db94a5",
+  "physics_pass": "NOT_ASSESSED"
+}

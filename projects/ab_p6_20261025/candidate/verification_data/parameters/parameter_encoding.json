@@ -1,0 +1,139 @@
+{
+  "image": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "model": "Brown4, k3=0, K_out=K_in",
+  "origin": "top-left; x right; y down",
+  "order": [
+    "fx",
+    "fy",
+    "cx",
+    "cy",
+    "k1",
+    "k2",
+    "p1",
+    "p2"
+  ],
+  "parameters": [
+    {
+      "name": "fx",
+      "input": "1507.710442199695",
+      "signed_integer": 98809312,
+      "hex": "05E3B5E0",
+      "little_endian": "E0 B5 E3 05",
+      "decoded": 1507.71044921875,
+      "quantization_error": 7.019054919510381e-06,
+      "g02_range": [
+        128.0,
+        32767.99
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "fy",
+      "input": "1507.403518870939",
+      "signed_integer": 98789197,
+      "hex": "05E3674D",
+      "little_endian": "4D 67 E3 05",
+      "decoded": 1507.4035186767578,
+      "quantization_error": -1.9418121155467816e-07,
+      "g02_range": [
+        128.0,
+        32767.99
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "cx",
+      "input": "883.533081692948",
+      "signed_integer": 57903224,
+      "hex": "03738878",
+      "little_endian": "78 88 73 03",
+      "decoded": 883.5330810546875,
+      "quantization_error": -6.38260530649859e-07,
+      "g02_range": [
+        0.0,
+        1919.0
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "cy",
+      "input": "568.687748120301",
+      "signed_integer": 37269520,
+      "hex": "0238B010",
+      "little_endian": "10 B0 38 02",
+      "decoded": 568.687744140625,
+      "quantization_error": -3.979675966547802e-06,
+      "g02_range": [
+        0.0,
+        1079.0
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "k1",
+      "input": "-0.381482584692",
+      "signed_integer": -25001,
+      "hex": "FFFF9E57",
+      "little_endian": "57 9E FF FF",
+      "decoded": -0.3814849853515625,
+      "quantization_error": -2.400659562473706e-06,
+      "g02_range": [
+        -0.5,
+        0.5
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "k2",
+      "input": "0.156698401312",
+      "signed_integer": 10269,
+      "hex": "0000281D",
+      "little_endian": "1D 28 00 00",
+      "decoded": 0.1566925048828125,
+      "quantization_error": -5.896429187496333e-06,
+      "g02_range": [
+        -0.5,
+        0.5
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "p1",
+      "input": "-0.000303016236",
+      "signed_integer": -20,
+      "hex": "FFFFFFEC",
+      "little_endian": "EC FF FF FF",
+      "decoded": -0.00030517578125,
+      "quantization_error": -2.159545249999994e-06,
+      "g02_range": [
+        -0.01,
+        0.01
+      ],
+      "range_pass": true
+    },
+    {
+      "name": "p2",
+      "input": "-0.000110983241",
+      "signed_integer": -7,
+      "hex": "FFFFFFF9",
+      "little_endian": "F9 FF FF FF",
+      "decoded": -0.0001068115234375,
+      "quantization_error": 4.171717562500004e-06,
+      "g02_range": [
+        -0.01,
+        0.01
+      ],
+      "range_pass": true
+    }
+  ],
+  "cmd01_frame_bytes": 37,
+  "cmd01_checksum": "A0",
+  "cmd01_hex": "AA 55 01 20 E0 B5 E3 05 4D 67 E3 05 78 88 73 03 10 B0 38 02 57 9E FF FF 1D 28 00 00 EC FF FF FF F9 FF FF FF A0",
+  "g4_manifest_verified": 256,
+  "integration_manifest_verified": 16,
+  "calibration_source_sha256": "CBDD79557EC21F094D6918CA27A248F54CA73AA2C3E8531E07F9CA47FAC375BC"
+}

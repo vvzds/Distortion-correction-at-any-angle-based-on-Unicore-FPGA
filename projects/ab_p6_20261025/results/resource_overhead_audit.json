@@ -1,0 +1,223 @@
+{
+  "P4": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "61afdf5d3180e17dfa85884cb8183ebc52aadb238f7f97530fca0b1b463e94b4",
+    "ff": 8268,
+    "categories": {
+      "other": 1630,
+      "mask": 192,
+      "age": 4032,
+      "winner_age": 252,
+      "winner_other": 49,
+      "leaf": 2113
+    },
+    "modules": [
+      {
+        "module": "undistort_cache_ab",
+        "count": 8268,
+        "categories": {
+          "other": 1630,
+          "mask": 192,
+          "age": 4032,
+          "winner_age": 252,
+          "winner_other": 49,
+          "leaf": 2113
+        }
+      }
+    ]
+  },
+  "P6": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "bf7c103f19c91a73e6ec5cf9b06400d289d767130ed543843bd11da86ca761ca",
+    "ff": 8568,
+    "categories": {
+      "age": 4224,
+      "leaf": 2209,
+      "mask": 192,
+      "winner_other": 49,
+      "winner_age": 264,
+      "other": 1630
+    },
+    "modules": [
+      {
+        "module": "undistort_age_victim_group_p6",
+        "count": 580,
+        "categories": {
+          "age": 352,
+          "leaf": 185,
+          "mask": 16,
+          "winner_other": 5,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_1",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_2",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_3",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_4",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_5",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_6",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_7",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_8",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_9",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_10",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_age_victim_group_p6_11",
+        "count": 578,
+        "categories": {
+          "age": 352,
+          "leaf": 184,
+          "mask": 16,
+          "winner_other": 4,
+          "winner_age": 22
+        }
+      },
+      {
+        "module": "undistort_cache_ab",
+        "count": 1630,
+        "categories": {
+          "other": 1630
+        }
+      }
+    ]
+  },
+  "P6R1": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "4be074bf28887e2bfc632d0d0a8ea02d18a393c628e2539d3e901844e666c599",
+    "ff": 8568,
+    "categories": {
+      "other": 1630,
+      "age": 4224,
+      "leaf": 2209,
+      "mask": 192,
+      "winner_other": 49,
+      "winner_age": 264
+    },
+    "modules": [
+      {
+        "module": "undistort_cache_ab",
+        "count": 8568,
+        "categories": {
+          "other": 1630,
+          "age": 4224,
+          "leaf": 2209,
+          "mask": 192,
+          "winner_other": 49,
+          "winner_age": 264
+        }
+      }
+    ]
+  },
+  "diagnosis": {
+    "original_extra_ff": 300,
+    "original_category_delta": {
+      "age": 192,
+      "leaf": 96,
+      "mask": 0,
+      "winner_other": 0,
+      "winner_age": 12,
+      "other": 0
+    },
+    "revision_extra_ff": 300,
+    "meaning": "Counts from generated GTP_DFF primitives; full 22-bit RTL remains and F13 exercises nonzero MSB in standalone simulation"
+  }
+}

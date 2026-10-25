@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "meaning": "Source and existing evidence integrity only; resource acceptance failed, no full regression or timing acceptance",
+  "source_complete": true,
+  "early_functional_passed": true,
+  "resource_gate_passed": false,
+  "timing_established": false
+}

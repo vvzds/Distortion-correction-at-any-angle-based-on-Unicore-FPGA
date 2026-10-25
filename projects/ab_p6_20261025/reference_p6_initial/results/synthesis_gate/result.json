@@ -1,0 +1,31 @@
+{
+  "passed": false,
+  "gates": {
+    "flow_completed": true,
+    "no_error_lines": true,
+    "tag_row_ram_inferred": true,
+    "tag_seg_ram_inferred": true,
+    "distributed_ram_retained": true,
+    "ff_budget": false,
+    "logic_lut_budget": true,
+    "drm_budget": true
+  },
+  "baseline_p4": {
+    "LUT": 16359.0,
+    "FF": 8268.0,
+    "Distributed_RAM": 3168.0,
+    "APM": 0.0,
+    "DRM": 8.0,
+    "logic_LUT": 13191.0
+  },
+  "candidate": {
+    "LUT": 16865.0,
+    "FF": 8568.0,
+    "Distributed_RAM": 3168.0,
+    "APM": 0.0,
+    "DRM": 8.0,
+    "logic_LUT": 13697.0
+  },
+  "meaning": "Early resource/inference screen only; not 125MHz or complete functional acceptance",
+  "no_pnr_executed": true
+}
