@@ -1,0 +1,672 @@
+{
+  "p7r1": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1\u6807\u7b7eRAM\u4e0e\u5171\u4eab\u6bd4\u8f83_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "35dd57fcc6687a6b573aeb2345f7bc04852383e0e930f9ae43f9a310fc8c0ef4",
+    "qualifier_count": 0,
+    "qualifiers": {},
+    "input_touch_pin_loads": 0,
+    "largest_control_loads": [
+      [
+        "clk",
+        9940
+      ],
+      [
+        "missing_row[0]",
+        2361
+      ],
+      [
+        "N215011",
+        2113
+      ],
+      [
+        "chosen[0]",
+        1647
+      ],
+      [
+        "chosen[1]",
+        1647
+      ],
+      [
+        "chosen[2]",
+        1647
+      ],
+      [
+        "chosen[3]",
+        1647
+      ],
+      [
+        "N73_0",
+        1499
+      ],
+      [
+        "tag_bank[11].key[1].row_key[0]",
+        985
+      ],
+      [
+        "tag_bank[11].key[3].row_key[0]",
+        984
+      ],
+      [
+        "first_pending",
+        514
+      ],
+      [
+        "alloc",
+        424
+      ],
+      [
+        "N6",
+        414
+      ],
+      [
+        "parity_a",
+        380
+      ],
+      [
+        "N214856",
+        301
+      ]
+    ],
+    "limitations": "Synthesis primitive pin loads within cache only; these are not physical fanout or timing results."
+  },
+  "p8": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P8\u89e6\u6478\u8bd1\u7801\u5c40\u90e8\u5316_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "a7b5cadfef326f251bc082165693d6b9e090a9b9253b78c914f12169fe98d11c",
+    "qualifier_count": 48,
+    "qualifiers": {
+      "touch_bank[0].touch0": {
+        "pin_loads": 8,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N14328",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[0].touch0",
+            "Z5": "\\touch_bank[1].touch0",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[4]",
+            "I2": "i_touch_ids[5]",
+            "I3": "i_touch_ids[6]",
+            "I4": "i_touch_ids[7]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[0].touch1": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N14333",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[0].touch1",
+            "Z5": "\\touch_bank[1].touch1",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[12]",
+            "I2": "i_touch_ids[13]",
+            "I3": "i_touch_ids[14]",
+            "I4": "i_touch_ids[15]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[0].touch2": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N14338",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[0].touch2",
+            "Z5": "\\touch_bank[1].touch2",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[20]",
+            "I2": "i_touch_ids[21]",
+            "I3": "i_touch_ids[22]",
+            "I4": "i_touch_ids[23]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[0].touch3": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N14343",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[0].touch3",
+            "Z5": "\\touch_bank[1].touch3",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[28]",
+            "I2": "i_touch_ids[29]",
+            "I3": "i_touch_ids[30]",
+            "I4": "i_touch_ids[31]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[10].touch0": {
+        "pin_loads": 8,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N18368",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[10].touch0",
+            "Z5": "\\touch_bank[11].touch0",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[4]",
+            "I2": "i_touch_ids[5]",
+            "I3": "i_touch_ids[6]",
+            "I4": "i_touch_ids[7]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[10].touch1": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N18373",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[10].touch1",
+            "Z5": "\\touch_bank[11].touch1",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[12]",
+            "I2": "i_touch_ids[13]",
+            "I3": "i_touch_ids[14]",
+            "I4": "i_touch_ids[15]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[10].touch2": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N18378",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[10].touch2",
+            "Z5": "\\touch_bank[11].touch2",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[20]",
+            "I2": "i_touch_ids[21]",
+            "I3": "i_touch_ids[22]",
+            "I4": "i_touch_ids[23]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[10].touch3": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N18383",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[10].touch3",
+            "Z5": "\\touch_bank[11].touch3",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[28]",
+            "I2": "i_touch_ids[29]",
+            "I3": "i_touch_ids[30]",
+            "I4": "i_touch_ids[31]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[11].touch0": {
+        "pin_loads": 9,
+        "driver": null
+      },
+      "touch_bank[11].touch1": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[11].touch2": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[11].touch3": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[1].touch0": {
+        "pin_loads": 9,
+        "driver": null
+      },
+      "touch_bank[1].touch1": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[1].touch2": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[1].touch3": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[2].touch0": {
+        "pin_loads": 8,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15136",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[2].touch0",
+            "Z5": "\\touch_bank[3].touch0",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[4]",
+            "I2": "i_touch_ids[5]",
+            "I3": "i_touch_ids[6]",
+            "I4": "i_touch_ids[7]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[2].touch1": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15141",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[2].touch1",
+            "Z5": "\\touch_bank[3].touch1",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[12]",
+            "I2": "i_touch_ids[13]",
+            "I3": "i_touch_ids[14]",
+            "I4": "i_touch_ids[15]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[2].touch2": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15146",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[2].touch2",
+            "Z5": "\\touch_bank[3].touch2",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[20]",
+            "I2": "i_touch_ids[21]",
+            "I3": "i_touch_ids[22]",
+            "I4": "i_touch_ids[23]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[2].touch3": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15151",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[2].touch3",
+            "Z5": "\\touch_bank[3].touch3",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[28]",
+            "I2": "i_touch_ids[29]",
+            "I3": "i_touch_ids[30]",
+            "I4": "i_touch_ids[31]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[3].touch0": {
+        "pin_loads": 9,
+        "driver": null
+      },
+      "touch_bank[3].touch1": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[3].touch2": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[3].touch3": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[4].touch0": {
+        "pin_loads": 8,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15944",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[4].touch0",
+            "Z5": "\\touch_bank[5].touch0",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[4]",
+            "I2": "i_touch_ids[5]",
+            "I3": "i_touch_ids[6]",
+            "I4": "i_touch_ids[7]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[4].touch1": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15949",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[4].touch1",
+            "Z5": "\\touch_bank[5].touch1",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[12]",
+            "I2": "i_touch_ids[13]",
+            "I3": "i_touch_ids[14]",
+            "I4": "i_touch_ids[15]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[4].touch2": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15954",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[4].touch2",
+            "Z5": "\\touch_bank[5].touch2",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[20]",
+            "I2": "i_touch_ids[21]",
+            "I3": "i_touch_ids[22]",
+            "I4": "i_touch_ids[23]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[4].touch3": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N15959",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[4].touch3",
+            "Z5": "\\touch_bank[5].touch3",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[28]",
+            "I2": "i_touch_ids[29]",
+            "I3": "i_touch_ids[30]",
+            "I4": "i_touch_ids[31]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[5].touch0": {
+        "pin_loads": 9,
+        "driver": null
+      },
+      "touch_bank[5].touch1": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[5].touch2": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[5].touch3": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[6].touch0": {
+        "pin_loads": 8,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N16752",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[6].touch0",
+            "Z5": "\\touch_bank[7].touch0",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[4]",
+            "I2": "i_touch_ids[5]",
+            "I3": "i_touch_ids[6]",
+            "I4": "i_touch_ids[7]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[6].touch1": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N16757",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[6].touch1",
+            "Z5": "\\touch_bank[7].touch1",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[12]",
+            "I2": "i_touch_ids[13]",
+            "I3": "i_touch_ids[14]",
+            "I4": "i_touch_ids[15]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[6].touch2": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N16762",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[6].touch2",
+            "Z5": "\\touch_bank[7].touch2",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[20]",
+            "I2": "i_touch_ids[21]",
+            "I3": "i_touch_ids[22]",
+            "I4": "i_touch_ids[23]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[6].touch3": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N16767",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[6].touch3",
+            "Z5": "\\touch_bank[7].touch3",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[28]",
+            "I2": "i_touch_ids[29]",
+            "I3": "i_touch_ids[30]",
+            "I4": "i_touch_ids[31]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[7].touch0": {
+        "pin_loads": 9,
+        "driver": null
+      },
+      "touch_bank[7].touch1": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[7].touch2": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[7].touch3": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[8].touch0": {
+        "pin_loads": 8,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N17560",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[8].touch0",
+            "Z5": "\\touch_bank[9].touch0",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[4]",
+            "I2": "i_touch_ids[5]",
+            "I3": "i_touch_ids[6]",
+            "I4": "i_touch_ids[7]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[8].touch1": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N17565",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[8].touch1",
+            "Z5": "\\touch_bank[9].touch1",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[12]",
+            "I2": "i_touch_ids[13]",
+            "I3": "i_touch_ids[14]",
+            "I4": "i_touch_ids[15]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[8].touch2": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N17570",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[8].touch2",
+            "Z5": "\\touch_bank[9].touch2",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[20]",
+            "I2": "i_touch_ids[21]",
+            "I3": "i_touch_ids[22]",
+            "I4": "i_touch_ids[23]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[8].touch3": {
+        "pin_loads": 16,
+        "driver": {
+          "type": "GTP_LUT6D",
+          "name": "N17575",
+          "pin": "Z",
+          "ports": {
+            "Z": "\\touch_bank[8].touch3",
+            "Z5": "\\touch_bank[9].touch3",
+            "I0": "i_touch",
+            "I1": "i_touch_ids[28]",
+            "I2": "i_touch_ids[29]",
+            "I3": "i_touch_ids[30]",
+            "I4": "i_touch_ids[31]",
+            "I5": "1'b1"
+          }
+        }
+      },
+      "touch_bank[9].touch0": {
+        "pin_loads": 9,
+        "driver": null
+      },
+      "touch_bank[9].touch1": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[9].touch2": {
+        "pin_loads": 17,
+        "driver": null
+      },
+      "touch_bank[9].touch3": {
+        "pin_loads": 17,
+        "driver": null
+      }
+    },
+    "input_touch_pin_loads": 24,
+    "largest_control_loads": [
+      [
+        "clk",
+        10240
+      ],
+      [
+        "missing_row[0]",
+        2507
+      ],
+      [
+        "N214003",
+        2209
+      ],
+      [
+        "chosen[0]",
+        1647
+      ],
+      [
+        "chosen[1]",
+        1647
+      ],
+      [
+        "chosen[2]",
+        1647
+      ],
+      [
+        "chosen[3]",
+        1647
+      ],
+      [
+        "N73_0",
+        1499
+      ],
+      [
+        "tag_bank[11].key[3].row_key[0]",
+        985
+      ],
+      [
+        "tag_bank[11].key[1].row_key[0]",
+        984
+      ],
+      [
+        "first_pending",
+        514
+      ],
+      [
+        "alloc",
+        424
+      ],
+      [
+        "N6",
+        414
+      ],
+      [
+        "N31175",
+        406
+      ],
+      [
+        "parity_a",
+        380
+      ]
+    ],
+    "limitations": "Synthesis primitive pin loads within cache only; these are not physical fanout or timing results."
+  },
+  "all_48_qualifiers_preserved": true
+}

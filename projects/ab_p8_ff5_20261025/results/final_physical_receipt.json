@@ -1,0 +1,40 @@
+{
+  "state": "COMPLETED_EXPERIMENT_WITH_INCOMPLETE_ROUTE",
+  "physical_completed": false,
+  "route_complete": false,
+  "valid_post_route_wns_available": false,
+  "cache_closure": "NOT_EVALUABLE_NO_COMPLETED_ROUTE",
+  "original_ff_gate_failed": true,
+  "authorized_ff5_resource_gate_passed": true,
+  "source_complete": true,
+  "preferred_handoff_candidate": "P7R1",
+  "attempts": [
+    {
+      "name": "full_flow",
+      "state": "CONTROLLED_STOP_ROUTE_PLATEAU",
+      "last_iteration": 161,
+      "last_unrouted": 1700
+    },
+    {
+      "name": "same_placed_checkpoint_route",
+      "state": "CONTROLLED_STOP_WALL_LIMIT",
+      "last_iteration": 728,
+      "last_unrouted": 286,
+      "best": {
+        "iteration": 506,
+        "unrouted": 93
+      }
+    }
+  ],
+  "original_inputs_unchanged": true,
+  "archives_p7_p8_unchanged": true,
+  "core_unchanged": true,
+  "constraints_unchanged": true,
+  "ips_unchanged": true,
+  "cache_sha256": "a9b516a3736adf5ad7f84198e7ef9b50023e62cca95e2208c63f6d811a6eaf53",
+  "full_frame_regression_executed": false,
+  "bitstream_generated": false,
+  "board_tested": false,
+  "next_route_requires_decision": true,
+  "finished_utc": "2026-10-25T14:40:40.407564+00:00"
+}

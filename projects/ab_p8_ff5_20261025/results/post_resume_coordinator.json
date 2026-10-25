@@ -1,0 +1,7 @@
+{
+  "state": "NO_COMPLETE_PHYSICAL_DATABASE",
+  "started_utc": "2026-10-25T12:38:26.162003+00:00",
+  "steps": [],
+  "physical_state": "CONTROLLED_STOP_WALL_LIMIT",
+  "physical_exit_code": 1
+}

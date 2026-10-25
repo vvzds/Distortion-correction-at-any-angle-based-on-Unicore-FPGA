@@ -1,0 +1,43 @@
+--- P7R1/undistort_cache_ab.v
++++ P8/undistort_cache_ab.v
+@@ -189,6 +189,29 @@
+             assign bank_id[tag_k*12+tag_g]=id;
+         end
+     end endgenerate
++    // P8: preserve four bank-local touch qualifiers per 16-slot bank.
++    // No register/latency change: allocation and completion still win per slot.
++    // Keeping these combinational boundaries prevents the late i_touch signal
++    // from being factored back into one shared 192-slot enable term.
++    wire [191:0] age_touch_mask;
++    genvar touch_g,touch_s;
++    generate for(touch_g=0;touch_g<12;touch_g=touch_g+1)begin:touch_bank
++        wire touch0 /* synthesis syn_keep = 1 */;
++        wire touch1 /* synthesis syn_keep = 1 */;
++        wire touch2 /* synthesis syn_keep = 1 */;
++        wire touch3 /* synthesis syn_keep = 1 */;
++        assign touch0=i_touch && i_touch_ids[7:4]==touch_g;
++        assign touch1=i_touch && i_touch_ids[15:12]==touch_g;
++        assign touch2=i_touch && i_touch_ids[23:20]==touch_g;
++        assign touch3=i_touch && i_touch_ids[31:28]==touch_g;
++        for(touch_s=0;touch_s<16;touch_s=touch_s+1)begin:slot
++            assign age_touch_mask[16*touch_g+touch_s]=
++                (touch0 && i_touch_ids[3:0]==touch_s) ||
++                (touch1 && i_touch_ids[11:8]==touch_s) ||
++                (touch2 && i_touch_ids[19:16]==touch_s) ||
++                (touch3 && i_touch_ids[27:24]==touch_s);
++        end
++    end endgenerate
+     integer i,k,g,j,idx,sel,l,lu;
+     reg [10:0] cmp_row;
+     reg [4:0] cmp_seg;
+@@ -270,9 +293,7 @@
+                 for(lu=0;lu<192;lu=lu+1)begin
+                     if((alloc && chosen==lu) ||
+                        (qstate==Q_DONE && done_mask[lu]))last_use[lu]<=qseq;
+-                    else if(i_touch && (i_touch_ids[7:0]==lu ||
+-                            i_touch_ids[15:8]==lu || i_touch_ids[23:16]==lu ||
+-                            i_touch_ids[31:24]==lu))last_use[lu]<=i_touch_seq;
++                    else if(age_touch_mask[lu])last_use[lu]<=i_touch_seq;
+                 end
+                 case(qstate)
+                     Q_IDLE:if(i_lookup_req && !i_line_mode)begin
