@@ -1,0 +1,58 @@
+--- P3
++++ P4
+@@ -125,6 +125,8 @@
+     reg [7:0] qid[0:3];
+     // IDs resolved in this lookup; used only for Q_DONE timestamp updates.
+     reg [191:0] done_mask;
++    // P4: compare stable lookup keys in an existing stage.
++    reg lookup_same_row,lookup_same_seg;
+     reg [3:0] qfound;
+     reg [1:0] qwhich;
+     reg [11:0] match_hit[0:3];
+@@ -174,6 +176,7 @@
+             o_p00<=0;o_p01<=0;o_p10<=0;o_p11<=0;
+             qstate<=Q_IDLE;qa<=0;qb<=0;qs0<=0;qs1<=0;qseq<=0;
+             qfound<=0;qwhich<=0;chosen<=0;chosen_ok<=0;done_mask<=0;
++            lookup_same_row<=0;lookup_same_seg<=0;
+             o_lookup_done<=0;o_id_a0<=0;o_id_a1<=0;o_id_b0<=0;o_id_b1<=0;
+         end else begin
+             o_load_done<=0;o_load_error<=0;o_lookup_done<=0;
+@@ -256,6 +259,7 @@
+                     end
+                     Q_SELECT:begin
+                         done_mask<=0;
++                        lookup_same_row<=qa==qb;lookup_same_seg<=qs0==qs1;
+                         for(k=0;k<4;k=k+1)begin
+                             found=0;sel=0;
+                             for(g=0;g<12;g=g+1)if(match_hit[k][g])begin
+@@ -267,10 +271,26 @@
+                     end
+                     Q_CHECK:begin
+                         // Reuse duplicate neighbours allocated earlier in this batch.
+-                        found=qfound[qwhich];sel=qid[qwhich];
+-                        for(k=0;k<4;k=k+1)if(k<qwhich && qfound[k] &&
+-                            ((k>=2?qb:qa)==missing_row) && ((k%2?qs1:qs0)==missing_seg))
+-                            begin found=1;sel=qid[k];end
++                        // Keep the original largest-earlier-k priority.
++                        // The equality flags are stable throughout this lookup.
++                        case(qwhich)
++                            0:begin found=qfound[0];sel=qid[0];end
++                            1:begin
++                                if(qfound[0] && lookup_same_seg)begin found=1;sel=qid[0];end
++                                else begin found=qfound[1];sel=qid[1];end
++                            end
++                            2:begin
++                                if(qfound[1] && lookup_same_row && lookup_same_seg)begin found=1;sel=qid[1];end
++                                else if(qfound[0] && lookup_same_row)begin found=1;sel=qid[0];end
++                                else begin found=qfound[2];sel=qid[2];end
++                            end
++                            3:begin
++                                if(qfound[2] && lookup_same_seg)begin found=1;sel=qid[2];end
++                                else if(qfound[1] && lookup_same_row)begin found=1;sel=qid[1];end
++                                else if(qfound[0] && lookup_same_row && lookup_same_seg)begin found=1;sel=qid[0];end
++                                else begin found=qfound[3];sel=qid[3];end
++                            end
++                        endcase
+                         if(found)begin
+                             done_mask[sel]<=1'b1;
+                             qid[qwhich]<=sel;qfound[qwhich]<=1;

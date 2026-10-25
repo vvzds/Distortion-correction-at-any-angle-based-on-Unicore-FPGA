@@ -1,0 +1,58 @@
+[
+  {
+    "mutation": "stale_row_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "1546e117e33d90fa95e22cd877e415e8de13c5f160dcc1ee6b3cf7283a9e8cfa",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:188: state qstate mismatch\n       Time: 205000  Scope: cache_p4_equivalence_tb\n"
+  },
+  {
+    "mutation": "stale_segment_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "85ed466196a58b349f0bbb823d312effab4edded91929a86b7b7072b6d95f1fb",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:188: state qstate mismatch\n       Time: 197000  Scope: cache_p4_equivalence_tb\n"
+  },
+  {
+    "mutation": "missing_last_id",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "3f785825334fee3a4f1c436b89e347be5508fb2f18967181451e52f906a6e398",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 92000  Scope: cache_p4_equivalence_tb\n"
+  },
+  {
+    "mutation": "stale_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "94c73b13a78dd96bda74b64b3895aac19aa5a837009e6ebeaf4210cba90970c2",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 460000  Scope: cache_p4_equivalence_tb\n"
+  },
+  {
+    "mutation": "old_qid",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "9dd0b6f2f27fa4f2ebf436bfe350a9489d68f1b2c42a8638f155e6731396eb53",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 220000  Scope: cache_p4_equivalence_tb\n"
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "8f61e5eb299c9913ea4721a9f30abca4796d6241cd7d42c77a703bda2c9f8281",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:213: last_use mismatch slot=191 edge=125 state=6\n       Time: 997000  Scope: cache_p4_equivalence_tb\n"
+  },
+  {
+    "mutation": "mask_protection",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "29eb21cff5ce230441f8bc311b4b24573d732386239302973c706563f9ca60d6",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P4����ʵʩ_20261024\\tests\\cache_p4_equivalence_tb.sv:196: state chosen mismatch\n       Time: 1541000  Scope: cache_p4_equivalence_tb\n"
+  }
+]

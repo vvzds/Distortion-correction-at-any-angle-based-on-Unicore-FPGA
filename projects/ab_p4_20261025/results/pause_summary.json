@@ -1,0 +1,24 @@
+{
+  "status": "PAUSED_BY_USER",
+  "saved_utc": "2026-10-24T15:13:59.297018+00:00",
+  "source_sha256": "425ea5c734c174d0e4e08619d4ed8aebf96e95f60e8a60df9b2fcc010341fb49",
+  "candidate_inputs_verified": 81,
+  "physical_inputs_verified": 139,
+  "equivalence_passed": 5,
+  "negative_mutations_detected": 7,
+  "complete_regression_passed": [
+    "identity",
+    "real_joint",
+    "legacy_sim",
+    "c6_real_subsystem"
+  ],
+  "regression_interrupted_by_user": [
+    "integration",
+    "c6_host_arb"
+  ],
+  "physical_status": "INTERRUPTED_BY_USER_DURING_DETAILED_ROUTING",
+  "final_timing_verdict": "NOT_ESTABLISHED",
+  "task_processes_verified_stopped": true,
+  "task_subst_drives_released": true,
+  "raw_result_note": "Raw runner labels aborted cases passed=false and emits FAIL because they did not finish. Retain raw records; classify as user interruption, not an observed functional mismatch."
+}

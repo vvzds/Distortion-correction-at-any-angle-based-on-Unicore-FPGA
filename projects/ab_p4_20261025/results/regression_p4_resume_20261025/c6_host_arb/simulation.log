@@ -1,0 +1,9 @@
+C6_SUBSYSTEM_START mode=1 vectors_loaded=1
+C6_SUBSYSTEM_UART_ACCEPTED mode=1
+C6_SUBSYSTEM_PROGRESS words=259200 cycles=1077062 reads=6595 display=7861
+C6_SUBSYSTEM_PROGRESS words=518400 cycles=2113862 reads=13467 display=15429
+C6_SUBSYSTEM_PROGRESS words=777600 cycles=3150662 reads=20354 display=22997
+C6_SUBSYSTEM_PROGRESS words=1036800 cycles=4187462 reads=26695 display=30565
+HOST_ARBITRATION native_corrected_beats=129600 raw_txn=24205 native_write_txn=64610 commit_to_publish_cycles=17
+C6_HOST_ARB PASS mode=1 pixels=2073600 words=1036800 logical_reads=26695 display_txn=30565 cycles=4147513 fps_125MHz=30.138543
+C:\Users\lenovo\Desktop\ww\AB_P4ª∫¥Ê µ ©_20261024\candidate\sim\c6_host_arb_tb.v:286: $finish called at 33601056000 (1ps)

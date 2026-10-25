@@ -1,0 +1,15 @@
+{
+  "reason": "P1 native done_mask violation motivates stable-key precomputation; P3 physical attempt was stopped after routing stagnation, with no final timing verdict. P4 focused equivalence and seven mutation checks passed.",
+  "target_paths_from_p1": [
+    {
+      "start": "u_correction/u_core/u_cache/qs1[4]/opit_0_inv_AQ_perm/CLK",
+      "end": "u_correction/u_core/u_cache/done_mask[149]/opit_0_inv_L6Q_perm/I5",
+      "type": "max (slow corner)",
+      "slack_ns": -1.862,
+      "logic_ns": 1.274,
+      "route_ns": 8.116,
+      "data_delay_ns": 9.39
+    }
+  ],
+  "p3_exit_code": 4294967295
+}
