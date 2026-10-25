@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "input_db": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P2\u7f13\u5b58\u5b9e\u65bd_20261024\\physical\\host_seed2\\place_route\\hdmi_ddr_ov5640_top_pnr.adf",
+  "input_sha256": "8d56082282e49550d9c4fa877374b9ed552d18c26e329059ad35fb0480aa4881",
+  "input_unchanged": true,
+  "argv": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "X:/report.tcl",
+    "-work_dir",
+    "X:/",
+    "-project_name",
+    "report_probe"
+  ],
+  "synthesis_or_pnr_executed": false,
+  "errors": []
+}

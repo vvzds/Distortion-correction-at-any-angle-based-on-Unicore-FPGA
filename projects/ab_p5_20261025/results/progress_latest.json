@@ -1,0 +1,70 @@
+{
+  "checked_utc": "2026-10-25T06:34:19.633501+00:00",
+  "physical": {
+    "state": "RUNNING",
+    "pid": 36304,
+    "elapsed_s": 1222.0,
+    "last_route": [
+      37,
+      13489
+    ],
+    "exit_code": null
+  },
+  "last_physical_lines": [
+    "    forward max bucket size 11861 , backward 5620.",
+    "        Unrouted nets 13489 at the end of iteration 37.",
+    "    route iteration 37, CPU time elapsed 17.921875 sec."
+  ],
+  "timestamp_feedback_warnings": 0,
+  "error_lines": [],
+  "regression": [
+    {
+      "case": "identity",
+      "state": "PASS",
+      "summary": [
+        "R3_CORE_DRAIN clears=1 accepted=1080 returned=129600 busy_start_ignored=1 outstanding=0",
+        "R4_ACTUAL first_min=4 first_max=9 gap_min=1 gap_max=2 grant_min=0 grant_max=0 return_beats=129600 transactions=1080 cycles=4147487 pixels=2073600 mismatches=0",
+        "AB_STATS segments=0 line_stats_valid=1 latency=0 period=0 grant=0",
+        "CORE PASS mode=0 pattern=1 slot=3 pixels=2073600 err=0 cycles=4147487 cpp=2.000138 model_fps_125MHz=30.138732 line_loads=1080 hits=1 first_read=0 last_read=1079 minrow=0 maxrow=1079"
+      ]
+    },
+    {
+      "case": "real_joint",
+      "state": "PASS",
+      "summary": [
+        "R3_CORE_DRAIN clears=1 accepted=26695 returned=106780 busy_start_ignored=1 outstanding=0",
+        "R4_ACTUAL first_min=65 first_max=66 gap_min=2 gap_max=2 grant_min=32 grant_max=32 return_beats=106780 transactions=26695 cycles=4161845 pixels=2073600 mismatches=0",
+        "AB_STATS segments=26695 line_stats_valid=0 latency=64 period=2 grant=32",
+        "CORE PASS mode=1 pattern=1 slot=3 pixels=2073600 err=0 cycles=4161845 cpp=2.007063 model_fps_125MHz=30.034756 line_loads=0 hits=0 first_read=73 last_read=982 minrow=21 maxrow=1051"
+      ]
+    },
+    {
+      "case": "legacy_sim",
+      "state": "RUNNING",
+      "last_lines": [
+        "[T0] PASS err=0",
+        "[T9 frame 1] loads=1080 hits=0 pixels=0 frames=1 err=0"
+      ]
+    },
+    {
+      "case": "integration",
+      "state": "RUNNING",
+      "last_lines": [
+        "[8076000] I0 done",
+        "[603708000] I1 done (gating/gnt/first-read OK)"
+      ]
+    },
+    {
+      "case": "c6_real_subsystem",
+      "state": "QUEUED"
+    },
+    {
+      "case": "c6_host_arb",
+      "state": "QUEUED"
+    }
+  ],
+  "synthesis_cache_rows": [
+    "|     + u_cache                                                  | 16167     | 11640     | 32                  | 0       | 8        | 0       | 0          | 0       | 0              | 0                    | 0           | 0                  | 0        | 0        | 0          | 0       | 0         | 0          | 3391          | 0            | 662          | 291          | 0         | 0            | 0        | 0        | 0          | 0             | 0        "
+  ],
+  "synthesis_bank_instances": 24
+}

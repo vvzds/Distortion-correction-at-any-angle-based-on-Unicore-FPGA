@@ -1,0 +1,36 @@
+{
+  "completed": false,
+  "reason": "User explicitly approved ending P5 and seeking another method; area regression and unfavorable intermediate routing; not a completed timing failure.",
+  "cases": [
+    {
+      "case": "identity",
+      "state": "PASS",
+      "log_sha256": "454724da2f45dad1b8776a6b049a6109644480441cad4954d2d1bcb2ddd74d9e"
+    },
+    {
+      "case": "real_joint",
+      "state": "PASS",
+      "log_sha256": "55974b90ba9c20fc475ca11c290ba1e85d4d0b1e0b0f304fed9eaf2ee2ed4dca"
+    },
+    {
+      "case": "legacy_sim",
+      "state": "PASS",
+      "log_sha256": "ae2b9e3d0082515e7a79b5f28df0aa45d27cdcd60b9739a050935dc7ca45eb8a"
+    },
+    {
+      "case": "integration",
+      "state": "CONTROLLED_STOP_INCOMPLETE",
+      "log_sha256": "fad331b096a55adff5144805c432009e1e7ba2f92bda8c562f6ff5436d2ec25b"
+    },
+    {
+      "case": "c6_real_subsystem",
+      "state": "CONTROLLED_STOP_INCOMPLETE",
+      "log_sha256": "f541529a20e7bc82c606c97274dbe1843d6ab7b2ffa7d5c2574a0acef9f6fca6"
+    },
+    {
+      "case": "c6_host_arb",
+      "state": "NOT_RUN",
+      "log_sha256": null
+    }
+  ]
+}

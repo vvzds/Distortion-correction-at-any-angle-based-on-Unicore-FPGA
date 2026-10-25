@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "Source and existing evidence integrity only; NOT complete verification or timing acceptance",
+  "source_complete": true,
+  "candidate_inputs": 81,
+  "physical_inputs": 139,
+  "verification_completed": false,
+  "physical_completed": false,
+  "timing_passed": false
+}

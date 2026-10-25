@@ -1,0 +1,25 @@
+{
+  "reason": "User explicitly approved ending P5 and seeking another method; area regression and unfavorable intermediate routing; not a completed timing failure.",
+  "requested_utc": "2026-10-25T06:44:02.368879+00:00",
+  "runner_found": true,
+  "stopped_processes": [
+    {
+      "pid": 8156,
+      "ppid": 34596,
+      "name": "python.exe"
+    },
+    {
+      "pid": 31316,
+      "ppid": 8156,
+      "name": "vvp.exe"
+    },
+    {
+      "pid": 37972,
+      "ppid": 8156,
+      "name": "vvp.exe"
+    }
+  ],
+  "verified_runner_argv": "\"C:\\Users\\lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -B -X utf8 C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\candidate\\run_validation.py --cases identity real_joint legacy_sim integration c6_real_subsystem c6_host_arb --out C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\regression_p5 --tool-root C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app --jobs 2 --timeout 14400",
+  "owned_processes_remaining": [],
+  "finished_utc": "2026-10-25T06:44:03.418457+00:00"
+}

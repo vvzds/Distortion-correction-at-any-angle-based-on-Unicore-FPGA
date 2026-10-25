@@ -1,0 +1,191 @@
+[
+  {
+    "mutation": "stale_row_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "6997b9654c8180a253e9b0345f04c50b1969af1210499a5de86eb9cf1a722cfc",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:188: state qstate mismatch\n       Time: 205000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\stale_row_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\stale_row_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_segment_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "ee74b1f8b51c20a877050f9967fdd908728a068e58745349cc33e05c86c52def",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:188: state qstate mismatch\n       Time: 197000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\stale_segment_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\stale_segment_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_group",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "7350a68ca4b543a270740988f441b328cd1eb16ccd4fd7632a8f209d0fffebd9",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\wrong_group\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\wrong_group\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_parity",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "2a9133961912ca2ef601f70f0c5075f90425e44f63ebfe83389555025a498bbe",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\wrong_parity\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\wrong_parity\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_local_slot",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "7629294ee7a970a87071033bbb33672c8b2a36e89582aa5927e85bfa23e40c96",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\wrong_local_slot\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\wrong_local_slot\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "missing_mark",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "ca2dbfac57ddd3a6be294481264c081e2a28474f6dfd2e115b49da853172f75a",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 92000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\missing_mark\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\missing_mark\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "6e37043fcea0e5652eaf83ac36de77e63292917602d5eb290663a13273ec7f52",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 460000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\stale_mask\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\stale_mask\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "f9353ca444b032560510575b2a03726088972f2e5737153f25b1389002f16021",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:213: last_use mismatch slot=191 edge=125 state=6\n       Time: 997000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\touch_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\touch_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "mask_protection",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "59facf35980d769e2557124b11566eef506b75def45f027b11314fd9ae8b57ff",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P5�������ṹ_20261025\\tests\\cache_p5_equivalence_tb.sv:196: state chosen mismatch\n       Time: 1541000  Scope: cache_p5_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p5_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\mask_protection\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\tests\\cache_p5_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\results\\negative_checks_p5\\mask_protection\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+[8076000] I0 done
+[603708000] I1 done (gating/gnt/first-read OK)
+[33523180000] PASS I2 identity copy: slot 4 == golden (f=0 gmode=0)
