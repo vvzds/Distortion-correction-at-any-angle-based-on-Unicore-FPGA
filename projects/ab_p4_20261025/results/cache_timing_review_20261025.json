@@ -1,0 +1,22 @@
+{
+  "cache_status": "NOT_ESTABLISHED",
+  "all_four_setup_hold_groups_reported_in_both_directions": false,
+  "negative_cache_paths": [],
+  "reported_cache_path_count": 0,
+  "report_sources": [
+    {
+      "name": "unrestricted",
+      "exists": false
+    },
+    {
+      "name": "cache_from",
+      "exists": false
+    },
+    {
+      "name": "cache_to",
+      "exists": false
+    }
+  ],
+  "scope": "Cache registers and boundary paths as selected by emitted native reports; whole-system status uses unrestricted report+CSV. A negative observed path is sufficient to reject; PASS still requires verifying matched get_cells object coverage.",
+  "exclusions": "No claim about unconstrained IO, board functionality, core throughput or omitted timing checks."
+}

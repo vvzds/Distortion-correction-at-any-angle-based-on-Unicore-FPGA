@@ -1,0 +1,21 @@
+{
+  "status": "RESUMED_BY_USER",
+  "saved_inputs_verified": {
+    "candidate": 81,
+    "physical": 139
+  },
+  "cache_sha256": "425ea5c734c174d0e4e08619d4ed8aebf96e95f60e8a60df9b2fcc010341fb49",
+  "reused_passed_cases": [
+    "identity",
+    "real_joint",
+    "legacy_sim",
+    "c6_real_subsystem"
+  ],
+  "rerun_cases": [
+    "integration",
+    "c6_host_arb"
+  ],
+  "new_physical_path": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025",
+  "timestamp_utc": "2026-10-25T04:00:56.520758+00:00",
+  "scope": "Cache125 only, core and throughput remain collaborator02; no old results overwritten"
+}

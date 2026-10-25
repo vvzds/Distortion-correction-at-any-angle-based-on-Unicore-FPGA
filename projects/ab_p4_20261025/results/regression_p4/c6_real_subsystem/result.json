@@ -1,0 +1,130 @@
+{
+  "case": "c6_real_subsystem",
+  "engine": "icarus",
+  "passed": true,
+  "steps": [
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\verification_data",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\host_ab",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\sim",
+        "-s",
+        "c6_real_subsystem_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\results\\regression_p4\\c6_real_subsystem\\simulation.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\sim\\c6_real_subsystem_tb.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\source\\rtl\\undistort_core.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\source\\rtl\\undistort_map.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\source\\rtl\\undistort_bilinear.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\source\\rtl\\undistort_cache_ab.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\integration\\source\\rtl\\corr_top.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\integration\\source\\rtl\\param_mgr.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\integration\\source\\rtl\\gamma_lut.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\integration\\source\\rtl\\rect_wr_if.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\reference\\corr_read_bridge.v"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate",
+      "start_utc": "2026-10-24T14:47:19.955206+00:00",
+      "end_utc": "2026-10-24T14:47:20.079341+00:00",
+      "elapsed_seconds": 0.125,
+      "exit_code": 0,
+      "log": "compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-i",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\results\\regression_p4\\c6_real_subsystem\\simulation.vvp",
+        "+MODE=1"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\candidate\\verification_data",
+      "start_utc": "2026-10-24T14:47:20.079341+00:00",
+      "end_utc": "2026-10-24T15:00:59.727066+00:00",
+      "elapsed_seconds": 819.6720000000059,
+      "exit_code": 0,
+      "log": "simulation.log",
+      "log_sha256": "5a5c34abd00d782673d56b971742ab48ddbedfb27a7917b1bdcb2b4ad51553fd"
+    }
+  ],
+  "inputs_after": [
+    {
+      "file": "build_candidate_sources.py",
+      "sha256": "0c89dc723988f927a23ee2dfb99b44abf7760ac7aae231cbb133893aa55384c4"
+    },
+    {
+      "file": "integration/source/rtl/corr_top.v",
+      "sha256": "217003139e4d5eda02ca5ff7ef29ccb3a6e186041e61209ea5e258f8bd5b7064"
+    },
+    {
+      "file": "integration/source/rtl/gamma_lut.v",
+      "sha256": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1"
+    },
+    {
+      "file": "integration/source/rtl/param_mgr.v",
+      "sha256": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a"
+    },
+    {
+      "file": "integration/source/rtl/rect_wr_if.v",
+      "sha256": "c201b8d2a58ef726b192e8ca7a35125805df7280a243141485c386aa5528f3ee"
+    },
+    {
+      "file": "reference/corr_read_bridge.v",
+      "sha256": "84dac8880e76471b75994b972f3531bf8ba6d98f4a26f1ec4b4af6b641dc78f6"
+    },
+    {
+      "file": "run_sim.ps1",
+      "sha256": "33f3411f2be8d25b76e639e873407f72797a19b0cfdc309f30ba6ed1be8ba01f"
+    },
+    {
+      "file": "run_validation.py",
+      "sha256": "d300f38c8393f0037b9e556bf69d4a99043b861e413fe68f9536b526e6e398e1"
+    },
+    {
+      "file": "sim/c6_real_subsystem_tb.v",
+      "sha256": "8e9b9aaa08987274ff2672f3df94d4062e6bd4eceaaa1ff00fce745576f07cc6"
+    },
+    {
+      "file": "source/rtl/undistort_bilinear.v",
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+    },
+    {
+      "file": "source/rtl/undistort_cache_ab.v",
+      "sha256": "425ea5c734c174d0e4e08619d4ed8aebf96e95f60e8a60df9b2fcc010341fb49"
+    },
+    {
+      "file": "source/rtl/undistort_core.v",
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+    },
+    {
+      "file": "source/rtl/undistort_map.v",
+      "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3"
+    },
+    {
+      "file": "verification_data/vectors/real_pixels_1.hex",
+      "sha256": "cf355f61f75a711f4bff31b0466a6799ff4ea80f219d72f5a0c02cb24de3706d"
+    },
+    {
+      "file": "verification_data/vectors/real_uart_bytes.hex",
+      "sha256": "8ee0a253e66df69f20dc4cd0463c2224ab686e7beb1879340feea3a6920c43a3"
+    },
+    {
+      "file": "verification_data/vectors/source_words_1.hex",
+      "sha256": "0f02d3ca0c201ba287e4181143eb767ace196d2644d4f6b9192b4584423ad1a4"
+    }
+  ],
+  "inputs_unchanged": true,
+  "terminal_marker": "C6_REAL_SUBSYSTEM PASS",
+  "terminal_marker_seen": true,
+  "bad_tokens": [],
+  "summary_lines": [
+    "C6_REAL_SUBSYSTEM PASS mode=1 pixels=2073600 words=1036800 logical_reads=26695 display_txn=30565 cycles=4147513 fps_125MHz=30.138543"
+  ]
+}

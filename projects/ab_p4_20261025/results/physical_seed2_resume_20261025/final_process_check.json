@@ -1,0 +1,9 @@
+{
+  "method": "Stop only terminal-run PDS tree verified through Windows Toolhelp snapshot",
+  "root_pid": 32400,
+  "before": [],
+  "started_utc": "2026-10-25T05:55:40.625985+00:00",
+  "after": [],
+  "all_task_processes_stopped": true,
+  "finished_utc": "2026-10-25T05:55:40.633183+00:00"
+}

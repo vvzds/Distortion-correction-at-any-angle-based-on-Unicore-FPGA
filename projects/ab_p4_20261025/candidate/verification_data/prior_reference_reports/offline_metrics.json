@@ -1,0 +1,60 @@
+{
+  "pixels": 2073600,
+  "quantized_vs_original": {
+    "max_abs_x_px": 0.010556434994327901,
+    "max_abs_y_px": 0.0059249013484077295,
+    "max_euclidean_px": 0.012105485359035979,
+    "rms_euclidean_px": 0.003741416306426124,
+    "p95_euclidean_px": 0.007303044533630308
+  },
+  "arithmetic_vs_quantized": {
+    "max_abs_x_px": 0.0005229130233601609,
+    "max_abs_y_px": 0.0004861004085796594,
+    "max_euclidean_px": 0.0006223984137140067,
+    "rms_euclidean_px": 0.0003397041553877594,
+    "p95_euclidean_px": 0.00045101497860557994
+  },
+  "total_vs_original": {
+    "max_abs_x_px": 0.010411986821509345,
+    "max_abs_y_px": 0.006247827546076223,
+    "max_euclidean_px": 0.012099817400271447,
+    "rms_euclidean_px": 0.0036430252316954287,
+    "p95_euclidean_px": 0.00716703953672162
+  },
+  "pattern_0_vs_quantized_float": {
+    "max_channel_lsb": 1,
+    "within_one_fraction": 1.0,
+    "over_two_pixels": 0
+  },
+  "pattern_0_vs_original_float": {
+    "max_channel_lsb": 1,
+    "within_one_fraction": 1.0,
+    "over_two_pixels": 0
+  },
+  "pattern_1_vs_quantized_float": {
+    "max_channel_lsb": 1,
+    "within_one_fraction": 1.0,
+    "over_two_pixels": 0
+  },
+  "pattern_1_vs_original_float": {
+    "max_channel_lsb": 1,
+    "within_one_fraction": 1.0,
+    "over_two_pixels": 0
+  },
+  "all_pixels_source_address_check": "PASS (both rows, slots 0..3)",
+  "corrected_write_display_contract": "PASS: y_mem ascending, HDMI y_mem=1079-y_screen; x even low16",
+  "fixed_coordinate_range_px": [
+    99.25424194335938,
+    1768.5521087646484,
+    28.875579833984375,
+    1057.580551147461
+  ],
+  "predicted_access": {
+    "identity": {
+      "max_source_row_span_per_output_line": 2
+    },
+    "real": {
+      "max_source_row_span_per_output_line": 73
+    }
+  }
+}

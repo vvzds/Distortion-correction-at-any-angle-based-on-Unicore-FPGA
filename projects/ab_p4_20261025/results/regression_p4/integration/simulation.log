@@ -1,0 +1,12 @@
+[8076000] I0 done
+[603708000] I1 done (gating/gnt/first-read OK)
+[33523180000] PASS I2 identity copy: slot 4 == golden (f=0 gmode=0)
+[66702892000] PASS I2b aff-identity copy: slot 5 == golden (f=0 gmode=0)
+[66702892000] I2 done
+[99882604000] PASS I3 frame3 pre-gamma: slot 6 == golden (f=0 gmode=0)
+[133062316000] PASS I3 gamma B-invert: slot 7 == golden (f=0 gmode=1)
+[133062316000] I3 done
+[133184180000] PASS I4 loose status: loose status=00040312
+[133184180000] I4 done
+[199421740000] PASS I5 frame5: slot 4 == golden (f=0 gmode=1)
+[199421740000] PASS I5 frame6: slot 5 == golden (f=3 gmode=1)

@@ -1,0 +1,37 @@
+{
+  "state": "STOPPED_AND_VERIFIED",
+  "reason": "User authorized recommended grouped-metadata/local-decode candidate and requested method-change consultation on failure; preserve P4 evidence instead of continuing prolonged routing. No new seed or core change.",
+  "requested_utc": "2026-10-25T05:54:23.091630+00:00",
+  "verified_processes": [
+    {
+      "pid": 32400,
+      "ppid": 8488,
+      "name": "pds_shell.exe"
+    },
+    {
+      "pid": 196,
+      "ppid": 32400,
+      "name": "conhost.exe"
+    },
+    {
+      "pid": 21608,
+      "ppid": 32400,
+      "name": "pds_shell.exe"
+    }
+  ],
+  "pds_targets": [
+    {
+      "pid": 32400,
+      "ppid": 8488,
+      "name": "pds_shell.exe"
+    },
+    {
+      "pid": 21608,
+      "ppid": 32400,
+      "name": "pds_shell.exe"
+    }
+  ],
+  "method": "PowerShell Stop-Process -Id 21608,32400 -Force; wrapper preserved nonzero exit; Toolhelp confirms no task PDS remains",
+  "verified_utc": "2026-10-25T06:00:06.355241+00:00",
+  "final_process_check": "final_process_check.json"
+}

@@ -1,0 +1,13 @@
+{
+  "reason": "User explicitly requested save and pause now; do not complete pending checks or start another candidate",
+  "requested_utc": "2026-10-24T15:11:28.258378+00:00",
+  "regression_parent_pid": 34488,
+  "vvp_child_pids": [
+    32116,
+    39696
+  ],
+  "physical_parent_pid": 23556,
+  "physical_child_pid": 38816,
+  "parentage_verified_with": "Windows Toolhelp process snapshot",
+  "scope": "Only P4 task processes; partial checks must be labelled interrupted, not functional failures"
+}

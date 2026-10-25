@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "physical_completed": false,
+  "physical_state": "FINISHED",
+  "physical_exit_code": 4294967295,
+  "note": "Audit pass verifies evidence identity and functional results, not timing closure.",
+  "case_provenance": [
+    {
+      "case": "identity",
+      "folder": "results/regression_p4/identity",
+      "reused_pre_pause": true,
+      "logs": [
+        {
+          "file": "results/regression_p4/identity/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "results/regression_p4/identity/simulation.log",
+          "sha256": "2f44c1c4d50f504440e653d060bdadcfebad79a497487086a8f896c309893c1f"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "real_joint",
+      "folder": "results/regression_p4/real_joint",
+      "reused_pre_pause": true,
+      "logs": [
+        {
+          "file": "results/regression_p4/real_joint/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "results/regression_p4/real_joint/simulation.log",
+          "sha256": "ccb87c972948fb65707625f5bbdcd9eff338570433d004c91d7b043e8f306c0f"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy_sim",
+      "folder": "results/regression_p4/legacy_sim",
+      "reused_pre_pause": true,
+      "logs": [
+        {
+          "file": "results/regression_p4/legacy_sim/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "results/regression_p4/legacy_sim/simulation.log",
+          "sha256": "ba55b760ec835da3beb33f0de11a691b73131057e006efce8541b93be775244e"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "integration",
+      "folder": "results/regression_p4_resume_20261025/integration",
+      "reused_pre_pause": false,
+      "logs": [
+        {
+          "file": "results/regression_p4_resume_20261025/integration/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "results/regression_p4_resume_20261025/integration/simulation.log",
+          "sha256": "fe20c21b489d023cf5df5f8896616ee12052073509c490c5f8da75a2b2c0bb82"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "c6_real_subsystem",
+      "folder": "results/regression_p4/c6_real_subsystem",
+      "reused_pre_pause": true,
+      "logs": [
+        {
+          "file": "results/regression_p4/c6_real_subsystem/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "results/regression_p4/c6_real_subsystem/simulation.log",
+          "sha256": "5a5c34abd00d782673d56b971742ab48ddbedfb27a7917b1bdcb2b4ad51553fd"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "c6_host_arb",
+      "folder": "results/regression_p4_resume_20261025/c6_host_arb",
+      "reused_pre_pause": false,
+      "logs": [
+        {
+          "file": "results/regression_p4_resume_20261025/c6_host_arb/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "results/regression_p4_resume_20261025/c6_host_arb/simulation.log",
+          "sha256": "c1d5d2d4f7d65885cff9db9db2403cd0fcdc7193c71b450c66bbc7e462383560"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "candidate_inputs": 81,
+  "physical_inputs": 139,
+  "equivalence": 5,
+  "mutation_checks": 7,
+  "native_reports": [
+    {
+      "file": "physical/host_seed2_resume_20261025/synthesize/hdmi_ddr_ov5640_top.snr",
+      "sha256": "3b7296d5b3fcf13dba9208a67153bc221ad07f3e570f14f719edb13765d44576"
+    },
+    {
+      "file": "physical/host_seed2_resume_20261025/device_map/hdmi_ddr_ov5640_top.dmr",
+      "sha256": "e47a5c280202a645fba5039c01b7780f8eb07c0391e316d8139243ff34ad3f95"
+    },
+    {
+      "file": "physical/host_seed2_resume_20261025/place_route/hdmi_ddr_ov5640_top.prr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "physical_console_sha256": "593ec96a098342841608382f2d35e6861d0f4607bfdf76eb4c27dc7ccdfaf29c",
+  "saved_utc": "2026-10-25T05:55:51.012716+00:00"
+}

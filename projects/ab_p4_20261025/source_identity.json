@@ -1,0 +1,8 @@
+{
+  "round": "P4",
+  "base": "P3",
+  "cache_sha256": "425ea5c734c174d0e4e08619d4ed8aebf96e95f60e8a60df9b2fcc010341fb49",
+  "change": "Precompute two stable equality flags at Q_SELECT and factor Q_CHECK into four cases; original priority/state/output timing retained",
+  "status": "Prepared for functional checks; no P4 physical run started",
+  "authorization": "User cache125 only; core/throughput owned by collaborator02"
+}

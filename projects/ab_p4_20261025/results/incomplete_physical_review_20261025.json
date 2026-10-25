@@ -1,0 +1,21 @@
+{
+  "verification_passed": true,
+  "physical_completed": false,
+  "timing_passed": false,
+  "timing_established": false,
+  "cpp_passed": false,
+  "cpp": 2.007063,
+  "wns_ns": null,
+  "delta_vs_p1_ns": null,
+  "physical_state": "FINISHED",
+  "physical_exit_code": 4294967295,
+  "route_last": [
+    4687,
+    229
+  ],
+  "input_files_verified": {
+    "candidate": 81,
+    "physical": 139
+  },
+  "timestamp_utc": "2026-10-25T05:59:09.096193+00:00"
+}
