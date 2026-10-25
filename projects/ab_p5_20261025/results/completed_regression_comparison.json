@@ -1,0 +1,24 @@
+{
+  "complete_matrix": false,
+  "completed_cases": [
+    {
+      "case": "identity",
+      "normalized_complete_log_equal": true,
+      "plusargs_equal": true,
+      "only_cache_changed": true
+    },
+    {
+      "case": "real_joint",
+      "normalized_complete_log_equal": true,
+      "plusargs_equal": true,
+      "only_cache_changed": true
+    },
+    {
+      "case": "legacy_sim",
+      "normalized_complete_log_equal": true,
+      "plusargs_equal": true,
+      "only_cache_changed": true
+    }
+  ],
+  "all_completed_cases_match": true
+}

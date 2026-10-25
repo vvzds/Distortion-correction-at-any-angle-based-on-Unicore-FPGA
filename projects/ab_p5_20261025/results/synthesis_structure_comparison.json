@@ -1,0 +1,46 @@
+{
+  "versions": {
+    "P4": {
+      "report": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\synthesize\\hdmi_ddr_ov5640_top.snr",
+      "sha256": "3b7296d5b3fcf13dba9208a67153bc221ad07f3e570f14f719edb13765d44576",
+      "cache": {
+        "LUT": 16359.0,
+        "FF": 8268.0,
+        "Distributed_RAM": 3168.0,
+        "APM": 0.0,
+        "DRM": 8.0,
+        "logic_LUT": 13191.0
+      },
+      "raw_row": "|     + u_cache                                                  | 16359     | 8268      | 3168                | 0       | 8        | 0       | 0          | 0       | 0              | 0                    | 0           | 0                  | 0        | 0        | 0          | 0       | 0         | 0          | 3385          | 0            | 272          | 99           | 0         | 0            | 0        | 0        | 0          | 0             | 0        "
+    },
+    "P5": {
+      "report": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P5缓存分组结构_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top.snr",
+      "sha256": "b9bb30e2ffdab68b4ce397821bcfe186777f6c25ea24c2bb0bc573ed6eecf892",
+      "cache": {
+        "LUT": 16167.0,
+        "FF": 11640.0,
+        "Distributed_RAM": 32.0,
+        "APM": 0.0,
+        "DRM": 8.0,
+        "logic_LUT": 16135.0
+      },
+      "raw_row": "|     + u_cache                                                  | 16167     | 11640     | 32                  | 0       | 8        | 0       | 0          | 0       | 0              | 0                    | 0           | 0                  | 0        | 0        | 0          | 0       | 0         | 0          | 3391          | 0            | 662          | 291          | 0         | 0            | 0        | 0        | 0          | 0             | 0        "
+    }
+  },
+  "delta": {
+    "LUT": -192.0,
+    "FF": 3372.0,
+    "Distributed_RAM": -3136.0,
+    "APM": 0.0,
+    "DRM": 0.0,
+    "logic_LUT": 2944.0
+  },
+  "delta_percent": {
+    "LUT": -1.1736658719970658,
+    "FF": 40.78374455732946,
+    "Distributed_RAM": -98.98989898989899,
+    "DRM": 0.0,
+    "logic_LUT": 22.318247289818817
+  },
+  "interpretation": "Tag distributed RAM replaced by small bank register storage; feedback-mux warning disappearance alone did not establish net area or timing improvement. Final fixed-seed routing evidence remains decisive."
+}

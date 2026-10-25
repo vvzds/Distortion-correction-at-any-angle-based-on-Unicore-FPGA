@@ -1,0 +1,26 @@
+{
+  "source_complete": true,
+  "verification_passed": false,
+  "verification_completed": false,
+  "directed_suites_passed": 5,
+  "negative_checks_detected": 9,
+  "regression_states": {
+    "CONTROLLED_STOP_INCOMPLETE": 2,
+    "NOT_RUN": 1,
+    "PASS": 3
+  },
+  "completed_regressions_match_r0": true,
+  "physical_completed": false,
+  "timing_established": false,
+  "timing_passed": false,
+  "wns_ns": null,
+  "physical_state": "CONTROLLED_STOP_REQUESTED",
+  "last_detailed_route": [
+    65,
+    10497
+  ],
+  "board_validated": false,
+  "new_bitstreams": [],
+  "decision": "User approved ending P5 and searching for another method",
+  "checked_utc": "2026-10-25T06:46:22.650720+00:00"
+}
