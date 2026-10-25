@@ -1,0 +1,9 @@
+PROGRESS mode=0 pattern=1 pixels=518400 cycles=1037070
+PROGRESS mode=0 pattern=1 pixels=1036800 cycles=2073870
+PROGRESS mode=0 pattern=1 pixels=1555200 cycles=3110670
+PROGRESS mode=0 pattern=1 pixels=2073600 cycles=4147470
+R3_CORE_DRAIN clears=1 accepted=1080 returned=129600 busy_start_ignored=1 outstanding=0
+R4_ACTUAL first_min=4 first_max=9 gap_min=1 gap_max=2 grant_min=0 grant_max=0 return_beats=129600 transactions=1080 cycles=4147487 pixels=2073600 mismatches=0
+AB_STATS segments=0 line_stats_valid=1 latency=0 period=0 grant=0
+CORE PASS mode=0 pattern=1 slot=3 pixels=2073600 err=0 cycles=4147487 cpp=2.000138 model_fps_125MHz=30.138732 line_loads=1080 hits=1 first_read=0 last_read=1079 minrow=0 maxrow=1079
+C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\outputs\G4_AB_R1_R4_20261023\candidate\sim\calibration_core_ab_tb.v:145: $finish called at 33179928000 (1ps)

@@ -1,0 +1,2 @@
+FATAL: C:\Users\lenovo\Desktop\ww\AB_P6R1局部块常量传播_20261025\tests\cache_p6_equivalence_tb.sv:220: victim leaf mismatch slot=10
+       Time: 1525000  Scope: cache_p6_equivalence_tb

@@ -1,0 +1,233 @@
+[
+  {
+    "mutation": "stale_row_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "22494cac9c7f6f79801f3b7daca5be2305c774e13fa986bbd91ed3e8558fd501",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\stale_row_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\stale_row_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_segment_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "4adf1ec0600ca30b3b8ed5a4c40e0e747685e2911bdd4e8fa15ed4d59c1c61bd",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\stale_segment_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\stale_segment_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_group",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "bcf08cd6566331857b9c6c095412c90376869647f61e7cfbfa00d36d8f767c15",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_group\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_group\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_parity",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "5c92633a2967fadad903efa70452cd755c254c260c931e8b4302e9d4ec68baf4",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_parity\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_parity\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_local_slot",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "39fa98cbf86b3b3082036ac01dc3a7cf9141e30628dee588962d74ed28d89364",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_local_slot\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_local_slot\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "missing_mark",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "7188ab642b2acea0ccd8de121e7c033b5bc2263451dcd6545611cef902f03397",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\missing_mark\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\missing_mark\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "f1c98668f59f3082e4929429f4727862d68b1af3a0e9a435878165dd6aa28456",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\stale_mask\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\stale_mask\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "d794c461485f9a01cf97ec4cf3f05eda7200b057162bb09a471883fd28be56d8",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\touch_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\touch_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "mask_protection",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "e82583b8f20c0851c015284f6205f6848cf19f32425c6e8e790a0305b0e52eac",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\mask_protection\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\mask_protection\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "retirement_equal_allowed",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "08fc91e41f1e71673d0814af659cdc68ebf374707a3d1cee7b0c27659f67adee",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\retirement_equal_allowed\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\retirement_equal_allowed\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_tie_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "b21bb6beeb14e7415050610e22c3969c68c049e2f8fddf21afba0979d2b3c848",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1�ֲ��鳣������_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=0 edge=1 state=0\n       Time: 5000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_tie_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\results\\negative_checks_p6\\wrong_tie_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1局部块常量传播_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  }
+]

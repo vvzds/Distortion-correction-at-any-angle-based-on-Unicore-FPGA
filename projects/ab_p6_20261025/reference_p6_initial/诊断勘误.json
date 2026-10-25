@@ -1,0 +1,6 @@
+{
+  "supersedes": "results/synthesis_gate/netlist_overhead_analysis.json reason field",
+  "confirmed": "Extra FF categories: age 192, leaf 96, winner age 12; exactly 300",
+  "not_established": "Submodule boundary alone caused this; inlining retained all 300 extra FF",
+  "next_method_started": false
+}

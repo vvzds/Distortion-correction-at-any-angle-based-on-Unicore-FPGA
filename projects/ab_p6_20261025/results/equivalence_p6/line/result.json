@@ -1,0 +1,41 @@
+{
+  "case": "line",
+  "pass": true,
+  "elapsed_s": 0.5881292819976807,
+  "steps": [
+    {
+      "argv": [
+        "Y:\\bin\\iverilog.exe",
+        "-B",
+        "Y:\\lib\\ivl",
+        "-g2012",
+        "-s",
+        "undistort_line_cache_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1\u5c40\u90e8\u5757\u5e38\u91cf\u4f20\u64ad_20261025\\results\\equivalence_p6\\line\\sim.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1\u5c40\u90e8\u5757\u5e38\u91cf\u4f20\u64ad_20261025\\tests\\cache72_ab_tb.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1\u5c40\u90e8\u5757\u5e38\u91cf\u4f20\u64ad_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1\u5c40\u90e8\u5757\u5e38\u91cf\u4f20\u64ad_20261025\\baseline\\undistort_cache_ab_reference.v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "Y:\\bin\\vvp.exe",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6R1\u5c40\u90e8\u5757\u5e38\u91cf\u4f20\u64ad_20261025\\results\\equivalence_p6\\line\\sim.vvp"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "inputs_before": {
+    "tests\\cache72_ab_tb.v": "46b886bcafadf4a865cbbf9ea13e91cbbd1d05cdc6793cc8718476f1cea5c24d",
+    "candidate\\source\\rtl\\undistort_cache_ab.v": "db134cb9ae25bb6962fb0b8c81a6e30096109305374625c22ef6650be5af3217",
+    "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+  },
+  "inputs_after": {
+    "tests\\cache72_ab_tb.v": "46b886bcafadf4a865cbbf9ea13e91cbbd1d05cdc6793cc8718476f1cea5c24d",
+    "candidate\\source\\rtl\\undistort_cache_ab.v": "db134cb9ae25bb6962fb0b8c81a6e30096109305374625c22ef6650be5af3217",
+    "baseline\\undistort_cache_ab_reference.v": "bdd91d27159508a42710b1582af0371c0b658fa840c2d66c1338e1606f869dc4"
+  },
+  "simulation_log_sha256": "063e95fa208ab343c9fe8fe978b19d3da0e83c367e629e0bf1db8bdd89c4f8d6"
+}

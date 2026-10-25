@@ -1,0 +1,233 @@
+[
+  {
+    "mutation": "stale_row_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "9bee07bc0a0e4c8c0777321a5c0776faa4fdc38d44a54552cc7c36613d64d125",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:188: state qstate mismatch\n       Time: 205000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\stale_row_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\stale_row_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_segment_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "3032d31fec59bbbbf048b6750e98d1decefe4a0fc3e8fd029ab68228d759f6e6",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:188: state qstate mismatch\n       Time: 197000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\stale_segment_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\stale_segment_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_group",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "c0fe51c2418a49af3c10a4aaa817282cfce12af94782e84ec512e62cd6f2b2ff",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=174 edge=24 state=3\n       Time: 189000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_group\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_group\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_parity",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "fd17e9b2933c3131ea17df736f1eeac73a2ed3b23d6c8416ea7ee22be806c592",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:220: victim leaf mismatch slot=0\n       Time: 165000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_parity\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_parity\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_local_slot",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "fbb864400017cb1e73f8f72fe230d02fc8f45de3d2b03c128bd1b2447052af7d",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=190 edge=24 state=3\n       Time: 189000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_local_slot\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_local_slot\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "missing_mark",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "023dd738dc0d425b573f4a1144a1adc91339ba6e0ddfa969673bc32577866063",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 92000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\missing_mark\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\missing_mark\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "ec73ae6114f9b969533147d97714d31397545aa15f611cdf27cc7cbbc080ffb0",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:153: MASK mismatch before DONE\n       Time: 460000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\stale_mask\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\stale_mask\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "7554a700a66dc0023c7a3a9c9ea72f57318b783c9f1023609c1fd4b25079ca85",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:213: last_use mismatch slot=191 edge=125 state=6\n       Time: 997000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\touch_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\touch_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "mask_protection",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "d30c2851ebd37bcd32731999a99150de0d64f66cea324f87294c72c290d434b3",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:220: victim leaf mismatch slot=10\n       Time: 1525000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\mask_protection\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\mask_protection\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "retirement_equal_allowed",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "aadcf96c3f59fa18fab1c41811e9fc978c3ab43c38a721eafb1eeb36b3134c9a",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:220: victim leaf mismatch slot=0\n       Time: 1221000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\retirement_equal_allowed\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\retirement_equal_allowed\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_tie_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "2cff293db86b7aa93f07664d4ed27be0083711c663ca645fc18ef729b1072671",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P6��ǩRAM��ֲ��滻_20261025\\tests\\cache_p6_equivalence_tb.sv:222: victim group mismatch group=0\n       Time: 173000  Scope: cache_p6_equivalence_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p6_equivalence_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_tie_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\tests\\cache_p6_equivalence_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\results\\negative_checks_p6\\wrong_tie_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P6标签RAM与局部替换_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "extra_ff": 300,
+  "age_high_bits": 192,
+  "leaf_age_high_bits": 96,
+  "winner_age_high_bits": 12,
+  "reason": "Submodule boundary prevents propagation of host constant sequence MSB; preserve 22-bit semantics and inline local generate block to allow original constant optimization."
+}

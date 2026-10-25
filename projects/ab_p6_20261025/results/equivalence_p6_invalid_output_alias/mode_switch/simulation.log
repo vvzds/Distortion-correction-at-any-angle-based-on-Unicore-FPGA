@@ -1,0 +1,2 @@
+FATAL: C:\Users\lenovo\Desktop\ww\AB_P6R1局部块常量传播_20261025\tests\cache_mode_switch_tb.v:127: last_use mismatch slot=0 edge=1 state=0
+       Time: 5000  Scope: cache_mode_switch_tb

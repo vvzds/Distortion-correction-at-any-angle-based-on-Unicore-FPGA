@@ -1,0 +1,54 @@
+{
+  "state": "EARLY_GATE_FAILED_WAITING_USER_DIRECTION",
+  "source_complete": true,
+  "verification_passed": false,
+  "early_functional_passed": true,
+  "full_matrix_executed": false,
+  "completed_equivalence_cases": 5,
+  "detected_negative_cases": 11,
+  "resource_gate_passed": false,
+  "resource_gate": {
+    "passed": false,
+    "gates": {
+      "flow_completed": true,
+      "no_error_lines": true,
+      "tag_row_ram_inferred": true,
+      "tag_seg_ram_inferred": true,
+      "distributed_ram_retained": true,
+      "ff_budget": false,
+      "logic_lut_budget": true,
+      "drm_budget": true
+    },
+    "baseline_p4": {
+      "LUT": 16359.0,
+      "FF": 8268.0,
+      "Distributed_RAM": 3168.0,
+      "APM": 0.0,
+      "DRM": 8.0,
+      "logic_LUT": 13191.0
+    },
+    "candidate": {
+      "LUT": 16938.0,
+      "FF": 8568.0,
+      "Distributed_RAM": 3168.0,
+      "APM": 0.0,
+      "DRM": 8.0,
+      "logic_LUT": 13770.0
+    },
+    "meaning": "Early resource/inference screen only; not 125MHz or complete functional acceptance",
+    "no_pnr_executed": true
+  },
+  "physical_state": "NOT_STARTED_RESOURCE_GATE_FAILED",
+  "physical_completed": false,
+  "timing_established": false,
+  "timing_passed": null,
+  "wns_ns": null,
+  "board_validated": false,
+  "new_bitstreams": [],
+  "cache_sha256": "db134cb9ae25bb6962fb0b8c81a6e30096109305374625c22ef6650be5af3217",
+  "core_unchanged": true,
+  "candidate_inputs_verified": 81,
+  "physical_inputs_verified": 139,
+  "next_method_started": false,
+  "checked_utc": "2026-10-25T07:15:07.984625+00:00"
+}
