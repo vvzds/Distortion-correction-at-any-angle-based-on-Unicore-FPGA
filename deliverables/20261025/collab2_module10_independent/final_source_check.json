@@ -1,0 +1,8 @@
+{
+  "matching_final_3tb_receipts": [
+    "evidence\\sim_11479dc757\\receipt.json",
+    "evidence\\sim_46a8eb35cc\\receipt.json"
+  ],
+  "production_bit_sha256": "67ce6939f03abe9e9594f6bd071a567988eeda96fecb4eec2c3f5b8ed6cdf317",
+  "path_separator_normalized": true
+}
