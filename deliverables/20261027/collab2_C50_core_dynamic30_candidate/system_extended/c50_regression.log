@@ -1,0 +1,116 @@
+# do run.do
+# vlib work
+# vlog +define+AB_CANDIDATE ../rtl/*.v source/rtl/corr_subsys/rect_wr_if.v source/rtl/corr_write_pack.v source/rtl/corr_write_arb.v source/rtl/corr_read_bridge.v core30_system_tb.v
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 02:26:42 on Oct 27,2026
+# vlog "+define+AB_CANDIDATE" ../rtl/undistort_bilinear.v ../rtl/undistort_cache_ab.v ../rtl/undistort_core.v ../rtl/undistort_map.v source/rtl/corr_subsys/rect_wr_if.v source/rtl/corr_write_pack.v source/rtl/corr_write_arb.v source/rtl/corr_read_bridge.v core30_system_tb.v 
+# -- Compiling module undistort_bilinear
+# -- Compiling module undistort_cache_ab
+# -- Compiling module undistort_core
+# -- Compiling module undistort_map
+# -- Compiling module g7_mul32x64_pipe4
+# -- Compiling module c27_square48_pipe4
+# -- Compiling module rect_wr_if
+# -- Compiling module corr_write_pack
+# -- Compiling module corr_write_arb
+# -- Compiling module corr_read_bridge
+# -- Compiling module core30_system_tb
+# 
+# Top level modules:
+# 	core30_system_tb
+# End time: 02:26:42 on Oct 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vopt work.core30_system_tb +acc -o test_opt
+# Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 02:26:43 on Oct 27,2026
+# vopt work.core30_system_tb "+acc" -o test_opt 
+# 
+# Top level modules:
+# 	core30_system_tb
+# 
+# Analyzing design...
+# -- Loading module core30_system_tb
+# -- Loading module undistort_core
+# -- Loading module undistort_map
+# -- Loading module c27_square48_pipe4
+# -- Loading module g7_mul32x64_pipe4
+# -- Loading module undistort_cache_ab
+# -- Loading module undistort_bilinear
+# -- Loading module rect_wr_if
+# -- Loading module corr_write_pack
+# -- Loading module corr_write_arb
+# -- Loading module corr_read_bridge
+# Optimizing 11 design-units (inlining 0/13 module instances):
+# -- Optimizing module core30_system_tb(fast)
+# ** Note: (vopt-143) Recognized 2 FSMs in module "core30_system_tb(fast)".
+# -- Optimizing module undistort_cache_ab(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "undistort_cache_ab(fast)".
+# -- Optimizing module undistort_core(fast)
+# ** Note: (vopt-143) Recognized 3 FSMs in module "undistort_core(fast)".
+# -- Optimizing module undistort_map(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "undistort_map(fast)".
+# -- Optimizing module rect_wr_if(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "rect_wr_if(fast)".
+# -- Optimizing module corr_read_bridge(fast)
+# -- Optimizing module corr_write_pack(fast)
+# -- Optimizing module corr_write_arb(fast)
+# -- Optimizing module g7_mul32x64_pipe4(fast)
+# -- Optimizing module c27_square48_pipe4(fast)
+# -- Optimizing module undistort_bilinear(fast)
+# Optimized design name is test_opt
+# End time: 02:26:43 on Oct 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.test_opt +TEST=10 +PATTERN=1 +DDR_WAIT=64 +GRANT_WAIT=16 +DDR_GAP=3 +STRIDE=16 +RESULT=real_result.txt
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# onfinish stop
+# run -all
+# Break in Module core30_system_tb at core30_system_tb.v line 441
+# Stopped at core30_system_tb.v line 441
+# quit -sim
+# set f [open real_result.txt r]
+# filed145390
+# set r [read $f]
+# METRIC frame_cycles=3302664 stable_cycles=3302335 total_cpp=1.592720 modeled_fps=37.848234 commands=14218 segments=14218 lines=0 beats=113744 max_first_delay=233 stall_fifo=26 stall_prep=571 stall_data=564900 stall_phase=0
+# SYSTEM fifo_highwater=2020 sink_pause_cycles=668986
+# SYSTEM publish_cycles=3303170 modeled_fps=37.842436 written_pixels=2073600 display_beats=103224 capture_beats=103224 display_debt=0 capture_debt=0
+# [REAL] PASS err=0 checked=129600 max_error=1 within_one=1.000000 pattern=1 pixels=2073600 rel=1
+# [T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+# [T8 REAL] cycles=3302664 stable_cpp=1.592562 loads=14218 reloads=13187 hits=1080 max_loads_per_line=0
+# === ALL TESTS PASSED (err=0) ===
+# 
+# close $f
+# puts $r
+# if {[string first {=== ALL TESTS PASSED (err=0) ===} $r]<0} {quit -code 2 -f}
+# vsim work.test_opt +TEST=21 +PATTERN=1 +DDR_WAIT=64 +GRANT_WAIT=16 +DDR_GAP=3 +STRIDE=16 +RESULT=rotate5_result.txt
+# onfinish stop
+# run -all
+# Break in Module core30_system_tb at core30_system_tb.v line 441
+# Stopped at core30_system_tb.v line 441
+# quit -sim
+# set f [open rotate5_result.txt r]
+# filed16f0b0
+# set r [read $f]
+# METRIC frame_cycles=3878392 stable_cycles=3878063 total_cpp=1.870367 modeled_fps=32.229852 commands=17873 segments=17873 lines=0 beats=142984 max_first_delay=235 stall_fifo=26 stall_prep=910 stall_data=1803105 stall_phase=0
+# SYSTEM fifo_highwater=605 sink_pause_cycles=0
+# SYSTEM publish_cycles=3878438 modeled_fps=32.229470 written_pixels=2073600 display_beats=121200 capture_beats=121200 display_debt=0 capture_debt=1
+# [ROT5] PASS err=0 checked=129600 max_error=1 within_one=1.000000 pattern=1 pixels=2073600 rel=1
+# [T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+# [T8 ROT5] cycles=3878392 stable_cpp=1.870208 loads=17873 reloads=16804 hits=1080 max_loads_per_line=0
+# === ALL TESTS PASSED (err=0) ===
+# 
+# close $f
+# puts $r
+# if {[string first {=== ALL TESTS PASSED (err=0) ===} $r]<0} {quit -code 2 -f}
+# quit -code 0 -f
