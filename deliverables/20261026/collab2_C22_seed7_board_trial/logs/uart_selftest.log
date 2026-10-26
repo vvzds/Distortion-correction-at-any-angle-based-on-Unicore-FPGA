@@ -1,0 +1,8 @@
+U0 V2 已确认勘误: 原文 39B/B8；有效帧 37B/B7
+[U0] PASS
+[U1] PASS
+[U2] PASS
+[U3] PASS
+[U4] FAIL: PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\叶翔\\Desktop\\yx\\G7_C22_seed7真实板测_二号_20261026\\temp\\tmpf6r_4t74'
+[U5] FAIL: PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\叶翔\\Desktop\\yx\\G7_C22_seed7真实板测_二号_20261026\\temp\\tmpldv5uyyq'
+=== TESTS FAILED (2) ===

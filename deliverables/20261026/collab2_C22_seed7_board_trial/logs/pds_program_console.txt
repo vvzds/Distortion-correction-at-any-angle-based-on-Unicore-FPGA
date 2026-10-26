@@ -1,0 +1,16 @@
+Welcome to Tcl Console
+Connecting to server[127.0.0.1 : 65420].
+Connect to server[127.0.0.1 : 65420] successfully.
+COMMAND[check version information] execute successfully, takes 2.3 secs.
+The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+COMMAND[get_cable_paras] execute successfully, takes 3.1 secs.
+PANGO USB CABLE II cable driver: D2XX DLL
+PG2L100H
+This device configure situation (done bit): 1
+COMMAND[Open config cable] execute successfully, takes 713.3 secs.
+The done bit is 1
+COMMAND[Program] execute successfully, takes 3.6 secs.
+Selected bitstream: D:\FPGA PDS\yx\C22_board_20261026\C22_seed7.sbit
+SHA256: 668d08ec6e19550ec5dcd86ebfad4ef0d595b6e66e912abb56e3d3bee8eaf145

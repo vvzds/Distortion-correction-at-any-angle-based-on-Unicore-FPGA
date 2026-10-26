@@ -1,0 +1,31 @@
+{
+  "package": "给二号协作者_G7_C22_seed7真实板测与上位机准备包_20261026",
+  "date": "2026-10-26",
+  "recipient_and_host": "二号协作者PC",
+  "candidate": "G7_C22_CACHE12_MIXED",
+  "candidate_identity_sha256": "ceb0363b3db4a08e363be15c4208fa01a6d6b78baf61fd82e90ffcdf20f5a7bd",
+  "seed7_bitstream": "G7_C22_CACHE12_seed7_hdmi_ddr_ov5640_top.sbit",
+  "seed7_bitstream_size": 3791112,
+  "seed7_bitstream_sha256": "668d08ec6e19550ec5dcd86ebfad4ef0d595b6e66e912abb56e3d3bee8eaf145",
+  "formal_physical_acceptance": {
+    "valid_seeds": "8/8",
+    "overall_closed": "6/8",
+    "passed": false,
+    "production_promoted": false
+  },
+  "seed7_timing_ns": {
+    "setup_slow": 0.564,
+    "setup_fast": 1.476,
+    "hold_slow": 0.135,
+    "hold_fast": 0.103,
+    "recovery_slow": 0.938,
+    "recovery_fast": 1.715,
+    "removal_slow": 0.352,
+    "removal_fast": 0.232
+  },
+  "host_tools_tested": {
+    "uart_selftest": "U0-U5 PASS",
+    "fixed_tools_regression": "18/18 PASS"
+  },
+  "execution_status": "prepared_only_not_programmed_or_board_tested"
+}

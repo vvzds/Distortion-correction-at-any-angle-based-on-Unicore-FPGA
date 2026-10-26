@@ -1,0 +1,95 @@
+{
+  "affine_image_checks": [
+    {
+      "source": "affine_plus24",
+      "target": "affine_minus24",
+      "expected_image_dx_px": 48,
+      "matches": 31,
+      "inliers": 4,
+      "median_dx_dy": [
+        74.3712158203125,
+        -50.526763916015625
+      ],
+      "median_residual_px": 1.9615060091018677,
+      "affine_fit": [
+        [
+          1.0267657254554725,
+          -0.035600565062662494,
+          60.44701433707788
+        ],
+        [
+          0.035600565062662494,
+          1.0267657254554725,
+          -138.60876297458364
+        ]
+      ],
+      "verified": false,
+      "note": "Inconclusive: too few consistent inliers and scene movement; do not use as proof of affine effect"
+    },
+    {
+      "source": "real_restored",
+      "target": "affine_plus24",
+      "expected_image_dx_px": -24,
+      "matches": 81,
+      "inliers": 6,
+      "median_dx_dy": [
+        -73.04754638671875,
+        -20.134002685546875
+      ],
+      "median_residual_px": 12.51708984375,
+      "affine_fit": [
+        [
+          1.038079533339978,
+          0.007950622304835543,
+          -137.9691548126231
+        ],
+        [
+          -0.007950622304835543,
+          1.038079533339978,
+          -23.814311813370505
+        ]
+      ],
+      "verified": false,
+      "note": "Inconclusive: too few consistent inliers and scene movement; do not use as proof of affine effect"
+    },
+    {
+      "source": "real_restored",
+      "target": "affine_minus24",
+      "expected_image_dx_px": 24,
+      "matches": 31,
+      "inliers": 2,
+      "median_dx_dy": [
+        -120.9984130859375,
+        464.36956787109375
+      ],
+      "median_residual_px": 521.6190185546875,
+      "affine_fit": [
+        [
+          -4.648534883179623,
+          -1.313968679589699,
+          7981.807024961744
+        ],
+        [
+          1.313968679589699,
+          -4.648534883179623,
+          -177.09769319167341
+        ]
+      ],
+      "verified": false,
+      "note": "Inconclusive: too few consistent inliers and scene movement; do not use as proof of affine effect"
+    }
+  ],
+  "locality_diagnostic": {
+    "model": "Independent float Brown map, 4 resident full source rows, round robin demand loading",
+    "source_row_span_per_output_line_max": 72,
+    "source_row_span_per_output_line_mean": 37.61851851851852,
+    "estimated_line_loads_per_frame": 69916,
+    "estimated_line_loads_per_output_line_mean": 64.73703703703704,
+    "caveat": "Not bit exact or cycle accurate. Cannot alone prove the cause of measured 4fps."
+  },
+  "image_sha256": {
+    "affine_minus24.png": "768896c43a582e72ffa7f3beb290492f0b4d2a357f45bdd2d79d82feb5cc7d00",
+    "affine_plus24.png": "d721e468d0faec027d7ec90bedd814d048fd7c6f768571d4916fe8df3ba80b48",
+    "real_restored.png": "db20212628b4de72f627ce5ecffa789dcd2eebe0ea02b6430d6ae3109c5b9375"
+  }
+}

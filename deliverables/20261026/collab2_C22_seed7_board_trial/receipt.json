@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-26",
+  "host": "yxnb",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "candidate": "G7_C22_CACHE12_MIXED seed7",
+  "candidate_identity_sha256": "ceb0363b3db4a08e363be15c4208fa01a6d6b78baf61fd82e90ffcdf20f5a7bd",
+  "bit_sha256": "668d08ec6e19550ec5dcd86ebfad4ef0d595b6e66e912abb56e3d3bee8eaf145",
+  "input_zip_sha256": "d310c82b9dd78c71f0dd732815e88b8de21826e9414720e6de40d43f33db1bd1",
+  "program_success": true,
+  "uart_port": "COM11",
+  "uart_baud": 115200,
+  "stages": [
+    {
+      "label": "identity",
+      "delta": 304,
+      "elapsed": 10.077999999994063,
+      "fps": 30.164715221291832,
+      "status_samples": 21,
+      "capture": {
+        "file": "identity.png",
+        "sha256": "b79dfba46345d80c0793b847b637150e10f7199d0fc1f641945125ac39d81a56",
+        "shape": [
+          1080,
+          1920,
+          3
+        ],
+        "mean": 85.25269900977366,
+        "std": 62.666296120363036,
+        "frames_read": 60,
+        "reported_capture_fps": 30.00003000003,
+        "note": "Decoded HDMI capture; reported capture rate is not correction publication rate"
+      },
+      "maximum_query_duration": 0.015999999988707714
+    },
+    {
+      "label": "real",
+      "delta": 40,
+      "elapsed": 10.077999999994063,
+      "fps": 3.9690414764857676,
+      "status_samples": 21,
+      "capture": {
+        "file": "real.png",
+        "sha256": "de6ce440276e18cf4531e54e0d9b9d2c5c8285b799114362dbe3d37d6cf782ff",
+        "shape": [
+          1080,
+          1920,
+          3
+        ],
+        "mean": 81.20951035236625,
+        "std": 59.342182224262366,
+        "frames_read": 60,
+        "reported_capture_fps": 30.00003000003,
+        "note": "Decoded HDMI capture; reported capture rate is not correction publication rate"
+      },
+      "maximum_query_duration": 0.0
+    },
+    {
+      "label": "affine_plus24",
+      "delta": 40,
+      "elapsed": 10.063000000009197,
+      "fps": 3.9749577660701028,
+      "status_samples": 21,
+      "capture": {
+        "file": "affine_plus24.png",
+        "sha256": "d721e468d0faec027d7ec90bedd814d048fd7c6f768571d4916fe8df3ba80b48",
+        "shape": [
+          1080,
+          1920,
+          3
+        ],
+        "mean": 66.54782005529836,
+        "std": 55.566287974531335,
+        "frames_read": 60,
+        "reported_capture_fps": 30.00003000003,
+        "note": "Decoded HDMI capture; reported capture rate is not correction publication rate"
+      },
+      "maximum_query_duration": 0.01600000000325963
+    },
+    {
+      "label": "affine_minus24",
+      "delta": 40,
+      "elapsed": 10.062999999994645,
+      "fps": 3.9749577660758506,
+      "status_samples": 21,
+      "capture": {
+        "file": "affine_minus24.png",
+        "sha256": "768896c43a582e72ffa7f3beb290492f0b4d2a357f45bdd2d79d82feb5cc7d00",
+        "shape": [
+          1080,
+          1920,
+          3
+        ],
+        "mean": 64.58602382330247,
+        "std": 55.310966379004775,
+        "frames_read": 60,
+        "reported_capture_fps": 30.00003000003,
+        "note": "Decoded HDMI capture; reported capture rate is not correction publication rate"
+      },
+      "maximum_query_duration": 0.0
+    },
+    {
+      "label": "real_restored",
+      "delta": 40,
+      "elapsed": 10.093999999997322,
+      "fps": 3.9627501486041816,
+      "status_samples": 21,
+      "capture": {
+        "file": "real_restored.png",
+        "sha256": "db20212628b4de72f627ce5ecffa789dcd2eebe0ea02b6430d6ae3109c5b9375",
+        "shape": [
+          1080,
+          1920,
+          3
+        ],
+        "mean": 67.2313850308642,
+        "std": 56.330973411791504,
+        "frames_read": 60,
+        "reported_capture_fps": 30.00003000003,
+        "note": "Decoded HDMI capture; reported capture rate is not correction publication rate"
+      },
+      "maximum_query_duration": 0.0
+    }
+  ],
+  "conclusion": "REAL_CALIBRATION_30FPS_FAIL_NOT_PRODUCTION_ACCEPTED",
+  "affine_geometric_effect": "INCONCLUSIVE_SCENE_MOVED",
+  "formal_multiseed_acceptance": false,
+  "final_state": "Real calibration, Gamma disabled, affine disabled packet sent, serial/capture released",
+  "board_model_and_voltage": "User confirms same successful G4 hardware/wiring; not independently measured"
+}

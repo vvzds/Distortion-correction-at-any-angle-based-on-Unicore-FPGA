@@ -1,0 +1,79 @@
+[
+  {
+    "seed": 5,
+    "rtr_sha256": "2dc2668056394dd33500181da110c6ec43cf2f1bf98283f400041fe8f209fcbf",
+    "violated_paths_reported": 1,
+    "paths": [
+      {
+        "slack_ns": -0.007,
+        "startpoint": "u_ddr3_test_h/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/dq_loop[4].u_iobuf_dq/opit_1/ICLKDIV",
+        "endpoint": "u_ddr3_test_h/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqs_rddata_align/rddata_r1[33]/opit_0_inv_srl/D",
+        "path_type": "min (fast corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      }
+    ]
+  },
+  {
+    "seed": 11,
+    "rtr_sha256": "9f6ef0882210f81a56160adf0b3732a32e2011bbeaccfa8227da78b27b32a352",
+    "violated_paths_reported": 6,
+    "paths": [
+      {
+        "slack_ns": -0.03,
+        "startpoint": "u_corr_top/u_core/u_cache/load_beat[5]/opit_0_inv_L6QL5Q_perm/CLK",
+        "endpoint": "u_corr_top/u_core/u_cache/BANK[0].ram_lut_1_27/ram64x1d/WADDR[1]",
+        "path_type": "min (slow corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      },
+      {
+        "slack_ns": -0.03,
+        "startpoint": "u_corr_top/u_core/u_cache/load_beat[5]/opit_0_inv_L6QL5Q_perm/CLK",
+        "endpoint": "u_corr_top/u_core/u_cache/BANK[0].ram_lut_1_59/ram64x1d/WADDR[1]",
+        "path_type": "min (slow corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      },
+      {
+        "slack_ns": -0.029,
+        "startpoint": "u_corr_top/u_core/u_cache/load_beat[3]/opit_0_inv_L6QL5Q_perm/CLK",
+        "endpoint": "u_corr_top/u_core/u_cache/BANK[0].ram_lut_1_27/ram64x1d/WADDR[0]",
+        "path_type": "min (slow corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      },
+      {
+        "slack_ns": -0.036,
+        "startpoint": "u_corr_top/u_core/u_cache/load_beat[3]/opit_0_inv_L6QL5Q_perm/CLK",
+        "endpoint": "u_corr_top/u_core/u_cache/BANK[0].ram_lut_1_27/ram64x1d/WADDR[0]",
+        "path_type": "min (fast corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      },
+      {
+        "slack_ns": -0.036,
+        "startpoint": "u_corr_top/u_core/u_cache/load_beat[3]/opit_0_inv_L6QL5Q_perm/CLK",
+        "endpoint": "u_corr_top/u_core/u_cache/BANK[0].ram_lut_1_59/ram64x1d/WADDR[0]",
+        "path_type": "min (fast corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      },
+      {
+        "slack_ns": -0.035,
+        "startpoint": "u_corr_top/u_core/u_cache/load_beat[5]/opit_0_inv_L6QL5Q_perm/CLK",
+        "endpoint": "u_corr_top/u_core/u_cache/BANK[0].ram_lut_1_27/ram64x1d/WADDR[1]",
+        "path_type": "min (fast corner)",
+        "path_class": "sequential timing path",
+        "source_clock": null,
+        "destination_clock": null
+      }
+    ]
+  }
+]

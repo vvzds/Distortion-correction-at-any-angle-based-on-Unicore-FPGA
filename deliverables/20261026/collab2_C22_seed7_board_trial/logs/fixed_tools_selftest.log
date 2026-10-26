@@ -1,0 +1,20 @@
+[源码段实跑] PASS  T1 从 calibrate.py 提取 q16_16/g02_violations  共 578 字符，与交付文件逐字一致
+[数值探针] PASS  T2 R03 合法组 Q16.16 量化往返误差 <= 0.5 LSB  max |Δ| = 0.464000 LSB
+[数值探针] PASS  T2 R03 越界值 65536.0 被 G02 预检拦截（不进编码/发送）  拦截 [('fx', 65536.0)]
+[数值探针] PASS  T2 R03 边界负值 k1=-0.5 编码不回绕（-32768 -> 0x8000 小端）  bytes=0080ffff 解码=-0.5（Q16.16 有符号小端无回绕）
+[数值探针] PASS  T3a R05 公式对照：二范数（修订版）读数  欧氏垂距=3.999px（期望 4.000）
+[数值探针] PASS  T3a R05 公式对照：分量 max（旧版）重现二号探针  旧公式读数=2.828px（二号 review_claim_probes.json 同型结论）
+[数值探针] PASS  T3b R05 端到端 SVD：新旧公式读数比 = sqrt(2)  新=3.959px 旧=2.800px 比值=1.4142（期望 1.4142，PCA 主轴受离轴点轻微扰动属正常，比值判据不受影响）
+[数值探针] PASS  T3 R05 uint8 回绕修复（255->0 差分）  旧 uint8 差分=1（回绕错误 +1），新 float64 差分=-255（正确）
+[数值探针] PASS  T4 R06 修订版 ESF vs 逐点参考插值 max|Δ|  max|Δ|=2.842e-14（数值一致）
+[数值探针] PASS  T4 R06 旧索引错误重现二号探针（对照证据）  旧式 vs 参考 max|Δ|=193 灰度级；另暴露 i=0 空切片 nan 395 处（旧式额外缺陷）
+[源码断言] PASS  T5 R04 status_map_uart.json fields 为对象（适配 format_status）  type=dict（docs 版为 list，故 docs 版不可直接用于 read-0x05）
+[数值探针] PASS  T5 R04 两份 status_map 有效字段逐项一致（冻结位域不改）  4 项非保留字段 lsb/width 逐项比对全一致；reserved（(10, 6)）在 uart 适配版中省略，无解码语义
+[源码断言] PASS  T6 R01 calibrate.py 含 CALIB_FIX_K3 + zeros(5) + dist_full 记录  flags 显式化；k3 固定 0；json 存完整 5 元素 dist
+[源码断言] PASS  T6 R02 calibrate.py 逐张 shape 校验 + imageSize 显式 (1920,1080)  不可读/非1080p 图 skip；imageSize 不再取循环末张 g.shape
+[源码断言] PASS  T6 R02 capture.py 硬拒绝 + 保存前实帧核对  启动即 SystemExit；保存前以实帧 shape 为准
+[源码断言] PASS  T6 H08 calibrate.py 下发入口 = send-0x01 / read-0x05 + status_map_uart.json  旧"十六进制模式/--status"文案已清除
+[源码断言] PASS  T6 H09 README 正文无"画面应无可见变化"验收措辞  §4 效果验收改为 linearity/MTF50 数据判据（§8 修订记录中的引用文字除外）
+[源码断言] PASS  T6 R05/R06 修订落位  float64 差分+二范数；标准线性插值+恒真 isnan 分支已删
+
+=== SELFTEST PASSED: 18/18 ===
