@@ -128,6 +128,48 @@
       "outputBufferBytesPerBank": 122880,
       "idealLruMisses": 36444,
       "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 64,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 245760,
+      "idealLruMisses": 27024,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 64,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 245760,
+      "idealLruMisses": 27024,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 64,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 245760,
+      "idealLruMisses": 26356,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 128,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 491520,
+      "idealLruMisses": 18375,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 128,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 491520,
+      "idealLruMisses": 18375,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 128,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 491520,
+      "idealLruMisses": 18375,
+      "maxDistinctKeysInStrip": 2160
     }
   ]
 }

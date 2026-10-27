@@ -58,7 +58,7 @@ const result = {
   pixels: keys.length,
   traversal: 'row strips, column-major within each strip, then raster readback',
   model: '8-way RTL hash, LRU replacement, no pinning or DDR timing',
-  scenarios: [1, 2, 4, 8, 16, 32].flatMap(h =>
+  scenarios: [1, 2, 4, 8, 16, 32, 64, 128].flatMap(h =>
     [32, 64, 128].map(sets => assess(h, sets))),
 };
 fs.writeFileSync(outputPath, JSON.stringify(result, null, 2) + '\n');

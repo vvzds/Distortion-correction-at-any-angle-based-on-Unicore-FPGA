@@ -1,0 +1,11 @@
+# C62 touch-request pipeline trial (2026-10-28)
+
+Status: rejected for promotion. C50 seed7 remains the board-tested fallback. No C62 bitstream was generated or programmed.
+
+C62 starts from C57 and registers the cache touch request, four 8-bit IDs, and retirement sequence in `undistort_core.v`. This separates the `prepared_count -> prep_distance -> touch` logic from the cache's 256-bit `protect_mask` decode. The core RTL SHA256 is `AD6B4E626D50D092234966AC1A9BDC97C80A333A5EE73C0F9729243C6DE74DE1`; the cache RTL is unchanged from C57 (`ACF45ED28B1A37BE27C1AF3912B787F9BE37D7B6A9D78732092864D57DDEC20E`). The protected IDs/sequence are captured with the touch pulse, so delayed cache use refers to the same prepared pixel.
+
+All 11 complete 1920x1080 system scenarios in `evidence/system/` passed exact-pixel/protocol checks. Whole-frame publication under the existing 125 MHz DDR model remains identical to C57: identity 44.330045 fps, calibrated parameters 37.491872 fps, and 1-degree rotation 36.754620 fps. These are modeled corrected-frame publication rates, not independent input or HDMI display FPS. C57's separate 15-degree test timed out, so C62 is not a wide-angle performance solution.
+
+Seed7 PDS completed route with the same 125 MHz constraint file. Independent post-route `report_timing` reports setup WNS **-0.233 ns** with three failing endpoints, and hold WHS **+0.035 ns**. C57 measured -0.384/+0.136 ns, so setup improved but still fails and hold margin narrowed. The worst C62 path begins at `u_param_mgr/o_aff_a22[29]`, crosses frame-start parameter qualification, and ends at `u_core/o_corr_src_hold_req` clock enable. The path shifted away from cache touch decode, but there is no timing closure. The complete PDS run, routed, and timing reports are in `evidence/timing/c62_seed7_pds_reports.zip` (SHA256 `48891C9F0E81CD68271CEA175BC81E7109792C59C51D675A7F20CF749C26C740`).
+
+`evidence/system/run.do` is the tested full-frame regression, with the RTL and bridge/writer dependencies alongside it. ModelSim 10.7 should run from an ASCII-only scratch path. The original isolated PDS working tree is `D:/FPGA PDS/yx/C62_touch_pipeline_20261027/`. The frame-buffer FBG484-vs-FBG676 metadata warning also exists in the C50 baseline and still needs review before any new board build.
