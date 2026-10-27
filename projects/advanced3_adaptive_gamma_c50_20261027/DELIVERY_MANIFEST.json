@@ -585,8 +585,8 @@
     },
     {
       "path": "project/README_advanced3.md",
-      "sha256": "71969131e757d9ae141c4eb91a643a0b58c933f6f382647a4a4f4d2b66f35d8f",
-      "bytes": 1301
+      "sha256": "a5bf725bbcf8428ed9033a06236d09e4695585595c0fc352b2edbb406373205f",
+      "bytes": 1562
     },
     {
       "path": "project/run.log",
@@ -799,9 +799,24 @@
       "bytes": 6231
     },
     {
+      "path": "simulation/advanced3_c50_write_tb_v2.v",
+      "sha256": "9774ae969e67b3c09a227f68bd9597f6a596c6c0add697f3927344920e3329d7",
+      "bytes": 7460
+    },
+    {
+      "path": "simulation/advanced3_c50_write_tb_v3.v",
+      "sha256": "4418c99d635a3b14add8efa15c2aa25feb0d1670e9359007548daa6bdc81e284",
+      "bytes": 7456
+    },
+    {
       "path": "tools/advanced3_compile_20261027.py",
       "sha256": "a376d451df883f95c0360e7251e2196fdc1a74515c14438541fa2a648478c04b",
       "bytes": 2154
+    },
+    {
+      "path": "tools/advanced3_full_frame_run_20261027.py",
+      "sha256": "f068be86058c279401cfb17e8fdee6ca529d437450a1451d839db2dd1680cf49",
+      "bytes": 4157
     },
     {
       "path": "tools/advanced3_prepare_20261027.py",
@@ -817,6 +832,36 @@
       "path": "verification/corr_top_C50_to_adaptive.diff",
       "sha256": "a19db23cb3a26deb160a64ed42d0e98ce040e4fffc93f665b9521f522bdbeb61",
       "bytes": 1861
+    },
+    {
+      "path": "verification/full_frame_v2/compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/full_frame_v2/receipt.json",
+      "sha256": "00787da9c15cb6d95310e80ec9af2df480f877920a8606071826b1dab9c45fe4",
+      "bytes": 2379
+    },
+    {
+      "path": "verification/full_frame_v2/simulation.log",
+      "sha256": "8d95db70574d7c076c46c3275733b0ba0e17be74ca1c471ab4b67cbf468fc860",
+      "bytes": 317
+    },
+    {
+      "path": "verification/full_frame_v3/compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/full_frame_v3/receipt.json",
+      "sha256": "b8c3688f8fea6c8ff59ba869f174c49258ea3e8fc6b53ecbd39638b8e97fed63",
+      "bytes": 2384
+    },
+    {
+      "path": "verification/full_frame_v3/simulation.log",
+      "sha256": "210c0ac4a779d3ee55fe9e713295a114c4d40e9a4735b923b5b43e711464ac73",
+      "bytes": 2909
     },
     {
       "path": "verification/local_sim/adaptive_gamma_curve_tb.compile.log",
@@ -905,11 +950,12 @@
     },
     {
       "path": "仓库半成品核对与复用决定.md",
-      "sha256": "38cfe8d4fff8a0cac3febf414fac9e47f49e896add1d44e8c78e0d4233e6fe13",
-      "bytes": 3509
+      "sha256": "8d06306fe808806b50e42b554cd4d49904b017aa282ef1aefe293952e85e91db",
+      "bytes": 3805
     }
   ],
-  "full_frame_c50_test": "TIMEOUT_NOT_PASS",
+  "full_frame_c50_test": "PASS_V3_6220800_PIXELS_3110400_WORDS_3_COMMITS",
   "whole_host_pnr": "NOT_RUN",
-  "bitstream": "NOT_GENERATED"
+  "bitstream": "NOT_GENERATED",
+  "prior_full_frame_c50_test": "TIMEOUT_600S; V2 watchdog threshold false failure"
 }

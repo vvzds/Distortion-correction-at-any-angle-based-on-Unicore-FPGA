@@ -1,0 +1,37 @@
+GOLDEN_PRECOMPUTED 12 RGB565 entries
+FRAME_START frame=0 cycle=12 gamma_en=0 curve=2
+FRAME_PROGRESS frame=0 pixels=230400 words=115168 credit_pauses=1714 cycle=246526
+FRAME_PROGRESS frame=0 pixels=460800 words=230398 credit_pauses=1714 cycle=491326
+FRAME_PROGRESS frame=0 pixels=691200 words=345575 credit_pauses=1714 cycle=736126
+FRAME_PROGRESS frame=0 pixels=921600 words=460798 credit_pauses=1714 cycle=980926
+FRAME_PROGRESS frame=0 pixels=1152000 words=575983 credit_pauses=1714 cycle=1225726
+FRAME_PROGRESS frame=0 pixels=1382400 words=691198 credit_pauses=1714 cycle=1470526
+FRAME_PROGRESS frame=0 pixels=1612800 words=806391 credit_pauses=1714 cycle=1715326
+FRAME_PROGRESS frame=0 pixels=1843200 words=921598 credit_pauses=1714 cycle=1960126
+FRAME_PROGRESS frame=0 pixels=2073600 words=1036798 credit_pauses=1714 cycle=2204926
+FRAME=0 COMMIT=1 WORDS=1036800 CREDIT_PAUSES=1714
+FRAME_START frame=1 cycle=2204994 gamma_en=1 curve=1
+FRAME_PROGRESS frame=1 pixels=230400 words=1151986 credit_pauses=3468 cycle=2451547
+FRAME_PROGRESS frame=1 pixels=460800 words=1267198 credit_pauses=3468 cycle=2696347
+FRAME_PROGRESS frame=1 pixels=691200 words=1382379 credit_pauses=3468 cycle=2941147
+FRAME_PROGRESS frame=1 pixels=921600 words=1497598 credit_pauses=3468 cycle=3185947
+FRAME_PROGRESS frame=1 pixels=1152000 words=1612771 credit_pauses=3468 cycle=3430747
+FRAME_PROGRESS frame=1 pixels=1382400 words=1727998 credit_pauses=3468 cycle=3675547
+FRAME_PROGRESS frame=1 pixels=1612800 words=1843171 credit_pauses=3468 cycle=3920347
+FRAME_PROGRESS frame=1 pixels=1843200 words=1958398 credit_pauses=3468 cycle=4165147
+FRAME_PROGRESS frame=1 pixels=2073600 words=2073578 credit_pauses=3468 cycle=4409947
+FRAME=1 COMMIT=2 WORDS=2073600 CREDIT_PAUSES=3468
+FRAME_START frame=2 cycle=4410034 gamma_en=0 curve=0
+FRAME_PROGRESS frame=2 pixels=230400 words=2188786 credit_pauses=5242 cycle=4656609
+FRAME_PROGRESS frame=2 pixels=460800 words=2303998 credit_pauses=5242 cycle=4901409
+FRAME_PROGRESS frame=2 pixels=691200 words=2419178 credit_pauses=5242 cycle=5146209
+FRAME_PROGRESS frame=2 pixels=921600 words=2534398 credit_pauses=5242 cycle=5391009
+FRAME_PROGRESS frame=2 pixels=1152000 words=2649572 credit_pauses=5242 cycle=5635809
+FRAME_PROGRESS frame=2 pixels=1382400 words=2764798 credit_pauses=5242 cycle=5880609
+FRAME_PROGRESS frame=2 pixels=1612800 words=2879971 credit_pauses=5242 cycle=6125409
+FRAME_PROGRESS frame=2 pixels=1843200 words=2995198 credit_pauses=5242 cycle=6370209
+FRAME_PROGRESS frame=2 pixels=2073600 words=3110380 credit_pauses=5242 cycle=6615009
+FRAME=2 COMMIT=3 WORDS=3110400 CREDIT_PAUSES=5242
+WRITE_WORDS=3110400 PIXELS=6220800 COMMITS=3 UART_UPDATES=2 CREDIT_PAUSES=5242 err=0
+=== ALL TESTS PASSED (err=0) ===
+C:\Users\lenovo\Desktop\ww\高阶任务三_仓库审查与启动_20261027\simulation\advanced3_c50_write_tb_v3.v:164: $finish called at 52920752000 (1ps)

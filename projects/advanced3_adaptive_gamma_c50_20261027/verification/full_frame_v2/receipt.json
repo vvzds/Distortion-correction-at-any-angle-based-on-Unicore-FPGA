@@ -1,0 +1,32 @@
+{
+  "status": "FAIL",
+  "started": "2026-10-27T15:17:52.972086+08:00",
+  "scope": "Three complete 1920x1080 frames at injected core output through real C50 corr_top/param_mgr/adaptive_gamma/rect_wr_if; does not test actual core mapping, physical DDR, or HDMI",
+  "inputs": {
+    "engineering_candidate/source/rtl/corr_subsys/adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+    "engineering_candidate/source/rtl/corr_subsys/adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+    "engineering_candidate/source/rtl/corr_subsys/corr_top.v": "8f594e42b0ba5a6378a9860727d17852f919166bca05a269e64838a1750a1ed8",
+    "engineering_candidate/source/rtl/corr_subsys/param_mgr.v": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+    "engineering_candidate/source/rtl/corr_subsys/gamma_lut.v": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1",
+    "engineering_candidate/source/rtl/corr_subsys/rect_wr_if.v": "24a5fb74f7225ca6801b14e28d0109bd5c9b1d33f82b74e4e0364328d2bdad71",
+    "engineering_candidate/source/rtl/corr_subsys/undistort_core.v": "c9b2f90af7bd0aaaa48122be9449c910a96de8c9952e0f821191c763950d97cf",
+    "engineering_candidate/source/rtl/corr_subsys/undistort_map.v": "89e31cc0cbb9d149523ce908dfb9104ce5a8fc5a6cb35762dcac597e05475731",
+    "engineering_candidate/source/rtl/corr_subsys/undistort_cache_ab.v": "9da0c2efcb07797bae2fd4726a22d4b917f84a4cb02db4a7a07c6aeb2390d1fb",
+    "engineering_candidate/source/rtl/corr_subsys/undistort_bilinear.v": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+    "simulation/advanced3_c50_write_tb_v2.v": "9774ae969e67b3c09a227f68bd9597f6a596c6c0add697f3927344920e3329d7"
+  },
+  "simulator_sha256": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+  "runtime_sha256": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62",
+  "simulator_timeout_seconds": 1200,
+  "physical_timing": "NOT_RUN",
+  "board_test": "NOT_RUN",
+  "compile_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 15.03,
+  "log_bytes": 87,
+  "exit": 1,
+  "log_sha256": "8d95db70574d7c076c46c3275733b0ba0e17be74ca1c471ab4b67cbf468fc860",
+  "frame_starts": 1,
+  "frame_progress": 0,
+  "frame_commits": 0,
+  "inputs_changed": []
+}
