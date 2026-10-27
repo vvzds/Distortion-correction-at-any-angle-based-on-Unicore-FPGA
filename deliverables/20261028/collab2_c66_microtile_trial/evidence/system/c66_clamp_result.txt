@@ -1,0 +1,7 @@
+METRIC frame_cycles=2495143 stable_cycles=2458357 total_cpp=1.203290 modeled_fps=50.097329 commands=16610 segments=16610 lines=0 beats=132880 max_first_delay=28 stall_fifo=26 stall_prep=188964 stall_data=116070 stall_phase=0
+SYSTEM fifo_highwater=1 sink_pause_cycles=0
+SYSTEM publish_cycles=2495156 modeled_fps=50.097068 written_pixels=2073600 display_beats=77976 capture_beats=77976 display_debt=0 capture_debt=0
+[T5c] PASS err=0 checked=129600 max_error=1 within_one=1.000000 pattern=1 pixels=2073600 rel=1
+[T7] PASS err=0 protocol/lifecycle/coordinate/independent_stats
+[T8 T5c] cycles=2495143 stable_cpp=1.185550 loads=16610 reloads=15530 hits=1080 max_loads_per_line=0
+=== ALL TESTS PASSED (err=0) ===

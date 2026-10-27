@@ -1,0 +1,76 @@
+{
+  "model": "256 tags, 32 sets, 8-way LRU, RTL row/segment hash; no pinning or DDR timing",
+  "traversal": "16-row strips, output row-major within each horizontal microtile",
+  "scenarios": [
+    {
+      "tileWidth": 1,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 1946758,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 2,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 902369,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 4,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 884376,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 8,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 895651,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 16,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 900969,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 32,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 903568,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 64,
+      "stripHeight": 16,
+      "idealLruMisses": 82171,
+      "consecutiveKeyReuse": 904982,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 128,
+      "stripHeight": 16,
+      "idealLruMisses": 82173,
+      "consecutiveKeyReuse": 905666,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 256,
+      "stripHeight": 16,
+      "idealLruMisses": 103376,
+      "consecutiveKeyReuse": 905988,
+      "pixels": 2073600
+    },
+    {
+      "tileWidth": 1920,
+      "stripHeight": 16,
+      "idealLruMisses": 1176481,
+      "consecutiveKeyReuse": 906447,
+      "pixels": 2073600
+    }
+  ]
+}
