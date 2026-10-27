@@ -585,8 +585,8 @@
     },
     {
       "path": "project/README_advanced3.md",
-      "sha256": "7c03d2cd58c3312879280bc31cedfe68227f233240f5ade9f4462f0c1a9596a6",
-      "bytes": 2091
+      "sha256": "c16106d30d29d86b233f579042e9765b4c3401a07e93b6ca7cac28891e0b2ceb",
+      "bytes": 2316
     },
     {
       "path": "project/run.log",
@@ -1122,6 +1122,46 @@
       "path": "verification/real_core_joint/bypass_identity/simulation.log",
       "sha256": "10cc3e08c443bcfec10a0f43ca12612af2c253ceb3c4aeaf968e8ca5067b15fd",
       "bytes": 747
+    },
+    {
+      "path": "project/bitstream/advanced3_gamma_c50_seed2_1080p30.sbit",
+      "sha256": "d7daa23763da7022c1e4ad57320ab7fa319bebafd4188398a9b94cb3577ef7de",
+      "bytes": 3791112
+    },
+    {
+      "path": "project/bitstream/real_parameters.csv",
+      "sha256": "4599511a4c0a570438e146bc8d57178d4fb088bf6e676928de4b7237190d8d20",
+      "bytes": 213
+    },
+    {
+      "path": "project/run_full_bitstream_seed2.tcl",
+      "sha256": "1b2a530d0119f30ad02d275ba339acccd345b50ab26305f31eac29ad423b23db",
+      "bytes": 2522
+    },
+    {
+      "path": "tools/advanced3_seed2_full_bitstream_20261027.py",
+      "sha256": "2ada1360cb7aae333ad9c794d4d28fa5e663ab89bf8fdd0e691abf1bd8c8e42d",
+      "bytes": 5491
+    },
+    {
+      "path": "verification/seed2_bitstream_full/receipt.json",
+      "sha256": "13244dca13185fcd477a96ffdb826d51c1272a53b7122dd0855e0c2b4d0cecbc",
+      "bytes": 19363
+    },
+    {
+      "path": "verification/seed2_bitstream_full/console.log",
+      "sha256": "6693d11c97555b476daa16ef1ea36f83f8349bbd038d8b2b7d3b502a7fb077c0",
+      "bytes": 2194143
+    },
+    {
+      "path": "第四步_上板操作与记录.md",
+      "sha256": "fbe946e557d7b93af6ccc78b2b786627c15bb24de60bd5ed52ee06593953ab7f",
+      "bytes": 3728
+    },
+    {
+      "path": "第四步_seed2位流构建结果_20261027.md",
+      "sha256": "b8aa85ca624636653c9b24eb96191551712e0a02408668ada70ac63083a778ae",
+      "bytes": 2377
     }
   ],
   "full_frame_c50_test": "PASS_V3_6220800_PIXELS_3110400_WORDS_3_COMMITS",
@@ -1130,6 +1170,6 @@
   "prior_full_frame_c50_test": "TIMEOUT_600S; V2 watchdog threshold false failure",
   "physical_timing": "GAMMA_SEED2_ALL_EXISTING_CONSTRAINTS_MET",
   "physical_timing_seed7": "FAIL_MINUS_0.622_NS_DDR_SETUP",
-  "gamma_bitstream": "NOT_GENERATED",
+  "gamma_bitstream": "GENERATED_SEED2_TIMING_PASS_BOARD_UNTESTED",
   "real_core_ddr_hdmi_test": "RTL_BEHAVIORAL_DDR_PASS_IDENTITY_AND_REAL_GAMMA;_PHYSICAL_DDR_HDMI_NOT_RUN"
 }
