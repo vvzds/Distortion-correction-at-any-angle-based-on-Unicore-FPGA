@@ -1,0 +1,2 @@
+BURST accepted=8192 outputs=8192 output_span_cycles=8191 err=0
+=== ALL TESTS PASSED (err=0) === samples=560
