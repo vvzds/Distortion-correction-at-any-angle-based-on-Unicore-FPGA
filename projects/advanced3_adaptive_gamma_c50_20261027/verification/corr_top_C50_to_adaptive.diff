@@ -1,0 +1,40 @@
+--- original_C50/corr_top.v
++++ adaptive_candidate/corr_top.v
+@@ -22,6 +22,7 @@
+ 
+ module corr_top #(
+     parameter integer CLK_FREQ = 125_000_000,   // 时钟频率（透传 param_mgr）
++    parameter integer ADAPTIVE_GAMMA = 1, // Existing UART bit0 enables adaptive branch
+     parameter         SIM_MODE = 0              // 透传 undistort_core（生产 0）
+ )(
+     // ---- 时钟复位 ----
+@@ -205,12 +206,23 @@
+     //==================================================================
+     // gamma_lut（三通道 Gamma 映射，我方已交付，严格 1 拍流水）
+     //==================================================================
+-    gamma_lut u_gamma (
+-        .clk(clk), .rst_n(rst_n),
+-        .i_pix_vld(w_upd_pix_vld), .i_pix(w_upd_pix),
+-        .o_pix_vld(w_g_pix_vld), .o_pix(w_g_pix),
+-        .i_gamma_en(w_gamma_en), .i_gamma_lut(w_gamma_lut)
+-    );
++    // 仅替换Gamma节点；外部接口、原核和UART协议保持兼容。
++    generate if (ADAPTIVE_GAMMA != 0) begin: G_ADAPTIVE
++        adaptive_gamma u_gamma (
++            .clk(clk), .rst_n(rst_n), .i_enable(w_gamma_en),
++            .i_pix_vld(w_upd_pix_vld), .i_pix(w_upd_pix),
++            .i_sop(w_core_sop), .i_eop(w_core_eop),
++            .i_sof(w_core_sof), .i_eof(w_core_eof),
++            .o_pix_vld(w_g_pix_vld), .o_pix(w_g_pix)
++        );
++    end else begin: G_MANUAL
++        gamma_lut u_gamma (
++            .clk(clk), .rst_n(rst_n),
++            .i_pix_vld(w_upd_pix_vld), .i_pix(w_upd_pix),
++            .o_pix_vld(w_g_pix_vld), .o_pix(w_g_pix),
++            .i_gamma_en(w_gamma_en), .i_gamma_lut(w_gamma_lut)
++        );
++    end endgenerate
+ 
+     //==================================================================
+     // rect_wr_if（校正写回，协作者交付；交付前为同名 stub）

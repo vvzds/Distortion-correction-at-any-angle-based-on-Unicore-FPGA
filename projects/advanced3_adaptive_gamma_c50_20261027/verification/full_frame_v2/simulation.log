@@ -1,0 +1,4 @@
+GOLDEN_PRECOMPUTED 12 RGB565 entries
+FRAME_START frame=0 cycle=12 gamma_en=0 curve=2
+FATAL: C:\Users\lenovo\Desktop\ww\高阶任务三_仓库审查与启动_20261027\simulation\advanced3_c50_write_tb_v2.v:147: FAIL stalled frame=0 pixel=45447 words=22722 credit=1 fifo=1
+       Time: 400112000  Scope: advanced3_c50_write_tb

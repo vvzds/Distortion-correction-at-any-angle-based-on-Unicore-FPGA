@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "128-pixel C50 host boundary smoke; no full-frame or physical timing claim",
+  "inputs": {
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/corr_top.v": "8f594e42b0ba5a6378a9860727d17852f919166bca05a269e64838a1750a1ed8",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/param_mgr.v": "3b759a9712b1560bc33cc2801d29e24874e691041e20dc8f700f25366f04617a",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/gamma_lut.v": "3297cceb3c64a6d126dedc54b384c45b4c5dcd2c4733b0b0298f2cff97342ba1",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/rect_wr_if.v": "24a5fb74f7225ca6801b14e28d0109bd5c9b1d33f82b74e4e0364328d2bdad71",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/undistort_core.v": "c9b2f90af7bd0aaaa48122be9449c910a96de8c9952e0f821191c763950d97cf",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/undistort_map.v": "89e31cc0cbb9d149523ce908dfb9104ce5a8fc5a6cb35762dcac597e05475731",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/undistort_cache_ab.v": "9da0c2efcb07797bae2fd4726a22d4b917f84a4cb02db4a7a07c6aeb2390d1fb",
+    "C:/Users/lenovo/Desktop/ww/高阶任务三_仓库审查与启动_20261027/engineering_candidate/source/rtl/corr_subsys/undistort_bilinear.v": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+    "C:/Users/lenovo/Documents/Codex/2026-10-11/w-m/work/advanced3_c50_smoke_tb.v": "111450c75d1939b118d9756df407fc38cc01b4ddfbbe3032f11a716acecbbed1"
+  },
+  "simulator_sha256": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+  "log_sha256": "3d94ab91f51307d27694af8d48a5f77b25f71e39294b9323b4279d69142dd9bd"
+}

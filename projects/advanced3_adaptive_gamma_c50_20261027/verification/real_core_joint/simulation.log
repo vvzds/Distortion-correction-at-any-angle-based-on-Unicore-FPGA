@@ -1,0 +1,12 @@
+CORE_PROGRESS pixels=207360 cycles=343362 written=203136
+CORE_PROGRESS pixels=414720 cycles=665663 written=410496
+CORE_PROGRESS pixels=622080 cycles=992568 written=617856
+CORE_PROGRESS pixels=829440 cycles=1321537 written=825216
+CORE_PROGRESS pixels=1036800 cycles=1653436 written=1032704
+CORE_PROGRESS pixels=1244160 cycles=1987720 written=1239936
+CORE_PROGRESS pixels=1451520 cycles=2319013 written=1447296
+CORE_PROGRESS pixels=1658880 cycles=2645949 written=1654784
+CORE_PROGRESS pixels=1866240 cycles=2973641 written=1862144
+CORE_PROGRESS pixels=2073600 cycles=3302903 written=2073088
+[REAL] PASS err=0 checked=32400 max_error=1
+Y:\verification\real_core_joint\core30_gamma_joint_tb.v:511: $finish called at 26426720000 (1ps)
