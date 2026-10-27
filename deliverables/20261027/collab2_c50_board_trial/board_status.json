@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-10-27T11:13:01.232233+08:00",
+  "bitstream": "D:\\FPGA PDS\\yx\\C23_core30_20261026\\host_c50\\generate_bitstream\\hdmi_ddr_ov5640_top.sbit",
+  "bitstream_sha256": "ff98eb4f5f8c0b47db29f7fe318400441ef64585a500d783c63360799a830565",
+  "uart_port": "COM11",
+  "samples": [
+    {
+      "monotonic_s": 138566.14,
+      "status_hex": "C7100312",
+      "pub_count": 50960,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138567.156,
+      "status_hex": "C7400312",
+      "pub_count": 51008,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138568.156,
+      "status_hex": "C7700312",
+      "pub_count": 51056,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138569.156,
+      "status_hex": "C7A00312",
+      "pub_count": 51104,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138570.203,
+      "status_hex": "C7D10312",
+      "pub_count": 51153,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138571.203,
+      "status_hex": "C8030312",
+      "pub_count": 51203,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138572.265,
+      "status_hex": "C8330312",
+      "pub_count": 51251,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138573.265,
+      "status_hex": "C8660312",
+      "pub_count": 51302,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138574.312,
+      "status_hex": "C8960312",
+      "pub_count": 51350,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138575.312,
+      "status_hex": "C8C80312",
+      "pub_count": 51400,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138576.359,
+      "status_hex": "C8F90312",
+      "pub_count": 51449,
+      "params_valid": true,
+      "frame_busy": true
+    },
+    {
+      "monotonic_s": 138577.367,
+      "status_hex": "C92B0312",
+      "pub_count": 51499,
+      "params_valid": true,
+      "frame_busy": true
+    }
+  ],
+  "publication_delta": 539,
+  "duration_s": 11.2269999999844,
+  "publication_per_s": 48.009263382982894,
+  "meaning": "Count increments after a complete corrected-frame write; it is not HDMI refresh or distinct camera frame rate."
+}

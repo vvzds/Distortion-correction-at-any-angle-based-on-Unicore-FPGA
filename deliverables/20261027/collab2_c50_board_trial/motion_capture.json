@@ -1,0 +1,12 @@
+{
+  "duration_s": 10.0,
+  "decoded_frames": 599,
+  "decode_fps": 59.9,
+  "changed_frames": 236,
+  "changed_fps": 23.6,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "method": "Exact hash of 320x180 downsampled decoded consecutive frames; changed_fps is scene/content-dependent, not definitive output refresh rate"
+}
