@@ -15,9 +15,21 @@
   },
   "closed_loop_composition": {
     "result": "PASS",
-    "initial_max_point_error_px": 10.707379694378183,
-    "final_max_point_error_px": 0.13077044874151617,
+    "initial_max_point_error_px": 9.431057577866447,
+    "final_max_point_error_px": 0.1276167452298662,
     "iterations": 6
+  },
+  "step_limited_controller": {
+    "result": "PASS",
+    "step_fraction": 0.10416666666666667,
+    "rotation_step_deg": 0.8699364611748995,
+    "translation_step_px": 28.66503109834774
+  },
+  "confidence_hysteresis": {
+    "result": "PASS",
+    "single_bad_frame": "hold",
+    "consecutive_bad_frames": "degraded",
+    "recovery_frames": 2
   },
   "fpga_y_and_q16": {
     "result": "PASS",
@@ -29,6 +41,6 @@
     "short_write": "rejected",
     "real_csv": "encodes"
   },
-  "elapsed_seconds": 1.6719999999986612,
+  "elapsed_seconds": 1.5469999999986612,
   "result": "PASS"
 }

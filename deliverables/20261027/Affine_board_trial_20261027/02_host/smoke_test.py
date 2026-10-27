@@ -29,6 +29,15 @@ def sampling(image, matrix):
                           flags=cv2.INTER_LINEAR | cv2.WARP_INVERSE_MAP)
 
 
+def render(image, matrix):
+    return cv2.warpAffine(image, matrix[:2], (image.shape[1], image.shape[0]),
+                          flags=cv2.INTER_LINEAR)
+
+
+def visible_from_command(matrix):
+    return board.FLIP @ np.linalg.inv(matrix) @ board.FLIP
+
+
 def point_error(a, b):
     points = np.array([[50., 910., 910., 50., 480.], [50., 50., 490., 490., 270.], [1., 1., 1., 1., 1.]])
     return float(np.linalg.norm(((a - b) @ points)[:2], axis=0).max())
@@ -58,17 +67,43 @@ def check_composition():
     physical[:2, 2] += [6., -4.]
     previous = board.homogeneous(cv2.getRotationMatrix2D((480., 270.), 1., 1.))
     previous[:2, 2] += [-3., 5.]
-    start = point_error(physical @ previous, board.IDENTITY)
+    start = point_error(visible_from_command(previous) @ physical, board.IDENTITY)
     for _ in range(6):
-        cur = sampling(ref, physical @ previous)
+        cur = render(ref, visible_from_command(previous) @ physical)
         delta, confidence = board.estimate_sampling_delta(ref, cur, .25)
         assert delta is not None and confidence > .8
         candidate = board.propose(previous, delta, .5)
         board.check_candidate(candidate)
         _, previous = board.quantized_command(candidate)
-    end = point_error(physical @ previous, board.IDENTITY)
+    end = point_error(visible_from_command(previous) @ physical, board.IDENTITY)
     assert end < .8 and end < start * .15, (start, end)
     return dict(initial_max_point_error_px=start, final_max_point_error_px=end, iterations=6)
+
+
+def check_step_controller():
+    target = board.homogeneous(cv2.getRotationMatrix2D((960., 540.), 12., 1.))
+    target[:2, 2] += [260., -180.]
+    candidate, fraction = board.propose(board.IDENTITY, target, .7, 1.25, 40., report=True)
+    angle = abs(float(np.rad2deg(np.arctan2(candidate[1, 0], candidate[0, 0]))))
+    displacement = float(np.linalg.norm(candidate[:2, 2]))
+    assert 0 < fraction < 1 and angle <= 1.3 and displacement <= 40.1
+    board.check_candidate(candidate)
+    return dict(step_fraction=fraction, rotation_step_deg=angle,
+                translation_step_px=displacement)
+
+
+def check_confidence_gate():
+    gate = board.ConfidenceGate(3, .75, 2)
+    assert gate.reject() == (False, False) and gate.state == gate.HOLD
+    assert not gate.accept(.80) and gate.state == gate.HOLD
+    assert gate.accept(.80) and gate.state == gate.GOOD
+    assert gate.reject() == (False, False)
+    assert gate.reject() == (False, False)
+    assert gate.reject() == (False, True) and gate.state == gate.DEGRADED
+    gate.reset()
+    assert gate.state == gate.GOOD
+    return dict(single_bad_frame='hold', consecutive_bad_frames='degraded',
+                recovery_frames=2)
 
 
 def check_coordinates():
@@ -159,6 +194,8 @@ def run(record_package=False):
             failed = True
         for name, check in [('sampling_direction', check_direction),
                             ('closed_loop_composition', check_composition),
+                            ('step_limited_controller', check_step_controller),
+                            ('confidence_hysteresis', check_confidence_gate),
                             ('fpga_y_and_q16', check_coordinates), ('serial_and_real_csv', check_serial)]:
             try:
                 results[name] = dict(result='PASS', **check())

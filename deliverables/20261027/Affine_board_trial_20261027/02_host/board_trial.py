@@ -39,30 +39,109 @@ def quantized_command(matrix, enable=True):
     return wire, FLIP @ hw_q @ FLIP
 
 
-def estimate_sampling_delta(reference, current, scale):
+def estimate_sampling_delta(reference, current, scale, recovery=False):
     # Legacy ECC uses template=current,input=reference, yielding the reverse
     # of the destination-to-source sampling transform needed by C50.
-    reverse, confidence = legacy.estimate_delta(reference, current, scale)
-    if reverse is None or not math.isfinite(confidence):
-        return None, 0.
-    matrix = homogeneous(reverse)
-    if not np.isfinite(matrix).all() or abs(np.linalg.det(matrix[:2, :2])) < 1e-5:
-        return None, 0.
-    return np.linalg.inv(matrix), confidence
+    scales = [float(scale)]
+    if recovery:
+        # Recovery is deliberately more expensive and only runs after a bad
+        # frame.  A coarse pass helps when a larger movement leaves ECC's
+        # normal basin; the fine pass retains the normal precision.
+        scales.extend((.5, .125))
+    best = None
+    seen = set()
+    for trial_scale in scales:
+        if trial_scale in seen:
+            continue
+        seen.add(trial_scale)
+        reverse, confidence = legacy.estimate_delta(reference, current, trial_scale)
+        if reverse is None or not math.isfinite(confidence):
+            continue
+        matrix = homogeneous(reverse)
+        if not np.isfinite(matrix).all() or abs(np.linalg.det(matrix[:2, :2])) < 1e-5:
+            continue
+        candidate = (np.linalg.inv(matrix), float(confidence))
+        if best is None or candidate[1] > best[1]:
+            best = candidate
+    return best if best is not None else (None, 0.)
 
 
-def propose(sent_matrix, delta, gain):
-    increment = IDENTITY + gain * (delta - IDENTITY)
-    return homogeneous(legacy.compose(sent_matrix, increment[:2]))
+def propose(sent_matrix, delta, gain, max_rot_step=None, max_shift_step=None,
+            report=False):
+    """Move toward the latest target while bounding one command's motion."""
+    increment = homogeneous(delta)
+    angle = abs(math.degrees(math.atan2(increment[1, 0], increment[0, 0])))
+    shift = float(np.linalg.norm(increment[:2, 2]))
+    fraction = 1.0
+    if max_rot_step is not None and angle > max_rot_step:
+        fraction = min(fraction, max_rot_step / angle)
+    if max_shift_step is not None and shift > max_shift_step:
+        fraction = min(fraction, max_shift_step / shift)
+    step = IDENTITY + float(gain) * fraction * (increment - IDENTITY)
+    # Board probe evidence showed that the y-flipped FPGA coordinate system
+    # needs the same conjugation during incremental composition.
+    result = homogeneous(sent_matrix) @ FLIP @ step @ FLIP
+    result = homogeneous(result)
+    return (result, fraction) if report else result
 
 
-def check_candidate(matrix):
+def check_candidate(matrix, absolute_rot_limit=20., absolute_shift_limit=800.):
     if not np.isfinite(matrix).all():
         raise ValueError('Non-finite affine estimate')
     singular = np.linalg.svd(matrix[:2, :2], compute_uv=False)
     if np.linalg.det(matrix[:2, :2]) <= 0 or singular.min() < .7 or singular.max() > 1.4:
         raise ValueError('Scale/shear outside trial envelope; reanchor with R')
+    angle = abs(math.degrees(math.atan2(matrix[1, 0], matrix[0, 0])))
+    if angle > absolute_rot_limit:
+        raise ValueError('Absolute correction exceeds %.1f degrees; reanchor with R' % absolute_rot_limit)
+    corners = np.array([[0., WIDTH - 1., 0., WIDTH - 1.],
+                        [0., 0., HEIGHT - 1., HEIGHT - 1.],
+                        [1., 1., 1., 1.]])
+    displacement = np.linalg.norm(((matrix - IDENTITY) @ corners)[:2], axis=0).max()
+    if displacement > absolute_shift_limit:
+        raise ValueError('Absolute correction exceeds %.1f pixels; reanchor with R' % absolute_shift_limit)
     quantized_command(matrix)  # G02 checks all coefficients after y conversion.
+
+
+class ConfidenceGate:
+    """Hysteresis: one bad frame holds the last legal matrix before degrading."""
+    GOOD, HOLD, DEGRADED = 'GOOD', 'HOLD', 'DEGRADED'
+
+    def __init__(self, low_frames=3, recover_confidence=.75, recover_frames=2):
+        self.low_frames = int(low_frames)
+        self.recover_confidence = float(recover_confidence)
+        self.recover_frames = int(recover_frames)
+        self.state = self.GOOD
+        self.low_streak = 0
+        self.recover_streak = 0
+
+    def reject(self):
+        if self.state == self.DEGRADED:
+            return False, True
+        self.low_streak += 1
+        self.recover_streak = 0
+        self.state = self.DEGRADED if self.low_streak >= self.low_frames else self.HOLD
+        return False, self.state == self.DEGRADED
+
+    def accept(self, confidence):
+        if self.state == self.DEGRADED:
+            return False
+        if self.state == self.HOLD:
+            if confidence < self.recover_confidence:
+                self.recover_streak = 0
+                return False
+            self.recover_streak += 1
+            if self.recover_streak < self.recover_frames:
+                return False
+        self.state = self.GOOD
+        self.low_streak = 0
+        self.recover_streak = 0
+        return True
+
+    def reset(self, degraded=False):
+        self.state = self.DEGRADED if degraded else self.GOOD
+        self.low_streak = 0
+        self.recover_streak = 0
 
 
 class Journal:
@@ -195,7 +274,8 @@ def run_camera(args, connection, journal):
     last_sequence = -1
     started = time.monotonic()
     active = args.mode == 'track'
-    degraded = False
+    gate = ConfidenceGate(args.low_confidence_frames, args.recover_confidence,
+                          args.recover_frames)
     window = 'C50 trial | R=reset/reanchor D=disable S=save Q=quit'
     print(window, flush=True)
     try:
@@ -226,7 +306,7 @@ def run_camera(args, connection, journal):
                 last_pub = pub
                 next_status = time.monotonic() + 2.
             gray = legacy.to_gray(frame)
-            if active and not degraded and stamp >= ready_at:
+            if active and gate.state != ConfidenceGate.DEGRADED and stamp >= ready_at:
                 if reference is None:
                     reference = gray.copy()
                     cv2.imwrite(str(journal.directory / 'reference.png'), frame)
@@ -237,19 +317,51 @@ def run_camera(args, connection, journal):
                     journal.event('estimate', frame=seq, captured_monotonic=stamp,
                                   confidence=float(confidence),
                                   delta=None if delta is None else delta.tolist())
-                    try:
-                        if delta is None or confidence < args.ecc_min:
-                            raise ValueError('Low confidence / scene changed')
-                        candidate = propose(sent_matrix, delta, args.gain)
-                        check_candidate(candidate)
-                    except ValueError as exc:
-                        send(connection, quantized_command(IDENTITY, False)[0], journal, 'degraded_affine_off')
-                        sent_matrix = IDENTITY.copy()
-                        degraded = True
-                        journal.event('degraded', reason=str(exc))
-                        cv2.imwrite(str(journal.directory / 'degraded.png'), frame)
-                        print('DEGRADED: affine disabled; keep camera still and press R.', flush=True)
+                    candidate = None
+                    reason = None
+                    if delta is None or confidence < args.ecc_min:
+                        # A coarse/fine recovery is attempted before counting
+                        # the frame as a failed observation.
+                        delta, confidence = estimate_sampling_delta(
+                            reference, gray, args.scale, recovery=True)
+                        journal.event('recovery_estimate', frame=seq,
+                                      confidence=float(confidence),
+                                      delta=None if delta is None else delta.tolist())
+                    if delta is None or confidence < args.ecc_min:
+                        reason = 'Low confidence / scene changed'
                     else:
+                        candidate, fraction = propose(
+                            sent_matrix, delta, args.gain, args.max_rot_step,
+                            args.max_shift_step, report=True)
+                        try:
+                            check_candidate(candidate, args.absolute_rot_limit,
+                                             args.absolute_shift_limit)
+                        except ValueError as exc:
+                            reason = str(exc)
+                        else:
+                            if not gate.accept(confidence):
+                                journal.event('hold', frame=seq, state=gate.state,
+                                              low_streak=gate.low_streak,
+                                              recover_streak=gate.recover_streak,
+                                              confidence=float(confidence))
+                                candidate = None
+                            else:
+                                journal.event('candidate', frame=seq,
+                                              step_fraction=float(fraction),
+                                              state=gate.state)
+                    if reason is not None:
+                        accepted, should_degrade = gate.reject()
+                        journal.event('hold', frame=seq, state=gate.state,
+                                      reason=reason, low_streak=gate.low_streak)
+                        if should_degrade:
+                            send(connection, quantized_command(IDENTITY, False)[0],
+                                 journal, 'degraded_affine_off')
+                            sent_matrix = IDENTITY.copy()
+                            cv2.imwrite(str(journal.directory / 'degraded.png'), frame)
+                            journal.event('degraded', reason=reason,
+                                          low_streak=gate.low_streak)
+                            print('DEGRADED: affine disabled; keep camera still and press R.', flush=True)
+                    elif candidate is not None:
                         a, b = legacy.to_params(candidate[:2]), legacy.to_params(sent_matrix[:2])
                         coeff, trans = legacy.params_diff(a, b)
                         if coeff >= .001 or trans >= .3:
@@ -259,7 +371,8 @@ def run_camera(args, connection, journal):
                             journal.event('matrix_sent', cv_matrix=sent_matrix.tolist())
                             ready_at = time.monotonic() + args.settle
             display = cv2.resize(frame, (960, 540))
-            state = 'PREVIEW' if not active else ('DEGRADED: R to reanchor' if degraded else 'TRACKING (trial)')
+            state = 'PREVIEW' if not active else ('DEGRADED: R to reanchor' if gate.state == ConfidenceGate.DEGRADED else
+                                                   ('HOLD/RECOVER' if gate.state == ConfidenceGate.HOLD else 'TRACKING'))
             cv2.putText(display, state, (18, 30), cv2.FONT_HERSHEY_SIMPLEX, .7, (0, 255, 255), 2)
             cv2.imshow(window, display)
             key = cv2.waitKey(1) & 255
@@ -274,9 +387,9 @@ def run_camera(args, connection, journal):
                 send(connection, quantized_command(IDENTITY, False)[0], journal, 'manual_affine_off')
                 sent_matrix = IDENTITY.copy()
                 reference = None
-                degraded = key == ord('d')
+                gate.reset(degraded=key == ord('d'))
                 ready_at = time.monotonic() + args.settle
-                journal.event('manual_reset', reanchor=not degraded)
+                journal.event('manual_reset', reanchor=key != ord('d'), state=gate.state)
     finally:
         camera.close()
         cv2.destroyAllWindows()
@@ -288,17 +401,36 @@ def parser():
     p.add_argument('--port', help='Actual CP210x COM port; no implicit COM11 assumption')
     p.add_argument('--cam', type=int, default=0)
     p.add_argument('--params', type=Path, default=ROOT / '03_params' / 'real_parameters.csv')
-    p.add_argument('--settle', type=float, default=.5, help='Minimum feedback settling time in seconds; not ACK')
+    p.add_argument('--settle', type=float, default=.15, help='Minimum latest-only update interval; not an ACK')
     p.add_argument('--scale', type=float, default=.25)
-    p.add_argument('--gain', type=float, default=.5)
+    p.add_argument('--gain', type=float, default=.6)
     p.add_argument('--ecc-min', type=float, default=.65)
+    p.add_argument('--max-rot-step', type=float, default=1.25,
+                   help='Maximum rotation change per update in degrees')
+    p.add_argument('--max-shift-step', type=float, default=40.,
+                   help='Maximum translation change per update in pixels')
+    p.add_argument('--absolute-rot-limit', type=float, default=20.,
+                   help='Absolute safety envelope in degrees')
+    p.add_argument('--absolute-shift-limit', type=float, default=800.,
+                   help='Absolute corner displacement safety envelope in pixels')
+    p.add_argument('--low-confidence-frames', type=int, default=3,
+                   help='Consecutive failed observations before affine-off')
+    p.add_argument('--recover-confidence', type=float, default=.75,
+                   help='Confidence required to leave HOLD')
+    p.add_argument('--recover-frames', type=int, default=2,
+                   help='Consecutive good recovery frames required')
     return p
 
 
 def main(argv=None):
     args = parser().parse_args(argv)
-    if not .2 <= args.settle <= 10 or not .125 <= args.scale <= 1 or not 0 < args.gain <= 1 or not 0 <= args.ecc_min <= 1:
-        raise ValueError('Use settle .2..10, scale .125..1, gain (0,1], ecc-min 0..1')
+    if (not .05 <= args.settle <= 10 or not .125 <= args.scale <= 1 or
+            not 0 < args.gain <= 1 or not 0 <= args.ecc_min <= 1 or
+            not .05 <= args.max_rot_step <= 20 or not .5 <= args.max_shift_step <= 800 or
+            not 1 <= args.absolute_rot_limit <= 45 or not 10 <= args.absolute_shift_limit <= 1800 or
+            not 1 <= args.low_confidence_frames <= 20 or
+            not 0 <= args.recover_confidence <= 1 or not 1 <= args.recover_frames <= 10):
+        raise ValueError('Invalid settle/scale/gain/step/limit/recovery settings')
     if args.cam < 0:
         raise ValueError('Camera index must be nonnegative')
     if args.mode == 'list':
@@ -314,6 +446,12 @@ def main(argv=None):
     safe_exit = False
     journal.event('session_start', mode=args.mode, port=args.port, camera=args.cam,
                   settle=args.settle, scale=args.scale, gain=args.gain,
+                  max_rot_step=args.max_rot_step, max_shift_step=args.max_shift_step,
+                  absolute_rot_limit=args.absolute_rot_limit,
+                  absolute_shift_limit=args.absolute_shift_limit,
+                  low_confidence_frames=args.low_confidence_frames,
+                  recover_confidence=args.recover_confidence,
+                  recover_frames=args.recover_frames,
                   numpy=np.__version__, opencv=cv2.__version__)
     print('Session:', folder, flush=True)
     try:
