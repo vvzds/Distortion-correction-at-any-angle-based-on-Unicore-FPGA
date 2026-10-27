@@ -585,8 +585,8 @@
     },
     {
       "path": "project/README_advanced3.md",
-      "sha256": "a5bf725bbcf8428ed9033a06236d09e4695585595c0fc352b2edbb406373205f",
-      "bytes": 1562
+      "sha256": "679ef53bd5e74a0cc556132ce5cb4a35fbd2cac4e2c55c924e51ea6cbb113068",
+      "bytes": 1852
     },
     {
       "path": "project/run.log",
@@ -602,6 +602,11 @@
       "path": "project/run_host.tcl",
       "sha256": "002fd9b7211848fb409307a18d9c188a8462de559ab546046ce7a56280866f4a",
       "bytes": 2466
+    },
+    {
+      "path": "project/run_seed2.tcl",
+      "sha256": "1c9eb5baca6d7b13627d7596b77b428d7e5520c5e695fb28cf188c074b6a2936",
+      "bytes": 2472
     },
     {
       "path": "project/source/rtl/corr_read_bridge.v",
@@ -829,6 +834,26 @@
       "bytes": 2048
     },
     {
+      "path": "tools/advanced3_timing_analyze_20261027.py",
+      "sha256": "a509b523055d286f8991dcc042efeb417ce8629a3b87e3827f93cbd5bd619123",
+      "bytes": 3847
+    },
+    {
+      "path": "tools/advanced3_timing_prepare_20261027.py",
+      "sha256": "6d0544c21dcdc9a9dcd986eaae9dce584f7d3fadb21573ff3882fd624ed407cf",
+      "bytes": 3280
+    },
+    {
+      "path": "tools/advanced3_timing_run_20261027.py",
+      "sha256": "752d3d0f224f4ace5c9fd0abaa55e9baf32427574a491dce6722c6a287125a63",
+      "bytes": 4007
+    },
+    {
+      "path": "tools/advanced3_timing_seed2_20261027.py",
+      "sha256": "464780ffbb186ffd0a4bce0d75268964c76ef5d3802c5490032665173401d7cd",
+      "bytes": 4197
+    },
+    {
       "path": "verification/corr_top_C50_to_adaptive.diff",
       "sha256": "a19db23cb3a26deb160a64ed42d0e98ce040e4fffc93f665b9521f522bdbeb61",
       "bytes": 1861
@@ -949,13 +974,107 @@
       "bytes": 35
     },
     {
+      "path": "verification/timing_baseline_seed7/hdmi_ddr_ov5640_top.prr",
+      "sha256": "e91914f0d75e2da9b6cc685d3853fc87da08c209008e39fa0c301e17285c8022",
+      "bytes": 140303
+    },
+    {
+      "path": "verification/timing_baseline_seed7/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "bf39693de6897d1269ebbabe07ce846c3399fffc19146f8531971f673320f5f0",
+      "bytes": 12763184
+    },
+    {
+      "path": "verification/timing_baseline_seed7/hdmi_ddr_ov5640_top_timing_summary_after_hold_fix.txt",
+      "sha256": "ae6dac735fa39948aa38f7b36e9597c957e39a0d5a115be392f5fee86133539e",
+      "bytes": 13647
+    },
+    {
+      "path": "verification/timing_comparison.json",
+      "sha256": "3351c27c60467c21e92482be6cef871fbcfdb3ba709ad565b69160fe1488d2e1",
+      "bytes": 9931
+    },
+    {
+      "path": "verification/timing_input_identity.json",
+      "sha256": "cd4786a3d75c174490ffcf4bfd203ba3ef4668d43010486cdb307f6e219a1799",
+      "bytes": 36059
+    },
+    {
+      "path": "verification/timing_physical_seed2/console.log",
+      "sha256": "5df9bbe8f563d4c43063a054871605ff068cbefb6e15fb9538da8e84c6f9d640",
+      "bytes": 2192775
+    },
+    {
+      "path": "verification/timing_physical_seed2/hdmi_ddr_ov5640_top.prr",
+      "sha256": "fc7941616a7d243d1eabfa2eb8ee58feebf06e6500f39168b918078f2c30db49",
+      "bytes": 140151
+    },
+    {
+      "path": "verification/timing_physical_seed2/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "42e0526f4256df7788414aa242bf64fa2499a11b25b9ba6f6a4097924e813857",
+      "bytes": 12756871
+    },
+    {
+      "path": "verification/timing_physical_seed2/hdmi_ddr_ov5640_top_timing_summary_after_hold_fix.txt",
+      "sha256": "9279113aacd23f37fa5867d75e558b7600d43028ee7c1e6f42a1e66efaecb2c9",
+      "bytes": 13647
+    },
+    {
+      "path": "verification/timing_physical_seed2/receipt.json",
+      "sha256": "072f869f948943a31cf18c33c20bc07799f06e463c16a77bc7b5d6cffedc027d",
+      "bytes": 19683
+    },
+    {
+      "path": "verification/timing_physical_seed7/console.log",
+      "sha256": "5a8866d69a1f26d4c04bb6aa85fb2c49045724ee11d6ff508838429f9b3a8077",
+      "bytes": 2204563
+    },
+    {
+      "path": "verification/timing_physical_seed7/hdmi_ddr_ov5640_top.prr",
+      "sha256": "90d987c5f368778e01486efbfcebfd65e8e7cc2fdaa2c7c0cd717a72cff93861",
+      "bytes": 140151
+    },
+    {
+      "path": "verification/timing_physical_seed7/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "1adad4dea73cb9b4669b5a3bcc8ef831f31a4b849c676668077e3088258ac72e",
+      "bytes": 12752007
+    },
+    {
+      "path": "verification/timing_physical_seed7/hdmi_ddr_ov5640_top_timing_summary_after_hold_fix.txt",
+      "sha256": "92278035625ec8d6c78871c3619ba51c2a6dfcc7c4dbc64e73d94a97c4e7e168",
+      "bytes": 13653
+    },
+    {
+      "path": "verification/timing_physical_seed7/receipt.json",
+      "sha256": "2a267666e2241c61106a60c57dfc6699fc39626f3d6efd91723be6f61a8567fb",
+      "bytes": 19377
+    },
+    {
+      "path": "verification/timing_synthesis_seed7/console.log",
+      "sha256": "e77fd32bac2729f4689f97b0ea09a896c8983b6aa9b59856f6667e91f682ba8c",
+      "bytes": 2067348
+    },
+    {
+      "path": "verification/timing_synthesis_seed7/receipt.json",
+      "sha256": "537f4b6ad850bec49e9c9662d9740706ec020b8e491e26cfb1bae764cfb3cf91",
+      "bytes": 19380
+    },
+    {
       "path": "仓库半成品核对与复用决定.md",
-      "sha256": "8d06306fe808806b50e42b554cd4d49904b017aa282ef1aefe293952e85e91db",
-      "bytes": 3805
+      "sha256": "787b599193ba8a32d93ab97560eb24a91a0d08e225bc18b6535f6984073356b6",
+      "bytes": 3898
+    },
+    {
+      "path": "第二步_整机资源与125MHz时序对照_20261027.md",
+      "sha256": "ecd0eb05eb5469e59c77ec93ba07fb618018208a125979fde3a812402e110bd7",
+      "bytes": 3707
     }
   ],
   "full_frame_c50_test": "PASS_V3_6220800_PIXELS_3110400_WORDS_3_COMMITS",
   "whole_host_pnr": "NOT_RUN",
   "bitstream": "NOT_GENERATED",
-  "prior_full_frame_c50_test": "TIMEOUT_600S; V2 watchdog threshold false failure"
+  "prior_full_frame_c50_test": "TIMEOUT_600S; V2 watchdog threshold false failure",
+  "physical_timing": "GAMMA_SEED2_ALL_EXISTING_CONSTRAINTS_MET",
+  "physical_timing_seed7": "FAIL_MINUS_0.622_NS_DDR_SETUP",
+  "gamma_bitstream": "NOT_GENERATED",
+  "real_core_ddr_hdmi_test": "NOT_RUN"
 }
