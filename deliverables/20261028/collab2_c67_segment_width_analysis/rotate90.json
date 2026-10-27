@@ -1,0 +1,77 @@
+{
+  "model": "8-way LRU, row/segment XOR set hash; 16-line strips and 64-pixel tiles",
+  "scenarios": [
+    {
+      "segmentPixels": 128,
+      "capacityTags": 256,
+      "cacheBytes": 65536,
+      "idealLruLoads": 82171,
+      "payloadBeats256": 657368,
+      "consecutiveReuse": 6079305
+    },
+    {
+      "segmentPixels": 128,
+      "capacityTags": 512,
+      "cacheBytes": 131072,
+      "idealLruLoads": 82171,
+      "payloadBeats256": 657368,
+      "consecutiveReuse": 6079305
+    },
+    {
+      "segmentPixels": 128,
+      "capacityTags": 1024,
+      "cacheBytes": 262144,
+      "idealLruLoads": 54456,
+      "payloadBeats256": 435648,
+      "consecutiveReuse": 6079305
+    },
+    {
+      "segmentPixels": 256,
+      "capacityTags": 128,
+      "cacheBytes": 65536,
+      "idealLruLoads": 77820,
+      "payloadBeats256": 1245120,
+      "consecutiveReuse": 6103733
+    },
+    {
+      "segmentPixels": 256,
+      "capacityTags": 256,
+      "cacheBytes": 131072,
+      "idealLruLoads": 77809,
+      "payloadBeats256": 1244944,
+      "consecutiveReuse": 6103733
+    },
+    {
+      "segmentPixels": 256,
+      "capacityTags": 512,
+      "cacheBytes": 262144,
+      "idealLruLoads": 77809,
+      "payloadBeats256": 1244944,
+      "consecutiveReuse": 6103733
+    },
+    {
+      "segmentPixels": 512,
+      "capacityTags": 64,
+      "cacheBytes": 65536,
+      "idealLruLoads": 92096,
+      "payloadBeats256": 2947072,
+      "consecutiveReuse": 6116390
+    },
+    {
+      "segmentPixels": 512,
+      "capacityTags": 128,
+      "cacheBytes": 131072,
+      "idealLruLoads": 75633,
+      "payloadBeats256": 2420256,
+      "consecutiveReuse": 6116390
+    },
+    {
+      "segmentPixels": 512,
+      "capacityTags": 256,
+      "cacheBytes": 262144,
+      "idealLruLoads": 75629,
+      "payloadBeats256": 2420128,
+      "consecutiveReuse": 6116390
+    }
+  ]
+}

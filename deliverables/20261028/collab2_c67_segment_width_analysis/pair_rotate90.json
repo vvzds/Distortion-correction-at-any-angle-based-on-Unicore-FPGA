@@ -1,0 +1,21 @@
+{
+  "model": "256 tags, 8-way LRU, 16-line strips, 64-pixel microtiles; pair fills two independent cache entries",
+  "scenarios": [
+    {
+      "prefetchPair": false,
+      "commands": 82171,
+      "payloadBeats256": 657368,
+      "demandedMisses": 82171,
+      "usefulPrefetches": 0,
+      "wastedPrefetches": 0
+    },
+    {
+      "prefetchPair": true,
+      "commands": 77809,
+      "payloadBeats256": 1244944,
+      "demandedMisses": 77809,
+      "usefulPrefetches": 77809,
+      "wastedPrefetches": 0
+    }
+  ]
+}
