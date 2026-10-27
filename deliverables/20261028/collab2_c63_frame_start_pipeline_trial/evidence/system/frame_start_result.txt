@@ -1,0 +1,29 @@
+# vsim -batch start_tb_work.frame_start_opt -l frame_start_result.txt -do "run -all; quit -f"
+# Start time: 00:27:43 on Oct 28,2026
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.frame_start_tb(fast)
+# Loading work.undistort_core(fast)
+# Loading work.undistort_map(fast)
+# Loading work.c27_square48_pipe4(fast)
+# Loading work.g7_mul32x64_pipe4(fast)
+# Loading work.undistort_cache_ab(fast)
+# Loading work.undistort_bilinear(fast)
+#
+# run -all
+# C63 FRAME START PASS
+# ** Note: $finish    : frame_start_tb.v(76)
+#    Time: 77 ns  Iteration: 0  Instance: /frame_start_tb
+# End time: 00:27:44 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
