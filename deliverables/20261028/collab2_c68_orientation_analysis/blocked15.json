@@ -1,0 +1,118 @@
+{
+  "model": "128-pixel blocks, 256 entries, 32 sets, 8-way LRU; ideal replacement only",
+  "sourceBytes": 4177920,
+  "cases": [
+    {
+      "blockW": 128,
+      "blockH": 1,
+      "outputTileW": 64,
+      "misses": 42024,
+      "payloadBeats": 336192
+    },
+    {
+      "blockW": 128,
+      "blockH": 1,
+      "outputTileW": 1920,
+      "misses": 474336,
+      "payloadBeats": 3794688
+    },
+    {
+      "blockW": 64,
+      "blockH": 2,
+      "outputTileW": 64,
+      "misses": 28211,
+      "payloadBeats": 225688
+    },
+    {
+      "blockW": 64,
+      "blockH": 2,
+      "outputTileW": 1920,
+      "misses": 156632,
+      "payloadBeats": 1253056
+    },
+    {
+      "blockW": 32,
+      "blockH": 4,
+      "outputTileW": 64,
+      "misses": 21717,
+      "payloadBeats": 173736
+    },
+    {
+      "blockW": 32,
+      "blockH": 4,
+      "outputTileW": 1920,
+      "misses": 42356,
+      "payloadBeats": 338848
+    },
+    {
+      "blockW": 16,
+      "blockH": 8,
+      "outputTileW": 64,
+      "misses": 21573,
+      "payloadBeats": 172584
+    },
+    {
+      "blockW": 16,
+      "blockH": 8,
+      "outputTileW": 1920,
+      "misses": 20408,
+      "payloadBeats": 163264
+    },
+    {
+      "blockW": 8,
+      "blockH": 16,
+      "outputTileW": 64,
+      "misses": 27573,
+      "payloadBeats": 220584
+    },
+    {
+      "blockW": 8,
+      "blockH": 16,
+      "outputTileW": 1920,
+      "misses": 70761,
+      "payloadBeats": 566088
+    },
+    {
+      "blockW": 4,
+      "blockH": 32,
+      "outputTileW": 64,
+      "misses": 40184,
+      "payloadBeats": 321472
+    },
+    {
+      "blockW": 4,
+      "blockH": 32,
+      "outputTileW": 1920,
+      "misses": 458554,
+      "payloadBeats": 3668432
+    },
+    {
+      "blockW": 2,
+      "blockH": 64,
+      "outputTileW": 64,
+      "misses": 66707,
+      "payloadBeats": 533656
+    },
+    {
+      "blockW": 2,
+      "blockH": 64,
+      "outputTileW": 1920,
+      "misses": 881784,
+      "payloadBeats": 7054272
+    },
+    {
+      "blockW": 1,
+      "blockH": 128,
+      "outputTileW": 64,
+      "misses": 120758,
+      "payloadBeats": 966064
+    },
+    {
+      "blockW": 1,
+      "blockH": 128,
+      "outputTileW": 1920,
+      "misses": 1739119,
+      "payloadBeats": 13912952
+    }
+  ]
+}
