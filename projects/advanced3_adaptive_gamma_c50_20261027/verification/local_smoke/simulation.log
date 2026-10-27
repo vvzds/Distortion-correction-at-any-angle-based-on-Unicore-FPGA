@@ -1,0 +1,3 @@
+WORDS=64 PIXELS=128 ERRORS=0
+=== ALL TESTS PASSED (err=0) ===
+C:\Users\lenovo\Documents\Codex\2026-10-11\w-m\work\advanced3_c50_smoke_tb.v:58: $finish called at 2208000 (1ps)

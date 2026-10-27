@@ -1,0 +1,3 @@
+VECTORS=3664 err=0
+=== ALL TESTS PASSED (err=0) ===
+C:\Users\lenovo\Desktop\ww\高阶任务三_仓库审查与启动_20261027\simulation\adaptive_gamma_tb.v:37: $finish called at 29317000 (1ps)

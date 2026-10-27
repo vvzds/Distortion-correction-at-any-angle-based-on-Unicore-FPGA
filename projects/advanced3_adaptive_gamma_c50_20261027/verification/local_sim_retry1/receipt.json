@@ -1,0 +1,35 @@
+{
+  "scope": "Independent curve/vector rerun plus real C50 host/param_mgr/writer at injected core boundary; no real-core/DDR/HDMI end-to-end claim",
+  "simulator": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\work\\simulator\\iverilog\\app\\bin\\iverilog.exe",
+  "compiler_sha256": "803b8844af2cc8ed70b5f08b07ffa749901280e81339617ca3e72cbbb852bd2b",
+  "runtime_sha256": "e2f442f4d5aa76e55c85c3ff77e4446fbfdb9946b7cfe8a2dff87f275da17b62",
+  "cases": [
+    {
+      "top": "adaptive_gamma_curve_tb",
+      "passed": true,
+      "exit": 0,
+      "seconds": 4.829,
+      "inputs": {
+        "engineering_candidate/source/rtl/corr_subsys/adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+        "engineering_candidate/source/rtl/corr_subsys/adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+        "simulation/adaptive_gamma_curve_tb.v": "ab282cda6adb7eea8f76cc247309bbe4a0d12e9e08b168114b0d9663232730ff"
+      },
+      "log_sha256": "ed99e442ae26fc6148841300a2152202cd64c19d538c890aa176f3885946607d"
+    },
+    {
+      "top": "adaptive_gamma_tb",
+      "passed": true,
+      "exit": 0,
+      "seconds": 0.187,
+      "inputs": {
+        "engineering_candidate/source/rtl/corr_subsys/adaptive_gamma.v": "51df6de82d32163c9878628e3efac710ed7bb7b8db0392f99931a2a4fd46f66f",
+        "engineering_candidate/source/rtl/corr_subsys/adaptive_gamma_curve.v": "c8bb531cb7b4e20893aad08881077855a98214980c8b70fbce58998a79ae677e",
+        "simulation/adaptive_gamma_tb.v": "08b29eb6e42c8101cbed3838a9785cb70f509a91dce87e9f5667decee2ba2d22"
+      },
+      "log_sha256": "e67d80b763e26fe922d9b071e1faa0f9d5864084b4a47a8ce3ee74406f47beb4"
+    }
+  ],
+  "status": "RUNNING",
+  "physical_timing": "NOT_RUN",
+  "board_test": "NOT_RUN"
+}
