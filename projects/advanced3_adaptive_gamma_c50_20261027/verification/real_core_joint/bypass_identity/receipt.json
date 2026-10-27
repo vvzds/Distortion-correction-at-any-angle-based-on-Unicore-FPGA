@@ -1,0 +1,24 @@
+{
+  "state": "PASS",
+  "started_utc": "2026-10-27T09:51:27.626420+00:00",
+  "parent_receipt_sha256": "25c346311d31b50745f1a52e97b98cac353c031c0da4422bc1e91f6ea1234066",
+  "sim_sha256": "6adb6866a7919c4ffd9e7869698a6209e4a100e96226e010c8087341ec8e37cd",
+  "command": [
+    "X:\\bin\\vvp.exe",
+    "Y:\\verification\\real_core_joint\\sim.vvp",
+    "+TEST=0",
+    "+PATTERN=1",
+    "+DDR_WAIT=64",
+    "+GRANT_WAIT=16",
+    "+DDR_GAP=3",
+    "+STRIDE=64",
+    "+GAMMA_ENABLE=0",
+    "+GAMMA_SEED=1",
+    "+RESULT=result.txt"
+  ],
+  "rc": 0,
+  "wall_s": 1270.66,
+  "simulation_sha256": "10cc3e08c443bcfec10a0f43ca12612af2c253ceb3c4aeaf968e8ca5067b15fd",
+  "result_sha256": "94531ce2a0d403b5705ed829d392f172cfc5bb14d48f47491392457a5d588e4d",
+  "inputs_unchanged": true
+}

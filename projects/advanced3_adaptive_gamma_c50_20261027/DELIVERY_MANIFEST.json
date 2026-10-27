@@ -585,8 +585,8 @@
     },
     {
       "path": "project/README_advanced3.md",
-      "sha256": "679ef53bd5e74a0cc556132ce5cb4a35fbd2cac4e2c55c924e51ea6cbb113068",
-      "bytes": 1852
+      "sha256": "7c03d2cd58c3312879280bc31cedfe68227f233240f5ade9f4462f0c1a9596a6",
+      "bytes": 2091
     },
     {
       "path": "project/run.log",
@@ -1067,6 +1067,61 @@
       "path": "第二步_整机资源与125MHz时序对照_20261027.md",
       "sha256": "ecd0eb05eb5469e59c77ec93ba07fb618018208a125979fde3a812402e110bd7",
       "bytes": 3707
+    },
+    {
+      "path": "第三步_真实核心Gamma写回联合回归_20261027.md",
+      "sha256": "ac27344313769c1785da51c519477829a0811858d532d97ee2b4efe9579e9bb9",
+      "bytes": 3890
+    },
+    {
+      "path": "verification/real_core_joint/compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/real_core_joint/core30_gamma_joint_tb.v",
+      "sha256": "46684f0bae4a2e86aeee5f910ff8d4043da848909b9e814c3814bd867070c4a8",
+      "bytes": 26970
+    },
+    {
+      "path": "verification/real_core_joint/receipt.json",
+      "sha256": "25c346311d31b50745f1a52e97b98cac353c031c0da4422bc1e91f6ea1234066",
+      "bytes": 3461
+    },
+    {
+      "path": "verification/real_core_joint/result.txt",
+      "sha256": "80bafc606069e2de99c655c3579a05c854f5f3401d3dabe3978bc442736f81df",
+      "bytes": 778
+    },
+    {
+      "path": "verification/real_core_joint/run_bypass.py",
+      "sha256": "c3adf96aad90aafa6e458abbdd72278b8f45fc115e9f616a8395bdbe71f7a070",
+      "bytes": 3367
+    },
+    {
+      "path": "verification/real_core_joint/run_joint.py",
+      "sha256": "eecf976af1618093b29ddff1a6dcb10fa9b231a4b3c6e5fa853d4dc531d7f7fa",
+      "bytes": 4781
+    },
+    {
+      "path": "verification/real_core_joint/simulation.log",
+      "sha256": "c032ae591bffb28a4ebf67bcfa4d0db562168ee758c3b090fe5f602c9e5e23ac",
+      "bytes": 742
+    },
+    {
+      "path": "verification/real_core_joint/bypass_identity/receipt.json",
+      "sha256": "51cd35c161edf93be4982bf0321179c36710583b831331b663ee4c4938088687",
+      "bytes": 788
+    },
+    {
+      "path": "verification/real_core_joint/bypass_identity/result.txt",
+      "sha256": "94531ce2a0d403b5705ed829d392f172cfc5bb14d48f47491392457a5d588e4d",
+      "bytes": 761
+    },
+    {
+      "path": "verification/real_core_joint/bypass_identity/simulation.log",
+      "sha256": "10cc3e08c443bcfec10a0f43ca12612af2c253ceb3c4aeaf968e8ca5067b15fd",
+      "bytes": 747
     }
   ],
   "full_frame_c50_test": "PASS_V3_6220800_PIXELS_3110400_WORDS_3_COMMITS",
@@ -1076,5 +1131,5 @@
   "physical_timing": "GAMMA_SEED2_ALL_EXISTING_CONSTRAINTS_MET",
   "physical_timing_seed7": "FAIL_MINUS_0.622_NS_DDR_SETUP",
   "gamma_bitstream": "NOT_GENERATED",
-  "real_core_ddr_hdmi_test": "NOT_RUN"
+  "real_core_ddr_hdmi_test": "RTL_BEHAVIORAL_DDR_PASS_IDENTITY_AND_REAL_GAMMA;_PHYSICAL_DDR_HDMI_NOT_RUN"
 }
