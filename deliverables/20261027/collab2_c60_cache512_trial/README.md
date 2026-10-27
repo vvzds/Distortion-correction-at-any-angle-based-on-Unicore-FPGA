@@ -1,0 +1,9 @@
+# C60 512-tag cache trial (2026-10-27)
+
+Status: functional throughput experiment, not a promotion candidate. C50 seed7 remains the board-tested and 125 MHz timing-closed fallback. No C60 PDS route, bitstream, or board test has been performed.
+
+C60 starts from C57 and doubles the source-segment cache from 256 to 512 tags. It keeps eight ways per set, expands the row/segment XOR hash to 64 sets, and widens the bank ID and core queues from eight to nine bits. The four pixel memories grow from 1024 to 2048 128-bit words each. The changed RTL hashes are `D81C86E6262DBB110787BC158B890A89697EFFC21F45C0AB9CE98CABC1F5F432` (`undistort_core.v`) and `CC58ED71C1881E99E19EBCFD5D10099C1944C8AB273C9412D3F5A962D2CF5580` (`undistort_cache_ab.v`). The map and bilinear RTL remain those in the C57 trial.
+
+Targeted 1920x1080 exact-pixel/protocol simulations passed for identity, calibrated parameters, and 15-degree rotation. Whole-frame corrected-image publication under the existing 125 MHz DDR model was 44.330045, 38.454345, and **14.697646** frames/s respectively. The 15-degree case completed in 8,504,763 cycles with 46,330 segment loads, versus C57 timing out after 62.5 million cycles with 1,673,417/2,073,600 output pixels and 387,900 loads. `evidence/` contains the raw results.
+
+The 512-tag cache validates the capacity diagnosis and modestly improves the calibrated case, but 14.70 modeled frames/s at 15 degrees is below the 30 frames/s goal. Only three targeted scenarios were run, so there is no 11-scenario claim. Physical resource use and routed setup/hold remain unmeasured for C60. The next capacity step is isolated as C61; neither version replaces C50 without complete regression, routed timing closure, and board validation. Modeled corrected-frame publication is not independent camera-input or HDMI-display FPS.
