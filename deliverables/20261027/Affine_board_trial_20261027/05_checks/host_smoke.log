@@ -1,0 +1,15 @@
+Board package minimal software smoke checks; no camera/UART/PDS run.
+U0 V2 已确认勘误: 原文 39B/B8；有效帧 37B/B7
+[U0] PASS
+[U1] PASS
+[U2] PASS
+[U3] PASS
+[U4] PASS
+[U5] PASS
+=== ALL TESTS PASSED ===
+sampling_direction {"result": "PASS", "max_point_error_px": 0.02944388367975055, "image_mae_before": 24.0786709486166, "image_mae_after": 0.015832509881422926, "confidence": 0.9715368924702957}
+closed_loop_composition {"result": "PASS", "initial_max_point_error_px": 10.707379694378183, "final_max_point_error_px": 0.13077044874151617, "iterations": 6}
+fpga_y_and_q16 {"result": "PASS", "max_roundtrip_pixel_error": 0.01124896755050031}
+status=0x007B0112 valid=1 busy=0 pub=123
+serial_and_real_csv {"result": "PASS", "status_parser": "PASS", "short_write": "rejected", "real_csv": "encodes"}
+OVERALL: PASS
