@@ -36,6 +36,11 @@ module map_trace_tb;
     end
 
     initial begin
+        if($test$plusargs("ROT90"))begin
+            a11=32'sd0;a12=-32'sd65536;
+            a21=32'sd65536;a22=32'sd0;
+            tx=32'sd98238464;ty=-32'sd27525120;
+        end
         fd=$fopen("map_keys.hex","w");
         #40 rst_n=1;
         @(negedge clk) frame_init=1;

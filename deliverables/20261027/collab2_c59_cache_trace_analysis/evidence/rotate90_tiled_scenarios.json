@@ -1,0 +1,133 @@
+{
+  "pixels": 2073600,
+  "traversal": "row strips, column-major within each strip, then raster readback",
+  "model": "8-way RTL hash, LRU replacement, no pinning or DDR timing",
+  "scenarios": [
+    {
+      "stripHeight": 1,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 3840,
+      "idealLruMisses": 1176481,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 1,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 3840,
+      "idealLruMisses": 1176481,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 1,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 3840,
+      "idealLruMisses": 584771,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 2,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 7680,
+      "idealLruMisses": 592514,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 2,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 7680,
+      "idealLruMisses": 592514,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 2,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 7680,
+      "idealLruMisses": 305622,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 4,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 15360,
+      "idealLruMisses": 300585,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 4,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 15360,
+      "idealLruMisses": 300585,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 4,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 15360,
+      "idealLruMisses": 164059,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 8,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 30720,
+      "idealLruMisses": 154633,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 8,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 30720,
+      "idealLruMisses": 154633,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 8,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 30720,
+      "idealLruMisses": 92192,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 16,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 61440,
+      "idealLruMisses": 82171,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 16,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 61440,
+      "idealLruMisses": 82171,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 16,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 61440,
+      "idealLruMisses": 55000,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 32,
+      "tagCapacity": 256,
+      "outputBufferBytesPerBank": 122880,
+      "idealLruMisses": 45408,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 32,
+      "tagCapacity": 512,
+      "outputBufferBytesPerBank": 122880,
+      "idealLruMisses": 45408,
+      "maxDistinctKeysInStrip": 2160
+    },
+    {
+      "stripHeight": 32,
+      "tagCapacity": 1024,
+      "outputBufferBytesPerBank": 122880,
+      "idealLruMisses": 36444,
+      "maxDistinctKeysInStrip": 2160
+    }
+  ]
+}

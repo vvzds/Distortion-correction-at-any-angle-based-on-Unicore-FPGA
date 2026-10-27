@@ -18,8 +18,10 @@ const keys = Uint32Array.from(lines, line => {
   return Number.parseInt(line, 16);
 });
 
-function assess(ways, serpentine) {
-  const sets = Array.from({length: 32}, () => []);
+function assess(setCount, ways, serpentine) {
+  const sets = Array.from({length: setCount}, () => []);
+  const hashBits = Math.log2(setCount) - 1;
+  const hashMask = (1 << hashBits) - 1;
   const lineMisses = new Uint32Array(height);
   let misses = 0;
   let prefixMisses = 0;
@@ -33,7 +35,8 @@ function assess(ways, serpentine) {
       const segments = [(word >>> 5) & 31, word & 31];
       for (const row of rows) for (const segment of segments) {
         const tag = (row << 5) | segment;
-        const set = ((row & 1) << 4) | (((row >>> 1) ^ segment) & 15);
+        const set = ((row & 1) << hashBits) |
+          (((row >>> 1) ^ segment) & hashMask);
         lineKeys.add(tag);
         const entries = sets[set];
         const position = entries.indexOf(tag);
@@ -45,12 +48,13 @@ function assess(ways, serpentine) {
         }
         entries.push(tag);
       }
-      if (y * width + step === 1673416) prefixMisses = misses;
+      if (y * width + x === 1673416) prefixMisses = misses;
     }
     if (lineKeys.size > maxLineKeys) maxLineKeys = lineKeys.size;
   }
   return {
-    tagCapacity: ways * 32,
+    tagCapacity: ways * setCount,
+    setCount,
     waysPerSet: ways,
     traversal: serpentine ? 'alternating scanline direction' : 'raster',
     idealLruMisses: misses,
@@ -65,10 +69,10 @@ function assess(ways, serpentine) {
 const result = {
   traceSha256: crypto.createHash('sha256').update(source).digest('hex').toUpperCase(),
   pixels: keys.length,
-  model: '32 sets with the RTL row/segment XOR hash; perfect LRU, no pinning or DDR timing',
+  model: 'RTL row/segment XOR hash, 8 ways per set; perfect LRU, no pinning or DDR timing',
   scenarios: [
-    assess(8, false), assess(16, false), assess(32, false),
-    assess(8, true), assess(16, true), assess(32, true),
+    assess(32, 8, false), assess(64, 8, false), assess(128, 8, false),
+    assess(32, 8, true), assess(64, 8, true), assess(128, 8, true),
   ],
 };
 fs.writeFileSync(outputPath, JSON.stringify(result, null, 2) + '\n');

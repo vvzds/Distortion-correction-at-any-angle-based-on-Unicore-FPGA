@@ -1,0 +1,79 @@
+{
+  "traceSha256": "005F3DCBDA1AE559DAE08A9372B54273E8409878EED822BF1A39A2F443F30733",
+  "pixels": 2073600,
+  "model": "RTL row/segment XOR hash, 8 ways per set; perfect LRU, no pinning or DDR timing",
+  "scenarios": [
+    {
+      "tagCapacity": 256,
+      "setCount": 32,
+      "waysPerSet": 8,
+      "traversal": "raster",
+      "idealLruMisses": 1176481,
+      "idealLruMissesAtC57TimeoutPixel": 948862,
+      "missesPerOutputPixel": 0.5673615933641976,
+      "maxDistinctKeysInOneOutputLine": 2160,
+      "medianMissesPerLine": 1080,
+      "lastLineMisses": 1083
+    },
+    {
+      "tagCapacity": 512,
+      "setCount": 64,
+      "waysPerSet": 8,
+      "traversal": "raster",
+      "idealLruMisses": 1176481,
+      "idealLruMissesAtC57TimeoutPixel": 948862,
+      "missesPerOutputPixel": 0.5673615933641976,
+      "maxDistinctKeysInOneOutputLine": 2160,
+      "medianMissesPerLine": 1080,
+      "lastLineMisses": 1083
+    },
+    {
+      "tagCapacity": 1024,
+      "setCount": 128,
+      "waysPerSet": 8,
+      "traversal": "raster",
+      "idealLruMisses": 584771,
+      "idealLruMissesAtC57TimeoutPixel": 467848,
+      "missesPerOutputPixel": 0.2820076195987654,
+      "maxDistinctKeysInOneOutputLine": 2160,
+      "medianMissesPerLine": 504,
+      "lastLineMisses": 507
+    },
+    {
+      "tagCapacity": 256,
+      "setCount": 32,
+      "waysPerSet": 8,
+      "traversal": "alternating scanline direction",
+      "idealLruMisses": 903582,
+      "idealLruMissesAtC57TimeoutPixel": 727798,
+      "missesPerOutputPixel": 0.4357552083333333,
+      "maxDistinctKeysInOneOutputLine": 2160,
+      "medianMissesPerLine": 824,
+      "lastLineMisses": 827
+    },
+    {
+      "tagCapacity": 512,
+      "setCount": 64,
+      "waysPerSet": 8,
+      "traversal": "alternating scanline direction",
+      "idealLruMisses": 630619,
+      "idealLruMissesAtC57TimeoutPixel": 507309,
+      "missesPerOutputPixel": 0.3041179591049383,
+      "maxDistinctKeysInOneOutputLine": 2160,
+      "medianMissesPerLine": 568,
+      "lastLineMisses": 571
+    },
+    {
+      "tagCapacity": 1024,
+      "setCount": 128,
+      "waysPerSet": 8,
+      "traversal": "alternating scanline direction",
+      "idealLruMisses": 84478,
+      "idealLruMissesAtC57TimeoutPixel": 66377,
+      "missesPerOutputPixel": 0.0407397762345679,
+      "maxDistinctKeysInOneOutputLine": 2160,
+      "medianMissesPerLine": 56,
+      "lastLineMisses": 59
+    }
+  ]
+}
