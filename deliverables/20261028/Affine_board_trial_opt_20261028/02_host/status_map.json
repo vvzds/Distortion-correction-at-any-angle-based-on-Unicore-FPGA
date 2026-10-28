@@ -1,0 +1,20 @@
+{
+  "version": "1.2.1",
+  "freeze_doc": "status位域冻结确认书_20261015.md",
+  "freeze_date": "2026-10-15",
+  "revision_date": "2026-10-18",
+  "description": "corr_top 32bit status word field map (frozen, V1.2 baseline). Authoritative source: status位域冻结确认书_20261015.md (V1.1). Optional mapping for uart_host_tool 0x05 readback.",
+  "fields": [
+    { "bits": "[7:0]",   "name": "fw_version",  "description": "firmware/protocol version, reads 0x12 (V1.2)" },
+    { "bits": "[8]",     "name": "params_valid", "description": "1 = live parameter group passes G02 range check, engine allowed to run" },
+    { "bits": "[9]",     "name": "frame_busy",   "description": "undistort_core frame in progress (core busy, not write-out)" },
+    { "bits": "[15:10]", "name": "reserved",     "description": "reserved, reads 0" },
+    { "bits": "[31:16]", "name": "pub_count",    "description": "corrected-frame publish pulse counter (16-bit wraparound)" }
+  ],
+  "notes": [
+    "status is latched by param_mgr at the cmd 0x05 acceptance cycle (disp_valid pulse, no busy gating); the reply reflects acceptance-time system state, not reception-completion-time",
+    "params_valid = 0 means the live group is out of G02 range; engine stops after current frame and auto-restarts on a legal group",
+    "pub_count wraps mod 65536 (~36.4 min at 30 fps); frame completion is indicated by pub_count increments, not by busy falling edge (write-out continues after busy=0)",
+    "verified readback vectors (corr_top_tb, ModelSim): 0x00040312 active (I4) / 0x00080012 stopped (I6, plan-B unified stub+full-real, 2026-10-18; legacy 0x00070012 was stub-only snapshot timing, superseded - see freeze doc V1.1 note in section 4); U4 mock frames: AA 55 05 04 12 03 04 00 19 / AA 55 05 04 12 00 07 00 19 (constructed self-test frames, unaffected and still valid)"
+  ]
+}

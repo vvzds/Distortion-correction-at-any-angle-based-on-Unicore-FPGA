@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "fpga_and_source_files_identical": 154,
+  "pds_edit": "Only removed stale generated PCF reference",
+  "project_input_references": 116,
+  "python_files_compiled": 8,
+  "new_pds_build": false,
+  "new_physical_board_test": false,
+  "bitstream_sha256": "ff98eb4f5f8c0b47db29f7fe318400441ef64585a500d783c63360799a830565",
+  "wrapper_selftest": "PASS: powershell -NoProfile -ExecutionPolicy Bypass -File run_board.ps1 -Mode selftest"
+}

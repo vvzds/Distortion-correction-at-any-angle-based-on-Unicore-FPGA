@@ -1,0 +1,92 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.4",
+  "opencv": "5.0.0",
+  "pyserial": "3.5",
+  "hardware_connected": false,
+  "uart_U0_U5": "PASS",
+  "sampling_direction": {
+    "result": "PASS",
+    "max_point_error_px": 0.02943911738331253,
+    "image_mae_before": 24.0786709486166,
+    "image_mae_after": 0.015832509881422926,
+    "confidence": 0.9715369233630821
+  },
+  "closed_loop_composition": {
+    "result": "PASS",
+    "initial_max_point_error_px": 9.431057577866447,
+    "final_max_point_error_px": 0.12831235123832074,
+    "iterations": 6
+  },
+  "step_limited_controller": {
+    "result": "PASS",
+    "step_fraction": 0.10416666666666666,
+    "rotation_step_deg": 1.25,
+    "translation_step_px": 39.125638267396276
+  },
+  "confidence_hysteresis": {
+    "result": "PASS",
+    "single_bad_frame": "hold",
+    "consecutive_bad_frames": "degraded",
+    "recovery_frames": 2
+  },
+  "hold_timeout_and_consecutive": {
+    "result": "PASS",
+    "middle_confidence_timeout": "PASS",
+    "interleaved_failures": "not_consecutive",
+    "timed_recovery": "PASS"
+  },
+  "raw_geometry_and_features": {
+    "result": "PASS",
+    "raw_rejection": "PASS",
+    "good_inliers": 12,
+    "mismatched_features": "rejected"
+  },
+  "polar_and_corner_limit": {
+    "result": "PASS",
+    "pure_rotation_scale": "preserved",
+    "final_corner_limit": "PASS"
+  },
+  "cache_budget_and_freshness": {
+    "result": "PASS",
+    "reference_cache_builds": 4,
+    "stale_results": "rejected",
+    "budget": "enforced",
+    "large_rotation_max_point_error_px": 0.6538333969584941
+  },
+  "worker_cancellation": {
+    "result": "PASS",
+    "no_backlog": "PASS",
+    "invalidated_result": "discarded",
+    "next_anchor": "accepted"
+  },
+  "incremental_status_monitor": {
+    "result": "PASS",
+    "fragmented_rx": "PASS",
+    "waiting_read_calls": 0,
+    "stalled": "rejected",
+    "timeout": "rejected"
+  },
+  "camera_controls_and_anchors": {
+    "result": "PASS",
+    "controls_during_blocked_estimate": "PASS",
+    "distinct_anchors": [
+      "reference_001.png",
+      "reference_002.png"
+    ],
+    "stale_matrix_writes": 0
+  },
+  "fpga_y_and_q16": {
+    "result": "PASS",
+    "max_roundtrip_pixel_error": 0.01124896755050031
+  },
+  "serial_and_real_csv": {
+    "result": "PASS",
+    "status_parser": "PASS",
+    "short_write": "rejected",
+    "real_csv": "encodes"
+  },
+  "elapsed_seconds": 2.0779999999999745,
+  "result": "PASS"
+}

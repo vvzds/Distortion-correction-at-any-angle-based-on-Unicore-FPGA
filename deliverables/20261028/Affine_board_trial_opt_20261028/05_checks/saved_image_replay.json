@@ -1,0 +1,156 @@
+{
+  "scope": "Saved image replay on development PC; no physical camera/board latency measurement",
+  "opencv": "5.0.0",
+  "cases": [
+    {
+      "file": "reference.png",
+      "runs": [
+        {
+          "seconds": 0.8031838000001699,
+          "confidence": 1.0000001122550448,
+          "quality": {
+            "matches": 2588,
+            "inliers": 2588,
+            "inlier_ratio": 1.0,
+            "reprojection_rms_px": 0.0,
+            "feature_coverage": 0.7646420001983643,
+            "occupied_cells": 12,
+            "overlap": 0.9999999997991289,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        },
+        {
+          "seconds": 0.06163790000027802,
+          "confidence": 1.0000001122550448,
+          "quality": {
+            "matches": 2588,
+            "inliers": 2588,
+            "inlier_ratio": 1.0,
+            "reprojection_rms_px": 0.0,
+            "feature_coverage": 0.7646420001983643,
+            "occupied_cells": 12,
+            "overlap": 0.9999999997991289,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        },
+        {
+          "seconds": 0.055175599999984115,
+          "confidence": 1.0000001122550448,
+          "quality": {
+            "matches": 2588,
+            "inliers": 2588,
+            "inlier_ratio": 1.0,
+            "reprojection_rms_px": 0.0,
+            "feature_coverage": 0.7646420001983643,
+            "occupied_cells": 12,
+            "overlap": 0.9999999997991289,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        }
+      ]
+    },
+    {
+      "file": "snapshot_059250.png",
+      "runs": [
+        {
+          "seconds": 0.047432600000320235,
+          "confidence": 0.9977503060041977,
+          "quality": {
+            "matches": 229,
+            "inliers": 148,
+            "inlier_ratio": 0.6462882096069869,
+            "reprojection_rms_px": 2.5973660945892334,
+            "feature_coverage": 0.6392475366592407,
+            "occupied_cells": 9,
+            "overlap": 0.9725433554044692,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        },
+        {
+          "seconds": 0.041526599999997416,
+          "confidence": 0.9977503060041977,
+          "quality": {
+            "matches": 229,
+            "inliers": 148,
+            "inlier_ratio": 0.6462882096069869,
+            "reprojection_rms_px": 2.5973660945892334,
+            "feature_coverage": 0.6392475366592407,
+            "occupied_cells": 9,
+            "overlap": 0.9725433554044692,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        },
+        {
+          "seconds": 0.04152960000010353,
+          "confidence": 0.9977503060041977,
+          "quality": {
+            "matches": 229,
+            "inliers": 148,
+            "inlier_ratio": 0.6462882096069869,
+            "reprojection_rms_px": 2.5973660945892334,
+            "feature_coverage": 0.6392475366592407,
+            "occupied_cells": 9,
+            "overlap": 0.9725433554044692,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        }
+      ]
+    },
+    {
+      "file": "snapshot_058822.png",
+      "runs": [
+        {
+          "seconds": 0.05133479999994961,
+          "confidence": 0.9979299842792554,
+          "quality": {
+            "matches": 400,
+            "inliers": 231,
+            "inlier_ratio": 0.5775,
+            "reprojection_rms_px": 2.135559320449829,
+            "feature_coverage": 0.6485099196434021,
+            "occupied_cells": 11,
+            "overlap": 0.9992234889424122,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        },
+        {
+          "seconds": 0.047572699999818724,
+          "confidence": 0.9979299842792554,
+          "quality": {
+            "matches": 400,
+            "inliers": 231,
+            "inlier_ratio": 0.5775,
+            "reprojection_rms_px": 2.135559320449829,
+            "feature_coverage": 0.6485099196434021,
+            "occupied_cells": 11,
+            "overlap": 0.9992234889424122,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        },
+        {
+          "seconds": 0.04207719999976689,
+          "confidence": 0.9979299842792554,
+          "quality": {
+            "matches": 400,
+            "inliers": 231,
+            "inlier_ratio": 0.5775,
+            "reprojection_rms_px": 2.135559320449829,
+            "feature_coverage": 0.6485099196434021,
+            "occupied_cells": 11,
+            "overlap": 0.9992234889424122,
+            "ecc_scale": 0.25,
+            "reference_cache_builds": 1
+          }
+        }
+      ]
+    }
+  ]
+}
