@@ -1,16 +1,16 @@
 # Later SRAM board validation
 
-Do this only after the final bitstream, route report, and SHA256 are archived.
 Do not write Flash. Keep the original C50 seed7 SRAM image available as a
 fallback. A power cycle clears the FPGA bitstream and runtime parameters.
 
-1. Verify the candidate `.sbit` SHA256 against the final archive, then load
-   that exact file to SRAM with PDS. Check that the camera and HDMI picture
-   appear and DDR initializes.
+1. Verify `C50_pure_capture_C63_frame_gate_seed7.sbit` has SHA256
+   `069737CD5B58F2D583C424AA45C13B8AE108DE55C7FCD23264FA99933F4FD2B9`,
+   then load that exact file to SRAM with PDS. Check that the camera and HDMI
+   picture appear and DDR initializes.
 2. Send the repository's measured calibration CSV with
    `uart_tool.py send-file --port COM11 --csv <real_parameters.csv>`.
-   The file is at
-   `deliverables/20261026/collab2_C22_seed7_board_trial/reference/parameters/real_parameters.csv`.
+   This package includes `parameters/real_parameters.csv`, copied from the
+   earlier C22 seed7 board-trial reference.
    Confirm status reports valid parameters and a non-stuck correction engine.
 3. Move a hand or calibration target continuously through the view for at
    least 30 seconds. In parallel, run
