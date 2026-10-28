@@ -1,118 +1,133 @@
 {
   "model": "128-pixel blocks, 256 entries, 32 sets, 8-way LRU; ideal replacement only",
-  "sourceBytes": 4177920,
   "cases": [
     {
       "blockW": 128,
       "blockH": 1,
       "outputTileW": 64,
       "misses": 82171,
-      "payloadBeats": 657368
+      "payloadBeats": 657368,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 128,
       "blockH": 1,
       "outputTileW": 1920,
       "misses": 1176481,
-      "payloadBeats": 9411848
+      "payloadBeats": 9411848,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 64,
       "blockH": 2,
       "outputTileW": 64,
       "misses": 45112,
-      "payloadBeats": 360896
+      "payloadBeats": 360896,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 64,
       "blockH": 2,
       "outputTileW": 1920,
       "misses": 586278,
-      "payloadBeats": 4690224
+      "payloadBeats": 4690224,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 32,
       "blockH": 4,
       "outputTileW": 64,
       "misses": 26821,
-      "payloadBeats": 214568
+      "payloadBeats": 214568,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 32,
       "blockH": 4,
       "outputTileW": 1920,
       "misses": 294827,
-      "payloadBeats": 2358616
+      "payloadBeats": 2358616,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 16,
       "blockH": 8,
       "outputTileW": 64,
       "misses": 17682,
-      "payloadBeats": 141456
+      "payloadBeats": 141456,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 16,
       "blockH": 8,
       "outputTileW": 1920,
       "misses": 149890,
-      "payloadBeats": 1199120
+      "payloadBeats": 1199120,
+      "sourceBytes": 4147200
     },
     {
       "blockW": 8,
       "blockH": 16,
       "outputTileW": 64,
       "misses": 13343,
-      "payloadBeats": 106744
+      "payloadBeats": 106744,
+      "sourceBytes": 4177920
     },
     {
       "blockW": 8,
       "blockH": 16,
       "outputTileW": 1920,
       "misses": 78064,
-      "payloadBeats": 624512
+      "payloadBeats": 624512,
+      "sourceBytes": 4177920
     },
     {
       "blockW": 4,
       "blockH": 32,
       "outputTileW": 64,
       "misses": 11278,
-      "payloadBeats": 90224
+      "payloadBeats": 90224,
+      "sourceBytes": 4177920
     },
     {
       "blockW": 4,
       "blockH": 32,
       "outputTileW": 1920,
       "misses": 41438,
-      "payloadBeats": 331504
+      "payloadBeats": 331504,
+      "sourceBytes": 4177920
     },
     {
       "blockW": 2,
       "blockH": 64,
       "outputTileW": 64,
       "misses": 10233,
-      "payloadBeats": 81864
+      "payloadBeats": 81864,
+      "sourceBytes": 4177920
     },
     {
       "blockW": 2,
       "blockH": 64,
       "outputTileW": 1920,
       "misses": 14577,
-      "payloadBeats": 116616
+      "payloadBeats": 116616,
+      "sourceBytes": 4177920
     },
     {
       "blockW": 1,
       "blockH": 128,
       "outputTileW": 64,
       "misses": 11020,
-      "payloadBeats": 88160
+      "payloadBeats": 88160,
+      "sourceBytes": 4423680
     },
     {
       "blockW": 1,
       "blockH": 128,
       "outputTileW": 1920,
       "misses": 9815,
-      "payloadBeats": 78520
+      "payloadBeats": 78520,
+      "sourceBytes": 4423680
     }
   ]
 }

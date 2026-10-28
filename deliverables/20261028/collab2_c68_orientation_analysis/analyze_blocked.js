@@ -47,12 +47,12 @@ function assess(blockW, blockH, outputTileW) {
       }
     }
   }
-  return {blockW, blockH, outputTileW, misses, payloadBeats: misses * 8};
+  return {blockW, blockH, outputTileW, misses, payloadBeats: misses * 8,
+    sourceBytes: width * Math.ceil(height / blockH) * blockH * 2};
 }
 
 const result = {
   model: '128-pixel blocks, 256 entries, 32 sets, 8-way LRU; ideal replacement only',
-  sourceBytes: width * 1088 * 2,
   cases: [
     [128, 1], [64, 2], [32, 4], [16, 8], [8, 16], [4, 32], [2, 64], [1, 128],
   ].flatMap(([w, h]) => [64, 1920].map(tile => assess(w, h, tile))),
