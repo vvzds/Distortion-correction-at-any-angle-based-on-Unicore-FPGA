@@ -30,16 +30,16 @@ corrected frames/s. Source measurements are archived under
   removing correction. `wr_cmd_trans.v` includes a C50 valid-return guard
   that should be retained.
 
-## Fusion trial now being built
+## Fusion trials
 
-The isolated trial at `work/c50_frame_gated_trial` copies six pure RTL files
-byte-for-byte: `raw8_to_rgb565.v`, `wr_buf.v`, `rd_buf.v`, `sync_vg.v`,
-`reg_config.v`, and `i2c_com.v`. It retains the C50 correction interfaces and
-adds a one-bit pending-new-frame gate to `corr_top.v`, so an idle engine does
-not repeatedly process the same camera frame. This preserves the corrected
-data path while reducing duplicate DDR traffic. It has passed a targeted
-frame-trigger simulation; full PDS route and actual 30 fps board evidence are
-still pending. No trial bitstream is approved for programming yet.
+The pure-capture/C50-core trial copies six pure RTL files byte-for-byte:
+`raw8_to_rgb565.v`, `wr_buf.v`, `rd_buf.v`, `sync_vg.v`, `reg_config.v`, and
+`i2c_com.v`. It retains the C50 correction interfaces and adds a one-bit
+pending-new-frame gate to `corr_top.v`, so an idle engine does not repeatedly
+process the same camera frame. Its independent seed7 setup WNS was -0.117 ns,
+so it was rejected. The lighter C63-core variant of the same pure/C50 fusion
+passed its initial seed7 timing and 11 full-frame simulations; its source and
+evidence are archived in `../collab2_pure_c50_frame_gated_candidate/`.
 
 ## Resource and timing reference
 
