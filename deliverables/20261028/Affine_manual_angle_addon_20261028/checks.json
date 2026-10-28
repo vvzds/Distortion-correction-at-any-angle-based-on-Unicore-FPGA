@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "hardware_connected": false,
+  "gui_manually_tested": false,
+  "known_rotation_translation_scale": "PASS",
+  "direction_sign": "PASS",
+  "point_noise": "PASS",
+  "drift_return_anisotropy_outlier_duplicate": "PASS",
+  "small_angle_ratio_suppression": "PASS",
+  "invalid_points_and_hash": "PASS",
+  "actual_png_cli_and_unicode_paths": "PASS",
+  "powershell_wrapper": "PASS",
+  "prevent_report_overwrite": "PASS",
+  "known_input_deg": 12.0,
+  "measured_residual_deg": 0.19999999999999873
+}
