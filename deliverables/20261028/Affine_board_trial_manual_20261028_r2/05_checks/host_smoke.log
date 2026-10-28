@@ -1,0 +1,68 @@
+Board package minimal software smoke checks; no camera/UART/PDS run.
+U0 V2 已确认勘误: 原文 39B/B8；有效帧 37B/B7
+[U0] PASS
+[U1] PASS
+[U2] PASS
+[U3] PASS
+[U4] PASS
+[U5] PASS
+=== ALL TESTS PASSED ===
+sampling_direction {"result": "PASS", "max_point_error_px": 0.029439172440938282, "image_mae_before": 24.0786709486166, "image_mae_after": 0.015832509881422926, "confidence": 0.9715369064164069}
+closed_loop_composition {"result": "PASS", "initial_max_point_error_px": 9.431057577866447, "final_max_point_error_px": 0.12824502410663016, "iterations": 6}
+step_limited_controller {"result": "PASS", "step_fraction": 0.10416666666666666, "rotation_step_deg": 1.25, "translation_step_px": 39.125638267396276}
+raw_geometry_and_features {"result": "PASS", "raw_rejection": "PASS", "good_inliers": 12, "mismatched_features": "rejected"}
+polar_and_corner_limit {"result": "PASS", "pure_rotation_scale": "preserved", "final_corner_limit": "PASS"}
+cache_budget_and_freshness {"result": "PASS", "reference_cache_builds": 4, "stale_results": "rejected", "budget": "enforced", "large_rotation_max_point_error_px": 0.6533514477351371}
+worker_cancellation {"result": "PASS", "no_backlog": "PASS", "invalidated_result": "discarded", "next_anchor": "accepted"}
+incremental_status_monitor {"result": "PASS", "fragmented_rx": "PASS", "waiting_read_calls": 0, "stalled": "rejected", "timeout": "rejected"}
+C50 MANUAL | D=OFF C=resume R=new reference S=stop+save B=move Q=quit
+Focus preview before pressing keys. Image failures never automatically disable affine.
+D=关闭补偿并暂停；C=沿用原参考继续；R=把当前姿态设为新参考；S=停稳取证；B=开始动作标记；Q=退出。
+Reference captured: reference_001.png ；现在可以开始转动。
+D: 已发送关闭指令；原参考保留。保持姿态约2秒，自动保存两张关闭后的图。
+R: 当前姿态将成为新参考，请先保持不动。
+Reference captured: reference_002.png ；现在可以开始转动。
+camera_controls_and_anchors {"result": "PASS", "controls_during_blocked_estimate": "PASS", "watchdog_no_affine_off": "PASS", "distinct_anchors": ["reference_001.png", "reference_002.png"], "stale_matrix_writes": 0}
+C50 MANUAL | D=OFF C=resume R=new reference S=stop+save B=move Q=quit
+Focus preview before pressing keys. Image failures never automatically disable affine.
+D=关闭补偿并暂停；C=沿用原参考继续；R=把当前姿态设为新参考；S=停稳取证；B=开始动作标记；Q=退出。
+Reference captured: reference_001.png ；现在可以开始转动。
+D: 已发送关闭指令；原参考保留。保持姿态约2秒，自动保存两张关闭后的图。
+C: 沿用原参考继续尝试补偿。
+R: 当前姿态将成为新参考，请先保持不动。
+Reference captured: reference_002.png ；现在可以开始转动。
+manual_retry_and_resume {"result": "PASS", "eight_bad_observations": "retry_without_off", "next_good": "automatically_resumed", "c_keeps_anchor": "PASS", "d_r_q": "PASS", "first_5deg_step_alpha": 0.9}
+default_control_response {"result": "PASS", "model": "ideal geometry only, no estimator/capture/delay", "residual_threshold_deg": 0.2, "steps": [{"input_deg": 5.0, "previous_conservative": 7, "new_default": 2}, {"input_deg": 12.0, "previous_conservative": 13, "new_default": 3}, {"input_deg": 25.0, "previous_conservative": 23, "new_default": 5}]}
+optional_ecc_cannot_veto_features {"result": "PASS", "high_score_bad_geometry": "kept_valid_feature_fit", "point_error_px": 0.08516420395382805}
+回传压缩包： C:\Users\SONGTI~1\AppData\Local\Temp\human_trial_c_45i36x\board_return_20261028_230422_791664.zip
+请将该ZIP发回；原sessions目录保留。
+recording_and_return_export {"result": "PASS", "raw_png_and_sidecar": "PASS", "mjpg_and_timestamps": "PASS", "summary_and_observation_csv": "PASS", "return_zip": "PASS"}
+固定指令 1/5: identity；保持镜头不动，自动截图。
+固定指令 2/5: rotate_plus5；保持镜头不动，自动截图。
+固定指令 3/5: rotate_minus5；保持镜头不动，自动截图。
+固定指令 4/5: translate_right_sample40；保持镜头不动，自动截图。
+固定指令 5/5: after_exit_affine_off；保持镜头不动，自动截图。
+固定指令演示结束，已发送关闭仿射；五阶段原图和录像已记录。
+fixed_demo_and_capture {"result": "PASS", "five_stages_and_raw_images": "PASS", "final_affine_off": "PASS"}
+C50 MANUAL | D=OFF C=resume R=new reference S=stop+save B=move Q=quit
+Focus preview before pressing keys. Image failures never automatically disable affine.
+D=关闭补偿并暂停；C=沿用原参考继续；R=把当前姿态设为新参考；S=停稳取证；B=开始动作标记；Q=退出。
+Reference captured: reference_001.png ；现在可以开始转动。
+Saved request: images/mock.png state= TRACKING
+Saved request: images/mock.png state= TRACKING
+D: 已发送关闭指令；原参考保留。保持姿态约2秒，自动保存两张关闭后的图。
+C: 沿用原参考继续尝试补偿。
+R: 当前姿态将成为新参考，请先保持不动。
+Reference captured: reference_002.png ；现在可以开始转动。
+manual_evidence_schedule {"result": "PASS", "b_s_markers": "PASS", "d_two_delayed_images": "PASS", "c_then_r": "PASS"}
+Session: C:\Users\SONGTI~1\AppData\Local\Temp\trial_main_p6ysxv_w\sessions\20261028_230422_958434
+C50 MANUAL | D=OFF C=resume R=new reference S=stop+save B=move Q=quit
+Focus preview before pressing keys. Image failures never automatically disable affine.
+D=关闭补偿并暂停；C=沿用原参考继续；R=把当前姿态设为新参考；S=停稳取证；B=开始动作标记；Q=退出。
+Reference captured: reference_001.png ；现在可以开始转动。
+本次记录目录： C:\Users\SONGTI~1\AppData\Local\Temp\trial_main_p6ysxv_w\sessions\20261028_230422_958434
+main_evidence_lifecycle {"result": "PASS", "real_journal_console_summary": "PASS", "normal_exit_affine_off": "PASS"}
+fpga_y_and_q16 {"result": "PASS", "max_roundtrip_pixel_error": 0.01124896755050031}
+status=0x007B0112 valid=1 busy=0 pub=123
+serial_and_real_csv {"result": "PASS", "status_parser": "PASS", "short_write": "rejected", "real_csv": "encodes"}
+OVERALL: PASS

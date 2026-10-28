@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "original_fpga_and_frozen_files_identical": 155,
+  "python_files_compiled": 12,
+  "project_input_references": 116,
+  "bitstream_sha256": "ff98eb4f5f8c0b47db29f7fe318400441ef64585a500d783c63360799a830565",
+  "new_pds_build": false,
+  "new_physical_board_test": false,
+  "software_smoke": "PASS",
+  "windows_powershell_wrapper_and_menu": "PASS",
+  "saved_image_pairs_accepted": 11,
+  "saved_image_pairs_total": 12,
+  "physical_latency_measured": false,
+  "old_release_zip_unchanged": true
+}

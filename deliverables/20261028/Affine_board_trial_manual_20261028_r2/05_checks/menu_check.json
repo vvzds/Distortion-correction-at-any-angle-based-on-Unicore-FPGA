@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "windows_powershell_menu": true,
+  "default_port_camera_inputs": true,
+  "selftest_selection": true,
+  "returned_to_menu": true,
+  "hardware_connected": false
+}

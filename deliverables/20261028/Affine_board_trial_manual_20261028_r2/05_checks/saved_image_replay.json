@@ -1,0 +1,850 @@
+{
+  "result": "PASS",
+  "source": "20261028 returned still images; no new board test",
+  "caveat": "Degraded PNG is a nearby live frame, not necessarily the exact rejected worker input. Matrices describe output-image differences, not physical camera angles. Development-PC timing is not hardware latency.",
+  "historical_degraded_pairs": 12,
+  "old_accepted": 0,
+  "new_accepted": 11,
+  "pairs": [
+    {
+      "generation": 0,
+      "original_log_reason": "orb_too_few_matches",
+      "images": [
+        {
+          "file": "reference_001.png",
+          "sha256": "d4d3c2053c4113b2d5d9a37bbecb47ade62f4563131ec2802337d92c18a5fc1a"
+        },
+        {
+          "file": "degraded_000.png",
+          "sha256": "d97f2ef1f82c80b123fc59c593dd2a36e5079be7f0e2e6d6da3418a819eb0605"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_too_few_matches",
+        "cold_ms": 875.0
+      },
+      "new": {
+        "accepted": false,
+        "reason": "orb_too_few_matches",
+        "cold_ms": 14.999999999417923
+      }
+    },
+    {
+      "generation": 1,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_002.png",
+          "sha256": "f2ae0aee8dd67f06255ce4d5c4e3d6c6a35428e7dabe765a2828564baffe4f90"
+        },
+        {
+          "file": "degraded_001.png",
+          "sha256": "ce779fbd7764663682c9e0fb23ace0bceb45946f083efcbed43f07c5805f34a4"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 77.99999999951979
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1197,
+          "inliers": 1008,
+          "inlier_ratio": 0.8421052631578947,
+          "reprojection_rms_px": 1.8027571439743042,
+          "feature_coverage": 0.46903806924819946,
+          "occupied_cells": 9,
+          "overlap": 0.9800457549079479,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1197,
+            "inliers": 1008,
+            "inlier_ratio": 0.8421052631578947,
+            "reprojection_rms_px": 5.442381381988525,
+            "feature_coverage": 0.46903806924819946,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            1.002975629516119,
+            0.02510504028845124,
+            -30.484056967925348
+          ],
+          [
+            -0.020395885389004866,
+            1.000426131776265,
+            28.239219786813813
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 78.99999999972351,
+        "hot_ms": [
+          46.000000000276486,
+          63.00000000010186,
+          47.00000000048021
+        ]
+      }
+    },
+    {
+      "generation": 2,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_003.png",
+          "sha256": "e14735ce5abd81c41069cf277568908643163f4e3bbb79c2d2f31b6dd28bf63a"
+        },
+        {
+          "file": "degraded_002.png",
+          "sha256": "dcf03c231f32c7d61c5cdf7c10839beadc8410e4a500a73923c2bf3f26624764"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 93.99999999914144
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1162,
+          "inliers": 829,
+          "inlier_ratio": 0.7134251290877797,
+          "reprojection_rms_px": 1.8282064199447632,
+          "feature_coverage": 0.35563570261001587,
+          "occupied_cells": 9,
+          "overlap": 0.9716321033962151,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1162,
+            "inliers": 829,
+            "inlier_ratio": 0.7134251290877797,
+            "reprojection_rms_px": 5.459808826446533,
+            "feature_coverage": 0.35563570261001587,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            1.0039011407362197,
+            0.03794046864268156,
+            -18.30123431721113
+          ],
+          [
+            -0.04138372981670228,
+            0.9963887538878636,
+            59.6507468179261
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 78.00000000133878,
+        "hot_ms": [
+          61.99999999989814,
+          46.999999998661224,
+          63.00000000010186
+        ]
+      }
+    },
+    {
+      "generation": 4,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_005.png",
+          "sha256": "d0b2fa8899398e51c74fb547ee4d6ce26df9976c743e0a18901edd1310039d03"
+        },
+        {
+          "file": "degraded_004.png",
+          "sha256": "a4e8370e6cc28b12453dea3a7c6651d0b28e2292ad7c4542704ada69908fd888"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 93.99999999914144
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1076,
+          "inliers": 890,
+          "inlier_ratio": 0.8271375464684015,
+          "reprojection_rms_px": 1.7596012353897095,
+          "feature_coverage": 0.3701109290122986,
+          "occupied_cells": 9,
+          "overlap": 0.9438570876811673,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1076,
+            "inliers": 890,
+            "inlier_ratio": 0.8271375464684015,
+            "reprojection_rms_px": 5.301257610321045,
+            "feature_coverage": 0.3701109290122986,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            0.9975371762840564,
+            0.0665509279071821,
+            -75.36023324805281
+          ],
+          [
+            -0.06754596563503684,
+            1.0015598578443399,
+            90.5800137425304
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 77.99999999951979,
+        "hot_ms": [
+          47.00000000048021,
+          61.99999999989814,
+          94.00000000096043
+        ]
+      }
+    },
+    {
+      "generation": 5,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_006.png",
+          "sha256": "54fd1246fb71b38344a8c6758d95a5ec05eaef9601bad79ed87a565327af1057"
+        },
+        {
+          "file": "degraded_005.png",
+          "sha256": "1e62c955e0dfbf30c7428237a180b7719c925b226d3488758c2288db6ad4db5b"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 141.00000000144064
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1079,
+          "inliers": 826,
+          "inlier_ratio": 0.7655236329935126,
+          "reprojection_rms_px": 1.7940555810928345,
+          "feature_coverage": 0.3493337333202362,
+          "occupied_cells": 9,
+          "overlap": 0.9682283721103652,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1079,
+            "inliers": 826,
+            "inlier_ratio": 0.7655236329935126,
+            "reprojection_rms_px": 5.231196403503418,
+            "feature_coverage": 0.3493337333202362,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            0.9952609136005861,
+            -0.043084268460569265,
+            51.232727285204504
+          ],
+          [
+            0.0455073153762037,
+            0.995226618041164,
+            -59.889181079209514
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 108.99999999855936,
+        "hot_ms": [
+          94.00000000096043,
+          93.99999999914144,
+          78.00000000133878
+        ]
+      }
+    },
+    {
+      "generation": 8,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_009.png",
+          "sha256": "522ec5aabb18e73bab90ff6389f455a2bb18d79f13c37460e7cf2c7c42f3e25e"
+        },
+        {
+          "file": "degraded_008.png",
+          "sha256": "4074485bfd3133394c7f6efd75a43c53bbb170faff5f9b72e5c33dc828c3c952"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 125.0
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1158,
+          "inliers": 804,
+          "inlier_ratio": 0.694300518134715,
+          "reprojection_rms_px": 1.7563502788543701,
+          "feature_coverage": 0.4012575149536133,
+          "occupied_cells": 8,
+          "overlap": 0.9709942497696876,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1158,
+            "inliers": 804,
+            "inlier_ratio": 0.694300518134715,
+            "reprojection_rms_px": 4.812368392944336,
+            "feature_coverage": 0.4012575149536133,
+            "occupied_cells": 8
+          }
+        },
+        "matrix": [
+          [
+            0.9997695634686427,
+            0.03463401083105266,
+            -33.331875514170235
+          ],
+          [
+            -0.037320725957745694,
+            1.003962624486552,
+            47.893116840100454
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 93.0000000007567,
+        "hot_ms": [
+          78.99999999972351,
+          77.99999999951979,
+          109.00000000037835
+        ]
+      }
+    },
+    {
+      "generation": 9,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_010.png",
+          "sha256": "88e3c6c44cf0e78b8211fa3d684fc6812f1805d6e43864b963218598bd630d27"
+        },
+        {
+          "file": "degraded_009.png",
+          "sha256": "e4c760c1bbd4c54a7c6c7622e5de4aeeb7a899d86510cf60fde0eea055248ed0"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 125.0
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1124,
+          "inliers": 923,
+          "inlier_ratio": 0.8211743772241993,
+          "reprojection_rms_px": 1.7839797735214233,
+          "feature_coverage": 0.38482430577278137,
+          "occupied_cells": 9,
+          "overlap": 0.9719753509965109,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1124,
+            "inliers": 923,
+            "inlier_ratio": 0.8211743772241993,
+            "reprojection_rms_px": 4.75725793838501,
+            "feature_coverage": 0.38482430577278137,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            1.0025910240981761,
+            0.02871594864796536,
+            -34.01259588503018
+          ],
+          [
+            -0.03228978044942735,
+            1.0031016293924597,
+            42.37962997405222
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 109.00000000037835,
+        "hot_ms": [
+          93.99999999914144,
+          78.00000000133878,
+          109.99999999876309
+        ]
+      }
+    },
+    {
+      "generation": 10,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_011.png",
+          "sha256": "5eed66e05d108555075615c423ad8d5c6c50a5237f079a71783b94b62df8eeb0"
+        },
+        {
+          "file": "degraded_010.png",
+          "sha256": "48e1b1c1c28634ab773224b91f8f8558e93acd4d4ca85650c238be365e34c42f"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 125.0
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1122,
+          "inliers": 971,
+          "inlier_ratio": 0.8654188948306596,
+          "reprojection_rms_px": 1.8366612195968628,
+          "feature_coverage": 0.4421662986278534,
+          "occupied_cells": 9,
+          "overlap": 0.988510838201864,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1122,
+            "inliers": 971,
+            "inlier_ratio": 0.8654188948306596,
+            "reprojection_rms_px": 4.142005443572998,
+            "feature_coverage": 0.4421662986278534,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            0.9963089856444048,
+            -0.01408692367228774,
+            19.438701294933256
+          ],
+          [
+            0.019237098840986386,
+            0.9978364930015596,
+            -24.590128300175213
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 109.00000000037835,
+        "hot_ms": [
+          77.99999999951979,
+          94.00000000096043,
+          125.0
+        ]
+      }
+    },
+    {
+      "generation": 11,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_012.png",
+          "sha256": "a2a37565bd363e2b8b6f16ed42dc16a51475b6698224d7ea723b34bfda326a86"
+        },
+        {
+          "file": "degraded_011.png",
+          "sha256": "20b095594cce6639562451683e9f10b0e058042cac4c9c48c4065745bbbffd1d"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 109.00000000037835
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1126,
+          "inliers": 882,
+          "inlier_ratio": 0.783303730017762,
+          "reprojection_rms_px": 1.8567650318145752,
+          "feature_coverage": 0.5962352752685547,
+          "occupied_cells": 11,
+          "overlap": 0.9863428836507965,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "worse_than_features",
+          "ecc_score": 0.9957149765484424,
+          "ecc_reprojection_rms_px": 3.980835437774658
+        },
+        "matrix": [
+          [
+            1.0019864338916198,
+            0.014965359780713724,
+            -15.576007799680161
+          ],
+          [
+            -0.01678157617702161,
+            1.0015204638720463,
+            21.77631914168888
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 109.00000000037835,
+        "hot_ms": [
+          77.99999999951979,
+          78.99999999972351,
+          109.00000000037835
+        ]
+      }
+    },
+    {
+      "generation": 12,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_013.png",
+          "sha256": "35654e67f2225a9dcfbf2e91a5e5000079769f9fd747454a3544042406d87f85"
+        },
+        {
+          "file": "degraded_012.png",
+          "sha256": "519ac885d318f5eb5bb9c9e79cae0011f2a3fdf76f3ea9c06a24466fe05d93c6"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 202.9999999995198
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 456,
+          "inliers": 438,
+          "inlier_ratio": 0.9605263157894737,
+          "reprojection_rms_px": 0.9729190468788147,
+          "feature_coverage": 0.39981719851493835,
+          "occupied_cells": 7,
+          "overlap": 0.9998783759911278,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "low_score",
+          "ecc_score": 0.5835619218436457
+        },
+        "matrix": [
+          [
+            1.0000919983542573,
+            -0.0004606130215445856,
+            0.10929551266601899
+          ],
+          [
+            -3.4843379006664045e-06,
+            0.9997567680664234,
+            0.14578125590628774
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 109.00000000037835,
+        "hot_ms": [
+          93.99999999914144,
+          94.00000000096043,
+          93.99999999914144
+        ]
+      }
+    },
+    {
+      "generation": 13,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_014.png",
+          "sha256": "5f064c39d98a6f65655de2c605fc462753c1658aeb0ef2f8cb526a9e0cef5f95"
+        },
+        {
+          "file": "degraded_013.png",
+          "sha256": "c42f083bb3912e007382531d9f93fe73fdc5b92f20ed2db10959052e54dc5f60"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 125.0
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1065,
+          "inliers": 900,
+          "inlier_ratio": 0.8450704225352113,
+          "reprojection_rms_px": 1.8827115297317505,
+          "feature_coverage": 0.34082308411598206,
+          "occupied_cells": 9,
+          "overlap": 0.9573303768829913,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1065,
+            "inliers": 900,
+            "inlier_ratio": 0.8450704225352113,
+            "reprojection_rms_px": 7.041479587554932,
+            "feature_coverage": 0.34082308411598206,
+            "occupied_cells": 9
+          }
+        },
+        "matrix": [
+          [
+            1.0032906629483533,
+            0.061524663704302304,
+            -32.90375641627456
+          ],
+          [
+            -0.062349709710752314,
+            0.9985792876807591,
+            86.44247909899269
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 109.00000000037835,
+        "hot_ms": [
+          94.00000000096043,
+          93.99999999914144,
+          125.0
+        ]
+      }
+    },
+    {
+      "generation": 14,
+      "original_log_reason": "orb_reprojection_error",
+      "images": [
+        {
+          "file": "reference_015.png",
+          "sha256": "6ef98d1e2d0a79551fc4480453e105314b3dab62b98d0d85fe78e672f0b4a4d4"
+        },
+        {
+          "file": "degraded_014.png",
+          "sha256": "7ccc997731b4d4f9f91175bd78e0dcacb06ff293fdccbfe11b9eec729f4679ef"
+        }
+      ],
+      "old": {
+        "accepted": false,
+        "reason": "orb_reprojection_error",
+        "cold_ms": 125.0
+      },
+      "new": {
+        "accepted": true,
+        "quality": {
+          "matches": 1022,
+          "inliers": 612,
+          "inlier_ratio": 0.598825831702544,
+          "reprojection_rms_px": 1.9625003337860107,
+          "feature_coverage": 0.37811875343322754,
+          "occupied_cells": 7,
+          "overlap": 0.9411985242598456,
+          "method": "feature_affine",
+          "confidence_kind": "feature_inlier_ratio",
+          "reference_cache_builds": 1,
+          "ecc_result": "rejected_keep_features",
+          "ecc_rejection": "feature_reprojection_error",
+          "ecc_rejected_quality": {
+            "matches": 1022,
+            "inliers": 612,
+            "inlier_ratio": 0.598825831702544,
+            "reprojection_rms_px": 6.8714752197265625,
+            "feature_coverage": 0.37811875343322754,
+            "occupied_cells": 7
+          }
+        },
+        "matrix": [
+          [
+            1.0068031037512473,
+            0.0028734792709455828,
+            -95.00703866978455
+          ],
+          [
+            -0.00456981840286742,
+            1.0080263079702563,
+            -7.274014908548588
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "cold_ms": 93.0000000007567,
+        "hot_ms": [
+          77.99999999951979,
+          110.00000000058208,
+          93.99999999914144
+        ]
+      }
+    }
+  ],
+  "static_command_replay": [
+    {
+      "file": "01_rotate_plus5.png",
+      "angle_deg": 5.00358266222852,
+      "translation": [
+        50.463569484401624,
+        -81.56978155660026
+      ],
+      "quality": {
+        "matches": 1184,
+        "inliers": 1048,
+        "inlier_ratio": 0.8851351351351351,
+        "reprojection_rms_px": 1.889039397239685,
+        "feature_coverage": 0.6929370164871216,
+        "occupied_cells": 12,
+        "overlap": 0.9524124144978169,
+        "method": "ecc_checked",
+        "confidence_kind": "ecc_correlation",
+        "ecc_result": "accepted",
+        "feature_rms_px": 1.8358287811279297,
+        "reference_cache_builds": 1,
+        "ecc_scale": 0.25
+      }
+    },
+    {
+      "file": "02_rotate_minus5.png",
+      "angle_deg": -4.997824459416475,
+      "translation": [
+        -43.15909831998544,
+        85.42987991989835
+      ],
+      "quality": {
+        "matches": 1152,
+        "inliers": 897,
+        "inlier_ratio": 0.7786458333333334,
+        "reprojection_rms_px": 1.802398443222046,
+        "feature_coverage": 0.6846252679824829,
+        "occupied_cells": 11,
+        "overlap": 0.9526466104579465,
+        "method": "ecc_checked",
+        "confidence_kind": "ecc_correlation",
+        "ecc_result": "accepted",
+        "feature_rms_px": 1.7447330951690674,
+        "reference_cache_builds": 1,
+        "ecc_scale": 0.25
+      }
+    },
+    {
+      "file": "03_translate_right_sample40.png",
+      "angle_deg": 0.00584860432372973,
+      "translation": [
+        -39.750483329090265,
+        -0.15320963803059445
+      ],
+      "quality": {
+        "matches": 1344,
+        "inliers": 1265,
+        "inlier_ratio": 0.9412202380952381,
+        "reprojection_rms_px": 1.512042760848999,
+        "feature_coverage": 0.7020853161811829,
+        "occupied_cells": 12,
+        "overlap": 0.9792064817501756,
+        "method": "ecc_checked",
+        "confidence_kind": "ecc_correlation",
+        "ecc_result": "accepted",
+        "feature_rms_px": 1.4853850603103638,
+        "reference_cache_builds": 1,
+        "ecc_scale": 0.25
+      }
+    },
+    {
+      "file": "04_after_exit_affine_off.png",
+      "angle_deg": 0.049069574464244606,
+      "translation": [
+        1.2124642978403035,
+        -0.7357892849648651
+      ],
+      "quality": {
+        "matches": 1374,
+        "inliers": 1286,
+        "inlier_ratio": 0.9359534206695779,
+        "reprojection_rms_px": 1.22236168384552,
+        "feature_coverage": 0.719703733921051,
+        "occupied_cells": 12,
+        "overlap": 0.9995223993374985,
+        "method": "ecc_checked",
+        "confidence_kind": "ecc_correlation",
+        "ecc_result": "accepted",
+        "feature_rms_px": 1.1198807954788208,
+        "reference_cache_builds": 1,
+        "ecc_scale": 0.25
+      }
+    }
+  ]
+}

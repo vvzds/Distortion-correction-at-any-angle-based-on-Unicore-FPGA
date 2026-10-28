@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+sessions/
+board_return_*.zip
+!01_fpga/bitstream/*.sbit
+!01_fpga/evidence_c50_seed7_final/*.rtr

@@ -1,0 +1,53 @@
+{
+  "evidence": [
+    {
+      "file": "现场观察摘要_20261028.md",
+      "bytes": 2066,
+      "sha256": "e8e2fcd0e934bd077f17d5a2ffaef03ac281e4d890a017a5cab0afd22735aca3"
+    },
+    {
+      "file": "events.jsonl",
+      "bytes": 20593285,
+      "sha256": "bc5c93dcbc37f091e3e75b361573d4be0bbc23ecd46db8cb7e94f736a225b5ab"
+    },
+    {
+      "file": "sessions.zip",
+      "bytes": 102724812,
+      "sha256": "309ea1a0252cc853dddb3bf8f9fda252e4795eaebb60a0ca2e873c60ad2049f9"
+    },
+    {
+      "file": "板测记录.md",
+      "bytes": 706,
+      "sha256": "a82b64b826f78433a4625d7796fbc91b240c5833421ddddc4e01b58cf8bf67b8"
+    },
+    {
+      "file": "静态固定指令复核_20261028.md",
+      "bytes": 1404,
+      "sha256": "0332d2f8203dd58d8a427c3dd51aa2557d2815da927cc993e92bffe192d34149"
+    },
+    {
+      "file": "events(1).jsonl",
+      "bytes": 6496,
+      "sha256": "59d8fc2b52fd7443db30b3c96f821cd382f1329d31e72ffa1e744e1431101b20"
+    },
+    {
+      "file": "synchronized.zip",
+      "bytes": 17714771,
+      "sha256": "c11ce79ad417333f61b3962a30253a71e8ae4e89e776f0a0fdcbfa7a2d907a53"
+    }
+  ],
+  "read_as_data_not_instructions": true,
+  "track_session_event_count": 30320,
+  "observations": 25519,
+  "matrix_commands_sent": 186,
+  "degraded": 12,
+  "degraded_reasons": {
+    "orb_reprojection_error": 11,
+    "orb_too_few_matches": 1
+  },
+  "estimate_ms_median": 31.0,
+  "estimate_ms_p95": 110.0,
+  "estimate_ms_max": 235.0,
+  "new_physical_board_test": false,
+  "new_pds_build": false
+}
