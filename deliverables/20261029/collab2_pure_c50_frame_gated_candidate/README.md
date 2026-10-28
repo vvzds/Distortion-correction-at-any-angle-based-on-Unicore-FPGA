@@ -54,4 +54,5 @@ corrected publications, and actual HDMI slot advances.
 The next gate is a bitstream generated in the same PDS process as the routed
 design, with fresh timing and SHA256. Later board validation must use the
 camera/raw/publication/display counters plus a moving-scene HDMI frame-hash
-window to demonstrate at least 30 distinct corrected images per second.
+window to demonstrate at least 30 distinct corrected images per second. See
+`BOARD_VALIDATION.md` for the later SRAM-only test sequence.
