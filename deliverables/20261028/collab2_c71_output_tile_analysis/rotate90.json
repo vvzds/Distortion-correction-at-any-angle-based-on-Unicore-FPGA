@@ -1,0 +1,342 @@
+{
+  "trace": "D:\\FPGA PDS\\yx\\C59_cache_trace_20261027\\map_xy_90.hex",
+  "model": "RTL-shaped locality estimate: four cached source rows, round-robin replacement, each miss loads a full 1920-pixel row (120 x 256-bit beats)",
+  "limitations": [
+    "This is a trace-based source-read estimate, not cycle-accurate DDR simulation or FPS evidence.",
+    "The RTL cache also protects currently queried rows during prefetch; this conservative model does not model that protection.",
+    "Tiled output order is incompatible with rect_wr_if/corr_write_pack, which require a complete frame in contiguous address order and pack 64 consecutive 32-bit words per packet.",
+    "A deployable tiled scheduler needs output reordering storage, address/slot lifecycle support, and display integration; none are included here."
+  ],
+  "cases": [
+    {
+      "tileW": 1920,
+      "tileH": 1080,
+      "order": "horizontal",
+      "sourceRowReads": 1166400,
+      "sourceReadBeats": 139968000,
+      "sourceReadBytes": 4478976000,
+      "readBytesPerOutputPixel": 2160,
+      "outputBufferBytes": 4147200
+    },
+    {
+      "tileW": 32,
+      "tileH": 16,
+      "order": "horizontal",
+      "sourceRowReads": 1204615,
+      "sourceReadBeats": 144553800,
+      "sourceReadBytes": 4625721600,
+      "readBytesPerOutputPixel": 2230.7685185185187,
+      "outputBufferBytes": 1024
+    },
+    {
+      "tileW": 32,
+      "tileH": 16,
+      "order": "vertical",
+      "sourceRowReads": 1207203,
+      "sourceReadBeats": 144864360,
+      "sourceReadBytes": 4635659520,
+      "readBytesPerOutputPixel": 2235.561111111111,
+      "outputBufferBytes": 1024
+    },
+    {
+      "tileW": 64,
+      "tileH": 16,
+      "order": "horizontal",
+      "sourceRowReads": 1185109,
+      "sourceReadBeats": 142213080,
+      "sourceReadBytes": 4550818560,
+      "readBytesPerOutputPixel": 2194.6462962962964,
+      "outputBufferBytes": 2048
+    },
+    {
+      "tileW": 64,
+      "tileH": 16,
+      "order": "vertical",
+      "sourceRowReads": 1186386,
+      "sourceReadBeats": 142366320,
+      "sourceReadBytes": 4555722240,
+      "readBytesPerOutputPixel": 2197.011111111111,
+      "outputBufferBytes": 2048
+    },
+    {
+      "tileW": 128,
+      "tileH": 16,
+      "order": "horizontal",
+      "sourceRowReads": 1175388,
+      "sourceReadBeats": 141046560,
+      "sourceReadBytes": 4513489920,
+      "readBytesPerOutputPixel": 2176.6444444444446,
+      "outputBufferBytes": 4096
+    },
+    {
+      "tileW": 128,
+      "tileH": 16,
+      "order": "vertical",
+      "sourceRowReads": 1176006,
+      "sourceReadBeats": 141120720,
+      "sourceReadBytes": 4515863040,
+      "readBytesPerOutputPixel": 2177.788888888889,
+      "outputBufferBytes": 4096
+    },
+    {
+      "tileW": 256,
+      "tileH": 16,
+      "order": "horizontal",
+      "sourceRowReads": 1170765,
+      "sourceReadBeats": 140491800,
+      "sourceReadBytes": 4495737600,
+      "readBytesPerOutputPixel": 2168.0833333333335,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 256,
+      "tileH": 16,
+      "order": "vertical",
+      "sourceRowReads": 1171058,
+      "sourceReadBeats": 140526960,
+      "sourceReadBytes": 4496862720,
+      "readBytesPerOutputPixel": 2168.625925925926,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 32,
+      "tileH": 32,
+      "order": "horizontal",
+      "sourceRowReads": 1205808,
+      "sourceReadBeats": 144696960,
+      "sourceReadBytes": 4630302720,
+      "readBytesPerOutputPixel": 2232.9777777777776,
+      "outputBufferBytes": 2048
+    },
+    {
+      "tileW": 32,
+      "tileH": 32,
+      "order": "vertical",
+      "sourceRowReads": 1207203,
+      "sourceReadBeats": 144864360,
+      "sourceReadBytes": 4635659520,
+      "readBytesPerOutputPixel": 2235.561111111111,
+      "outputBufferBytes": 2048
+    },
+    {
+      "tileW": 64,
+      "tileH": 32,
+      "order": "horizontal",
+      "sourceRowReads": 1185679,
+      "sourceReadBeats": 142281480,
+      "sourceReadBytes": 4553007360,
+      "readBytesPerOutputPixel": 2195.7018518518516,
+      "outputBufferBytes": 4096
+    },
+    {
+      "tileW": 64,
+      "tileH": 32,
+      "order": "vertical",
+      "sourceRowReads": 1186386,
+      "sourceReadBeats": 142366320,
+      "sourceReadBytes": 4555722240,
+      "readBytesPerOutputPixel": 2197.011111111111,
+      "outputBufferBytes": 4096
+    },
+    {
+      "tileW": 128,
+      "tileH": 32,
+      "order": "horizontal",
+      "sourceRowReads": 1175647,
+      "sourceReadBeats": 141077640,
+      "sourceReadBytes": 4514484480,
+      "readBytesPerOutputPixel": 2177.124074074074,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 128,
+      "tileH": 32,
+      "order": "vertical",
+      "sourceRowReads": 1176006,
+      "sourceReadBeats": 141120720,
+      "sourceReadBytes": 4515863040,
+      "readBytesPerOutputPixel": 2177.788888888889,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 256,
+      "tileH": 32,
+      "order": "horizontal",
+      "sourceRowReads": 1170872,
+      "sourceReadBeats": 140504640,
+      "sourceReadBytes": 4496148480,
+      "readBytesPerOutputPixel": 2168.2814814814815,
+      "outputBufferBytes": 16384
+    },
+    {
+      "tileW": 256,
+      "tileH": 32,
+      "order": "vertical",
+      "sourceRowReads": 1171058,
+      "sourceReadBeats": 140526960,
+      "sourceReadBytes": 4496862720,
+      "readBytesPerOutputPixel": 2168.625925925926,
+      "outputBufferBytes": 16384
+    },
+    {
+      "tileW": 32,
+      "tileH": 64,
+      "order": "horizontal",
+      "sourceRowReads": 1206490,
+      "sourceReadBeats": 144778800,
+      "sourceReadBytes": 4632921600,
+      "readBytesPerOutputPixel": 2234.240740740741,
+      "outputBufferBytes": 4096
+    },
+    {
+      "tileW": 32,
+      "tileH": 64,
+      "order": "vertical",
+      "sourceRowReads": 1207203,
+      "sourceReadBeats": 144864360,
+      "sourceReadBytes": 4635659520,
+      "readBytesPerOutputPixel": 2235.561111111111,
+      "outputBufferBytes": 4096
+    },
+    {
+      "tileW": 64,
+      "tileH": 64,
+      "order": "horizontal",
+      "sourceRowReads": 1186018,
+      "sourceReadBeats": 142322160,
+      "sourceReadBytes": 4554309120,
+      "readBytesPerOutputPixel": 2196.32962962963,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 64,
+      "tileH": 64,
+      "order": "vertical",
+      "sourceRowReads": 1186386,
+      "sourceReadBeats": 142366320,
+      "sourceReadBytes": 4555722240,
+      "readBytesPerOutputPixel": 2197.011111111111,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 128,
+      "tileH": 64,
+      "order": "horizontal",
+      "sourceRowReads": 1175811,
+      "sourceReadBeats": 141097320,
+      "sourceReadBytes": 4515114240,
+      "readBytesPerOutputPixel": 2177.427777777778,
+      "outputBufferBytes": 16384
+    },
+    {
+      "tileW": 128,
+      "tileH": 64,
+      "order": "vertical",
+      "sourceRowReads": 1176006,
+      "sourceReadBeats": 141120720,
+      "sourceReadBytes": 4515863040,
+      "readBytesPerOutputPixel": 2177.788888888889,
+      "outputBufferBytes": 16384
+    },
+    {
+      "tileW": 256,
+      "tileH": 64,
+      "order": "horizontal",
+      "sourceRowReads": 1170940,
+      "sourceReadBeats": 140512800,
+      "sourceReadBytes": 4496409600,
+      "readBytesPerOutputPixel": 2168.4074074074074,
+      "outputBufferBytes": 32768
+    },
+    {
+      "tileW": 256,
+      "tileH": 64,
+      "order": "vertical",
+      "sourceRowReads": 1171058,
+      "sourceReadBeats": 140526960,
+      "sourceReadBytes": 4496862720,
+      "readBytesPerOutputPixel": 2168.625925925926,
+      "outputBufferBytes": 32768
+    },
+    {
+      "tileW": 32,
+      "tileH": 128,
+      "order": "horizontal",
+      "sourceRowReads": 1206898,
+      "sourceReadBeats": 144827760,
+      "sourceReadBytes": 4634488320,
+      "readBytesPerOutputPixel": 2234.9962962962964,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 32,
+      "tileH": 128,
+      "order": "vertical",
+      "sourceRowReads": 1207203,
+      "sourceReadBeats": 144864360,
+      "sourceReadBytes": 4635659520,
+      "readBytesPerOutputPixel": 2235.561111111111,
+      "outputBufferBytes": 8192
+    },
+    {
+      "tileW": 64,
+      "tileH": 128,
+      "order": "horizontal",
+      "sourceRowReads": 1186208,
+      "sourceReadBeats": 142344960,
+      "sourceReadBytes": 4555038720,
+      "readBytesPerOutputPixel": 2196.6814814814816,
+      "outputBufferBytes": 16384
+    },
+    {
+      "tileW": 64,
+      "tileH": 128,
+      "order": "vertical",
+      "sourceRowReads": 1186386,
+      "sourceReadBeats": 142366320,
+      "sourceReadBytes": 4555722240,
+      "readBytesPerOutputPixel": 2197.011111111111,
+      "outputBufferBytes": 16384
+    },
+    {
+      "tileW": 128,
+      "tileH": 128,
+      "order": "horizontal",
+      "sourceRowReads": 1175899,
+      "sourceReadBeats": 141107880,
+      "sourceReadBytes": 4515452160,
+      "readBytesPerOutputPixel": 2177.590740740741,
+      "outputBufferBytes": 32768
+    },
+    {
+      "tileW": 128,
+      "tileH": 128,
+      "order": "vertical",
+      "sourceRowReads": 1176006,
+      "sourceReadBeats": 141120720,
+      "sourceReadBytes": 4515863040,
+      "readBytesPerOutputPixel": 2177.788888888889,
+      "outputBufferBytes": 32768
+    },
+    {
+      "tileW": 256,
+      "tileH": 128,
+      "order": "horizontal",
+      "sourceRowReads": 1170975,
+      "sourceReadBeats": 140517000,
+      "sourceReadBytes": 4496544000,
+      "readBytesPerOutputPixel": 2168.472222222222,
+      "outputBufferBytes": 65536
+    },
+    {
+      "tileW": 256,
+      "tileH": 128,
+      "order": "vertical",
+      "sourceRowReads": 1171058,
+      "sourceReadBeats": 140526960,
+      "sourceReadBytes": 4496862720,
+      "readBytesPerOutputPixel": 2168.625925925926,
+      "outputBufferBytes": 65536
+    }
+  ]
+}
