@@ -1,8 +1,10 @@
 # Pure RAW8 capture + C50 correction, frame-gated candidate
 
 Status: simulation and final independent post-route timing passed. The
-matching SRAM bitstream is archived. No corrected 30-distinct-frame/s board
-claim is made, and no board or Flash was changed.
+matching SRAM bitstream is archived. On 2026-10-29, the board produced 30
+distinct corrected HDMI images per interior complete second in a 40 s real
+distortion run and a 30 s run with 1-degree affine enabled. See
+`BOARD_RESULT_20261029.md` for raw evidence and limits. Flash was not changed.
 
 ## Integration
 
@@ -73,7 +75,6 @@ corrected publications, and actual HDMI slot advances.
 - `parameters/real_parameters.csv`: the measured calibration used in the
   earlier board test; resend after SRAM download.
 
-The remaining gate is real board validation. It must use the
-camera/raw/publication/display counters plus a moving-scene HDMI frame-hash
-window to demonstrate at least 30 distinct corrected images per second. See
-`BOARD_VALIDATION.md` for the later SRAM-only test sequence.
+The initial SRAM board-validation gate has been completed for the tested
+parameters. `BOARD_VALIDATION.md` remains the repeatable procedure; longer
+soak and broader parameter-range validation remain future gates.
