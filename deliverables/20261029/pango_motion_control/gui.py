@@ -23,6 +23,7 @@ class Application:
         self.crop=tk.BooleanVar(value=True);self.adaptive=tk.BooleanVar(value=True);self.live=tk.BooleanVar(value=False)
         self.port=tk.StringVar(value='COM11');self.note=tk.StringVar(value='离线模式 · 可先载入图像预览')
         self.performance=tk.StringVar(value='等待板端数据')
+        self.results_after=None
         main=ttk.Frame(root,padding=16);main.pack(fill='both',expand=True)
         bar=ttk.Frame(main);bar.pack(fill='x')
         ttk.Label(bar,text='串口').pack(side='left')
@@ -64,18 +65,24 @@ class Application:
         for variable in (self.angle,self.zoom,self.tx,self.ty,self.shear):
             variable.trace_add('write',self.changed)
         root.protocol('WM_DELETE_WINDOW',self.close)
-        self.refresh();self.root.after(10,self.poll_results);self.root.after(1000,self.poll_status)
+        self.refresh();self.schedule_results_poll(2);self.root.after(1000,self.poll_status)
     def refresh(self):
         from serial.tools.list_ports import comports
         self.ports['values']=[p.device for p in comports()]
     def task(self,function,callback):
         if self.working:return
         self.working=True
+        self.schedule_results_poll(2)
         def execute():
             try:self.results.put((callback,function(),None))
             except Exception as error:self.results.put((callback,None,str(error)))
         threading.Thread(target=execute,daemon=True).start()
+    def schedule_results_poll(self,delay_ms):
+        if self.results_after is not None:
+            self.root.after_cancel(self.results_after)
+        self.results_after=self.root.after(delay_ms,self.poll_results)
     def poll_results(self):
+        self.results_after=None
         try:
             while True:
                 callback,result,error=self.results.get_nowait();self.working=False
@@ -88,7 +95,7 @@ class Application:
                     self.queued_apply=False
                     if self.link:self.root.after(0,self.apply)
         except queue.Empty:pass
-        self.root.after(10,self.poll_results)
+        self.schedule_results_poll(2 if self.working else 50)
     def connect(self):
         if self.link:
             self.stop_motion();self.link.close();self.link=None;self.previous=None;self.note.set('已断开');return
