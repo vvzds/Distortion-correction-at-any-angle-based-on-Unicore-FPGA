@@ -10,7 +10,11 @@ claim is made. The board-tested small-angle baseline remains
 ## Decision
 
 Target one **directly written 16x8 blocked source-frame layout**, with 240x16
-output microtiles and two-bank raster reorder. Keep the AF961A-tested OV5640
+output microtiles, two-bank raster reorder, and a 512-block, 64-set, eight-way
+cache. The cache set index is selected at frame boundaries: linear block index
+for low/mid angles and a block-x XOR block-y hash near vertical mappings.
+See `DECISION_REPORT_20261029.md` for the 17-angle comparison and feasibility
+limits. Keep the AF961A-tested OV5640
 RAW8 acquisition, Bayer conversion, camera timing, C50 frame ownership,
 parameter gates, corrected-frame writer, and HDMI display contract. Replace
 the raw DDR writer after RGB565 packing; adapt the C63 cache keys, 2x2 sample
@@ -29,6 +33,11 @@ The three considered paths have different system costs:
 | Direct blocked capture | One source layout for all angles, no extra DDR frame copy or new source slot; strongest steady-state bandwidth budget | Needs a ping-pong eight-line camera-to-DDR stripe buffer and a new raw writer; must revalidate acquisition and raw preview | Chosen target |
 
 ## Full-frame comparison
+
+The following table is the initial 256-tag screening model in logical-y block
+order. The final recommendation instead uses camera-order blocks and 512 tags;
+its corrected 17-angle results are in `DECISION_REPORT_20261029.md` and
+`evidence/cache_orientation_*.json`.
 
 The same C63 fixed-point `undistort_map.v` (SHA256
 `89E31CC0CBB9D149523CE908DFB9104CE5A8FC5A6CB35762DCAC597E05475731`)
@@ -70,7 +79,8 @@ promising but do not establish 30 fps with one read in flight.
   `1079 - source_y`, matching the current C63 raw-frame orientation.
 - Four bilinear neighbours use x, clamped x+1, `y_storage`, and clamped
   `y_storage-1`. The `source_block_quad.v` stage computes all four block keys
-  using one base calculation and constant increments. The cache must protect
+  using one base calculation and constant increments, and supplies both cache
+  set hashes. The cache must protect
   all four keys through sample retirement, including right/bottom crossings.
 - The direct writer needs two alternating eight-line RGB565 stripe banks,
   61,440 bytes total, to collect one band while draining the previous one.
@@ -78,11 +88,13 @@ promising but do not establish 30 fps with one read in flight.
   frame. The 240x16 output traversal requires two 16-line reorder banks,
   122,880 bytes total, before the existing sequential corrected writer.
 
-`source_block_addr.v` and `source_block_quad.v` are reusable address stages;
+`source_block_addr.v`, `source_block_quad.v`, and `source_hash_mode.v` are
+reusable address/hash stages;
 neither is wired into the baseline top yet. ModelSim 10.7 compiled both and
 their testbenches with zero warnings. Exhaustive tests passed all 2,073,600
 valid coordinates, including block boundaries and image-edge clamping, and
-rejected x=1920/y=1080. The full-frame coordinate traces are kept in the
+  rejected x=1920/y=1080. Both hash modes passed 4,147,200 coordinate checks,
+  and the threshold selector passed 11 cases. The full-frame coordinate traces are kept in the
 local ASCII-path simulation directory and can be regenerated with
 `map_angles_tb.v` and the baseline mapper; only compact JSON and source files
 are committed. `analyze_tiles.js` scans output tile widths. The C68
@@ -93,7 +105,8 @@ are committed. `analyze_tiles.js` scans output tile widths. The C68
 1. Build and simulate the direct stripe writer with asynchronous camera/DDR
    clocks, DDR stalls, exact-frame publication, slot ownership, and no input
    loss. Keep the existing raw capture bitstream untouched.
-2. Adapt the C63 cache and core to four block keys, eight-beat loads, 240x16
+2. Adapt the C63 cache and core to 512 protected block tags, four block keys,
+   frame-latched set hashing, eight-beat loads, 240x16
    traversal, and raster reorder. Compare every output pixel to an independent
    bilinear reference for identity, calibrated distortion, positive/negative
    rotations, edge clamps, and dynamic parameter changes between frames.

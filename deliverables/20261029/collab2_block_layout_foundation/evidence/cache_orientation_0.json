@@ -1,0 +1,197 @@
+{
+  "model": "16x8 block, ideal eight-way LRU and 16-line strips",
+  "cases": [
+    {
+      "tileWidth": 240,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "logical-y-order",
+      "misses": 19096
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "camera-order",
+      "misses": 18886
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "logical-y-order",
+      "misses": 16610
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "camera-order",
+      "misses": 16635
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "logical-y-order",
+      "misses": 13649
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "camera-order",
+      "misses": 13111
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "logical-y-order",
+      "misses": 12979
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "camera-order",
+      "misses": 12984
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "logical-y-order",
+      "misses": 13014
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "camera-order",
+      "misses": 12974
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "logical-y-order",
+      "misses": 12974
+    },
+    {
+      "tileWidth": 240,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "camera-order",
+      "misses": 12974
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "logical-y-order",
+      "misses": 14721
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "camera-order",
+      "misses": 14850
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "logical-y-order",
+      "misses": 13939
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 32,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "camera-order",
+      "misses": 13967
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "logical-y-order",
+      "misses": 13068
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "camera-order",
+      "misses": 12976
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "logical-y-order",
+      "misses": 12975
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 64,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "camera-order",
+      "misses": 12976
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "logical-y-order",
+      "misses": 12974
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "linear",
+      "storage": "camera-order",
+      "misses": 12974
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "logical-y-order",
+      "misses": 12974
+    },
+    {
+      "tileWidth": 960,
+      "setCount": 128,
+      "ways": 8,
+      "hash": "xor",
+      "storage": "camera-order",
+      "misses": 12974
+    }
+  ]
+}

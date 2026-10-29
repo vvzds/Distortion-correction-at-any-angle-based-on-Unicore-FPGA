@@ -1,0 +1,17 @@
+{
+  "trace": "map_89.hex",
+  "geometry": "16 output rows per strip, 64-pixel microtiles, 256 tags, 32 sets, 8-way LRU",
+  "normal": {
+    "misses": 82163,
+    "payloadBeats": 657304,
+    "edgeMisses": 0,
+    "sourceFrameBytes": 4147200
+  },
+  "transposed": {
+    "misses": 10553,
+    "payloadBeats": 78912,
+    "edgeMisses": 1378,
+    "sourceFrameBytes": 4177920
+  },
+  "limits": "Ideal replacement only; no pinning, DMA transpose cost, DDR arbitration, or physical timing"
+}
