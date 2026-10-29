@@ -16,6 +16,7 @@ class Application:
         self.results=queue.Queue();self.working=False;self.debounce=None;self.previous=None;self.queued_apply=False
         self.motion_running=False;self.motion_profile=None;self.motion_start=None
         self.motion_latency_ms=None;self.motion_commands=0;self.motion_cancel=None
+        self.motion_ui_last_update=0.0
         self.angle=tk.DoubleVar(value=0);self.zoom=tk.DoubleVar(value=1)
         self.tx=tk.DoubleVar(value=0);self.ty=tk.DoubleVar(value=0);self.shear=tk.DoubleVar(value=0)
         self.motion_amplitude=tk.DoubleVar(value=45);self.motion_tilt=tk.DoubleVar(value=0.10)
@@ -171,7 +172,7 @@ class Application:
             self.motion_profile=dict(center=p['angle'],amplitude=amplitude,
                 shear=p['shear'],tilt=tilt_amplitude,period=period,extra_lead=extra_lead,
                 tx=p['tx'],ty=p['ty'],zoom=p['zoom'],adaptive=adaptive,calibration=calibration)
-            self.motion_latency_ms=latency;self.motion_start=origin
+            self.motion_latency_ms=latency;self.motion_start=origin;self.motion_ui_last_update=0.0
             self.motion_running=True;self.motion_commands=0
             self.motion_note.set(
                 f"運行中 · 轨迹预检 {report['samples']} 点 · patch 最大 "
@@ -205,14 +206,19 @@ class Application:
             self.motion_note.set('动态运动因板端错误或 patch 越界停止，请保存状态并检查参数')
             self.show_status(status);return
         self.motion_latency_ms=update_latency_estimate(self.motion_latency_ms,latency)
-        self.motion_commands+=1;self.show_status(status)
+        self.motion_commands+=1
         p=self.motion_profile
+        if self.motion_running:
+            self.root.after(0,self.motion_tick)
+            now=time.monotonic()
+            if now-self.motion_ui_last_update<.2:return
+            self.motion_ui_last_update=now
+        self.show_status(status)
         if self.motion_running:
             self.motion_note.set(
                 f"运行动画 · 当前 {angle:.1f}° · 倾斜 {shear:.3f} · "
                 f"生效延迟 {self.motion_latency_ms:.0f} ms · "
                 f"额外提前 {p['extra_lead']:.0f} ms · 已更新 {self.motion_commands} 次")
-            self.root.after(0,self.motion_tick)
     def stop_motion(self):
         if self.motion_cancel:self.motion_cancel.set()
         self.motion_running=False;self.motion_profile=None;self.motion_start=None
