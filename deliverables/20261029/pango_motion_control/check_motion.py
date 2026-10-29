@@ -33,21 +33,46 @@ def main():
             self.written_at = __import__('time').monotonic()
 
     connection = object.__new__(Connection)
-    connection.sequence = 40
+    connection.sequence = 39
     connection.serial = FakeSerial()
-    connection.status = lambda: {'active_sequence': 1, 'pending_sequence': 2}
+    connection._known_config_sequences = None
+    status_queries = [0]
+    def initial_status():
+        status_queries[0] += 1
+        connection.next_sequence()
+        connection._known_config_sequences = (1, 2)
+        return {'active_sequence': 1, 'pending_sequence': 2}
+    connection.status = initial_status
     def query_samples():
         base = connection.serial.written_at
-        yield ({'active_sequence': 1, 'core_fault': False, 'write_fault': False},
-               base + .001, base + .003)
-        yield ({'active_sequence': 41, 'core_fault': False, 'write_fault': False},
-               base + .023, base + .025)
+        samples = [
+            ({'active_sequence': 1, 'pending_sequence': 2,
+              'core_fault': False, 'write_fault': False}, base + .001, base + .003),
+            ({'active_sequence': 41, 'pending_sequence': 41,
+              'core_fault': False, 'write_fault': False}, base + .023, base + .025),
+        ]
+        for result, sent, received in samples:
+            connection.sequence = (connection.sequence + 1) & 0xffff
+            connection._known_config_sequences = (result['active_sequence'],
+                                                   result['pending_sequence'])
+            yield result, sent, received
     query_samples = query_samples()
     connection.status_timed = lambda: next(query_samples)
     status, sent_at, active_estimate_at = connection.configure_timed([0] * 16)
     assert status['active_sequence'] == 41
     assert math.isclose(active_estimate_at - sent_at, .013, abs_tol=.002)
-    print('PASS UART activation time uses the midpoint between old/new sequence observations')
+    assert status_queries[0] == 1
+    def next_activation():
+        base = connection.serial.written_at
+        result = {'active_sequence': 44, 'pending_sequence': 44,
+                  'core_fault': False, 'write_fault': False}
+        connection.sequence = (connection.sequence + 1) & 0xffff
+        connection._known_config_sequences = (44, 44)
+        return result, base + .001, base + .003
+    connection.status_timed = next_activation
+    status,_,_=connection.configure_timed([0]*16,poll_interval=.005)
+    assert status['active_sequence'] == 44 and status_queries[0] == 1
+    print('PASS midpoint activation estimate, 5 ms poll option, and cached sequence reuse')
 
     from model import load_calibration
     report = verify_trajectory(load_calibration(), 0, 45, 1, 0, 0, 0,

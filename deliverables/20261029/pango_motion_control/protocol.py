@@ -32,6 +32,7 @@ class Connection:
         import serial
         self.serial=serial.Serial(port,baudrate=baud,timeout=0.05,write_timeout=1)
         self.sequence=int(time.monotonic()*1000)&65535
+        self._known_config_sequences=None
     def close(self): self.serial.close()
     def next_sequence(self):
         self.sequence=(self.sequence+1)&65535
@@ -62,15 +63,18 @@ class Connection:
         self.serial.write(packet(0x20,seq))
         payload=self._receive(0xa0,seq)
         received_at=time.monotonic()
-        return parse_status(payload),sent_at,received_at
+        result=parse_status(payload)
+        self._known_config_sequences=(result['active_sequence'],result['pending_sequence'])
+        return result,sent_at,received_at
     def configure(self,registers,timeout=1.5):
         status,_,_=self.configure_timed(registers,timeout)
         return status
-    def configure_timed(self,registers,timeout=1.5):
-        # Avoid false acknowledgement after a 16-bit sequence wrap or reconnect.
-        previous=self.status()
+    def configure_timed(self,registers,timeout=1.5,poll_interval=.02):
+        # Refresh once after connect; later acknowledgements keep this cache current.
+        if self._known_config_sequences is None:
+            self.status()
         seq=self.next_sequence()
-        while seq in (previous['active_sequence'],previous['pending_sequence']):
+        while seq in self._known_config_sequences:
             seq=self.next_sequence()
         sent_at=time.monotonic()
         self.serial.write(packet(0x10,seq,struct.pack('<16i',*registers)))
@@ -84,5 +88,5 @@ class Connection:
                 return status,sent_at,applied_at
             if status['core_fault'] or status['write_fault']: raise RuntimeError(status)
             last_sample_at=sample_at
-            time.sleep(.02)
+            time.sleep(max(0.0,poll_interval))
         raise TimeoutError('Configuration was not activated at a frame boundary')
