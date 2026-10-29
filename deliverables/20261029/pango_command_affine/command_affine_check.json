@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "hardware_opened": false,
+  "scenarios": 30,
+  "min_valid_fraction": 1.0,
+  "max_patch_width": 64,
+  "max_patch_height": 35,
+  "slow_deg_per_frame": 1.5,
+  "fast_deg_per_frame": 18.0,
+  "target_updates_sent": 3
+}
