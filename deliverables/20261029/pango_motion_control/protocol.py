@@ -59,8 +59,10 @@ class Connection:
         result,_,_=self.status_timed()
         return result
     def status_timed(self):
-        seq=self.next_sequence();sent_at=time.monotonic()
+        seq=self.next_sequence()
         self.serial.write(packet(0x20,seq))
+        self.serial.flush()
+        sent_at=time.monotonic()
         payload=self._receive(0xa0,seq)
         received_at=time.monotonic()
         result=parse_status(payload)
@@ -76,13 +78,14 @@ class Connection:
         seq=self.next_sequence()
         while seq in self._known_config_sequences:
             seq=self.next_sequence()
-        sent_at=time.monotonic()
         self.serial.write(packet(0x10,seq,struct.pack('<16i',*registers)))
+        self.serial.flush()
+        sent_at=time.monotonic()
         deadline=time.monotonic()+timeout
         last_sample_at=sent_at
         while time.monotonic()<deadline:
             status,query_sent_at,response_at=self.status_timed()
-            sample_at=(query_sent_at+response_at)/2.0
+            sample_at=query_sent_at
             if status['active_sequence']==seq:
                 applied_at=(last_sample_at+sample_at)/2.0
                 return status,sent_at,applied_at

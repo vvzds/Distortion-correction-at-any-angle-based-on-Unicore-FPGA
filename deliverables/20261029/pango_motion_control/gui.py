@@ -161,7 +161,7 @@ class Application:
             p=dict(parameters);p['zoom']=report['zoom']
             registers=compile_registers(calibration,
                 affine(p['angle'],p['zoom'],p['tx'],p['ty'],p['shear']),adaptive)
-            status,sent_at,active_estimate_at=link.configure_timed(registers,poll_interval=.005)
+            status,sent_at,active_estimate_at=link.configure_timed(registers,poll_interval=.001)
             latency=(active_estimate_at-sent_at)*1000.0
             return report,p,status,latency,active_estimate_at,amplitude,tilt_amplitude,period,extra_lead
         def done(result):
@@ -195,7 +195,7 @@ class Application:
             self.stop_motion();self.motion_note.set('动态参数停止：'+str(error));return
         link=self.link
         def action():
-            status,sent_at,active_estimate_at=link.configure_timed(registers,poll_interval=.005)
+            status,sent_at,active_estimate_at=link.configure_timed(registers,poll_interval=.001)
             return status,(active_estimate_at-sent_at)*1000.0,angle,shear
         self.task(action,self.motion_command_done)
     def motion_command_done(self,result):

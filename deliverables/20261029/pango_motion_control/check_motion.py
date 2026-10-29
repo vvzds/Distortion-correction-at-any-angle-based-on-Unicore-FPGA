@@ -31,6 +31,8 @@ def main():
         def write(self, data):
             self.data = data
             self.written_at = __import__('time').monotonic()
+        def flush(self):
+            pass
 
     connection = object.__new__(Connection)
     connection.sequence = 39
@@ -49,7 +51,7 @@ def main():
             ({'active_sequence': 1, 'pending_sequence': 2,
               'core_fault': False, 'write_fault': False}, base + .001, base + .003),
             ({'active_sequence': 41, 'pending_sequence': 41,
-              'core_fault': False, 'write_fault': False}, base + .023, base + .025),
+              'core_fault': False, 'write_fault': False}, base + .020, base + .022),
         ]
         for result, sent, received in samples:
             connection.sequence = (connection.sequence + 1) & 0xffff
@@ -60,7 +62,7 @@ def main():
     connection.status_timed = lambda: next(query_samples)
     status, sent_at, active_estimate_at = connection.configure_timed([0] * 16)
     assert status['active_sequence'] == 41
-    assert math.isclose(active_estimate_at - sent_at, .013, abs_tol=.002)
+    assert math.isclose(active_estimate_at - sent_at, .010, abs_tol=.002)
     assert status_queries[0] == 1
     def next_activation():
         base = connection.serial.written_at
@@ -70,9 +72,9 @@ def main():
         connection._known_config_sequences = (44, 44)
         return result, base + .001, base + .003
     connection.status_timed = next_activation
-    status,_,_=connection.configure_timed([0]*16,poll_interval=.005)
+    status,_,_=connection.configure_timed([0]*16,poll_interval=.001)
     assert status['active_sequence'] == 44 and status_queries[0] == 1
-    print('PASS midpoint activation estimate, 5 ms poll option, and cached sequence reuse')
+    print('PASS midpoint activation estimate, 1 ms poll option, and cached sequence reuse')
 
     from model import load_calibration
     report = verify_trajectory(load_calibration(), 0, 45, 1, 0, 0, 0,
