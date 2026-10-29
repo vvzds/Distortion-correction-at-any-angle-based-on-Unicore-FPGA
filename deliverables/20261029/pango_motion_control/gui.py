@@ -178,12 +178,12 @@ class Application:
                 f"{report['max_patch_width']}×{report['max_patch_height']} · "
                 f"共同缩放 {report['zoom']:.3f} · 生效延迟 {latency:.0f} ms · "
                 f"额外提前 {extra_lead:.0f} ms")
-            self.show_status(status);self.root.after(10,self.motion_tick)
+            self.show_status(status);self.root.after(0,self.motion_tick)
         self.task(action,done)
     def motion_tick(self):
         if not self.motion_running or not self.link:return
         if self.working:
-            self.root.after(10,self.motion_tick);return
+            self.root.after(2,self.motion_tick);return
         p=self.motion_profile;now=time.monotonic()
         lead=(self.motion_latency_ms or 0.0)+p['extra_lead']
         angle,shear=motion_pose(now-self.motion_start,p['center'],p['amplitude'],
@@ -212,7 +212,7 @@ class Application:
                 f"运行动画 · 当前 {angle:.1f}° · 倾斜 {shear:.3f} · "
                 f"生效延迟 {self.motion_latency_ms:.0f} ms · "
                 f"额外提前 {p['extra_lead']:.0f} ms · 已更新 {self.motion_commands} 次")
-            self.root.after(5,self.motion_tick)
+            self.root.after(0,self.motion_tick)
     def stop_motion(self):
         if self.motion_cancel:self.motion_cancel.set()
         self.motion_running=False;self.motion_profile=None;self.motion_start=None
