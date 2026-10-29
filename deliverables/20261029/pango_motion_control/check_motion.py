@@ -30,16 +30,24 @@ def main():
     class FakeSerial:
         def write(self, data):
             self.data = data
+            self.written_at = __import__('time').monotonic()
 
     connection = object.__new__(Connection)
     connection.sequence = 40
     connection.serial = FakeSerial()
-    replies = iter([{'active_sequence': 1, 'pending_sequence': 2},
-                    {'active_sequence': 41, 'core_fault': False, 'write_fault': False}])
-    connection.status = lambda: next(replies)
-    status, sent_at, active_seen_at = connection.configure_timed([0] * 16)
-    assert status['active_sequence'] == 41 and active_seen_at >= sent_at
-    print('PASS UART activation latency is measured after packet write, excluding preflight status query')
+    connection.status = lambda: {'active_sequence': 1, 'pending_sequence': 2}
+    def query_samples():
+        base = connection.serial.written_at
+        yield ({'active_sequence': 1, 'core_fault': False, 'write_fault': False},
+               base + .001, base + .003)
+        yield ({'active_sequence': 41, 'core_fault': False, 'write_fault': False},
+               base + .023, base + .025)
+    query_samples = query_samples()
+    connection.status_timed = lambda: next(query_samples)
+    status, sent_at, active_estimate_at = connection.configure_timed([0] * 16)
+    assert status['active_sequence'] == 41
+    assert math.isclose(active_estimate_at - sent_at, .013, abs_tol=.002)
+    print('PASS UART activation time uses the midpoint between old/new sequence observations')
 
     from model import load_calibration
     report = verify_trajectory(load_calibration(), 0, 45, 1, 0, 0, 0,

@@ -55,8 +55,14 @@ class Connection:
                 if cmd==command and seq==sequence: return payload
         raise TimeoutError('No matching FPGA response; check firmware, cable and port')
     def status(self):
-        seq=self.next_sequence();self.serial.write(packet(0x20,seq))
-        return parse_status(self._receive(0xa0,seq))
+        result,_,_=self.status_timed()
+        return result
+    def status_timed(self):
+        seq=self.next_sequence();sent_at=time.monotonic()
+        self.serial.write(packet(0x20,seq))
+        payload=self._receive(0xa0,seq)
+        received_at=time.monotonic()
+        return parse_status(payload),sent_at,received_at
     def configure(self,registers,timeout=1.5):
         status,_,_=self.configure_timed(registers,timeout)
         return status
@@ -69,10 +75,14 @@ class Connection:
         sent_at=time.monotonic()
         self.serial.write(packet(0x10,seq,struct.pack('<16i',*registers)))
         deadline=time.monotonic()+timeout
+        last_sample_at=sent_at
         while time.monotonic()<deadline:
-            status=self.status()
+            status,query_sent_at,response_at=self.status_timed()
+            sample_at=(query_sent_at+response_at)/2.0
             if status['active_sequence']==seq:
-                return status,sent_at,time.monotonic()
+                applied_at=(last_sample_at+sample_at)/2.0
+                return status,sent_at,applied_at
             if status['core_fault'] or status['write_fault']: raise RuntimeError(status)
+            last_sample_at=sample_at
             time.sleep(.02)
         raise TimeoutError('Configuration was not activated at a frame boundary')

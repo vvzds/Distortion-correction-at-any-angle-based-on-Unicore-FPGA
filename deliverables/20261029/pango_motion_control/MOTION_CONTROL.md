@@ -12,7 +12,7 @@ shear(t) = shear_center + tilt_amplitude * cos(2*pi*(t + lead)/period)
 lead     = measured configure-to-active latency EMA + extra lead
 ```
 
-The sine curve has zero velocity at both ends of its travel, so it returns without a direction-change step. The latency estimate starts when the configuration packet is written and ends when the host observes the FPGA report its sequence active, then uses a 0.2 EMA weight. It includes serial response and polling delay, so it is an observed upper-bound style phase estimate rather than a sensor-to-photon measurement. “Extra lead” is a user bias on top; it is not a universal millisecond constant. Start with 0 ms and adjust only after observing the display.
+The sine curve has zero velocity at both ends of its travel, so it returns without a direction-change step. The latency estimate starts when the configuration packet is written. The host brackets activation between the last status sample with the old sequence and the first sample with the new sequence, then estimates the boundary at the midpoint of those observations. A 0.2 EMA smooths the estimate. UART round-trip time bounds the precision; it is not a sensor-to-photon measurement. “Extra lead” is a user bias on top; it is not a universal millisecond constant. Start with 0 ms and adjust only after observing the display.
 
 ## Safety and operation
 
