@@ -1,0 +1,133 @@
+{
+  "model": "128-pixel blocks, 256 entries, 32 sets, 8-way LRU; ideal replacement only",
+  "cases": [
+    {
+      "blockW": 128,
+      "blockH": 1,
+      "outputTileW": 64,
+      "misses": 42023,
+      "payloadBeats": 336184,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 128,
+      "blockH": 1,
+      "outputTileW": 1920,
+      "misses": 474333,
+      "payloadBeats": 3794664,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 64,
+      "blockH": 2,
+      "outputTileW": 64,
+      "misses": 28210,
+      "payloadBeats": 225680,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 64,
+      "blockH": 2,
+      "outputTileW": 1920,
+      "misses": 156620,
+      "payloadBeats": 1252960,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 32,
+      "blockH": 4,
+      "outputTileW": 64,
+      "misses": 21717,
+      "payloadBeats": 173736,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 32,
+      "blockH": 4,
+      "outputTileW": 1920,
+      "misses": 42373,
+      "payloadBeats": 338984,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 16,
+      "blockH": 8,
+      "outputTileW": 64,
+      "misses": 21573,
+      "payloadBeats": 172584,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 16,
+      "blockH": 8,
+      "outputTileW": 1920,
+      "misses": 20411,
+      "payloadBeats": 163288,
+      "sourceBytes": 4147200
+    },
+    {
+      "blockW": 8,
+      "blockH": 16,
+      "outputTileW": 64,
+      "misses": 27573,
+      "payloadBeats": 220584,
+      "sourceBytes": 4177920
+    },
+    {
+      "blockW": 8,
+      "blockH": 16,
+      "outputTileW": 1920,
+      "misses": 70714,
+      "payloadBeats": 565712,
+      "sourceBytes": 4177920
+    },
+    {
+      "blockW": 4,
+      "blockH": 32,
+      "outputTileW": 64,
+      "misses": 40184,
+      "payloadBeats": 321472,
+      "sourceBytes": 4177920
+    },
+    {
+      "blockW": 4,
+      "blockH": 32,
+      "outputTileW": 1920,
+      "misses": 458538,
+      "payloadBeats": 3668304,
+      "sourceBytes": 4177920
+    },
+    {
+      "blockW": 2,
+      "blockH": 64,
+      "outputTileW": 64,
+      "misses": 66706,
+      "payloadBeats": 533648,
+      "sourceBytes": 4177920
+    },
+    {
+      "blockW": 2,
+      "blockH": 64,
+      "outputTileW": 1920,
+      "misses": 881775,
+      "payloadBeats": 7054200,
+      "sourceBytes": 4177920
+    },
+    {
+      "blockW": 1,
+      "blockH": 128,
+      "outputTileW": 64,
+      "misses": 120757,
+      "payloadBeats": 966056,
+      "sourceBytes": 4423680
+    },
+    {
+      "blockW": 1,
+      "blockH": 128,
+      "outputTileW": 1920,
+      "misses": 1739110,
+      "payloadBeats": 13912880,
+      "sourceBytes": 4423680
+    }
+  ]
+}

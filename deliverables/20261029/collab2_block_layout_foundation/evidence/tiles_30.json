@@ -1,0 +1,90 @@
+{
+  "model": "16x8 block, 256 tags, 32 sets, eight-way ideal LRU, 16-line strips",
+  "cases": [
+    {
+      "tileWidth": 32,
+      "misses": 22723,
+      "beats": 181784
+    },
+    {
+      "tileWidth": 40,
+      "misses": 22683,
+      "beats": 181464
+    },
+    {
+      "tileWidth": 48,
+      "misses": 22648,
+      "beats": 181184
+    },
+    {
+      "tileWidth": 64,
+      "misses": 22614,
+      "beats": 180912
+    },
+    {
+      "tileWidth": 80,
+      "misses": 22581,
+      "beats": 180648
+    },
+    {
+      "tileWidth": 96,
+      "misses": 22547,
+      "beats": 180376
+    },
+    {
+      "tileWidth": 120,
+      "misses": 22562,
+      "beats": 180496
+    },
+    {
+      "tileWidth": 128,
+      "misses": 22564,
+      "beats": 180512
+    },
+    {
+      "tileWidth": 160,
+      "misses": 22535,
+      "beats": 180280
+    },
+    {
+      "tileWidth": 192,
+      "misses": 22466,
+      "beats": 179728
+    },
+    {
+      "tileWidth": 240,
+      "misses": 22269,
+      "beats": 178152
+    },
+    {
+      "tileWidth": 320,
+      "misses": 22039,
+      "beats": 176312
+    },
+    {
+      "tileWidth": 384,
+      "misses": 21729,
+      "beats": 173832
+    },
+    {
+      "tileWidth": 480,
+      "misses": 21410,
+      "beats": 171280
+    },
+    {
+      "tileWidth": 640,
+      "misses": 20810,
+      "beats": 166480
+    },
+    {
+      "tileWidth": 960,
+      "misses": 18798,
+      "beats": 150384
+    },
+    {
+      "tileWidth": 1920,
+      "misses": 55125,
+      "beats": 441000
+    }
+  ]
+}
