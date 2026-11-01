@@ -1,0 +1,17 @@
+{
+  "role": "four-row calibration HDMI OSD board-test candidate",
+  "bitstream": "release/osd_calibration_4row_seed3_20261102.sbit",
+  "sha256": "936faf1070b57a9aba778b0767a601f3de799b9f708bdaf1f5f4857e5d24467d",
+  "device": "PG2L100H-6 FBG676",
+  "pds_version": "2022.2-SP6.1",
+  "place_route_seed": 3,
+  "source_manifest_sha256": "9bc2f59dd9a3e78f46651a12f99c64760be231512a086fa11af2171e25156cf5",
+  "timing_passed": true,
+  "slow_setup_wns_ns_125mhz": 0.484,
+  "slow_hold_whs_ns_125mhz": 0.142,
+  "slow_setup_wns_ns_pixel": 4.175,
+  "slow_hold_whs_ns_pixel": 0.353,
+  "hardware_tested": false,
+  "board_30_unique_corrected_frames_per_second_verified": false,
+  "evidence": "reports/pds_four_row_seed3/"
+}
