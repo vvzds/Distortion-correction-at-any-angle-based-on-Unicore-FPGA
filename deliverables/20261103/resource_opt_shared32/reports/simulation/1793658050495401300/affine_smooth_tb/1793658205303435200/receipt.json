@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.375,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+S:\\",
+      "S:\\source\\rtl\\projective_divide.v",
+      "S:\\source\\rtl\\mul32_pipe.v",
+      "S:\\source\\rtl\\brown_map.v",
+      "S:\\source\\rtl\\patch_store.v",
+      "S:\\source\\rtl\\bilinear_rgb.v",
+      "S:\\source\\rtl\\adaptive_gamma.v",
+      "S:\\source\\rtl\\tile_engine.v",
+      "S:\\sim\\affine_smooth_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.affine_smooth_tb",
+      "-o",
+      "affine_smooth_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim affine_smooth_tb_optimized; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "05453d2125f65ce0f97dd60ff5f7b4a78b0a73af65cb83f6bf1c0a3ac87fc9ee",
+  "artifacts": {}
+}

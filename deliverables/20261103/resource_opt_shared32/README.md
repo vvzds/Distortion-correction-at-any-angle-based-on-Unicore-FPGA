@@ -15,17 +15,18 @@ KEY0=C22, KEY1=C23, KEY2=B22, KEY3=A22, KEY4=B20, all LVCMOS33 with pull-ups.
 | Key | Function | Startup state |
 |---|---|---|
 | KEY0 | Toggle Brown radial/tangential correction terms (`k1`, `k2`, `p1`, `p2`) | Enabled |
-| KEY1 | Toggle live affine/IMU stabilization; enabling captures the current valid IMU pose as reference | Disabled |
+| KEY1 | Toggle live BNO085 pose mapping; enabling captures the current valid IMU pose as reference | Disabled |
 | KEY2 | Toggle adaptive Gamma | Enabled |
 | KEY3 | Cycle host control, DN1, DN1+SH1, DN2+SH1, then host control | Host control |
 | KEY4 | Toggle HDMI OSD visibility | Hidden |
 
 The camera image stays live when KEY1 is used; it does not freeze the frame.
-The host affine enable command remains authoritative for KEY1 state. Host
-denoise/sharpen commands return KEY3 to host-controlled settings, and host OSD
-visibility commands set KEY4's state. State changes are synchronized to the
-video frame boundary where required. The controls add no frame buffer or DDR
-transaction.
+KEY1 and host `0x26` control only automatic IMU pose mapping. Host `0x10`
+affine/projective matrices continue to work when KEY1 is off, and disabling
+IMU mapping falls back to the latest host matrix. Host denoise/sharpen commands
+return KEY3 to host-controlled settings, and host OSD visibility commands set
+KEY4's state. State changes are synchronized to the video frame boundary where
+required. The controls add no frame buffer or DDR transaction.
 
 See `KEY_FUNCTIONS_20261103.md` for the detailed behavior and host interaction.
 
@@ -48,6 +49,20 @@ the board. The prior baseline board report is retained as
 `BOARD_TEST_BASELINE_20261029.md`; its results apply only to its recorded
 bitstream hash, not to the current key-enabled build. See `BOARD_TEST.md` for
 the pending board acceptance procedure.
+
+The repaired candidate is documented in `SIMULATION_FIX_REPORT_20261103.md`.
+Its current-source seed 1 bitstream is
+`bitstreams/pango_bno085_quality_keys_resource_opt_simfix_seed1_20261103.sbit`
+(SHA256 `3FF00AA537E48E8EDC1112E02788D72CF2694B0878343D91A7B119D31F9512B1`).
+It passed 29 archived ModelSim runs and routes with +0.206 ns slow-corner DDR
+PHY setup WNS and zero setup/hold failing endpoints. The existing seed images
+and ZIP remain preserved. Real-camera image-quality analysis and board testing
+are still pending.
+
+The repaired full-project archive is
+`pango_quality_function_keys_simfix_full_20261103.zip`; verify it with the
+adjacent `.zip.sha256` file. `SHA256SUMS.txt` covers project and evidence files,
+excluding generated build directories and ZIP containers.
 
 ## Known build caveat
 

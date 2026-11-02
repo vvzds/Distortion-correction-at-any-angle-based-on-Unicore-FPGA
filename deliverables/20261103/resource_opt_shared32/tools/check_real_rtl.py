@@ -1,16 +1,22 @@
 """Full frame from a held-out camera PNG through production RTL/DDR brokers."""
-import sys
+import argparse,os,sys
 from pathlib import Path
 import cv2,numpy as np
-ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'host'),str(ROOT/'tools')]
+ROOT=Path(os.environ.get('FPGA_SIM_ROOT',Path(__file__).resolve().parents[1])).absolute()
+sys.path[:0]=[str(ROOT/'host'),str(ROOT/'tools')]
 from model import load_calibration,compile_registers,fixed_map
 from resample import bilinear565,pack565
 from run_sim import run
 
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--source',type=Path,
+                    default=ROOT/'reports/real_images/rtl_full_frame_fixture.png',
+                    help='1080p image used for the bit-exact full-frame RTL regression')
+args=parser.parse_args()
 folder=ROOT/'build/vectors';folder.mkdir(parents=True,exist_ok=True)
-path=Path('D:/FPGA/photo/session_203513/pose_031_validation_center_yaw_left/source.png')
+path=args.source
 image=cv2.imread(str(path))
-if image is None:raise FileNotFoundError(path)
+if image is None:raise FileNotFoundError(f'Unable to load full-frame RTL fixture: {path}')
 regs=compile_registers(load_calibration(),adaptive=False)
 sx,sy,valid=fixed_map(regs);golden=pack565(bilinear565(image,sx,sy,valid))
 config=folder/'real_config.hex';source=folder/'real_source.hex';target=folder/'real_golden.hex'

@@ -37,31 +37,13 @@ wire key_brown_enable,key_gamma_enable;
 wire quality_update,osd_update;
 wire [2:0] osd_row_index;
 wire [383:0] osd_row_data;
-reg feature_frame_brown_enable,feature_frame_affine_enable,feature_frame_gamma_enable;
-reg [511:0] feature_config;
-
-// Apply a function-level bypass after host/IMU configuration selection. The
-// gate state is sampled at frame_update, so one corrected frame uses one mode.
-always @* begin
-    feature_config=correction_config;
-    if (!feature_frame_affine_enable) begin
-        feature_config[0*32+:32]=DEFAULT_0;
-        feature_config[1*32+:32]=DEFAULT_1;
-        feature_config[2*32+:32]=DEFAULT_2;
-        feature_config[3*32+:32]=DEFAULT_3;
-        feature_config[4*32+:32]=DEFAULT_4;
-        feature_config[5*32+:32]=DEFAULT_5;
-        feature_config[14*32+3]=1'b0;
-        feature_config[15*32+17]=1'b0;
-    end
-    if (!feature_frame_brown_enable) begin
-        feature_config[10*32+:32]=32'd0;
-        feature_config[11*32+:32]=32'd0;
-        feature_config[12*32+:32]=32'd0;
-        feature_config[13*32+:32]=32'd0;
-    end
-    if (!feature_frame_gamma_enable) feature_config[14*32]=1'b0;
-end
+reg feature_frame_brown_enable,feature_frame_gamma_enable;
+wire [511:0] feature_config;
+feature_config_gate u_feature_config_gate(
+    .correction_config(correction_config),
+    .brown_enable(feature_frame_brown_enable),
+    .gamma_enable(feature_frame_gamma_enable),
+    .feature_config(feature_config));
 feature_key_control u_feature_key_control(
     .clk(corr_clk),.rst_n(corr_rst_n),.key_n(board_key_n),
     .affine_pc_update(host_imu_map_update),.affine_pc_enable(host_imu_map_enable),
@@ -73,13 +55,11 @@ feature_key_control u_feature_key_control(
 always @(posedge corr_clk or negedge corr_rst_n) begin
     if (!corr_rst_n) begin
         feature_frame_brown_enable<=1'b1;
-        feature_frame_affine_enable<=1'b0;
         feature_frame_gamma_enable<=1'b1;
         correction_config_pipe<=0;
     end else begin
         if (o_frame_update) begin
             feature_frame_brown_enable<=key_brown_enable;
-            feature_frame_affine_enable<=key_affine_enable;
             feature_frame_gamma_enable<=key_gamma_enable;
         end
         correction_config_pipe<=feature_config;

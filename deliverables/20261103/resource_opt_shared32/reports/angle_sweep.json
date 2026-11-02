@@ -1,7 +1,7 @@
 {
   "angle_step_degrees": 5,
   "angle_count": 72,
-  "elapsed_seconds": 26.875,
+  "elapsed_seconds": 28.31299999996554,
   "all_tiles_fit": true,
   "gamma_enabled": false,
   "zoom": 1.0,
@@ -70,8 +70,8 @@
       "read_bytes_per_frame": 7569344,
       "row_commands": 48264,
       "valid_fraction": 0.854561149691358,
-      "max_error_px": 486.7892254713788,
-      "p99_error_px": 453.41648511770876
+      "max_error_px": 0.009042313286820158,
+      "p99_error_px": 0.007019954092340427
     },
     "35": {
       "tiles": 1020,
@@ -99,8 +99,8 @@
       "read_bytes_per_frame": 7612736,
       "row_commands": 50298,
       "valid_fraction": 0.7811593364197531,
-      "max_error_px": 720.2696796982634,
-      "p99_error_px": 672.3338810452193
+      "max_error_px": 0.008513502342042263,
+      "p99_error_px": 0.006460719586530826
     },
     "50": {
       "tiles": 1020,
@@ -182,8 +182,8 @@
       "read_bytes_per_frame": 3607520,
       "row_commands": 38151,
       "valid_fraction": 0.6030131172839506,
-      "max_error_px": 1032.0975160879873,
-      "p99_error_px": 966.2703812694093
+      "max_error_px": 0.00974379520742488,
+      "p99_error_px": 0.007448913501006933
     },
     "95": {
       "tiles": 1020,
@@ -265,8 +265,8 @@
       "read_bytes_per_frame": 7611840,
       "row_commands": 50233,
       "valid_fraction": 0.7808810763888889,
-      "max_error_px": 1711.7065988715078,
-      "p99_error_px": 1616.9088704726444
+      "max_error_px": 0.01022169071567918,
+      "p99_error_px": 0.008251526057916141
     },
     "140": {
       "tiles": 1020,
@@ -348,8 +348,8 @@
       "read_bytes_per_frame": 4818112,
       "row_commands": 33398,
       "valid_fraction": 1.0,
-      "max_error_px": 1850.1832127897173,
-      "p99_error_px": 1770.0239901314733
+      "max_error_px": 0.010826278712008487,
+      "p99_error_px": 0.008505612548468643
     },
     "185": {
       "tiles": 1020,
@@ -512,8 +512,8 @@
       "read_bytes_per_frame": 3605120,
       "row_commands": 38157,
       "valid_fraction": 0.6030121527777778,
-      "max_error_px": 1039.0712213993247,
-      "p99_error_px": 966.7926011906491
+      "max_error_px": 0.010606015338190796,
+      "p99_error_px": 0.008304375908424616
     },
     "275": {
       "tiles": 1020,

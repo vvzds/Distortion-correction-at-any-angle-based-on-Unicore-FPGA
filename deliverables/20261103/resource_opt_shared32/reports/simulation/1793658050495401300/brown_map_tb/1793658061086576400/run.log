@@ -1,0 +1,61 @@
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:01 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:01 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:01 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:01 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case4.hex} {+VECTORS=../../../vectors/map_case4.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0

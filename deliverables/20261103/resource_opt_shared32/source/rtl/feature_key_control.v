@@ -84,3 +84,25 @@ module feature_key_control #(
         end
     end
 endmodule
+
+// Apply only the feature switches that are independent of host geometry.
+// The host/IMU affine matrix is always preserved: KEY1 selects live IMU
+// mapping, while host 0x10 packets remain effective in either KEY1 state.
+module feature_config_gate(
+    input  wire [511:0] correction_config,
+    input  wire brown_enable,
+    input  wire gamma_enable,
+    output reg  [511:0] feature_config
+);
+    always @* begin
+        feature_config = correction_config;
+        if (!brown_enable) begin
+            feature_config[10*32+:32] = 32'd0;
+            feature_config[11*32+:32] = 32'd0;
+            feature_config[12*32+:32] = 32'd0;
+            feature_config[13*32+:32] = 32'd0;
+        end
+        if (!gamma_enable)
+            feature_config[14*32] = 1'b0;
+    end
+endmodule

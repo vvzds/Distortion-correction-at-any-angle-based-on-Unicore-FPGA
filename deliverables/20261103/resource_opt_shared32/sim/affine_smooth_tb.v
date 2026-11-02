@@ -28,7 +28,10 @@ module affine_smooth_tb;
         repeat(6) @(negedge clk);rst_n=1;
         next_frame();
         if(dut.frame_cfg!==cfg) $fatal(1,"First frame must be exact");
+        // This focused coefficient test bypasses DDR writes; seed the state
+        // that a completed first-frame publication establishes in hardware.
         dut.frame_count=1;
+        dut.have_published=1;
         cfg[15*32+17]=1;
         cfg[2*32+:32]=$signed(cfg[2*32+:32])+1024;
         previous=$signed(dut.frame_cfg[2*32+:32]);

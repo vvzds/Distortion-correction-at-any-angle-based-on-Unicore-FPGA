@@ -10,7 +10,7 @@ c=load_calibration();rows={};start=time.monotonic()
 for angle in range(0,360,a.step):
     matrix=affine(angle);regs,report=preflight(c,matrix,False)
     if angle in [0,30,45,90,135,180,270]:
-        sx,sy,ok=fixed_map(regs);fx,fy,float_ok=float_map(c)
+        sx,sy,ok=fixed_map(regs);fx,fy,float_ok=float_map(c,matrix)
         error=np.hypot(sx/65536-fx,sy/65536-fy)[ok&float_ok]
         report['max_error_px']=float(error.max());report['p99_error_px']=float(np.percentile(error,99))
     rows[str(angle)]=report
