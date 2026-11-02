@@ -1,0 +1,28 @@
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 01:00:07 on Nov 03,2026
+vlog -sv "+incdir+C:\fpga_sim_20261103" C:\fpga_sim_20261103\source\rtl\projective_divide.v C:\fpga_sim_20261103\source\rtl\mul32_pipe.v C:\fpga_sim_20261103\source\rtl\brown_map.v C:\fpga_sim_20261103\source\rtl\patch_store.v C:\fpga_sim_20261103\source\rtl\bilinear_rgb.v C:\fpga_sim_20261103\source\rtl\adaptive_gamma.v C:\fpga_sim_20261103\source\rtl\tile_engine.v C:\fpga_sim_20261103\source\rtl\tile_write_pack.v C:\fpga_sim_20261103\source\rtl\corr_read_bridge.v C:\fpga_sim_20261103\source\rtl\corr_write_arb.v C:\fpga_sim_20261103\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 01:00:07 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# Error loading design
+Error loading design
+Error: can't read "FileWatch(fileName)": no such element in array
