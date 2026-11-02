@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "elapsed_seconds": 2.98499999998603,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+X:\\",
+      "X:\\source\\rtl\\uart_phy.v",
+      "X:\\source\\rtl\\host_control.v",
+      "X:\\sim\\host_control_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.host_control_tb",
+      "-o",
+      "host_control_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim host_control_tb_optimized; onerror {quit -code 1}; onbreak {quit -code 1}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "aefdb59c69003ba074987a368215fcbaf3e3f7855d6935b4a79acea19f3a0327",
+  "artifacts": {}
+}

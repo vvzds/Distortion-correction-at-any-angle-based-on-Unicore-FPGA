@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "hardware_opened": false,
+  "elapsed_seconds": 1.875,
+  "checks": [
+    "CRC16 check vector, packet round trip and corruption rejection",
+    "Status field positions, flags and cycle-to-capacity conversion",
+    "Sequence wrap cannot match an old active/pending configuration",
+    "Pose-map command carries capture/enable request and waits for reference status",
+    "Denoise/sharpen levels use distinct validated UART commands",
+    "Four-row calibration OSD payload fits the merged 48-character protocol",
+    "Projective Q14 fields use reserved high bits; legacy Gamma/feedback/smooth encoding remains unchanged",
+    "Hidden GUI initialization, no implicit serial open, manual zoom preserved, invalid text handled"
+  ],
+  "inputs_sha256": {
+    "host\\bno085.py": "bf552fb102fe7de285546db09ebd80e0daddae9b5f0dad42782c856e0d5ba255",
+    "host\\bno085_trial.py": "79dca3b6d1969c47a11b2da46a2ca745008236a06d5d9a2d7492e1c6dc7fb20e",
+    "host\\board_trial.py": "3d0a5574711538b8b7e9d0687430d18aa1cb88fa8b204287d0a30eb942a319a0",
+    "host\\control.py": "d83aae22f51cb636626514ae5571e5442bb1e291ee2ebb59886cd91ff9d8ce1d",
+    "host\\gui.py": "c8657b9d9b25eeb445ba48644c4698cbcf5f45bc86028bdfb13df2e7e6e9313c",
+    "host\\imu.py": "037a2c7dc16b71006e729027578bc1415eaeff994b65d44adbaf430fbd58d044",
+    "host\\imu_trial.py": "7d3db5231da7cf24290a52ae50c26c68bb0f34bd293fc7715ad4916e006bdd21",
+    "host\\model.py": "c3730cc608c6d0ef0352932588d869b2bd393b742147c7d0487c79a79923cb4f",
+    "host\\osd_monitor.py": "4a8543cdd11dd8de48c45d8289b5ad4567e7708452d7cd009e8f310912aa0ec2",
+    "host\\protocol.py": "8e26898bfcb061a96e3fbba4e68f3ff583338f08441d8620aa0ffcd806ef55fd",
+    "host\\resample.py": "2c7a5407dfd3244cd6d33268cddf3e47bb95b73370a57dd9c6c0590adf2b6078",
+    "host\\stabilizer.py": "6fbca9411bb2ebf9cae78c85bc4e7b969a1db2e39c44bfbf03b8d4604322f251"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "0": {
+    "tiles": 1020,
+    "max_patch_width": 80,
+    "max_patch_height": 35,
+    "read_beats": 150491,
+    "read_bytes_per_frame": 4815712,
+    "row_commands": 33353,
+    "valid_fraction": 1.0,
+    "max_error_px": 0.009253182933450082,
+    "p99_error_px": 0.007124887741971576
+  },
+  "30": {
+    "tiles": 1020,
+    "max_patch_width": 96,
+    "max_patch_height": 62,
+    "read_beats": 236542,
+    "read_bytes_per_frame": 7569344,
+    "row_commands": 48264,
+    "valid_fraction": 0.854561149691358,
+    "max_error_px": 486.7892254713788,
+    "p99_error_px": 453.41648511770876
+  },
+  "45": {
+    "tiles": 1020,
+    "max_patch_width": 96,
+    "max_patch_height": 70,
+    "read_beats": 237898,
+    "read_bytes_per_frame": 7612736,
+    "row_commands": 50298,
+    "valid_fraction": 0.7811593364197531,
+    "max_error_px": 720.2696796982634,
+    "p99_error_px": 672.3338810452193
+  },
+  "90": {
+    "tiles": 1020,
+    "max_patch_width": 64,
+    "max_patch_height": 66,
+    "read_beats": 112735,
+    "read_bytes_per_frame": 3607520,
+    "row_commands": 38151,
+    "valid_fraction": 0.6030131172839506,
+    "max_error_px": 1032.0975160879873,
+    "p99_error_px": 966.2703812694093
+  },
+  "135": {
+    "tiles": 1020,
+    "max_patch_width": 96,
+    "max_patch_height": 70,
+    "read_beats": 237870,
+    "read_bytes_per_frame": 7611840,
+    "row_commands": 50233,
+    "valid_fraction": 0.7808810763888889,
+    "max_error_px": 1711.7065988715078,
+    "p99_error_px": 1616.9088704726444
+  },
+  "180": {
+    "tiles": 1020,
+    "max_patch_width": 80,
+    "max_patch_height": 35,
+    "read_beats": 150566,
+    "read_bytes_per_frame": 4818112,
+    "row_commands": 33398,
+    "valid_fraction": 1.0,
+    "max_error_px": 1850.1832127897173,
+    "p99_error_px": 1770.0239901314733
+  },
+  "270": {
+    "tiles": 1020,
+    "max_patch_width": 48,
+    "max_patch_height": 66,
+    "read_beats": 112660,
+    "read_bytes_per_frame": 3605120,
+    "row_commands": 38157,
+    "valid_fraction": 0.6030121527777778,
+    "max_error_px": 1039.0712213993247,
+    "p99_error_px": 966.7926011906491
+  }
+}

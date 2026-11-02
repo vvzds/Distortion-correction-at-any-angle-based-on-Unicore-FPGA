@@ -1,0 +1,5 @@
+{
+  "verified": false,
+  "camera_from_sensor": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+  "note": "EXAMPLE ONLY. Rigid mount and verify camera x=right,y=down,z=optical; confirm JY Euler ZYX/body-rate conventions with signed axis trials."
+}
