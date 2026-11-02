@@ -1,0 +1,50 @@
+{
+  "scope": "Current P7R1 completed physical database; read-only targeted reports. Not a paired P4 timing comparison.",
+  "rows": [
+    {
+      "name": "tag_match",
+      "label": "标签匹配寄存器",
+      "start": "u_correction/u_core/cached_key[21]/opit_0_inv_L7Q_perm/CLK",
+      "end": "u_correction/u_core/u_cache/match_id[23][1]/opit_0_L6Q_perm/I4",
+      "type": "max (slow corner)",
+      "slack_ns": -0.114,
+      "logic_ns": 0.822,
+      "route_ns": 6.829,
+      "route_percent": 89.26
+    },
+    {
+      "name": "age_update",
+      "label": "年龄更新寄存器",
+      "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+      "end": "u_correction/u_core/u_cache/last_use[84][1]/opit_0_L6QL5Q_perm/CE",
+      "type": "max (slow corner)",
+      "slack_ns": -1.273,
+      "logic_ns": 1.235,
+      "route_ns": 7.482,
+      "route_percent": 85.83
+    },
+    {
+      "name": "victim_group",
+      "label": "8槽组替换归约",
+      "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+      "end": "u_correction/u_core/u_cache/victim_age[3][0]/opit_0_L6Q_perm/I3",
+      "type": "max (slow corner)",
+      "slack_ns": -0.971,
+      "logic_ns": 2.128,
+      "route_ns": 6.367,
+      "route_percent": 74.95
+    },
+    {
+      "name": "victim_final",
+      "label": "最终替换选择",
+      "start": "u_correction/u_core/u_cache/victim_age[0][3]/opit_0_L6Q_perm/CLK",
+      "end": "u_correction/u_core/u_cache/chosen[2]/opit_0_inv_L8Q_perm/M2",
+      "type": "max (slow corner)",
+      "slack_ns": -0.044,
+      "logic_ns": 2.878,
+      "route_ns": 4.838,
+      "route_percent": 62.7
+    }
+  ],
+  "original_db_unchanged": true
+}

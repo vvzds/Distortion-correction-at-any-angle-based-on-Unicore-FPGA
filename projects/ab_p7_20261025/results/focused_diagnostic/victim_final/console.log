@@ -1,0 +1,217 @@
+License checkout: fabric_shell from D:\FPGA PDS\new_pds_F4A80DA47D72.lic
+Compiling architecture definition.
+W: Warning : The license will invalid in 9 days. In order not to affect your usage, please update the license in time.
+
+Analyzing project file 'Y:/results/focused_diagnostic/victim_final/victim_final.pds'.
+Executing : set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676
+Executing : set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676 successfully.
+Executing : get_cells u_correction/u_core/u_cache/chosen*
+Executing : get_cells u_correction/u_core/u_cache/chosen* successfully.
+
+
+Executing : report_timing -input_db_file Y:/physical/host_seed2/place_route/hdmi_ddr_ov5640_top_pnr.adf -to [get_cells u_correction/u_core/u_cache/chosen*] -delay_type min_max -max_path 20 -nworst 1
+
+
+Process "Report Timing" started.
+Current time: Sun Oct 25 16:38:00 2026
+Compiling architecture definition.
+Analyzing project file 'Y:/results/focused_diagnostic/victim_final/victim_final.pds'.
+Compiling verification operator library.
+Compiling common defs.
+Compiling prim grid devices.
+Compiling gate devices.
+Compiling gate operators.
+Building architecture model.
+Loading device packaging model.
+Reading design from pnr DB.
+Start Report Post-PnR timing.
+NOTE: The technology fpga was specified.
+NOTE: delay_model specified was generic_cmos.
+NOTE: Using the fpga syntax tables...
+Totals:
+ Calls to malloc = 0
+ Calls to calloc = 5993935
+
+Executing : get_cells u_correction/u_core/u_cache/chosen*
+I: The pattern 'u_correction/u_core/u_cache/chosen*' in command 'get_cells u_correction/u_core/u_cache/chosen*' match 7 objects below:
+I: instance u_correction/u_core/u_cache/chosen[0]/opit_0_inv
+I: instance u_correction/u_core/u_cache/chosen[1]/opit_0_inv_L8Q_perm
+I: instance u_correction/u_core/u_cache/chosen[2]/opit_0_inv_L8Q_perm
+I: instance u_correction/u_core/u_cache/chosen[3]/opit_0_inv_L8Q_perm
+I: instance u_correction/u_core/u_cache/chosen[6]/opit_0_inv_L6QL5Q1_perm
+I: instance u_correction/u_core/u_cache/chosen[7]/opit_0_inv_L6QL5Q1_perm
+I: instance u_correction/u_core/u_cache/chosen_ok/opit_0_inv_L5Q_perm
+Executing : get_cells u_correction/u_core/u_cache/chosen* successfully.
+Constructing timing graph ...
+Timing graph has been constructed successfully
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I0->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/I0' to: 'coms1_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I4->L5' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb1_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I4' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L5'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I3->L6' of 'gopLUT6L5' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/N19/gateop_LUT6DL5_perm/I3' to: 'coms2_reg_config/N19/gateop_LUT6DL5_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3003: The timing arc 'I1->L6' of 'gopLUT6' are non_unate, The timing analyser will assume pos_unate for these arcs in clock propgation. Clock: 'sccb2_clk'  from 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/I1' to: 'coms2_reg_config/u1/N24[0]/LUT6_inst_perm/L6'
+C: STA-3006: Object 'u_correction/u_core/u_cache/chosen_ok/opit_0_inv_L5Q_perm/I5' is not a valid endpoint.
+W: Timing-4087: Port 'cmos1_scl' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'cmos1_sda' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'cmos1_sda' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'cmos2_scl' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'cmos2_sda' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'cmos2_sda' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'iic_tx_sda' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'iic_tx_sda' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[0]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[0]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[1]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[1]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[2]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[2]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[3]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[3]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[4]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[4]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[5]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[5]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[6]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[6]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[7]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[7]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[8]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[8]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[9]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[9]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[10]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[10]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[11]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[11]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[12]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[12]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[13]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[13]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[14]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[14]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[15]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[15]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[16]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[16]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[17]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[17]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[18]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[18]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[19]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[19]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[20]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[20]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[21]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[21]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[22]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[22]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[23]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[23]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[24]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[24]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[25]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[25]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[26]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[26]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[27]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[27]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[28]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[28]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[29]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[29]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[30]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[30]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'mem_dq[31]' is not constrained, it is treated as combinational input.
+W: Timing-4087: Port 'mem_dq[31]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs[2]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs[3]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs_n[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs_n[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs_n[2]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dqs_n[3]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'cmos1_reset' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'cmos2_reset' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'cmos_init_done[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'cmos_init_done[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'ddr_init_done' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'hdmi_int_led' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'heart_beat_led' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'iic_tx_scl' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[2]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[3]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[4]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[5]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[6]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[7]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[8]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[9]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[10]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[11]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[12]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[13]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_a[14]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_ba[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_ba[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_ba[2]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_cas_n' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_ck' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_ck_n' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_cke' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_cs_n' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dm[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dm[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dm[2]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_dm[3]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_odt' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_ras_n' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_rst_n' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'mem_we_n' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'rstn_out' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'uart_tx' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'video_debug_led[0]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'video_debug_led[1]' is not constrained, it is treated as combinational output.
+W: Timing-4087: Port 'video_debug_led[2]' is not constrained, it is treated as combinational output.
+W: Timing-4086: Port 'clk_n' is not constrained, it is treated as combinational input.
+W: Timing-4086: Port 'uart_rx' is not constrained, it is treated as combinational input.
+Report timing is finished successfully.
+Action report_timing: Real time elapsed is 0h:0m:28s
+Action report_timing: CPU time elapsed is 0h:0m:25s
+Action report_timing: Process CPU time elapsed is 0h:0m:29s
+Current time: Sun Oct 25 16:38:27 2026
+Action report_timing: Peak memory pool usage is 1,992 MB
+W: open run.log failed.
+Action from report_timing to report_timing: Total Real Time elapsed is 0h:0m:28s
+Action from report_timing to report_timing: Total CPU time elapsed is 0h:0m:25s
+Action from report_timing to report_timing: Total Process CPU Time elapsed is 0h:0m:29s
+Process "Report Timing" done.
+Executing : report_timing -input_db_file Y:/physical/host_seed2/place_route/hdmi_ddr_ov5640_top_pnr.adf -to [get_cells u_correction/u_core/u_cache/chosen*] -delay_type min_max -max_path 20 -nworst 1 successfully.

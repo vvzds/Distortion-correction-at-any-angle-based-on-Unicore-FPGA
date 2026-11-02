@@ -1,0 +1,30 @@
+License checkout: fabric_shell from D:\FPGA PDS\new_pds_F4A80DA47D72.lic
+Compiling architecture definition.
+W: Warning : The license will invalid in 9 days. In order not to affect your usage, please update the license in time.
+
+Analyzing project file 'W:/results/p4_mapped_qid/p4_mapped_qid.pds'.
+Executing : set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676
+Executing : set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676 successfully.
+Executing : get_cells u_correction/u_core/u_cache/qid*
+Executing : get_cells u_correction/u_core/u_cache/qid* successfully.
+
+
+Executing : report_timing -input_db_file Y:/device_map/hdmi_ddr_ov5640_top_map.adf -to [get_cells u_correction/u_core/u_cache/qid*] -delay_type min_max -max_path 20 -nworst 1
+
+
+Process "Report Timing" started.
+Current time: Sun Oct 25 15:19:11 2026
+Compiling architecture definition.
+Analyzing project file 'W:/results/p4_mapped_qid/p4_mapped_qid.pds'.
+Compiling verification operator library.
+Compiling common defs.
+Compiling prim grid devices.
+Compiling gate devices.
+Compiling gate operators.
+Building architecture model.
+Loading device packaging model.
+Reading design from pnr DB.
+E: Flow-0013: The input DB 'Y:/device_map/hdmi_ddr_ov5640_top_map.adf' should be of phase 'PNR'.
+Program Error Out.
+W: open run.log failed.
+E: Failed to execute the script : 

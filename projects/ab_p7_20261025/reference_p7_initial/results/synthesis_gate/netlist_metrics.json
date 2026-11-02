@@ -1,0 +1,127 @@
+{
+  "baseline": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4\u7f13\u5b58\u5b9e\u65bd_20261024\\physical\\host_seed2_resume_20261025\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "61afdf5d3180e17dfa85884cb8183ebc52aadb238f7f97530fca0b1b463e94b4",
+    "tag_ram_primitives": 3136,
+    "tag_ram_types": {
+      "GTP_RAM64X1DP": 3136
+    },
+    "bank_ram_primitive_counts": {},
+    "tag_ff": [],
+    "parity_pin_loads": {
+      "qa[0]": 1752,
+      "qb[0]": 1753
+    },
+    "chosen_pin_loads": {
+      "chosen[0]": 3152,
+      "chosen[1]": 3151,
+      "chosen[2]": 3151,
+      "chosen[3]": 3151,
+      "chosen[4]": 3156,
+      "chosen[5]": 3156,
+      "chosen[6]": 24,
+      "chosen[7]": 23
+    },
+    "max_tag_ram_read_address_load": 1536,
+    "top_tag_ram_read_address_loads": [
+      [
+        "qa[0]",
+        1536
+      ],
+      [
+        "qb[0]",
+        1536
+      ],
+      [
+        "o_fetch_bank[5]",
+        64
+      ],
+      [
+        "o_fetch_bank[4]",
+        64
+      ],
+      [
+        "o_fetch_bank[3]",
+        64
+      ],
+      [
+        "o_fetch_bank[2]",
+        64
+      ],
+      [
+        "o_fetch_bank[1]",
+        64
+      ],
+      [
+        "o_fetch_bank[0]",
+        64
+      ]
+    ],
+    "limitations": "Cache module only; primitive pin counts, not routed fanout/STA. Same parser applied to both versions."
+  },
+  "candidate": {
+    "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7\u6807\u7b7eRAM\u5206\u94f6\u884c_20261025\\physical\\host_seed2\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+    "sha256": "7ea113820442bc221d3b4244cd7873597690f7ba976c1f361f0052ea5c59c902",
+    "tag_ram_primitives": 1632,
+    "tag_ram_types": {
+      "GTP_RAM32X2DP": 1632
+    },
+    "bank_ram_primitive_counts": {
+      "0": 136,
+      "1": 136,
+      "2": 136,
+      "3": 136,
+      "4": 136,
+      "5": 136,
+      "6": 136,
+      "7": 136,
+      "8": 136,
+      "9": 136,
+      "10": 136,
+      "11": 136
+    },
+    "tag_ff": [],
+    "parity_pin_loads": {
+      "qa[0]": 0,
+      "qb[0]": 0
+    },
+    "chosen_pin_loads": {
+      "chosen[0]": 1647,
+      "chosen[1]": 1647,
+      "chosen[2]": 1647,
+      "chosen[3]": 1647,
+      "chosen[4]": 10,
+      "chosen[5]": 10,
+      "chosen[6]": 16,
+      "chosen[7]": 15
+    },
+    "max_tag_ram_read_address_load": 768,
+    "top_tag_ram_read_address_loads": [
+      [
+        "\\tag_bank[10].key[1].row_key",
+        768
+      ],
+      [
+        "\\tag_bank[10].key[3].row_key",
+        768
+      ],
+      [
+        "o_fetch_bank[3]",
+        96
+      ],
+      [
+        "o_fetch_bank[2]",
+        96
+      ],
+      [
+        "o_fetch_bank[1]",
+        96
+      ],
+      [
+        "o_fetch_bank[0]",
+        96
+      ]
+    ],
+    "limitations": "Cache module only; primitive pin counts, not routed fanout/STA. Same parser applied to both versions."
+  }
+}

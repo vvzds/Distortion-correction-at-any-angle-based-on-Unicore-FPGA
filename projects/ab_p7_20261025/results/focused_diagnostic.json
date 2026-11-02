@@ -1,0 +1,435 @@
+{
+  "focused_reports": {
+    "tag_match": {
+      "verdict": "FAIL",
+      "exit_code": 0,
+      "argv": [
+        "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+        "-file",
+        "Y:/results/focused_diagnostic/tag_match/report.tcl",
+        "-work_dir",
+        "Y:/results/focused_diagnostic/tag_match/",
+        "-project_name",
+        "tag_match"
+      ],
+      "report": "results/focused_diagnostic/tag_match/report_timing/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "67e4173b151efc78f2b76d7886ab6fe5ac7b00e73504811b8fd27cf702791fed",
+      "selected_side": "to",
+      "selection_prefix": "u_correction/u_core/u_cache/match",
+      "all_selected_endpoints_match": true,
+      "four_check_corner_types_present": true,
+      "errors": [],
+      "kinds": {
+        "max (fast corner)": {
+          "count": 20,
+          "worst_slack_ns": 2.87
+        },
+        "max (slow corner)": {
+          "count": 20,
+          "worst_slack_ns": -0.114
+        },
+        "min (fast corner)": {
+          "count": 20,
+          "worst_slack_ns": 0.322
+        },
+        "min (slow corner)": {
+          "count": 20,
+          "worst_slack_ns": 0.482
+        }
+      },
+      "worst_paths": [
+        {
+          "start": "u_correction/u_core/cached_key[21]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_id[23][1]/opit_0_L6Q_perm/I4",
+          "type": "max (slow corner)",
+          "slack_ns": -0.114,
+          "logic_ns": 0.822,
+          "route_ns": 6.829
+        },
+        {
+          "start": "u_correction/u_core/cached_key[23]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_id[18][1]/opit_0_L6Q_perm/I5",
+          "type": "max (slow corner)",
+          "slack_ns": 0.155,
+          "logic_ns": 0.748,
+          "route_ns": 6.681
+        },
+        {
+          "start": "u_correction/u_core/cached_key[23]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_id[18][2]/opit_0_L6Q_perm/I5",
+          "type": "max (slow corner)",
+          "slack_ns": 0.174,
+          "logic_ns": 0.748,
+          "route_ns": 6.661
+        },
+        {
+          "start": "u_correction/u_core/cached_key[23]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_id[18][0]/opit_0_L6Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": 0.182,
+          "logic_ns": 0.748,
+          "route_ns": 6.625
+        },
+        {
+          "start": "u_correction/u_core/cached_key[23]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_hit[1][6]/opit_0_L5Q_perm/I4",
+          "type": "max (slow corner)",
+          "slack_ns": 0.217,
+          "logic_ns": 0.748,
+          "route_ns": 6.606
+        },
+        {
+          "start": "u_correction/u_core/cached_key[23]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_hit[0][6]/opit_0_L5Q_perm/I0",
+          "type": "max (slow corner)",
+          "slack_ns": 0.231,
+          "logic_ns": 0.77,
+          "route_ns": 6.457
+        },
+        {
+          "start": "u_correction/u_core/cached_key[21]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_id[5][0]/opit_0_L6QL5Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": 0.28,
+          "logic_ns": 1.063,
+          "route_ns": 6.281
+        },
+        {
+          "start": "u_correction/u_core/cached_key[23]/opit_0_inv_L7Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/match_id[6][2]/opit_0_L6Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": 0.303,
+          "logic_ns": 0.77,
+          "route_ns": 6.473
+        }
+      ]
+    },
+    "age_update": {
+      "verdict": "FAIL",
+      "exit_code": 0,
+      "argv": [
+        "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+        "-file",
+        "Y:/results/focused_diagnostic/age_update/report.tcl",
+        "-work_dir",
+        "Y:/results/focused_diagnostic/age_update/",
+        "-project_name",
+        "age_update"
+      ],
+      "report": "results/focused_diagnostic/age_update/report_timing/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "ec9de493bf25d301a4a3f448f5ad13ea1ad2afd8dc62bb0cf934df4395c18b71",
+      "selected_side": "to",
+      "selection_prefix": "u_correction/u_core/u_cache/last_use",
+      "all_selected_endpoints_match": true,
+      "four_check_corner_types_present": true,
+      "errors": [],
+      "kinds": {
+        "max (fast corner)": {
+          "count": 20,
+          "worst_slack_ns": 2.366
+        },
+        "max (slow corner)": {
+          "count": 20,
+          "worst_slack_ns": -1.273
+        },
+        "min (fast corner)": {
+          "count": 20,
+          "worst_slack_ns": 0.164
+        },
+        "min (slow corner)": {
+          "count": 20,
+          "worst_slack_ns": 0.25
+        }
+      },
+      "worst_paths": [
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[84][1]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.273,
+          "logic_ns": 1.235,
+          "route_ns": 7.482
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[84][11]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.273,
+          "logic_ns": 1.235,
+          "route_ns": 7.482
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[84][3]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.272,
+          "logic_ns": 1.235,
+          "route_ns": 7.483
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[84][7]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.272,
+          "logic_ns": 1.235,
+          "route_ns": 7.483
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[84][9]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.272,
+          "logic_ns": 1.235,
+          "route_ns": 7.483
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[85][11]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.249,
+          "logic_ns": 1.235,
+          "route_ns": 7.459
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[85][15]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.249,
+          "logic_ns": 1.235,
+          "route_ns": 7.459
+        },
+        {
+          "start": "u_correction/u_core/prep_ptr[0]/opit_0_inv_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/last_use[85][3]/opit_0_L6QL5Q_perm/CE",
+          "type": "max (slow corner)",
+          "slack_ns": -1.228,
+          "logic_ns": 1.235,
+          "route_ns": 7.435
+        }
+      ]
+    },
+    "victim_group": {
+      "verdict": "FAIL",
+      "exit_code": 0,
+      "argv": [
+        "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+        "-file",
+        "Y:/results/focused_diagnostic/victim_group/report.tcl",
+        "-work_dir",
+        "Y:/results/focused_diagnostic/victim_group/",
+        "-project_name",
+        "victim_group"
+      ],
+      "report": "results/focused_diagnostic/victim_group/report_timing/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "4bf794a267245d67dbcfcfba744cf1eefcdf2094cfa1ed63f3ba00b43994bb1b",
+      "selected_side": "to",
+      "selection_prefix": "u_correction/u_core/u_cache/victim_age",
+      "all_selected_endpoints_match": true,
+      "four_check_corner_types_present": true,
+      "errors": [],
+      "kinds": {
+        "max (fast corner)": {
+          "count": 20,
+          "worst_slack_ns": 2.423
+        },
+        "max (slow corner)": {
+          "count": 20,
+          "worst_slack_ns": -0.971
+        },
+        "min (fast corner)": {
+          "count": 20,
+          "worst_slack_ns": 0.375
+        },
+        "min (slow corner)": {
+          "count": 20,
+          "worst_slack_ns": 0.541
+        }
+      },
+      "worst_paths": [
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][0]/opit_0_L6Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": -0.971,
+          "logic_ns": 2.128,
+          "route_ns": 6.367
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][1]/opit_0_L6Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": -0.855,
+          "logic_ns": 2.128,
+          "route_ns": 6.246
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][2]/opit_0_L6Q_perm/I5",
+          "type": "max (slow corner)",
+          "slack_ns": -0.821,
+          "logic_ns": 2.128,
+          "route_ns": 6.246
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][10]/opit_0_L6Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": -0.819,
+          "logic_ns": 2.128,
+          "route_ns": 6.212
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][16]/opit_0_L6Q_perm/I4",
+          "type": "max (slow corner)",
+          "slack_ns": -0.816,
+          "logic_ns": 2.128,
+          "route_ns": 6.215
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][13]/opit_0_L6Q_perm/I4",
+          "type": "max (slow corner)",
+          "slack_ns": -0.758,
+          "logic_ns": 2.128,
+          "route_ns": 6.162
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][9]/opit_0_L6Q_perm/I4",
+          "type": "max (slow corner)",
+          "slack_ns": -0.718,
+          "logic_ns": 2.128,
+          "route_ns": 6.116
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_leaf[30][12]/opit_0_L5Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/victim_age[3][4]/opit_0_L6Q_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": -0.714,
+          "logic_ns": 2.128,
+          "route_ns": 6.104
+        }
+      ]
+    },
+    "victim_final": {
+      "verdict": "FAIL",
+      "exit_code": 0,
+      "argv": [
+        "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+        "-file",
+        "Y:/results/focused_diagnostic/victim_final/report.tcl",
+        "-work_dir",
+        "Y:/results/focused_diagnostic/victim_final/",
+        "-project_name",
+        "victim_final"
+      ],
+      "report": "results/focused_diagnostic/victim_final/report_timing/hdmi_ddr_ov5640_top.rtr",
+      "sha256": "4213465973cd0ee6206da718a702d74aa26faf262542b4ec647ca7b3043e4bfb",
+      "selected_side": "to",
+      "selection_prefix": "u_correction/u_core/u_cache/chosen",
+      "all_selected_endpoints_match": true,
+      "four_check_corner_types_present": true,
+      "errors": [],
+      "kinds": {
+        "max (fast corner)": {
+          "count": 27,
+          "worst_slack_ns": 2.983
+        },
+        "max (slow corner)": {
+          "count": 27,
+          "worst_slack_ns": -0.044
+        },
+        "min (fast corner)": {
+          "count": 27,
+          "worst_slack_ns": 0.239
+        },
+        "min (slow corner)": {
+          "count": 27,
+          "worst_slack_ns": 0.348
+        }
+      },
+      "worst_paths": [
+        {
+          "start": "u_correction/u_core/u_cache/victim_age[0][3]/opit_0_L6Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[2]/opit_0_inv_L8Q_perm/M2",
+          "type": "max (slow corner)",
+          "slack_ns": -0.044,
+          "logic_ns": 2.878,
+          "route_ns": 4.838
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_age[0][3]/opit_0_L6Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[3]/opit_0_inv_L8Q_perm/M2",
+          "type": "max (slow corner)",
+          "slack_ns": 0.108,
+          "logic_ns": 2.878,
+          "route_ns": 4.684
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_age[0][3]/opit_0_L6Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[6]/opit_0_inv_L6QL5Q1_perm/I3",
+          "type": "max (slow corner)",
+          "slack_ns": 0.133,
+          "logic_ns": 2.878,
+          "route_ns": 4.613
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_age[0][3]/opit_0_L6Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[7]/opit_0_inv_L6QL5Q1_perm/I4",
+          "type": "max (slow corner)",
+          "slack_ns": 0.238,
+          "logic_ns": 2.878,
+          "route_ns": 4.516
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_id[0][0]/opit_0/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[0]/opit_0_inv/D",
+          "type": "min (fast corner)",
+          "slack_ns": 0.239,
+          "logic_ns": 0.109,
+          "route_ns": 0.245
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_id[1][2]/opit_0_L6Q_perm/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[2]/opit_0_inv_L8Q_perm/D5",
+          "type": "min (fast corner)",
+          "slack_ns": 0.296,
+          "logic_ns": 0.109,
+          "route_ns": 0.184
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_id[1][3]/opit_0_L6QL5Q1_perm/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[1]/opit_0_inv_L8Q_perm/D0",
+          "type": "min (fast corner)",
+          "slack_ns": 0.337,
+          "logic_ns": 0.123,
+          "route_ns": 0.117
+        },
+        {
+          "start": "u_correction/u_core/u_cache/victim_id[0][0]/opit_0/CLK",
+          "end": "u_correction/u_core/u_cache/chosen[0]/opit_0_inv/D",
+          "type": "min (slow corner)",
+          "slack_ns": 0.348,
+          "logic_ns": 0.158,
+          "route_ns": 0.34
+        }
+      ]
+    }
+  },
+  "original_inputs_before": {
+    "physical\\host_seed2\\place_route\\hdmi_ddr_ov5640_top_pnr.adf": "9f587d1093702e01e175d779f345f2973a1cfb81f07986b045c86d923da8a417",
+    "physical\\host_seed2\\report_timing\\hdmi_ddr_ov5640_top.rtr": "72f0e9ed42fcf2e56d3dbd22f28b6bc68de9be1d93d648f2ea3405cfd20d9a65",
+    "physical\\host_seed2\\place_route\\hdmi_ddr_ov5640_top.prr": "94d44c475179b79224e08ee3dec9064236090d6f35e4065cc7ee15bd6e97406b",
+    "physical\\host_seed2\\multiseed_summary.csv": "66db9f22d008cc06f8496f82a90462da21d9cd9655ac2cf2e50b673d62bee89c"
+  },
+  "original_inputs_after": {
+    "physical\\host_seed2\\place_route\\hdmi_ddr_ov5640_top_pnr.adf": "9f587d1093702e01e175d779f345f2973a1cfb81f07986b045c86d923da8a417",
+    "physical\\host_seed2\\report_timing\\hdmi_ddr_ov5640_top.rtr": "72f0e9ed42fcf2e56d3dbd22f28b6bc68de9be1d93d648f2ea3405cfd20d9a65",
+    "physical\\host_seed2\\place_route\\hdmi_ddr_ov5640_top.prr": "94d44c475179b79224e08ee3dec9064236090d6f35e4065cc7ee15bd6e97406b",
+    "physical\\host_seed2\\multiseed_summary.csv": "66db9f22d008cc06f8496f82a90462da21d9cd9655ac2cf2e50b673d62bee89c"
+  },
+  "original_evidence_unchanged": true,
+  "scope": "Read-only diagnostic subsets in this completed P7R1 PNR DB; tag match, age update and victim selection. Not a replacement for complete cache closure.",
+  "checked_utc": "2026-10-25T08:38:28.840894+00:00"
+}

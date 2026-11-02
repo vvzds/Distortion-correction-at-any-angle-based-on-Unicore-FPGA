@@ -1,0 +1,56 @@
+[
+  {
+    "repository_file": "README.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_00_README.md",
+    "sha256": "4a17918ae55fe3d9202f6f736f407960bbb1d840278b2aafedffbfe19621ca43"
+  },
+  {
+    "repository_file": "source/rtl/undistort_core.v",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_01_undistort_core.v",
+    "sha256": "7b997f7040c0f05d0cc785a6ceed44aa3eff1348fbed3eaa4171596ccfde755d"
+  },
+  {
+    "repository_file": "deliverables/20261023/G7_six_receipts/README.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_02_README.md",
+    "sha256": "81c7ba2c5a4f2a3303a137d7d6aea1b3273483ecdb3496d0f07b2c8d69184b3f"
+  },
+  {
+    "repository_file": "deliverables/20261023/G7_six_receipts/receipt_docs/R01_G7登记与本批验收口径.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_03_R01_G7登记与本批验收口径.md",
+    "sha256": "7fd29307b80abb157c6840fe7ff5601ca99b0b89fd511ec26283787b9840e7d8"
+  },
+  {
+    "repository_file": "deliverables/20261023/G7_six_receipts/R01-R14_统一回执_给二号协作者_20261023.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_04_R01-R14_统一回执_给二号协作者_20261023.md",
+    "sha256": "ebf6c978a0b699ab154aaaa88aba17deb18d41807261410ffeb7fc0d4793b913"
+  },
+  {
+    "repository_file": "deliverables/20261023/G7_six_receipts/parts_manifest.json",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_05_parts_manifest.json",
+    "sha256": "287fb12b0984d42b24960ab142020c2e14552b40a1333a3e7219720b6fe3ee00"
+  },
+  {
+    "repository_file": "deliverables/20261024/collab2_G4_static_timing_pass/README.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_06_README.md",
+    "sha256": "426dc6493198a41fcf53e48eba792cebdd2921f7affc292756f0ab7dec117297"
+  },
+  {
+    "repository_file": "deliverables/20261024/collab2_G4_static_board_verified/README.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_07_README.md",
+    "sha256": "73b5635787c4b68e4ad5862a63ed3b6f439d55bd160652c4688b5bba6564635d"
+  },
+  {
+    "repository_file": "docs/project/待汇总进展.md",
+    "commit": "c5398e42666226b1b387b5904912f22463496db4",
+    "local_file": "repo_08_待汇总进展.md",
+    "sha256": "2083f38faf3a8af537996b2b6d198c99ead5395c24305412db7ee2ffd2cd214d"
+  }
+]

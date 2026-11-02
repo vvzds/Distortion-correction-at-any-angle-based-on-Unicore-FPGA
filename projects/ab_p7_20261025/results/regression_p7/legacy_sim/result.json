@@ -1,0 +1,95 @@
+{
+  "case": "legacy_sim",
+  "engine": "icarus",
+  "passed": true,
+  "steps": [
+    {
+      "command": [
+        "Z:\\bin\\iverilog.exe",
+        "-B",
+        "Z:\\lib\\ivl",
+        "-g2012",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\verification_data",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\host_ab",
+        "-I",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\sim",
+        "-s",
+        "undistort_core_sim_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\results\\regression_p7\\legacy_sim\\simulation.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\sim\\legacy_sim_tb.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\source\\rtl\\undistort_core.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\source\\rtl\\undistort_map.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\source\\rtl\\undistort_bilinear.v",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\candidate",
+      "start_utc": "2026-10-25T08:07:13.913396+00:00",
+      "end_utc": "2026-10-25T08:07:14.452357+00:00",
+      "elapsed_seconds": 0.5309999999881256,
+      "exit_code": 0,
+      "log": "compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "Z:\\bin\\vvp.exe",
+        "-i",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\results\\regression_p7\\legacy_sim\\simulation.vvp"
+      ],
+      "cwd": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7R1标签RAM与共享比较_20261025\\results\\regression_p7\\legacy_sim",
+      "start_utc": "2026-10-25T08:07:14.452357+00:00",
+      "end_utc": "2026-10-25T08:18:32.395428+00:00",
+      "elapsed_seconds": 677.9370000000054,
+      "exit_code": 0,
+      "log": "simulation.log",
+      "log_sha256": "11afc7a8e4469b34751b3cf69b1a449e57fa72792ac81a03bacf5ec10796c93c"
+    }
+  ],
+  "inputs_after": [
+    {
+      "file": "build_candidate_sources.py",
+      "sha256": "0c89dc723988f927a23ee2dfb99b44abf7760ac7aae231cbb133893aa55384c4"
+    },
+    {
+      "file": "run_sim.ps1",
+      "sha256": "33f3411f2be8d25b76e639e873407f72797a19b0cfdc309f30ba6ed1be8ba01f"
+    },
+    {
+      "file": "run_validation.py",
+      "sha256": "d300f38c8393f0037b9e556bf69d4a99043b861e413fe68f9536b526e6e398e1"
+    },
+    {
+      "file": "sim/legacy_sim_tb.v",
+      "sha256": "655bc63cc01ef157bf387d503133c650af69f2a96a6e0d5a4e654b07f65193ca"
+    },
+    {
+      "file": "source/rtl/undistort_bilinear.v",
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e"
+    },
+    {
+      "file": "source/rtl/undistort_cache_ab.v",
+      "sha256": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3"
+    },
+    {
+      "file": "source/rtl/undistort_core.v",
+      "sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68"
+    },
+    {
+      "file": "source/rtl/undistort_map.v",
+      "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3"
+    }
+  ],
+  "inputs_unchanged": true,
+  "terminal_marker": "ALL TESTS PASSED (err=0)",
+  "terminal_marker_seen": true,
+  "bad_tokens": [],
+  "summary_lines": [
+    "[T0] PASS err=0",
+    "[T7] PASS err=0",
+    "[T9] PASS err=0",
+    "=== ALL TESTS PASSED (err=0) ==="
+  ]
+}

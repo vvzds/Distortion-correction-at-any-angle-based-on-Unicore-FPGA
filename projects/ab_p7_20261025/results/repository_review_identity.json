@@ -1,0 +1,96 @@
+{
+  "main_commit": "c5398e42666226b1b387b5904912f22463496db4",
+  "current_p7_required_materials_missing": [],
+  "copied_files": [
+    {
+      "file": "collab2_branch_inventory.json",
+      "sha256": "7721cc78edc66804fda97b1d8a5095226ca6f150dc9e38c7effe6a8405ccab3d",
+      "bytes": 93399
+    },
+    {
+      "file": "g7_source_identity.json",
+      "sha256": "0cba1e538b45d5e0ba01edd32ab7454670e01ad25a0a47ca1a7f7113e7d63a0c",
+      "bytes": 1108
+    },
+    {
+      "file": "main_correction_hook.vh",
+      "sha256": "868e6f980d78ad90ac71431067c4e1e7184ec440343c9f5a1ca65aaa8a706a2c",
+      "bytes": 587
+    },
+    {
+      "file": "main_undistort_bilinear.v",
+      "sha256": "aa79201f3c9139f0621d235edf59b98da9ef59733a2e04cd9e77ebe58eacc35e",
+      "bytes": 1777
+    },
+    {
+      "file": "main_undistort_line_cache.v",
+      "sha256": "9168b5796aca152a3ac39d87a2839b82839f9bf103b21ff3aafd59f21b084f6a",
+      "bytes": 5506
+    },
+    {
+      "file": "main_undistort_map.v",
+      "sha256": "aafbaac6f658c0f7ea6219bcb172a05f82b836ac1275651d1a0aec29251a9ee3",
+      "bytes": 9191
+    },
+    {
+      "file": "repository_inventory.json",
+      "sha256": "37d5ba8ce82fc201e800daebda4d972c862a2842d3f0bf888811eeb1c443225b",
+      "bytes": 193484
+    },
+    {
+      "file": "repo_00_README.md",
+      "sha256": "4a17918ae55fe3d9202f6f736f407960bbb1d840278b2aafedffbfe19621ca43",
+      "bytes": 3709
+    },
+    {
+      "file": "repo_01_undistort_core.v",
+      "sha256": "7b997f7040c0f05d0cc785a6ceed44aa3eff1348fbed3eaa4171596ccfde755d",
+      "bytes": 13766
+    },
+    {
+      "file": "repo_02_README.md",
+      "sha256": "81c7ba2c5a4f2a3303a137d7d6aea1b3273483ecdb3496d0f07b2c8d69184b3f",
+      "bytes": 1103
+    },
+    {
+      "file": "repo_03_R01_G7登记与本批验收口径.md",
+      "sha256": "7fd29307b80abb157c6840fe7ff5601ca99b0b89fd511ec26283787b9840e7d8",
+      "bytes": 4044
+    },
+    {
+      "file": "repo_04_R01-R14_统一回执_给二号协作者_20261023.md",
+      "sha256": "ebf6c978a0b699ab154aaaa88aba17deb18d41807261410ffeb7fc0d4793b913",
+      "bytes": 6416
+    },
+    {
+      "file": "repo_05_parts_manifest.json",
+      "sha256": "287fb12b0984d42b24960ab142020c2e14552b40a1333a3e7219720b6fe3ee00",
+      "bytes": 1778
+    },
+    {
+      "file": "repo_06_README.md",
+      "sha256": "426dc6493198a41fcf53e48eba792cebdd2921f7affc292756f0ab7dec117297",
+      "bytes": 1053
+    },
+    {
+      "file": "repo_07_README.md",
+      "sha256": "73b5635787c4b68e4ad5862a63ed3b6f439d55bd160652c4688b5bba6564635d",
+      "bytes": 2594
+    },
+    {
+      "file": "repo_08_待汇总进展.md",
+      "sha256": "2083f38faf3a8af537996b2b6d198c99ead5395c24305412db7ee2ffd2cd214d",
+      "bytes": 24581
+    },
+    {
+      "file": "selected_materials.json",
+      "sha256": "6fdf59505e8e1be27e3ec9c7768cccf5854de606c5d9f248e53c75aefb60e0f3",
+      "bytes": 2550
+    },
+    {
+      "file": "仓库资源独立核对结论.md",
+      "sha256": "cf975329fcc5db99fe7bec5ca7fb1d32cf1e880ec1ab5ea905acba4b9852af50",
+      "bytes": 3405
+    }
+  ]
+}

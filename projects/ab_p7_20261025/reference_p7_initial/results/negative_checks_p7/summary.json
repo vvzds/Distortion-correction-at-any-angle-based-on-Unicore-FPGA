@@ -1,0 +1,380 @@
+[
+  {
+    "mutation": "stale_row_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "6c5ba479d0ce0796314fbaa1eddf549f98084bf8ae26f2e4d512eda0e4e2fb29",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:188: state qstate mismatch\n       Time: 205000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\stale_row_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\stale_row_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_segment_equality",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "4d455a1df02488e654be615c723b44ebeffffbc3b5e084d6a40e60ad49b756e1",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:188: state qstate mismatch\n       Time: 197000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\stale_segment_equality\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\stale_segment_equality\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "missing_mark",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "6b1a986c7e25b7a368565ad8791b22960ff7f54652bc888ab7de520d69c0e1f2",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:153: MASK mismatch before DONE\n       Time: 92000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\missing_mark\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\missing_mark\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "stale_mask",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "5aa8d94d1f92e5a11fa8d5edac96046b21fc0b69d2f7a4722b94aefc54384195",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:153: MASK mismatch before DONE\n       Time: 460000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\stale_mask\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\stale_mask\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "old_qid",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "4b0956a0745ee368de539ea68c5b3dbf494d9638892c54f04220f41aa7b3ffa5",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:153: MASK mismatch before DONE\n       Time: 220000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\old_qid\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\old_qid\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "touch_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "6506c5452ced9986241abdfbc783cf039902c5cd73f54cf8d5bc45e392991a07",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:213: last_use mismatch slot=191 edge=125 state=6\n       Time: 997000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\touch_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\touch_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "mask_protection",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "3f5c0d5b79fd383f96ca3ade3ec37d22fdff08bc0bcb376634527bed20e2a7f2",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:220: victim leaf mismatch slot=10\n       Time: 1525000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\mask_protection\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\mask_protection\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_write_bank",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "b3f4b57bc7a4063fe822b4b86da345874654ebd1bd0e2b265863815cceb7fd4c",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_write_bank\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_write_bank\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_write_slot",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "6dba8f7a0af1374d1a2c7cf9b64f5b475c2594f397943ed68514c66f9a8c8fed",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_write_slot\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_write_slot\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_row_bit",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "707db3248bad1e1fa468b9b60a24ad515d5d09ecf48faee4cff9cc255480c295",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_row_bit\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_row_bit\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_segment_bit",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "3cdf856b4fc476d997ca12abce4041d0e5fc193bafbc91d32cd68f482722c133",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:187: output o_fetch_seg mismatch edge=24\n       Time: 189000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_segment_bit\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_segment_bit\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_fetch_bank",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "11a360a0a42b8078327895ff9cd4072272b64e4ffa51a7a68f81d53652230c7f",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_fetch_bank\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_fetch_bank\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_fetch_slot",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "4c2d8ca418bb24501166abcfac61b466870cc44df00432707d532527d58e05c1",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:186: output o_fetch_row mismatch edge=24\n       Time: 189000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_fetch_slot\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_fetch_slot\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_read_parity",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "dcc2d56c5063d27d9218cf363794e927e34140c8f2cbafb6dfd1c8a2a04f0461",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:194: state qfound mismatch\n       Time: 53000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_read_parity\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_read_parity\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "lowest_local_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "76b4c0e426dbb376378fc42ef6c63515c68e16f524d0d0d6d67948fe129e0fc6",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:217: qid mismatch\n       Time: 56093000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\lowest_local_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\lowest_local_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "missing_tag_valid",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "36aa80654d2f9125d69a2cdfecd678384af65f3f14ec4e2a7524a04dbd6ed885",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:194: state qfound mismatch\n       Time: 933000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\missing_tag_valid\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\missing_tag_valid\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "retirement_equal_allowed",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "fc5f8157ed592fd95625290da74f71e16d03b4fb1b31d2fd0e3dd9e85c9be591",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:220: victim leaf mismatch slot=0\n       Time: 1221000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\retirement_equal_allowed\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\retirement_equal_allowed\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  },
+  {
+    "mutation": "wrong_tie_priority",
+    "compile_exit": 0,
+    "simulation_exit": 1,
+    "detected": true,
+    "mutant_sha256": "103d9c8acd1089aaf99d8863ae88376950a72ec9601824e416563245ec20b390",
+    "log": "FATAL: C:\\Users\\lenovo\\Desktop\\ww\\AB_P7��ǩRAM������_20261025\\tests\\cache_p7_banks_tb.sv:222: victim group mismatch group=0\n       Time: 173000  Scope: cache_p7_banks_tb\n",
+    "argv": [
+      "Y:\\bin\\iverilog.exe",
+      "-B",
+      "Y:\\lib\\ivl",
+      "-g2012",
+      "-s",
+      "cache_p7_banks_tb",
+      "-o",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_tie_priority\\sim.vvp",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\tests\\cache_p7_banks_tb.sv",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\results\\negative_checks_p7\\wrong_tie_priority\\mutant.v",
+      "C:\\Users\\lenovo\\Desktop\\ww\\AB_P7标签RAM分银行_20261025\\baseline\\undistort_cache_ab_reference.v"
+    ]
+  }
+]

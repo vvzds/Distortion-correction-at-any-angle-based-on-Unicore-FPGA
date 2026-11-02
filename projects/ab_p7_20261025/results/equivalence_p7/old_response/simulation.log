@@ -1,0 +1,2 @@
+R3_BOUNDARY PASS late_clear=4 late_reset=4 expected_rejections=8 fresh_checks=6 overlap_begin=1 overlap_input=2 overlap_last=1 overlap_ram=1 loads=14 returns=56
+C:\Users\lenovo\Desktop\ww\AB_P7R1标签RAM与共享比较_20261025\tests\cache_boundary_r3_tb.v:261: $finish called at 5664000 (1ps)

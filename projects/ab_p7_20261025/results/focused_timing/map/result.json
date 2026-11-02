@@ -1,0 +1,104 @@
+{
+  "verdict": "FAIL",
+  "exit_code": 0,
+  "argv": [
+    "D:\\FPGA PDS\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "Y:/results/focused_timing/map/report.tcl",
+    "-work_dir",
+    "Y:/results/focused_timing/map/",
+    "-project_name",
+    "map"
+  ],
+  "report": "results/focused_timing/map/report_timing/hdmi_ddr_ov5640_top.rtr",
+  "sha256": "cbeec8ab54324a76b4c6029e3e3f9800a8e1d8593a319ec0238c1b7bf43295f8",
+  "selected_side": "from",
+  "selection_prefix": "u_correction/u_core/u_map/",
+  "all_selected_endpoints_match": true,
+  "four_check_corner_types_present": true,
+  "errors": [],
+  "kinds": {
+    "max (fast corner)": {
+      "count": 20,
+      "worst_slack_ns": 1.647
+    },
+    "max (slow corner)": {
+      "count": 20,
+      "worst_slack_ns": -1.035
+    },
+    "min (fast corner)": {
+      "count": 20,
+      "worst_slack_ns": 0.105
+    },
+    "min (slow corner)": {
+      "count": 20,
+      "worst_slack_ns": 0.144
+    }
+  },
+  "worst_paths": [
+    {
+      "start": "u_correction/u_core/u_map/N46_m4/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/kr2_4[61]/opit_0_inv_AQ_perm/CIN",
+      "type": "max (slow corner)",
+      "slack_ns": -1.035,
+      "logic_ns": 4.923,
+      "route_ns": 3.656
+    },
+    {
+      "start": "u_correction/u_core/u_map/N46_m4/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/kr2_4[63]/opit_0_inv_AQ_perm/I4",
+      "type": "max (slow corner)",
+      "slack_ns": -0.894,
+      "logic_ns": 4.723,
+      "route_ns": 3.657
+    },
+    {
+      "start": "u_correction/u_core/u_map/N34_m1/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/N43_m3/gopapm/Y[10]",
+      "type": "max (slow corner)",
+      "slack_ns": -0.89,
+      "logic_ns": 4.331,
+      "route_ns": 3.905
+    },
+    {
+      "start": "u_correction/u_core/u_map/N46_m4/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/kr2_4[62]/opit_0_inv_AQ_perm/I5",
+      "type": "max (slow corner)",
+      "slack_ns": -0.85,
+      "logic_ns": 4.709,
+      "route_ns": 3.654
+    },
+    {
+      "start": "u_correction/u_core/u_map/N46_m4/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/kr2_4[59]/opit_0_inv_AQ_perm/I4",
+      "type": "max (slow corner)",
+      "slack_ns": -0.809,
+      "logic_ns": 4.638,
+      "route_ns": 3.656
+    },
+    {
+      "start": "u_correction/u_core/u_map/N46_m4/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/kr2_4[59]/opit_0_inv_AQ_perm/I5",
+      "type": "max (slow corner)",
+      "slack_ns": -0.787,
+      "logic_ns": 4.638,
+      "route_ns": 3.656
+    },
+    {
+      "start": "u_correction/u_core/u_map/N46_m4/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/kr2_4[61]/opit_0_inv_AQ_perm/I5",
+      "type": "max (slow corner)",
+      "slack_ns": -0.787,
+      "logic_ns": 4.642,
+      "route_ns": 3.654
+    },
+    {
+      "start": "u_correction/u_core/u_map/N74_m2_m1/gopapm/CLK",
+      "end": "u_correction/u_core/u_map/tan_y6[65]/opit_0_inv_AQQ_perm/CIN",
+      "type": "max (slow corner)",
+      "slack_ns": -0.78,
+      "logic_ns": 3.18,
+      "route_ns": 5.121
+    }
+  ]
+}

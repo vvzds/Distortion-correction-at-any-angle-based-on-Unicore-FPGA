@@ -1,0 +1,22 @@
+{
+  "state": "READY_FOR_P7_HANDOFF_ON_EXISTING_G4",
+  "handoff_verification_complete": true,
+  "functional_regression_passed": true,
+  "full_regression_cases": 6,
+  "resource_gate_passed": true,
+  "physical_completed": true,
+  "cache_125mhz_closed": false,
+  "system_timing_passed": false,
+  "system_setup_wns_ns": -1.273,
+  "production_accepted": false,
+  "g7_integrated": false,
+  "wait_for_final_g7": true,
+  "current_required_materials_missing": [],
+  "existing_g4_resend_required": false,
+  "source_cache_sha256": "b2042db9c8d40dafb4c277104d909a76caca140d57e2c549bf1d7665324678c3",
+  "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+  "repository_review_commit": "c5398e42666226b1b387b5904912f22463496db4",
+  "new_bitstreams": [],
+  "board_validated": false,
+  "checked_utc": "2026-10-25T09:49:39.128139+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "meaning": "Evidence integrity, not functional/timing acceptance",
+  "source_complete": true,
+  "resource_gate_passed": true,
+  "full_regression_passed": true,
+  "physical_completed": true,
+  "acceptance_passed": false
+}

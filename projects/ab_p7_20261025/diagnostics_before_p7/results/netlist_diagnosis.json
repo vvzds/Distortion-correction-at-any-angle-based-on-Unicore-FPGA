@@ -1,0 +1,3602 @@
+{
+  "netlist": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P4缓存实施_20261024\\physical\\host_seed2_resume_20261025\\synthesize\\hdmi_ddr_ov5640_top_syn.vm",
+  "sha256": "61afdf5d3180e17dfa85884cb8183ebc52aadb238f7f97530fca0b1b463e94b4",
+  "primitive_count": 24626,
+  "primitive_types": {
+    "GTP_LUT1": 1,
+    "GTP_LUT6D": 5903,
+    "GTP_LUT6": 2655,
+    "GTP_LUT5": 722,
+    "GTP_LUT6CARRY": 3385,
+    "GTP_LUT4": 267,
+    "GTP_LUT3": 242,
+    "GTP_LUT2": 16,
+    "GTP_DFF_CE": 1248,
+    "GTP_RAM64X1DP": 3168,
+    "GTP_DFF_C": 249,
+    "GTP_DFF_E": 6762,
+    "GTP_DRM36K_E1": 8
+  },
+  "tag_ram_count": 3136,
+  "tag_ram_types": [
+    {
+      "type": "GTP_RAM64X1DP",
+      "field": "row",
+      "count": 2156
+    },
+    {
+      "type": "GTP_RAM64X1DP",
+      "field": "seg",
+      "count": 980
+    }
+  ],
+  "tag_ram_read_addresses": [
+    {
+      "expression": "{o_fetch_bank[5], o_fetch_bank[4], o_fetch_bank[3], o_fetch_bank[2], o_fetch_bank[1], o_fetch_bank[0]}",
+      "count": 64
+    },
+    {
+      "expression": "{1'b1, 1'b1, 1'b0, 1'b0, 1'b1, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b1, 1'b0, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b1, 1'b0, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b0, 1'b1, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b0, 1'b1, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b1, 1'b1, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b1, 1'b1, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b1, 1'b0, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b1, 1'b0, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b1, 1'b1, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b0, 1'b0, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b0, 1'b0, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b0, 1'b1, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b0, 1'b1, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b0, 1'b0, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b0, 1'b0, 1'b1, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b1, 1'b1, 1'b0, 1'b0, qa[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b1, 1'b1, 1'b1, 1'b1, 1'b0, qb[0]}",
+      "count": 48
+    },
+    {
+      "expression": "{1'b0, 1'b0, 1'b0, 1'b0, 1'b0, qb[0]}",
+      "count": 48
+    }
+  ],
+  "top_local_pin_fanouts": [
+    {
+      "net": "clk",
+      "pin_loads": 11444,
+      "driver": "module input/alias",
+      "driver_type": null,
+      "sink_types": {
+        "GTP_DFF_CE": 1248,
+        "GTP_RAM64X1DP": 3168,
+        "GTP_DFF_C": 249,
+        "GTP_DFF_E": 6762,
+        "GTP_LUT6": 1,
+        "GTP_DRM36K_E1": 16
+      },
+      "example_loads": [
+        {
+          "cell": "chosen[0]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[1]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[2]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[3]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[4]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[5]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[6]",
+          "pin": "CLK"
+        },
+        {
+          "cell": "chosen[7]",
+          "pin": "CLK"
+        }
+      ]
+    },
+    {
+      "net": "chosen[4]",
+      "pin_loads": 3156,
+      "driver": "chosen[4]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 12,
+        "GTP_LUT5": 3,
+        "GTP_LUT6": 1,
+        "GTP_RAM64X1DP": 3140
+      },
+      "example_loads": [
+        {
+          "cell": "N377_4",
+          "pin": "I0"
+        },
+        {
+          "cell": "N2009_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N2825_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N5273_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N6140_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N8537_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N156181_27[4]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N157065_28[4]",
+          "pin": "I4"
+        }
+      ]
+    },
+    {
+      "net": "chosen[5]",
+      "pin_loads": 3156,
+      "driver": "chosen[5]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 12,
+        "GTP_LUT5": 3,
+        "GTP_LUT6": 1,
+        "GTP_RAM64X1DP": 3140
+      },
+      "example_loads": [
+        {
+          "cell": "N377_4",
+          "pin": "I1"
+        },
+        {
+          "cell": "N2009_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "N2825_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "N5273_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "N6140_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "N8537_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "N156181_27[5]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N157065_28[5]",
+          "pin": "I4"
+        }
+      ]
+    },
+    {
+      "net": "chosen[0]",
+      "pin_loads": 3152,
+      "driver": "chosen[0]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 10,
+        "GTP_LUT6": 1,
+        "GTP_LUT5": 1,
+        "GTP_RAM64X1DP": 3140
+      },
+      "example_loads": [
+        {
+          "cell": "N24550",
+          "pin": "I0"
+        },
+        {
+          "cell": "N24552",
+          "pin": "I0"
+        },
+        {
+          "cell": "N157065_28[0]",
+          "pin": "I4"
+        },
+        {
+          "cell": "N157095_28[0]",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[3]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "ND201[5]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "ND201[7]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "ND201[9]_1",
+          "pin": "I0"
+        }
+      ]
+    },
+    {
+      "net": "chosen[1]",
+      "pin_loads": 3151,
+      "driver": "chosen[1]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 9,
+        "GTP_LUT6": 1,
+        "GTP_LUT5": 1,
+        "GTP_RAM64X1DP": 3140
+      },
+      "example_loads": [
+        {
+          "cell": "N156181_27[1]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N157065_28[1]",
+          "pin": "I4"
+        },
+        {
+          "cell": "N157095_28[1]",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[3]_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "ND201[5]_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "ND201[7]_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "ND201[9]_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "ND201[11]_1",
+          "pin": "I1"
+        }
+      ]
+    },
+    {
+      "net": "chosen[2]",
+      "pin_loads": 3151,
+      "driver": "chosen[2]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 9,
+        "GTP_LUT6": 1,
+        "GTP_LUT5": 1,
+        "GTP_RAM64X1DP": 3140
+      },
+      "example_loads": [
+        {
+          "cell": "N156181_27[2]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N157065_28[2]",
+          "pin": "I4"
+        },
+        {
+          "cell": "N157095_28[2]",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[3]_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "ND201[5]_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "ND201[7]_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "ND201[9]_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "ND201[11]_1",
+          "pin": "I2"
+        }
+      ]
+    },
+    {
+      "net": "chosen[3]",
+      "pin_loads": 3151,
+      "driver": "chosen[3]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 9,
+        "GTP_LUT6": 1,
+        "GTP_LUT5": 1,
+        "GTP_RAM64X1DP": 3140
+      },
+      "example_loads": [
+        {
+          "cell": "N156181_27[3]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N157065_28[3]",
+          "pin": "I4"
+        },
+        {
+          "cell": "N157095_28[3]",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[3]_1",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[5]_1",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[7]_1",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[9]_1",
+          "pin": "I3"
+        },
+        {
+          "cell": "ND201[11]_1",
+          "pin": "I3"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[0]",
+      "pin_loads": 2353,
+      "driver": "N109[0]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_LUT6": 24,
+        "GTP_LUT6D": 2092,
+        "GTP_LUT5": 40,
+        "GTP_RAM64X1DP": 196,
+        "GTP_DFF_E": 1
+      },
+      "example_loads": [
+        {
+          "cell": "N17253_9",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17253_10",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17260_8",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17260_9",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17267_8",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17267_9",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17274_9",
+          "pin": "I0"
+        },
+        {
+          "cell": "N17274_10",
+          "pin": "I0"
+        }
+      ]
+    },
+    {
+      "net": "N156355",
+      "pin_loads": 2113,
+      "driver": "N156355",
+      "driver_type": "GTP_LUT2",
+      "sink_types": {
+        "GTP_DFF_E": 2113
+      },
+      "example_loads": [
+        {
+          "cell": "victim_leaf[0][0]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][8]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][9]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][10]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][11]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][12]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][13]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_leaf[0][14]",
+          "pin": "CE"
+        }
+      ]
+    },
+    {
+      "net": "qb[0]",
+      "pin_loads": 1753,
+      "driver": "module input/alias",
+      "driver_type": null,
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6CARRY": 193,
+        "GTP_LUT6": 21,
+        "GTP_LUT6D": 1,
+        "GTP_LUT2": 1,
+        "GTP_RAM64X1DP": 1536
+      },
+      "example_loads": [
+        {
+          "cell": "N109[0]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N13585.eq_0",
+          "pin": "I0"
+        },
+        {
+          "cell": "N13585.eq_5",
+          "pin": "I2"
+        },
+        {
+          "cell": "N13602.eq_0",
+          "pin": "I0"
+        },
+        {
+          "cell": "N13602.eq_5",
+          "pin": "I2"
+        },
+        {
+          "cell": "N13619.eq_0",
+          "pin": "I0"
+        },
+        {
+          "cell": "N13619.eq_5",
+          "pin": "I2"
+        },
+        {
+          "cell": "N13636.eq_0",
+          "pin": "I0"
+        }
+      ]
+    },
+    {
+      "net": "qa[0]",
+      "pin_loads": 1752,
+      "driver": "module input/alias",
+      "driver_type": null,
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6CARRY": 193,
+        "GTP_LUT6": 20,
+        "GTP_LUT6D": 2,
+        "GTP_RAM64X1DP": 1536
+      },
+      "example_loads": [
+        {
+          "cell": "N109[0]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N10197.eq_0",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10197.eq_5",
+          "pin": "I2"
+        },
+        {
+          "cell": "N10214.eq_0",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10214.eq_5",
+          "pin": "I2"
+        },
+        {
+          "cell": "N10231.eq_0",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10231.eq_5",
+          "pin": "I2"
+        },
+        {
+          "cell": "N10248.eq_0",
+          "pin": "I0"
+        }
+      ]
+    },
+    {
+      "net": "N73_0",
+      "pin_loads": 1499,
+      "driver": "module input/alias",
+      "driver_type": null,
+      "sink_types": {
+        "GTP_DFF_CE": 1248,
+        "GTP_DFF_C": 249,
+        "GTP_LUT6": 2
+      },
+      "example_loads": [
+        {
+          "cell": "chosen[0]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[1]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[2]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[3]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[4]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[5]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[6]",
+          "pin": "C"
+        },
+        {
+          "cell": "chosen[7]",
+          "pin": "C"
+        }
+      ]
+    },
+    {
+      "net": "_N41548",
+      "pin_loads": 1040,
+      "driver": "tag_row_0_0_we",
+      "driver_type": "GTP_LUT4",
+      "sink_types": {
+        "GTP_RAM64X1DP": 1040
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_0",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_1",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_2",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_3",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_4",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_5",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_6",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_0_7",
+          "pin": "WE"
+        }
+      ]
+    },
+    {
+      "net": "_N41603",
+      "pin_loads": 1040,
+      "driver": "tag_row_1_1_0_we",
+      "driver_type": "GTP_LUT4",
+      "sink_types": {
+        "GTP_RAM64X1DP": 1040
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_1_1_0",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_1",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_2",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_3",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_4",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_5",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_6",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_1_7",
+          "pin": "WE"
+        }
+      ]
+    },
+    {
+      "net": "_N41614",
+      "pin_loads": 1040,
+      "driver": "tag_row_1_2_0_we",
+      "driver_type": "GTP_LUT4",
+      "sink_types": {
+        "GTP_RAM64X1DP": 1040
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_1_2_0",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_1",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_2",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_3",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_4",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_5",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_6",
+          "pin": "WE"
+        },
+        {
+          "cell": "tag_row_1_2_7",
+          "pin": "WE"
+        }
+      ]
+    },
+    {
+      "net": "first_pending",
+      "pin_loads": 514,
+      "driver": "first_pending",
+      "driver_type": "GTP_DFF_C",
+      "sink_types": {
+        "GTP_LUT6D": 2,
+        "GTP_DFF_CE": 512
+      },
+      "example_loads": [
+        {
+          "cell": "N75_1[0]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N156146",
+          "pin": "I2"
+        },
+        {
+          "cell": "first_a[0]",
+          "pin": "CE"
+        },
+        {
+          "cell": "first_a[1]",
+          "pin": "CE"
+        },
+        {
+          "cell": "first_a[2]",
+          "pin": "CE"
+        },
+        {
+          "cell": "first_a[3]",
+          "pin": "CE"
+        },
+        {
+          "cell": "first_a[4]",
+          "pin": "CE"
+        },
+        {
+          "cell": "first_a[5]",
+          "pin": "CE"
+        }
+      ]
+    },
+    {
+      "net": "alloc",
+      "pin_loads": 430,
+      "driver": "qstate_fsm[3:0]_10",
+      "driver_type": "GTP_LUT2",
+      "sink_types": {
+        "GTP_LUT6D": 208,
+        "GTP_LUT6": 209,
+        "GTP_LUT2": 1,
+        "GTP_LUT4": 6,
+        "GTP_LUT5": 6
+      },
+      "example_loads": [
+        {
+          "cell": "N377_4",
+          "pin": "I2"
+        },
+        {
+          "cell": "N2009_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "N8537_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "N24550",
+          "pin": "I1"
+        },
+        {
+          "cell": "N24552",
+          "pin": "I1"
+        },
+        {
+          "cell": "N155691_6[0]_3",
+          "pin": "I1"
+        },
+        {
+          "cell": "N155691_6[1]_3",
+          "pin": "I1"
+        },
+        {
+          "cell": "N155691_6[2]_3",
+          "pin": "I1"
+        }
+      ]
+    },
+    {
+      "net": "N6",
+      "pin_loads": 412,
+      "driver": "N6",
+      "driver_type": "GTP_LUT1",
+      "sink_types": {
+        "GTP_LUT6D": 207,
+        "GTP_LUT6": 202,
+        "GTP_LUT5": 3
+      },
+      "example_loads": [
+        {
+          "cell": "N75_1[1]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N155319_10[0]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N155319_10[1]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N155319_10[2]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N155319_10[3]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N155342[7]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N155691_6[0]_3",
+          "pin": "I0"
+        },
+        {
+          "cell": "N155691_6[1]_3",
+          "pin": "I0"
+        }
+      ]
+    },
+    {
+      "net": "parity_a",
+      "pin_loads": 380,
+      "driver": "parity_a",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 256,
+        "GTP_LUT6": 124
+      },
+      "example_loads": [
+        {
+          "cell": "N92_6[0]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[1]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[2]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[3]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[4]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[5]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[6]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N92_6[7]",
+          "pin": "I0"
+        }
+      ]
+    },
+    {
+      "net": "N156192",
+      "pin_loads": 301,
+      "driver": "N156192",
+      "driver_type": "GTP_LUT2",
+      "sink_types": {
+        "GTP_DFF_E": 301
+      },
+      "example_loads": [
+        {
+          "cell": "victim_age[0][0]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][1]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][2]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][3]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][4]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][5]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][6]",
+          "pin": "CE"
+        },
+        {
+          "cell": "victim_age[0][7]",
+          "pin": "CE"
+        }
+      ]
+    },
+    {
+      "net": "same_row",
+      "pin_loads": 256,
+      "driver": "same_row",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT6D": 256
+      },
+      "example_loads": [
+        {
+          "cell": "N92_6[0]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[1]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[2]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[3]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[4]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[5]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[6]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N92_6[7]",
+          "pin": "I1"
+        }
+      ]
+    },
+    {
+      "net": "N156188",
+      "pin_loads": 240,
+      "driver": "N156188",
+      "driver_type": "GTP_LUT2",
+      "sink_types": {
+        "GTP_DFF_E": 240
+      },
+      "example_loads": [
+        {
+          "cell": "match_hit[0][0]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][1]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][2]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][3]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][4]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][5]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][6]",
+          "pin": "CE"
+        },
+        {
+          "cell": "match_hit[0][7]",
+          "pin": "CE"
+        }
+      ]
+    },
+    {
+      "net": "\\qid[0]",
+      "pin_loads": 236,
+      "driver": "qid[0][7]",
+      "driver_type": "GTP_DFF_E",
+      "sink_types": {
+        "GTP_LUT6": 224,
+        "GTP_LUT6D": 4,
+        "GTP_DFF_CE": 8
+      },
+      "example_loads": [
+        {
+          "cell": "N17226_48[0]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[1]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[2]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[3]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[4]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[5]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "pin": "I2"
+        },
+        {
+          "cell": "N17226_48[7]",
+          "pin": "I2"
+        }
+      ]
+    },
+    {
+      "net": "N24581",
+      "pin_loads": 206,
+      "driver": "N156089_1",
+      "driver_type": "GTP_LUT2",
+      "sink_types": {
+        "GTP_LUT6": 5,
+        "GTP_LUT2": 3,
+        "GTP_LUT5": 192,
+        "GTP_LUT6D": 2,
+        "GTP_LUT4": 4
+      },
+      "example_loads": [
+        {
+          "cell": "N155922_1",
+          "pin": "I1"
+        },
+        {
+          "cell": "N156184",
+          "pin": "I2"
+        },
+        {
+          "cell": "N156188",
+          "pin": "I0"
+        },
+        {
+          "cell": "N156192",
+          "pin": "I0"
+        },
+        {
+          "cell": "N156355",
+          "pin": "I0"
+        },
+        {
+          "cell": "N157068",
+          "pin": "I2"
+        },
+        {
+          "cell": "N157098",
+          "pin": "I0"
+        },
+        {
+          "cell": "N157127",
+          "pin": "I1"
+        }
+      ]
+    },
+    {
+      "net": "N155341",
+      "pin_loads": 201,
+      "driver": "N155962_1",
+      "driver_type": "GTP_LUT2",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_DFF_CE": 200
+      },
+      "example_loads": [
+        {
+          "cell": "N156140_3",
+          "pin": "I1"
+        },
+        {
+          "cell": "fetch_wr[0]",
+          "pin": "CE"
+        },
+        {
+          "cell": "fetch_wr[1]",
+          "pin": "CE"
+        },
+        {
+          "cell": "fetch_wr[2]",
+          "pin": "CE"
+        },
+        {
+          "cell": "fetch_wr[3]",
+          "pin": "CE"
+        },
+        {
+          "cell": "fetch_wr[4]",
+          "pin": "CE"
+        },
+        {
+          "cell": "fetch_wr[5]",
+          "pin": "CE"
+        },
+        {
+          "cell": "fetch_wr[6]",
+          "pin": "CE"
+        }
+      ]
+    },
+    {
+      "net": "N300",
+      "pin_loads": 198,
+      "driver": "N300_3",
+      "driver_type": "GTP_LUT6",
+      "sink_types": {
+        "GTP_LUT6D": 2,
+        "GTP_LUT6": 100,
+        "GTP_LUT5": 96
+      },
+      "example_loads": [
+        {
+          "cell": "N6_1_inv",
+          "pin": "I2"
+        },
+        {
+          "cell": "N328[0]_1",
+          "pin": "I2"
+        },
+        {
+          "cell": "N328[1]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N328[2]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N328[3]_1",
+          "pin": "I0"
+        },
+        {
+          "cell": "N368_20[0]_5",
+          "pin": "I3"
+        },
+        {
+          "cell": "N368_20[1]_5",
+          "pin": "I1"
+        },
+        {
+          "cell": "N368_20[2]_5",
+          "pin": "I1"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[1]",
+      "pin_loads": 196,
+      "driver": "N109[1]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_1",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[2]",
+      "pin_loads": 196,
+      "driver": "N109[2]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_2",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[3]",
+      "pin_loads": 196,
+      "driver": "N109[3]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_3",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[4]",
+      "pin_loads": 196,
+      "driver": "N109[4]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_4",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[5]",
+      "pin_loads": 196,
+      "driver": "N109[5]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_5",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_5",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[6]",
+      "pin_loads": 196,
+      "driver": "N109[6]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_6",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_6",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[7]",
+      "pin_loads": 196,
+      "driver": "N109[7]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_7",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_7",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[8]",
+      "pin_loads": 196,
+      "driver": "N109[8]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_8",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_8",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[9]",
+      "pin_loads": 196,
+      "driver": "N109[9]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_9",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_9",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_row[10]",
+      "pin_loads": 196,
+      "driver": "N109[10]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_row_0_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_0_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_1_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_1_2_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_0_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_1_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_2_2_10",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_row_3_0_10",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_seg[0]",
+      "pin_loads": 196,
+      "driver": "N110[0]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_seg_0_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_0_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_1_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_2_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_0_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_1_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_2_0",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_3_0_0",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_seg[1]",
+      "pin_loads": 196,
+      "driver": "N110[1]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_seg_0_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_0_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_1_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_2_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_0_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_1_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_2_1",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_3_0_1",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_seg[2]",
+      "pin_loads": 196,
+      "driver": "N110[2]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_seg_0_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_0_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_1_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_2_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_0_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_1_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_2_2",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_3_0_2",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_seg[3]",
+      "pin_loads": 196,
+      "driver": "N110[3]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_seg_0_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_0_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_1_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_2_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_0_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_1_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_2_3",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_3_0_3",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "missing_seg[4]",
+      "pin_loads": 196,
+      "driver": "N110[4]",
+      "driver_type": "GTP_LUT3",
+      "sink_types": {
+        "GTP_RAM64X1DP": 196
+      },
+      "example_loads": [
+        {
+          "cell": "tag_seg_0_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_0_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_1_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_1_2_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_0_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_1_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_2_2_4",
+          "pin": "DI"
+        },
+        {
+          "cell": "tag_seg_3_0_4",
+          "pin": "DI"
+        }
+      ]
+    },
+    {
+      "net": "qstate_reg[6]",
+      "pin_loads": 195,
+      "driver": "module input/alias",
+      "driver_type": null,
+      "sink_types": {
+        "GTP_LUT6D": 2,
+        "GTP_LUT5": 193
+      },
+      "example_loads": [
+        {
+          "cell": "N6_1_inv",
+          "pin": "I3"
+        },
+        {
+          "cell": "N155852",
+          "pin": "I3"
+        },
+        {
+          "cell": "N156146",
+          "pin": "I1"
+        },
+        {
+          "cell": "N157132",
+          "pin": "I1"
+        },
+        {
+          "cell": "N157310",
+          "pin": "I1"
+        },
+        {
+          "cell": "N157488",
+          "pin": "I1"
+        },
+        {
+          "cell": "N157666",
+          "pin": "I1"
+        },
+        {
+          "cell": "N157844",
+          "pin": "I1"
+        }
+      ]
+    },
+    {
+      "net": "qs0[0]",
+      "pin_loads": 194,
+      "driver": "qs0[0]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 193
+      },
+      "example_loads": [
+        {
+          "cell": "N110[0]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10201_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N10218_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N10235_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N10252_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N10269_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N10286_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N10303_4",
+          "pin": "I3"
+        }
+      ]
+    },
+    {
+      "net": "qs1[0]",
+      "pin_loads": 194,
+      "driver": "qs1[0]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 193
+      },
+      "example_loads": [
+        {
+          "cell": "N110[0]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N11895_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N11912_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N11929_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N11946_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N11963_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N11980_4",
+          "pin": "I3"
+        },
+        {
+          "cell": "N11997_4",
+          "pin": "I3"
+        }
+      ]
+    },
+    {
+      "net": "qs0[1]",
+      "pin_loads": 194,
+      "driver": "qs0[1]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 193
+      },
+      "example_loads": [
+        {
+          "cell": "N110[1]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10201_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10218_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10235_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10252_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10269_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10286_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10303_4",
+          "pin": "I4"
+        }
+      ]
+    },
+    {
+      "net": "qs1[1]",
+      "pin_loads": 194,
+      "driver": "qs1[1]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 193
+      },
+      "example_loads": [
+        {
+          "cell": "N110[1]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N11895_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11912_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11929_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11946_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11963_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11980_4",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11997_4",
+          "pin": "I4"
+        }
+      ]
+    },
+    {
+      "net": "qs0[2]",
+      "pin_loads": 194,
+      "driver": "qs0[2]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 192,
+        "GTP_LUT5": 1
+      },
+      "example_loads": [
+        {
+          "cell": "N110[2]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10201_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10218_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10235_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10252_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10269_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10286_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N10303_6",
+          "pin": "I4"
+        }
+      ]
+    },
+    {
+      "net": "qs1[2]",
+      "pin_loads": 194,
+      "driver": "qs1[2]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 192,
+        "GTP_LUT5": 1
+      },
+      "example_loads": [
+        {
+          "cell": "N110[2]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N11895_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11912_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11929_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11946_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11963_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11980_6",
+          "pin": "I4"
+        },
+        {
+          "cell": "N11997_6",
+          "pin": "I4"
+        }
+      ]
+    },
+    {
+      "net": "qs0[3]",
+      "pin_loads": 194,
+      "driver": "qs0[3]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 192,
+        "GTP_LUT5": 1
+      },
+      "example_loads": [
+        {
+          "cell": "N110[3]",
+          "pin": "I0"
+        },
+        {
+          "cell": "N10201_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N10218_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N10235_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N10252_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N10269_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N10286_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N10303_6",
+          "pin": "I5"
+        }
+      ]
+    },
+    {
+      "net": "qs1[3]",
+      "pin_loads": 194,
+      "driver": "qs1[3]",
+      "driver_type": "GTP_DFF_CE",
+      "sink_types": {
+        "GTP_LUT3": 1,
+        "GTP_LUT6": 192,
+        "GTP_LUT5": 1
+      },
+      "example_loads": [
+        {
+          "cell": "N110[3]",
+          "pin": "I1"
+        },
+        {
+          "cell": "N11895_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N11912_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N11929_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N11946_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N11963_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N11980_6",
+          "pin": "I5"
+        },
+        {
+          "cell": "N11997_6",
+          "pin": "I5"
+        }
+      ]
+    }
+  ],
+  "deepest_match_select_cones": [
+    {
+      "endpoint": "qfound[1]/D",
+      "levels": 9,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N192255_1_11",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N192255_1_13",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "qfound_ce_mux[1]",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qfound[0]/D",
+      "levels": 8,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N156093_1_11",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "qfound_ce_mux[0]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qfound[2]/D",
+      "levels": 8,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N156350_1_11",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "qfound_ce_mux[2]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qfound[3]/D",
+      "levels": 8,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N156272_1_11",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "qfound_ce_mux[3]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][0]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[0]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][0]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][1]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[1]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][1]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][2]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[2]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][2]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][3]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][4]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][5]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][6]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][7]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[7]",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[0][7]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157127",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][0]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[0]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][0]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][1]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[1]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][1]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][2]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[2]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][2]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][3]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[3]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][3]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][4]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[4]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][4]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][5]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[5]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][5]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][6]/D",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157095_28[6]",
+          "type": "GTP_LUT5"
+        }
+      ]
+    },
+    {
+      "endpoint": "qid[1][6]/CE",
+      "levels": 7,
+      "start": "qstate_reg[5]",
+      "cells": [
+        {
+          "cell": "qstate_fsm[3:0]_10",
+          "type": "GTP_LUT2"
+        },
+        {
+          "cell": "N155995_1",
+          "type": "GTP_LUT6D"
+        },
+        {
+          "cell": "N17226_64",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N17226_48[6]",
+          "type": "GTP_LUT6"
+        },
+        {
+          "cell": "N157124_27[6]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157124_28[3]",
+          "type": "GTP_LUT5"
+        },
+        {
+          "cell": "N157098",
+          "type": "GTP_LUT6"
+        }
+      ]
+    }
+  ],
+  "combinational_cycle_net_names": [
+    "\\N10197.co",
+    "\\N10214.co",
+    "\\N10231.co",
+    "\\N10248.co",
+    "\\N10265.co",
+    "\\N10282.co",
+    "\\N10299.co",
+    "\\N10316.co",
+    "\\N10338.co",
+    "\\N10355.co",
+    "\\N10372.co",
+    "\\N10389.co",
+    "\\N10406.co",
+    "\\N10423.co",
+    "\\N10440.co",
+    "\\N10457.co",
+    "\\N10479.co",
+    "\\N10496.co",
+    "\\N10513.co",
+    "\\N10530.co",
+    "\\N10547.co",
+    "\\N10564.co",
+    "\\N10581.co",
+    "\\N10598.co",
+    "\\N10620.co",
+    "\\N10637.co",
+    "\\N10654.co",
+    "\\N10671.co",
+    "\\N10688.co",
+    "\\N10705.co",
+    "\\N10722.co",
+    "\\N10739.co",
+    "\\N10761.co",
+    "\\N10778.co",
+    "\\N10795.co",
+    "\\N10812.co",
+    "\\N10829.co",
+    "\\N10846.co",
+    "\\N10863.co",
+    "\\N10880.co",
+    "\\N10902.co",
+    "\\N10919.co",
+    "\\N10936.co",
+    "\\N10953.co",
+    "\\N10970.co",
+    "\\N10987.co",
+    "\\N11004.co",
+    "\\N11021.co",
+    "\\N11043.co",
+    "\\N11060.co",
+    "\\N11077.co",
+    "\\N11094.co",
+    "\\N11111.co",
+    "\\N11128.co",
+    "\\N11145.co",
+    "\\N11162.co",
+    "\\N11184.co",
+    "\\N11201.co",
+    "\\N11218.co",
+    "\\N11235.co",
+    "\\N11252.co",
+    "\\N11269.co",
+    "\\N11286.co",
+    "\\N11303.co",
+    "\\N11325.co",
+    "\\N11342.co",
+    "\\N11359.co",
+    "\\N11376.co",
+    "\\N11393.co",
+    "\\N11410.co",
+    "\\N11427.co",
+    "\\N11444.co",
+    "\\N11466.co",
+    "\\N11483.co",
+    "\\N11500.co",
+    "\\N11517.co",
+    "\\N11534.co",
+    "\\N11551.co",
+    "\\N11568.co",
+    "\\N11585.co",
+    "\\N11607.co",
+    "\\N11624.co",
+    "\\N11641.co",
+    "\\N11658.co",
+    "\\N11675.co",
+    "\\N11692.co",
+    "\\N11709.co",
+    "\\N11726.co",
+    "\\N11748.co",
+    "\\N11765.co",
+    "\\N11782.co",
+    "\\N11799.co",
+    "\\N11816.co",
+    "\\N11833.co",
+    "\\N11850.co",
+    "\\N11867.co",
+    "\\N13585.co",
+    "\\N13602.co",
+    "\\N13619.co",
+    "\\N13636.co",
+    "\\N13653.co",
+    "\\N13670.co",
+    "\\N13687.co",
+    "\\N13704.co",
+    "\\N13726.co",
+    "\\N13743.co",
+    "\\N13760.co",
+    "\\N13777.co",
+    "\\N13794.co",
+    "\\N13811.co",
+    "\\N13828.co",
+    "\\N13845.co",
+    "\\N13867.co",
+    "\\N13884.co",
+    "\\N13901.co",
+    "\\N13918.co",
+    "\\N13935.co",
+    "\\N13952.co",
+    "\\N13969.co",
+    "\\N13986.co",
+    "\\N14008.co",
+    "\\N14025.co",
+    "\\N14042.co",
+    "\\N14059.co",
+    "\\N14076.co",
+    "\\N14093.co",
+    "\\N14110.co",
+    "\\N14127.co",
+    "\\N14149.co",
+    "\\N14166.co",
+    "\\N14183.co",
+    "\\N14200.co",
+    "\\N14217.co",
+    "\\N14234.co",
+    "\\N14251.co",
+    "\\N14268.co",
+    "\\N14290.co",
+    "\\N14307.co",
+    "\\N14324.co",
+    "\\N14341.co",
+    "\\N14358.co",
+    "\\N14375.co",
+    "\\N14392.co",
+    "\\N14409.co",
+    "\\N14431.co",
+    "\\N14448.co",
+    "\\N14465.co",
+    "\\N14482.co",
+    "\\N14499.co",
+    "\\N14516.co",
+    "\\N14533.co",
+    "\\N14550.co",
+    "\\N14572.co",
+    "\\N14589.co",
+    "\\N14606.co",
+    "\\N14623.co",
+    "\\N14640.co",
+    "\\N14657.co",
+    "\\N14674.co",
+    "\\N14691.co",
+    "\\N14713.co",
+    "\\N14730.co",
+    "\\N14747.co",
+    "\\N14764.co",
+    "\\N14781.co",
+    "\\N14798.co",
+    "\\N14815.co",
+    "\\N14832.co",
+    "\\N14854.co",
+    "\\N14871.co",
+    "\\N14888.co",
+    "\\N14905.co",
+    "\\N14922.co",
+    "\\N14939.co",
+    "\\N14956.co",
+    "\\N14973.co",
+    "\\N14995.co",
+    "\\N15012.co",
+    "\\N15029.co",
+    "\\N15046.co",
+    "\\N15063.co",
+    "\\N15080.co",
+    "\\N15097.co",
+    "\\N15114.co",
+    "\\N15136.co",
+    "\\N15153.co",
+    "\\N15170.co",
+    "\\N15187.co",
+    "\\N15204.co",
+    "\\N15221.co",
+    "\\N15238.co",
+    "\\N15255.co"
+  ],
+  "limitations": "Within cache module only; input aliases and vector expansion are not elaborated. Primitive pin loads and unweighted logic-depth diagnostics are not STA or physical fanout/delay measurements."
+}

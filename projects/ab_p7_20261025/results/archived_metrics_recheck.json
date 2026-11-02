@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scope": "Recompute recorded synthesis structure metrics from self-contained archived netlists; no design or simulation rerun",
+  "checks": {
+    "baseline": {
+      "matched": true,
+      "netlist_sha256": "61afdf5d3180e17dfa85884cb8183ebc52aadb238f7f97530fca0b1b463e94b4",
+      "tag_ram_primitives": 3136,
+      "parity_pin_loads": {
+        "qa[0]": 1752,
+        "qb[0]": 1753
+      }
+    },
+    "candidate": {
+      "matched": true,
+      "netlist_sha256": "24e8466d0d44a1a59befb13c44eeea7c848d73fec269af5bd9b0724e79f30d49",
+      "tag_ram_primitives": 1632,
+      "parity_pin_loads": {
+        "qa[0]": 985,
+        "qb[0]": 984
+      }
+    }
+  }
+}
