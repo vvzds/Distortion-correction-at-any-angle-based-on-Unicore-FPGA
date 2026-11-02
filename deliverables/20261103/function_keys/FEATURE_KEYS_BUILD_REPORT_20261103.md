@@ -46,10 +46,42 @@ match. The saved PDS file also records generated run metadata and output paths;
 the portable package omits those large rebuildable databases and retains the
 complete RTL/IP inputs and the selected generated bitstreams.
 
-Seed 1 device-map resources: LUT 16,705/66,600 (25.08%); FF 24,500/133,200
-(18.39%); DRM 84.5/155 (54.52%); APM 148/240 (61.67%); distributed RAM
-110/19,900 (0.55%); USCM 7/32 (21.88%); RCKB 2/24 (8.33%). These are total
-candidate resources, not the incremental cost of the five keys.
+Seed 1 PDS Device Utilization Summary, with percentages recalculated from the
+reported used/available counts:
+
+| Resource | Used / available | Utilization |
+|---|---:|---:|
+| LUT | 16,705 / 66,600 | 25.08% |
+| FF | 24,500 / 133,200 | 18.39% |
+| APM | 148 / 240 | 61.67% |
+| DRM | 84.5 / 155 | 54.52% |
+| Distributed RAM | 110 / 19,900 | 0.55% |
+| IO | 144 / 300 | 48.00% |
+| RCKB | 2 / 24 | 8.33% |
+| SCANCHAIN | 0 / 1 | 0.00% |
+| USCM | 7 / 32 | 21.88% |
+| CCS | 1 / 1 | 100.00% |
+| ADC | 0 / 1 | 0.00% |
+| DDR_PHY | 7 / 24 | 29.17% |
+| HSSTLP | 0 / 2 | 0.00% |
+| GPLL | 3 / 6 | 50.00% |
+| PPLL | 2 / 6 | 33.33% |
+| DDRPHY_CPD | 1 / 12 | 8.33% |
+| HCKB | 0 / 96 | 0.00% |
+| IOCKB | 0 / 24 | 0.00% |
+| MRCKB | 1 / 12 | 8.33% |
+| PCIE | 0 / 1 | 0.00% |
+| DDRPHY_IOCLK_DIV | 2 / 6 | 33.33% |
+| ANALOG | 0 / 1 | 0.00% |
+| TSERDES | 14 / 48 | 29.17% |
+| KEYRAM | 0 / 1 | 0.00% |
+
+These are total design counts from the seed 1 PDS device-map report, not the
+incremental cost of the five keys. PDS reports `CCS` at 1/1 (100%); treat that
+single-instance category as fully occupied for any future feature that may
+need it. The saved PDS outputs do not include a separate post-route resource
+inventory, so the table is the device-map utilization associated with the
+routed candidate, not an independent post-route recount.
 
 | Image | Bytes | SHA256 |
 |---|---:|---|
