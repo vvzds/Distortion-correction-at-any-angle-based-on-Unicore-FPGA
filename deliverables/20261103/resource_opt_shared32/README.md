@@ -51,6 +51,8 @@ bitstream hash, not to the current key-enabled build. See `BOARD_TEST.md` for
 the pending board acceptance procedure.
 
 The repaired candidate is documented in `SIMULATION_FIX_REPORT_20261103.md`.
+Full device-map and post-route resource details are in
+`RESOURCE_UTILIZATION_20261103.md`.
 Its current-source seed 1 bitstream is
 `bitstreams/pango_bno085_quality_keys_resource_opt_simfix_seed1_20261103.sbit`
 (SHA256 `3FF00AA537E48E8EDC1112E02788D72CF2694B0878343D91A7B119D31F9512B1`).
