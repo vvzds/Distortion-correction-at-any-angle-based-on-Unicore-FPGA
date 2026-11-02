@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "authorization": "User explicitly selected: 允许 +5% 试验预算，完成一次布线（推荐）",
+  "authorized_utc": "2026-10-25T11:06:17.233549+00:00",
+  "scope": "One fixed 125MHz/seed2 PNR experiment for unchanged P8. FF ratio to P4 only: 1.02 -> 1.05. Other gates, core, interfaces, output cycles, FDC and IP unchanged. Preserve original failed gate.",
+  "original_gate_sha256": "bcce825633b10ff3811854e84a990aa05ad62b984ba1d2a1ebad80fcdacca033",
+  "original_gate_passed": false,
+  "original_ff_ratio_limit": 1.02,
+  "experiment_ff_ratio_limit": 1.05,
+  "experiment_ff_integer_limit": 8681,
+  "candidate_ff": 8568.0,
+  "experiment_gates": {
+    "flow_completed": true,
+    "no_error_lines": true,
+    "logical_tag_geometry": true,
+    "all_twelve_banks_ram": true,
+    "no_tag_flipflops": true,
+    "ff_budget": true,
+    "logic_lut_budget": true,
+    "total_lut_budget": true,
+    "drm_budget": true,
+    "parity_load_measurable": true,
+    "parity_pin_load_budget": true
+  },
+  "source_archive": "C:\\Users\\lenovo\\Desktop\\ww\\AB_P8触摸译码局部化_20261025",
+  "source_manifest_sha256": "25f1c29e62811f0659253b863053ebf59c0fa915e215a1c19fcf298072b64362",
+  "source_cache_sha256": "a9b516a3736adf5ad7f84198e7ef9b50023e62cca95e2208c63f6d811a6eaf53",
+  "no_rtl_changes": true,
+  "no_constraint_changes": true,
+  "no_bitstream": true
+}

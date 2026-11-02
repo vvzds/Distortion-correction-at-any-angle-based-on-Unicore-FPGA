@@ -1,0 +1,21 @@
+{
+  "state": "COMPLETED_EARLY_GATE_FAILED",
+  "candidate": "P8",
+  "cache_sha256": "a9b516a3736adf5ad7f84198e7ef9b50023e62cca95e2208c63f6d811a6eaf53",
+  "functional_small_passed": true,
+  "exhaustive_touch_cases": 2752,
+  "negative_mutations": 22,
+  "synthesis_completed": true,
+  "resource_gate_passed": false,
+  "failed_gates": [
+    "ff_budget"
+  ],
+  "p8_pnr_executed": false,
+  "p8_full_regression_executed": false,
+  "p8_timing_known": false,
+  "bitstream_generated": false,
+  "board_tested": false,
+  "current_preferred_candidate": "P7R1",
+  "next_action_requires_user_decision": true,
+  "finished_utc": "2026-10-25T11:01:30.653609+00:00"
+}

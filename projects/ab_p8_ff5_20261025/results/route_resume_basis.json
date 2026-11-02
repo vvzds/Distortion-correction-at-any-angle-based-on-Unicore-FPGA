@@ -1,0 +1,13 @@
+{
+  "reason": "First runner inherited a 20-vs-20 iteration plateau heuristic. It stopped the route at iteration161 before completion, causing downstream Flow-0189. Correcting this execution limitation to finish the user-authorized experiment from its saved placed checkpoint.",
+  "no_new_rtl": true,
+  "no_new_seed": true,
+  "no_new_frequency": true,
+  "no_new_constraint": true,
+  "no_new_placement_requested": true,
+  "checkpoint_sha256": "8588de1076c21ebcbacac11fabeceb7c768831b6acca3942a88fad2026351a57",
+  "mapped_sha256": "e26defc59c869abaf136fe88ab04a769e12cae4402c5a2a86410031d3546a475",
+  "first_attempt_receipt_sha256": "f4074062bbbb2e2167b4fb760cbf54494cc8bdd84914087960f9133c457ebe0b",
+  "next_scope": "Continue routing from saved placement using original map DB; disable inherited plateau termination; keep 7200s hard wall and explicit cancellation.",
+  "replay_disclosure": "Partial routing was not checkpointed. Routing restarts from the saved placement, not from route iteration161. Preserve both invocations; do not claim uninterrupted natural completion or independent second seed."
+}

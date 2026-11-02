@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "candidate_file_count": 81,
+  "physical_input_count": 139,
+  "candidate_changes": [
+    "source/rtl/undistort_cache_ab.v"
+  ],
+  "physical_changes": [
+    "source/rtl/undistort_cache_ab.v"
+  ],
+  "core_sha256": "9ba7d1e4ac65a2063b89c5e5a57766b20d84d3f8eb53d0556cc88317d3efff68",
+  "cache_sha256": "a9b516a3736adf5ad7f84198e7ef9b50023e62cca95e2208c63f6d811a6eaf53",
+  "original_constraints_unchanged": true,
+  "original_ips_unchanged": true,
+  "p7_manifest_unchanged": true
+}

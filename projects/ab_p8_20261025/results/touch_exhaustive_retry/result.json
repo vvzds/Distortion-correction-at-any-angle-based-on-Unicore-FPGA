@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "steps": [
+    {
+      "argv": [
+        "Y:\\bin\\iverilog.exe",
+        "-B",
+        "Y:\\lib\\ivl",
+        "-g2012",
+        "-s",
+        "p8_touch_exhaustive_tb",
+        "-o",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P8\u89e6\u6478\u8bd1\u7801\u5c40\u90e8\u5316_20261025\\results\\touch_exhaustive_retry\\sim.vvp",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P8\u89e6\u6478\u8bd1\u7801\u5c40\u90e8\u5316_20261025\\tests\\p8_touch_exhaustive_tb.sv",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P8\u89e6\u6478\u8bd1\u7801\u5c40\u90e8\u5316_20261025\\candidate\\source\\rtl\\undistort_cache_ab.v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "Y:\\bin\\vvp.exe",
+        "C:\\Users\\lenovo\\Desktop\\ww\\AB_P8\u89e6\u6478\u8bd1\u7801\u5c40\u90e8\u5316_20261025\\results\\touch_exhaustive_retry\\sim.vvp"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "inputs_before": {
+    "tests\\p8_touch_exhaustive_tb.sv": "5d441727ef6faf8a98f6820ab49ad4d22e5955e46ad92dbb0dc85c70ecf42290",
+    "candidate\\source\\rtl\\undistort_cache_ab.v": "a9b516a3736adf5ad7f84198e7ef9b50023e62cca95e2208c63f6d811a6eaf53"
+  },
+  "inputs_after": {
+    "tests\\p8_touch_exhaustive_tb.sv": "5d441727ef6faf8a98f6820ab49ad4d22e5955e46ad92dbb0dc85c70ecf42290",
+    "candidate\\source\\rtl\\undistort_cache_ab.v": "a9b516a3736adf5ad7f84198e7ef9b50023e62cca95e2208c63f6d811a6eaf53"
+  },
+  "log": "P8_TOUCH_EXHAUSTIVE PASS checks=2752 lanes=4 ids_per_lane=256 enable_values=2 duplicates=192 mixed=512\nC:\\Users\\lenovo\\Desktop\\ww\\AB_P8\u89e6\u6478\u8bd1\u7801\u5c40\u90e8\u5316_20261025\\tests\\p8_touch_exhaustive_tb.sv:40: $finish called at 22037000 (1ps)\n"
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.vvp
+/physical/host_seed2/compile/
+/physical/host_seed2/*/*.adf
