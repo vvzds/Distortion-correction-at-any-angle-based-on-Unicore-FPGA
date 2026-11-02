@@ -1,0 +1,19 @@
+{
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\projective_divide.v": "26644dd5e934c43fa0c9b1f1128414aee6e7c7d1c609d35376d7f55a488e9a40",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\mul32_pipe.v": "e587c878403bde4700ad81afe4800a3b0bba431be96c5170e8cbfba4596b3ca2",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\brown_map.v": "c974ac83bcbfc089451516cc207b4da7d59c7266d02d27e1f1878229b810a9a4",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\patch_store.v": "f5402cb5a97fb33efc6e17cea4322de8d01f9e24a6e035a4cd8e686b6fb77ac2",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\bilinear_rgb.v": "0fa8f3e1e2165be87716913b30da617d8f08ef49f00a3e91a4ef255f1b8762a0",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\adaptive_gamma.v": "d2ae17a91f33a7d48cc373be7f358ad626e6b2997f8ddf79668128739bcd4bf3",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\tile_engine.v": "e23b9c8a2ed22cc32b55a0621c8a7d7538c0f89b325586d0517b07695021e71f",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\tile_write_pack.v": "d7720bb2e9b6a584440f354be4bd327797c4db447a1f251f257b2bbedccfe1cf",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\corr_read_bridge.v": "84dac8880e76471b75994b972f3531bf8ba6d98f4a26f1ec4b4af6b641dc78f6",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\corr_write_arb.v": "1e24828ad5cc64ac1936b4f5ace4e13921f89b1de8d9ea2a91a0b0f146805e3c",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\sim\\native_video_tb.v": "96e1a28e24be62969539967904989b8f0cbb00296c231fb0b89e065f323841f5",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\correction_hook.vh": "4054f16f6862e04ea39d9491d1d1510f26405fa20ac6b9175767810f3ec8e850",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\default_config.vh": "716b7dc5d9bd09e66729ec377dbf442b58444ded81d60ad6430c7f795cee139d",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\gamma_tables.vh": "3fb4ae20ed3dfb821ef2b81520b8a9d562153ae84bc1e372d799e0baf062469e",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\video_contract.vh": "040eebd1470fba7d3c302ac8969b4f2bdbd30d293a7cdd696ab06ebeb1f365d5",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\build\\vectors\\frame_config_90_1.hex": "c527cca67ed22530361ea3e342cb14a56e6c3e578c40b54ee223e4122fa80da4",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\build\\vectors\\golden_90_1.hex": "f46e9715b0ee6725831b0b241e9b334773975b0564c660e65a3ba64cc444b132"
+}

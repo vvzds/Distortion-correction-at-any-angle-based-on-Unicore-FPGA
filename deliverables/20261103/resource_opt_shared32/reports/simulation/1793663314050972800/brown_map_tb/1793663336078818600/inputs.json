@@ -1,0 +1,12 @@
+{
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\projective_divide.v": "26644dd5e934c43fa0c9b1f1128414aee6e7c7d1c609d35376d7f55a488e9a40",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\mul32_pipe.v": "e587c878403bde4700ad81afe4800a3b0bba431be96c5170e8cbfba4596b3ca2",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\brown_map.v": "c974ac83bcbfc089451516cc207b4da7d59c7266d02d27e1f1878229b810a9a4",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\sim\\brown_map_tb.v": "68299bf94d65d10aefe3dd26508d7b3eef635654970da98e3dee3631c35fe603",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\correction_hook.vh": "4054f16f6862e04ea39d9491d1d1510f26405fa20ac6b9175767810f3ec8e850",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\default_config.vh": "716b7dc5d9bd09e66729ec377dbf442b58444ded81d60ad6430c7f795cee139d",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\gamma_tables.vh": "3fb4ae20ed3dfb821ef2b81520b8a9d562153ae84bc1e372d799e0baf062469e",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\video_contract.vh": "040eebd1470fba7d3c302ac8969b4f2bdbd30d293a7cdd696ab06ebeb1f365d5",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\build\\vectors\\config_case8.hex": "6c433dccd78799e2d6e396e2c861f51d0d21f60818bdabf62c357cd3ce34604c",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\build\\vectors\\map_case8.txt": "e709664941534f32968161108c7ed3b3d5d33c910c5eceba21c2af13eac164a0"
+}

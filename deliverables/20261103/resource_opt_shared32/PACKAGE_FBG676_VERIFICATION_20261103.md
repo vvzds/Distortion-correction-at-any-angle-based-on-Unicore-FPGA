@@ -64,7 +64,12 @@ full-build output. The two `ip_generate_*` logs and
 source. Earlier PDS logs are retained unchanged and describe builds made before
 this correction.
 
-The RTL did not change, so the existing RTL simulation results remain
-applicable. The fresh PDS run validates implementation and timing only; it does
-not establish board behavior or stable 1080p30. The new bitstream needs board
-validation before promotion.
+The RTL did not change during IP regeneration. The full software/RTL regression
+was rerun against this FBG676 source snapshot on 2026-11-03 and passed all 29
+simulation runs. Its per-run receipts and logs are under
+`reports/simulation/1793663314050972800/`; the summary is
+`reports/verification_summary.json`. Real-camera image-quality analysis was
+skipped because the held-out photo dataset was unavailable. The fresh PDS run
+and simulation validate implementation, timing and modeled behavior only; they
+do not establish board behavior or stable 1080p30. The new bitstream still
+needs board validation before promotion.
