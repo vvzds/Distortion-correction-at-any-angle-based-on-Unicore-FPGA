@@ -53,22 +53,34 @@ the pending board acceptance procedure.
 The repaired candidate is documented in `SIMULATION_FIX_REPORT_20261103.md`.
 Full device-map and post-route resource details are in
 `RESOURCE_UTILIZATION_20261103.md`.
-Its current-source seed 1 bitstream is
-`bitstreams/pango_bno085_quality_keys_resource_opt_simfix_seed1_20261103.sbit`
-(SHA256 `3FF00AA537E48E8EDC1112E02788D72CF2694B0878343D91A7B119D31F9512B1`).
-It passed 29 archived ModelSim runs and routes with +0.206 ns slow-corner DDR
-PHY setup WNS and zero setup/hold failing endpoints. The existing seed images
-and ZIP remain preserved. Real-camera image-quality analysis and board testing
+The latest seed 1 image, rebuilt after the RAM IP metadata was regenerated for
+FBG676, is
+`bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit`
+(SHA256 `383DAA2D21270EDA53D94D79F05F464FEB8BAE2A4710288CD600F535355C55D0`).
+It passed the full PDS route with +0.206 ns slow-corner DDR PHY setup WNS and
+zero setup/hold failing endpoints. The earlier
+`pango_bno085_quality_keys_resource_opt_simfix_seed1_20261103.sbit` remains
+preserved as a pre-IP-regeneration comparison image. The candidate passed 29
+archived ModelSim runs; real-camera image-quality analysis and board testing
 are still pending.
 
-The repaired full-project archive is
-`pango_quality_function_keys_simfix_full_20261103.zip`; verify it with the
-adjacent `.zip.sha256` file. `SHA256SUMS.txt` covers project and evidence files,
-excluding generated build directories and ZIP containers.
+The updated full-project archive is
+`pango_quality_function_keys_pkg676_full_20261103.zip`; verify it with the
+adjacent `.zip.sha256` file. The earlier
+`pango_quality_function_keys_simfix_full_20261103.zip` remains a pre-FBG676-fix
+archive. `SHA256SUMS.txt` covers project and evidence files, excluding generated
+build directories, Python bytecode and ZIP containers.
 
-## Known build caveat
+## Package metadata follow-up
 
-PDS reported `All Constraints Met` for the selected routes, but also warned
-that the read/write frame-buffer IP metadata names package FBG484 while the
-project target is FBG676. Resolve this IP metadata mismatch and repeat the PDS
-build before treating the candidate as production-qualified.
+The read/write frame-buffer RAM IPs have been regenerated for PG2L100H-6
+FBG676 with PDS IP Generator 2022.2-SP6.1. A fresh seed 1 full PDS build
+completed with zero `Flow-4058` package warnings, `All Constraints Met`,
+slow-corner setup WNS `+0.206 ns`, and hold WHS `+0.141 ns`. The new image is
+`bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit`;
+the verification record and raw timing report are in
+`PACKAGE_FBG676_VERIFICATION_20261103.md` and `pds_evidence/`.
+
+Earlier PDS logs are retained unchanged as historical records and still show
+the original warning. The updated full-project archive contains the new FBG676
+seed 1 image; this routed candidate has not been board-tested.

@@ -69,6 +69,9 @@ This build includes the shared 32-bit multiplier/pipeline resource optimization
 already present in the project baseline. This repair did not restructure the
 pixel pipeline, so it introduces no intended image-quality or pixel-latency
 change beyond the corrected feature gating and the fixes to the verification
-harness. The inherited DDR IP FBG484 metadata versus project FBG676 warning
-still needs resolution before production qualification. Routing and
-simulation do not prove stable 1080p30 on the physical board.
+harness. The inherited DDR IP FBG484 metadata mismatch has now been corrected:
+both RAM IPs were regenerated for FBG676, then a fresh seed 1 full PDS build
+completed with no `Flow-4058` warnings and `All Constraints Met`. See
+`PACKAGE_FBG676_VERIFICATION_20261103.md` for the new WNS/WHS, resource counts,
+bitstream hash, and retained raw evidence. Routing and simulation do not prove
+stable 1080p30 on the physical board; the new image still needs board testing.

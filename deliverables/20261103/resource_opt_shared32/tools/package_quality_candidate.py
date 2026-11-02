@@ -8,7 +8,11 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 OMIT_DIRS = {"build", ".git", ".venv", "__pycache__"}
-OMIT_SUFFIXES = {".pyc", ".pyo"}
+OMIT_SUFFIXES = {".pyc", ".pyo", ".zip"}
+OMIT_PATHS = {
+    "reports/native_0_1_then45_smooth_latency40_period514.json",
+    "reports/simulation/1793656991835276600",
+}
 
 
 def main() -> None:
@@ -24,10 +28,20 @@ def main() -> None:
     root_name = ROOT.name
     files = []
     for path in ROOT.rglob("*"):
-        if not path.is_file() or path.suffix.lower() in OMIT_SUFFIXES:
+        if (
+            not path.is_file()
+            or path.suffix.lower() in OMIT_SUFFIXES
+            or path.name.lower().endswith(".zip.sha256")
+        ):
             continue
         relative = path.relative_to(ROOT)
+        relative_name = relative.as_posix()
         if any(part in OMIT_DIRS for part in relative.parts):
+            continue
+        if any(
+            relative_name == omitted or relative_name.startswith(omitted + "/")
+            for omitted in OMIT_PATHS
+        ):
             continue
         if path.resolve() == output:
             continue

@@ -6,8 +6,10 @@
 - Device: PG2L100H-6 FBG676
 - Tool: PDS 2022.2-SP6.1, build 138931
 - Route seed: 1
-- Bitstream: `bitstreams/pango_bno085_quality_keys_resource_opt_simfix_seed1_20261103.sbit`
-- Bitstream SHA256: `3FF00AA537E48E8EDC1112E02788D72CF2694B0878343D91A7B119D31F9512B1`
+- Bitstream: `bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit`
+- Bitstream SHA256: `383DAA2D21270EDA53D94D79F05F464FEB8BAE2A4710288CD600F535355C55D0`
+- Slow-corner setup WNS: `+0.206 ns` at 125 MHz DDR PHY clock
+- Slow-corner hold WHS: `+0.141 ns` at 125 MHz DDR PHY clock
 
 The source passed the 29-run ModelSim suite before this route. The figures below
 are from PDS device mapping and placement/routing reports, not estimates from
@@ -75,7 +77,8 @@ The largest primary logic-memory use is DRM at 54.5%; APM is 43.3%, LUT is
 including camera interfaces, DDR, HDMI, BNO085, OSD, Gamma, denoise/sharpen and
 the function keys. They are not the incremental cost of any one feature.
 
-PDS reported `All Constraints Met` for this routed image. There was no board
-test in this run, so resource closure does not establish real-board frame rate
-or image behavior. The inherited DDR IP package-metadata warning is documented
-in `SIMULATION_FIX_REPORT_20261103.md`.
+PDS reported `All Constraints Met` for this routed image. The IP metadata was
+regenerated for FBG676 before this seed 1 run; its console has zero
+`Flow-4058` package warnings. There was no board test in this run, so resource
+closure does not establish real-board frame rate or image behavior. Full
+details are in `PACKAGE_FBG676_VERIFICATION_20261103.md`.

@@ -94,10 +94,12 @@ is preserved unchanged. Its hash is `B9530A24C5551CE9BA03B670A3E2F0F093F5407A63A
 and its source manifest differs from the key-enabled route. It is a pre-key
 historical image, not an alternate build of these five controls.
 
-PDS emitted a device-metadata warning for `rd_fram_buf` and `wr_fram_buf`:
-their generated IP metadata identifies PG2L100H-6 FBG484 while the project is
-configured for FBG676. Although timing passed, regenerate or verify those IPs
-for the actual package before production acceptance.
+The package metadata issue noted by the original runs has been resolved in a
+follow-up build. Both frame-buffer RAM IPs were regenerated for FBG676, and the
+fresh seed 1 build completed without `Flow-4058`; its detailed verification is
+in `PACKAGE_FBG676_VERIFICATION_20261103.md`. Older console logs under
+`pds_evidence/` remain unchanged so they continue to describe the original
+warning accurately.
 
 ## RTL simulation
 
