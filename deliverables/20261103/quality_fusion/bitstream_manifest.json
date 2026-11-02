@@ -1,0 +1,32 @@
+{
+  "bitstream": "release/pango_bno085_quality_denoise_sharpen_osd_seed7_20261103.sbit",
+  "sha256": "B9530A24C5551CE9BA03B670A3E2F0F093F5407A63A75BC728DA426084E3EA1C",
+  "source_manifest_sha256": "db09f0c9a6693b04bb1c5b7fe35f5e023d01ec8a49824f442520e585151fa554",
+  "seed": 7,
+  "timing_passed": true,
+  "hardware_tested": false,
+  "device": "PG2L100H-6 FBG676",
+  "pds_version": "2022.2-SP6.1 build 138931",
+  "slow_corner_setup_wns_ns": {
+    "ddrphy_sysclk": 0.234,
+    "pix_clk": 1.214,
+    "minimum_all_constrained_clocks": 0.234
+  },
+  "slow_corner_min_hold_whs_ns": 0.138,
+  "fast_corner_min_hold_whs_ns": 0.100,
+  "failed_setup_endpoints": 0,
+  "failed_hold_endpoints": 0,
+  "resources": {
+    "LUT": 16401,
+    "FF": 24358,
+    "DRM": 84.5,
+    "APM": 148
+  },
+  "build_receipt": "reports/pds/denoise_sharpen_osd_final_seed7_20261103/receipt.json",
+  "timing_report": "reports/pds/denoise_sharpen_osd_final_seed7_20261103/hdmi_ddr_ov5640_top.rtr",
+  "limitations": [
+    "PDS timing closure does not prove stable 1080p30 or visual denoising quality on hardware",
+    "The current denoiser is horizontal spatial filtering; vertical and temporal noise require board evaluation",
+    "Quality controls default to bypass until configured by the host"
+  ]
+}
