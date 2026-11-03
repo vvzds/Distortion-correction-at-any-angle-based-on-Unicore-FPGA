@@ -1,0 +1,42 @@
+{
+  "time": "2026-11-03T11:33:47.955462+08:00",
+  "status": {
+    "frames": 68620,
+    "cycles": 2108771,
+    "read_wait": 1184569,
+    "write_wait": 92153,
+    "read_beats": 150491,
+    "invalid_pixels": 0,
+    "overflow_tiles": 0,
+    "flags": 640,
+    "rx_errors": 0,
+    "valid_packets": 498,
+    "active_sequence": 30610,
+    "pending_sequence": 30610,
+    "busy": false,
+    "pending": false,
+    "core_fault": false,
+    "write_fault": false,
+    "gamma_mode": 0,
+    "pose_map_enabled": false,
+    "pose_reference_valid": true,
+    "pose_map_busy": false,
+    "pose_capture_generation": 1,
+    "pose_map_valid": false,
+    "processing_capacity_fps": 59.27623245957005
+  },
+  "frame_state": {
+    "frames": 68620,
+    "registers": [
+      178042,
+      0,
+      -614476,
+      0,
+      178078,
+      -395589
+    ],
+    "gamma": 1,
+    "flags": 0,
+    "version": 131073
+  }
+}

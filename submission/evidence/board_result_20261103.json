@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-03T11:43:34.321147+08:00",
+  "candidate": "pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103",
+  "device": "PG2L100H-6 FBG676",
+  "jtag_detected_device": "PG2L100H",
+  "jtag_id": "0x00602899",
+  "programming": {
+    "time": "2026-11-03T10:54:50.622687",
+    "bitstream": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\final_board_test_20261103\\board_evidence_sram\\pkg676_seed1.sbit",
+    "sha256": "383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0",
+    "flash_written": false,
+    "programmed": true,
+    "jtag_frequency": "1MHz",
+    "started_jtag_server_pid": 17176
+  },
+  "package_sha256": "2D7B53AE0529068E96874BA668B19263F7116841E67883B2A5AA04EEB1DB1D75",
+  "project_zip_sha256": "6B542EA0AFB3C108983ECD716F89B3D21B82644AA79D07DF7368A58AFA637959",
+  "manifest_files_checked": 496,
+  "port": "COM8",
+  "uart": "115200 8N1",
+  "capture_device_index": 1,
+  "capture_mode": "DirectShow MJPG 1920x1080 30fps",
+  "tests": [
+    {
+      "name": "包内哈希核验",
+      "result": "PASS",
+      "evidence": "外包哈希匹配；完整工程496项清单、内嵌与独立位流均通过。"
+    },
+    {
+      "name": "SRAM下载",
+      "result": "PASS",
+      "evidence": "PG2L100H；done bit=1；383DAA2D…C55D0；未写Flash。"
+    },
+    {
+      "name": "基线实时画面",
+      "result": "PASS",
+      "evidence": "1920×1080实拍图及运动录像；20秒UART基线无故障。"
+    },
+    {
+      "name": "KEY0 Brown开关",
+      "result": "PASS",
+      "evidence": "用户现场确认；按键录像约3.6秒关闭、9.6秒恢复几何；read_beats 150491→169016→150491。"
+    },
+    {
+      "name": "KEY2 Gamma开关",
+      "result": "PASS_USER_OBSERVATION",
+      "evidence": "用户确认关闭/恢复有对应变化；最终frame_state.gamma bit0=1。未用gamma_mode=0推断开关状态。"
+    },
+    {
+      "name": "KEY3 四档画质循环",
+      "result": "PASS_USER_OBSERVATION",
+      "evidence": "用户确认四次循环有对应变化并恢复；录像及UART无异常。档位没有直接状态读回。"
+    },
+    {
+      "name": "KEY4 OSD显隐",
+      "result": "PASS_USER_OBSERVATION_AND_CAPTURE",
+      "evidence": "用户确认显示/隐藏正常；第二段host_priority_and_key1录像15.70秒隐藏、20.13秒再显示。第一段录像未独立捕获清晰OSD面板。"
+    },
+    {
+      "name": "主机质量命令优先级",
+      "result": "PASS_USER_OBSERVATION_AND_UART",
+      "evidence": "用户先KEY3进DN1；同源接口下发DN2+SH1并被接收；用户确认主机接管且再次KEY3能进入DN1。"
+    },
+    {
+      "name": "主机OSD命令优先级",
+      "result": "PASS_USER_OBSERVATION_AND_CAPTURE",
+      "evidence": "下发标定参数OSD，第二段录像0.10秒出现，之后KEY4隐藏/再显示；主机显隐命令另有截图，最后隐藏。"
+    },
+    {
+      "name": "KEY1 BNO085姿态映射",
+      "result": "PASS_USER_OBSERVATION_AND_UART",
+      "evidence": "BNO085有新鲜姿态，KEY1后enabled/reference/map-valid均真，参考代次0→1；转动期间画面正常且无新增故障，最终按键关闭。"
+    },
+    {
+      "name": "主机5度仿射及恢复",
+      "result": "PASS",
+      "evidence": "IMU映射关闭和开启时均已应用5度自动裁边并恢复0度；有截图、UART及开启状态短录像。"
+    },
+    {
+      "name": "30秒校正帧发布率",
+      "result": "PASS_QUICK_SCREEN_ONLY",
+      "evidence": "UART同步窗口发布率30.005/s；fault/overflow/rx_errors无增长。"
+    },
+    {
+      "name": "30秒HDMI运动内容筛查",
+      "result": "PASS_QUICK_SCREEN_ONLY",
+      "evidence": "1920×1080，901帧，30fps；完整中间秒均30次变化。"
+    },
+    {
+      "name": "恢复默认测试状态",
+      "result": "PASS",
+      "evidence": "Brown/Gamma开启（Brown依据现场操作确认）；IMU关闭；主机画质Host(0,0)；OSD隐藏；仿射0度。"
+    },
+    {
+      "name": "10分钟连续长稳",
+      "result": "NOT_TESTED",
+      "evidence": "说明中的建议后续正式验收，本次只做快速功能板测，未执行。"
+    }
+  ],
+  "rate_measurement": {
+    "corrected_publication_fps": 30.004817287179133,
+    "captured_frames": 901,
+    "capture_elapsed_seconds": 30.015,
+    "capture_observed_fps": 30.018,
+    "video_analysis": {
+      "input": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\final_board_test_20261103\\board_evidence_sram\\hdmi_motion_30s_mjpg.mp4",
+      "video_sha256": "A2CF50D478611A630389C737C97E8287B376FACF2A64F09FB1893238E22F811A",
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "nominal_fps": 30.0,
+      "decoded_frames": 901,
+      "container_declared_frames": 901,
+      "duration_seconds": 30.033333333333335,
+      "content_change_rate_fps": 29.966703662597112,
+      "changed_frame_transitions": 900,
+      "low_motion_transitions": 0,
+      "motion_evidence_sufficient": true,
+      "minimum_changes_per_full_second": 27,
+      "per_second": [
+        {
+          "second": 0,
+          "frames": 30,
+          "changes": 29,
+          "motion_pairs": 29
+        },
+        {
+          "second": 1,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 2,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 3,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 4,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 5,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 6,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 7,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 8,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 9,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 10,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 11,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 12,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 13,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 14,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 15,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 16,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 17,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 18,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 19,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 20,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 21,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 22,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 23,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 24,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 25,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 26,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 27,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 28,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 29,
+          "frames": 30,
+          "changes": 30,
+          "motion_pairs": 30
+        },
+        {
+          "second": 30,
+          "frames": 1,
+          "changes": 1,
+          "motion_pairs": 1
+        }
+      ],
+      "quick_screen_verdict": "PASS_QUICK_SCREEN_ONLY",
+      "limitations": [
+        "A content-change screen is meaningful only when the recorded scene contains sustained visible motion.",
+        "This video analysis does not prove camera sensor frame identity; combine it with UART corrected-frame counters and long-run testing.",
+        "A quick-screen pass is not a 10-minute stability acceptance result."
+      ]
+    }
+  },
+  "faults": {
+    "core_fault_seen": false,
+    "write_fault_seen": false,
+    "max_overflow_tiles": 0,
+    "max_rx_errors": 0
+  },
+  "final_state": {
+    "time": "2026-11-03T11:33:47.955462+08:00",
+    "status": {
+      "frames": 68620,
+      "cycles": 2108771,
+      "read_wait": 1184569,
+      "write_wait": 92153,
+      "read_beats": 150491,
+      "invalid_pixels": 0,
+      "overflow_tiles": 0,
+      "flags": 640,
+      "rx_errors": 0,
+      "valid_packets": 498,
+      "active_sequence": 30610,
+      "pending_sequence": 30610,
+      "busy": false,
+      "pending": false,
+      "core_fault": false,
+      "write_fault": false,
+      "gamma_mode": 0,
+      "pose_map_enabled": false,
+      "pose_reference_valid": true,
+      "pose_map_busy": false,
+      "pose_capture_generation": 1,
+      "pose_map_valid": false,
+      "processing_capacity_fps": 59.27623245957005
+    },
+    "frame_state": {
+      "frames": 68620,
+      "registers": [
+        178042,
+        0,
+        -614476,
+        0,
+        178078,
+        -395589
+      ],
+      "gamma": 1,
+      "flags": 0,
+      "version": 131073
+    }
+  },
+  "overall_result": "PASS_QUICK_FUNCTIONAL_BOARD_TEST_WITH_USER_OBSERVATIONS",
+  "scope": "按快速板测说明完成；人工画质/按键观察项依据用户现场确认，不能等同于自动测量或正式长稳验收。",
+  "procedure_note": "使用包内同源Connection/model/CLI下发与GUI相同命令；录像通过OpenCV直接读取Hagibis MJPG，未使用OBS。未执行清晰度等额外指标。",
+  "capture_note": "首次默认YUY2仅约10fps，属于电脑采集格式限制；该录像不作为板端帧率判据。换MJPG后有效录制901帧/30.015秒。"
+}

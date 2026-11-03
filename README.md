@@ -1,63 +1,55 @@
-# FPGA 图像畸变校正工程：生产模式 4 宿主基线
+# 基于紫光同创 FPGA 的实时畸变校正与动态仿射系统
 
-当前仓库收录视频链路宿主工程，目标硬件为盘古 100 系列
-PG2L100H FBG676、CMOS2 OV5640，开发环境为紫光同创 PDS 2022.2-SP6.1。
-视频格式为 RAW8 采集、RGB565 存储、HDMI 1920×1080 @ 30Hz。
+面向 2026 全国大学生嵌入式芯片与系统设计竞赛的 FPGA 图像处理工程。
+硬件为盘古 100Pro+（MES2L676 / BASE V1.2、PG2L100H-6 FBG676）、OV5640 CMOS2 和可选 BNO085；使用紫光同创 PDS 2022.2-SP6.1。
 
-**当前边界：本版本的 `correction_hook.vh` 是空挂接点，尚未接入真实校正核。**
-显示侧选择校正槽 4，必须有真实校正核写回并发布完整帧后才能出图；
-直接构建和下载这个宿主版本，不能作为完整校正系统的显示演示。
-本仓库也不等同于设计方的 G4 整机集成工程。
+**比赛提交请从 [提交入口](submission/README.md) 开始。** 当前演示基线为 2026-11-03 FBG676 seed1 完整工程，已完成快速功能板测。
 
-## 当前进度与模块交付
+| 要找的内容 | 入口 |
+|---|---|
+| 可直接下载的比赛整理包、完整工程和位流 | [Release 下载](https://github.com/vvzds/Distortion-correction-at-any-angle-based-on-Unicore-FPGA/releases/tag/competition-1080p30-20261104) |
+| 完整 PDS 工程 | [deliverables/20261103/resource_opt_shared32/pango_undistort.pds](deliverables/20261103/resource_opt_shared32/pango_undistort.pds) |
+| FPGA 源码 / 厂商 IP / 引脚约束 | [RTL](deliverables/20261103/resource_opt_shared32/source/rtl/) · [IP](deliverables/20261103/resource_opt_shared32/ipcore/) · [FDC](deliverables/20261103/resource_opt_shared32/HDMI_DDR3_OV5640_test.fdc) |
+| 唯一推荐的演示位流 | [FBG676 seed1](deliverables/20261103/resource_opt_shared32/bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit) |
+| 上位机及标定参数 | [host](deliverables/20261103/resource_opt_shared32/host/) · [真实标定 JSON](deliverables/20261103/resource_opt_shared32/calibration/ov5640_1080p.json) |
+| 下载、运行、构建 | [快速开始](docs/submission/QUICKSTART.md) |
+| 功能、按键和处理原理 | [系统说明](docs/submission/ARCHITECTURE.md) |
+| 实测性能、资源及时序 | [验证汇总](docs/submission/VALIDATION.md) · [板测回执](submission/evidence/quick_board_test_20261103.md) |
+| 开发阶段与历史版本 | [历程及版本导航](docs/submission/HISTORY.md) |
 
-[总说明与任务清单（v2.0.4）](docs/project/README.md) · [模块交付包及SHA256](deliverables/20261023/README.md)。
+## 图像链路
 
-[一号协作者补充材料（2026-10-24）](deliverables/20261024/contributor_01_additions/README.md)：缓存时序方案、资源告警审查、标定与验证补充；按内容去重，附已有归档引用及文件还原工具。
+```text
+OV5640 RAW8 → 去马赛克 / RGB565 → 原始帧 DDR
+    → 输出坐标反向映射（仿射 / Brown 畸变 / 可选姿态映射）
+    → 分块 DDR 读取 → 双线性插值 → 可选自适应 Gamma
+    → 校正帧 DDR → 显示降噪 / 锐化 / OSD → HDMI 1920×1080@30Hz
+```
 
-文档和交付档案的同步不替换下方宿主工程或现用PC源码。M02独立修复候选及其回归证据位于交付包内，是否接收应用按总说明记录。
+UART 用于标定和仿射参数配置、画质控制及状态回读。BNO085 姿态补偿可在 FPGA 内运行；基于画面跟踪的平移稳像需要电脑和采集卡持续参与。
 
-## 打开和构建
+## 当前已验证结果
 
-1. 使用 PDS 打开仓库根目录 `task1_1080p30.pds`。
-2. 顶层为 `source/rtl/hdmi_ddr_ov5640_top.v` 中的 `hdmi_ddr_ov5640_top`。
-3. 引脚与时序约束为 `HDMI_DDR3_OV5640_test.fdc`。
-4. 可在 PowerShell 中运行 `./build.ps1 -PdsRoot '你的 PDS 安装目录'`。
+| 项目 | 结果及口径 |
+|---|---|
+| 输出画面 | 1920×1080；30 秒运动快筛采集 901 帧 / 30.015 秒，约 30.018 fps |
+| 校正帧发布 | 同一短窗口 UART 发布约 30.005 次/秒；结合画面内容变化检查 |
+| 125 MHz 时序 | PDS 报告 All Constraints Met；DDR PHY slow setup +0.206 ns、slow hold +0.141 ns |
+| 主要资源 | LUT 24.1%、FF 17.5%、APM/DSP 43.3%、DRM 54.5% |
+| 软件 / RTL 回归 | FBG676 快照既有 29 次仿真运行通过，保留日志与输入哈希 |
+| 板端功能 | Brown、Gamma、画质档位、OSD、BNO085 姿态开关、主机小角度仿射快速检查通过 |
 
-`source/`、`ipcore/`、工程文件和构建脚本均应保留；构建输出由 `.gitignore`
-排除。IP 目录中的源码、加密模型和初始化数据属于工程依赖，不能因其由
-IP 工具生成而统一删除。厂商 IP 的使用以相应权利人的许可为准。
+上述板测是快速功能筛查；10 分钟长稳尚未执行。姿态补偿不提供任意平移下的全景锁定，大角度或移出视野仍可能出现黑边。完整口径见[验证汇总](docs/submission/VALIDATION.md)。
 
-本次建仓没有更改 RTL、约束、IP 或冻结接口，也没有重新运行 PDS 或上板。
-下文为原宿主包的构建记录与说明。
+推荐位流 SHA256：
 
-## Original host package notes
+```text
+383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0
+```
 
-Source: `outputs/C1C5_顶行错位修复_20261014/旁路_1080p30_修复完整工程`.
-The only RTL configuration change in this package is `VC_RD_SLOT_BASE=3'd4`
-in `source/rtl/video_contract.vh`. The 2026-10-14 DDR read-completion
-row-fix remains included. Target: Pango PG2L100H FBG676, PDS 2022.2-SP6.1,
-CMOS2 OV5640 RAW8 capture and HDMI 1080p30 output.
+## 仓库布局与版本
 
-Open `task1_1080p30.pds` in PDS. The top module is
-`hdmi_ddr_ov5640_top` in `source/rtl/hdmi_ddr_ov5640_top.v`.
-`HDMI_DDR3_OV5640_test.fdc` contains the corresponding board pin and timing
-constraints and is referenced by the PDS project and `build.tcl`.
+`submission/` 是本次提交清单、哈希核验及实板摘要；`docs/submission/` 是面向评审的说明；`deliverables/20261103/resource_opt_shared32/` 是可构建的演示工程。
+根目录的 `task1_1080p30.pds`、`source/`、`ipcore/` 和 `uart_host_tool/` 保留早期宿主/接口版本，属于开发历史，**演示请使用上表完整工程**。早期参数协议不能与当前 CRC16 协议混用。
 
-`source/rtl/correction_hook.vh` is an idle **production mounting point**.
-It does not instantiate a distortion correction algorithm, request source
-frames, write corrected pixels, or publish a corrected frame. With slot 4
-selected, the host can compile but the display remains black until a real
-correction core is connected through this hook and publishes a complete frame.
-No bitstream is supplied or claimed to be board-validated for this mode.
-Do not substitute the identity-copy test hook as a production correction core.
-
-The package carries RTL, IP sources, the PDS project, build scripts and FDC.
-Generated compile files, reports and old bitstreams are intentionally omitted.
-
-Build check on 2026-10-18: PDS 2022.2-SP6.1 completed compile, synthesis,
-device mapping, place and route, timing analysis, and bitstream generation.
-The timing report states `Design Summary : All Constraints Met.` This checks
-the host project's buildability; it is not a correction-function or board test.
-
-[二号本机全部项目资料与旧版恢复索引](deliverables/20261024/collab2_local_archive/README.md)
+仓库公开可读；直接写权限由 GitHub 协作者权限控制。源码来源与第三方 IP 说明见[来源说明](docs/submission/PROVENANCE.md)，本次整理不新增通用开源许可。

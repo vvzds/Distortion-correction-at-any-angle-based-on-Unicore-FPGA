@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "title": "FPGA 1080p30 competition submission",
+  "source_commit": "a3a2e92811567472af5b25274ed3e9d38ee5e2a1",
+  "project_root": "deliverables/20261103/resource_opt_shared32",
+  "project_file": "pango_undistort.pds",
+  "calibration": "calibration/ov5640_1080p.json",
+  "bitstream": "bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit",
+  "bitstream_sha256": "383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0",
+  "original_project_zip": "pango_quality_function_keys_pkg676_full_20261103.zip",
+  "original_project_zip_sha256": "6b542ea0afb3c108983ecd716f89b3d21b82644aa79d07df7368a58afa637959",
+  "original_manifest": "SHA256SUMS.txt",
+  "original_manifest_count": 496,
+  "device": "PG2L100H-6 FBG676",
+  "tool": "PDS 2022.2-SP6.1 build 138931",
+  "seed": 1,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "hdmi_hz": 30,
+    "camera": "OV5640 CMOS2",
+    "format": "RAW8 to RGB565"
+  },
+  "evidence": {
+    "board": "submission/evidence/board_result_20261103.json",
+    "software": "deliverables/20261103/resource_opt_shared32/reports/verification_summary.json"
+  },
+  "qualification": {
+    "quick_board_test_passed": true,
+    "long_stability_10min_tested": false,
+    "software_simulation_runs": 29,
+    "arbitrary_motion_stabilization_guaranteed": false
+  },
+  "release_url": "https://github.com/vvzds/Distortion-correction-at-any-angle-based-on-Unicore-FPGA/releases/tag/competition-1080p30-20261104"
+}

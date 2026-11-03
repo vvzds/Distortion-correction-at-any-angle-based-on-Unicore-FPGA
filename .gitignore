@@ -1,4 +1,4 @@
-# PDS 构建输出
+# Local PDS build outputs; archived evidence is retained explicitly in Git.
 /generate_bitstream/
 *.sbit
 *.rtr
@@ -8,8 +8,9 @@
 /constraint_check/
 *.cuc
 build_console.log
+/deliverables/20261103/resource_opt_shared32/build/
 
-# ModelSim
+# Simulation working data (source testbenches and retained reports stay tracked).
 work/
 *_work/
 *.wlf
@@ -17,6 +18,19 @@ transcript
 *_transcript.log
 sim/*_result.txt
 
-# Python
+# Local Python environments and caches.
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local account configuration and editor state.
+.env
+.env.local
+.local_gh_auth/
+.DS_Store
+Thumbs.db
+
+# Release assets are uploaded once, outside the source tree.
+/submission/*.zip
