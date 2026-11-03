@@ -6,3 +6,13 @@ docs/project/*.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
 # Accepted M02 source is identified by its exact delivery SHA256.
 calibration/calibrate.py -text whitespace=cr-at-eol
 calibration/run_calibration.py -text
+
+# Submission documents use UTF-8; retain archived evidence as exact bytes.
+/README.md text eol=lf
+/START_HERE.md text eol=lf
+/docs/README.md text eol=lf
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+/docs/submission/** text eol=lf
+/submission/** -text whitespace=cr-at-eol
+/submission/evidence/*.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

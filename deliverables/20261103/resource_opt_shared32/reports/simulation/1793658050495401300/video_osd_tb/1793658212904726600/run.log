@@ -1,0 +1,55 @@
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:32 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\video_osd.v S:\sim\video_osd_tb.v 
+-- Compiling module video_osd
+-- Compiling module video_osd_tb
+
+Top level modules:
+	video_osd_tb
+End time: 06:23:33 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:33 on Nov 03,2026
+vopt work.video_osd_tb -o video_osd_tb_optimized 
+
+Top level modules:
+	video_osd_tb
+
+Analyzing design...
+-- Loading module video_osd_tb
+-- Loading module video_osd
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module video_osd(fast)
+-- Optimizing module video_osd_tb(fast)
+Optimized design name is video_osd_tb_optimized
+End time: 06:23:33 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim video_osd_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/video_osd_tb.v line 46
+# Stopped at S:/sim/video_osd_tb.v line 46
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0

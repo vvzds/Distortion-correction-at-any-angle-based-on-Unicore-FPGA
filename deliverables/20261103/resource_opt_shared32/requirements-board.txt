@@ -1,0 +1,2 @@
+-r requirements.txt
+cv2-enumerate-cameras>=1.1

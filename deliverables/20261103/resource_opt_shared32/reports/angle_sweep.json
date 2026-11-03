@@ -1,0 +1,676 @@
+{
+  "angle_step_degrees": 5,
+  "angle_count": 72,
+  "elapsed_seconds": 28.406000000075437,
+  "all_tiles_fit": true,
+  "gamma_enabled": false,
+  "zoom": 1.0,
+  "results": {
+    "0": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 35,
+      "read_beats": 150491,
+      "read_bytes_per_frame": 4815712,
+      "row_commands": 33353,
+      "valid_fraction": 1.0,
+      "max_error_px": 0.009253182933450082,
+      "p99_error_px": 0.007124887741971576
+    },
+    "5": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 40,
+      "read_beats": 165800,
+      "read_bytes_per_frame": 5305600,
+      "row_commands": 36002,
+      "valid_fraction": 0.9990668402777778
+    },
+    "10": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 45,
+      "read_beats": 185740,
+      "read_bytes_per_frame": 5943680,
+      "row_commands": 39417,
+      "valid_fraction": 0.9729494598765432
+    },
+    "15": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 50,
+      "read_beats": 203750,
+      "read_bytes_per_frame": 6520000,
+      "row_commands": 42368,
+      "valid_fraction": 0.9401432291666667
+    },
+    "20": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 54,
+      "read_beats": 217926,
+      "read_bytes_per_frame": 6973632,
+      "row_commands": 44788,
+      "valid_fraction": 0.9096141975308641
+    },
+    "25": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 58,
+      "read_beats": 228943,
+      "read_bytes_per_frame": 7326176,
+      "row_commands": 46734,
+      "valid_fraction": 0.8812080439814814
+    },
+    "30": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 62,
+      "read_beats": 236542,
+      "read_bytes_per_frame": 7569344,
+      "row_commands": 48264,
+      "valid_fraction": 0.854561149691358,
+      "max_error_px": 0.009042313286820158,
+      "p99_error_px": 0.007019954092340427
+    },
+    "35": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 65,
+      "read_beats": 240351,
+      "read_bytes_per_frame": 7691232,
+      "row_commands": 49359,
+      "valid_fraction": 0.8292978395061729
+    },
+    "40": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 68,
+      "read_beats": 240542,
+      "read_bytes_per_frame": 7697344,
+      "row_commands": 50001,
+      "valid_fraction": 0.8049768518518519
+    },
+    "45": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 70,
+      "read_beats": 237898,
+      "read_bytes_per_frame": 7612736,
+      "row_commands": 50298,
+      "valid_fraction": 0.7811593364197531,
+      "max_error_px": 0.008513502342042263,
+      "p99_error_px": 0.006460719586530826
+    },
+    "50": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 71,
+      "read_beats": 230274,
+      "read_bytes_per_frame": 7368768,
+      "row_commands": 50012,
+      "valid_fraction": 0.7572718942901234
+    },
+    "55": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 220849,
+      "read_bytes_per_frame": 7067168,
+      "row_commands": 49402,
+      "valid_fraction": 0.732593074845679
+    },
+    "60": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 207834,
+      "read_bytes_per_frame": 6650688,
+      "row_commands": 48149,
+      "valid_fraction": 0.7060720486111111
+    },
+    "65": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 191921,
+      "read_bytes_per_frame": 6141472,
+      "row_commands": 46499,
+      "valid_fraction": 0.6762620563271605
+    },
+    "70": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 174951,
+      "read_bytes_per_frame": 5598432,
+      "row_commands": 44479,
+      "valid_fraction": 0.6482865547839506
+    },
+    "75": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 72,
+      "read_beats": 157735,
+      "read_bytes_per_frame": 5047520,
+      "row_commands": 42679,
+      "valid_fraction": 0.6277840470679013
+    },
+    "80": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 71,
+      "read_beats": 140662,
+      "read_bytes_per_frame": 4501184,
+      "row_commands": 40919,
+      "valid_fraction": 0.6138319830246913
+    },
+    "85": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 69,
+      "read_beats": 124151,
+      "read_bytes_per_frame": 3972832,
+      "row_commands": 39279,
+      "valid_fraction": 0.6057108410493827
+    },
+    "90": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 66,
+      "read_beats": 112735,
+      "read_bytes_per_frame": 3607520,
+      "row_commands": 38151,
+      "valid_fraction": 0.6030131172839506,
+      "max_error_px": 0.00974379520742488,
+      "p99_error_px": 0.007448913501006933
+    },
+    "95": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 69,
+      "read_beats": 124125,
+      "read_bytes_per_frame": 3972000,
+      "row_commands": 39249,
+      "valid_fraction": 0.6056153549382716
+    },
+    "100": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 71,
+      "read_beats": 140970,
+      "read_bytes_per_frame": 4511040,
+      "row_commands": 40944,
+      "valid_fraction": 0.613627025462963
+    },
+    "105": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 72,
+      "read_beats": 157782,
+      "read_bytes_per_frame": 5049024,
+      "row_commands": 42656,
+      "valid_fraction": 0.6274763695987654
+    },
+    "110": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 174716,
+      "read_bytes_per_frame": 5590912,
+      "row_commands": 44453,
+      "valid_fraction": 0.6478496334876543
+    },
+    "115": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 74,
+      "read_beats": 191833,
+      "read_bytes_per_frame": 6138656,
+      "row_commands": 46458,
+      "valid_fraction": 0.6758931327160493
+    },
+    "120": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 207655,
+      "read_bytes_per_frame": 6644960,
+      "row_commands": 48164,
+      "valid_fraction": 0.7058555169753087
+    },
+    "125": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 220760,
+      "read_bytes_per_frame": 7064320,
+      "row_commands": 49379,
+      "valid_fraction": 0.7323712384259259
+    },
+    "130": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 72,
+      "read_beats": 230713,
+      "read_bytes_per_frame": 7382816,
+      "row_commands": 50035,
+      "valid_fraction": 0.7570119598765432
+    },
+    "135": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 70,
+      "read_beats": 237870,
+      "read_bytes_per_frame": 7611840,
+      "row_commands": 50233,
+      "valid_fraction": 0.7808810763888889,
+      "max_error_px": 0.01022169071567918,
+      "p99_error_px": 0.008251526057916141
+    },
+    "140": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 68,
+      "read_beats": 240629,
+      "read_bytes_per_frame": 7700128,
+      "row_commands": 50018,
+      "valid_fraction": 0.8046768904320988
+    },
+    "145": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 65,
+      "read_beats": 239915,
+      "read_bytes_per_frame": 7677280,
+      "row_commands": 49362,
+      "valid_fraction": 0.8289607445987655
+    },
+    "150": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 62,
+      "read_beats": 235865,
+      "read_bytes_per_frame": 7547680,
+      "row_commands": 48287,
+      "valid_fraction": 0.8542105516975309
+    },
+    "155": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 58,
+      "read_beats": 228959,
+      "read_bytes_per_frame": 7326688,
+      "row_commands": 46737,
+      "valid_fraction": 0.8808193479938271
+    },
+    "160": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 54,
+      "read_beats": 217787,
+      "read_bytes_per_frame": 6969184,
+      "row_commands": 44790,
+      "valid_fraction": 0.9092100694444445
+    },
+    "165": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 50,
+      "read_beats": 203660,
+      "read_bytes_per_frame": 6517120,
+      "row_commands": 42365,
+      "valid_fraction": 0.9397236689814815
+    },
+    "170": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 45,
+      "read_beats": 186094,
+      "read_bytes_per_frame": 5955008,
+      "row_commands": 39482,
+      "valid_fraction": 0.9726012731481481
+    },
+    "175": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 40,
+      "read_beats": 165602,
+      "read_bytes_per_frame": 5299264,
+      "row_commands": 36038,
+      "valid_fraction": 1.0
+    },
+    "180": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 35,
+      "read_beats": 150566,
+      "read_bytes_per_frame": 4818112,
+      "row_commands": 33398,
+      "valid_fraction": 1.0,
+      "max_error_px": 0.010826278712008487,
+      "p99_error_px": 0.008505612548468643
+    },
+    "185": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 40,
+      "read_beats": 165806,
+      "read_bytes_per_frame": 5305792,
+      "row_commands": 35983,
+      "valid_fraction": 0.9990649112654321
+    },
+    "190": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 45,
+      "read_beats": 186085,
+      "read_bytes_per_frame": 5954720,
+      "row_commands": 39443,
+      "valid_fraction": 0.9729499421296296
+    },
+    "195": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 50,
+      "read_beats": 203483,
+      "read_bytes_per_frame": 6511456,
+      "row_commands": 42323,
+      "valid_fraction": 0.9401441936728395
+    },
+    "200": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 54,
+      "read_beats": 217379,
+      "read_bytes_per_frame": 6956128,
+      "row_commands": 44706,
+      "valid_fraction": 0.9096161265432099
+    },
+    "205": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 58,
+      "read_beats": 229250,
+      "read_bytes_per_frame": 7336000,
+      "row_commands": 46746,
+      "valid_fraction": 0.8812080439814814
+    },
+    "210": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 61,
+      "read_beats": 236095,
+      "read_bytes_per_frame": 7555040,
+      "row_commands": 48226,
+      "valid_fraction": 0.854561149691358
+    },
+    "215": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 65,
+      "read_beats": 240554,
+      "read_bytes_per_frame": 7697728,
+      "row_commands": 49353,
+      "valid_fraction": 0.829296875
+    },
+    "220": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 68,
+      "read_beats": 240849,
+      "read_bytes_per_frame": 7707168,
+      "row_commands": 50009,
+      "valid_fraction": 0.8049778163580247
+    },
+    "225": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 70,
+      "read_beats": 237100,
+      "read_bytes_per_frame": 7587200,
+      "row_commands": 50238,
+      "valid_fraction": 0.7811593364197531
+    },
+    "230": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 71,
+      "read_beats": 230424,
+      "read_bytes_per_frame": 7373568,
+      "row_commands": 50029,
+      "valid_fraction": 0.7572699652777778
+    },
+    "235": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 220736,
+      "read_bytes_per_frame": 7063552,
+      "row_commands": 49360,
+      "valid_fraction": 0.732593074845679
+    },
+    "240": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 207539,
+      "read_bytes_per_frame": 6641248,
+      "row_commands": 48176,
+      "valid_fraction": 0.7060725308641975
+    },
+    "245": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 74,
+      "read_beats": 191922,
+      "read_bytes_per_frame": 6141504,
+      "row_commands": 46497,
+      "valid_fraction": 0.6762635030864198
+    },
+    "250": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 174314,
+      "read_bytes_per_frame": 5578048,
+      "row_commands": 44483,
+      "valid_fraction": 0.6482880015432099
+    },
+    "255": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 72,
+      "read_beats": 157668,
+      "read_bytes_per_frame": 5045376,
+      "row_commands": 42674,
+      "valid_fraction": 0.6277821180555555
+    },
+    "260": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 71,
+      "read_beats": 140841,
+      "read_bytes_per_frame": 4506912,
+      "row_commands": 40961,
+      "valid_fraction": 0.6138329475308641
+    },
+    "265": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 69,
+      "read_beats": 124342,
+      "read_bytes_per_frame": 3978944,
+      "row_commands": 39285,
+      "valid_fraction": 0.6057098765432098
+    },
+    "270": {
+      "tiles": 1020,
+      "max_patch_width": 48,
+      "max_patch_height": 66,
+      "read_beats": 112660,
+      "read_bytes_per_frame": 3605120,
+      "row_commands": 38157,
+      "valid_fraction": 0.6030121527777778,
+      "max_error_px": 0.010606015338190796,
+      "p99_error_px": 0.008304375908424616
+    },
+    "275": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 69,
+      "read_beats": 124205,
+      "read_bytes_per_frame": 3974560,
+      "row_commands": 39275,
+      "valid_fraction": 0.6056172839506173
+    },
+    "280": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 71,
+      "read_beats": 140566,
+      "read_bytes_per_frame": 4498112,
+      "row_commands": 40956,
+      "valid_fraction": 0.6136265432098765
+    },
+    "285": {
+      "tiles": 1020,
+      "max_patch_width": 64,
+      "max_patch_height": 72,
+      "read_beats": 157291,
+      "read_bytes_per_frame": 5033312,
+      "row_commands": 42640,
+      "valid_fraction": 0.6274720293209877
+    },
+    "290": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 174512,
+      "read_bytes_per_frame": 5584384,
+      "row_commands": 44476,
+      "valid_fraction": 0.6478496334876543
+    },
+    "295": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 74,
+      "read_beats": 192068,
+      "read_bytes_per_frame": 6146176,
+      "row_commands": 46456,
+      "valid_fraction": 0.6758931327160493
+    },
+    "300": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 207366,
+      "read_bytes_per_frame": 6635712,
+      "row_commands": 48164,
+      "valid_fraction": 0.705855999228395
+    },
+    "305": {
+      "tiles": 1020,
+      "max_patch_width": 80,
+      "max_patch_height": 73,
+      "read_beats": 221218,
+      "read_bytes_per_frame": 7078976,
+      "row_commands": 49338,
+      "valid_fraction": 0.7323702739197531
+    },
+    "310": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 72,
+      "read_beats": 231162,
+      "read_bytes_per_frame": 7397184,
+      "row_commands": 50033,
+      "valid_fraction": 0.7570109953703704
+    },
+    "315": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 70,
+      "read_beats": 237701,
+      "read_bytes_per_frame": 7606432,
+      "row_commands": 50273,
+      "valid_fraction": 0.7808815586419753
+    },
+    "320": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 67,
+      "read_beats": 240985,
+      "read_bytes_per_frame": 7711520,
+      "row_commands": 50034,
+      "valid_fraction": 0.8046773726851851
+    },
+    "325": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 65,
+      "read_beats": 240092,
+      "read_bytes_per_frame": 7682944,
+      "row_commands": 49332,
+      "valid_fraction": 0.8289617091049383
+    },
+    "330": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 61,
+      "read_beats": 236336,
+      "read_bytes_per_frame": 7562752,
+      "row_commands": 48263,
+      "valid_fraction": 0.8542110339506173
+    },
+    "335": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 58,
+      "read_beats": 228952,
+      "read_bytes_per_frame": 7326464,
+      "row_commands": 46744,
+      "valid_fraction": 0.8808198302469136
+    },
+    "340": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 54,
+      "read_beats": 217629,
+      "read_bytes_per_frame": 6964128,
+      "row_commands": 44790,
+      "valid_fraction": 0.9092110339506173
+    },
+    "345": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 50,
+      "read_beats": 203500,
+      "read_bytes_per_frame": 6512000,
+      "row_commands": 42381,
+      "valid_fraction": 0.939723186728395
+    },
+    "350": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 45,
+      "read_beats": 186232,
+      "read_bytes_per_frame": 5959424,
+      "row_commands": 39521,
+      "valid_fraction": 0.9726027199074074
+    },
+    "355": {
+      "tiles": 1020,
+      "max_patch_width": 96,
+      "max_patch_height": 40,
+      "read_beats": 165609,
+      "read_bytes_per_frame": 5299488,
+      "row_commands": 36017,
+      "valid_fraction": 1.0
+    }
+  },
+  "source_sha256": {
+    "host\\model.py": "c3730cc608c6d0ef0352932588d869b2bd393b742147c7d0487c79a79923cb4f",
+    "calibration\\ov5640_1080p.json": "bdf3846e20aaa07a04ea6a85618cefbf550f2ff608bd29907bb1197bc2ce1534"
+  }
+}

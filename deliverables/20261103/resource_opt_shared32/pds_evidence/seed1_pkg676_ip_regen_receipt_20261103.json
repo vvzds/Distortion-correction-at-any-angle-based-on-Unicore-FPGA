@@ -1,0 +1,34 @@
+{
+  "tool": "PDS 2022.2-SP6.1 build 138931",
+  "ip_generator": "PDS IP Generator 2022.2-SP6.1 build 138931",
+  "target": "Logos2-PG2L100H-6-FBG676",
+  "seed": 1,
+  "pds_exit_code": 0,
+  "elapsed_seconds": 490,
+  "flow_4058_count": 0,
+  "routing_success": true,
+  "all_constraints_met": true,
+  "slow_corner": {
+    "ddrphy_sysclk_mhz": 125.0,
+    "setup_wns_ns": 0.206,
+    "hold_whs_ns": 0.141,
+    "setup_failing_endpoints": 0,
+    "hold_failing_endpoints": 0
+  },
+  "device_map": {
+    "lut_used": 16020,
+    "lut_available": 66600,
+    "ff_used": 23292,
+    "ff_available": 133200,
+    "apm_used": 104,
+    "apm_available": 240,
+    "drm_used": 84.5,
+    "drm_available": 155,
+    "distributed_ram_used": 110,
+    "distributed_ram_available": 19900
+  },
+  "bitstream": "../bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit",
+  "bitstream_bytes": 3791112,
+  "bitstream_sha256": "383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0",
+  "board_tested": false
+}

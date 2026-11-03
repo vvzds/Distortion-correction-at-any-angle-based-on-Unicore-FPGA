@@ -1,0 +1,19 @@
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 01:00:05 on Nov 03,2026
+vlog -sv "+incdir+C:\fpga_sim_20261103" C:\fpga_sim_20261103\source\rtl\display_sharpen.v C:\fpga_sim_20261103\sim\display_sharpen_tb.v 
+-- Compiling module display_sharpen
+-- Compiling module display_sharpen_tb
+
+Top level modules:
+	display_sharpen_tb
+End time: 01:00:05 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# Error loading design
+Error loading design
+Error: can't read "FileWatch(fileName)": no such element in array

@@ -1,0 +1,43 @@
+{
+  "verified": true,
+  "camera_from_sensor": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "orientation_source": "Operational mapping inferred from isolated pitch-up sensor -Y and yaw-right sensor -Z plus accepted reversed roll, 2026-10-31",
+  "physical_axis_trial_completed": false,
+  "note": "Original user-declared axes retained separately. Effective mapping X camera-forward,Y camera-left,Z camera-up. Explains tests without inverting BNO quaternion. Combined affine physical validation pending.",
+  "roll_sign": 1,
+  "roll_direction_source": "Proper mount now absorbs previous roll_sign=-1; pure-roll behavior preserved",
+  "declared_camera_from_sensor": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "isolated_pitch_yaw_observed": true
+}

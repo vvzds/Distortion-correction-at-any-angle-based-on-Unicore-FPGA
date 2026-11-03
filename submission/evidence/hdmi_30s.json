@@ -1,0 +1,211 @@
+{
+  "input": "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-11\\w-m\\outputs\\final_board_test_20261103\\board_evidence_sram\\hdmi_motion_30s_mjpg.mp4",
+  "video_sha256": "A2CF50D478611A630389C737C97E8287B376FACF2A64F09FB1893238E22F811A",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "nominal_fps": 30.0,
+  "decoded_frames": 901,
+  "container_declared_frames": 901,
+  "duration_seconds": 30.033333333333335,
+  "content_change_rate_fps": 29.966703662597112,
+  "changed_frame_transitions": 900,
+  "low_motion_transitions": 0,
+  "motion_evidence_sufficient": true,
+  "minimum_changes_per_full_second": 27,
+  "per_second": [
+    {
+      "second": 0,
+      "frames": 30,
+      "changes": 29,
+      "motion_pairs": 29
+    },
+    {
+      "second": 1,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 2,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 3,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 4,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 5,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 6,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 7,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 8,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 9,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 10,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 11,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 12,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 13,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 14,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 15,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 16,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 17,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 18,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 19,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 20,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 21,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 22,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 23,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 24,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 25,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 26,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 27,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 28,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 29,
+      "frames": 30,
+      "changes": 30,
+      "motion_pairs": 30
+    },
+    {
+      "second": 30,
+      "frames": 1,
+      "changes": 1,
+      "motion_pairs": 1
+    }
+  ],
+  "quick_screen_verdict": "PASS_QUICK_SCREEN_ONLY",
+  "limitations": [
+    "A content-change screen is meaningful only when the recorded scene contains sustained visible motion.",
+    "This video analysis does not prove camera sensor frame identity; combine it with UART corrected-frame counters and long-run testing.",
+    "A quick-screen pass is not a 10-minute stability acceptance result."
+  ]
+}
