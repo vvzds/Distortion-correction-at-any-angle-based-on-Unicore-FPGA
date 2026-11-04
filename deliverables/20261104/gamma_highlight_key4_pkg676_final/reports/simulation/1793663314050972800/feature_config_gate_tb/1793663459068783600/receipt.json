@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.23499999998603,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\feature_key_control.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\sim\\feature_config_gate_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.feature_config_gate_tb",
+      "-o",
+      "feature_config_gate_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim feature_config_gate_tb_optimized; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "6350dc66b683bfc4261f1b475c04cfc4f522897f8c68e893e6bac5a48977a903",
+  "artifacts": {}
+}

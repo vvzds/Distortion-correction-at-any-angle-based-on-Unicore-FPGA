@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "hardware_opened": false,
+  "commands_during_250ms_without_new_estimate": 5,
+  "checks": [
+    "Estimator does not block UART progression",
+    "Stale generation cannot override OFF",
+    "OFF, normal exit and capture exception restore exact configuration",
+    "Unsupported shear does not leak to UART commands",
+    "KEY1 telemetry starts and releases reference locking",
+    "Clean frame-state protocol parsing"
+  ]
+}

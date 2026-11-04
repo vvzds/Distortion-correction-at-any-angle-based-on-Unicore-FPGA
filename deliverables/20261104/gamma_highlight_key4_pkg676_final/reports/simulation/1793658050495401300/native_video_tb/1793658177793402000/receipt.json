@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 12.483999999938533,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+S:\\",
+      "S:\\source\\rtl\\projective_divide.v",
+      "S:\\source\\rtl\\mul32_pipe.v",
+      "S:\\source\\rtl\\brown_map.v",
+      "S:\\source\\rtl\\patch_store.v",
+      "S:\\source\\rtl\\bilinear_rgb.v",
+      "S:\\source\\rtl\\adaptive_gamma.v",
+      "S:\\source\\rtl\\tile_engine.v",
+      "S:\\source\\rtl\\tile_write_pack.v",
+      "S:\\source\\rtl\\corr_read_bridge.v",
+      "S:\\source\\rtl\\corr_write_arb.v",
+      "S:\\sim\\native_video_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.native_video_tb",
+      "-o",
+      "native_video_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim native_video_tb_optimized {+CONFIG=../../../vectors/real_config.hex} {+SOURCE=../../../vectors/real_source.hex} {+GOLDEN=../../../vectors/real_golden.hex} {+RESULT=../../../../reports/native_real_pose031.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "7f55f2a26905d6bf9e4a0237eee303c115fcffaacf8f79a3ecd7ca6cc708af6d",
+  "artifacts": {
+    "native_real_pose031.json": "bcf36de26cdf5696493b1ac5490ffda8e94843f4aaeab673ef09a8d152fc56ef"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "elapsed_seconds": 3.015999999945052,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+X:\\",
+      "X:\\source\\rtl\\mul32_pipe.v",
+      "X:\\source\\rtl\\imu_projective_map.v",
+      "X:\\sim\\imu_projective_map_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.imu_projective_map_tb",
+      "-o",
+      "imu_projective_map_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim imu_projective_map_tb_optimized {+CONFIG=../../../vectors/imu_projective_map_config.hex} {+VECTORS=../../../vectors/imu_projective_map.txt} {+RESULT=../../../vectors/imu_projective_map_actual.txt}; onerror {quit -code 1}; onbreak {quit -code 1}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "96567e6b0b9a58222d150d6477e341fd8984bf2d63b7d1546514b1eff2f61585",
+  "artifacts": {
+    "imu_projective_map_actual.txt": "7a06b61354695ea4e936261ce07a626c518e0aedcf7b29b6ba726f3dca8f2b5b"
+  }
+}

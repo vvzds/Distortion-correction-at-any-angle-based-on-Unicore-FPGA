@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 153.1059548854828,
+  "command": [
+    "D:\\FPGA PDS\\site\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "D:/pango_pkg676_verify_20261104/build/pds/final_synth_20261104/build.tcl",
+    "-work_dir",
+    "D:/pango_pkg676_verify_20261104/build/pds/final_synth_20261104",
+    "-project_name",
+    "pango_undistort"
+  ],
+  "seed": null,
+  "mapped_drive": null,
+  "source_manifest_sha256": "542a0070e931162c6a7c768ffac500adda9ade0ae84814701fe5b83eaa05d44b",
+  "timing_passed": false
+}

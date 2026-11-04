@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.4219999999040738,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_pkg676_verify_20261104",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\feature_key_control.v",
+      "D:\\pango_pkg676_verify_20261104\\sim\\feature_key_control_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.feature_key_control_tb",
+      "-o",
+      "feature_key_control_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim feature_key_control_tb_optimized; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "cbb2ae16b22dd40b0a618a99ccac3208eec931be0ac60dfc30d7f219b46fb4fb",
+  "artifacts": {}
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.344000000040978,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_pkg676_verify_20261104",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\display_sharpen.v",
+      "D:\\pango_pkg676_verify_20261104\\sim\\display_sharpen_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.display_sharpen_tb",
+      "-o",
+      "display_sharpen_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim display_sharpen_tb_optimized; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "53de8aff0a52cd56e3e4efc4ea65bf92026342fc86c6823721c7501019379542",
+  "artifacts": {}
+}

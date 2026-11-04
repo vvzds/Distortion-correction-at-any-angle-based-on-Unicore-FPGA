@@ -1,0 +1,14 @@
+{
+  "model": "brown4", "width": 1920, "height": 1080,
+  "fx": 1507.710442199695, "fy": 1507.403518870939,
+  "cx": 883.533081692948, "cy": 568.687748120301,
+  "k1": -0.381482584692, "k2": 0.156698401312,
+  "p1": -0.000303016236, "p2": -0.000110983241,
+  "evidence": {
+    "session": "session_203513", "date": "2026-10-22",
+    "fit_images": 30, "held_out_images": 5,
+    "fit_rms_px": 0.115308, "held_out_rms_px": 0.133620,
+    "source": "user-supplied calibration report",
+    "limitations": "Sparse extreme-edge/corner coverage; board fixed-point validation pending. Recalibrate after focus, crop, scaling or orientation changes."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 496.5393605232239,
+  "command": [
+    "D:\\FPGA PDS\\site\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "X:/build/pds/shared32_route_seed1/build.tcl",
+    "-work_dir",
+    "X:/build/pds/shared32_route_seed1",
+    "-project_name",
+    "pango_undistort"
+  ],
+  "seed": 1,
+  "mapped_drive": null,
+  "source_manifest_sha256": "34652855254c36e97b26a7fc5f57ff6c6b35c9b3e1b53ad3cdfe634c2aca09ee",
+  "timing_passed": false
+}

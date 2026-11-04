@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.5459999999729916,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+C:\\fpga_gamma_trial_20261104",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\projective_divide.v",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\mul32_pipe.v",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\brown_map.v",
+      "C:\\fpga_gamma_trial_20261104\\sim\\brown_map_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.brown_map_tb",
+      "-o",
+      "brown_map_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case1.hex} {+VECTORS=../../../vectors/map_case1.txt}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "5f659aed13ab2ad1b8921f7cbac719f8f545b31ab6faa2e4f3bbe1cb74f07975",
+  "artifacts": {}
+}

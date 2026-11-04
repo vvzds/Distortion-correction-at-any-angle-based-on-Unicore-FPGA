@@ -1,0 +1,73 @@
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 08:24:15 on Nov 04,2026
+vlog -sv "+incdir+C:\fpga_gamma_trial_20261104" C:\fpga_gamma_trial_20261104\source\rtl\projective_divide.v C:\fpga_gamma_trial_20261104\source\rtl\mul32_pipe.v C:\fpga_gamma_trial_20261104\source\rtl\brown_map.v C:\fpga_gamma_trial_20261104\source\rtl\patch_store.v C:\fpga_gamma_trial_20261104\source\rtl\bilinear_rgb.v C:\fpga_gamma_trial_20261104\source\rtl\adaptive_gamma.v C:\fpga_gamma_trial_20261104\source\rtl\tile_engine.v C:\fpga_gamma_trial_20261104\sim\affine_smooth_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module affine_smooth_tb
+
+Top level modules:
+	affine_smooth_tb
+End time: 08:24:15 on Nov 04,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 08:24:15 on Nov 04,2026
+vopt work.affine_smooth_tb -o affine_smooth_tb_optimized 
+
+Top level modules:
+	affine_smooth_tb
+
+Analyzing design...
+-- Loading module affine_smooth_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+Optimizing 8 design-units (inlining 8/9 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Optimizing module affine_smooth_tb(fast)
+Optimized design name is affine_smooth_tb_optimized
+End time: 08:24:16 on Nov 04,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim affine_smooth_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at C:/fpga_gamma_trial_20261104/sim/affine_smooth_tb.v line 61
+# Stopped at C:/fpga_gamma_trial_20261104/sim/affine_smooth_tb.v line 61
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0

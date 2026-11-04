@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.531000000075437,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+C:\\fpga_gamma_trial_20261104",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\uart_phy.v",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\host_control.v",
+      "C:\\fpga_gamma_trial_20261104\\sim\\host_control_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.host_control_tb",
+      "-o",
+      "host_control_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim host_control_tb_optimized; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "bfe831ca454067b0a4e0598d9492ceccce12419004e55aea3a33d60b19c4e196",
+  "artifacts": {}
+}

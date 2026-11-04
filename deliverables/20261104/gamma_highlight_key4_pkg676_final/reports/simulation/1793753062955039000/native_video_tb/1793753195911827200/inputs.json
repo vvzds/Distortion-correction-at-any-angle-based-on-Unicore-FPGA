@@ -1,0 +1,20 @@
+{
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\projective_divide.v": "26644dd5e934c43fa0c9b1f1128414aee6e7c7d1c609d35376d7f55a488e9a40",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\mul32_pipe.v": "e587c878403bde4700ad81afe4800a3b0bba431be96c5170e8cbfba4596b3ca2",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\brown_map.v": "c974ac83bcbfc089451516cc207b4da7d59c7266d02d27e1f1878229b810a9a4",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\patch_store.v": "f5402cb5a97fb33efc6e17cea4322de8d01f9e24a6e035a4cd8e686b6fb77ac2",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\bilinear_rgb.v": "0fa8f3e1e2165be87716913b30da617d8f08ef49f00a3e91a4ef255f1b8762a0",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\adaptive_gamma.v": "f2099d945535c3c2dff3618fd335e3ada6ed79e973bd8a8db9c8adaa64e5974e",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\tile_engine.v": "e23b9c8a2ed22cc32b55a0621c8a7d7538c0f89b325586d0517b07695021e71f",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\tile_write_pack.v": "d7720bb2e9b6a584440f354be4bd327797c4db447a1f251f257b2bbedccfe1cf",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\corr_read_bridge.v": "84dac8880e76471b75994b972f3531bf8ba6d98f4a26f1ec4b4af6b641dc78f6",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\corr_write_arb.v": "1e24828ad5cc64ac1936b4f5ace4e13921f89b1de8d9ea2a91a0b0f146805e3c",
+  "C:\\fpga_gamma_trial_20261104\\sim\\native_video_tb.v": "96e1a28e24be62969539967904989b8f0cbb00296c231fb0b89e065f323841f5",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\correction_hook.vh": "19065192caa78802879553e6b5304da29871272ba6dd169ccd7057fd97248125",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\default_config.vh": "716b7dc5d9bd09e66729ec377dbf442b58444ded81d60ad6430c7f795cee139d",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\gamma_tables.vh": "1d2701271274448e633048cff1cf37a892509ecf842630aceda9284b6462dbd6",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\video_contract.vh": "040eebd1470fba7d3c302ac8969b4f2bdbd30d293a7cdd696ab06ebeb1f365d5",
+  "C:\\fpga_gamma_trial_20261104\\build\\vectors\\real_config.hex": "88f956489aa272399dbe762c1cc316d7e2e7613c230bf6d6395bec2a90c10196",
+  "C:\\fpga_gamma_trial_20261104\\build\\vectors\\real_source.hex": "ace1d59382b5f31febd5f7c6345712576ac54371bc183d3ce65c375fc05c20f5",
+  "C:\\fpga_gamma_trial_20261104\\build\\vectors\\real_golden.hex": "268fcc74999d64f3bf68b257f52a0949cc2450f06048c0adc655b99461c17837"
+}

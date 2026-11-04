@@ -1,0 +1,8 @@
+{
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\adaptive_gamma.v": "f2099d945535c3c2dff3618fd335e3ada6ed79e973bd8a8db9c8adaa64e5974e",
+  "C:\\fpga_gamma_trial_20261104\\sim\\adaptive_gamma_tb.v": "bfe6c783845bdf1da7c1196b41710275909242d2efe7afcaa784753b32f3331b",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\correction_hook.vh": "19065192caa78802879553e6b5304da29871272ba6dd169ccd7057fd97248125",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\default_config.vh": "716b7dc5d9bd09e66729ec377dbf442b58444ded81d60ad6430c7f795cee139d",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\gamma_tables.vh": "1d2701271274448e633048cff1cf37a892509ecf842630aceda9284b6462dbd6",
+  "C:\\fpga_gamma_trial_20261104\\source\\rtl\\video_contract.vh": "040eebd1470fba7d3c302ac8969b4f2bdbd30d293a7cdd696ab06ebeb1f365d5"
+}

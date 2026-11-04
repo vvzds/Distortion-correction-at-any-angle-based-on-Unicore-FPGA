@@ -1,10 +1,12 @@
 # 验证结果与适用范围
 
-统一对象：FBG676 seed1 位流 `383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0`。本页整理既有结果，没有在仓库整理期间重新编译、烧录或追加板测。
+本页区分两个对象：11-03 已快速板测的回退位流 `383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0`；以及 11-04 Gamma/KEY4 候选位流 `e0f79c42eeec47798c46ac3e98c9c314bad2b0edf360b5fcb70be6b69a18db07`。本次仓库整理没有重新编译、烧录或追加板测。
+
+11-04 附件 ZIP 和 798 项文件校验清单一致，PDS 引用文件存在；但随包的 `key4_direct_display_seed1_source_hashes_20261104.json` 与当前工程的 `adaptive_gamma.v`、`gamma_tables.vh`、`host_control.v`、`video_osd.v` 四个文件哈希不同。因此随包时序报告的 `All Constraints Met`、slow setup +0.378 ns、hold +0.138 ns 只能作为相近构建的记录，**不能声称是当前 ZIP 源码的时序结果**。本机 PDS 可执行文件存在，但唯一发现的 `fabric_shell` license 已于 2026-11-03 到期；当前源码重建在 license 检查阶段停止，未进入综合或布线。11-04 位流尚未上板。
 
 ## 时序与资源
 
-来源：[原始资源报告](../../deliverables/20261103/resource_opt_shared32/RESOURCE_UTILIZATION_20261103.md)、[FBG676 构建验证](../../deliverables/20261103/resource_opt_shared32/PACKAGE_FBG676_VERIFICATION_20261103.md)及其 `pds_evidence/` 原生报告。
+来源：[11-03原始资源报告](../../deliverables/20261103/resource_opt_shared32/RESOURCE_UTILIZATION_20261103.md)、[FBG676构建验证](../../deliverables/20261103/resource_opt_shared32/PACKAGE_FBG676_VERIFICATION_20261103.md)及其 `pds_evidence/` 原生报告。以下数据属于 11-03 回退版，不代表 11-04 候选。
 
 | 项目 | Used / Available | 占用 |
 |---|---:|---:|
@@ -15,6 +17,10 @@
 | 分布式 RAM | 110 / 19,900 | 0.6% |
 
 125 MHz DDR PHY slow setup WNS +0.206 ns、slow hold WHS +0.141 ns，PDS 2022.2-SP6.1 seed1 报告 All Constraints Met。不同报告的打包资源分类有重叠，不能相加。该数据属于整机，不能归为单个模块的开销。
+
+## 2026-11-04 Gamma/KEY4 候选
+
+候选报告记载 LUT 16,261、FF 23,322、APM 104、DRM 84.5、分布式 RAM 110、IO 144；但由于上述 4 项源码哈希差异，这些路由/资源数值没有绑定到 ZIP 中的精确源码快照。重新构建并确认来源前，它们只作为随包报告值留档，不作为当前工程的签核数据。板端 Gamma 效果、HDMI画面、1080p30和KEY4显示均未验证。
 
 ## 软件和 RTL
 

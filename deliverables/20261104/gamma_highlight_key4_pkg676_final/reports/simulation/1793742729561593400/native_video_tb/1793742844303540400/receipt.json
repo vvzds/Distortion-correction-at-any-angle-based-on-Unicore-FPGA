@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 13.219000000040978,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_pkg676_verify_20261104",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\projective_divide.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\mul32_pipe.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\brown_map.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\patch_store.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\bilinear_rgb.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\adaptive_gamma.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\tile_engine.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\tile_write_pack.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\corr_read_bridge.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\corr_write_arb.v",
+      "D:\\pango_pkg676_verify_20261104\\sim\\native_video_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.native_video_tb",
+      "-o",
+      "native_video_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_45_1.hex} {+GOLDEN=../../../vectors/golden_45_1.hex} {+RESULT=../../../../reports/native_45_1_latency40_period430.json} {+LATENCY=40} {+GAP=4} {+PERIOD=430}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "aa0d3387f7ad12c0da65ae77255dcd6ad49f6ac15e79a3ed0d556a2602c3e41b",
+  "artifacts": {
+    "native_45_1_latency40_period430.json": "c85bbe8a299d8f4ee082d3e99ac5c8eed1a013ff125c76c2fb09e037f7a7156a"
+  }
+}

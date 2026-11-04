@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.5,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\projective_divide.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\mul32_pipe.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\brown_map.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\sim\\brown_map_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.brown_map_tb",
+      "-o",
+      "brown_map_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case7.hex} {+VECTORS=../../../vectors/map_case7.txt}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "2839a33d8aa0f1d47cd4eb4a2d8e1f9f55ac50fd6332a8af63d1b420cefd947a",
+  "artifacts": {}
+}

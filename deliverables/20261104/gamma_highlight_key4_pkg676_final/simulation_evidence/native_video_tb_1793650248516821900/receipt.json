@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "elapsed_seconds": 12.577999999979511,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+X:\\",
+      "X:\\source\\rtl\\projective_divide.v",
+      "X:\\source\\rtl\\mul32_pipe.v",
+      "X:\\source\\rtl\\brown_map.v",
+      "X:\\source\\rtl\\patch_store.v",
+      "X:\\source\\rtl\\bilinear_rgb.v",
+      "X:\\source\\rtl\\adaptive_gamma.v",
+      "X:\\source\\rtl\\tile_engine.v",
+      "X:\\source\\rtl\\tile_write_pack.v",
+      "X:\\source\\rtl\\corr_read_bridge.v",
+      "X:\\source\\rtl\\corr_write_arb.v",
+      "X:\\sim\\native_video_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.native_video_tb",
+      "-o",
+      "native_video_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_45_1.hex} {+GOLDEN=../../../vectors/golden_45_1.hex} {+RESULT=../../../../reports/native_45_1_latency40_period430.json} {+LATENCY=40} {+GAP=4} {+PERIOD=430}; onerror {quit -code 1}; onbreak {quit -code 1}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "e58a45dba87c7a0f934e707c6bcecf837de73ac375cd2a1044b25261177451be",
+  "artifacts": {}
+}
