@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 23.42200000002049,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_pkg676_verify_20261104",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\projective_divide.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\mul32_pipe.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\brown_map.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\patch_store.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\bilinear_rgb.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\adaptive_gamma.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\tile_engine.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\tile_write_pack.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\corr_read_bridge.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\corr_write_arb.v",
+      "D:\\pango_pkg676_verify_20261104\\sim\\native_video_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.native_video_tb",
+      "-o",
+      "native_video_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_0_1.hex} {+GOLDEN=../../../vectors/golden_0_1.hex} {+RESULT=../../../../reports/native_0_1_then45_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514} {+CONFIG2=../../../vectors/frame_config_45_1.hex} {+GOLDEN2=../../../vectors/golden_45_1.hex}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "81f4ee5dbe89ae1e59e3d3b5ece2ecee3a02b90dca9728559a32710949e7fa1e",
+  "artifacts": {
+    "native_0_1_then45_latency40_period514.json": "7e1072de524f70c9520f3393e0c0b776864f9fde28ecafd7e84b9174de6fce47"
+  }
+}

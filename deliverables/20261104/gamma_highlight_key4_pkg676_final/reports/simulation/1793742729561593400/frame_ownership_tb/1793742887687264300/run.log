@@ -1,0 +1,58 @@
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 05:54:47 on Nov 04,2026
+vlog -sv "+incdir+D:\pango_pkg676_verify_20261104" D:\pango_pkg676_verify_20261104\source\rtl\frame_bank_ctrl.v D:\pango_pkg676_verify_20261104\source\rtl\corr_slot_ctrl.v D:\pango_pkg676_verify_20261104\sim\frame_ownership_tb.v 
+-- Compiling module frame_bank_ctrl
+-- Compiling module corr_slot_ctrl
+-- Compiling module frame_ownership_tb
+
+Top level modules:
+	frame_ownership_tb
+End time: 05:54:47 on Nov 04,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 05:54:47 on Nov 04,2026
+vopt work.frame_ownership_tb -o frame_ownership_tb_optimized 
+
+Top level modules:
+	frame_ownership_tb
+
+Analyzing design...
+-- Loading module frame_ownership_tb
+-- Loading module frame_bank_ctrl
+-- Loading module corr_slot_ctrl
+Optimizing 3 design-units (inlining 2/3 module instances):
+-- Inlining module frame_bank_ctrl(fast)
+-- Inlining module corr_slot_ctrl(fast)
+-- Optimizing module frame_ownership_tb(fast)
+Optimized design name is frame_ownership_tb_optimized
+End time: 05:54:48 on Nov 04,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim frame_ownership_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at D:/pango_pkg676_verify_20261104/sim/frame_ownership_tb.v line 51
+# Stopped at D:/pango_pkg676_verify_20261104/sim/frame_ownership_tb.v line 51
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0

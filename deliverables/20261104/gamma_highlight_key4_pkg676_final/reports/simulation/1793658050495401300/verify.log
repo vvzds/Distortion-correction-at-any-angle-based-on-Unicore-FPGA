@@ -1,0 +1,1975 @@
+tools/check_map.py
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:50 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:20:51 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:51 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:20:51 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case0.hex} {+VECTORS=../../../vectors/map_case0.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:53 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:20:53 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:53 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:20:53 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case1.hex} {+VECTORS=../../../vectors/map_case1.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:56 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:20:56 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:56 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:20:56 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case2.hex} {+VECTORS=../../../vectors/map_case2.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:58 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:20:58 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:20:58 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:20:59 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case3.hex} {+VECTORS=../../../vectors/map_case3.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:01 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:01 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:01 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:01 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case4.hex} {+VECTORS=../../../vectors/map_case4.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.6 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:03 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:03 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:03 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:04 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case5.hex} {+VECTORS=../../../vectors/map_case5.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:06 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:06 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:06 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:06 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case6.hex} {+VECTORS=../../../vectors/map_case6.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.6 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:08 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:09 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:09 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:09 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case7.hex} {+VECTORS=../../../vectors/map_case7.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:11 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:11 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:11 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:11 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case8.hex} {+VECTORS=../../../vectors/map_case8.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.4 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:13 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:14 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:14 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:14 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case9.hex} {+VECTORS=../../../vectors/map_case9.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:16 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:16 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:16 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:16 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case10.hex} {+VECTORS=../../../vectors/map_case10.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.4 seconds
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:19 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\sim\brown_map_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module brown_map_tb
+
+Top level modules:
+	brown_map_tb
+End time: 06:21:19 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:19 on Nov 03,2026
+vopt work.brown_map_tb -o brown_map_tb_optimized 
+
+Top level modules:
+	brown_map_tb
+
+Analyzing design...
+-- Loading module brown_map_tb
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+Optimizing 4 design-units (inlining 4/5 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Optimizing module brown_map_tb(fast)
+Optimized design name is brown_map_tb_optimized
+End time: 06:21:19 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim brown_map_tb_optimized {+CONFIG=../../../vectors/config_case11.hex} {+VECTORS=../../../vectors/map_case11.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/brown_map_tb.v line 31
+# Stopped at S:/sim/brown_map_tb.v line 31
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+brown_map_tb: 2.5 seconds
+
+tools/check_native.py --angle 0 --latency 40
+{'tiles': 1020, 'max_patch_width': 80, 'max_patch_height': 35, 'read_beats': 150491, 'read_bytes_per_frame': 4815712, 'row_commands': 33353}
+store.v S:\source\rtl\bilinear_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\source\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:21:23 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:23 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:21:23 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_0_1.hex} {+GOLDEN=../../../vectors/golden_0_1.hex} {+RESULT=../../../../reports/native_0_1_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 12.1 seconds
+
+tools/check_native.py --angle 45 --latency 40
+{'tiles': 1020, 'max_patch_width': 96, 'max_patch_height': 70, 'read_beats': 237898, 'read_bytes_per_frame': 7612736, 'row_commands': 50298}
+re.v S:\source\rtl\bilinear_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\source\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:21:36 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:36 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:21:36 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_45_1.hex} {+GOLDEN=../../../vectors/golden_45_1.hex} {+RESULT=../../../../reports/native_45_1_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 12.6 seconds
+
+tools/check_native.py --angle 90 --latency 40
+{'tiles': 1020, 'max_patch_width': 64, 'max_patch_height': 66, 'read_beats': 112735, 'read_bytes_per_frame': 3607520, 'row_commands': 38151}
+re.v S:\source\rtl\bilinear_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\source\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:21:50 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:21:50 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:21:50 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_90_1.hex} {+GOLDEN=../../../vectors/golden_90_1.hex} {+RESULT=../../../../reports/native_90_1_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 11.6 seconds
+
+tools/check_native.py --angle 90 --zoom 1.706276 --latency 40
+{'tiles': 1020, 'max_patch_width': 48, 'max_patch_height': 40, 'read_beats': 83834, 'read_bytes_per_frame': 2682688, 'row_commands': 38380}
+\bilinear_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\source\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:22:03 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:22:03 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:22:03 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_90_1.70628.hex} {+GOLDEN=../../../vectors/golden_90_1.70628.hex} {+RESULT=../../../../reports/native_90_1.70628_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 11.9 seconds
+
+tools/check_native.py --angle 0 --next-angle 45 --latency 40
+{'tiles': 1020, 'max_patch_width': 80, 'max_patch_height': 35, 'read_beats': 150491, 'read_bytes_per_frame': 4815712, 'row_commands': 33353}
+{'tiles': 1020, 'max_patch_width': 96, 'max_patch_height': 70, 'read_beats': 237898, 'read_bytes_per_frame': 7612736, 'row_commands': 50298}
+urce\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:22:17 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:22:17 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:22:18 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_0_1.hex} {+GOLDEN=../../../vectors/golden_0_1.hex} {+RESULT=../../../../reports/native_0_1_then45_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514} {+CONFIG2=../../../vectors/frame_config_45_1.hex} {+GOLDEN2=../../../vectors/golden_45_1.hex}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 22.0 seconds
+
+tools/check_native.py --angle 45 --latency 40 --period 430
+{'tiles': 1020, 'max_patch_width': 96, 'max_patch_height': 70, 'read_beats': 237898, 'read_bytes_per_frame': 7612736, 'row_commands': 50298}
+re.v S:\source\rtl\bilinear_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\source\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:22:41 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:22:41 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:22:41 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_45_1.hex} {+GOLDEN=../../../vectors/golden_45_1.hex} {+RESULT=../../../../reports/native_45_1_latency40_period430.json} {+LATENCY=40} {+GAP=4} {+PERIOD=430}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 12.5 seconds
+
+tools/check_real_rtl.py
+ar_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\source\rtl\tile_write_pack.v S:\source\rtl\corr_read_bridge.v S:\source\rtl\corr_write_arb.v S:\sim\native_video_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module tile_write_pack
+-- Compiling module corr_read_bridge
+-- Compiling module corr_write_arb
+-- Compiling module native_video_tb
+
+Top level modules:
+	native_video_tb
+End time: 06:22:58 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:22:58 on Nov 03,2026
+vopt work.native_video_tb -o native_video_tb_optimized 
+
+Top level modules:
+	native_video_tb
+
+Analyzing design...
+-- Loading module native_video_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+-- Loading module tile_write_pack
+-- Loading module corr_read_bridge
+-- Loading module corr_write_arb
+Optimizing 11 design-units (inlining 11/12 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Inlining module tile_write_pack(fast)
+-- Inlining module corr_read_bridge(fast)
+-- Inlining module corr_write_arb(fast)
+-- Optimizing module native_video_tb(fast)
+Optimized design name is native_video_tb_optimized
+End time: 06:22:58 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim native_video_tb_optimized {+CONFIG=../../../vectors/real_config.hex} {+SOURCE=../../../vectors/real_source.hex} {+GOLDEN=../../../vectors/real_golden.hex} {+RESULT=../../../../reports/native_real_pose031.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/native_video_tb.v line 143
+# Stopped at S:/sim/native_video_tb.v line 143
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+native_video_tb: 12.5 seconds
+
+tools/run_sim.py host_control_tb source/rtl/uart_phy.v source/rtl/host_control.v sim/host_control_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:10 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\uart_phy.v S:\source\rtl\host_control.v S:\sim\host_control_tb.v 
+-- Compiling module uart_phy
+-- Compiling module host_control
+-- Compiling module host_control_tb
+
+Top level modules:
+	host_control_tb
+End time: 06:23:10 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:10 on Nov 03,2026
+vopt work.host_control_tb -o host_control_tb_optimized 
+
+Top level modules:
+	host_control_tb
+
+Analyzing design...
+-- Loading module host_control_tb
+-- Loading module host_control
+-- Loading module uart_phy
+Optimizing 3 design-units (inlining 3/4 module instances):
+-- Inlining module uart_phy(fast)
+-- Inlining module host_control(fast)
+-- Optimizing module host_control_tb(fast)
+Optimized design name is host_control_tb_optimized
+End time: 06:23:11 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim host_control_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/host_control_tb.v line 167
+# Stopped at S:/sim/host_control_tb.v line 167
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+host_control_tb: 2.4 seconds
+
+tools/run_sim.py feature_config_gate_tb source/rtl/feature_key_control.v sim/feature_config_gate_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:13 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\feature_key_control.v S:\sim\feature_config_gate_tb.v 
+-- Compiling module feature_key_control
+-- Compiling module feature_config_gate
+-- Compiling module feature_config_gate_tb
+
+Top level modules:
+	feature_config_gate_tb
+End time: 06:23:13 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:13 on Nov 03,2026
+vopt work.feature_config_gate_tb -o feature_config_gate_tb_optimized 
+
+Top level modules:
+	feature_config_gate_tb
+
+Analyzing design...
+-- Loading module feature_config_gate_tb
+-- Loading module feature_key_control
+-- Loading module feature_config_gate
+Optimizing 3 design-units (inlining 2/3 module instances):
+-- Inlining module feature_key_control(fast)
+-- Inlining module feature_config_gate(fast)
+-- Optimizing module feature_config_gate_tb(fast)
+Optimized design name is feature_config_gate_tb_optimized
+End time: 06:23:13 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim feature_config_gate_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/feature_config_gate_tb.v line 80
+# Stopped at S:/sim/feature_config_gate_tb.v line 80
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+feature_config_gate_tb: 2.3 seconds
+
+tools/run_sim.py feature_key_control_tb source/rtl/feature_key_control.v sim/feature_key_control_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:15 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\feature_key_control.v S:\sim\feature_key_control_tb.v 
+-- Compiling module feature_key_control
+-- Compiling module feature_config_gate
+-- Compiling module feature_key_control_tb
+
+Top level modules:
+	feature_config_gate
+	feature_key_control_tb
+End time: 06:23:15 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:15 on Nov 03,2026
+vopt work.feature_key_control_tb -o feature_key_control_tb_optimized 
+
+Top level modules:
+	feature_key_control_tb
+
+Analyzing design...
+-- Loading module feature_key_control_tb
+-- Loading module feature_key_control
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module feature_key_control(fast)
+-- Optimizing module feature_key_control_tb(fast)
+Optimized design name is feature_key_control_tb_optimized
+End time: 06:23:16 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim feature_key_control_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/feature_key_control_tb.v line 83
+# Stopped at S:/sim/feature_key_control_tb.v line 83
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+feature_key_control_tb: 2.4 seconds
+
+tools/check_imu_projective_map.py
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:18 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\mul32_pipe.v S:\source\rtl\imu_projective_map.v S:\sim\imu_projective_map_tb.v 
+-- Compiling module mul32_pipe
+-- Compiling module imu_projective_map
+-- Compiling module imu_projective_map_tb
+
+Top level modules:
+	imu_projective_map_tb
+End time: 06:23:18 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:18 on Nov 03,2026
+vopt work.imu_projective_map_tb -o imu_projective_map_tb_optimized 
+
+Top level modules:
+	imu_projective_map_tb
+
+Analyzing design...
+-- Loading module imu_projective_map_tb
+-- Loading module imu_projective_map
+-- Loading module mul32_pipe
+Optimizing 3 design-units (inlining 2/3 module instances):
+-- Inlining module mul32_pipe(fast)
+-- Inlining module imu_projective_map(fast)
+-- Optimizing module imu_projective_map_tb(fast)
+Optimized design name is imu_projective_map_tb_optimized
+End time: 06:23:18 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim imu_projective_map_tb_optimized {+CONFIG=../../../vectors/imu_projective_map_config.hex} {+VECTORS=../../../vectors/imu_projective_map.txt} {+RESULT=../../../vectors/imu_projective_map_actual.txt}
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/imu_projective_map_tb.v line 89
+# Stopped at S:/sim/imu_projective_map_tb.v line 89
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+imu_projective_map_tb: 2.4 seconds
+PASS exact IMU projective map: 4 reference/pose cases; evidence: S:\build\sim\imu_projective_map_tb\1793658198043387200
+
+tools/run_sim.py adaptive_gamma_tb source/rtl/adaptive_gamma.v sim/adaptive_gamma_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:20 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\adaptive_gamma.v S:\sim\adaptive_gamma_tb.v 
+-- Compiling module adaptive_gamma
+-- Compiling module adaptive_gamma_tb
+
+Top level modules:
+	adaptive_gamma_tb
+End time: 06:23:20 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:20 on Nov 03,2026
+vopt work.adaptive_gamma_tb -o adaptive_gamma_tb_optimized 
+
+Top level modules:
+	adaptive_gamma_tb
+
+Analyzing design...
+-- Loading module adaptive_gamma_tb
+-- Loading module adaptive_gamma
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module adaptive_gamma(fast)
+-- Optimizing module adaptive_gamma_tb(fast)
+Optimized design name is adaptive_gamma_tb_optimized
+End time: 06:23:21 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim adaptive_gamma_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/adaptive_gamma_tb.v line 60
+# Stopped at S:/sim/adaptive_gamma_tb.v line 60
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+adaptive_gamma_tb: 2.3 seconds
+
+tools/run_sim.py frame_ownership_tb source/rtl/frame_bank_ctrl.v source/rtl/corr_slot_ctrl.v sim/frame_ownership_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:23 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\frame_bank_ctrl.v S:\source\rtl\corr_slot_ctrl.v S:\sim\frame_ownership_tb.v 
+-- Compiling module frame_bank_ctrl
+-- Compiling module corr_slot_ctrl
+-- Compiling module frame_ownership_tb
+
+Top level modules:
+	frame_ownership_tb
+End time: 06:23:23 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:23 on Nov 03,2026
+vopt work.frame_ownership_tb -o frame_ownership_tb_optimized 
+
+Top level modules:
+	frame_ownership_tb
+
+Analyzing design...
+-- Loading module frame_ownership_tb
+-- Loading module frame_bank_ctrl
+-- Loading module corr_slot_ctrl
+Optimizing 3 design-units (inlining 2/3 module instances):
+-- Inlining module frame_bank_ctrl(fast)
+-- Inlining module corr_slot_ctrl(fast)
+-- Optimizing module frame_ownership_tb(fast)
+Optimized design name is frame_ownership_tb_optimized
+End time: 06:23:23 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim frame_ownership_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/frame_ownership_tb.v line 51
+# Stopped at S:/sim/frame_ownership_tb.v line 51
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+frame_ownership_tb: 2.2 seconds
+
+tools/run_sim.py affine_smooth_tb source/rtl/projective_divide.v source/rtl/mul32_pipe.v source/rtl/brown_map.v source/rtl/patch_store.v source/rtl/bilinear_rgb.v source/rtl/adaptive_gamma.v source/rtl/tile_engine.v sim/affine_smooth_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:25 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\projective_divide.v S:\source\rtl\mul32_pipe.v S:\source\rtl\brown_map.v S:\source\rtl\patch_store.v S:\source\rtl\bilinear_rgb.v S:\source\rtl\adaptive_gamma.v S:\source\rtl\tile_engine.v S:\sim\affine_smooth_tb.v 
+-- Compiling module projective_divide
+-- Compiling module mul32_pipe
+-- Compiling module brown_map
+-- Compiling module patch_store
+-- Compiling module bilinear_rgb
+-- Compiling module adaptive_gamma
+-- Compiling module tile_engine
+-- Compiling module affine_smooth_tb
+
+Top level modules:
+	affine_smooth_tb
+End time: 06:23:25 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:25 on Nov 03,2026
+vopt work.affine_smooth_tb -o affine_smooth_tb_optimized 
+
+Top level modules:
+	affine_smooth_tb
+
+Analyzing design...
+-- Loading module affine_smooth_tb
+-- Loading module tile_engine
+-- Loading module brown_map
+-- Loading module projective_divide
+-- Loading module mul32_pipe
+-- Loading module patch_store
+-- Loading module bilinear_rgb
+-- Loading module adaptive_gamma
+Optimizing 8 design-units (inlining 8/9 module instances):
+-- Inlining module projective_divide(fast)
+-- Inlining module mul32_pipe(fast)
+-- Inlining module brown_map(fast)
+-- Inlining module patch_store(fast)
+-- Inlining module bilinear_rgb(fast)
+-- Inlining module adaptive_gamma(fast)
+-- Inlining module tile_engine(fast)
+-- Optimizing module affine_smooth_tb(fast)
+Optimized design name is affine_smooth_tb_optimized
+End time: 06:23:25 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim affine_smooth_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/affine_smooth_tb.v line 61
+# Stopped at S:/sim/affine_smooth_tb.v line 61
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+affine_smooth_tb: 2.4 seconds
+
+tools/run_sim.py display_denoise_tb source/rtl/display_denoise.v sim/display_denoise_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:27 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\display_denoise.v S:\sim\display_denoise_tb.v 
+-- Compiling module display_denoise
+-- Compiling module display_denoise_tb
+
+Top level modules:
+	display_denoise_tb
+End time: 06:23:27 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:28 on Nov 03,2026
+vopt work.display_denoise_tb -o display_denoise_tb_optimized 
+
+Top level modules:
+	display_denoise_tb
+
+Analyzing design...
+-- Loading module display_denoise_tb
+-- Loading module display_denoise
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module display_denoise(fast)
+-- Optimizing module display_denoise_tb(fast)
+Optimized design name is display_denoise_tb_optimized
+End time: 06:23:28 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim display_denoise_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/display_denoise_tb.v line 52
+# Stopped at S:/sim/display_denoise_tb.v line 52
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+display_denoise_tb: 2.2 seconds
+
+tools/run_sim.py display_sharpen_tb source/rtl/display_sharpen.v sim/display_sharpen_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:30 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\display_sharpen.v S:\sim\display_sharpen_tb.v 
+-- Compiling module display_sharpen
+-- Compiling module display_sharpen_tb
+
+Top level modules:
+	display_sharpen_tb
+End time: 06:23:30 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:30 on Nov 03,2026
+vopt work.display_sharpen_tb -o display_sharpen_tb_optimized 
+
+Top level modules:
+	display_sharpen_tb
+
+Analyzing design...
+-- Loading module display_sharpen_tb
+-- Loading module display_sharpen
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module display_sharpen(fast)
+-- Optimizing module display_sharpen_tb(fast)
+Optimized design name is display_sharpen_tb_optimized
+End time: 06:23:30 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim display_sharpen_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/display_sharpen_tb.v line 63
+# Stopped at S:/sim/display_sharpen_tb.v line 63
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+display_sharpen_tb: 2.6 seconds
+
+tools/run_sim.py video_osd_tb source/rtl/video_osd.v sim/video_osd_tb.v
+
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:32 on Nov 03,2026
+vlog -sv "+incdir+S:\" S:\source\rtl\video_osd.v S:\sim\video_osd_tb.v 
+-- Compiling module video_osd
+-- Compiling module video_osd_tb
+
+Top level modules:
+	video_osd_tb
+End time: 06:23:33 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+Model Technology ModelSim SE-64 vopt 10.7 Compiler 2017.12 Dec  7 2017
+Start time: 06:23:33 on Nov 03,2026
+vopt work.video_osd_tb -o video_osd_tb_optimized 
+
+Top level modules:
+	video_osd_tb
+
+Analyzing design...
+-- Loading module video_osd_tb
+-- Loading module video_osd
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module video_osd(fast)
+-- Optimizing module video_osd_tb(fast)
+Optimized design name is video_osd_tb_optimized
+End time: 06:23:33 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+Reading D:/FPGA PDS/site/modelsim-win64-10.7-se/tcl/vsim/pref.tcl
+
+# 10.7
+
+# set FileWatch(fileName) {}
+#  vsim video_osd_tb_optimized
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+#  onfinish stop
+#  run -all
+# Break at S:/sim/video_osd_tb.v line 46
+# Stopped at S:/sim/video_osd_tb.v line 46
+#  puts SIMULATION_COMPLETE
+SIMULATION_COMPLETE
+#  quit -code 0
+
+video_osd_tb: 2.3 seconds
+
+tools/check_host.py
+PASS host checks: 8
+
+tools/profile_angles.py
+PASS 72 angles, max read beats 240985 max row commands 50298
+

@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 449.0823140144348,
+  "command": [
+    "D:\\FPGA PDS\\site\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "U:/build.tcl",
+    "-work_dir",
+    "U:/",
+    "-project_name",
+    "pango_undistort"
+  ],
+  "seed": 1,
+  "mapped_drive": "U",
+  "source_manifest_sha256": "7f1a8b1fe2375b5d650f8e84b9472e64fc8d1484da1fd4b176a5635a61908d8a",
+  "timing_passed": true
+}

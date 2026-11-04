@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "title": "Gamma highlight compression and KEY4 calibration OSD candidate",
+  "project_root": "deliverables/20261104/gamma_highlight_key4_pkg676_final",
+  "project_file": "pango_undistort.pds",
+  "device": "PG2L100H-6 FBG676",
+  "tool": "PDS 2022.2-SP6.1",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "target_fps": 30,
+    "camera": "OV5640 CMOS2",
+    "format": "RAW8 to RGB565"
+  },
+  "source_archive": "deliverables/20261104/pango_gamma_key4_20261104.zip",
+  "source_archive_sha256": "43ffce9d221e4c9fd87561d0452e40696046fbbe37b7b84608fe9a6030a002f8",
+  "project_manifest": "SHA256SUMS.txt",
+  "project_manifest_entries": 798,
+  "pds_input_references": 122,
+  "candidate_bitstream": "bitstreams/pango_quality_gamma_highlight_key4_pkg676_seed1_20261104.sbit",
+  "candidate_bitstream_sha256": "e0f79c42eeec47798c46ac3e98c9c314bad2b0edf360b5fcb70be6b69a18db07",
+  "qualification": {
+    "saved_software_rtl_cases": 29,
+    "board_tested": false,
+    "route_source_manifest_matches_package": false,
+    "route_source_mismatch_count": 4,
+    "recommended_for_programming": false,
+    "fresh_rebuild_status": "blocked_at_license_check",
+    "fresh_build_source_manifest_sha256": "b8267c35dbec504bb0c26ec2c85fbcff67b2262df414ee52bd1fcd512df3db6a",
+    "license_expired_on": "2026-11-03"
+  },
+  "fallback": {
+    "project_root": "deliverables/20261103/resource_opt_shared32",
+    "bitstream": "bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit",
+    "bitstream_sha256": "383daa2d21270eda53d94d79f05f464feb8bae2a4710288cd600f535355c55d0",
+    "quick_board_tested": true
+  }
+}

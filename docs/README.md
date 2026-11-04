@@ -2,7 +2,8 @@
 
 | 文档 | 内容 |
 |---|---|
-| [比赛提交入口](../submission/README.md) | 推荐工程、位流、SHA256及板测摘要 |
+| [比赛提交入口](../submission/README.md) | 11-04候选、11-03回退、哈希及证据边界 |
+| [11-04候选审查](../deliverables/20261104/README.md) | 最终工程包、ZIP/位流哈希和源码-构建差异 |
 | [快速开始](submission/QUICKSTART.md) | 下载、串口、上位机、PDS和仿真复现 |
 | [系统说明](submission/ARCHITECTURE.md) | 数据通路、模块、按键和稳像范围 |
 | [验证汇总](submission/VALIDATION.md) | 实板、资源、时序与验证边界 |

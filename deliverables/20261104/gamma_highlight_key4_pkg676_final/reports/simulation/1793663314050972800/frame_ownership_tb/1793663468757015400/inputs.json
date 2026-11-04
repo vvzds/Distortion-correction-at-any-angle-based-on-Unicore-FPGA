@@ -1,0 +1,9 @@
+{
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\frame_bank_ctrl.v": "5bac23d91909d70f2e693f521b7369f3c4fcd2680bf1ea0f2570eb503d384128",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\corr_slot_ctrl.v": "a07ff69dc52934bc637ee94ad2472ea3cc9b550380a405c1530a4b1f19fdf238",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\sim\\frame_ownership_tb.v": "b49baef57de63f04a2ec254c7364e2a4c9475d723d2d8ffcb66272098dc2c9d5",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\correction_hook.vh": "4054f16f6862e04ea39d9491d1d1510f26405fa20ac6b9175767810f3ec8e850",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\default_config.vh": "716b7dc5d9bd09e66729ec377dbf442b58444ded81d60ad6430c7f795cee139d",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\gamma_tables.vh": "3fb4ae20ed3dfb821ef2b81520b8a9d562153ae84bc1e372d799e0baf062469e",
+  "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\video_contract.vh": "040eebd1470fba7d3c302ac8969b4f2bdbd30d293a7cdd696ab06ebeb1f365d5"
+}

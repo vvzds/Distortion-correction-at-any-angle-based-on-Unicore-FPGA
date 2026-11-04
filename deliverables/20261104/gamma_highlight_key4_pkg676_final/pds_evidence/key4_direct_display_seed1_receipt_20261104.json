@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 854.6285443305969,
+  "command": [
+    "D:\\FPGA PDS\\site\\PDS_2022.2-SP6.1-win64\\bin\\pds_shell.exe",
+    "-file",
+    "D:/key4_direct_display_20261104/build/pds/key4_direct_display_seed1/build.tcl",
+    "-work_dir",
+    "D:/key4_direct_display_20261104/build/pds/key4_direct_display_seed1",
+    "-project_name",
+    "pango_undistort"
+  ],
+  "seed": 1,
+  "mapped_drive": null,
+  "source_manifest_sha256": "31b5d8c86da33a649c230f0eca6a8e3459cd781b8d1ea6d9bb6ef0dd577ca362",
+  "timing_passed": true
+}

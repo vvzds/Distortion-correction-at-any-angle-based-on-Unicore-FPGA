@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 12.734000000054948,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\projective_divide.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\mul32_pipe.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\brown_map.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\patch_store.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\bilinear_rgb.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\adaptive_gamma.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\tile_engine.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\tile_write_pack.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\corr_read_bridge.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\source\\rtl\\corr_write_arb.v",
+      "D:\\pango_fbg676_sim_20261103\\deliverables\\20261103\\resource_opt_shared32\\sim\\native_video_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.native_video_tb",
+      "-o",
+      "native_video_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_45_1.hex} {+GOLDEN=../../../vectors/golden_45_1.hex} {+RESULT=../../../../reports/native_45_1_latency40_period430.json} {+LATENCY=40} {+GAP=4} {+PERIOD=430}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "2e7c19329dfeb6ff30f5ac45fca0fb2c00933f7fb7b8255e44a7b579f54825e7",
+  "artifacts": {
+    "native_45_1_latency40_period430.json": "c85bbe8a299d8f4ee082d3e99ac5c8eed1a013ff125c76c2fb09e037f7a7156a"
+  }
+}

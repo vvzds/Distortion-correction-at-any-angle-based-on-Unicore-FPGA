@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "elapsed_seconds": 3.0929999999934807,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+X:\\",
+      "X:\\source\\rtl\\display_denoise.v",
+      "X:\\sim\\display_denoise_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.display_denoise_tb",
+      "-o",
+      "display_denoise_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim display_denoise_tb_optimized; onerror {quit -code 1}; onbreak {quit -code 1}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "3332c08eb525bd31fb7bba12f9fef310c835260423bfd53ff71c511f579156a4",
+  "artifacts": {}
+}

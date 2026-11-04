@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 2.375,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+C:\\fpga_gamma_trial_20261104",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\mul32_pipe.v",
+      "C:\\fpga_gamma_trial_20261104\\source\\rtl\\imu_projective_map.v",
+      "C:\\fpga_gamma_trial_20261104\\sim\\imu_projective_map_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.imu_projective_map_tb",
+      "-o",
+      "imu_projective_map_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim imu_projective_map_tb_optimized {+CONFIG=../../../vectors/imu_projective_map_config.hex} {+VECTORS=../../../vectors/imu_projective_map.txt} {+RESULT=../../../vectors/imu_projective_map_actual.txt}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "e3b419b172b285233f3eb420be68bb435e284fa9eec9b9787ab1405e1a8923fc",
+  "artifacts": {
+    "imu_projective_map_actual.txt": "7a06b61354695ea4e936261ce07a626c518e0aedcf7b29b6ba726f3dca8f2b5b"
+  }
+}

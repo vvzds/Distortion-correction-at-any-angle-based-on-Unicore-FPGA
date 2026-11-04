@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "verdict": "explicit testbench PASS marker and normal $finish",
+  "elapsed_seconds": 12.40700000000652,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+D:\\pango_pkg676_verify_20261104",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\projective_divide.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\mul32_pipe.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\brown_map.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\patch_store.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\bilinear_rgb.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\adaptive_gamma.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\tile_engine.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\tile_write_pack.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\corr_read_bridge.v",
+      "D:\\pango_pkg676_verify_20261104\\source\\rtl\\corr_write_arb.v",
+      "D:\\pango_pkg676_verify_20261104\\sim\\native_video_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.native_video_tb",
+      "-o",
+      "native_video_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim native_video_tb_optimized {+CONFIG=../../../vectors/frame_config_90_1.70628.hex} {+GOLDEN=../../../vectors/golden_90_1.70628.hex} {+RESULT=../../../../reports/native_90_1.70628_latency40_period514.json} {+LATENCY=40} {+GAP=4} {+PERIOD=514}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "668f1ab732c0fa32c15192355462289db5a22d3b53eadd8ecb8437529353d0d4",
+  "artifacts": {
+    "native_90_1.70628_latency40_period514.json": "7974073793196afdb46d231489437bd79180a15611d14b5a91b5c228b61e2ad1"
+  }
+}

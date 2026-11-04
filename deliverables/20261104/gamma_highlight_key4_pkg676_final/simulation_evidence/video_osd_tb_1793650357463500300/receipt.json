@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "elapsed_seconds": 2.984000000054948,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+X:\\",
+      "X:\\source\\rtl\\video_osd.v",
+      "X:\\sim\\video_osd_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.video_osd_tb",
+      "-o",
+      "video_osd_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim video_osd_tb_optimized; onerror {quit -code 1}; onbreak {quit -code 1}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "8621ba97884573cb15a8cd52dfc686e0d5a9fcd46ea2b09602c3ffb938c3b709",
+  "artifacts": {}
+}

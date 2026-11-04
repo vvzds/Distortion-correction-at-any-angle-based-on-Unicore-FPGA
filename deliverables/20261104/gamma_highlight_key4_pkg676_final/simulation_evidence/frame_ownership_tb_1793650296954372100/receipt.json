@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "elapsed_seconds": 3.047000000020489,
+  "commands": [
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlib.exe",
+      "work"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vlog.exe",
+      "-sv",
+      "+incdir+X:\\",
+      "X:\\source\\rtl\\frame_bank_ctrl.v",
+      "X:\\source\\rtl\\corr_slot_ctrl.v",
+      "X:\\sim\\frame_ownership_tb.v"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vopt.exe",
+      "work.frame_ownership_tb",
+      "-o",
+      "frame_ownership_tb_optimized"
+    ],
+    [
+      "D:\\FPGA PDS\\site\\modelsim-win64-10.7-se\\win64\\vsim.exe",
+      "-c",
+      "-do",
+      "set FileWatch(fileName) {}; vsim frame_ownership_tb_optimized; onerror {quit -code 1}; onbreak {quit -code 1}; onfinish stop; run -all; puts SIMULATION_COMPLETE; quit -code 0"
+    ]
+  ],
+  "inputs_manifest_sha256": "60ad8ae985976c4e234caf6660667df429349e5d340c5285d3e87f98129e878f",
+  "artifacts": {}
+}

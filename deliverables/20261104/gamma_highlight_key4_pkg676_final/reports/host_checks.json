@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "hardware_opened": false,
+  "elapsed_seconds": 1.7040000000270084,
+  "checks": [
+    "CRC16 check vector, packet round trip and corruption rejection",
+    "Status field positions, flags and cycle-to-capacity conversion",
+    "Sequence wrap cannot match an old active/pending configuration",
+    "Pose-map command carries capture/enable request and waits for reference status",
+    "Per-command QACK confirmation, matching payload/sequence and partial-failure reporting",
+    "KEY4 OSD contains exactly four camera calibration rows",
+    "Highlight gamma preview preserves midtones and rolls off bright non-clipped values",
+    "Projective Q14 fields use reserved high bits; legacy Gamma/feedback/smooth encoding remains unchanged",
+    "Hidden GUI initialization, no implicit serial open, manual zoom preserved, invalid text handled"
+  ],
+  "inputs_sha256": {
+    "host\\bno085.py": "bf552fb102fe7de285546db09ebd80e0daddae9b5f0dad42782c856e0d5ba255",
+    "host\\bno085_trial.py": "79dca3b6d1969c47a11b2da46a2ca745008236a06d5d9a2d7492e1c6dc7fb20e",
+    "host\\board_trial.py": "16efe47b782b1d681292898956f6b378100fa9307b86c608171317d34a35effc",
+    "host\\control.py": "d83aae22f51cb636626514ae5571e5442bb1e291ee2ebb59886cd91ff9d8ce1d",
+    "host\\gui.py": "6136a158c2d51dccf105ba843d6df7accf9262543e4c6460928934fc0877d775",
+    "host\\imu.py": "037a2c7dc16b71006e729027578bc1415eaeff994b65d44adbaf430fbd58d044",
+    "host\\imu_trial.py": "7d3db5231da7cf24290a52ae50c26c68bb0f34bd293fc7715ad4916e006bdd21",
+    "host\\model.py": "c3730cc608c6d0ef0352932588d869b2bd393b742147c7d0487c79a79923cb4f",
+    "host\\osd_monitor.py": "90071eb4ae967e680b785756c41da90a9c32efddc4c5cede9cb6f5fda1e9fdc3",
+    "host\\protocol.py": "211f01ad4adc00021ba2db352b05457db72ed718f46663fb2f005ef1a174062e",
+    "host\\resample.py": "c52c4a903a460bd1e30bf906099999d042dfd7721cd4187c99de3231d6b6d00c",
+    "host\\stabilizer.py": "6fbca9411bb2ebf9cae78c85bc4e7b969a1db2e39c44bfbf03b8d4604322f251"
+  }
+}

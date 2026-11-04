@@ -2,9 +2,9 @@
 
 ## 1. 获取完整工程
 
-优先从 [Release](https://github.com/vvzds/Distortion-correction-at-any-angle-based-on-Unicore-FPGA/releases/tag/competition-1080p30-20261104) 下载比赛整理包，避免下载仓库中数 GB 的历史归档。
-解压到较短英文路径（如 `D:\fpga_submit`），其中 `project/pango_undistort.pds` 是 PDS 工程。
-如直接使用 GitHub 文件树，对应路径是 `deliverables/20261103/resource_opt_shared32/pango_undistort.pds`。
+最新工程见 [2026-11-04 候选说明](../../deliverables/20261104/README.md)，也可使用仓库中的完整目录和原始 ZIP。该版本尚未上板，且随包路由源码清单对 4 个 RTL 文件有哈希差异；**不要把随包位流当作已验证可烧录版本**。先在 PDS 2022.2-SP6.1 对当前源码完整重建，核对构建输入哈希、约束和新位流 SHA256，再安排板测。
+
+需要复现已有快速板测结果时，使用 `deliverables/20261103/resource_opt_shared32/` 的回退工程和位流。板测结论只适用于其记录的位流 SHA256。
 
 需要克隆仓库时，推荐 Git 的稀疏检出（保留正确工作树的同时跳过大历史包）：
 
@@ -12,15 +12,15 @@
 git -c core.longpaths=true clone --depth 1 --filter=blob:none --sparse https://github.com/vvzds/Distortion-correction-at-any-angle-based-on-Unicore-FPGA.git fpga
 cd fpga
 git config core.longpaths true
-git sparse-checkout set submission docs/submission deliverables/20261103/resource_opt_shared32
-python submission/verify_submission.py
+git sparse-checkout set submission docs/submission deliverables/20261103/resource_opt_shared32 deliverables/20261104
+python submission/verify_final_candidate.py
 ```
 
 ## 2. 下载当前位流
 
 1. 硬件：PG2L100H-6 FBG676、CMOS2 OV5640；HDMI 接显示器或采集卡。JTAG 和 USB-UART 是不同接口。
 2. PDS 2022.2-SP6.1 打开 `pango_undistort.pds`；顶层为 `hdmi_ddr_ov5640_top`，约束为同目录 `HDMI_DDR3_OV5640_test.fdc`。
-3. 在下载器选择 `bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit`，核对器件 PG2L100H，下载到 **SRAM**；done bit=1 表示下载结束。该位流断电后需要重新下载。
+3. 若使用 11-03 回退版，在下载器选择 `bitstreams/pango_bno085_quality_keys_resource_opt_pkg676_seed1_20261103.sbit`，核对器件 PG2L100H，下载到 **SRAM**；done bit=1 表示下载结束。若使用 11-04 候选，先完成当前源码的 PDS 完整构建并确认新位流哈希，再下载到 SRAM。两版断电后都需要重新下载。
 4. 当前版本的串口运行参数掉电丢失。首次下载后按下一节载入真实标定并应用。
 
 板载 UART：FPGA RX=B24、FPGA TX=C24，115200、8N1；本次电脑为 COM8，换电脑以设备管理器或 `host/control.py ports` 为准。BNO085 接线见[工程原接线表](../../deliverables/20261103/resource_opt_shared32/docs/BNO085初版接线与板测.md)。
